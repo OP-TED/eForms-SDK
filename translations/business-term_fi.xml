@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Poikkeus IPI-toimenpiteen soveltamisesta</entry>
 <entry key="business-term|description|BT-688">Kuvaus ja perustelu julkisen edun kannalta pakottavien syiden soveltamisesta</entry>
 <entry key="business-term|description|BT-70">Tärkeimmät tiedot hankintasopimuksen täytäntöönpanosta (esim. välisuoritteet, vahingonkorvaukset, teollis- ja tekijänoikeudet).</entry>
-<entry key="business-term|description|BT-701">Tämän ilmoituksen tunniste eurooppalaisessa julkisessa hankintamenettelyssä. Tämän tunnisteen sisällyttäminen tämän ilmoituksen kaikkiin julkaistuihin versioihin (esim. TED-tietokannassa, kansallisissa julkaisuportaaleissa ja alueellisissa julkaisuportaaleissa) mahdollistaa hankintailmoitusten yksilöllisen tunnistamisen kaikkialla unionissa.</entry>
+<entry key="business-term|description|BT-701">Tämän ilmoituksen eurooppalaisen hankintailmoituksen tunniste.</entry>
 <entry key="business-term|description|BT-702">Kieli (kielet), jo(i)lla tämä ilmoitus on virallisesti saatavilla. Nämä kielitoisinnot ovat oikeudellisesti yhtä päteviä.</entry>
 <entry key="business-term|description|BT-706">Voittajan, tarjoajan tai alihankkijan taloudellisen omistajan (taloudellisten omistajien) kansalaisuus (kansalaisuudet), Euroopan parlamentin ja neuvoston direktiivin (EU) 2018/843 nojalla laadit(t)u(je)n rekisteri(e)n mukaan. Jos tällaista rekisteriä ei ole (esim. EU:n ulkopuolelle sijoittautuneille toimeksisaajille), vastaavat tiedot muista lähteistä.</entry>
 <entry key="business-term|description|BT-707">Perustelut tiettyjen hankinta-asiakirjojen saatavuuden rajoittamiselle.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Sähköinen viestintä edellyttää sellaisten välineiden ja laitteiden käyttöä, joita ei ole yleisesti saatavilla.</entry>
 <entry key="business-term|description|BT-725">Direktiivissä 2009/33/EY määriteltyjen ja sen soveltamisalaan kuuluvien päästöttömien raskaiden hyötyajoneuvojen lukumäärä. Nämä ajoneuvot on ostettu, leasingvuokrattu, vuokrattu tai hankittu osamaksulla taikka niiden käyttö on sopimusperusteisesti sidottu direktiivin 2009/33/EY soveltamisalaan kuuluvan hankitun palvelun tarjoamiseen.</entry>
 <entry key="business-term|description|BT-726">Ostaja korostaa, että tämä hankinta soveltuu myös pienille ja keskisuurille yrityksille (pk-yrityksille).</entry>
-<entry key="business-term|description|BT-727">Suorituspaikkaan liittyy muita rajoituksia (esim. ”missä tahansa Euroopan talousalueella”, ”missä tahansa asianomaisen maan alueella”).</entry>
+<entry key="business-term|description|BT-727">Jos suoritus- tai toimituspaikkaa ei ole rajattu tiettyyn osoitteeseen tai alueeseen, se voidaan määritellä laajemman maantieteellisen kattavuuden avulla.</entry>
 <entry key="business-term|description|BT-728">Lisätietoja suorituspaikasta.</entry>
 <entry key="business-term|description|BT-729">Enimmäisprosenttiosuus sopimuksen arvosta, joka toimeksisaajan on teetettävä alihankintana direktiivin 2009/81/EY III osastossa kuvattua kilpailumenettelyä käyttäen.</entry>
 <entry key="business-term|description|BT-730">Ostajalla on ainakin arvio sopimuksen sen osan arvosta, jonka toimeksisaaja teettää alihankintana kolmansilla osapuolilla.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Poikkeus IPI-toimenpiteen soveltamisesta</entry>
 <entry key="business-term|name|BT-688">Julkisen edun kannalta pakottavat syyt</entry>
 <entry key="business-term|name|BT-70">Sopimuksen täytäntöönpanoa koskevat ehdot</entry>
-<entry key="business-term|name|BT-701">Ilmoituksen tunniste/versio</entry>
+<entry key="business-term|name|BT-701">Ilmoituksen tunniste</entry>
 <entry key="business-term|name|BT-702">Kielet, joilla tämä ilmoitus on virallisesti saatavilla</entry>
 <entry key="business-term|name|BT-706">Omistajan kansalaisuus</entry>
 <entry key="business-term|name|BT-707">Perustelut tiettyjen hankinta-asiakirjojen saatavuuden rajoittamiselle</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Käytetään tilapäistä viestintävälinettä</entry>
 <entry key="business-term|name|BT-725">Päästöttömien raskaiden hyötyajoneuvojen määrä</entry>
 <entry key="business-term|name|BT-726">Tämä hankinta soveltuu myös pienille ja keskisuurille yrityksille (pk-yrityksille)</entry>
-<entry key="business-term|name|BT-727">Suorituspaikkaa koskevat rajoitukset</entry>
+<entry key="business-term|name|BT-727">Suorituspaikka – Maantieteellinen kattavuus</entry>
 <entry key="business-term|name|BT-728">Lisätiedot</entry>
 <entry key="business-term|name|BT-729">Enimmäisprosenttiosuus sopimuksen arvosta, jonka toimeksisaaja voi teettää alihankintana</entry>
 <entry key="business-term|name|BT-730">Alihankinnan arvo tiedossa</entry>

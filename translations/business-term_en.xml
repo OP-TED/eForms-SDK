@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Exception from the application of the IPI measure</entry>
 <entry key="business-term|description|BT-688">A description and justification for the application of overriding reasons relating to the public interest</entry>
 <entry key="business-term|description|BT-70">The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).</entry>
-<entry key="business-term|description|BT-701">The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union.</entry>
+<entry key="business-term|description|BT-701">Identificator of the European Public Procurement Notice for this notice.</entry>
 <entry key="business-term|description|BT-702">The language(s) in which this notice is officially available. These linguistic versions are equally legally valid.</entry>
 <entry key="business-term|description|BT-706">The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor as published in the register(s) established by European Parliament and Council Directive (EU) 2018/843. If such a register does not exist (e.g. in case of contractors established outside the Union) then equivalent information from other sources.</entry>
 <entry key="business-term|description|BT-707">The justification for restricting access to certain procurement documents.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Electronic communication requires the use of tools and devices that are not generally available.</entry>
 <entry key="business-term|description|BT-725">The number of zero-emission heavy-duty vehicles as defined by and falling within the scope of Directive 2009/33/EC. These vehicles have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service falling within the scope of Directive 2009/33/EC.</entry>
 <entry key="business-term|description|BT-726">The buyer emphasizes that this procurement is also suitable for small and medium enterprises (SMEs).</entry>
-<entry key="business-term|description|BT-727">There are other restrictions on the place of performance (e.g. "anywhere in the European Economic Area", "anywhere in the given country").</entry>
+<entry key="business-term|description|BT-727">Where the place of performance or delivery is not limited to a specific address or region it can be defined with a broader geographic scope.</entry>
 <entry key="business-term|description|BT-728">Additional information about the place of performance.</entry>
 <entry key="business-term|description|BT-729">The maximum percentage of the contract value that the contractor must subcontract using the competitive procedure described in Title III of Directive 2009/81/EC.</entry>
 <entry key="business-term|description|BT-730">The buyer knows at least the estimated value of the part of the contract that the contractor will subcontract to third parties.</entry>
@@ -591,7 +591,7 @@
 <entry key="business-term|name|BT-687">Exception to the application of the IPI measure</entry>
 <entry key="business-term|name|BT-688">Overriding reasons relating to the public interest</entry>
 <entry key="business-term|name|BT-70">Conditions relating to the performance of the contract</entry>
-<entry key="business-term|name|BT-701">Notice identifier/version</entry>
+<entry key="business-term|name|BT-701">Notice identifier</entry>
 <entry key="business-term|name|BT-702">Languages in which this notice is officially available</entry>
 <entry key="business-term|name|BT-706">Nationality of the owner</entry>
 <entry key="business-term|name|BT-707">Justification for restricting access to certain procurement documents</entry>
@@ -614,7 +614,7 @@
 <entry key="business-term|name|BT-724">Ad hoc communication tool is used</entry>
 <entry key="business-term|name|BT-725">Number of zero-emission heavy-duty vehicles</entry>
 <entry key="business-term|name|BT-726">This procurement is also suitable for small and medium-sized enterprises (SMEs)</entry>
-<entry key="business-term|name|BT-727">Other restrictions on the place of performance</entry>
+<entry key="business-term|name|BT-727">Place of performance – Geographical scope</entry>
 <entry key="business-term|name|BT-728">Additional information</entry>
 <entry key="business-term|name|BT-729">Maximum percentage of the contract value that the contractor may subcontract</entry>
 <entry key="business-term|name|BT-730">Subcontracting value is known</entry>

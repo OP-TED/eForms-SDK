@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Ausnahme von der Anwendung der IPI-Maßnahme</entry>
 <entry key="business-term|description|BT-688">Eine Beschreibung und Begründung für die Anwendung von zwingenden Gründen im öffentlichen Interesse</entry>
 <entry key="business-term|description|BT-70">Die wichtigsten Angaben zur Auftragsausführung (z. B. Zwischenleistungen, Schadenersatz, Rechte des geistigen Eigentums).</entry>
-<entry key="business-term|description|BT-701">Die Europäische Bekanntmachungskennung für öffentliche Auftragsvergabe für diese Bekanntmachung. Durch die Angabe der Kennung in allen veröffentlichten Versionen der Bekanntmachung (so beispielsweise Veröffentlichungen in TED sowie auf nationalen und regionalen Veröffentlichungsportalen) wird eine eindeutige Identifizierung von Bekanntmachungen in der gesamten Union ermöglicht.</entry>
+<entry key="business-term|description|BT-701">Identifikator der europäischen Vergabebekanntmachung für diese Bekanntmachung.</entry>
 <entry key="business-term|description|BT-702">Die Sprache(n), in der/denen die amtliche Fassung der Bekanntmachung verfügbar ist. Diese Sprachfassungen sind gleichermaßen rechtsgültig.</entry>
 <entry key="business-term|description|BT-706">Die Staatsangehörigkeit (bzw. Staatsangehörigkeiten) des(der) wirtschaftlichen Eigentümer(s) des Gewinners, Bieters oder Unterauftragnehmers, laut Eintrag in dem(den) gemäß der Richtlinie (EU) 2018/843 des Europäischen Parlaments und des Rates eingerichteten Register(n). Wenn kein entsprechendes Register vorhanden ist (z. B. im Falle von Auftragnehmern, die nicht in der EU niedergelassen sind), Informationen aus anderen Quellen.</entry>
 <entry key="business-term|description|BT-707">Begründung für die Beschränkung des Zugangs zu bestimmten Auftragsunterlagen.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Die elektronische Kommunikation erfordert den Einsatz von Instrumenten und Geräten, die nicht allgemein verfügbar sind.</entry>
 <entry key="business-term|description|BT-725">Die Anzahl emissionsfreier schwerer Nutzfahrzeuge, die mit der Definition in der Richtlinie 2009/33/EG übereinstimmen und in ihren Geltungsbereich fallen. Diese Fahrzeuge wurden entweder gekauft, geleast, gemietet oder auf Raten gekauft oder ihre Nutzung wurde vertraglich vereinbart für die Bereitstellung einer erworbenen Dienstleistung, die in den Geltungsbereich der Richtlinie 2009/33/EG fällt.</entry>
 <entry key="business-term|description|BT-726">Der Beschaffer weist darauf hin, dass diese Beschaffung auch für kleine und mittlere Unternehmen (KMU) geeignet ist.</entry>
-<entry key="business-term|description|BT-727">Es bestehen sonstige Beschränkungen in Bezug auf den Erfüllungsort (z. B. „Ort im Europäischen Wirtschaftsraum“ oder „Ort im betreffenden Land“).</entry>
+<entry key="business-term|description|BT-727">Wenn der Erfüllungs- oder Lieferort nicht auf eine bestimmte Adresse oder Region beschränkt ist, kann er durch einen größeren geografischen Geltungsbereich definiert werden.</entry>
 <entry key="business-term|description|BT-728">Zusätzliche Angaben zum Erfüllungsort.</entry>
 <entry key="business-term|description|BT-729">Der Höchstprozentanteil des Auftragswerts, den der Auftragnehmer im Rahmen des in Titel III der Richtlinie 2009/81/EG beschriebenen Wettbewerbsverfahrens als Unterauftrag vergeben muss.</entry>
 <entry key="business-term|description|BT-730">Der Beschaffer kennt zumindest den geschätzten Wert des Teils des Auftrags, den der Auftragnehmer als Unteraufträge an Dritte vergeben wird.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Ausnahme von der Anwendung der IPI-Maßnahme</entry>
 <entry key="business-term|name|BT-688">Zwingende Gründe im öffentlichen Interesse</entry>
 <entry key="business-term|name|BT-70">Bedingungen für die Ausführung des Auftrags</entry>
-<entry key="business-term|name|BT-701">Kennung/Fassung der Bekanntmachung</entry>
+<entry key="business-term|name|BT-701">Kennung der Bekanntmachung</entry>
 <entry key="business-term|name|BT-702">Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist</entry>
 <entry key="business-term|name|BT-706">Staatsangehörigkeit des Eigentümers</entry>
 <entry key="business-term|name|BT-707">Begründung für die Beschränkung des Zugangs zu bestimmten Auftragsunterlagen</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Es wird ein Ad-hoc-Kommunikationsinstrument verwendet.</entry>
 <entry key="business-term|name|BT-725">Zahl der emissionsfreien schweren Nutzfahrzeuge</entry>
 <entry key="business-term|name|BT-726">Diese Auftragsvergabe ist auch für kleine und mittlere Unternehmen (KMU) geeignet</entry>
-<entry key="business-term|name|BT-727">Sonstige Beschränkungen am Erfüllungsort</entry>
+<entry key="business-term|name|BT-727">Erfüllungsort – Geografischer Geltungsbereich</entry>
 <entry key="business-term|name|BT-728">Zusätzliche Informationen</entry>
 <entry key="business-term|name|BT-729">Höchstprozentsatz des Auftragswerts, den der Auftragnehmer an Unterauftragnehmer vergeben darf</entry>
 <entry key="business-term|name|BT-730">Wert der Vergabe von Unteraufträgen ist bekannt</entry>

@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Exception à l'application de la mesure IPI</entry>
 <entry key="business-term|description|BT-688">Une description et une justification de l'application de raisons impérieuses d'intérêt public</entry>
 <entry key="business-term|description|BT-70">Principales informations sur l’exécution du marché (prestations intermédiaires, indemnisation des dommages, droits de propriété intellectuelle, etc.).</entry>
-<entry key="business-term|description|BT-701">Identifiant d’un avis de passation de marché public dans l’Union européenne. L’ajout de cet identifiant dans toutes les versions publiées de l’avis en question (versions publiées sur le TED, les portails nationaux de publication, les portails régionaux de publication, etc.) permet une identification unique des avis de passation de marchés dans l’Union européenne.</entry>
+<entry key="business-term|description|BT-701">L’identifiant de l’avis européen de marché public du présent avis.</entry>
 <entry key="business-term|description|BT-702">Langue(s) dans laquelle (lesquelles) l’avis en question est officiellement disponible. Les différentes versions linguistiques ont la même valeur juridique.</entry>
 <entry key="business-term|description|BT-706">La (les) nationalité(s) du (des) bénéficiaire(s) effectif(s) du lauréat, du soumissionnaire ou du sous-contractant, telle(s) qu’elle(s) est (sont) publiée(s) dans le(s) registre(s) établi(s) par la directive (UE) 2018/843 du Parlement européen et du Conseil. Si un tel registre n’existe pas (dans le cas de contractants établis en dehors de l’Union, par exemple), des informations équivalentes provenant d’autres sources doivent être fournies.</entry>
 <entry key="business-term|description|BT-707">Justification de la restriction de l’accès à certains documents de marché.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">La communication électronique nécessite l’utilisation d’outils et de dispositifs qui sont généralement indisponibles.</entry>
 <entry key="business-term|description|BT-725">Nombre de véhicules lourds à émissions nulles au sens de la directive 2009/33/CE et entrant dans le champ d’application de celle-ci. Ces véhicules ont fait l’objet d’un contrat d’achat, de location, de crédit-bail ou de location-vente, ou leur utilisation a fait l’objet d’un engagement contractuel pour la fourniture d’un service acheté entrant dans le champ d’application de la directive 2009/33/CE.</entry>
 <entry key="business-term|description|BT-726">L’acheteur souligne que le marché en question convient aussi aux petites et moyennes entreprises (PME).</entry>
-<entry key="business-term|description|BT-727">D’autres restrictions peuvent s’appliquer au lieu d’exécution («n’importe où dans l’Espace économique européen», «n’importe où dans le pays donné», etc.).</entry>
+<entry key="business-term|description|BT-727">Lorsque le lieu d’exécution ou de livraison n’est pas limité à une adresse ou à une région spécifique, il peut être défini selon une portée géographique plus large.</entry>
 <entry key="business-term|description|BT-728">Informations complémentaires sur le lieu d’exécution.</entry>
 <entry key="business-term|description|BT-729">Pourcentage maximal de la valeur du marché que le contractant doit sous-traiter selon la procédure de mise en concurrence décrite au titre III de la directive 2009/81/CE.</entry>
 <entry key="business-term|description|BT-730">L’acheteur connaît au moins la valeur estimée de la partie du marché que le contractant sous-traitera à des tiers.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Exception à l'application de la mesure IPI</entry>
 <entry key="business-term|name|BT-688">Raisons impérieuses d'intérêt public</entry>
 <entry key="business-term|name|BT-70">Conditions relatives à l’exécution du contrat</entry>
-<entry key="business-term|name|BT-701">Identifiant/version de l’avis</entry>
+<entry key="business-term|name|BT-701">Identifiant de l’avis</entry>
 <entry key="business-term|name|BT-702">Langues dans lesquelles l’avis en question est officiellement disponible</entry>
 <entry key="business-term|name|BT-706">Nationalité du bénéficiaire effectif</entry>
 <entry key="business-term|name|BT-707">Justification de la restriction de l’accès à certains documents de marché</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Utilisation d’un outil de communication ad hoc</entry>
 <entry key="business-term|name|BT-725">Nombre de véhicules lourds à émissions nulles</entry>
 <entry key="business-term|name|BT-726">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</entry>
-<entry key="business-term|name|BT-727">Autres restrictions s’appliquant au lieu d’exécution</entry>
+<entry key="business-term|name|BT-727">Lieu d’exécution – Portée géographique</entry>
 <entry key="business-term|name|BT-728">Informations complémentaires</entry>
 <entry key="business-term|name|BT-729">Pourcentage maximal de la valeur du marché que le contractant peut sous-traiter</entry>
 <entry key="business-term|name|BT-730">La valeur de la sous-traitance est connue</entry>

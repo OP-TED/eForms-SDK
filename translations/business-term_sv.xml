@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Undantag från tillämpningen av IPI-åtgärden</entry>
 <entry key="business-term|description|BT-688">En beskrivning och motivering för tillämpningen av tvingande skäl relaterade till allmänintresset</entry>
 <entry key="business-term|description|BT-70">Den viktigaste informationen om genomförandet av kontraktet (t.ex. delresultat, skadestånd, immateriella rättigheter).</entry>
-<entry key="business-term|description|BT-701">Identifieraren för meddelandet om europeisk offentlig upphandling i detta meddelande. Om denna identifierare anges i alla offentliggjorda versioner av detta meddelande (t.ex. på TED-webbplatsen, nationella portaler, regionala portaler), kan upphandlingsmeddelanden i unionen få unik identifiering.</entry>
+<entry key="business-term|description|BT-701">Identifierare för det europeiska meddelandet om offentlig upphandling för detta meddelande.</entry>
 <entry key="business-term|description|BT-702">Det eller de språk som detta meddelande är offentligt tillgängligt på. Dessa språkversioner har samma rättsliga giltighet.</entry>
 <entry key="business-term|description|BT-706">Nationalitet(er) för vinnarens, anbudsgivarens eller underentreprenörens verkliga huvudman som offentliggjorts i det eller de register som upprättats i enlighet med Europaparlamentets och rådets direktiv (EU) 2018/843. Om ett sådant register inte finns (t.ex. om det rör sig om entreprenörer som är etablerade utanför unionen) ska motsvarande information anges från andra källor.</entry>
 <entry key="business-term|description|BT-707">Motiveringen för att begränsa åtkomsten till vissa upphandlingsdokument.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektronisk kommunikation kräver att det används verktyg och enheter som inte är allmänt tillgängliga.</entry>
 <entry key="business-term|description|BT-725">Antalet utsläppsfria tunga fordon så som de definieras i och omfattas av tillämpningsområdet för direktiv 2009/33/EG. Dessa fordon har antingen köpts in, leasats, hyrts eller hyrköpts, eller så har det slutits ett avtal om deras användning för att tillhandahålla en inköpt tjänst som omfattas av tillämpningsområdet för direktiv 2009/33/EG.</entry>
 <entry key="business-term|description|BT-726">Köparen betonar att denna upphandling också är lämplig för små och medelstora företag.</entry>
-<entry key="business-term|description|BT-727">Det finns andra begränsningar för leveransplatsen (t.ex. ”var som helst inom Europeiska ekonomiska samarbetsområdet”, ”var som helst i ett visst land”).</entry>
+<entry key="business-term|description|BT-727">Om platsen för utförande eller leverans inte är begränsad till en viss adress eller region kan den anges med ett bredare geografiskt område.</entry>
 <entry key="business-term|description|BT-728">Kompletterande information om leveransplatsen.</entry>
 <entry key="business-term|description|BT-729">Den högsta andel av kontraktets värde som entreprenören ska lägga ut på underentreprenad enligt det konkurrensförfarande som beskrivs i avdelning III i direktiv 2009/81/EG.</entry>
 <entry key="business-term|description|BT-730">Köparen känner åtminstone till det beräknade värdet av den del av kontraktet som entreprenören kommer att lägga ut på underentreprenad till tredje part.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Undantag från tillämpningen av IPI-åtgärden</entry>
 <entry key="business-term|name|BT-688">Tvingande skäl relaterade till allmänintresset</entry>
 <entry key="business-term|name|BT-70">Villkor som gäller genomförandet av kontraktet</entry>
-<entry key="business-term|name|BT-701">Identifierare/version för meddelandet</entry>
+<entry key="business-term|name|BT-701">Identifierare för meddelandet</entry>
 <entry key="business-term|name|BT-702">Språk som det här meddelandet finns officiellt tillgängligt på</entry>
 <entry key="business-term|name|BT-706">Nationalitet på verklig huvudman</entry>
 <entry key="business-term|name|BT-707">Motivering för att begränsa åtkomsten till vissa upphandlingsdokument</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Ad hoc-kommunikationskanaler</entry>
 <entry key="business-term|name|BT-725">Antal utsläppsfria tunga fordon</entry>
 <entry key="business-term|name|BT-726">Upphandlingen är också lämplig för små och medelstora företag</entry>
-<entry key="business-term|name|BT-727">Andra begränsningar för leveransplatsen</entry>
+<entry key="business-term|name|BT-727">Plats för utförande – Geografiskt område</entry>
 <entry key="business-term|name|BT-728">Kompletterande information</entry>
 <entry key="business-term|name|BT-729">Den högsta procentandel av kontraktets värde som leverantören får lägga ut på underleverantörer</entry>
 <entry key="business-term|name|BT-730">Värdet på underentreprenaden är känt</entry>

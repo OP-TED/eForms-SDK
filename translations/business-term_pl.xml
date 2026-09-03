@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Wyjątek od stosowania środka IPI</entry>
 <entry key="business-term|description|BT-688">Opis i uzasadnienie zastosowania nadrzędnych powodów związanych z interesem publicznym</entry>
 <entry key="business-term|description|BT-70">Główne informacje na temat realizacji zamówienia (np. rezultaty pośrednie, rekompensata za szkody, prawa własności intelektualnej).</entry>
-<entry key="business-term|description|BT-701">Europejski identyfikator ogłoszenia w sprawie zamówienia publicznego dla danego ogłoszenia. Umieszczenie tego identyfikatora we wszystkich publikowanych wersjach danego ogłoszenia (np. publikowanych w TED, na krajowych portalach publikacyjnych, na regionalnych portalach publikacyjnych) umożliwia jednoznaczną identyfikację ogłoszeń dotyczących zamówień w całej Unii.</entry>
+<entry key="business-term|description|BT-701">Identyfikator europejskiego ogłoszenia o zamówieniu publicznym dla niniejszego ogłoszenia.</entry>
 <entry key="business-term|description|BT-702">Język lub języki, w których dane ogłoszenie jest oficjalnie dostępne. Te wersje językowe są jednakowo ważne pod względem prawnym.</entry>
 <entry key="business-term|description|BT-706">Obywatelstwo (lub obywatelstwa) faktycznego właściciela (faktycznych właścicieli) zwycięzcy, oferenta lub podwykonawcy; zgodnie z rejestrem(-ami) ustanowionym(i) dyrektywą Parlamentu Europejskiego i Rady (UE) 2018/843. Jeżeli taki rejestr nie istnieje (np. w przypadku wykonawców z siedzibą poza Unią), należy podać równoważne informacje z innych źródeł.</entry>
 <entry key="business-term|description|BT-707">Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Komunikacja elektroniczna wymaga użycia narzędzi i urządzeń, które nie są powszechnie dostępne.</entry>
 <entry key="business-term|description|BT-725">Liczba bezemisyjnych pojazdów ciężkich zgodnie z definicją i zakresem stosowania w dyrektywie 2009/33/WE. Pojazdy te są przedmiotem zakupu, dzierżawy, najmu lub leasingu, bądź ich wykorzystanie zostało przewidziane w umowie na świadczenie usługi objętej zakresem dyrektywy 2009/33/WE.</entry>
 <entry key="business-term|description|BT-726">Nabywca podkreśla, że dane zamówienie jest również odpowiednie dla małych i średnich przedsiębiorstw (MŚP).</entry>
-<entry key="business-term|description|BT-727">Występują inne ograniczenia dotyczące miejsca realizacji (np. „w dowolnym miejscu w Europejskim Obszarze Gospodarczym”, „w dowolnym miejscu w danym państwie”).</entry>
+<entry key="business-term|description|BT-727">Jeżeli miejsce realizacji lub dostawy nie jest ograniczone do konkretnego adresu lub regionu, można je określić za pomocą szerszego zakresu geograficznego.</entry>
 <entry key="business-term|description|BT-728">Dodatkowe informacje na temat miejsca realizacji.</entry>
 <entry key="business-term|description|BT-729">Maksymalny odsetek wartości zamówienia, jaki wykonawca musi zlecić podwykonawcom z zastosowaniem procedury konkurencyjnej opisanej w tytule III dyrektywy 2009/81/WE.</entry>
 <entry key="business-term|description|BT-730">Nabywca zna przynajmniej szacunkową wartość części zamówienia, której realizację wykonawca zleci osobom trzecim.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Wyjątek od stosowania środka IPI</entry>
 <entry key="business-term|name|BT-688">Nadrzędne powody związane z interesem publicznym</entry>
 <entry key="business-term|name|BT-70">Warunki dotyczące realizacji zamówienia</entry>
-<entry key="business-term|name|BT-701">Identyfikator/wersja ogłoszenia</entry>
+<entry key="business-term|name|BT-701">Identyfikator ogłoszenia</entry>
 <entry key="business-term|name|BT-702">Języki, w których przedmiotowe ogłoszenie jest oficjalnie dostępne</entry>
 <entry key="business-term|name|BT-706">Przynależność państwowa właściciela</entry>
 <entry key="business-term|name|BT-707">Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Używane jest narzędzie komunikacji ad hoc</entry>
 <entry key="business-term|name|BT-725">Liczba bezemisyjnych pojazdów ciężkich</entry>
 <entry key="business-term|name|BT-726">Przedmiotowe zamówienie jest odpowiednie również dla małych i średnich przedsiębiorstw (MŚP)</entry>
-<entry key="business-term|name|BT-727">Inne ograniczenia dotyczące miejsca realizacji</entry>
+<entry key="business-term|name|BT-727">Miejsce realizacji – Zakres geograficzny</entry>
 <entry key="business-term|name|BT-728">Informacje dodatkowe</entry>
 <entry key="business-term|name|BT-729">Maksymalny odsetek wartości zamówienia, jaki wykonawca może zlecić podwykonawcom</entry>
 <entry key="business-term|name|BT-730">Podwykonawstwo - Wartość jest znana</entry>

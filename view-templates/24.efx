@@ -13,8 +13,8 @@
 		{BT-04-notice} #{field|name|BT-04-notice}: ${BT-04-notice} // Procedure identifier
 		{OPP-090-Procedure} #{field|name|OPP-090-Procedure}: ${OPP-090-Procedure} // Previous Notice
 		{BT-22-Procedure} #{field|name|BT-22-Procedure}: ${BT-22-Procedure} // Internal identifier
-		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
-		0 {ND-ProcedureProcurementScope[BT-88-Procedure != 'unpublished']} #{field|name|BT-88-Procedure}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
+		{BT-105-Procedure} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
+		{ND-ProcedureProcurementScope} #{field|name|BT-88-Procedure}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{field|name|BT-23-Procedure}: #{BT-23-Procedure} // Nature of the contract
 			{ND-ProcedureProcurementScope[BT-531-Procedure is present]} #{field|name|BT-531-Procedure}: #{BT-531-Procedure} // Additional nature of the contract
@@ -37,7 +37,7 @@
 			{BT-01-notice} #{BT-01-notice} // Procedure Legal Basis
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
-			0 {BT-09(a)-Procedure[BT-09(b)-Procedure != 'unpublished']} #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure} // Applicable cross-border law
+			{BT-09(a)-Procedure} #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure} // Applicable cross-border law
 		5 {ND-Root[BT-31-Procedure is present or BT-763-Procedure is present or BT-33-Procedure is present]} #{auxiliary|text|procurement-terms} // 2.1.5 Procurement terms
 			0 {ND-Root[BT-31-Procedure is present or BT-763-Procedure is present]} #{auxiliary|text|submission-terms}: // Terms of submission
 				{BT-31-Procedure} #{field|name|BT-31-Procedure}: ${format-number(BT-31-Procedure, '###,##0')} // Maximum number of lots for which one tenderer can submit tenders
@@ -57,17 +57,17 @@
 			{BT-137-LotsGroup[BT-300-LotsGroup is present]} #{field|name|BT-300-LotsGroup}: ${BT-300-LotsGroup} // Additional information
 		3 {ND-LotsGroupAwardCriteria} #{auxiliary|text|award-criteria} // 4.1.3 Award criteria
 			0 {ND-LotsGroupAwardCriterion} #{auxiliary|text|criterion}: // Criterion
-				0 {ND-LotsGroupAwardCriterion[BT-539-LotsGroup != 'unpublished' ]} #{field|name|BT-539-LotsGroup}: #{BT-539-LotsGroup} // Criterion Type
-				0 {ND-LotsGroupAwardCriterion[BT-734-LotsGroup != 'unpublished']} #{field|name|BT-734-LotsGroup}: ${BT-734-LotsGroup} // Criterion Name
-				0 {ND-LotsGroupAwardCriterion[BT-540-LotsGroup != 'unpublished']} #{field|name|BT-540-LotsGroup}: ${BT-540-LotsGroup} // Award Criterion Description
-				0 {ND-LotsGroupAwardWeightCriterionParameter[BT-5421-LotsGroup != 'unpublished']} #{auxiliary|text|award-criterion-weight-dimension}: #{BT-5421-LotsGroup} // Award Criterion Number Weight Dimension
-					0 {ND-LotsGroupAwardWeightCriterionParameter[BT-541-LotsGroup-WeightNumber != -1]} #{name|BT-541}: ${format-number(BT-541-LotsGroup-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number
-				0 {ND-LotsGroupAwardFixedCriterionParameter[BT-5422-LotsGroup != 'unpublished']} #{auxiliary|text|award-criterion-fixed-dimension}: #{BT-5422-LotsGroup} // Award Criterion Number Fixed Dimension
-					0 {ND-LotsGroupAwardFixedCriterionParameter[BT-541-LotsGroup-FixedNumber != -1]} #{name|BT-541}: ${format-number(BT-541-LotsGroup-FixedNumber, '###,##0.###,###,###')} // Award Criterion Fixed Number
-				0 {ND-LotsGroupAwardThresholdCriterionParameter[BT-5423-LotsGroup != 'unpublished']} #{auxiliary|text|award-criterion-threshold-dimension}: #{BT-5423-LotsGroup} // Award Criterion Number Threshold Dimension
-					0 {ND-LotsGroupAwardThresholdCriterionParameter[BT-541-LotsGroup-ThresholdNumber != -1]} #{name|BT-541}: ${format-number(BT-541-LotsGroup-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Threshold Number
-			0 {ND-LotsGroupAwardCriteria[BT-543-LotsGroup != 'unpublished']} #{field|name|BT-543-LotsGroup}: ${BT-543-LotsGroup} // Award Criteria Complicated
-			0 {ND-LotsGroupAwardCriteria[BT-733-LotsGroup != 'unpublished']} #{field|name|BT-733-LotsGroup}: ${BT-733-LotsGroup} // Award Criteria Order Justification
+				{BT-539-LotsGroup} #{field|name|BT-539-LotsGroup}: #{BT-539-LotsGroup} // Criterion Type
+				{ND-LotsGroupAwardCriterion[BT-734-LotsGroup is present]} #{field|name|BT-734-LotsGroup}: ${BT-734-LotsGroup} // Criterion Name
+				{ND-LotsGroupAwardCriterion[BT-540-LotsGroup is present]} #{field|name|BT-540-LotsGroup}: ${BT-540-LotsGroup} // Award Criterion Description
+				0 {BT-5421-LotsGroup} #{auxiliary|text|award-criterion-weight-dimension}: #{BT-5421-LotsGroup} // Award Criterion Number Weight Dimension
+					{BT-541-LotsGroup-WeightNumber} #{name|BT-541}: ${format-number(BT-541-LotsGroup-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number
+				0 {BT-5422-LotsGroup} #{auxiliary|text|award-criterion-fixed-dimension}: #{BT-5422-LotsGroup} // Award Criterion Number Fixed Dimension
+					{BT-541-LotsGroup-FixedNumber} #{name|BT-541}: ${format-number(BT-541-LotsGroup-FixedNumber, '###,##0.###,###,###')} // Award Criterion Fixed Number
+				0 {BT-5423-LotsGroup} #{auxiliary|text|award-criterion-threshold-dimension}: #{BT-5423-LotsGroup} // Award Criterion Number Threshold Dimension
+					{BT-541-LotsGroup-ThresholdNumber} #{name|BT-541}: ${format-number(BT-541-LotsGroup-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Threshold Number
+			{ND-LotsGroupAwardCriteria[BT-543-LotsGroup is present]} #{field|name|BT-543-LotsGroup}: ${BT-543-LotsGroup} // Award Criteria Complicated
+			{ND-LotsGroupAwardCriteria[BT-733-LotsGroup is present]} #{field|name|BT-733-LotsGroup}: ${BT-733-LotsGroup} // Award Criteria Order Justification
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5 Lots
 	1 {ND-Lot} #{field|name|BT-137-Lot}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{field|name|BT-21-Lot}: ${BT-21-Lot} // Title
@@ -109,7 +109,7 @@
 			{BT-754-Lot} #{BT-754-Lot} // Accessibility 
 			{BT-137-Lot[BT-755-Lot is present]} #{field|name|BT-755-Lot}: ${BT-755-Lot} // Accessibility Justification
 		9 {ND-LotTenderingTerms[(BT-809-Lot is present) or (BT-821-Lot is present)]} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
-			0 {ND-LotTenderingTerms[BT-821-Lot is present]} #{auxiliary|text|selection-criteria-sources}: #{BT-821-Lot} // Selection criteria sources
+			{ND-LotTenderingTerms[BT-821-Lot is present]} #{auxiliary|text|selection-criteria-sources}: #{BT-821-Lot} // Selection criteria sources
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: #{BT-809-Lot} // Criterion
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{field|name|BT-40-Lot} // Selection Criteria Second Stage Invite
@@ -121,17 +121,17 @@
 				{BT-52-Lot[BT-52-Lot == TRUE]} #{field|name|BT-52-Lot} // The procedure will take place in successive stages. In each stage, some participants may be eliminated.
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {ND-LotAwardCriterion} #{auxiliary|text|criterion}: // Award Criterion
-				0 {ND-LotAwardCriterion[BT-539-Lot != 'unpublished']} #{field|name|BT-539-Lot}: #{BT-539-Lot} // Type
-				0 {ND-LotAwardCriterion[BT-734-Lot != 'unpublished']} #{field|name|BT-734-Lot}: ${BT-734-Lot} // Criterion Name
-				0 {ND-LotAwardCriterion[BT-540-Lot != 'unpublished']} #{field|name|BT-540-Lot}: ${BT-540-Lot} // Award Criterion Description
+				{ND-LotAwardCriterion[BT-539-Lot != 'unpublished']} #{field|name|BT-539-Lot}: #{BT-539-Lot} // Type
+				{ND-LotAwardCriterion[BT-734-Lot != 'unpublished']} #{field|name|BT-734-Lot}: ${BT-734-Lot} // Criterion Name
+				{ND-LotAwardCriterion[BT-540-Lot != 'unpublished']} #{field|name|BT-540-Lot}: ${BT-540-Lot} // Award Criterion Description
 				0 {ND-LotAwardWeightCriterionParameter[BT-5421-Lot != 'unpublished']} #{auxiliary|text|award-criterion-weight-dimension}: #{BT-5421-Lot} // Award Criterion Number Weight Dimension
-					0 {ND-LotAwardWeightCriterionParameter[BT-541-Lot-WeightNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number
+					{ND-LotAwardWeightCriterionParameter[BT-541-Lot-WeightNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number
 				0 {ND-LotAwardFixedCriterionParameter[BT-5422-Lot != 'unpublished']} #{auxiliary|text|award-criterion-fixed-dimension}: #{BT-5422-Lot} // Award Criterion Number Fixed Dimension
-					0 {ND-LotAwardFixedCriterionParameter[BT-541-Lot-FixedNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Fixed Number
+					{ND-LotAwardFixedCriterionParameter[BT-541-Lot-FixedNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Fixed Number
 				0 {ND-LotAwardThresholdCriterionParameter[BT-5423-Lot != 'unpublished']} #{auxiliary|text|award-criterion-threshold-dimension}: #{BT-5423-Lot} // Award Criterion Number Threshold Dimension
-					0 {ND-LotAwardThresholdCriterionParameter[BT-541-Lot-ThresholdNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Threshold Number
-			0 {ND-LotAwardCriteria[BT-543-Lot != 'unpublished']} #{field|name|BT-543-Lot}: ${BT-543-Lot} // Award Criteria Complicated
-			0 {ND-LotAwardCriteria[BT-733-Lot != 'unpublished']} #{field|name|BT-733-Lot}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
+					{ND-LotAwardThresholdCriterionParameter[BT-541-Lot-ThresholdNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Threshold Number
+			{ND-LotAwardCriteria[BT-543-Lot != 'unpublished']} #{field|name|BT-543-Lot}: ${BT-543-Lot} // Award Criteria Complicated
+			{ND-LotAwardCriteria[BT-733-Lot != 'unpublished']} #{field|name|BT-733-Lot}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present) or (BT-13(d)-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-137-Lot[some text:$restricted in (for text:$somerestricted in BT-14-Lot return $somerestricted) satisfies $restricted == 'restricted-document']} #{field|name|BT-14-Lot} // The access to certain procurement documents is restricted. (Lot)
 			{BT-707-Lot} #{field|name|BT-707-Lot}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
@@ -166,7 +166,7 @@
 				{BT-769-Lot} #{field|name|BT-769-Lot}: #{BT-769-Lot} // Tenderers may submit more than one tender.
 				{BT-1311(d)-Lot} #{field|name|BT-1311(d)-Lot}: ${BT-1311(d)-Lot} ${BT-1311(t)-Lot} // Deadline for receipt of requests to participate
 				{BT-131(d)-Lot} #{field|name|BT-131(d)-Lot}: ${BT-131(d)-Lot} ${BT-131(t)-Lot} // Deadline for receipt of tenders
-			0 {ND-LateTendererInformation[(BT-771-Lot is present) and (BT-772-Lot is present)]} #{auxiliary|text|late-tenderer-info}: // Information that can be supplemented after the submission deadline
+			0 {ND-LateTendererInformation[(BT-771-Lot is present) or (BT-772-Lot is present)]} #{auxiliary|text|late-tenderer-info}: // Information that can be supplemented after the submission deadline
 				{BT-771-Lot} #{BT-771-Lot} // Late Tenderer Information
 				{ND-LateTendererInformation[BT-772-Lot is present]} #{field|name|BT-772-Lot}: ${BT-772-Lot} // Late Tenderer Information Description
 		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (BT-99-Lot is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
@@ -186,20 +186,33 @@
 			{BT-137-Lot[OPT-301-Lot-TenderEval is present]} #{auxiliary|text|organisation-processing-tenders}: ${for text:$refid1 in OPT-301-Lot-TenderEval, text:$orgname1 in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid1) or (OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is not present] == $refid1)] return $orgname1}${for text:$refid2 in OPT-301-Lot-TenderEval, text:$orgname2 in BT-500-Organization-Company[(OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is present] == $refid2)], text:$tponame in BT-500-Organization-TouchPoint[(OPT-201-Organization-TouchPoint == $refid2)] return concat($orgname2, ' - ', $tponame)} // Organisation processing requests to participate/Tender Evaluation Organisation: Authority Proc-Request (Lot)
 8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
-		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
-		{BT-501-Organization-Company} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
-		{BT-16-Organization-Company} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
-		{BT-510(a)-Organization-Company} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
-		{BT-513-Organization-Company} #{field|name|BT-513-Organization-Company}: ${BT-513-Organization-Company} // Organization City
-		{BT-512-Organization-Company} #{field|name|BT-512-Organization-Company}: ${BT-512-Organization-Company} // Organization Post Code
-		{BT-507-Organization-Company} #{field|name|BT-507-Organization-Company}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) // Organization Country Subdivision
-		{BT-514-Organization-Company} #{field|name|BT-514-Organization-Company}: #{BT-514-Organization-Company} // Organization Country
-		{BT-502-Organization-Company} #{field|name|BT-502-Organization-Company}: ${BT-502-Organization-Company} // Organization Contact Point
-		{BT-506-Organization-Company} #{field|name|BT-506-Organization-Company}: ${BT-506-Organization-Company} // Organization Contact Email Address
-		{BT-503-Organization-Company} #{field|name|BT-503-Organization-Company}: ${BT-503-Organization-Company} // Organization Contact Telephone Number
-		{BT-739-Organization-Company} #{field|name|BT-739-Organization-Company}: ${BT-739-Organization-Company} // Organization Contact Fax
-		{BT-505-Organization-Company} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
-		{BT-509-Organization-Company} #{field|name|BT-509-Organization-Company}: ${BT-509-Organization-Company} // Organization eDelivery Gateway
+		{ND-Organization[BT-500-Organization-Company != 'unpublished']} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
+		{BT-501-Organization-Company[BT-501-Organization-Company != 'unpublished']} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
+		{BT-501-Organization-Company[BT-501-Organization-Company == 'unpublished']} #{field|name|BT-501-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Identifier (undisclosed)
+		{BT-16-Organization-Company[BT-16-Organization-Company != 'unpublished']} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
+		{BT-16-Organization-Company[BT-16-Organization-Company == 'unpublished']} #{field|name|BT-16-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Part Name (undisclosed)
+		{BT-510(a)-Organization-Company[BT-510(a)-Organization-Company != 'unpublished']} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
+		{BT-510(a)-Organization-Company[BT-510(a)-Organization-Company == 'unpublished']} #{field|name|BT-510(a)-Organization-Company}: #{auxiliary|text|undisclosed} // Postal address (undisclosed)
+		{BT-513-Organization-Company[BT-513-Organization-Company != 'unpublished']} #{field|name|BT-513-Organization-Company}: ${BT-513-Organization-Company} // Organization City
+		{BT-513-Organization-Company[BT-513-Organization-Company == 'unpublished']} #{field|name|BT-513-Organization-Company}: #{auxiliary|text|undisclosed} // Organization City (undisclosed)
+		{BT-512-Organization-Company[BT-512-Organization-Company != 'unpublished']} #{field|name|BT-512-Organization-Company}: ${BT-512-Organization-Company} // Organization Post Code
+		{BT-512-Organization-Company[BT-512-Organization-Company == 'unpublished']} #{field|name|BT-512-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Post Code (undisclosed)
+		{BT-507-Organization-Company[BT-507-Organization-Company != 'unpublished']} #{field|name|BT-507-Organization-Company}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) // Organization Country Subdivision
+		{BT-507-Organization-Company[BT-507-Organization-Company == 'unpublished']} #{field|name|BT-507-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Country Subdivision (undisclosed)
+		{BT-514-Organization-Company[BT-514-Organization-Company != 'unpublished']} #{field|name|BT-514-Organization-Company}: #{BT-514-Organization-Company} // Organization Country
+		{BT-514-Organization-Company[BT-514-Organization-Company == 'unpublished']} #{field|name|BT-514-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Country (undisclosed)
+		{BT-502-Organization-Company[BT-502-Organization-Company != 'unpublished']} #{field|name|BT-502-Organization-Company}: ${BT-502-Organization-Company} // Organization Contact Point
+		{BT-502-Organization-Company[BT-502-Organization-Company == 'unpublished']} #{field|name|BT-502-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Point (undisclosed)
+		{BT-506-Organization-Company[BT-506-Organization-Company != 'unpublished']} #{field|name|BT-506-Organization-Company}: ${BT-506-Organization-Company} // Organization Contact Email Address
+		{BT-506-Organization-Company[BT-506-Organization-Company == 'unpublished']} #{field|name|BT-506-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Email Address (undisclosed)
+		{BT-503-Organization-Company[BT-503-Organization-Company != 'unpublished']} #{field|name|BT-503-Organization-Company}: ${BT-503-Organization-Company} // Organization Contact Telephone Number
+		{BT-503-Organization-Company[BT-503-Organization-Company == 'unpublished']} #{field|name|BT-503-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Telephone Number (undisclosed)
+		{BT-739-Organization-Company[BT-739-Organization-Company != 'unpublished']} #{field|name|BT-739-Organization-Company}: ${BT-739-Organization-Company} // Organization Contact Fax
+		{BT-739-Organization-Company[BT-739-Organization-Company == 'unpublished']} #{field|name|BT-739-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Fax (undisclosed)
+		{BT-505-Organization-Company[BT-505-Organization-Company != 'unpublished']} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
+		{BT-505-Organization-Company[BT-505-Organization-Company == 'unpublished']} #{field|name|BT-505-Organization-Company}: #{auxiliary|text|undisclosed}// Organization Internet Address (undisclosed)
+		{BT-509-Organization-Company[BT-509-Organization-Company != 'unpublished']} #{field|name|BT-509-Organization-Company}: ${BT-509-Organization-Company} // Organization eDelivery Gateway
+		{BT-509-Organization-Company[BT-509-Organization-Company == 'unpublished']} #{field|name|BT-509-Organization-Company}: #{auxiliary|text|undisclosed} // Organization eDelivery Gateway (undisclosed)
 		{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{field|name|BT-508-Procedure-Buyer}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
 		0 {ND-Touchpoint} #{auxiliary|text|other-contact-point}: // TouchPoint / Other contact points
 			{ND-Touchpoint[BT-500-Organization-TouchPoint is present]} #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint} // Buyer Touchpoint Name

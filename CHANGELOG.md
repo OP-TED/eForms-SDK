@@ -1,3 +1,25 @@
+# SDK 1.16.0-beta.1 Release Notes
+
+The purpose of this Beta release is to introduce the upcoming changes regarding the new approach towards undisclosed fields (formerly known as ‘unpublished fields’).
+
+Whilst further maintenance changes are envisaged in SDK 1.16 (e. g. schematron rule maintenance, national eForms extensions, etc) such changes might not be complete in this Beta release yet. 
+
+Please find below an overview of the changes to the ‘undisclosed fields’ approach:
+* Update of the eForms schema to include new elements
+* Introduction of new fields and nodes, inter alia:
+	* Undisclosed information group (BT-195-notice);
+	* Non-disclosure justification code (BT-197-notice)
+	* Non-disclosure justification additional information (BT-196-notice); and 
+	* Disclosure date (BT-198-notice)
+* Deletion of fields and nodes related to the former ‘unpublished fields’ approach (e. g. BT-195(BT-105)-Procedure, BT-196(BT-105)-Procedure,…)
+* Introduction of the code list ‘undisclosed-data-group’
+* Updates to the schematron rules, view templates, notice type definitions and labels to reflect the new ‘undisclosed fields’ approach
+* Update to the EFX grammar: A new type of expression has been added for the new undisclosed fields design. It does not affect existing EFX-1 transpilers, as it appears only in a new property in fields.json that only TED Monitor needs to read.
+
+Please note that this is a non-exhaustive list and it does not cover the details of all changes. 
+
+A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-beta.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-beta.1> or through the SDK Explorer <https://docs.ted.europa.eu/eforms-sdk-explorer/>.
+
 # SDK 1.15.1 Release Notes
 
 This is a patch release of the SDK.

@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Izjema od uporabe ukrepa IPI</entry>
 <entry key="business-term|description|BT-688">Opis in utemeljitev za uporabo prevladujočih razlogov, povezanih z javnim interesom</entry>
 <entry key="business-term|description|BT-70">Glavni podatki o izvedbi naročila (npr. vmesni rezultati, nadomestilo za škodo, pravice intelektualne lastnine).</entry>
-<entry key="business-term|description|BT-701">Evropski identifikator obvestila o javnem naročilu iz tega obvestila. Če je ta identifikator naveden v vseh objavljenih različicah tega obvestila (npr. v TED, na nacionalnih portalih za objavljanje in regionalnih portalih za objavljanje), je mogoče obvestilo o javnem naročilu enotno identificirati po vsej Uniji.</entry>
+<entry key="business-term|description|BT-701">Identifikator evropskega obvestila o javnem naročilu za to obvestilo.</entry>
 <entry key="business-term|description|BT-702">Jeziki, v katerih je to obvestilo uradno objavljeno. Te jezikovne različice imajo enako pravno veljavo.</entry>
 <entry key="business-term|description|BT-706">Državljanstva dejanskih lastnikov zmagovalca, ponudnika ali podizvajalca, kot so objavljena v registrih, vzpostavljenih z Direktivo (EU) 2018/843 Evropskega parlamenta in Sveta. Če takega registra ni (npr. pri izvajalcih s sedežem zunaj Unije), se navedejo enakovredne informacije iz drugih virov.</entry>
 <entry key="business-term|description|BT-707">Razlog za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Za elektronsko komunikacijo je treba uporabljati orodja in naprave, ki niso splošno dostopni.</entry>
 <entry key="business-term|description|BT-725">Število brezemisijskih težkih vozil v skladu z opredelitvijo iz Direktive 2009/33/ES, ki spadajo na področje uporabe navedene direktive. Ta vozila so bila kupljena, zakupljena, najeta, kupljena s pridržanim lastništvom ali pa je bila njihova uporaba pogodbeno zagotovljena za opravljanje nabavljene storitve, ki spada na področje uporabe Direktive 2009/33/ES.</entry>
 <entry key="business-term|description|BT-726">Kupec poudarja, da je to javno naročilo primerno tudi za mala in srednja podjetja (MSP).</entry>
-<entry key="business-term|description|BT-727">Obstajajo druge omejitve glede kraja izvedbe (npr. „kjer koli v Evropskem gospodarskem prostoru“, „kjer koli v določeni državi“).</entry>
+<entry key="business-term|description|BT-727">Če kraj izvedbe ali dobave ni omejen na določen naslov ali regijo, se lahko opredeli s širšim geografskim obsegom.</entry>
 <entry key="business-term|description|BT-728">Dodatne informacije o kraju izvedbe.</entry>
 <entry key="business-term|description|BT-729">Najvišji odstotek vrednosti naročila, ki ga mora izvajalec oddati podizvajalcem z uporabo konkurenčnega postopka iz naslova III Direktive 2009/81/ES.</entry>
 <entry key="business-term|description|BT-730">Kupec pozna vsaj ocenjeno vrednost tistega dela naročila, ki ga bo izvajalec oddal v podizvajanje tretjim osebam.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Izjema od uporabe ukrepa IPI</entry>
 <entry key="business-term|name|BT-688">Prevladujoči razlogi, povezani z javnim interesom</entry>
 <entry key="business-term|name|BT-70">Pogoji, povezani z izvajanjem javnega naročila</entry>
-<entry key="business-term|name|BT-701">Identifikator/različica obvestila</entry>
+<entry key="business-term|name|BT-701">Identifikator obvestila</entry>
 <entry key="business-term|name|BT-702">Jeziki, v katerih je uradno dostopno to obvestilo</entry>
 <entry key="business-term|name|BT-706">Državljanstvo lastnika</entry>
 <entry key="business-term|name|BT-707">Obrazložitev za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Uporablja se ad hoc komunikacijsko orodje</entry>
 <entry key="business-term|name|BT-725">Število brezemisijskih težkih vozil</entry>
 <entry key="business-term|name|BT-726">To javno naročilo je primerno tudi za mala in srednja podjetja (MSP)</entry>
-<entry key="business-term|name|BT-727">Druge omejitve glede kraja izvedbe</entry>
+<entry key="business-term|name|BT-727">Kraj izvedbe – Geografski obseg</entry>
 <entry key="business-term|name|BT-728">Dodatne informacije</entry>
 <entry key="business-term|name|BT-729">Najvišji delež vrednosti javnega naročila, ki jo lahko izvajalec odda podizvajalcem</entry>
 <entry key="business-term|name|BT-730">Vrednost oddaje naročil podizvajalcem je znana</entry>
