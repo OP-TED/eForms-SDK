@@ -607,6 +607,7 @@
 		<active pattern="EFORMS-validation-stage-4-E1" />
 		<active pattern="EFORMS-validation-stage-4m" />
 		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5-E1" />
 		<active pattern="EFORMS-validation-stage-5m" />
 	</phase>
 	<phase id="eforms-E2">
@@ -986,6 +987,7 @@
 	<include href="validation-stage-5-8.sch"/>
 	<include href="validation-stage-5-9.sch"/>
 	<include href="validation-stage-5-CEI.sch"/>
+	<include href="validation-stage-5-E1.sch"/>
 	<include href="validation-stage-5-E2.sch"/>
 	<include href="validation-stage-5-E3.sch"/>
 	<include href="validation-stage-5-E4.sch"/>

@@ -7,6 +7,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T02']">
 		<assert id="BR-OPP-00070-0106" role="ERROR" diagnostics="OPP-070-notice" test="(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'can-tran')">rule|text|BR-OPP-00070-0106</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efbc:InformationDisclosureDate[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00198-0119" role="ERROR" test="(boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(./xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text())) &lt; $T + xs:yearMonthDuration('P5Y')))) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(./xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text())) >= $T + xs:dayTimeDuration('P2D'))))">rule|text|BR-BT-00198-0119</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'T02']">
 		<assert id="BR-BT-00142-0055" role="ERROR" diagnostics="BT-142-LotResult" test="cbc:TenderResultCode/normalize-space(text()) = 'selec-w'">rule|text|BR-BT-00142-0055</assert>
 	</rule>

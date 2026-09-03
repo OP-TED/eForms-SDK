@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--File generated from metadata database-->
 <pattern id="EFORMS-validation-stage-5-E5" xmlns="http://purl.oclc.org/dsdl/schematron">
+	<rule context="/*[$noticeSubType = 'E5']">
+		<assert id="BR-BT-00001-0352" role="ERROR" diagnostics="BT-01-notice" test="((cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:ID) or (cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription)) or not((cbc:RegulatoryDomain/normalize-space(text()) = 'other'))">rule|text|BR-BT-00001-0352</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'E5']">
 		<assert id="BR-BT-00137-0234" role="ERROR" diagnostics="BT-137-Lot" test="((cbc:ID/normalize-space(text()) = ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID/normalize-space(text()))) or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID)">rule|text|BR-BT-00137-0234</assert>
 	</rule>
@@ -8,6 +11,9 @@
 		<assert id="BR-BT-00105-0165" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (../cbc:RegulatoryDomain/normalize-space(text()) = ('32014L0024','32024R2509')) and (cbc:ProcedureCode))">rule|text|BR-BT-00105-0165</assert>
 		<assert id="BR-BT-00105-0176" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('restricted','neg-w-call')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (../cbc:RegulatoryDomain/normalize-space(text()) = '32009L0081') and (cbc:ProcedureCode))">rule|text|BR-BT-00105-0176</assert>
 		<assert id="BR-BT-00105-0178" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call','comp-dial')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (../cbc:RegulatoryDomain/normalize-space(text()) = '32014L0025') and (cbc:ProcedureCode))">rule|text|BR-BT-00105-0178</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efbc:InformationDisclosureDate[$noticeSubType = 'E5']">
+		<assert id="BR-BT-00198-0117" role="ERROR" test="(boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(./xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text())) &lt; $T + xs:yearMonthDuration('P5Y')))) and (boolean(for $T in (current-date()) return ($T + xs:dayTimeDuration(./xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text())) >= $T + xs:dayTimeDuration('P2D'))))">rule|text|BR-BT-00198-0117</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'E5']">
 		<assert id="BR-BT-13713-0135" role="ERROR" diagnostics="BT-13713-LotResult" test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 'tenders']/number()) = 1) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode))">rule|text|BR-BT-13713-0135</assert>
