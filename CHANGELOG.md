@@ -24,7 +24,7 @@ SDK 2.0.0-alpha.3 adds one construct to the EFX-2 grammar. The metadata it carri
 
 - **Selectors**: an expression can now be written so that it identifies the XML elements a reference points to, rather than the values held in them. It is written `&{reference}`, or `WITH context SELECT reference`, alongside the existing `${expression}` and `WITH ... COMPUTE ...` forms.
 
-  Everywhere else in EFX, referring to a field means referring to its value, which is what makes the language independent of the data format underneath. A selector is the one place where that is deliberately set aside, for cases where an application has to be told *where* a value lives rather than what it is. The first of those is `privacy.undisclosedFieldSelector`, which has to name the elements a notice viewer must withhold from publication.
+  Selectors are a distinct kind of EFX expression, useful when integrating an EFX processor with a processor native to the underlying data structure. In such a scenario we need pointers to the data (e.g. XPath, JSONPath) rather than the data values themselves — for example, allowing an EFX expression to determine which XML elements Saxon should select.
 
   The same construct has been added to EFX-1, so that both versions of the language can express it.
 
