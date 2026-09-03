@@ -559,6 +559,17 @@
         },
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E1", "E2", "E3", "E4", "E5", "E6" ],
+        "condition" : "{ND-Root} ${(BT-01-notice == 'other')}",
+        "value" : "{ND-Root} ${(BT-01(c)-Procedure is present) or (BT-01(f)-Procedure is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|R-ROU-1GW"
+      } ]
     }
   }, {
     "id" : "BT-02-notice",
@@ -5177,6 +5188,16 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "value" : "{BT-198-notice} ${((BT-198-notice- BT-05(a)-notice) < P5Y) and ((BT-198-notice - BT-05(a)-notice) >= P2D))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|R-2K5-288"
+      } ]
     }
   }, {
     "id" : "BT-200-Contract",
@@ -7942,7 +7963,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "19", "20", "21", "22", "23", "24", "E3" ],
-        "value" : "{BT-44-Lot} ${BT-44-Lot != '999'}",
+        "value" : "{BT-44-Lot} ${BT-44-Lot != 999}",
         "severity" : "ERROR",
         "message" : "rule|text|R-AWY-5XJ"
       } ]
@@ -8108,22 +8129,22 @@
         "message" : "rule|text|R-0Q1-6L3"
       }, {
         "noticeTypes" : [ "16" ],
-        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'restricted') and (BT-50-Lot > 4)) or not(BT-105-Procedure == 'restricted') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
+        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'restricted') and (BT-50-Lot > 4)) or not(BT-105-Procedure == 'restricted') or BT-766-Lot in ['dps-list','dps-nlist'] or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
         "message" : "rule|text|R-M65-C1V"
       }, {
         "noticeTypes" : [ "16" ],
-        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'neg-w-call') and (BT-50-Lot > 2)) or not(BT-105-Procedure == 'neg-w-call') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
+        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'neg-w-call') and (BT-50-Lot > 2)) or not(BT-105-Procedure == 'neg-w-call') or BT-766-Lot in ['dps-list','dps-nlist'] or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
         "message" : "rule|text|R-QCL-QDA"
       }, {
         "noticeTypes" : [ "16" ],
-        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(BT-105-Procedure == 'comp-dial') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
+        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(BT-105-Procedure == 'comp-dial') or BT-766-Lot in ['dps-list','dps-nlist'] or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
         "message" : "rule|text|R-T8K-NQQ"
       }, {
         "noticeTypes" : [ "16" ],
-        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'innovation') and (BT-50-Lot > 2)) or not(BT-105-Procedure == 'innovation') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
+        "value" : "{ND-SecondStage} ${((BT-105-Procedure == 'innovation') and (BT-50-Lot > 2)) or not(BT-105-Procedure == 'innovation') or BT-766-Lot in ['dps-list','dps-nlist'] or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
         "message" : "rule|text|R-V52-3NM"
       } ]
