@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "2.0.0-alpha.3",
   "metadataDatabase" : {
-    "version" : "1.14.48",
-    "createdOn" : "2026-09-02T20:31:17"
+    "version" : "1.14.54",
+    "createdOn" : "2026-09-03T20:01:08"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -930,12 +930,6 @@
     "description" : "This table provides the list of reasons of the buyer for not choosing a winner in the procurement procedure.",
     "_label" : "codelist|name|non-award-justification"
   }, {
-    "id" : "non-publication-identifier",
-    "version" : "1.0",
-    "filename" : "non-publication-identifier.gc",
-    "description" : "List of codes for the identification of the information whose publication shall be delayed.",
-    "_label" : "codelist|name|non-publication-identifier"
-  }, {
     "id" : "non-publication-justification",
     "version" : "20240612-0",
     "filename" : "non-publication-justification.gc",
@@ -947,12 +941,6 @@
     "filename" : "notice-purpose.gc",
     "description" : "List of codes to specify the purpose of the Business Register Information Notice",
     "_label" : "codelist|name|notice-purpose"
-  }, {
-    "id" : "notice-reference",
-    "version" : "1.0",
-    "filename" : "notice-reference.gc",
-    "description" : "Notice reference type",
-    "_label" : "codelist|name|notice-reference"
   }, {
     "id" : "notice-subtype",
     "version" : "1.0",
