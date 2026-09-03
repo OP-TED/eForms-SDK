@@ -16,7 +16,7 @@ The goal of SDK 2 is to introduce a new version of EFX (the eForms Expression La
 
 ## Contents
 
-SDK 2.0.0-alpha.3 adds one construct to the EFX-2 grammar. Everything else in the release is limited to the continuous integration setup.
+SDK 2.0.0-alpha.3 adds one construct to the EFX-2 grammar. The metadata it carries is the same as that of SDK 1.16.0-beta.1.
 
 ### EFX Grammar Changes
 
