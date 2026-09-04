@@ -1029,7 +1029,7 @@
         "message" : "rule|text|R-KAQ-QWW"
       }, {
         "noticeTypes" : [ "E5" ],
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-01-notice in ('32014L0024','32024R2509')) and (BT-105-Procedure is present)}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-01-notice in ['32014L0024','32024R2509']) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ['open', 'restricted', 'neg-w-call']}",
         "severity" : "ERROR",
         "message" : "rule|text|R-ZFY-QEK"
@@ -3086,7 +3086,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|R-7KQ-UNL"
       }, {
-        "condition" : "{ND-LotResult} ${BT-105-Procedure not in ('restricted','neg-w-call','comp-dial','innovation','oth-mult')}",
+        "condition" : "{ND-LotResult} ${BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult']}",
         "value" : "{ND-LotResult} ${count(BT-759-LotResult[BT-760-LotResult == 'part-req']) == 0}",
         "severity" : "ERROR",
         "message" : "rule|text|R-936-YL4"
@@ -3602,7 +3602,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) and (BT-142-LotResult == 'selec-w') and OPT-315-LotResult not in OPT-316-Contract[(BT-768-Contract == TRUE)]}",
+        "condition" : "{ND-LotResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc']]) and (BT-142-LotResult == 'selec-w') and (every text:$x in OPT-315-LotResult satisfies $x not in OPT-316-Contract[(BT-768-Contract == TRUE)])}",
         "value" : "{ND-LotResult} ${(BT-709-LotResult is present) or (BT-660-LotResult is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-DTZ-E0V"
@@ -5194,7 +5194,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
-        "value" : "{BT-198-notice} ${((BT-198-notice- BT-05(a)-notice) < P5Y) and ((BT-198-notice - BT-05(a)-notice) >= P2D))}",
+        "value" : "{BT-198-notice} ${((BT-198-notice - BT-05(a)-notice) < P5Y) and ((BT-198-notice - BT-05(a)-notice) >= P2D)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-2K5-288"
       } ]
@@ -6544,7 +6544,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|R-VC1-7IU"
       }, {
-        "condition" : "{ND-LotProcurementScope} ${(BT-71-Lot == 'res-pub-ser') and (BT-262-Lot is present)}",
+        "condition" : "{ND-LotProcurementScope} ${(some text:$x in BT-71-Lot satisfies $x == 'res-pub-ser') and (BT-262-Lot is present)}",
         "value" : "{ND-LotProcurementScope} ${BT-262-Lot in ['75121000', '75122000', '75123000', '79622000', '79624000', '79625000', '80110000', '80300000', '80420000', '80430000', '80511000', '80520000', '80590000', '85000000', '85100000', '85110000', '85111000', '85111100', '85111200', '85111300', '85111310', '85111320', '85111400', '85111500', '85111600', '85111700', '85111800', '85111810', '85111820', '85111900', '85112000', '85112100', '85112200', '85120000', '85121000', '85121100', '85121200', '85121210', '85121220', '85121230', '85121231', '85121232', '85121240', '85121250', '85121251', '85121252', '85121270', '85121271', '85121280', '85121281', '85121282', '85121283', '85121290', '85121291', '85121292', '85121300', '85130000', '85131000', '85131100', '85131110', '85140000', '85141000', '85141100', '85141200', '85141210', '85141211', '85141220', '85142000', '85142100', '85142200', '85142300', '85142400', '85143000', '85144000', '85144100', '85145000', '85146000', '85146100', '85146200', '85147000', '85148000', '85149000', '85150000', '85160000', '85170000', '85171000', '85172000', '85200000', '85210000', '85300000', '85310000', '85311000', '85311100', '85311200', '85311300', '85312000', '85312100', '85312110', '85312120', '85312200', '85312300', '85312310', '85312320', '85312330', '85312400', '85312500', '85312510', '85320000', '85321000', '85322000', '85323000',  '92500000', '92600000', '98133000', '98133110']}",
         "severity" : "ERROR",
         "message" : "rule|text|R-W0T-ORH"
@@ -6603,7 +6603,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|R-G47-PPC"
       }, {
-        "condition" : "{ND-PartProcurementScope} ${(BT-71-Part == 'res-pub-ser') and (BT-262-Part is present)}",
+        "condition" : "{ND-PartProcurementScope} ${(some text:$x in BT-71-Part satisfies $x == 'res-pub-ser') and (BT-262-Part is present)}",
         "value" : "{ND-PartProcurementScope} ${BT-262-Part in ['75121000', '75122000', '75123000', '79622000', '79624000', '79625000', '80110000', '80300000', '80420000', '80430000', '80511000', '80520000', '80590000', '85000000', '85100000', '85110000', '85111000', '85111100', '85111200', '85111300', '85111310', '85111320', '85111400', '85111500', '85111600', '85111700', '85111800', '85111810', '85111820', '85111900', '85112000', '85112100', '85112200', '85120000', '85121000', '85121100', '85121200', '85121210', '85121220', '85121230', '85121231', '85121232', '85121240', '85121250', '85121251', '85121252', '85121270', '85121271', '85121280', '85121281', '85121282', '85121283', '85121290', '85121291', '85121292', '85121300', '85130000', '85131000', '85131100', '85131110', '85140000', '85141000', '85141100', '85141200', '85141210', '85141211', '85141220', '85142000', '85142100', '85142200', '85142300', '85142400', '85143000', '85144000', '85144100', '85145000', '85146000', '85146100', '85146200', '85147000', '85148000', '85149000', '85150000', '85160000', '85170000', '85171000', '85172000', '85200000', '85210000', '85300000', '85310000', '85311000', '85311100', '85311200', '85311300', '85312000', '85312100', '85312110', '85312120', '85312200', '85312300', '85312310', '85312320', '85312330', '85312400', '85312500', '85312510', '85320000', '85321000', '85322000', '85323000',  '92500000', '92600000', '98133000', '98133110']}",
         "severity" : "ERROR",
         "message" : "rule|text|R-KIT-1JK"
@@ -7690,7 +7690,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotDuration} ${(BT-71-Lot == 'res-pub-ser') and (BT-36-Lot is present)}",
+        "condition" : "{ND-LotDuration} ${(some text:$x in BT-71-Lot satisfies $x == 'res-pub-ser') and (BT-36-Lot is present)}",
         "value" : "{ND-LotDuration} ${(BT-36-Lot > P0D) and (BT-36-Lot <= P3Y)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-EI0-LGR"
@@ -7762,7 +7762,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|R-5OA-29I"
       }, {
-        "condition" : "{ND-PartDuration} ${(BT-71-Part == 'res-pub-ser') and (BT-36-Part is present)}",
+        "condition" : "{ND-PartDuration} ${(some text:$x in BT-71-Part satisfies $x == 'res-pub-ser') and (BT-36-Part is present)}",
         "value" : "{ND-PartDuration} ${(BT-36-Part > P0D) and (BT-36-Part <= P3Y)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-O2U-GVX"
@@ -11458,7 +11458,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotDuration} ${(BT-71-Lot == 'res-pub-ser') and (BT-536-Lot is present) and (BT-537-Lot is present)}",
+        "condition" : "{ND-LotDuration} ${(some text:$x in BT-71-Lot satisfies $x == 'res-pub-ser') and (BT-536-Lot is present) and (BT-537-Lot is present)}",
         "value" : "{ND-LotDuration} ${((BT-537-Lot - BT-536-Lot) > P0D) and ((BT-537-Lot - BT-536-Lot) <= P3Y)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-CGH-LX2"
@@ -11507,7 +11507,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|R-1GL-3MT"
       }, {
-        "condition" : "{ND-PartDuration} ${(BT-71-Part == 'res-pub-ser') and (BT-536-Part is present) and (BT-537-Part is present)}",
+        "condition" : "{ND-PartDuration} ${(some text:$x in BT-71-Part satisfies $x == 'res-pub-ser') and (BT-536-Part is present) and (BT-537-Part is present)}",
         "value" : "{ND-PartDuration} ${((BT-537-Part - BT-536-Part) > P0D) and ((BT-537-Part - BT-536-Part) <= P3Y)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-LWO-QQO"
@@ -12308,7 +12308,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotAwardWeightCriterionParameter} ${(BT-03-notice in ('result', 'cont-modif', 'dir-awa-pre')) and (BT-5421-Lot is present)}",
+        "condition" : "{ND-LotAwardWeightCriterionParameter} ${(BT-03-notice in ['result', 'cont-modif', 'dir-awa-pre']) and (BT-5421-Lot is present)}",
         "value" : "{ND-LotAwardWeightCriterionParameter} ${BT-5421-Lot in ['dec-exa', 'ord-imp', 'per-exa', 'poi-exa']}",
         "severity" : "ERROR",
         "message" : "rule|text|R-ZLP-UN0"
@@ -12378,7 +12378,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotsGroupAwardWeightCriterionParameter} ${(BT-03-notice in ('result', 'cont-modif', 'dir-awa-pre')) and (BT-5421-LotsGroup is present)}",
+        "condition" : "{ND-LotsGroupAwardWeightCriterionParameter} ${(BT-03-notice in ['result', 'cont-modif', 'dir-awa-pre']) and (BT-5421-LotsGroup is present)}",
         "value" : "{ND-LotsGroupAwardWeightCriterionParameter} ${BT-5421-LotsGroup in ['dec-exa', 'ord-imp', 'per-exa', 'poi-exa']}",
         "severity" : "ERROR",
         "message" : "rule|text|R-ZEM-BQ7"
@@ -16092,7 +16092,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotProcurementScope} ${BT-02-notice in ('can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-cfc-social','pin-cfc-standard','pin-rtl','pin-tran','pmc','qu-sy','subco','veat')}",
+        "condition" : "{ND-LotProcurementScope} ${BT-02-notice in ['can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-cfc-social','pin-cfc-standard','pin-rtl','pin-tran','pmc','qu-sy','subco','veat']}",
         "value" : "{ND-LotProcurementScope} ${(BT-5141-Lot is present) or (BT-727-Lot is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-P9H-TM5"
@@ -16136,7 +16136,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-PartProcurementScope} ${BT-02-notice in ('pin-only')}",
+        "condition" : "{ND-PartProcurementScope} ${BT-02-notice in ['pin-only']}",
         "value" : "{ND-PartProcurementScope} ${(BT-5141-Part is present) or (BT-727-Part is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-2LU-IIE"
@@ -16180,7 +16180,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ProcedureProcurementScope} ${BT-02-notice in ('can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat')}",
+        "condition" : "{ND-ProcedureProcurementScope} ${BT-02-notice in ['can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat']}",
         "value" : "{ND-ProcedureProcurementScope} ${(BT-5141-Procedure is present) or (BT-727-Procedure is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|R-7X8-WZW"
@@ -17250,13 +17250,13 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "3", "6", "9", "14", "18", "19", "22", "27", "28", "31", "32", "35", "40", "CEI" ],
-        "condition" : "{ND-ContractingParty} ${(BT-11-Procedure-Buyer in ('pub-undert', 'pub-undert-cga', 'pub-undert-ra', 'pub-undert-la', 'spec-rights-entity')) and not(BT-02-notice == 'can-modif') and (BT-740-Procedure-Buyer is present)}",
+        "condition" : "{ND-ContractingParty} ${(BT-11-Procedure-Buyer in ['pub-undert', 'pub-undert-cga', 'pub-undert-ra', 'pub-undert-la', 'spec-rights-entity']) and not(BT-02-notice == 'can-modif') and (BT-740-Procedure-Buyer is present)}",
         "value" : "{ND-ContractingParty} ${BT-740-Procedure-Buyer == 'cont-ent'}",
         "severity" : "ERROR",
         "message" : "rule|text|R-FGN-0QH"
       }, {
         "noticeTypes" : [ "3", "6", "9", "14", "18", "19", "22", "27", "28", "31", "32", "35", "40", "CEI" ],
-        "condition" : "{ND-ContractingParty} ${(BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la', 'eu-ins-bod-ag', 'def-cont', 'int-org')) and not(BT-02-notice == 'can-modif') and (BT-740-Procedure-Buyer is present)}",
+        "condition" : "{ND-ContractingParty} ${(BT-11-Procedure-Buyer in ['org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la', 'eu-ins-bod-ag', 'def-cont', 'int-org']) and not(BT-02-notice == 'can-modif') and (BT-740-Procedure-Buyer is present)}",
         "value" : "{ND-ContractingParty} ${BT-740-Procedure-Buyer == 'not-cont-ent'}",
         "severity" : "ERROR",
         "message" : "rule|text|R-V8C-1Q1"
