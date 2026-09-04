@@ -1,6 +1,16 @@
 // View 22
 // File generated from metadata database
-let $lot-by-lot-or-gol-id index BT-137-Lot by BT-137-Lot;let $lot-name-by-lot-or-gol-id index BT-21-Lot by BT-137-Lot;let text*:$tender_ids_global = OPT-321-Tender;let indicator:?exists-common-value(text*:$seq1, text*:$seq2) = (count(value-intersect($seq1, $seq2)) > 0); let template:currency-value(text:$field-pred, text:$field) DISPLAY #{field|name|${$field}}: ${format-number(number($field-pred), '###,##0.##')};// #{${concat('code|name|currency.', ${$field/@currencyID})}}let template:role-and-name(text:$label-id, text:$org-tpo-id) WHEN $org-tpo-id in OPT-200-Organization-Company DISPLAY #{${$label-id}}: ${BT-500-Organization-Company[OPT-200-Organization-Company == $org-tpo-id]:preferredLanguageText} OTHERWISE DISPLAY #{${$label-id}}: ${BT-500-Organization-Company[$org-tpo-id in OPT-201-Organization-TouchPoint]:preferredLanguageText} - ${BT-500-Organization-TouchPoint[OPT-201-Organization-TouchPoint == $org-tpo-id]:preferredLanguageText};let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organization-Company[OPT-200-Organization-Company == $org-id]:preferredLanguageText}; // GLOBALS // let $lot-name-by-gol-id index BT-21-Lot by ( for text:$this-lot-id in BT-137-Lot return BT-330-Procedure[ $this-lot-id in BT-1375-Procedure]);// let text:?org-tpo-name(text:$id) = if ($id in OPT-201-Organization-TouchPoint) then concat(BT-500-Organization-Company[$id in OPT-201-Organization-TouchPoint], ' - ', BT-500-Organization-TouchPoint[$id in OPT-201-Organization-TouchPoint]) else BT-500-Organization-Company[$id in OPT-200-Organization-Company];
+let $lot-by-lot-or-gol-id index BT-137-Lot by BT-137-Lot;
+let $lot-name-by-lot-or-gol-id index BT-21-Lot by BT-137-Lot;
+let text*:$tender_ids_global = OPT-321-Tender;
+let indicator:?exists-common-value(text*:$seq1, text*:$seq2) = (count(value-intersect($seq1, $seq2)) > 0); 
+let template:currency-value(text:$field-pred, text:$field) DISPLAY #{field|name|${$field}}: ${format-number(number($field-pred), '###,##0.##')};
+// #{${concat('code|name|currency.', ${$field/@currencyID})}}
+let template:role-and-name(text:$label-id, text:$org-tpo-id) WHEN $org-tpo-id in OPT-200-Organization-Company DISPLAY #{${$label-id}}: ${BT-500-Organization-Company[OPT-200-Organization-Company == $org-tpo-id]:preferredLanguageText} OTHERWISE DISPLAY #{${$label-id}}: ${BT-500-Organization-Company[$org-tpo-id in OPT-201-Organization-TouchPoint]:preferredLanguageText} - ${BT-500-Organization-TouchPoint[OPT-201-Organization-TouchPoint == $org-tpo-id]:preferredLanguageText};
+let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organization-Company[OPT-200-Organization-Company == $org-id]:preferredLanguageText};
+ // GLOBALS 
+// let $lot-name-by-gol-id index BT-21-Lot by ( for text:$this-lot-id in BT-137-Lot return BT-330-Procedure[ $this-lot-id in BT-1375-Procedure]);
+// let text:?org-tpo-name(text:$id) = if ($id in OPT-201-Organization-TouchPoint) then concat(BT-500-Organization-Company[$id in OPT-201-Organization-TouchPoint], ' - ', BT-500-Organization-TouchPoint[$id in OPT-201-Organization-TouchPoint]) else BT-500-Organization-Company[$id in OPT-200-Organization-Company];
 1 WITH OPT-300-Procedure-Buyer DISPLAY #{auxiliary|text|buyer}; // 1 Buyer
 	1 WITH ND-ContractingParty DISPLAY #{auxiliary|text|buyer}; // 1.1 Buyer
 		WITH ND-ContractingParty, text:$orgid=OPT-300-Procedure-Buyer DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company:preferredLanguageText}; // Official name
@@ -234,7 +244,17 @@ let $lot-by-lot-or-gol-id index BT-137-Lot by BT-137-Lot;let $lot-name-by-lot-or
 			WITH OPT-301-Lot-TenderReceipt INVOKE role-and-name('auxiliary|text|organisation-tender-recipient', OPT-301-Lot-TenderReceipt); // Organisation receiving requests to participate/Tender (Lot)
 			WITH OPT-301-Lot-TenderEval INVOKE role-and-name('auxiliary|text|organisation-processing-tenders', OPT-301-Lot-TenderEval); // Organisation processing requests to participate/Tender (Lot)
 8 WITH ND-Root DISPLAY #{auxiliary|text|organisations}; // 8 Organisations
-	1 WITH ND-Organization,        text:$orgid = OPT-200-Organization-Company,        text*:$tpoid = OPT-201-Organization-TouchPoint,       text*:$uboid = OPT-302-Organization,        indicator:$org_is_tenderer = if (($orgid in OPT-300-Tenderer) or ($orgid in OPT-301-Tenderer-SubCont)) then TRUE else FALSE,       text*:$lotswon = distinct-values(for text:$tpaid in OPT-210-Tenderer[$orgid in OPT-300-Tenderer],                                        text:$tenderid in OPT-321-Tender[OPT-310-Tender == $tpaid],                                        text:$contractid in OPT-315-LotResult[$tenderid in BT-3202-Contract],                                        text:$lrid in OPT-322-LotResult[ $tenderid in OPT-320-LotResult[$contractid in OPT-315-LotResult]],                                        text:$lotid in BT-13713-LotResult[OPT-322-LotResult == $lrid] return $lotid) DISPLAY ${OPT-200-Organization-Company}  ${$lotswon}; // 8.1 Organisation Technical Identifier
+	1 WITH ND-Organization, 
+	       text:$orgid = OPT-200-Organization-Company, 
+	       text*:$tpoid = OPT-201-Organization-TouchPoint,
+	       text*:$uboid = OPT-302-Organization, 
+	       indicator:$org_is_tenderer = if (($orgid in OPT-300-Tenderer) or ($orgid in OPT-301-Tenderer-SubCont)) then TRUE else FALSE,
+	       text*:$lotswon = distinct-values(for text:$tpaid in OPT-210-Tenderer[$orgid in OPT-300-Tenderer], 
+	                                       text:$tenderid in OPT-321-Tender[OPT-310-Tender == $tpaid], 
+	                                       text:$contractid in OPT-315-LotResult[$tenderid in BT-3202-Contract], 
+	                                       text:$lrid in OPT-322-LotResult[ $tenderid in OPT-320-LotResult[$contractid in OPT-315-LotResult]], 
+	                                       text:$lotid in BT-13713-LotResult[OPT-322-LotResult == $lrid] return $lotid) 
+	DISPLAY ${OPT-200-Organization-Company}  ${$lotswon}; // 8.1 Organisation Technical Identifier
 		WITH ND-Organization WHEN BT-500-Organization-Company == 'unpublished' DISPLAY #{field|name|BT-500-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company:preferredLanguageText} ; // Organisation Name
 		WITH BT-501-Organization-Company WHEN BT-501-Organization-Company == 'unpublished' DISPLAY #{field|name|BT-501-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} ; // Organization Identifier
 		WITH BT-16-Organization-Company WHEN BT-16-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Part Name
