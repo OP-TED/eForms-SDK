@@ -1,4 +1,15 @@
-# SDK 1.16.0-beta.1 Release Notes
+# SDK 1.16.0-beta.2 Release Notes
+
+## SDK 1.16.0-beta.2
+
+The purpose of this release is to correct some omissions found in the previous one.
+
+Please find below an overview of the corrections made to the problems identified in Beta 1:
+* Restoration of two validation rules that were missing, concerning the ‘Legal basis’ (BT-01-notice) and the ‘Disclosure date’ (BT-198-notice)
+* Deletion of the labels of rules that no longer exist, left behind when the rules of the former ‘unpublished fields’ approach were removed
+* Deletion of two code lists that are no longer used by any field, namely ‘non-publication-identifier’ and ‘notice-reference’
+
+## SDK 1.16.0-beta.1
 
 The purpose of this Beta release is to introduce the upcoming changes regarding the new approach towards undisclosed fields (formerly known as ‘unpublished fields’).
 
@@ -18,7 +29,7 @@ Please find below an overview of the changes to the ‘undisclosed fields’ app
 
 Please note that this is a non-exhaustive list and it does not cover the details of all changes. 
 
-A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-beta.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-beta.1> or through the SDK Explorer <https://docs.ted.europa.eu/eforms-sdk-explorer/>.
+A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-beta.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-beta.2> or through the SDK Explorer <https://docs.ted.europa.eu/eforms-sdk-explorer/>.
 
 # SDK 1.15.1 Release Notes
 
