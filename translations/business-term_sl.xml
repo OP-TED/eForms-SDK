@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Ime kraja (mesta, naselja ali vasi) kraja izvedbe.</entry>
 <entry key="business-term|description|BT-514">Država fizičnega naslova organizacije.</entry>
 <entry key="business-term|description|BT-5141">Koda države kraja izvedbe.</entry>
-<entry key="business-term|description|BT-52">Postopek bo potekal v več stopnjah. Na vsaki stopnji se lahko nekaj udeležencev izloči.</entry>
+<entry key="business-term|description|BT-52">Postopek bo potekal v zaporednih fazah. Po drugi fazi je mogoče v vsaki naslednji fazi izločiti nekatere udeležence.</entry>
 <entry key="business-term|description|BT-53">Kupec si pridrži pravico (ne gre za obveznost) do dodatnih nakupov od izvajalca (dokler velja pogodba).</entry>
 <entry key="business-term|description|BT-531">Vrsta (npr. storitve) predmeta nakupa poleg glavne vrste.</entry>
 <entry key="business-term|description|BT-536">(Predvideni) datum, na katerega bo začelo veljati naročilo, okvirni sporazum, dinamični nabavni sistem ali kvalifikacijski sistem.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Izjema od uporabe ukrepa IPI</entry>
 <entry key="business-term|description|BT-688">Opis in utemeljitev za uporabo prevladujočih razlogov, povezanih z javnim interesom</entry>
 <entry key="business-term|description|BT-70">Glavni podatki o izvedbi naročila (npr. vmesni rezultati, nadomestilo za škodo, pravice intelektualne lastnine).</entry>
-<entry key="business-term|description|BT-701">Evropski identifikator obvestila o javnem naročilu iz tega obvestila. Če je ta identifikator naveden v vseh objavljenih različicah tega obvestila (npr. v TED, na nacionalnih portalih za objavljanje in regionalnih portalih za objavljanje), je mogoče obvestilo o javnem naročilu enotno identificirati po vsej Uniji.</entry>
+<entry key="business-term|description|BT-701">Identifikator evropskega obvestila o javnem naročilu za to obvestilo.</entry>
 <entry key="business-term|description|BT-702">Jeziki, v katerih je to obvestilo uradno objavljeno. Te jezikovne različice imajo enako pravno veljavo.</entry>
 <entry key="business-term|description|BT-706">Državljanstva dejanskih lastnikov zmagovalca, ponudnika ali podizvajalca, kot so objavljena v registrih, vzpostavljenih z Direktivo (EU) 2018/843 Evropskega parlamenta in Sveta. Če takega registra ni (npr. pri izvajalcih s sedežem zunaj Unije), se navedejo enakovredne informacije iz drugih virov.</entry>
 <entry key="business-term|description|BT-707">Razlog za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Za elektronsko komunikacijo je treba uporabljati orodja in naprave, ki niso splošno dostopni.</entry>
 <entry key="business-term|description|BT-725">Število brezemisijskih težkih vozil v skladu z opredelitvijo iz Direktive 2009/33/ES, ki spadajo na področje uporabe navedene direktive. Ta vozila so bila kupljena, zakupljena, najeta, kupljena s pridržanim lastništvom ali pa je bila njihova uporaba pogodbeno zagotovljena za opravljanje nabavljene storitve, ki spada na področje uporabe Direktive 2009/33/ES.</entry>
 <entry key="business-term|description|BT-726">Kupec poudarja, da je to javno naročilo primerno tudi za mala in srednja podjetja (MSP).</entry>
-<entry key="business-term|description|BT-727">Obstajajo druge omejitve glede kraja izvedbe (npr. „kjer koli v Evropskem gospodarskem prostoru“, „kjer koli v določeni državi“).</entry>
+<entry key="business-term|description|BT-727">Če kraj izvedbe ali dobave ni omejen na določen naslov ali regijo, se lahko opredeli s širšim geografskim obsegom.</entry>
 <entry key="business-term|description|BT-728">Dodatne informacije o kraju izvedbe.</entry>
 <entry key="business-term|description|BT-729">Najvišji odstotek vrednosti naročila, ki ga mora izvajalec oddati podizvajalcem z uporabo konkurenčnega postopka iz naslova III Direktive 2009/81/ES.</entry>
 <entry key="business-term|description|BT-730">Kupec pozna vsaj ocenjeno vrednost tistega dela naročila, ki ga bo izvajalec oddal v podizvajanje tretjim osebam.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Dodatne informacije o sporazumu o nerazkrivanju podatkov.</entry>
 <entry key="business-term|description|BT-803">Datum in ura, ko je ePošiljatelj obvestilo po elektronski poti poslal Uradu za publikacije Evropske unije.</entry>
 <entry key="business-term|description|BT-805">Postopek za oddajo javnega naročila vključuje uporabo meril za zeleno javno naročanje (pogoji za sodelovanje, tehnične specifikacije, merila za oddajo in določbe o izvedbi javnega naročila), vzpostavljenih na nacionalni, EU ali drugi ravni, če je ustrezno.</entry>
-<entry key="business-term|description|BT-806">Če so opisani razlogi za izključitev, npr.v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
+<entry key="business-term|description|BT-806">Če so opisani razlogi za izključitev, npr.v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila zahteva.</entry>
 <entry key="business-term|description|BT-809">Merilo za izbor.</entry>
 <entry key="business-term|description|BT-810">Za ta postopek javnega naročila se uporablja direktiva o energetski učinkovitosti (Direktiva (EU) 2023/1791).</entry>
 <entry key="business-term|description|BT-811">Izbor proizvodov, gradbenih del in storitev, zajetih v direktivi o označevanju z energijskimi nalepkami, direktivi o okoljsko primerni zasnovi, merilih za zelena javna naročila Unije in v uredbi 2020/740. Za namene poročanja so vključene tudi stavbe, za katere velja obveznost iz člena 7 direktive o energijski učinkovitosti. Ker ima seznam dve ravni, je razdeljen na (a) osnovo, denimo „znak za okolje“, in (b) konkretni artikel, denimo „pomivalni stroji“.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Vrednost porabe energije v kWh/leto za izdelke, za katere ne obstaja nalepka, in prihranek energije v kWh/leto za storitve, zgradbe ali dela. Za izdelke prosimo, da poročate o letni porabi energije izdelka. Za storitve, dela in zgradbe prosimo, da poročate o letnem prihranku energije.</entry>
 <entry key="business-term|description|BT-814">Vrednost prihrankov energije v kWh/leto za proizvode, storitve, gradbena dela in stavbe. Navedite letne prihranke energije.</entry>
 <entry key="business-term|description|BT-815">Znana ali ocenjena količina. Za proizvode navedite število proizvodov. Za stavbe navedite uporabno tlorisno površino v kvadratnih metrih. Za dela ali storitve bo vrednost običajno 1.</entry>
-<entry key="business-term|description|BT-821">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
+<entry key="business-term|description|BT-821">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila zahteva.</entry>
 <entry key="business-term|description|BT-88">Glavne značilnosti postopka (npr. opis posameznih stopenj) in podatki o tem, kje je mogoče najti celotna pravila postopka. Ti podatki se navedejo, če postopek ne spada med tiste, ki so navedeni v direktivah o javnem naročanju. To je npr. lahko pri koncesijah, socialnih in drugih posebnih storitvah ter pri prostovoljni objavi postopkov za oddajo javnega naročila, ki ne dosegajo praga EU za javna naročila.</entry>
 <entry key="business-term|description|BT-92">Uporabljeno bo elektronsko naročanje.</entry>
 <entry key="business-term|description|BT-93">Uporabljeno bo elektronsko plačilo.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metoda, ki se uporablja za izračun načrtovane vrednosti koncesije</entry>
 <entry key="business-term|name|BT-165">Velikost gospodarskega subjekta</entry>
 <entry key="business-term|name|BT-17">Elektronska predložitev</entry>
-<entry key="business-term|name|BT-171">Razvrstitev na seznamu zmagovalcev</entry>
+<entry key="business-term|name|BT-171">Uvrstitev ponudbe</entry>
 <entry key="business-term|name|BT-1711">Ponudba je bila razvrščena</entry>
 <entry key="business-term|name|BT-18">Naslov za predložitev</entry>
 <entry key="business-term|name|BT-19">Obrazložitev, zakaj elektronska predložitev ni mogoča</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Mesto</entry>
 <entry key="business-term|name|BT-514">Država</entry>
 <entry key="business-term|name|BT-5141">Država</entry>
-<entry key="business-term|name|BT-52">Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči</entry>
+<entry key="business-term|name|BT-52">Postopek bo potekal v zaporednih fazah. Po drugi fazi je mogoče v vsaki naslednji fazi izločiti nekatere udeležence.</entry>
 <entry key="business-term|name|BT-53">Opcije</entry>
 <entry key="business-term|name|BT-531">Dodatna vrsta javnega naročila</entry>
 <entry key="business-term|name|BT-536">Datum začetka</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Izjema od uporabe ukrepa IPI</entry>
 <entry key="business-term|name|BT-688">Prevladujoči razlogi, povezani z javnim interesom</entry>
 <entry key="business-term|name|BT-70">Pogoji, povezani z izvajanjem javnega naročila</entry>
-<entry key="business-term|name|BT-701">Identifikator/različica obvestila</entry>
+<entry key="business-term|name|BT-701">Identifikator obvestila</entry>
 <entry key="business-term|name|BT-702">Jeziki, v katerih je uradno dostopno to obvestilo</entry>
 <entry key="business-term|name|BT-706">Državljanstvo lastnika</entry>
 <entry key="business-term|name|BT-707">Obrazložitev za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Uporablja se ad hoc komunikacijsko orodje</entry>
 <entry key="business-term|name|BT-725">Število brezemisijskih težkih vozil</entry>
 <entry key="business-term|name|BT-726">To javno naročilo je primerno tudi za mala in srednja podjetja (MSP)</entry>
-<entry key="business-term|name|BT-727">Druge omejitve glede kraja izvedbe</entry>
+<entry key="business-term|name|BT-727">Kraj izvedbe – Geografski obseg</entry>
 <entry key="business-term|name|BT-728">Dodatne informacije</entry>
 <entry key="business-term|name|BT-729">Najvišji delež vrednosti javnega naročila, ki jo lahko izvajalec odda podizvajalcem</entry>
 <entry key="business-term|name|BT-730">Vrednost oddaje naročil podizvajalcem je znana</entry>

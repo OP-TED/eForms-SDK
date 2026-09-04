@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern id="EFORMS-validation-stage-5-E4" xmlns="http://purl.oclc.org/dsdl/schematron">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efbc:InformationDisclosureDate">
+        <assert id="R-2K5-288" role="ERROR" test="(boolean(for $T in (current-date()) return ($T + (xs:dayTimeDuration(./xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text()))) &lt; $T + xs:yearMonthDuration('P5Y')))) and (boolean(for $T in (current-date()) return ($T + (xs:dayTimeDuration(./xs:date(text()) - ../../../../../../cbc:IssueDate/xs:date(text()))) &gt;= $T + xs:dayTimeDuration('P2D'))))">rule|text|R-2K5-288</assert>
+    </rule>
+    <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']">
+        <assert id="R-8X7-QPX" role="ERROR" diagnostics="ND-Lot_BT-137-Lot" test="((cbc:ID/normalize-space(text()) = ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID/normalize-space(text()))) or (not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID))">rule|text|R-8X7-QPX</assert>
+    </rule>
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult">
+        <assert id="R-VXR-RRM" role="ERROR" diagnostics="ND-LotResult_BT-13713-LotResult" test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-small']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-micro']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-med']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-sme']/number()) = 0)) or ((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-small']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-micro']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-med']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-sme']/number()) = 1))">rule|text|R-VXR-RRM</assert>
+        <assert id="R-KUR-MV6" role="ERROR" diagnostics="ND-LotResult_BT-13713-LotResult" test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-large']/number()) = 1)) or (not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode)))">rule|text|R-KUR-MV6</assert>
+        <assert id="R-W4X-DYE" role="ERROR" diagnostics="ND-LotResult_BT-13713-LotResult" test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-no-eea']/number()) = 1)">rule|text|R-W4X-DYE</assert>
+        <assert id="R-9MG-WIJ" role="ERROR" diagnostics="ND-LotResult_BT-13713-LotResult" test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-oth-eea']/number()) = 1)) or (not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode)))">rule|text|R-9MG-WIJ</assert>
+        <assert id="R-6IN-5N7" role="ERROR" diagnostics="ND-LotResult_BT-13713-LotResult" test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 'tenders']/number()) = 1) or (not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode)))">rule|text|R-6IN-5N7</assert>
+    </rule>
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender">
+        <assert id="R-SP1-5CE" role="ERROR" diagnostics="ND-LotTender_OPT-321-Tender" test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID/normalize-space(text()))">rule|text|R-SP1-5CE</assert>
+    </rule>
+    <rule context="/*">
+        <assert id="R-ROU-1GW" role="ERROR" diagnostics="ND-Root_BT-01-notice" test="((cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:ID) or (cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription)) or (not((cbc:RegulatoryDomain/normalize-space(text()) = 'other')))">rule|text|R-ROU-1GW</assert>
+    </rule>
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension">
+        <assert id="R-6XG-4D2" role="ERROR" diagnostics="ND-RootExtension_OPP-070-notice" test="(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'can-standard')">rule|text|R-6XG-4D2</assert>
+    </rule>
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
+        <assert id="R-6LB-5HP" role="ERROR" diagnostics="ND-SettledContract_BT-145-Contract" test="(cbc:IssueDate/xs:date(text()) &lt;= ../../../../../../cbc:IssueDate/xs:date(text())) or (not((cbc:IssueDate) and (../../../../../../cbc:IssueDate)))">rule|text|R-6LB-5HP</assert>
+    </rule>
+</pattern>

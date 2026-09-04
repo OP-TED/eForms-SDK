@@ -49,14 +49,8 @@
         <assert id="R-V2P-4ND" role="ERROR" diagnostics="ND-ContractModification_BT-1501_n_-Contract" test="not(efbc:ChangedNoticeIdentifier)">rule|text|R-V2P-4ND</assert>
     </rule>
     <rule context="/*/cac:ContractingParty">
-        <assert id="R-H9D-VB3" role="ERROR" diagnostics="ND-ContractingParty_BT-11-Procedure-Buyer" test="cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']">rule|text|R-H9D-VB3</assert>
-        <assert id="R-CG1-KVY" role="ERROR" diagnostics="ND-ContractingParty_BT-740-Procedure-Buyer" test="cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']">rule|text|R-CG1-KVY</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']">
-        <assert id="R-47A-AAY" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-195_BT-191_-Tender" test="not(efbc:FieldIdentifierCode)">rule|text|R-47A-AAY</assert>
-        <assert id="R-H19-GET" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-196_BT-191_-Tender" test="not(efbc:ReasonDescription)">rule|text|R-H19-GET</assert>
-        <assert id="R-XVG-4HJ" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-197_BT-191_-Tender" test="not(cbc:ReasonCode)">rule|text|R-XVG-4HJ</assert>
-        <assert id="R-3BN-XSZ" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-198_BT-191_-Tender" test="not(efbc:PublicationDate)">rule|text|R-3BN-XSZ</assert>
+        <assert id="R-H9D-VB3" role="ERROR" diagnostics="ND-ContractingParty_BT-11-Procedure-Buyer" test="cac:ContractingPartyType[cbc:PartyTypeCode/@listName='buyer-legal-type']/cbc:PartyTypeCode[@listName='buyer-legal-type']">rule|text|R-H9D-VB3</assert>
+        <assert id="R-CG1-KVY" role="ERROR" diagnostics="ND-ContractingParty_BT-740-Procedure-Buyer" test="cac:ContractingPartyType[cbc:PartyTypeCode/@listName='buyer-contracting-type']/cbc:PartyTypeCode[@listName='buyer-contracting-type']">rule|text|R-CG1-KVY</assert>
     </rule>
     <rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']">
         <assert id="R-MS8-J3I" role="ERROR" diagnostics="ND-EuEntity_BT-500-Business-European" test="not(cbc:RegistrationName)">rule|text|R-MS8-J3I</assert>
@@ -86,24 +80,6 @@
         <assert id="R-MQH-DC9" role="ERROR" diagnostics="ND-GazetteReference_OPP-122-Business" test="not(cac:Attachment/cac:ExternalReference/cbc:URI)">rule|text|R-MQH-DC9</assert>
         <assert id="R-0KZ-PFZ" role="ERROR" diagnostics="ND-GazetteReference_OPP-123-Business" test="not(cbc:IssueDate)">rule|text|R-0KZ-PFZ</assert>
         <assert id="R-8SB-LZJ" role="ERROR" diagnostics="ND-GazetteReference_OPP-124-Business" test="not(cbc:ID)">rule|text|R-8SB-LZJ</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide']">
-        <assert id="R-Q6A-TO6" role="ERROR" diagnostics="ND-GroupMaximalValueIdentifierUnpublish_BT-195_BT-556_-NoticeResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-Q6A-TO6</assert>
-        <assert id="R-GMH-7XO" role="ERROR" diagnostics="ND-GroupMaximalValueIdentifierUnpublish_BT-196_BT-556_-NoticeResult" test="not(efbc:ReasonDescription)">rule|text|R-GMH-7XO</assert>
-        <assert id="R-GNU-5HQ" role="ERROR" diagnostics="ND-GroupMaximalValueIdentifierUnpublish_BT-197_BT-556_-NoticeResult" test="not(cbc:ReasonCode)">rule|text|R-GNU-5HQ</assert>
-        <assert id="R-J13-WBW" role="ERROR" diagnostics="ND-GroupMaximalValueIdentifierUnpublish_BT-198_BT-556_-NoticeResult" test="not(efbc:PublicationDate)">rule|text|R-J13-WBW</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val']">
-        <assert id="R-OR5-QY1" role="ERROR" diagnostics="ND-GroupMaximumValueUnpublish_BT-195_BT-156_-NoticeResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-OR5-QY1</assert>
-        <assert id="R-BOO-T9Z" role="ERROR" diagnostics="ND-GroupMaximumValueUnpublish_BT-196_BT-156_-NoticeResult" test="not(efbc:ReasonDescription)">rule|text|R-BOO-T9Z</assert>
-        <assert id="R-IJ2-63Q" role="ERROR" diagnostics="ND-GroupMaximumValueUnpublish_BT-197_BT-156_-NoticeResult" test="not(cbc:ReasonCode)">rule|text|R-IJ2-63Q</assert>
-        <assert id="R-8KS-9KA" role="ERROR" diagnostics="ND-GroupMaximumValueUnpublish_BT-198_BT-156_-NoticeResult" test="not(efbc:PublicationDate)">rule|text|R-8KS-9KA</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']">
-        <assert id="R-66R-A4G" role="ERROR" diagnostics="ND-GroupReestimatedValueUnpublish_BT-195_BT-1561_-NoticeResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-66R-A4G</assert>
-        <assert id="R-V70-KOX" role="ERROR" diagnostics="ND-GroupReestimatedValueUnpublish_BT-196_BT-1561_-NoticeResult" test="not(efbc:ReasonDescription)">rule|text|R-V70-KOX</assert>
-        <assert id="R-54P-GHP" role="ERROR" diagnostics="ND-GroupReestimatedValueUnpublish_BT-197_BT-1561_-NoticeResult" test="not(cbc:ReasonCode)">rule|text|R-54P-GHP</assert>
-        <assert id="R-N7J-DA5" role="ERROR" diagnostics="ND-GroupReestimatedValueUnpublish_BT-198_BT-1561_-NoticeResult" test="not(efbc:PublicationDate)">rule|text|R-N7J-DA5</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod">
         <assert id="R-L3Q-VA2" role="ERROR" diagnostics="ND-InterestExpressionReceptionPeriod_BT-630_t_-Lot" test="not(cbc:EndTime)">rule|text|R-L3Q-VA2</assert>
@@ -235,12 +211,6 @@
         <assert id="R-K2Z-CRL" role="ERROR" diagnostics="ND-LotsGroupProcurementScope_BT-271-LotsGroup" test="not(cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount)">rule|text|R-K2Z-CRL</assert>
         <assert id="R-B11-8XK" role="ERROR" diagnostics="ND-LotsGroupProcurementScope_BT-726-LotsGroup" test="not(cbc:SMESuitableIndicator)">rule|text|R-B11-8XK</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']">
-        <assert id="R-J4B-S1A" role="ERROR" diagnostics="ND-MaximalValueUnpublish_BT-195_BT-709_-LotResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-J4B-S1A</assert>
-        <assert id="R-ICM-K85" role="ERROR" diagnostics="ND-MaximalValueUnpublish_BT-196_BT-709_-LotResult" test="not(efbc:ReasonDescription)">rule|text|R-ICM-K85</assert>
-        <assert id="R-2QG-FS8" role="ERROR" diagnostics="ND-MaximalValueUnpublish_BT-197_BT-709_-LotResult" test="not(cbc:ReasonCode)">rule|text|R-2QG-FS8</assert>
-        <assert id="R-BWS-9FF" role="ERROR" diagnostics="ND-MaximalValueUnpublish_BT-198_BT-709_-LotResult" test="not(efbc:PublicationDate)">rule|text|R-BWS-9FF</assert>
-    </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change">
         <assert id="R-0IU-8M5" role="ERROR" diagnostics="ND-Modification_BT-202-Contract" test="not(efbc:ChangeDescription)">rule|text|R-0IU-8M5</assert>
     </rule>
@@ -259,18 +229,6 @@
         <assert id="R-T85-FD0" role="ERROR" diagnostics="ND-NonUBLTenderingTerms_BT-5010-Lot" test="not(efac:Funding/efbc:FinancingIdentifier)">rule|text|R-T85-FD0</assert>
         <assert id="R-LCL-UYG" role="ERROR" diagnostics="ND-NonUBLTenderingTerms_BT-651-Lot" test="not(efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode)">rule|text|R-LCL-UYG</assert>
         <assert id="R-UBW-TRW" role="ERROR" diagnostics="ND-NonUBLTenderingTerms_BT-7220-Lot" test="not(efac:Funding/cbc:FundingProgramCode)">rule|text|R-UBW-TRW</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-app-val']">
-        <assert id="R-W1E-BTI" role="ERROR" diagnostics="ND-NoticeApproximateValueUnpublish_BT-195_BT-1118_-NoticeResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-W1E-BTI</assert>
-        <assert id="R-QIZ-9N8" role="ERROR" diagnostics="ND-NoticeApproximateValueUnpublish_BT-196_BT-1118_-NoticeResult" test="not(efbc:ReasonDescription)">rule|text|R-QIZ-9N8</assert>
-        <assert id="R-FLQ-W0C" role="ERROR" diagnostics="ND-NoticeApproximateValueUnpublish_BT-197_BT-1118_-NoticeResult" test="not(cbc:ReasonCode)">rule|text|R-FLQ-W0C</assert>
-        <assert id="R-260-TVI" role="ERROR" diagnostics="ND-NoticeApproximateValueUnpublish_BT-198_BT-1118_-NoticeResult" test="not(efbc:PublicationDate)">rule|text|R-260-TVI</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val']">
-        <assert id="R-SDW-D07" role="ERROR" diagnostics="ND-NoticeMaximumValueUnpublish_BT-195_BT-118_-NoticeResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-SDW-D07</assert>
-        <assert id="R-P24-4NZ" role="ERROR" diagnostics="ND-NoticeMaximumValueUnpublish_BT-196_BT-118_-NoticeResult" test="not(efbc:ReasonDescription)">rule|text|R-P24-4NZ</assert>
-        <assert id="R-028-B1I" role="ERROR" diagnostics="ND-NoticeMaximumValueUnpublish_BT-197_BT-118_-NoticeResult" test="not(cbc:ReasonCode)">rule|text|R-028-B1I</assert>
-        <assert id="R-262-OUG" role="ERROR" diagnostics="ND-NoticeMaximumValueUnpublish_BT-198_BT-118_-NoticeResult" test="not(efbc:PublicationDate)">rule|text|R-262-OUG</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult">
         <assert id="R-9R8-QU3" role="ERROR" diagnostics="ND-NoticeResult_BT-1118-NoticeResult" test="not(efbc:OverallApproximateFrameworkContractsAmount)">rule|text|R-9R8-QU3</assert>
@@ -404,18 +362,6 @@
         <assert id="R-SAP-OUX" role="ERROR" diagnostics="ND-Prize_BT-44-Lot" test="not(cbc:RankCode)">rule|text|R-SAP-OUX</assert>
         <assert id="R-GL1-30P" role="ERROR" diagnostics="ND-Prize_BT-45-Lot" test="not(cbc:Description)">rule|text|R-GL1-30P</assert>
     </rule>
-    <rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc-jus']">
-        <assert id="R-079-TTX" role="ERROR" diagnostics="ND-ProcedureAcceleratedJustificationUnpublish_BT-195_BT-1351_-Procedure" test="not(efbc:FieldIdentifierCode)">rule|text|R-079-TTX</assert>
-        <assert id="R-5LP-MGM" role="ERROR" diagnostics="ND-ProcedureAcceleratedJustificationUnpublish_BT-196_BT-1351_-Procedure" test="not(efbc:ReasonDescription)">rule|text|R-5LP-MGM</assert>
-        <assert id="R-7SC-OCM" role="ERROR" diagnostics="ND-ProcedureAcceleratedJustificationUnpublish_BT-197_BT-1351_-Procedure" test="not(cbc:ReasonCode)">rule|text|R-7SC-OCM</assert>
-        <assert id="R-JEE-C55" role="ERROR" diagnostics="ND-ProcedureAcceleratedJustificationUnpublish_BT-198_BT-1351_-Procedure" test="not(efbc:PublicationDate)">rule|text|R-JEE-C55</assert>
-    </rule>
-    <rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc']">
-        <assert id="R-1LH-6SF" role="ERROR" diagnostics="ND-ProcedureAcceleratedUnpublish_BT-195_BT-106_-Procedure" test="not(efbc:FieldIdentifierCode)">rule|text|R-1LH-6SF</assert>
-        <assert id="R-7KF-U1X" role="ERROR" diagnostics="ND-ProcedureAcceleratedUnpublish_BT-196_BT-106_-Procedure" test="not(efbc:ReasonDescription)">rule|text|R-7KF-U1X</assert>
-        <assert id="R-L0X-IH1" role="ERROR" diagnostics="ND-ProcedureAcceleratedUnpublish_BT-197_BT-106_-Procedure" test="not(cbc:ReasonCode)">rule|text|R-L0X-IH1</assert>
-        <assert id="R-F4B-UDD" role="ERROR" diagnostics="ND-ProcedureAcceleratedUnpublish_BT-198_BT-106_-Procedure" test="not(efbc:PublicationDate)">rule|text|R-F4B-UDD</assert>
-    </rule>
     <rule context="/*/cac:ProcurementProject">
         <assert id="R-QUR-467" role="ERROR" diagnostics="ND-ProcedureProcurementScope_BT-21-Procedure" test="cbc:Name">rule|text|R-QUR-467</assert>
         <assert id="R-TRD-396" role="ERROR" diagnostics="ND-ProcedureProcurementScope_BT-23-Procedure" test="cbc:ProcurementTypeCode">rule|text|R-TRD-396</assert>
@@ -433,12 +379,6 @@
         <assert id="R-0EJ-DTW" role="ERROR" diagnostics="ND-ProcedureTerms_BT-33-Procedure" test="not(cac:LotDistribution/cbc:MaximumLotsAwardedNumeric)">rule|text|R-0EJ-DTW</assert>
         <assert id="R-0TN-ZH9" role="ERROR" diagnostics="ND-ProcedureTerms_BT-806-Procedure" test="not(cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-grounds-source']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode)">rule|text|R-0TN-ZH9</assert>
     </rule>
-    <rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ']">
-        <assert id="R-PK2-M84" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish_BT-195_BT-105_-Procedure" test="not(efbc:FieldIdentifierCode)">rule|text|R-PK2-M84</assert>
-        <assert id="R-M8M-D1U" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish_BT-196_BT-105_-Procedure" test="not(efbc:ReasonDescription)">rule|text|R-M8M-D1U</assert>
-        <assert id="R-87M-829" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish_BT-197_BT-105_-Procedure" test="not(cbc:ReasonCode)">rule|text|R-87M-829</assert>
-        <assert id="R-6HX-Z4Y" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish_BT-198_BT-105_-Procedure" test="not(efbc:PublicationDate)">rule|text|R-6HX-Z4Y</assert>
-    </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent">
         <assert id="R-9O0-I7Y" role="ERROR" diagnostics="ND-PublicOpening_BT-132_t_-Lot" test="not(cbc:OccurrenceTime)">rule|text|R-9O0-I7Y</assert>
         <assert id="R-VIT-BWQ" role="ERROR" diagnostics="ND-PublicOpening_BT-133-Lot" test="not(cac:OccurenceLocation/cbc:Description)">rule|text|R-VIT-BWQ</assert>
@@ -446,12 +386,6 @@
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='customer-service']">
         <assert id="R-PFT-77Y" role="ERROR" diagnostics="ND-QualityTarget_OPT-072-Lot" test="not(cbc:Description)">rule|text|R-PFT-77Y</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']">
-        <assert id="R-TGT-7R9" role="ERROR" diagnostics="ND-ReestimatedValueUnpublish_BT-195_BT-660_-LotResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-TGT-7R9</assert>
-        <assert id="R-TYH-ITA" role="ERROR" diagnostics="ND-ReestimatedValueUnpublish_BT-196_BT-660_-LotResult" test="not(efbc:ReasonDescription)">rule|text|R-TYH-ITA</assert>
-        <assert id="R-E0X-7C2" role="ERROR" diagnostics="ND-ReestimatedValueUnpublish_BT-197_BT-660_-LotResult" test="not(cbc:ReasonCode)">rule|text|R-E0X-7C2</assert>
-        <assert id="R-99O-PDZ" role="ERROR" diagnostics="ND-ReestimatedValueUnpublish_BT-198_BT-660_-LotResult" test="not(efbc:PublicationDate)">rule|text|R-99O-PDZ</assert>
     </rule>
     <rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress">
         <assert id="R-1SU-H0Z" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-110-Business" test="not(cbc:CityName)">rule|text|R-1SU-H0Z</assert>
@@ -498,24 +432,6 @@
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-obligation']">
         <assert id="R-IM1-FVG" role="ERROR" diagnostics="ND-SubcontractingObligation_BT-64-Lot" test="not(cbc:MinimumPercent)">rule|text|R-IM1-FVG</assert>
         <assert id="R-WXR-SL1" role="ERROR" diagnostics="ND-SubcontractingObligation_BT-729-Lot" test="not(cbc:MaximumPercent)">rule|text|R-WXR-SL1</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran']">
-        <assert id="R-1ND-SB1" role="ERROR" diagnostics="ND-TenderRankUnpublish_BT-195_BT-171_-Tender" test="not(efbc:FieldIdentifierCode)">rule|text|R-1ND-SB1</assert>
-        <assert id="R-6YM-O4R" role="ERROR" diagnostics="ND-TenderRankUnpublish_BT-196_BT-171_-Tender" test="not(efbc:ReasonDescription)">rule|text|R-6YM-O4R</assert>
-        <assert id="R-NM9-EMY" role="ERROR" diagnostics="ND-TenderRankUnpublish_BT-197_BT-171_-Tender" test="not(cbc:ReasonCode)">rule|text|R-NM9-EMY</assert>
-        <assert id="R-KTO-NWV" role="ERROR" diagnostics="ND-TenderRankUnpublish_BT-198_BT-171_-Tender" test="not(efbc:PublicationDate)">rule|text|R-KTO-NWV</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig']">
-        <assert id="R-U78-KID" role="ERROR" diagnostics="ND-TenderValueHighestUnpublish_BT-195_BT-711_-LotResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-U78-KID</assert>
-        <assert id="R-H90-TAC" role="ERROR" diagnostics="ND-TenderValueHighestUnpublish_BT-196_BT-711_-LotResult" test="not(efbc:ReasonDescription)">rule|text|R-H90-TAC</assert>
-        <assert id="R-8FH-LJC" role="ERROR" diagnostics="ND-TenderValueHighestUnpublish_BT-197_BT-711_-LotResult" test="not(cbc:ReasonCode)">rule|text|R-8FH-LJC</assert>
-        <assert id="R-RNK-29V" role="ERROR" diagnostics="ND-TenderValueHighestUnpublish_BT-198_BT-711_-LotResult" test="not(efbc:PublicationDate)">rule|text|R-RNK-29V</assert>
-    </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low']">
-        <assert id="R-PMS-S8I" role="ERROR" diagnostics="ND-TenderValueLowestUnpublish_BT-195_BT-710_-LotResult" test="not(efbc:FieldIdentifierCode)">rule|text|R-PMS-S8I</assert>
-        <assert id="R-AMT-U35" role="ERROR" diagnostics="ND-TenderValueLowestUnpublish_BT-196_BT-710_-LotResult" test="not(efbc:ReasonDescription)">rule|text|R-AMT-U35</assert>
-        <assert id="R-14Z-UNG" role="ERROR" diagnostics="ND-TenderValueLowestUnpublish_BT-197_BT-710_-LotResult" test="not(cbc:ReasonCode)">rule|text|R-14Z-UNG</assert>
-        <assert id="R-L23-7T0" role="ERROR" diagnostics="ND-TenderValueLowestUnpublish_BT-198_BT-710_-LotResult" test="not(efbc:PublicationDate)">rule|text|R-L23-7T0</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]">
         <assert id="R-3TB-BZ3" role="ERROR" diagnostics="ND-TendererLegalForm_BT-76-Lot" test="not(cbc:CompanyLegalForm)">rule|text|R-3TB-BZ3</assert>

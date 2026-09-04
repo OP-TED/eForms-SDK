@@ -43,12 +43,6 @@
         <assert id="R-60M-J7T" role="ERROR" diagnostics="ND-ContractModification_BT-1501_c_-Contract" test="not(efbc:ModifiedContractIdentifier)">rule|text|R-60M-J7T</assert>
         <assert id="R-V2P-4ND" role="ERROR" diagnostics="ND-ContractModification_BT-1501_n_-Contract" test="not(efbc:ChangedNoticeIdentifier)">rule|text|R-V2P-4ND</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']">
-        <assert id="R-47A-AAY" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-195_BT-191_-Tender" test="not(efbc:FieldIdentifierCode)">rule|text|R-47A-AAY</assert>
-        <assert id="R-H19-GET" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-196_BT-191_-Tender" test="not(efbc:ReasonDescription)">rule|text|R-H19-GET</assert>
-        <assert id="R-XVG-4HJ" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-197_BT-191_-Tender" test="not(cbc:ReasonCode)">rule|text|R-XVG-4HJ</assert>
-        <assert id="R-3BN-XSZ" role="ERROR" diagnostics="ND-CountryOriginUnpublish_BT-198_BT-191_-Tender" test="not(efbc:PublicationDate)">rule|text|R-3BN-XSZ</assert>
-    </rule>
     <rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']">
         <assert id="R-MS8-J3I" role="ERROR" diagnostics="ND-EuEntity_BT-500-Business-European" test="not(cbc:RegistrationName)">rule|text|R-MS8-J3I</assert>
         <assert id="R-YOA-CP2" role="ERROR" diagnostics="ND-EuEntity_OPP-113-Business-European" test="not(cbc:RegistrationDate)">rule|text|R-YOA-CP2</assert>

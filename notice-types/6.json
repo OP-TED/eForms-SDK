@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "2.0.0-SNAPSHOT",
+  "sdkVersion" : "2.0.0-alpha.3",
   "metadataDatabase" : {
-    "version" : "1.14.28",
-    "createdOn" : "2026-03-25T09:34:18"
+    "version" : "1.14.54",
+    "createdOn" : "2026-09-03T20:01:08"
   },
   "noticeId" : "6",
   "metadata" : [ {
@@ -352,7 +352,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(m)-Procedure"
+            "_label" : "field|name|BT-26(m)-Procedure",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-262-Procedure",
             "contentType" : "field",
@@ -373,7 +375,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(a)-Procedure"
+            "_label" : "field|name|BT-26(a)-Procedure",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-263-Procedure",
             "contentType" : "field",
@@ -592,7 +596,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(m)-Part"
+            "_label" : "field|name|BT-26(m)-Part",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-262-Part",
             "contentType" : "field",
@@ -613,7 +619,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(a)-Part"
+            "_label" : "field|name|BT-26(a)-Part",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-263-Part",
             "contentType" : "field",
@@ -947,6 +955,30 @@
         "_label" : "group|name|GR-Part-ProcurementDocuments",
         "_repeatable" : true,
         "content" : [ {
+          "id" : "BT-14-Part",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Documents Restricted",
+          "_label" : "field|name|BT-14-Part"
+        }, {
+          "id" : "BT-707-Part",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Documents Restricted Justification",
+          "_label" : "field|name|BT-707-Part"
+        }, {
+          "id" : "BT-15-Part",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Documents URL",
+          "_label" : "field|name|BT-15-Part"
+        }, {
+          "id" : "BT-615-Part",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Documents Restricted URL",
+          "_label" : "field|name|BT-615-Part"
+        }, {
           "id" : "GR-Part-DocsAllOfficialLanguages",
           "contentType" : "group",
           "nodeId" : "ND-PartDocAllOfficialLanguages",
@@ -993,35 +1025,12 @@
             } ]
           } ]
         }, {
-          "id" : "BT-14-Part",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Documents Restricted",
-          "_label" : "field|name|BT-14-Part"
-        }, {
-          "id" : "BT-707-Part",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Documents Restricted Justification",
-          "_label" : "field|name|BT-707-Part"
-        }, {
-          "id" : "BT-15-Part",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Documents URL",
-          "_label" : "field|name|BT-15-Part"
-        }, {
-          "id" : "BT-615-Part",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Documents Restricted URL",
-          "_label" : "field|name|BT-615-Part"
-        }, {
           "id" : "OPT-140-Part",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procurement Documents ID",
-          "_label" : "field|name|OPT-140-Part"
+          "_label" : "field|name|OPT-140-Part",
+          "_presetValue" : "procurement_document_id"
         } ]
       }, {
         "id" : "GR-Part-SubmissionTool",

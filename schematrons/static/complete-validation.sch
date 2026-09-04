@@ -28,6 +28,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-1" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-1" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-2">
@@ -41,6 +42,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-2" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-2" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-3">
@@ -54,6 +56,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-3" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-3" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-4">
@@ -67,6 +70,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-4" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-4" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-5">
@@ -80,6 +84,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-5" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-5" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-6">
@@ -93,6 +98,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-6" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-6" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-7">
@@ -106,6 +112,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-7" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-7" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-8">
@@ -119,6 +126,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-8" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-8" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-9">
@@ -132,6 +140,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-9" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-9" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-10">
@@ -145,6 +154,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-10" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-10" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-11">
@@ -158,6 +168,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-11" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-11" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-12">
@@ -171,6 +182,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-12" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-12" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-13">
@@ -184,6 +196,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-13" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-13" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-14">
@@ -197,6 +210,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-14" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-14" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-15">
@@ -210,6 +224,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-15" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-15" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-16">
@@ -223,6 +238,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-16" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-16" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-17">
@@ -236,6 +252,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-17" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-17" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-18">
@@ -249,6 +266,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-18" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-18" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-19">
@@ -262,6 +280,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-19" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-19" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-20">
@@ -275,6 +294,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-20" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-20" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-21">
@@ -288,6 +308,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-21" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-21" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-22">
@@ -301,6 +322,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-22" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-22" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-23">
@@ -314,6 +336,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-23" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-23" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-24">
@@ -327,6 +350,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-24" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-24" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-25">
@@ -340,6 +364,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-25" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-25" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-26">
@@ -353,6 +378,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-26" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-26" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-27">
@@ -366,6 +392,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-27" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-27" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-28">
@@ -379,6 +406,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-28" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-28" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-29">
@@ -393,6 +421,7 @@
         <active pattern="EFORMS-validation-stage-4-29" />
         <active pattern="EFORMS-validation-stage-4m-29" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-29" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-29" />
     </phase>
@@ -408,6 +437,7 @@
         <active pattern="EFORMS-validation-stage-4-30" />
         <active pattern="EFORMS-validation-stage-4m-30" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-30" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-30" />
     </phase>
@@ -423,6 +453,7 @@
         <active pattern="EFORMS-validation-stage-4-31" />
         <active pattern="EFORMS-validation-stage-4m-31" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-31" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-31" />
     </phase>
@@ -438,6 +469,7 @@
         <active pattern="EFORMS-validation-stage-4-32" />
         <active pattern="EFORMS-validation-stage-4m-32" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-32" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-32" />
     </phase>
@@ -453,6 +485,7 @@
         <active pattern="EFORMS-validation-stage-4-33" />
         <active pattern="EFORMS-validation-stage-4m-33" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-33" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-33" />
     </phase>
@@ -468,6 +501,7 @@
         <active pattern="EFORMS-validation-stage-4-34" />
         <active pattern="EFORMS-validation-stage-4m-34" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-34" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-34" />
     </phase>
@@ -483,6 +517,7 @@
         <active pattern="EFORMS-validation-stage-4-35" />
         <active pattern="EFORMS-validation-stage-4m-35" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-35" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-35" />
     </phase>
@@ -498,6 +533,7 @@
         <active pattern="EFORMS-validation-stage-4-36" />
         <active pattern="EFORMS-validation-stage-4m-36" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-36" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-36" />
     </phase>
@@ -513,6 +549,7 @@
         <active pattern="EFORMS-validation-stage-4-37" />
         <active pattern="EFORMS-validation-stage-4m-37" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-37" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-37" />
     </phase>
@@ -528,6 +565,7 @@
         <active pattern="EFORMS-validation-stage-4-38" />
         <active pattern="EFORMS-validation-stage-4m-38" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-38" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-39">
@@ -542,6 +580,7 @@
         <active pattern="EFORMS-validation-stage-4-39" />
         <active pattern="EFORMS-validation-stage-4m-39" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-39" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-40">
@@ -555,6 +594,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-40" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-40" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-CEI">
@@ -567,6 +607,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-CEI" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-CEI" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-E1">
@@ -579,6 +620,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-E1" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-E1" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-E2">
@@ -592,6 +634,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-E2" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-E2" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-E3">
@@ -605,6 +648,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-E3" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-E3" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-E4">
@@ -619,6 +663,7 @@
         <active pattern="EFORMS-validation-stage-4-E4" />
         <active pattern="EFORMS-validation-stage-4m-E4" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-E4" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-E4" />
     </phase>
@@ -634,6 +679,7 @@
         <active pattern="EFORMS-validation-stage-4-E5" />
         <active pattern="EFORMS-validation-stage-4m-E5" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-E5" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-E5" />
     </phase>
@@ -649,6 +695,7 @@
         <active pattern="EFORMS-validation-stage-4-E6" />
         <active pattern="EFORMS-validation-stage-4m-E6" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-E6" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-T01">
@@ -662,6 +709,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-T01" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-T01" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-T02">
@@ -675,6 +723,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-T02" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-T02" />
         <active pattern="EFORMS-validation-stage-5m" />
         <active pattern="EFORMS-validation-stage-5m-T02" />
     </phase>
@@ -689,6 +738,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-X01" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-X01" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
     <phase id="eforms-X02">
@@ -702,6 +752,7 @@
         <active pattern="EFORMS-validation-stage-4" />
         <active pattern="EFORMS-validation-stage-4-X02" />
         <active pattern="EFORMS-validation-stage-5" />
+        <active pattern="EFORMS-validation-stage-5-X02" />
         <active pattern="EFORMS-validation-stage-5m" />
     </phase>
 
@@ -927,6 +978,57 @@
     <include href="validation-stage-4m-39.sch"/>
     <include href="validation-stage-4m-E6.sch"/>
     <include href="validation-stage-5.sch"/>
+    <include href="validation-stage-5-25.sch"/>
+    <include href="validation-stage-5-26.sch"/>
+    <include href="validation-stage-5-27.sch"/>
+    <include href="validation-stage-5-28.sch"/>
+    <include href="validation-stage-5-29.sch"/>
+    <include href="validation-stage-5-30.sch"/>
+    <include href="validation-stage-5-31.sch"/>
+    <include href="validation-stage-5-32.sch"/>
+    <include href="validation-stage-5-33.sch"/>
+    <include href="validation-stage-5-34.sch"/>
+    <include href="validation-stage-5-35.sch"/>
+    <include href="validation-stage-5-36.sch"/>
+    <include href="validation-stage-5-37.sch"/>
+    <include href="validation-stage-5-38.sch"/>
+    <include href="validation-stage-5-39.sch"/>
+    <include href="validation-stage-5-40.sch"/>
+    <include href="validation-stage-5-E4.sch"/>
+    <include href="validation-stage-5-E5.sch"/>
+    <include href="validation-stage-5-E6.sch"/>
+    <include href="validation-stage-5-T02.sch"/>
+    <include href="validation-stage-5-7.sch"/>
+    <include href="validation-stage-5-8.sch"/>
+    <include href="validation-stage-5-9.sch"/>
+    <include href="validation-stage-5-10.sch"/>
+    <include href="validation-stage-5-11.sch"/>
+    <include href="validation-stage-5-12.sch"/>
+    <include href="validation-stage-5-13.sch"/>
+    <include href="validation-stage-5-14.sch"/>
+    <include href="validation-stage-5-16.sch"/>
+    <include href="validation-stage-5-17.sch"/>
+    <include href="validation-stage-5-18.sch"/>
+    <include href="validation-stage-5-19.sch"/>
+    <include href="validation-stage-5-20.sch"/>
+    <include href="validation-stage-5-21.sch"/>
+    <include href="validation-stage-5-22.sch"/>
+    <include href="validation-stage-5-23.sch"/>
+    <include href="validation-stage-5-24.sch"/>
+    <include href="validation-stage-5-E3.sch"/>
+    <include href="validation-stage-5-3.sch"/>
+    <include href="validation-stage-5-6.sch"/>
+    <include href="validation-stage-5-CEI.sch"/>
+    <include href="validation-stage-5-15.sch"/>
+    <include href="validation-stage-5-1.sch"/>
+    <include href="validation-stage-5-2.sch"/>
+    <include href="validation-stage-5-4.sch"/>
+    <include href="validation-stage-5-5.sch"/>
+    <include href="validation-stage-5-E1.sch"/>
+    <include href="validation-stage-5-E2.sch"/>
+    <include href="validation-stage-5-X02.sch"/>
+    <include href="validation-stage-5-X01.sch"/>
+    <include href="validation-stage-5-T01.sch"/>
     <include href="validation-stage-5m.sch"/>
     <include href="validation-stage-5m-29.sch"/>
     <include href="validation-stage-5m-30.sch"/>
@@ -988,45 +1090,17 @@
         <diagnostic id="ND-Company_BT-513-Organization-Company" see="field:BT-513-Organization-Company">cac:PostalAddress/cbc:CityName</diagnostic>
         <diagnostic id="ND-Company_BT-514-Organization-Company" see="field:BT-514-Organization-Company">cac:PostalAddress/cac:Country/cbc:IdentificationCode</diagnostic>
         <diagnostic id="ND-Company_OPT-200-Organization-Company" see="field:OPT-200-Organization-Company">cac:PartyIdentification/cbc:ID</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueBuyerUnpublish_BT-195_BT-160_-Tender" see="field:BT-195(BT-160)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueBuyerUnpublish_BT-196_BT-160_-Tender" see="field:BT-196(BT-160)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueBuyerUnpublish_BT-197_BT-160_-Tender" see="field:BT-197(BT-160)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueBuyerUnpublish_BT-198_BT-160_-Tender" see="field:BT-198(BT-160)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueUserUnpublish_BT-195_BT-162_-Tender" see="field:BT-195(BT-162)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueUserUnpublish_BT-196_BT-162_-Tender" see="field:BT-196(BT-162)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueUserUnpublish_BT-197_BT-162_-Tender" see="field:BT-197(BT-162)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ConcessionRevenueUserUnpublish_BT-198_BT-162_-Tender" see="field:BT-198(BT-162)-Tender">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-ContractEUFunds_BT-6110-Contract" see="field:BT-6110-Contract">cbc:Description</diagnostic>
         <diagnostic id="ND-ContractModification_BT-1501_c_-Contract" see="field:BT-1501(c)-Contract">efbc:ModifiedContractIdentifier</diagnostic>
         <diagnostic id="ND-ContractModification_BT-1501_n_-Contract" see="field:BT-1501(n)-Contract">efbc:ChangedNoticeIdentifier</diagnostic>
-        <diagnostic id="ND-ContractingParty_BT-10-Procedure-Buyer" see="field:BT-10-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']</diagnostic>
-        <diagnostic id="ND-ContractingParty_BT-11-Procedure-Buyer" see="field:BT-11-Procedure-Buyer">cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</diagnostic>
+        <diagnostic id="ND-ContractingParty_BT-10-Procedure-Buyer" see="field:BT-10-Procedure-Buyer">cac:ContractingActivity[cbc:ActivityTypeCode/@listName='authority-activity']/cbc:ActivityTypeCode[@listName='authority-activity']</diagnostic>
+        <diagnostic id="ND-ContractingParty_BT-11-Procedure-Buyer" see="field:BT-11-Procedure-Buyer">cac:ContractingPartyType[cbc:PartyTypeCode/@listName='buyer-legal-type']/cbc:PartyTypeCode[@listName='buyer-legal-type']</diagnostic>
         <diagnostic id="ND-ContractingParty_BT-508-Procedure-Buyer" see="field:BT-508-Procedure-Buyer">cbc:BuyerProfileURI</diagnostic>
-        <diagnostic id="ND-ContractingParty_BT-610-Procedure-Buyer" see="field:BT-610-Procedure-Buyer">cac:ContractingActivity/cbc:ActivityTypeCode[@listName='entity-activity']</diagnostic>
-        <diagnostic id="ND-ContractingParty_BT-740-Procedure-Buyer" see="field:BT-740-Procedure-Buyer">cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']</diagnostic>
-        <diagnostic id="ND-CountryOriginUnpublish_BT-195_BT-191_-Tender" see="field:BT-195(BT-191)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-CountryOriginUnpublish_BT-196_BT-191_-Tender" see="field:BT-196(BT-191)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-CountryOriginUnpublish_BT-197_BT-191_-Tender" see="field:BT-197(BT-191)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-CountryOriginUnpublish_BT-198_BT-191_-Tender" see="field:BT-198(BT-191)-Tender">efbc:PublicationDate</diagnostic>
+        <diagnostic id="ND-ContractingParty_BT-610-Procedure-Buyer" see="field:BT-610-Procedure-Buyer">cac:ContractingActivity[cbc:ActivityTypeCode/@listName='entity-activity']/cbc:ActivityTypeCode[@listName='entity-activity']</diagnostic>
+        <diagnostic id="ND-ContractingParty_BT-740-Procedure-Buyer" see="field:BT-740-Procedure-Buyer">cac:ContractingPartyType[cbc:PartyTypeCode/@listName='buyer-contracting-type']/cbc:PartyTypeCode[@listName='buyer-contracting-type']</diagnostic>
         <diagnostic id="ND-CrossBorderLaw_BT-09_b_-Procedure" see="field:BT-09(b)-Procedure">cbc:DocumentDescription</diagnostic>
-        <diagnostic id="ND-CrossBorderLawUnpublish_BT-195_BT-09_-Procedure" see="field:BT-195(BT-09)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-CrossBorderLawUnpublish_BT-196_BT-09_-Procedure" see="field:BT-196(BT-09)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-CrossBorderLawUnpublish_BT-197_BT-09_-Procedure" see="field:BT-197(BT-09)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-CrossBorderLawUnpublish_BT-198_BT-09_-Procedure" see="field:BT-198(BT-09)-Procedure">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-DirectAward_BT-1252-Procedure" see="field:BT-1252-Procedure">cbc:Description</diagnostic>
         <diagnostic id="ND-DirectAward_BT-135-Procedure" see="field:BT-135-Procedure">cbc:ProcessReason</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationCodeUnpublish_BT-195_BT-136_-Procedure" see="field:BT-195(BT-136)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationCodeUnpublish_BT-196_BT-136_-Procedure" see="field:BT-196(BT-136)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationCodeUnpublish_BT-197_BT-136_-Procedure" see="field:BT-197(BT-136)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationCodeUnpublish_BT-198_BT-136_-Procedure" see="field:BT-198(BT-136)-Procedure">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationPreviousUnpublish_BT-195_BT-1252_-Procedure" see="field:BT-195(BT-1252)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationPreviousUnpublish_BT-196_BT-1252_-Procedure" see="field:BT-196(BT-1252)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationPreviousUnpublish_BT-197_BT-1252_-Procedure" see="field:BT-197(BT-1252)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationPreviousUnpublish_BT-198_BT-1252_-Procedure" see="field:BT-198(BT-1252)-Procedure">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationTextUnpublish_BT-195_BT-135_-Procedure" see="field:BT-195(BT-135)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationTextUnpublish_BT-196_BT-135_-Procedure" see="field:BT-196(BT-135)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationTextUnpublish_BT-197_BT-135_-Procedure" see="field:BT-197(BT-135)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-DirectAwardJustificationTextUnpublish_BT-198_BT-135_-Procedure" see="field:BT-198(BT-135)-Procedure">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-EuEntity_BT-500-Business-European" see="field:BT-500-Business-European">cbc:RegistrationName</diagnostic>
         <diagnostic id="ND-EuEntity_OPP-113-Business-European" see="field:OPP-113-Business-European">cbc:RegistrationDate</diagnostic>
         <diagnostic id="ND-ExclusionGrounds_BT-67_a_-Procedure" see="field:BT-67(a)-Procedure">cbc:TendererRequirementTypeCode</diagnostic>
@@ -1043,18 +1117,6 @@
         <diagnostic id="ND-GazetteReference_OPP-123-Business" see="field:OPP-123-Business">cbc:IssueDate</diagnostic>
         <diagnostic id="ND-GazetteReference_OPP-124-Business" see="field:OPP-124-Business">cbc:ID</diagnostic>
         <diagnostic id="ND-GroupComposition_BT-1375-Procedure" see="field:BT-1375-Procedure">cac:ProcurementProjectLotReference/cbc:ID[@schemeName='Lot']</diagnostic>
-        <diagnostic id="ND-GroupMaximalValueIdentifierUnpublish_BT-195_BT-556_-NoticeResult" see="field:BT-195(BT-556)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-GroupMaximalValueIdentifierUnpublish_BT-196_BT-556_-NoticeResult" see="field:BT-196(BT-556)-NoticeResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-GroupMaximalValueIdentifierUnpublish_BT-197_BT-556_-NoticeResult" see="field:BT-197(BT-556)-NoticeResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-GroupMaximalValueIdentifierUnpublish_BT-198_BT-556_-NoticeResult" see="field:BT-198(BT-556)-NoticeResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-GroupMaximumValueUnpublish_BT-195_BT-156_-NoticeResult" see="field:BT-195(BT-156)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-GroupMaximumValueUnpublish_BT-196_BT-156_-NoticeResult" see="field:BT-196(BT-156)-NoticeResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-GroupMaximumValueUnpublish_BT-197_BT-156_-NoticeResult" see="field:BT-197(BT-156)-NoticeResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-GroupMaximumValueUnpublish_BT-198_BT-156_-NoticeResult" see="field:BT-198(BT-156)-NoticeResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-GroupReestimatedValueUnpublish_BT-195_BT-1561_-NoticeResult" see="field:BT-195(BT-1561)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-GroupReestimatedValueUnpublish_BT-196_BT-1561_-NoticeResult" see="field:BT-196(BT-1561)-NoticeResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-GroupReestimatedValueUnpublish_BT-197_BT-1561_-NoticeResult" see="field:BT-197(BT-1561)-NoticeResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-GroupReestimatedValueUnpublish_BT-198_BT-1561_-NoticeResult" see="field:BT-198(BT-1561)-NoticeResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-InterestExpressionReceptionPeriod_BT-630_t_-Lot" see="field:BT-630(t)-Lot">cbc:EndTime</diagnostic>
         <diagnostic id="ND-LocalEntity_BT-500-Business" see="field:BT-500-Business">cbc:RegistrationName</diagnostic>
         <diagnostic id="ND-Lot_BT-137-Lot" see="field:BT-137-Lot">cbc:ID</diagnostic>
@@ -1062,55 +1124,11 @@
         <diagnostic id="ND-LotAwardCriteria_BT-539-Lot" see="field:BT-539-Lot">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
         <diagnostic id="ND-LotAwardCriteria_BT-543-Lot" see="field:BT-543-Lot">cbc:CalculationExpression</diagnostic>
         <diagnostic id="ND-LotAwardCriteria_BT-733-Lot" see="field:BT-733-Lot">cbc:Description</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaNameUnpublish_BT-195_BT-734_-Lot" see="field:BT-195(BT-734)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaNameUnpublish_BT-196_BT-734_-Lot" see="field:BT-196(BT-734)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaNameUnpublish_BT-197_BT-734_-Lot" see="field:BT-197(BT-734)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaNameUnpublish_BT-198_BT-734_-Lot" see="field:BT-198(BT-734)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaOrderJustificationUnpublish_BT-195_BT-733_-Lot" see="field:BT-195(BT-733)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaOrderJustificationUnpublish_BT-196_BT-733_-Lot" see="field:BT-196(BT-733)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaOrderJustificationUnpublish_BT-197_BT-733_-Lot" see="field:BT-197(BT-733)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriteriaOrderJustificationUnpublish_BT-198_BT-733_-Lot" see="field:BT-198(BT-733)-Lot">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-LotAwardCriterion_BT-540-Lot" see="field:BT-540-Lot">cbc:Description</diagnostic>
         <diagnostic id="ND-LotAwardCriterion_BT-541-Lot-FixedNumber" see="field:BT-541-Lot-FixedNumber">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efbc:ParameterNumeric</diagnostic>
         <diagnostic id="ND-LotAwardCriterion_BT-541-Lot-ThresholdNumber" see="field:BT-541-Lot-ThresholdNumber">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric</diagnostic>
         <diagnostic id="ND-LotAwardCriterion_BT-541-Lot-WeightNumber" see="field:BT-541-Lot-WeightNumber">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric</diagnostic>
         <diagnostic id="ND-LotAwardCriterion_BT-734-Lot" see="field:BT-734-Lot">cbc:Name</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionDescriptionUnpublish_BT-195_BT-540_-Lot" see="field:BT-195(BT-540)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionDescriptionUnpublish_BT-196_BT-540_-Lot" see="field:BT-196(BT-540)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionDescriptionUnpublish_BT-197_BT-540_-Lot" see="field:BT-197(BT-540)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionDescriptionUnpublish_BT-198_BT-540_-Lot" see="field:BT-198(BT-540)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionFixNumberUnpublish_BT-195_BT-541_-Lot-Fixed" see="field:BT-195(BT-541)-Lot-Fixed">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionFixNumberUnpublish_BT-196_BT-541_-Lot-Fixed" see="field:BT-196(BT-541)-Lot-Fixed">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionFixNumberUnpublish_BT-197_BT-541_-Lot-Fixed" see="field:BT-197(BT-541)-Lot-Fixed">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionFixNumberUnpublish_BT-198_BT-541_-Lot-Fixed" see="field:BT-198(BT-541)-Lot-Fixed">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberComplicatedUnpublish_BT-195_BT-543_-Lot" see="field:BT-195(BT-543)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberComplicatedUnpublish_BT-196_BT-543_-Lot" see="field:BT-196(BT-543)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberComplicatedUnpublish_BT-197_BT-543_-Lot" see="field:BT-197(BT-543)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberComplicatedUnpublish_BT-198_BT-543_-Lot" see="field:BT-198(BT-543)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberFixUnpublish_BT-195_BT-5422_-Lot" see="field:BT-195(BT-5422)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberFixUnpublish_BT-196_BT-5422_-Lot" see="field:BT-196(BT-5422)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberFixUnpublish_BT-197_BT-5422_-Lot" see="field:BT-197(BT-5422)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberFixUnpublish_BT-198_BT-5422_-Lot" see="field:BT-198(BT-5422)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberThresholdUnpublish_BT-195_BT-5423_-Lot" see="field:BT-195(BT-5423)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberThresholdUnpublish_BT-196_BT-5423_-Lot" see="field:BT-196(BT-5423)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberThresholdUnpublish_BT-197_BT-5423_-Lot" see="field:BT-197(BT-5423)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberThresholdUnpublish_BT-198_BT-5423_-Lot" see="field:BT-198(BT-5423)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberWeightUnpublish_BT-195_BT-5421_-Lot" see="field:BT-195(BT-5421)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberWeightUnpublish_BT-196_BT-5421_-Lot" see="field:BT-196(BT-5421)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberWeightUnpublish_BT-197_BT-5421_-Lot" see="field:BT-197(BT-5421)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionNumberWeightUnpublish_BT-198_BT-5421_-Lot" see="field:BT-198(BT-5421)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionThresholdNumberUnpublish_BT-195_BT-541_-Lot-Threshold" see="field:BT-195(BT-541)-Lot-Threshold">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionThresholdNumberUnpublish_BT-196_BT-541_-Lot-Threshold" see="field:BT-196(BT-541)-Lot-Threshold">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionThresholdNumberUnpublish_BT-197_BT-541_-Lot-Threshold" see="field:BT-197(BT-541)-Lot-Threshold">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionThresholdNumberUnpublish_BT-198_BT-541_-Lot-Threshold" see="field:BT-198(BT-541)-Lot-Threshold">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionTypeUnpublish_BT-195_BT-539_-Lot" see="field:BT-195(BT-539)-Lot">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionTypeUnpublish_BT-196_BT-539_-Lot" see="field:BT-196(BT-539)-Lot">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionTypeUnpublish_BT-197_BT-539_-Lot" see="field:BT-197(BT-539)-Lot">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionTypeUnpublish_BT-198_BT-539_-Lot" see="field:BT-198(BT-539)-Lot">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionWeightNumberUnpublish_BT-195_BT-541_-Lot-Weight" see="field:BT-195(BT-541)-Lot-Weight">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionWeightNumberUnpublish_BT-196_BT-541_-Lot-Weight" see="field:BT-196(BT-541)-Lot-Weight">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionWeightNumberUnpublish_BT-197_BT-541_-Lot-Weight" see="field:BT-197(BT-541)-Lot-Weight">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotAwardCriterionWeightNumberUnpublish_BT-198_BT-541_-Lot-Weight" see="field:BT-198(BT-541)-Lot-Weight">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-LotAwardFixedCriterionParameter_BT-5422-Lot" see="field:BT-5422-Lot">efbc:ParameterCode</diagnostic>
         <diagnostic id="ND-LotAwardThresholdCriterionParameter_BT-5423-Lot" see="field:BT-5423-Lot">efbc:ParameterCode</diagnostic>
         <diagnostic id="ND-LotAwardWeightCriterionParameter_BT-5421-Lot" see="field:BT-5421-Lot">efbc:ParameterCode</diagnostic>
@@ -1285,55 +1303,11 @@
         <diagnostic id="ND-LotsGroupAwardCriteria_BT-539-LotsGroup" see="field:BT-539-LotsGroup">cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriteria_BT-543-LotsGroup" see="field:BT-543-LotsGroup">cbc:CalculationExpression</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriteria_BT-733-LotsGroup" see="field:BT-733-LotsGroup">cbc:Description</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaNameUnpublish_BT-195_BT-734_-LotsGroup" see="field:BT-195(BT-734)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaNameUnpublish_BT-196_BT-734_-LotsGroup" see="field:BT-196(BT-734)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaNameUnpublish_BT-197_BT-734_-LotsGroup" see="field:BT-197(BT-734)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaNameUnpublish_BT-198_BT-734_-LotsGroup" see="field:BT-198(BT-734)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaOrderJustificationUnpublish_BT-195_BT-733_-LotsGroup" see="field:BT-195(BT-733)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaOrderJustificationUnpublish_BT-196_BT-733_-LotsGroup" see="field:BT-196(BT-733)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaOrderJustificationUnpublish_BT-197_BT-733_-LotsGroup" see="field:BT-197(BT-733)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriteriaOrderJustificationUnpublish_BT-198_BT-733_-LotsGroup" see="field:BT-198(BT-733)-LotsGroup">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriterion_BT-540-LotsGroup" see="field:BT-540-LotsGroup">cbc:Description</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriterion_BT-541-LotsGroup-FixedNumber" see="field:BT-541-LotsGroup-FixedNumber">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efbc:ParameterNumeric</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriterion_BT-541-LotsGroup-ThresholdNumber" see="field:BT-541-LotsGroup-ThresholdNumber">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriterion_BT-541-LotsGroup-WeightNumber" see="field:BT-541-LotsGroup-WeightNumber">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric</diagnostic>
         <diagnostic id="ND-LotsGroupAwardCriterion_BT-734-LotsGroup" see="field:BT-734-LotsGroup">cbc:Name</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionDescriptionUnpublish_BT-195_BT-540_-LotsGroup" see="field:BT-195(BT-540)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionDescriptionUnpublish_BT-196_BT-540_-LotsGroup" see="field:BT-196(BT-540)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionDescriptionUnpublish_BT-197_BT-540_-LotsGroup" see="field:BT-197(BT-540)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionDescriptionUnpublish_BT-198_BT-540_-LotsGroup" see="field:BT-198(BT-540)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionFixNumberUnpublish_BT-195_BT-541_-LotsGroup-Fixed" see="field:BT-195(BT-541)-LotsGroup-Fixed">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionFixNumberUnpublish_BT-196_BT-541_-LotsGroup-Fixed" see="field:BT-196(BT-541)-LotsGroup-Fixed">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionFixNumberUnpublish_BT-197_BT-541_-LotsGroup-Fixed" see="field:BT-197(BT-541)-LotsGroup-Fixed">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionFixNumberUnpublish_BT-198_BT-541_-LotsGroup-Fixed" see="field:BT-198(BT-541)-LotsGroup-Fixed">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish_BT-195_BT-543_-LotsGroup" see="field:BT-195(BT-543)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish_BT-196_BT-543_-LotsGroup" see="field:BT-196(BT-543)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish_BT-197_BT-543_-LotsGroup" see="field:BT-197(BT-543)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish_BT-198_BT-543_-LotsGroup" see="field:BT-198(BT-543)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberFixUnpublish_BT-195_BT-5422_-LotsGroup" see="field:BT-195(BT-5422)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberFixUnpublish_BT-196_BT-5422_-LotsGroup" see="field:BT-196(BT-5422)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberFixUnpublish_BT-197_BT-5422_-LotsGroup" see="field:BT-197(BT-5422)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberFixUnpublish_BT-198_BT-5422_-LotsGroup" see="field:BT-198(BT-5422)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberThresholdUnpublish_BT-195_BT-5423_-LotsGroup" see="field:BT-195(BT-5423)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberThresholdUnpublish_BT-196_BT-5423_-LotsGroup" see="field:BT-196(BT-5423)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberThresholdUnpublish_BT-197_BT-5423_-LotsGroup" see="field:BT-197(BT-5423)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberThresholdUnpublish_BT-198_BT-5423_-LotsGroup" see="field:BT-198(BT-5423)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberWeightUnpublish_BT-195_BT-5421_-LotsGroup" see="field:BT-195(BT-5421)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberWeightUnpublish_BT-196_BT-5421_-LotsGroup" see="field:BT-196(BT-5421)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberWeightUnpublish_BT-197_BT-5421_-LotsGroup" see="field:BT-197(BT-5421)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionNumberWeightUnpublish_BT-198_BT-5421_-LotsGroup" see="field:BT-198(BT-5421)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionThresholdNumberUnpublish_BT-195_BT-541_-LotsGroup-Threshold" see="field:BT-195(BT-541)-LotsGroup-Threshold">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionThresholdNumberUnpublish_BT-196_BT-541_-LotsGroup-Threshold" see="field:BT-196(BT-541)-LotsGroup-Threshold">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionThresholdNumberUnpublish_BT-197_BT-541_-LotsGroup-Threshold" see="field:BT-197(BT-541)-LotsGroup-Threshold">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionThresholdNumberUnpublish_BT-198_BT-541_-LotsGroup-Threshold" see="field:BT-198(BT-541)-LotsGroup-Threshold">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionTypeUnpublish_BT-195_BT-539_-LotsGroup" see="field:BT-195(BT-539)-LotsGroup">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionTypeUnpublish_BT-196_BT-539_-LotsGroup" see="field:BT-196(BT-539)-LotsGroup">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionTypeUnpublish_BT-197_BT-539_-LotsGroup" see="field:BT-197(BT-539)-LotsGroup">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionTypeUnpublish_BT-198_BT-539_-LotsGroup" see="field:BT-198(BT-539)-LotsGroup">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionWeightNumberUnpublish_BT-195_BT-541_-LotsGroup-Weight" see="field:BT-195(BT-541)-LotsGroup-Weight">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionWeightNumberUnpublish_BT-196_BT-541_-LotsGroup-Weight" see="field:BT-196(BT-541)-LotsGroup-Weight">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionWeightNumberUnpublish_BT-197_BT-541_-LotsGroup-Weight" see="field:BT-197(BT-541)-LotsGroup-Weight">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-LotsGroupAwardCriterionWeightNumberUnpublish_BT-198_BT-541_-LotsGroup-Weight" see="field:BT-198(BT-541)-LotsGroup-Weight">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-LotsGroupAwardFixedCriterionParameter_BT-5422-LotsGroup" see="field:BT-5422-LotsGroup">efbc:ParameterCode</diagnostic>
         <diagnostic id="ND-LotsGroupAwardThresholdCriterionParameter_BT-5423-LotsGroup" see="field:BT-5423-LotsGroup">efbc:ParameterCode</diagnostic>
         <diagnostic id="ND-LotsGroupAwardWeightCriterionParameter_BT-5421-LotsGroup" see="field:BT-5421-LotsGroup">efbc:ParameterCode</diagnostic>
@@ -1344,10 +1318,6 @@
         <diagnostic id="ND-LotsGroupProcurementScope_BT-300-LotsGroup" see="field:BT-300-LotsGroup">cbc:Note</diagnostic>
         <diagnostic id="ND-LotsGroupProcurementScope_BT-726-LotsGroup" see="field:BT-726-LotsGroup">cbc:SMESuitableIndicator</diagnostic>
         <diagnostic id="ND-LotsGroupValueEstimate_BT-27-LotsGroup" see="field:BT-27-LotsGroup">cbc:EstimatedOverallContractAmount</diagnostic>
-        <diagnostic id="ND-MaximalValueUnpublish_BT-195_BT-709_-LotResult" see="field:BT-195(BT-709)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-MaximalValueUnpublish_BT-196_BT-709_-LotResult" see="field:BT-196(BT-709)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-MaximalValueUnpublish_BT-197_BT-709_-LotResult" see="field:BT-197(BT-709)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-MaximalValueUnpublish_BT-198_BT-709_-LotResult" see="field:BT-198(BT-709)-LotResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-Modification_BT-202-Contract" see="field:BT-202-Contract">efbc:ChangeDescription</diagnostic>
         <diagnostic id="ND-ModificationReason_BT-200-Contract" see="field:BT-200-Contract">cbc:ReasonCode</diagnostic>
         <diagnostic id="ND-ModificationReason_BT-201-Contract" see="field:BT-201-Contract">efbc:ReasonDescription</diagnostic>
@@ -1361,18 +1331,6 @@
         <diagnostic id="ND-NonUBLTenderingTerms_BT-810-Lot" see="field:BT-810-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efbc:ApplicableLegalBasis</diagnostic>
         <diagnostic id="ND-NonUBLTenderingTerms_BT-811_a_-Lot" see="field:BT-811(a)-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode</diagnostic>
         <diagnostic id="ND-NonUBLTenderingTerms_BT-811_b_-Lot" see="field:BT-811(b)-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
-        <diagnostic id="ND-NotAwardedReasonUnpublish_BT-195_BT-144_-LotResult" see="field:BT-195(BT-144)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-NotAwardedReasonUnpublish_BT-196_BT-144_-LotResult" see="field:BT-196(BT-144)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-NotAwardedReasonUnpublish_BT-197_BT-144_-LotResult" see="field:BT-197(BT-144)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-NotAwardedReasonUnpublish_BT-198_BT-144_-LotResult" see="field:BT-198(BT-144)-LotResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-NoticeApproximateValueUnpublish_BT-195_BT-1118_-NoticeResult" see="field:BT-195(BT-1118)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-NoticeApproximateValueUnpublish_BT-196_BT-1118_-NoticeResult" see="field:BT-196(BT-1118)-NoticeResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-NoticeApproximateValueUnpublish_BT-197_BT-1118_-NoticeResult" see="field:BT-197(BT-1118)-NoticeResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-NoticeApproximateValueUnpublish_BT-198_BT-1118_-NoticeResult" see="field:BT-198(BT-1118)-NoticeResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-NoticeMaximumValueUnpublish_BT-195_BT-118_-NoticeResult" see="field:BT-195(BT-118)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-NoticeMaximumValueUnpublish_BT-196_BT-118_-NoticeResult" see="field:BT-196(BT-118)-NoticeResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-NoticeMaximumValueUnpublish_BT-197_BT-118_-NoticeResult" see="field:BT-197(BT-118)-NoticeResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-NoticeMaximumValueUnpublish_BT-198_BT-118_-NoticeResult" see="field:BT-198(BT-118)-NoticeResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-NoticeResult_BT-1118-NoticeResult" see="field:BT-1118-NoticeResult">efbc:OverallApproximateFrameworkContractsAmount</diagnostic>
         <diagnostic id="ND-NoticeResult_BT-118-NoticeResult" see="field:BT-118-NoticeResult">efbc:OverallMaximumFrameworkContractsAmount</diagnostic>
         <diagnostic id="ND-NoticeResult_BT-161-NoticeResult" see="field:BT-161-NoticeResult">cbc:TotalAmount</diagnostic>
@@ -1380,10 +1338,6 @@
         <diagnostic id="ND-NoticeResultGroupFA_BT-156-NoticeResult" see="field:BT-156-NoticeResult">efbc:GroupFrameworkMaximumValueAmount</diagnostic>
         <diagnostic id="ND-NoticeResultGroupFA_BT-1561-NoticeResult" see="field:BT-1561-NoticeResult">efbc:GroupFrameworkReestimatedValueAmount</diagnostic>
         <diagnostic id="ND-NoticeResultGroupFA_BT-556-NoticeResult" see="field:BT-556-NoticeResult">efac:TenderLot/cbc:ID</diagnostic>
-        <diagnostic id="ND-NoticeValueUnpublish_BT-195_BT-161_-NoticeResult" see="field:BT-195(BT-161)-NoticeResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-NoticeValueUnpublish_BT-196_BT-161_-NoticeResult" see="field:BT-196(BT-161)-NoticeResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-NoticeValueUnpublish_BT-197_BT-161_-NoticeResult" see="field:BT-197(BT-161)-NoticeResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-NoticeValueUnpublish_BT-198_BT-161_-NoticeResult" see="field:BT-198(BT-161)-NoticeResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-OperationType_OPP-100-Business" see="field:OPP-100-Business">cbc:PurposeCode</diagnostic>
         <diagnostic id="ND-OptionsAndRenewals_BT-54-Lot" see="field:BT-54-Lot">cbc:OptionsDescription</diagnostic>
         <diagnostic id="ND-OptionsAndRenewals_BT-57-Lot" see="field:BT-57-Lot">cac:Renewal/cac:Period/cbc:Description</diagnostic>
@@ -1465,18 +1419,6 @@
         <diagnostic id="ND-PostAwardProcess_BT-93-Lot" see="field:BT-93-Lot">cbc:ElectronicPaymentUsageIndicator</diagnostic>
         <diagnostic id="ND-Prize_BT-44-Lot" see="field:BT-44-Lot">cbc:RankCode</diagnostic>
         <diagnostic id="ND-Prize_BT-45-Lot" see="field:BT-45-Lot">cbc:Description</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedJustificationUnpublish_BT-195_BT-1351_-Procedure" see="field:BT-195(BT-1351)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedJustificationUnpublish_BT-196_BT-1351_-Procedure" see="field:BT-196(BT-1351)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedJustificationUnpublish_BT-197_BT-1351_-Procedure" see="field:BT-197(BT-1351)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedJustificationUnpublish_BT-198_BT-1351_-Procedure" see="field:BT-198(BT-1351)-Procedure">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedUnpublish_BT-195_BT-106_-Procedure" see="field:BT-195(BT-106)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedUnpublish_BT-196_BT-106_-Procedure" see="field:BT-196(BT-106)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedUnpublish_BT-197_BT-106_-Procedure" see="field:BT-197(BT-106)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ProcedureAcceleratedUnpublish_BT-198_BT-106_-Procedure" see="field:BT-198(BT-106)-Procedure">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-ProcedureFeaturesUnpublish_BT-195_BT-88_-Procedure" see="field:BT-195(BT-88)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ProcedureFeaturesUnpublish_BT-196_BT-88_-Procedure" see="field:BT-196(BT-88)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ProcedureFeaturesUnpublish_BT-197_BT-88_-Procedure" see="field:BT-197(BT-88)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ProcedureFeaturesUnpublish_BT-198_BT-88_-Procedure" see="field:BT-198(BT-88)-Procedure">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-ProcedureProcurementScope_BT-21-Procedure" see="field:BT-21-Procedure">cbc:Name</diagnostic>
         <diagnostic id="ND-ProcedureProcurementScope_BT-23-Procedure" see="field:BT-23-Procedure">cbc:ProcurementTypeCode</diagnostic>
         <diagnostic id="ND-ProcedureProcurementScope_BT-24-Procedure" see="field:BT-24-Procedure">cbc:Description</diagnostic>
@@ -1494,10 +1436,6 @@
         <diagnostic id="ND-ProcedureTerms_BT-09_a_-Procedure" see="field:BT-09(a)-Procedure">cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:ID</diagnostic>
         <diagnostic id="ND-ProcedureTerms_BT-33-Procedure" see="field:BT-33-Procedure">cac:LotDistribution/cbc:MaximumLotsAwardedNumeric</diagnostic>
         <diagnostic id="ND-ProcedureTerms_BT-806-Procedure" see="field:BT-806-Procedure">cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-grounds-source']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode</diagnostic>
-        <diagnostic id="ND-ProcedureTypeUnpublish_BT-195_BT-105_-Procedure" see="field:BT-195(BT-105)-Procedure">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ProcedureTypeUnpublish_BT-196_BT-105_-Procedure" see="field:BT-196(BT-105)-Procedure">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ProcedureTypeUnpublish_BT-197_BT-105_-Procedure" see="field:BT-197(BT-105)-Procedure">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ProcedureTypeUnpublish_BT-198_BT-105_-Procedure" see="field:BT-198(BT-105)-Procedure">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-ProcedureValueEstimate_BT-27-Procedure" see="field:BT-27-Procedure">cbc:EstimatedOverallContractAmount</diagnostic>
         <diagnostic id="ND-ProcurementDetailsLotResult_BT-723-LotResult" see="field:BT-723-LotResult">efbc:AssetCategoryCode</diagnostic>
         <diagnostic id="ND-ProcurementStatistics_OPT-155-LotResult" see="field:OPT-155-LotResult">efbc:StatisticsCode</diagnostic>
@@ -1506,35 +1444,11 @@
         <diagnostic id="ND-PublicOpening_BT-133-Lot" see="field:BT-133-Lot">cac:OccurenceLocation/cbc:Description</diagnostic>
         <diagnostic id="ND-PublicOpening_BT-134-Lot" see="field:BT-134-Lot">cbc:Description</diagnostic>
         <diagnostic id="ND-QualityTarget_OPT-072-Lot" see="field:OPT-072-Lot">cbc:Description</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionCountUnpublish_BT-195_BT-759_-LotResult" see="field:BT-195(BT-759)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionCountUnpublish_BT-196_BT-759_-LotResult" see="field:BT-196(BT-759)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionCountUnpublish_BT-197_BT-759_-LotResult" see="field:BT-197(BT-759)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionCountUnpublish_BT-198_BT-759_-LotResult" see="field:BT-198(BT-759)-LotResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionTypeUnpublish_BT-195_BT-760_-LotResult" see="field:BT-195(BT-760)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionTypeUnpublish_BT-196_BT-760_-LotResult" see="field:BT-196(BT-760)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionTypeUnpublish_BT-197_BT-760_-LotResult" see="field:BT-197(BT-760)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ReceivedSubmissionTypeUnpublish_BT-198_BT-760_-LotResult" see="field:BT-198(BT-760)-LotResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-ReestimatedValueUnpublish_BT-195_BT-660_-LotResult" see="field:BT-195(BT-660)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ReestimatedValueUnpublish_BT-196_BT-660_-LotResult" see="field:BT-196(BT-660)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ReestimatedValueUnpublish_BT-197_BT-660_-LotResult" see="field:BT-197(BT-660)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ReestimatedValueUnpublish_BT-198_BT-660_-LotResult" see="field:BT-198(BT-660)-LotResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-RegistrarAddress_OPP-110-Business" see="field:OPP-110-Business">cbc:CityName</diagnostic>
         <diagnostic id="ND-RegistrarAddress_OPP-111-Business" see="field:OPP-111-Business">cbc:PostalZone</diagnostic>
         <diagnostic id="ND-RegistrarAddress_OPP-112-Business" see="field:OPP-112-Business">cac:Country/cbc:IdentificationCode</diagnostic>
         <diagnostic id="ND-RevenueAllocation_OPP-032-Tender" see="field:OPP-032-Tender">efbc:TermPercent</diagnostic>
-        <diagnostic id="ND-RevewRequestsUnpublish_BT-195_BT-712_-LotResult" see="field:BT-195(BT-712)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-RevewRequestsUnpublish_BT-196_BT-712_-LotResult" see="field:BT-196(BT-712)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-RevewRequestsUnpublish_BT-197_BT-712_-LotResult" see="field:BT-197(BT-712)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-RevewRequestsUnpublish_BT-198_BT-712_-LotResult" see="field:BT-198(BT-712)-LotResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-ReviewRequestsStatistics_BT-635-LotResult" see="field:BT-635-LotResult">efbc:StatisticsNumeric</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsCountUnpublish_BT-195_BT-635_-LotResult" see="field:BT-195(BT-635)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsCountUnpublish_BT-196_BT-635_-LotResult" see="field:BT-196(BT-635)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsCountUnpublish_BT-197_BT-635_-LotResult" see="field:BT-197(BT-635)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsCountUnpublish_BT-198_BT-635_-LotResult" see="field:BT-198(BT-635)-LotResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsTypeUnpublish_BT-195_BT-636_-LotResult" see="field:BT-195(BT-636)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsTypeUnpublish_BT-196_BT-636_-LotResult" see="field:BT-196(BT-636)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsTypeUnpublish_BT-197_BT-636_-LotResult" see="field:BT-197(BT-636)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ReviewRequestsStatisticsTypeUnpublish_BT-198_BT-636_-LotResult" see="field:BT-198(BT-636)-LotResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-ReviewStatus_BT-784-Review" see="field:BT-784-Review">efbc:AppealID</diagnostic>
         <diagnostic id="ND-ReviewStatus_BT-785-Review" see="field:BT-785-Review">efbc:PreviousAppealID</diagnostic>
         <diagnostic id="ND-ReviewStatus_BT-786-Review" see="field:BT-786-Review">efac:AppealedItem/cbc:ID</diagnostic>
@@ -1557,6 +1471,10 @@
         <diagnostic id="ND-RewardsPenalties_OPP-034-Tender" see="field:OPP-034-Tender">efbc:TermDescription</diagnostic>
         <diagnostic id="ND-Root_BT-04-notice" see="field:BT-04-notice">cbc:ContractFolderID</diagnostic>
         <diagnostic id="ND-Root_BT-127-notice" see="field:BT-127-notice">cbc:PlannedDate</diagnostic>
+        <diagnostic id="ND-Root_BT-195-notice" see="field:BT-195-notice">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureReference/efbc:NondisclosureID</diagnostic>
+        <diagnostic id="ND-Root_BT-196-notice" see="field:BT-196-notice">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureJustification/efbc:NondisclosureJustificationDescription</diagnostic>
+        <diagnostic id="ND-Root_BT-197-notice" see="field:BT-197-notice">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureJustification/efbc:NondisclosureJustificationCode</diagnostic>
+        <diagnostic id="ND-Root_BT-198-notice" see="field:BT-198-notice">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efbc:InformationDisclosureDate</diagnostic>
         <diagnostic id="ND-Root_OPP-105-Business" see="field:OPP-105-Business">cac:BusinessCapability/cbc:CapabilityTypeCode</diagnostic>
         <diagnostic id="ND-Root_OPP-130-Business" see="field:OPP-130-Business">cbc:Note</diagnostic>
         <diagnostic id="ND-Root_OPT-999-notice" see="field:OPT-999-notice">cac:TenderResult/cbc:AwardDate</diagnostic>
@@ -1593,44 +1511,8 @@
         <diagnostic id="ND-SubcontractedContract_BT-555-Tender" see="field:BT-555-Tender">efbc:TermPercent</diagnostic>
         <diagnostic id="ND-SubcontractedContract_BT-730-Tender" see="field:BT-730-Tender">efbc:ValueKnownIndicator</diagnostic>
         <diagnostic id="ND-SubcontractedContract_BT-731-Tender" see="field:BT-731-Tender">efbc:PercentageKnownIndicator</diagnostic>
-        <diagnostic id="ND-SubcontractingDescriptionUnpublish_BT-195_BT-554_-Tender" see="field:BT-195(BT-554)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-SubcontractingDescriptionUnpublish_BT-196_BT-554_-Tender" see="field:BT-196(BT-554)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-SubcontractingDescriptionUnpublish_BT-197_BT-554_-Tender" see="field:BT-197(BT-554)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-SubcontractingDescriptionUnpublish_BT-198_BT-554_-Tender" see="field:BT-198(BT-554)-Tender">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-SubcontractingObligation_BT-64-Lot" see="field:BT-64-Lot">cbc:MinimumPercent</diagnostic>
         <diagnostic id="ND-SubcontractingObligation_BT-729-Lot" see="field:BT-729-Lot">cbc:MaximumPercent</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageKnownUnpublish_BT-195_BT-731_-Tender" see="field:BT-195(BT-731)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageKnownUnpublish_BT-196_BT-731_-Tender" see="field:BT-196(BT-731)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageKnownUnpublish_BT-197_BT-731_-Tender" see="field:BT-197(BT-731)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageKnownUnpublish_BT-198_BT-731_-Tender" see="field:BT-198(BT-731)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageUnpublish_BT-195_BT-555_-Tender" see="field:BT-195(BT-555)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageUnpublish_BT-196_BT-555_-Tender" see="field:BT-196(BT-555)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageUnpublish_BT-197_BT-555_-Tender" see="field:BT-197(BT-555)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-SubcontractingPercentageUnpublish_BT-198_BT-555_-Tender" see="field:BT-198(BT-555)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-SubcontractingUnpublish_BT-195_BT-773_-Tender" see="field:BT-195(BT-773)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-SubcontractingUnpublish_BT-196_BT-773_-Tender" see="field:BT-196(BT-773)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-SubcontractingUnpublish_BT-197_BT-773_-Tender" see="field:BT-197(BT-773)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-SubcontractingUnpublish_BT-198_BT-773_-Tender" see="field:BT-198(BT-773)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-SubcontractingValueKnownUnpublish_BT-195_BT-730_-Tender" see="field:BT-195(BT-730)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-SubcontractingValueKnownUnpublish_BT-196_BT-730_-Tender" see="field:BT-196(BT-730)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-SubcontractingValueKnownUnpublish_BT-197_BT-730_-Tender" see="field:BT-197(BT-730)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-SubcontractingValueKnownUnpublish_BT-198_BT-730_-Tender" see="field:BT-198(BT-730)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-SubcontractingValueUnpublish_BT-195_BT-553_-Tender" see="field:BT-195(BT-553)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-SubcontractingValueUnpublish_BT-196_BT-553_-Tender" see="field:BT-196(BT-553)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-SubcontractingValueUnpublish_BT-197_BT-553_-Tender" see="field:BT-197(BT-553)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-SubcontractingValueUnpublish_BT-198_BT-553_-Tender" see="field:BT-198(BT-553)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-TenderRankUnpublish_BT-195_BT-171_-Tender" see="field:BT-195(BT-171)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-TenderRankUnpublish_BT-196_BT-171_-Tender" see="field:BT-196(BT-171)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-TenderRankUnpublish_BT-197_BT-171_-Tender" see="field:BT-197(BT-171)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-TenderRankUnpublish_BT-198_BT-171_-Tender" see="field:BT-198(BT-171)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-TenderValueHighestUnpublish_BT-195_BT-711_-LotResult" see="field:BT-195(BT-711)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-TenderValueHighestUnpublish_BT-196_BT-711_-LotResult" see="field:BT-196(BT-711)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-TenderValueHighestUnpublish_BT-197_BT-711_-LotResult" see="field:BT-197(BT-711)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-TenderValueHighestUnpublish_BT-198_BT-711_-LotResult" see="field:BT-198(BT-711)-LotResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-TenderValueLowestUnpublish_BT-195_BT-710_-LotResult" see="field:BT-195(BT-710)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-TenderValueLowestUnpublish_BT-196_BT-710_-LotResult" see="field:BT-196(BT-710)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-TenderValueLowestUnpublish_BT-197_BT-710_-LotResult" see="field:BT-197(BT-710)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-TenderValueLowestUnpublish_BT-198_BT-710_-LotResult" see="field:BT-198(BT-710)-LotResult">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-Tenderer_OPT-170-Tenderer" see="field:OPT-170-Tenderer">efbc:GroupLeadIndicator</diagnostic>
         <diagnostic id="ND-TendererLegalForm_BT-76-Lot" see="field:BT-76-Lot">cbc:CompanyLegalForm</diagnostic>
         <diagnostic id="ND-TenderingParty_OPT-210-Tenderer" see="field:OPT-210-Tenderer">cbc:ID</diagnostic>
@@ -1650,23 +1532,8 @@
         <diagnostic id="ND-UBO_BT-706-UBO" see="field:BT-706-UBO">efac:Nationality/cbc:NationalityID</diagnostic>
         <diagnostic id="ND-UBO_BT-739-UBO" see="field:BT-739-UBO">cac:Contact/cbc:Telefax</diagnostic>
         <diagnostic id="ND-UBO_OPT-160-UBO" see="field:OPT-160-UBO">cbc:FirstName</diagnostic>
-        <diagnostic id="ND-ValueConcessionDescriptionUnpublish_BT-195_BT-163_-Tender" see="field:BT-195(BT-163)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-ValueConcessionDescriptionUnpublish_BT-196_BT-163_-Tender" see="field:BT-196(BT-163)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-ValueConcessionDescriptionUnpublish_BT-197_BT-163_-Tender" see="field:BT-197(BT-163)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-ValueConcessionDescriptionUnpublish_BT-198_BT-163_-Tender" see="field:BT-198(BT-163)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-WinnerChosenUnpublish_BT-195_BT-142_-LotResult" see="field:BT-195(BT-142)-LotResult">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-WinnerChosenUnpublish_BT-196_BT-142_-LotResult" see="field:BT-196(BT-142)-LotResult">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-WinnerChosenUnpublish_BT-197_BT-142_-LotResult" see="field:BT-197(BT-142)-LotResult">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-WinnerChosenUnpublish_BT-198_BT-142_-LotResult" see="field:BT-198(BT-142)-LotResult">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-WinningTenderValueUnpublish_BT-195_BT-720_-Tender" see="field:BT-195(BT-720)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-WinningTenderValueUnpublish_BT-196_BT-720_-Tender" see="field:BT-196(BT-720)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-WinningTenderValueUnpublish_BT-197_BT-720_-Tender" see="field:BT-197(BT-720)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-WinningTenderValueUnpublish_BT-198_BT-720_-Tender" see="field:BT-198(BT-720)-Tender">efbc:PublicationDate</diagnostic>
-        <diagnostic id="ND-WinningTenderVariantUnpublish_BT-195_BT-193_-Tender" see="field:BT-195(BT-193)-Tender">efbc:FieldIdentifierCode</diagnostic>
-        <diagnostic id="ND-WinningTenderVariantUnpublish_BT-196_BT-193_-Tender" see="field:BT-196(BT-193)-Tender">efbc:ReasonDescription</diagnostic>
-        <diagnostic id="ND-WinningTenderVariantUnpublish_BT-197_BT-193_-Tender" see="field:BT-197(BT-193)-Tender">cbc:ReasonCode</diagnostic>
-        <diagnostic id="ND-WinningTenderVariantUnpublish_BT-198_BT-193_-Tender" see="field:BT-198(BT-193)-Tender">efbc:PublicationDate</diagnostic>
         <diagnostic id="ND-Lot_BT-630_d_-Lot" see="field:BT-630(d)-Lot">cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod/cbc:EndDate</diagnostic>
+        <diagnostic id="ND-LotTenderingTerms_BT-70-Lot" see="field:BT-70-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='conditions']/cbc:Description</diagnostic>
         <diagnostic id="ND-Company_BT-509-Organization-Company" see="field:BT-509-Organization-Company">cbc:EndpointID</diagnostic>
         <diagnostic id="ND-ProcedurePlacePerformance_BT-5071-Procedure" see="field:BT-5071-Procedure">cbc:CountrySubentityCode</diagnostic>
         <diagnostic id="ND-ProcedurePlacePerformance_BT-5101_a_-Procedure" see="field:BT-5101(a)-Procedure">cbc:StreetName</diagnostic>
@@ -1732,6 +1599,8 @@
         <diagnostic id="ND-Asset_OPP-023-Contract" see="field:OPP-023-Contract">efbc:AssetPredominance</diagnostic>
         <diagnostic id="ND-AwardingTermsJuryMember_BT-46-Lot" see="field:BT-46-Lot">cbc:FamilyName</diagnostic>
         <diagnostic id="ND-BusinessCapability_OPP-105-Business" see="field:OPP-105-Business">cbc:CapabilityTypeCode</diagnostic>
+        <diagnostic id="ND-BuyerContractingType_BT-740-Procedure-Buyer" see="field:BT-740-Procedure-Buyer">cbc:PartyTypeCode[@listName='buyer-contracting-type']</diagnostic>
+        <diagnostic id="ND-BuyerLegalType_BT-11-Procedure-Buyer" see="field:BT-11-Procedure-Buyer">cbc:PartyTypeCode[@listName='buyer-legal-type']</diagnostic>
         <diagnostic id="ND-ChangeReason_BT-140-notice" see="field:BT-140-notice">cbc:ReasonCode</diagnostic>
         <diagnostic id="ND-ChangeReason_BT-762-notice" see="field:BT-762-notice">efbc:ReasonDescription</diagnostic>
         <diagnostic id="ND-Changes_BT-758-notice" see="field:BT-758-notice">efbc:ChangedNoticeIdentifier</diagnostic>
@@ -1742,7 +1611,10 @@
         <diagnostic id="ND-ContractEUFunds_BT-5011-Contract" see="field:BT-5011-Contract">efbc:FinancingIdentifier</diagnostic>
         <diagnostic id="ND-ContractEUFunds_BT-722-Contract" see="field:BT-722-Contract">cbc:FundingProgramCode</diagnostic>
         <diagnostic id="ND-ContractSignatory_OPT-300-Contract-Signatory" see="field:OPT-300-Contract-Signatory">cac:PartyIdentification/cbc:ID</diagnostic>
+        <diagnostic id="ND-ContractingAuthorityActivity_BT-10-Procedure-Buyer" see="field:BT-10-Procedure-Buyer">cbc:ActivityTypeCode[@listName='authority-activity']</diagnostic>
+        <diagnostic id="ND-ContractingEntityActivity_BT-610-Procedure-Buyer" see="field:BT-610-Procedure-Buyer">cbc:ActivityTypeCode[@listName='entity-activity']</diagnostic>
         <diagnostic id="ND-CrossBorderLaw_BT-09_a_-Procedure" see="field:BT-09(a)-Procedure">cbc:ID</diagnostic>
+        <diagnostic id="ND-DecisionReason_BT-144-LotResult" see="field:BT-144-LotResult">efbc:DecisionReasonCode</diagnostic>
         <diagnostic id="ND-DirectAward_BT-136-Procedure" see="field:BT-136-Procedure">cbc:ProcessReasonCode</diagnostic>
         <diagnostic id="ND-EEDAssetLabel_BT-812-LotResult" see="field:BT-812-LotResult">efbc:LabelCode</diagnostic>
         <diagnostic id="ND-EEDAssetQuantity_BT-815-LotResult" see="field:BT-815-LotResult">efbc:StatisticsNumeric</diagnostic>
@@ -1794,6 +1666,7 @@
         <diagnostic id="ND-LotFAContractingSystem_BT-765-Lot" see="field:BT-765-Lot">cbc:ContractingSystemTypeCode</diagnostic>
         <diagnostic id="ND-LotGreenCriteria_BT-805-Lot" see="field:BT-805-Lot">cbc:ProcurementTypeCode</diagnostic>
         <diagnostic id="ND-LotInnovativeAcquisitionType_BT-776-Lot" see="field:BT-776-Lot">cbc:ProcurementTypeCode</diagnostic>
+        <diagnostic id="ND-LotNonRestrictedProcurementDocumentAttachment_BT-15-Lot" see="field:BT-15-Lot">cac:ExternalReference/cbc:URI</diagnostic>
         <diagnostic id="ND-LotPerformanceAddress_BT-5071-Lot" see="field:BT-5071-Lot">cbc:CountrySubentityCode</diagnostic>
         <diagnostic id="ND-LotPerformanceAddress_BT-5101_a_-Lot" see="field:BT-5101(a)-Lot">cbc:StreetName</diagnostic>
         <diagnostic id="ND-LotPerformanceAddress_BT-5101_b_-Lot" see="field:BT-5101(b)-Lot">cbc:AdditionalStreetName</diagnostic>
@@ -1805,6 +1678,7 @@
         <diagnostic id="ND-LotPreviousPlanning_BT-1251-Lot" see="field:BT-1251-Lot">cbc:ReferencedDocumentInternalAddress</diagnostic>
         <diagnostic id="ND-LotReservedExecution_BT-736-Lot" see="field:BT-736-Lot">cbc:ExecutionRequirementCode</diagnostic>
         <diagnostic id="ND-LotReservedProcurement_BT-71-Lot" see="field:BT-71-Lot">cbc:TendererRequirementTypeCode</diagnostic>
+        <diagnostic id="ND-LotRestrictedProcurementDocumentAttachment_BT-615-Lot" see="field:BT-615-Lot">cac:ExternalReference/cbc:URI</diagnostic>
         <diagnostic id="ND-LotResultContractReference_OPT-315-LotResult" see="field:OPT-315-LotResult">cbc:ID</diagnostic>
         <diagnostic id="ND-LotResultTenderReference_OPT-320-LotResult" see="field:OPT-320-LotResult">cbc:ID</diagnostic>
         <diagnostic id="ND-LotSocialObjectiveType_BT-775-Lot" see="field:BT-775-Lot">cbc:ProcurementTypeCode</diagnostic>
@@ -1821,6 +1695,9 @@
         <diagnostic id="ND-NDA_BT-801-Lot" see="field:BT-801-Lot">cbc:ExecutionRequirementCode</diagnostic>
         <diagnostic id="ND-NonEsubmission_BT-19-Lot" see="field:BT-19-Lot">cbc:ProcessReasonCode[@listName='no-esubmission-justification']</diagnostic>
         <diagnostic id="ND-NonEsubmission_BT-745-Lot" see="field:BT-745-Lot">cbc:Description</diagnostic>
+        <diagnostic id="ND-NondisclosureJustification_BT-196-notice" see="field:BT-196-notice">efbc:NondisclosureJustificationDescription</diagnostic>
+        <diagnostic id="ND-NondisclosureJustification_BT-197-notice" see="field:BT-197-notice">efbc:NondisclosureJustificationCode</diagnostic>
+        <diagnostic id="ND-NoticeInformationNondisclosure_BT-198-notice" see="field:BT-198-notice">efbc:InformationDisclosureDate</diagnostic>
         <diagnostic id="ND-OptionsDescription_BT-57-Lot" see="field:BT-57-Lot">cbc:Description</diagnostic>
         <diagnostic id="ND-OrganizationUboReference_OPT-302-Organization" see="field:OPT-302-Organization">cbc:ID</diagnostic>
         <diagnostic id="ND-OtherContractExecutionConditions_OPP-030-Tender" see="field:OPP-030-Tender">efbc:TermCode</diagnostic>
@@ -1830,15 +1707,18 @@
         <diagnostic id="ND-PartDocNonOfficialLanguage_BT-737-Part" see="field:BT-737-Part">cbc:ID</diagnostic>
         <diagnostic id="ND-PartDocOfficialLanguage_BT-708-Part" see="field:BT-708-Part">cbc:ID</diagnostic>
         <diagnostic id="ND-PartFAContractingSystem_BT-765-Part" see="field:BT-765-Part">cbc:ContractingSystemTypeCode</diagnostic>
+        <diagnostic id="ND-PartNonRestrictedProcurementDocumentAttachment_BT-15-Part" see="field:BT-15-Part">cac:ExternalReference/cbc:URI</diagnostic>
         <diagnostic id="ND-PartPreviousPlanning_BT-1251-Part" see="field:BT-1251-Part">cbc:ReferencedDocumentInternalAddress</diagnostic>
         <diagnostic id="ND-PartReservedExecution_BT-736-Part" see="field:BT-736-Part">cbc:ExecutionRequirementCode</diagnostic>
         <diagnostic id="ND-PartReservedProcurement_BT-71-Part" see="field:BT-71-Part">cbc:TendererRequirementTypeCode</diagnostic>
+        <diagnostic id="ND-PartRestrictedProcurementDocumentAttachment_BT-615-Part" see="field:BT-615-Part">cac:ExternalReference/cbc:URI</diagnostic>
         <diagnostic id="ND-PayerParty_OPT-301-LotResult-Paying" see="field:OPT-301-LotResult-Paying">cac:PartyIdentification/cbc:ID</diagnostic>
         <diagnostic id="ND-PreselectedParticipant_BT-47-Lot" see="field:BT-47-Lot">cac:PartyName/cbc:Name</diagnostic>
         <diagnostic id="ND-PreviousNoticeReference_OPP-090-Procedure" see="field:OPP-090-Procedure">cbc:ID</diagnostic>
         <diagnostic id="ND-Prize_BT-644-Lot" see="field:BT-644-Lot">cbc:ValueAmount</diagnostic>
         <diagnostic id="ND-ProcedureAdditionalCommodityClassification_BT-263-Procedure" see="field:BT-263-Procedure">cbc:ItemClassificationCode</diagnostic>
         <diagnostic id="ND-ProcedureContractAdditionalNature_BT-531-Procedure" see="field:BT-531-Procedure">cbc:ProcurementTypeCode</diagnostic>
+        <diagnostic id="ND-ProcedureTenderingProcessExtension_BT-634-Procedure" see="field:BT-634-Procedure">efbc:ProcedureRelaunchIndicator</diagnostic>
         <diagnostic id="ND-ProcedureTransportServiceType_OPP-040-Procedure" see="field:OPP-040-Procedure">cbc:ProcurementTypeCode</diagnostic>
         <diagnostic id="ND-ProcedureValueEstimateExtension_BT-271-Procedure" see="field:BT-271-Procedure">efbc:FrameworkMaximumAmount</diagnostic>
         <diagnostic id="ND-ProviderParty_OPT-300-Procedure-SProvider" see="field:OPT-300-Procedure-SProvider">cac:PartyIdentification/cbc:ID</diagnostic>
@@ -1876,6 +1756,7 @@
         <diagnostic id="ND-Touchpoint_OPT-201-Organization-TouchPoint" see="field:OPT-201-Organization-TouchPoint">cac:PartyIdentification/cbc:ID</diagnostic>
         <diagnostic id="ND-UBO_OPT-202-UBO" see="field:OPT-202-UBO">cbc:ID</diagnostic>
         <diagnostic id="ND-UBONationality_BT-706-UBO" see="field:BT-706-UBO">cbc:NationalityID</diagnostic>
+        <diagnostic id="ND-UndisclosedGroupReference_BT-195-notice" see="field:BT-195-notice">efbc:NondisclosureID</diagnostic>
         <diagnostic id="BT-02-notice_BT-03-notice" see="field:BT-03-notice">@listName</diagnostic>
         <diagnostic id="BT-06-Lot_BT-06-Lot-List" see="field:BT-06-Lot-List">@listName</diagnostic>
         <diagnostic id="BT-10-Procedure-Buyer_BT-10-Procedure-Buyer-List" see="field:BT-10-Procedure-Buyer-List">@listName</diagnostic>
@@ -1884,8 +1765,6 @@
         <diagnostic id="BT-11-Procedure-Buyer_BT-11-Procedure-Buyer-List" see="field:BT-11-Procedure-Buyer-List">@listName</diagnostic>
         <diagnostic id="BT-1118-NoticeResult_BT-1118-NoticeResult-Currency" see="field:BT-1118-NoticeResult-Currency">@currencyID</diagnostic>
         <diagnostic id="BT-118-NoticeResult_BT-118-NoticeResult-Currency" see="field:BT-118-NoticeResult-Currency">@currencyID</diagnostic>
-        <diagnostic id="BT-125_i_-Lot_BT-125_i_-Lot-Scheme" see="field:BT-125(i)-Lot-Scheme">@schemeName</diagnostic>
-        <diagnostic id="BT-125_i_-Part_BT-125_i_-Part-Scheme" see="field:BT-125(i)-Part-Scheme">@schemeName</diagnostic>
         <diagnostic id="BT-136-Procedure_BT-136-Procedure-List" see="field:BT-136-Procedure-List">@listName</diagnostic>
         <diagnostic id="BT-137-Lot_BT-137-Lot-Scheme" see="field:BT-137-Lot-Scheme">@schemeName</diagnostic>
         <diagnostic id="BT-137-LotsGroup_BT-137-LotsGroup-Scheme" see="field:BT-137-LotsGroup-Scheme">@schemeName</diagnostic>
@@ -1897,7 +1776,6 @@
         <diagnostic id="BT-142-LotResult_BT-142-LotResult-List" see="field:BT-142-LotResult-List">@listName</diagnostic>
         <diagnostic id="BT-144-LotResult_BT-144-LotResult-List" see="field:BT-144-LotResult-List">@listName</diagnostic>
         <diagnostic id="BT-1501_c_-Contract_BT-1501_c_-Contract-Scheme" see="field:BT-1501(c)-Contract-Scheme">@schemeName</diagnostic>
-        <diagnostic id="BT-1501_n_-Contract_BT-1501_n_-Contract-Scheme" see="field:BT-1501(n)-Contract-Scheme">@schemeName</diagnostic>
         <diagnostic id="BT-156-NoticeResult_BT-156-NoticeResult-Currency" see="field:BT-156-NoticeResult-Currency">@currencyID</diagnostic>
         <diagnostic id="BT-1561-NoticeResult_BT-1561-NoticeResult-Currency" see="field:BT-1561-NoticeResult-Currency">@currencyID</diagnostic>
         <diagnostic id="BT-157-LotsGroup_BT-157-LotsGroup-Currency" see="field:BT-157-LotsGroup-Currency">@currencyID</diagnostic>
@@ -1908,126 +1786,7 @@
         <diagnostic id="BT-17-Lot_BT-17-Lot-List" see="field:BT-17-Lot-List">@listName</diagnostic>
         <diagnostic id="BT-19-Lot_BT-19-Lot-List" see="field:BT-19-Lot-List">@listName</diagnostic>
         <diagnostic id="BT-191-Tender_BT-191-Tender-List" see="field:BT-191-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-09_-Procedure_BT-195_BT-09_-Procedure-List" see="field:BT-195(BT-09)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-105_-Procedure_BT-195_BT-105_-Procedure-List" see="field:BT-195(BT-105)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-106_-Procedure_BT-195_BT-106_-Procedure-List" see="field:BT-195(BT-106)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-1118_-NoticeResult_BT-195_BT-1118_-NoticeResult-List" see="field:BT-195(BT-1118)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-118_-NoticeResult_BT-195_BT-118_-NoticeResult-List" see="field:BT-195(BT-118)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-1252_-Procedure_BT-195_BT-1252_-Procedure-List" see="field:BT-195(BT-1252)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-135_-Procedure_BT-195_BT-135_-Procedure-List" see="field:BT-195(BT-135)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-1351_-Procedure_BT-195_BT-1351_-Procedure-List" see="field:BT-195(BT-1351)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-136_-Procedure_BT-195_BT-136_-Procedure-List" see="field:BT-195(BT-136)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-142_-LotResult_BT-195_BT-142_-LotResult-List" see="field:BT-195(BT-142)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-144_-LotResult_BT-195_BT-144_-LotResult-List" see="field:BT-195(BT-144)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-156_-NoticeResult_BT-195_BT-156_-NoticeResult-List" see="field:BT-195(BT-156)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-1561_-NoticeResult_BT-195_BT-1561_-NoticeResult-List" see="field:BT-195(BT-1561)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-160_-Tender_BT-195_BT-160_-Tender-List" see="field:BT-195(BT-160)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-161_-NoticeResult_BT-195_BT-161_-NoticeResult-List" see="field:BT-195(BT-161)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-162_-Tender_BT-195_BT-162_-Tender-List" see="field:BT-195(BT-162)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-163_-Tender_BT-195_BT-163_-Tender-List" see="field:BT-195(BT-163)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-171_-Tender_BT-195_BT-171_-Tender-List" see="field:BT-195(BT-171)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-191_-Tender_BT-195_BT-191_-Tender-List" see="field:BT-195(BT-191)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-193_-Tender_BT-195_BT-193_-Tender-List" see="field:BT-195(BT-193)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-539_-Lot_BT-195_BT-539_-Lot-List" see="field:BT-195(BT-539)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-539_-LotsGroup_BT-195_BT-539_-LotsGroup-List" see="field:BT-195(BT-539)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-540_-Lot_BT-195_BT-540_-Lot-List" see="field:BT-195(BT-540)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-540_-LotsGroup_BT-195_BT-540_-LotsGroup-List" see="field:BT-195(BT-540)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-541_-Lot-Fixed_BT-195_BT-541_-Lot-Fixed-List" see="field:BT-195(BT-541)-Lot-Fixed-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-541_-Lot-Threshold_BT-195_BT-541_-Lot-Threshold-List" see="field:BT-195(BT-541)-Lot-Threshold-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-541_-Lot-Weight_BT-195_BT-541_-Lot-Weight-List" see="field:BT-195(BT-541)-Lot-Weight-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-541_-LotsGroup-Fixed_BT-195_BT-541_-LotsGroup-Fixed-List" see="field:BT-195(BT-541)-LotsGroup-Fixed-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-541_-LotsGroup-Threshold_BT-195_BT-541_-LotsGroup-Threshold-List" see="field:BT-195(BT-541)-LotsGroup-Threshold-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-541_-LotsGroup-Weight_BT-195_BT-541_-LotsGroup-Weight-List" see="field:BT-195(BT-541)-LotsGroup-Weight-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-5421_-Lot_BT-195_BT-5421_-Lot-List" see="field:BT-195(BT-5421)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-5421_-LotsGroup_BT-195_BT-5421_-LotsGroup-List" see="field:BT-195(BT-5421)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-5422_-Lot_BT-195_BT-5422_-Lot-List" see="field:BT-195(BT-5422)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-5422_-LotsGroup_BT-195_BT-5422_-LotsGroup-List" see="field:BT-195(BT-5422)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-5423_-Lot_BT-195_BT-5423_-Lot-List" see="field:BT-195(BT-5423)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-5423_-LotsGroup_BT-195_BT-5423_-LotsGroup-List" see="field:BT-195(BT-5423)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-543_-Lot_BT-195_BT-543_-Lot-List" see="field:BT-195(BT-543)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-543_-LotsGroup_BT-195_BT-543_-LotsGroup-List" see="field:BT-195(BT-543)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-553_-Tender_BT-195_BT-553_-Tender-List" see="field:BT-195(BT-553)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-554_-Tender_BT-195_BT-554_-Tender-List" see="field:BT-195(BT-554)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-555_-Tender_BT-195_BT-555_-Tender-List" see="field:BT-195(BT-555)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-556_-NoticeResult_BT-195_BT-556_-NoticeResult-List" see="field:BT-195(BT-556)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-635_-LotResult_BT-195_BT-635_-LotResult-List" see="field:BT-195(BT-635)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-636_-LotResult_BT-195_BT-636_-LotResult-List" see="field:BT-195(BT-636)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-660_-LotResult_BT-195_BT-660_-LotResult-List" see="field:BT-195(BT-660)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-709_-LotResult_BT-195_BT-709_-LotResult-List" see="field:BT-195(BT-709)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-710_-LotResult_BT-195_BT-710_-LotResult-List" see="field:BT-195(BT-710)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-711_-LotResult_BT-195_BT-711_-LotResult-List" see="field:BT-195(BT-711)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-712_-LotResult_BT-195_BT-712_-LotResult-List" see="field:BT-195(BT-712)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-720_-Tender_BT-195_BT-720_-Tender-List" see="field:BT-195(BT-720)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-730_-Tender_BT-195_BT-730_-Tender-List" see="field:BT-195(BT-730)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-731_-Tender_BT-195_BT-731_-Tender-List" see="field:BT-195(BT-731)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-733_-Lot_BT-195_BT-733_-Lot-List" see="field:BT-195(BT-733)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-733_-LotsGroup_BT-195_BT-733_-LotsGroup-List" see="field:BT-195(BT-733)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-734_-Lot_BT-195_BT-734_-Lot-List" see="field:BT-195(BT-734)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-734_-LotsGroup_BT-195_BT-734_-LotsGroup-List" see="field:BT-195(BT-734)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-759_-LotResult_BT-195_BT-759_-LotResult-List" see="field:BT-195(BT-759)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-760_-LotResult_BT-195_BT-760_-LotResult-List" see="field:BT-195(BT-760)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-773_-Tender_BT-195_BT-773_-Tender-List" see="field:BT-195(BT-773)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-195_BT-88_-Procedure_BT-195_BT-88_-Procedure-List" see="field:BT-195(BT-88)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-09_-Procedure_BT-197_BT-09_-Procedure-List" see="field:BT-197(BT-09)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-105_-Procedure_BT-197_BT-105_-Procedure-List" see="field:BT-197(BT-105)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-106_-Procedure_BT-197_BT-106_-Procedure-List" see="field:BT-197(BT-106)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-1118_-NoticeResult_BT-197_BT-1118_-NoticeResult-List" see="field:BT-197(BT-1118)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-118_-NoticeResult_BT-197_BT-118_-NoticeResult-List" see="field:BT-197(BT-118)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-1252_-Procedure_BT-197_BT-1252_-Procedure-List" see="field:BT-197(BT-1252)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-135_-Procedure_BT-197_BT-135_-Procedure-List" see="field:BT-197(BT-135)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-1351_-Procedure_BT-197_BT-1351_-Procedure-List" see="field:BT-197(BT-1351)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-136_-Procedure_BT-197_BT-136_-Procedure-List" see="field:BT-197(BT-136)-Procedure-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-142_-LotResult_BT-197_BT-142_-LotResult-List" see="field:BT-197(BT-142)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-144_-LotResult_BT-197_BT-144_-LotResult-List" see="field:BT-197(BT-144)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-156_-NoticeResult_BT-197_BT-156_-NoticeResult-List" see="field:BT-197(BT-156)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-1561_-NoticeResult_BT-197_BT-1561_-NoticeResult-List" see="field:BT-197(BT-1561)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-160_-Tender_BT-197_BT-160_-Tender-List" see="field:BT-197(BT-160)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-161_-NoticeResult_BT-197_BT-161_-NoticeResult-List" see="field:BT-197(BT-161)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-162_-Tender_BT-197_BT-162_-Tender-List" see="field:BT-197(BT-162)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-163_-Tender_BT-197_BT-163_-Tender-List" see="field:BT-197(BT-163)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-171_-Tender_BT-197_BT-171_-Tender-List" see="field:BT-197(BT-171)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-191_-Tender_BT-197_BT-191_-Tender-List" see="field:BT-197(BT-191)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-193_-Tender_BT-197_BT-193_-Tender-List" see="field:BT-197(BT-193)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-539_-Lot_BT-197_BT-539_-Lot-List" see="field:BT-197(BT-539)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-539_-LotsGroup_BT-197_BT-539_-LotsGroup-List" see="field:BT-197(BT-539)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-540_-Lot_BT-197_BT-540_-Lot-List" see="field:BT-197(BT-540)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-540_-LotsGroup_BT-197_BT-540_-LotsGroup-List" see="field:BT-197(BT-540)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-541_-Lot-Fixed_BT-197_BT-541_-Lot-Fixed-List" see="field:BT-197(BT-541)-Lot-Fixed-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-541_-Lot-Threshold_BT-197_BT-541_-Lot-Threshold-List" see="field:BT-197(BT-541)-Lot-Threshold-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-541_-Lot-Weight_BT-197_BT-541_-Lot-Weight-List" see="field:BT-197(BT-541)-Lot-Weight-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-541_-LotsGroup-Fixed_BT-197_BT-541_-LotsGroup-Fixed-List" see="field:BT-197(BT-541)-LotsGroup-Fixed-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-541_-LotsGroup-Threshold_BT-197_BT-541_-LotsGroup-Threshold-List" see="field:BT-197(BT-541)-LotsGroup-Threshold-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-541_-LotsGroup-Weight_BT-197_BT-541_-LotsGroup-Weight-List" see="field:BT-197(BT-541)-LotsGroup-Weight-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-5421_-Lot_BT-197_BT-5421_-Lot-List" see="field:BT-197(BT-5421)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-5421_-LotsGroup_BT-197_BT-5421_-LotsGroup-List" see="field:BT-197(BT-5421)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-5422_-Lot_BT-197_BT-5422_-Lot-List" see="field:BT-197(BT-5422)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-5422_-LotsGroup_BT-197_BT-5422_-LotsGroup-List" see="field:BT-197(BT-5422)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-5423_-Lot_BT-197_BT-5423_-Lot-List" see="field:BT-197(BT-5423)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-5423_-LotsGroup_BT-197_BT-5423_-LotsGroup-List" see="field:BT-197(BT-5423)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-543_-Lot_BT-197_BT-543_-Lot-List" see="field:BT-197(BT-543)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-543_-LotsGroup_BT-197_BT-543_-LotsGroup-List" see="field:BT-197(BT-543)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-553_-Tender_BT-197_BT-553_-Tender-List" see="field:BT-197(BT-553)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-554_-Tender_BT-197_BT-554_-Tender-List" see="field:BT-197(BT-554)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-555_-Tender_BT-197_BT-555_-Tender-List" see="field:BT-197(BT-555)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-556_-NoticeResult_BT-197_BT-556_-NoticeResult-List" see="field:BT-197(BT-556)-NoticeResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-635_-LotResult_BT-197_BT-635_-LotResult-List" see="field:BT-197(BT-635)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-636_-LotResult_BT-197_BT-636_-LotResult-List" see="field:BT-197(BT-636)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-660_-LotResult_BT-197_BT-660_-LotResult-List" see="field:BT-197(BT-660)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-709_-LotResult_BT-197_BT-709_-LotResult-List" see="field:BT-197(BT-709)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-710_-LotResult_BT-197_BT-710_-LotResult-List" see="field:BT-197(BT-710)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-711_-LotResult_BT-197_BT-711_-LotResult-List" see="field:BT-197(BT-711)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-712_-LotResult_BT-197_BT-712_-LotResult-List" see="field:BT-197(BT-712)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-720_-Tender_BT-197_BT-720_-Tender-List" see="field:BT-197(BT-720)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-730_-Tender_BT-197_BT-730_-Tender-List" see="field:BT-197(BT-730)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-731_-Tender_BT-197_BT-731_-Tender-List" see="field:BT-197(BT-731)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-733_-Lot_BT-197_BT-733_-Lot-List" see="field:BT-197(BT-733)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-733_-LotsGroup_BT-197_BT-733_-LotsGroup-List" see="field:BT-197(BT-733)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-734_-Lot_BT-197_BT-734_-Lot-List" see="field:BT-197(BT-734)-Lot-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-734_-LotsGroup_BT-197_BT-734_-LotsGroup-List" see="field:BT-197(BT-734)-LotsGroup-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-759_-LotResult_BT-197_BT-759_-LotResult-List" see="field:BT-197(BT-759)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-760_-LotResult_BT-197_BT-760_-LotResult-List" see="field:BT-197(BT-760)-LotResult-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-773_-Tender_BT-197_BT-773_-Tender-List" see="field:BT-197(BT-773)-Tender-List">@listName</diagnostic>
-        <diagnostic id="BT-197_BT-88_-Procedure_BT-197_BT-88_-Procedure-List" see="field:BT-197(BT-88)-Procedure-List">@listName</diagnostic>
+        <diagnostic id="BT-197-notice_BT-197-notice-List" see="field:BT-197-notice-List">@listName</diagnostic>
         <diagnostic id="BT-200-Contract_BT-200-Contract-List" see="field:BT-200-Contract-List">@listName</diagnostic>
         <diagnostic id="BT-22-Lot_BT-22-Lot-Scheme" see="field:BT-22-Lot-Scheme">@schemeName</diagnostic>
         <diagnostic id="BT-22-LotsGroup_BT-22-LotsGroup-Scheme" see="field:BT-22-LotsGroup-Scheme">@schemeName</diagnostic>
@@ -2179,7 +1938,6 @@
         <diagnostic id="OPT-071-Lot_OPT-071-Lot-List" see="field:OPT-071-Lot-List">@listName</diagnostic>
         <diagnostic id="OPT-080-LotResult_OPT-080-LotResult-List" see="field:OPT-080-LotResult-List">@listName</diagnostic>
         <diagnostic id="OPT-081-LotResult_OPT-081-LotResult-List" see="field:OPT-081-LotResult-List">@listName</diagnostic>
-        <diagnostic id="OPT-100-Contract_OPT-100-Contract-Scheme" see="field:OPT-100-Contract-Scheme">@schemeName</diagnostic>
         <diagnostic id="OPT-155-LotResult_OPT-155-LotResult-List" see="field:OPT-155-LotResult-List">@listName</diagnostic>
         <diagnostic id="OPT-200-Organization-Company_OPT-200-Organization-Company-Scheme" see="field:OPT-200-Organization-Company-Scheme">@schemeName</diagnostic>
         <diagnostic id="OPT-201-Organization-TouchPoint_OPT-201-Organization-TouchPoint-Scheme" see="field:OPT-201-Organization-TouchPoint-Scheme">@schemeName</diagnostic>
@@ -2222,7 +1980,6 @@
         <diagnostic id="OPT-322-LotResult_OPT-322-LotResult-Scheme" see="field:OPT-322-LotResult-Scheme">@schemeName</diagnostic>
         <diagnostic id="ND-Changes_BT-140-notice" see="field:BT-140-notice">efac:ChangeReason/cbc:ReasonCode</diagnostic>
         <diagnostic id="ND-EEDLot_BT-811_b_-Lot" see="field:BT-811(b)-Lot">efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
-        <diagnostic id="ND-Lot_BT-40-Lot" see="field:BT-40-Lot">cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efbc:SecondStageIndicator</diagnostic>
         <diagnostic id="ND-Lot_BT-50-Lot" see="field:BT-50-Lot">cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MinimumQuantity</diagnostic>
         <diagnostic id="ND-LotInfoRequestPeriod_BT-13_t_-Lot" see="field:BT-13(t)-Lot">cbc:EndTime</diagnostic>
         <diagnostic id="ND-ProcedureTerms_BT-31-Procedure" see="field:BT-31-Procedure">cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric</diagnostic>

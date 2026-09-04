@@ -5,7 +5,7 @@
       <ShortName>ReceivedSubmissionType</ShortName>
       <LongName>received-submission-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/received-submission-type</LongName>
-      <Version>20250924-0</Version>
+      <Version>20260617-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/received-submission-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -285,10 +285,79 @@
             <SimpleValue>t-large</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from large organisations</SimpleValue>
+            <SimpleValue>Tenders from large enterprises</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Оферти от големи предприятия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nabídky od velkých podniků</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilbud fra store virksomheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Angebote von großen Unternehmen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προσφορές από μεγάλες επιχειρήσεις</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from large organisations</SimpleValue>
+            <SimpleValue>Tenders from large enterprises</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ofertas de grandes empresas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pakkumused suurettevõtjatelt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Suurilta yrityksiltä saadut tarjoukset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Offres reçues de grandes entreprises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tairiscintí ó fhiontair mhóra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ponude velikih poduzeća</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nagyvállalkozások ajánlatai</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Offerte presentate da grandi imprese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Didelių įmonių pateikti pasiūlymai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piedāvājumi no lielajiem uzņēmumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Offerti mingħand intrapriżi kbar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Inschrijvingen van grote ondernemingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oferty złożone przez duże przedsiębiorstwa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Propostas de grandes empresas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Oferte depuse de întreprinderi mari</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ponuky od veľkých podnikov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ponudbe velikih podjetij</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Anbud från stora företag</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -296,13 +365,13 @@
             <SimpleValue>t-med</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from medium tenderers</SimpleValue>
+            <SimpleValue>Tenders from medium enterprises</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Оферти от средни предприятия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nabídky od uchazečů – středních podniků</SimpleValue>
+            <SimpleValue>Nabídky od středních podniků</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tilbud fra mellemstore virksomheder</SimpleValue>
@@ -311,28 +380,28 @@
             <SimpleValue>Angebote von mittleren Unternehmen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προσφορές από μεσαίους προσφέροντες</SimpleValue>
+            <SimpleValue>Προσφορές από μεγάλες επιχειρήσεις</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from medium tenderers</SimpleValue>
+            <SimpleValue>Tenders from medium enterprises</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ofertas de licitadores que son medianas empresas</SimpleValue>
+            <SimpleValue>Ofertas de empresas medianas</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Keskmise suurusega ettevõtjate pakkumused</SimpleValue>
+            <SimpleValue>Pakkumused keskmise suurusega ettevõtjatelt</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Keskikokoisilta yrityksiltä saadut tarjoukset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Offres reçues de soumissionnaires de moyenne taille</SimpleValue>
+            <SimpleValue>Offres reçues de moyennes entreprises</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscintí ó thairgeoirí meánmhéide</SimpleValue>
+            <SimpleValue>Tairiscintí ó fhiontair mheánmhéide</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponude ponuditelja koji su srednja poduzeća</SimpleValue>
+            <SimpleValue>Ponude srednjih poduzeća</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Középvállalkozások ajánlatai</SimpleValue>
@@ -341,31 +410,31 @@
             <SimpleValue>Offerte presentate da medie imprese</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Vidutinių dalyvių pasiūlymai</SimpleValue>
+            <SimpleValue>Vidutinio dydžio įmonių pateikti pasiūlymai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piedāvājumi saņemti no vidējiem uzņēmumiem</SimpleValue>
+            <SimpleValue>Piedāvājumi no vidējiem uzņēmumiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Offerti minn offerenti medji</SimpleValue>
+            <SimpleValue>Offerti mingħand intrapriżi medji</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Inschrijvingen van middelgrote inschrijvers</SimpleValue>
+            <SimpleValue>Inschrijvingen van middelgrote ondernemingen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferty złożone przez średnich oferentów</SimpleValue>
+            <SimpleValue>Oferty złożone przez średnie przedsiębiorstwa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Propostas apresentadas por proponentes de média dimensão</SimpleValue>
+            <SimpleValue>Propostas de médias empresas</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Oferte din partea ofertanților de dimensiuni mijlocii</SimpleValue>
+            <SimpleValue>Oferte depuse de întreprinderi mijlocii</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ponuky od uchádzačov, ktorí sú strednými podnikmi</SimpleValue>
+            <SimpleValue>Ponuky od stredných podnikov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudbe ponudnikov, ki so srednja podjetja</SimpleValue>
+            <SimpleValue>Ponudbe srednjih podjetij</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Anbud från medelstora företag</SimpleValue>
@@ -376,13 +445,13 @@
             <SimpleValue>t-micro</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from micro tenderers</SimpleValue>
+            <SimpleValue>Tenders from micro enterprises</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Оферти от микропредприятия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nabídky od uchazečů – mikropodniků</SimpleValue>
+            <SimpleValue>Nabídky od mikropodniků</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tilbud fra mikrovirksomheder</SimpleValue>
@@ -391,28 +460,28 @@
             <SimpleValue>Angebote von Kleinstunternehmen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προσφορές από πολύ μικρούς προσφέροντες</SimpleValue>
+            <SimpleValue>Προσφορές από πολύ μικρές επιχειρήσεις</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from micro tenderers</SimpleValue>
+            <SimpleValue>Tenders from micro enterprises</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ofertas de licitadores que son microempresas</SimpleValue>
+            <SimpleValue>Ofertas de microempresas</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Mikroettevõtjate pakkumused</SimpleValue>
+            <SimpleValue>Pakkumused mikroettevõtjatelt</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Mikroyrityksiltä saadut tarjoukset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Offres reçues de soumissionnaires de microtaille</SimpleValue>
+            <SimpleValue>Offres reçues de microentreprises</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscintí ó mhicreathairgeoirí</SimpleValue>
+            <SimpleValue>Tairiscintí ó mhicrifhiontair</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponude ponuditelja koji su mikropoduzeća</SimpleValue>
+            <SimpleValue>Ponude mikropoduzeća</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Mikrovállalkozások ajánlatai</SimpleValue>
@@ -421,31 +490,31 @@
             <SimpleValue>Offerte presentate da microimprese</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Labai mažų dalyvių pasiūlymai</SimpleValue>
+            <SimpleValue>Labai mažų įmonių pateikti pasiūlymai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piedāvājumi saņemti no mikrouzņēmumiem</SimpleValue>
+            <SimpleValue>Piedāvājumi no mikrouzņēmumiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Offerti mingħand offerenti mikro</SimpleValue>
+            <SimpleValue>Offerti mingħand mikrointrapriżi</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Inschrijvingen van micro-ondernemingen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferty złożone przez mikrooferentów</SimpleValue>
+            <SimpleValue>Oferty złożone przez mikroprzedsiębiorstwa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Propostas de micro-proponentes</SimpleValue>
+            <SimpleValue>Propostas de microempresas</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Oferte din partea ofertanților cu dimensiuni micro</SimpleValue>
+            <SimpleValue>Oferte depuse de microîntreprinderi</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ponuky od uchádzačov, ktorí sú mikropodnikmi</SimpleValue>
+            <SimpleValue>Ponuky od mikropodnikov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudbe ponudnikov, ki so mikropodjetja</SimpleValue>
+            <SimpleValue>Ponudbe mikropodjetij</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Anbud från mikroföretag</SimpleValue>
@@ -456,79 +525,79 @@
             <SimpleValue>t-no-eea</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from tenders registered in countries outside of the European Economic Area</SimpleValue>
+            <SimpleValue>Tenders from organisations from non-EEA countries</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Оферти от оференти, регистрирани в държави извън Европейското икономическо пространство</SimpleValue>
+            <SimpleValue>Оферти от оференти от държави извън ЕИП</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nabídky od uchazečů registrovaných v zemích mimo Evropský hospodářský prostor</SimpleValue>
+            <SimpleValue>Nabídky od organizací ze zemí mimo EHP</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Tilbud fra tilbudsgivere, der er registreret i lande uden for EØS</SimpleValue>
+            <SimpleValue>Tilbud fra organisationer fra lande uden for EØS</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Angebote von Bieter aus Ländern außerhalb des Europäischen Wirtschaftsraums</SimpleValue>
+            <SimpleValue>Angebote von Bietern aus Ländern außerhalb des EWR</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προσφορές από προσφέροντες που έχουν καταχωριστεί σε χώρες εκτός του Ευρωπαϊκού Οικονομικού Χώρου</SimpleValue>
+            <SimpleValue>Προσφορές από οργανισμούς χωρών εκτός ΕΟΧ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from tenders registered in countries outside of the European Economic Area</SimpleValue>
+            <SimpleValue>Tenders from organisations from non-EEA countries</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ofertas de licitadores registrados fuera del Espacio Económico Europeo</SimpleValue>
+            <SimpleValue>Ofertas de organizaciones de países no pertenecientes al EEE</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Väljaspool Euroopa Majanduspiirkonda olevates riikides registreeritud pakkujate pakkumused</SimpleValue>
+            <SimpleValue>Pakkumused EMP-väliste riikide organisatsioonidelt</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Euroopan talousalueen ulkopuolisissa maissa rekisteröityjen tarjoajien tarjoukset</SimpleValue>
+            <SimpleValue>ETA:n ulkopuolisten maiden tarjoajilta saadut tarjoukset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Offres reçues de soumissionnaires enregistrés dans des pays situés en dehors de l’Espace économique européen</SimpleValue>
+            <SimpleValue>Offres reçues d’organisations de pays non membres de l’EEE</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscintí ó thairgeoirí atá cláraithe i dtíortha lasmuigh den Limistéar Eorpach Eacnamaíoch</SimpleValue>
+            <SimpleValue>Tairiscintí ó eagraíochtaí ó thíortha nach tíortha den LEE iad</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponude ponuditelja registriranih u zemljama izvan Europskog gospodarskog prostora</SimpleValue>
+            <SimpleValue>Ponude organizacija iz zemalja izvan EGP-a</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az EGT-n kívüli országokban bejegyzett ajánlattevők ajánlatai</SimpleValue>
+            <SimpleValue>Az EGT-n kívüli országokban bejegyzett szervezetek ajánlatai</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Offerte presentate da offerenti con sede in paesi al di fuori dello Spazio economico europeo</SimpleValue>
+            <SimpleValue>Offerte presentate da organizzazioni con sede in paesi non appartenenti al SEE</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Dalyvių, įregistruotų ne Europos ekonominės erdvės šalyse, pasiūlymai</SimpleValue>
+            <SimpleValue>EEE nepriklausančių šalių organizacijų pateikti pasiūlymai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piedāvājumi no pretendentiem, kas reģistrēti valstīs ārpus Eiropas Ekonomikas zonas</SimpleValue>
+            <SimpleValue>Piedāvājumi no organizācijām no valstīm, kuras nav EEZ valstis</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Offerti minn offerti rreġistrati f’pajjiżi ’l barra miż-Żona Ekonomika Ewropea</SimpleValue>
+            <SimpleValue>Offerti mingħand organizzazzjonijiet minn pajjiżi mhux taż-ŻEE</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Inschrijvingen van inschrijvers die in landen buiten de Europese Economische Ruimte geregistreerd zijn</SimpleValue>
+            <SimpleValue>Inschrijvingen van organisaties uit niet-EER-landen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferty złożone przez oferentów z siedzibą w państwach spoza Europejskiego Obszaru Gospodarczego</SimpleValue>
+            <SimpleValue>Oferty złożone przez organizacje z państw nienależących do EOG</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Propostas de concursos registados em países fora do Espaço Económico Europeu</SimpleValue>
+            <SimpleValue>Propostas de organizações de países não pertencentes ao EEE</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Oferte depuse de ofertanți înregistrați în țări din afara Spațiului Economic European</SimpleValue>
+            <SimpleValue>Oferte depuse de organizații din țări din afara SEE</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ponuky od uchádzačov registrovaných v krajinách mimo Európskeho hospodárskeho priestoru</SimpleValue>
+            <SimpleValue>Ponuky od organizácií z krajín mimo EHP</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudbe ponudnikov, ki so registrirani v državah zunaj Evropskega gospodarskega prostora</SimpleValue>
+            <SimpleValue>Ponudbe organizacij iz držav nečlanic EGP</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Anbud från anbudsgivare som är registrerade i länder utanför Europeiska ekonomiska samarbetsområdet</SimpleValue>
+            <SimpleValue>Anbud från organisationer i länder utanför EES</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -616,79 +685,79 @@
             <SimpleValue>t-oth-eea</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from tenderers registered in other European Economic Area countries than the country of the buyer</SimpleValue>
+            <SimpleValue>Tenders from organisations registered from an EEA country different from the country of the buyer</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Оферти от оференти, регистрирани в държави от Европейското икономическо пространство, различни от държавата на купувача</SimpleValue>
+            <SimpleValue>Оферти от оференти, регистрирани в държава от ЕИП, различна от държавата на купувача</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nabídky od uchazečů registrovaných v jiných zemích Evropského hospodářského prostoru, než je země kupujícího</SimpleValue>
+            <SimpleValue>Nabídky od organizací registrovaných v jiné zemi EHP, než je země kupujícího</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Tilbud fra tilbudsgivere, der er registreret i andre EØS-lande end købers land</SimpleValue>
+            <SimpleValue>Tilbud fra organisationer, der er registreret i et andet EØS-land end købers land</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Angebote von Bietern, die in anderen Ländern des Europäischen Wirtschaftsraums registriert sind als dem Land des Beschaffers</SimpleValue>
+            <SimpleValue>Angebote von Bietern, die in einem anderen EWR-Land als dem des Beschaffers eingetragen sind</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προσφορές από προσφέροντες που έχουν καταχωριστεί σε χώρες του Ευρωπαϊκού Οικονομικού Χώρου διαφορετικές από τη χώρα του αγοραστή</SimpleValue>
+            <SimpleValue>Προσφορές από οργανισμούς που έχουν καταχωριστεί σε χώρα του ΕΟΧ διαφορετική από τη χώρα του αγοραστή</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from tenderers registered in other European Economic Area countries than the country of the buyer</SimpleValue>
+            <SimpleValue>Tenders from organisations registered from an EEA country different from the country of the buyer</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ofertas de licitadores registrados en otros países del Espacio Económico Europeo distintos del país del comprador</SimpleValue>
+            <SimpleValue>Ofertas de organizaciones registradas de un país del EEE distinto del país del comprador</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Muudes Euroopa Majanduspiirkonna riikides kui hankija asukohariik registreeritud pakkujate pakkumused</SimpleValue>
+            <SimpleValue>Pakkumused organisatsioonidelt, mis on registreeritud hankija riigist erinevas EMP riigis</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Muihin Euroopan talousalueen maihin kuin ostajan maahan rekisteröityjen tarjoajien tarjoukset</SimpleValue>
+            <SimpleValue>Muihin ETA-maihin kuin ostajan maahan rekisteröidyiltä tarjoajilta saadut tarjoukset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Offres reçues de soumissionnaires enregistrés dans des pays de l’Espace économique européen autres que le pays de l’acheteur</SimpleValue>
+            <SimpleValue>Offres reçues d’organisations enregistrées dans un pays de l’EEE autre que le pays de l’acheteur</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscintí ó thairgeoirí atá cláraithe i dtír eile den Limistéar Eorpach Eacnamaíoch nach í tír an cheannaitheora í</SimpleValue>
+            <SimpleValue>Tairiscintí ó eagraíochtaí atá cláraithe i dtír LEE nach í tír an cheannaitheora í</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponude ponuditelja registriranih u zemljama Europskog gospodarskog prostora koje nisu zemlja kupca</SimpleValue>
+            <SimpleValue>Ponude organizacija registriranih u zemljama EGP-a koje nisu zemlja kupca</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A vevőétől eltérő EGT-országban bejegyzett ajánlattevők ajánlatai</SimpleValue>
+            <SimpleValue>A vevőétől eltérő EGT-országban bejegyzett szervezetek ajánlatai</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Offerte presentate da offerenti con sede in paesi dello Spazio economico europeo diversi dal paese del committente</SimpleValue>
+            <SimpleValue>Offerte presentate da organizzazioni con sede in un paese del SEE diverso dal paese del committente</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Dalyvių, įregistruotų kitose nei pirkėjo šalis Europos ekonominės erdvės šalyse, pasiūlymai</SimpleValue>
+            <SimpleValue>Pasiūlymai, pateikti EEE šalyje, kuri nėra pirkėjo šalis, registruotų organizacijų</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piedāvājumi no pretendentiem, kas reģistrēti citās Eiropas Ekonomikas zonas valstīs, nevis pircēja valstī</SimpleValue>
+            <SimpleValue>Piedāvājumi no organizācijām, kas reģistrētas EEZ valstī, kura nav pircēja valsts</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Offerti minn offerenti rreġistrati f’pajjiżi oħra taż-Żona Ekonomika Ewropea għajr il-pajjiż tax-xerrej</SimpleValue>
+            <SimpleValue>Offerti mingħand organizzazzjonijiet irreġistrati f’pajjiż taż-ŻEE li mhux il-pajjiż tax-xerrej</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Inschrijvingen van inschrijvers die geregistreerd zijn in een ander land van de Europese Economische Ruimte dan het land van de koper</SimpleValue>
+            <SimpleValue>Inschrijvingen van organisaties die zijn geregistreerd in een ander EER-land dan het land van de afnemer</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferty złożone przez oferentów z siedzibą w państwach Europejskiego Obszaru Gospodarczego innych niż państwo nabywcy</SimpleValue>
+            <SimpleValue>Oferty złożone przez organizacje zarejestrowane w kraju EOG innym niż kraj nabywcy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Propostas apresentadas por proponentes registados noutros países do Espaço Económico Europeu que não o país do adquirente</SimpleValue>
+            <SimpleValue>Propostas de organizações registadas num país do EEE diferente do país do comprador</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Oferte depuse de ofertanți înregistrați în alte țări din Spațiul Economic European decât țara cumpărătorului</SimpleValue>
+            <SimpleValue>Oferte depuse de organizații înregistrate într-o țară SEE diferită de țara cumpărătorului</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ponuky od uchádzačov registrovaných v iných krajinách Európskeho hospodárskeho priestoru než v krajine kupujúceho</SimpleValue>
+            <SimpleValue>Ponuky od organizácií registrovaných v inej krajine EHP než v krajine kupujúceho</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudbe ponudnikov, ki so registrirani v drugih državah Evropskega gospodarskega prostora kakor kupec</SimpleValue>
+            <SimpleValue>Ponudbe organizacij, ki so registrirane v državi članici EGP, ki ni država kupca</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Anbud från anbudsgivare som är registrerade i andra länder i Europeiska ekonomiska samarbetsområdet än köparens land</SimpleValue>
+            <SimpleValue>Anbud från organisationer som är registrerade i ett annat EES-land än köparens land</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -696,13 +765,13 @@
             <SimpleValue>t-small</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from small tenderers</SimpleValue>
+            <SimpleValue>Tenders from small enterprises</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Оферти от малки предприятия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nabídky od uchazečů – malých podniků</SimpleValue>
+            <SimpleValue>Nabídky od malých podniků</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tilbud fra små virksomheder</SimpleValue>
@@ -711,28 +780,28 @@
             <SimpleValue>Angebote von kleinen Unternehmen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προσφορές από μικρούς προσφέροντες</SimpleValue>
+            <SimpleValue>Προσφορές από μικρές επιχειρήσεις</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from small tenderers</SimpleValue>
+            <SimpleValue>Tenders from small enterprises</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ofertas de licitadores que son pequeñas empresas</SimpleValue>
+            <SimpleValue>Ofertas de pequeñas empresas</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Väikeste ettevõtjate pakkumused</SimpleValue>
+            <SimpleValue>Pakkumused väikeettevõtjatelt</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Pieniltä yrityksiltä saadut tarjoukset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Offres reçues de soumissionnaires de petite taille</SimpleValue>
+            <SimpleValue>Offres reçues de petites entreprises</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscintí ó thairgeoirí beaga</SimpleValue>
+            <SimpleValue>Tairiscintí ó fhiontair bheaga</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponude ponuditelja koji su mala poduzeća</SimpleValue>
+            <SimpleValue>Ponude malih poduzeća</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kisvállalkozások ajánlatai</SimpleValue>
@@ -741,31 +810,31 @@
             <SimpleValue>Offerte presentate da piccole imprese</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Mažųjų dalyvių pasiūlymai</SimpleValue>
+            <SimpleValue>Mažų įmonių pateikti pasiūlymai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piedāvājumi saņemti no mazajiem uzņēmumiem</SimpleValue>
+            <SimpleValue>Piedāvājumi no mazajiem uzņēmumiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Offerti minn offerenti żgħar</SimpleValue>
+            <SimpleValue>Offerti mingħand intrapriżi żgħar</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Inschrijvingen van kleine inschrijvers</SimpleValue>
+            <SimpleValue>Inschrijvingen van kleine ondernemingen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferty złożone przez małych oferentów</SimpleValue>
+            <SimpleValue>Oferty złożone przez małe przedsiębiorstwa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Propostas apresentadas por proponentes de pequena dimensão</SimpleValue>
+            <SimpleValue>Propostas de pequenas empresas</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Oferte din partea ofertanților de mici dimensiuni</SimpleValue>
+            <SimpleValue>Oferte depuse de întreprinderi mici</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ponuky od uchádzačov, ktorí sú malými podnikmi</SimpleValue>
+            <SimpleValue>Ponuky od malých podnikov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudbe ponudnikov, ki so mala podjetja</SimpleValue>
+            <SimpleValue>Ponudbe malih podjetij</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Anbud från små företag</SimpleValue>
@@ -776,79 +845,79 @@
             <SimpleValue>t-sme</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tenders from micro, small or medium tenderers</SimpleValue>
+            <SimpleValue>Tenders from SMEs</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Оферти от микро-, малки или средни предприятия</SimpleValue>
+            <SimpleValue>Оферти от МСП</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nabídky od uchazečů – mikropodniků, malých nebo středních podniků</SimpleValue>
+            <SimpleValue>Nabídky od malých a středních podniků</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Tilbud fra mikrovirksomheder samt små eller mellemstore virksomheder</SimpleValue>
+            <SimpleValue>Tilbud fra SMV'er</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Angebote von Kleinst-, kleinen oder mittleren Unternehmen</SimpleValue>
+            <SimpleValue>Angebote von KMU</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προσφορές από πολύ μικρούς, μικρούς ή μεσαίους προσφέροντες</SimpleValue>
+            <SimpleValue>Προσφορές από ΜΜΕ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tenders from micro, small or medium tenderers</SimpleValue>
+            <SimpleValue>Tenders from SMEs</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ofertas de licitadores que son microempresas, pequeñas o medianas empresas</SimpleValue>
+            <SimpleValue>Ofertas de pymes</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Mikro-, väikeste või keskmise suurusega ettevõtjate pakkumused</SimpleValue>
+            <SimpleValue>Pakkumused VKEdelt</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Mikroyrityksiltä taikka pieniltä tai keskisuurilta yrityksiltä saadut tarjoukset</SimpleValue>
+            <SimpleValue>Pk-yrityksiltä saadut tarjoukset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Offres reçues de soumissionnaires de micro, petite ou moyenne taille</SimpleValue>
+            <SimpleValue>Offres reçues de PME</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscintí ó mhicreathairgeoirí, ó thairgeoirí beaga nó ó thairgeoirí meánmhéide</SimpleValue>
+            <SimpleValue>Tairiscintí ó fhiontair bheaga agus mheánmhéide</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ponude ponuditelja koji su mikro, mala ili srednja poduzeća</SimpleValue>
+            <SimpleValue>Ponude MSP-ova</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Mikro-, kis- vagy középvállalkozások ajánlatai</SimpleValue>
+            <SimpleValue>Kkv-k ajánlatai</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Offerte presentate da microimprese o piccole o medie imprese</SimpleValue>
+            <SimpleValue>Offerte presentate da PMI</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Labai mažų, mažųjų ar vidutinių dalyvių pasiūlymai</SimpleValue>
+            <SimpleValue>MVĮ pateikti pasiūlymai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piedāvājumi no mikrouzņēmumiem, mazajiem vai vidējiem uzņēmumiem</SimpleValue>
+            <SimpleValue>Piedāvājumi no MVU</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Offerti minn offerenti mikro, żgħar jew medji</SimpleValue>
+            <SimpleValue>Offerti mingħand SMEs</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Inschrijvingen van micro-, kleine en middelgrote inschrijvers</SimpleValue>
+            <SimpleValue>Inschrijvingen van kmo’s</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oferty złożone przez mikro-, małych lub średnich oferentów</SimpleValue>
+            <SimpleValue>Oferty złożone przez MŚP</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Propostas de proponentes de micro, pequena ou média dimensão</SimpleValue>
+            <SimpleValue>Propostas de PME</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Oferte de la ofertanți cu dimensiuni micro, mici sau mijlocii</SimpleValue>
+            <SimpleValue>Oferte depuse de IMM-uri</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ponuky od uchádzačov, ktorí sú mikropodnikmi, malými alebo strednými podnikmi</SimpleValue>
+            <SimpleValue>Ponuky od malých a stredných podnikov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ponudbe ponudnikov, ki so mikro-, mala ali srednja podjetja</SimpleValue>
+            <SimpleValue>Ponudbe MSP</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Anbud från mikroföretag samt små och medelstora företag</SimpleValue>
+            <SimpleValue>Anbud från små och medelstora företag</SimpleValue>
          </Value>
       </Row>
       <Row>

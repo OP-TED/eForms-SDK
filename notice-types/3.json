@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "2.0.0-SNAPSHOT",
+  "sdkVersion" : "2.0.0-alpha.3",
   "metadataDatabase" : {
-    "version" : "1.14.28",
-    "createdOn" : "2026-03-25T09:34:18"
+    "version" : "1.14.54",
+    "createdOn" : "2026-09-03T20:01:08"
   },
   "noticeId" : "3",
   "metadata" : [ {
@@ -333,7 +333,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(m)-Procedure"
+            "_label" : "field|name|BT-26(m)-Procedure",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-262-Procedure",
             "contentType" : "field",
@@ -354,7 +356,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(a)-Procedure"
+            "_label" : "field|name|BT-26(a)-Procedure",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-263-Procedure",
             "contentType" : "field",
