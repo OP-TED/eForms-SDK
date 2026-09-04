@@ -271,22 +271,22 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 	                                       text:$lrid in OPT-322-LotResult[ $tenderid in OPT-320-LotResult[$contractid in OPT-315-LotResult]], 
 	                                       text:$lotid in BT-13713-LotResult[OPT-322-LotResult == $lrid] return $lotid) 
 	DISPLAY ${OPT-200-Organization-Company}  ${$lotswon}; // 8.1 Organisation Technical Identifier
-		WITH ND-Organization WHEN BT-500-Organization-Company == 'unpublished' DISPLAY #{field|name|BT-500-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company:preferredLanguageText} ; // Organisation Name
-		WITH BT-165-Organization-Company WHEN BT-165-Organization-Company == 'unpublished' DISPLAY #{field|name|BT-165-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{${concat('code|name|economic-operator-size.', BT-165-Organization-Company)}} ; // Size of the economic operator
+		WITH ND-Organization WHEN BT-500-Organization-Company:isMasked DISPLAY #{field|name|BT-500-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company:preferredLanguageText} ; // Organisation Name
+		WITH BT-165-Organization-Company WHEN BT-165-Organization-Company:isMasked DISPLAY #{field|name|BT-165-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{${concat('code|name|economic-operator-size.', BT-165-Organization-Company)}} ; // Size of the economic operator
 		WITH BT-633-Organization WHEN BT-633-Organization == FALSE and 'eop-info' in BT-195-notice DISPLAY #{field|name|BT-633-Organization}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-633-Organization} ; // The organisation is a natural person
-		WITH BT-501-Organization-Company WHEN BT-501-Organization-Company == 'unpublished' DISPLAY #{field|name|BT-501-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} ; // Organization Identifier
-		WITH BT-16-Organization-Company WHEN BT-16-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Part Name
-		WITH BT-510(a)-Organization-Company WHEN BT-510(a)-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} ; // Postal address
-		WITH BT-513-Organization-Company WHEN BT-513-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization City
-		WITH BT-512-Organization-Company WHEN BT-512-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Post Code
-		WITH BT-507-Organization-Company WHEN BT-507-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) ; // Organization Country Subdivision
-		WITH BT-514-Organization-Company WHEN BT-514-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #value; // Organization Country
-		WITH BT-502-Organization-Company WHEN BT-502-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Point
-		WITH BT-506-Organization-Company WHEN BT-506-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Email Address
-		WITH BT-503-Organization-Company WHEN BT-503-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Telephone Number
-		WITH BT-739-Organization-Company WHEN BT-739-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Fax
-		WITH BT-505-Organization-Company WHEN BT-505-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Internet Address
-		WITH BT-509-Organization-Company WHEN BT-509-Organization-Company == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization eDelivery Gateway
+		WITH BT-501-Organization-Company WHEN BT-501-Organization-Company:isMasked DISPLAY #{field|name|BT-501-Organization-Company}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} ; // Organization Identifier
+		WITH BT-16-Organization-Company WHEN BT-16-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Part Name
+		WITH BT-510(a)-Organization-Company WHEN BT-510(a)-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} ; // Postal address
+		WITH BT-513-Organization-Company WHEN BT-513-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization City
+		WITH BT-512-Organization-Company WHEN BT-512-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Post Code
+		WITH BT-507-Organization-Company WHEN BT-507-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) ; // Organization Country Subdivision
+		WITH BT-514-Organization-Company WHEN BT-514-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #value; // Organization Country
+		WITH BT-502-Organization-Company WHEN BT-502-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Point
+		WITH BT-506-Organization-Company WHEN BT-506-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Email Address
+		WITH BT-503-Organization-Company WHEN BT-503-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Telephone Number
+		WITH BT-739-Organization-Company WHEN BT-739-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Fax
+		WITH BT-505-Organization-Company WHEN BT-505-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Internet Address
+		WITH BT-509-Organization-Company WHEN BT-509-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization eDelivery Gateway
 		WITH BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid] DISPLAY #{name}: $value; // Buyer Profile URL
 		0 WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
 			WITH ND-Touchpoint[BT-500-Organization-TouchPoint is present] DISPLAY #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint:preferredLanguageText}; // Buyer Touchpoint Name
@@ -322,16 +322,16 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 				WITH OPT-170-Tenderer[OPT-300-Tenderer == $orgid] WHEN OPT-170-Tenderer == TRUE DISPLAY #{field|name|OPT-170-Tenderer} WHEN OPT-170-Tenderer == FALSE and 'eop-info' in BT-195-notice DISPLAY #{field|name|OPT-170-Tenderer}: #{auxiliary|text|undisclosed}; // Leader of tendering party
 			WITH ND-Organization[(OPT-200-Organization-Company in OPT-301-Tenderer-SubCont) or ?exists-common-value(OPT-201-Organization-TouchPoint, OPT-301-Tenderer-SubCont)] DISPLAY #{auxiliary|text|organisation-subcontractor}; // Subcontractor Organisation (SubContractor)
 			0 WITH ND-UBO[OPT-202-UBO in $uboid] DISPLAY #{auxiliary|text|beneficial-owner}; // Beneficial Owner
-				WITH BT-500-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: ${concat(OPT-160-UBO, ' ', BT-500-UBO)}; // Beneficial Owner Name
+				WITH BT-500-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: ${concat(OPT-160-UBO, ' ', BT-500-UBO)}; // Beneficial Owner Name
 				WITH ND-UBO[BT-706-UBO is present] WHEN 'unpublished' in BT-706-UBO DISPLAY #{field|name|BT-706-UBO}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|BT-706-UBO}: #{BT-706-UBO}; // Beneficial Owner Nationality (singular)
-				WITH BT-510(a)-UBO WHEN BT-510(a)-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: ${concat(BT-510(a)-UBO, ' ', BT-510(b)-UBO, ' ', BT-510(c)-UBO)}; // Beneficial Owner Postal Address
-				WITH BT-513-UBO WHEN BT-513-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner City
-				WITH BT-512-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Post Code
-				WITH BT-507-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{BT-507-UBO} ($value) ; // Beneficial Owner Country Subdivision
-				WITH BT-514-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{BT-514-UBO}; // Beneficial Owner Country
-				WITH BT-506-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Contact Email Address
-				WITH BT-503-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Telephone Number
-				WITH BT-739-UBO WHEN BT-500-UBO == 'unpublished' DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Fax
+				WITH BT-510(a)-UBO WHEN BT-510(a)-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: ${concat(BT-510(a)-UBO, ' ', BT-510(b)-UBO, ' ', BT-510(c)-UBO)}; // Beneficial Owner Postal Address
+				WITH BT-513-UBO WHEN BT-513-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner City
+				WITH BT-512-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Post Code
+				WITH BT-507-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{BT-507-UBO} ($value) ; // Beneficial Owner Country Subdivision
+				WITH BT-514-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: #{BT-514-UBO}; // Beneficial Owner Country
+				WITH BT-506-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Contact Email Address
+				WITH BT-503-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Telephone Number
+				WITH BT-739-UBO WHEN BT-500-UBO:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Beneficial Owner Fax
 			WITH BT-746-Organization[count($lotswon) > 0] WHEN BT-746-Organization == TRUE DISPLAY #{name} WHEN BT-746-Organization == FALSE and 'eop-info' in BT-195-notice DISPLAY #{name}: #{auxiliary|text|undisclosed}; // The winner is listed on a regulated market
 10 WITH ND-Root[BT-758-notice is present] DISPLAY #{auxiliary|text|change}; // 10 Change
 	WITH BT-758-notice DISPLAY #{name}: $value; // Change Notice Version Identifier
