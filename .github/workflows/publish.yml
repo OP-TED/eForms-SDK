@@ -6,7 +6,10 @@ on:
       - 'develop'
 
   release:
-    types: [created]
+    # 'published' fires when a release is published, including when a draft
+    # is published. 'created' does not fire for draft-then-publish, so it
+    # would miss releases prepared as drafts.
+    types: [published]
 
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
