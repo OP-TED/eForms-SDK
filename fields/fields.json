@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.16.0-beta.2",
+  "sdkVersion" : "eforms-sdk-1.16.0-beta.3",
   "metadataDatabase" : {
-    "version" : "1.14.50",
-    "createdOn" : "2026-09-03T17:21:08"
+    "version" : "1.14.51",
+    "createdOn" : "2026-09-10T16:05:32"
   },
   "businessEntities" : [ {
     "id" : "Address",
@@ -3770,7 +3770,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice == 'cancel')) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
+        "value" : "{ND-Root} ${((BT-758-notice is present) and ((every date:$expressionDeadline in BT-630(d)-Lot satisfies BT-05(a)-notice > $expressionDeadline) or (every date:$submissionDeadline in BT-131(d)-Lot satisfies BT-05(a)-notice > $submissionDeadline) or (every date:$participDeadline in BT-1311(d)-Lot satisfies BT-05(a)-notice > $participDeadline)) and not(BT-140-notice == 'cancel')) or not((BT-758-notice is present) and ((every date:$expDeadline in BT-630(d)-Lot satisfies BT-05(a)-notice > $expDeadline) or (every date:$submDeadline in BT-131(d)-Lot satisfies BT-05(a)-notice > $submDeadline) or (every date:$partDeadline in BT-1311(d)-Lot satisfies BT-05(a)-notice > $partDeadline)))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0151"
       } ]
@@ -4434,12 +4434,12 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27" ],
-        "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-660-LotResult is not present)}",
+        "condition" : "{ND-NoticeResult} ${(every text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-660-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34", "E4", "E5" ],
-        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') or (BT-660-LotResult is not present)}",
+        "condition" : "{ND-NoticeResult} ${not(some text:$compResult in BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] satisfies $compResult == 'selec-w') or (BT-660-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       }, {
@@ -4454,12 +4454,12 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "25", "26", "27" ],
-        "condition" : "{ND-NoticeResult} ${not((BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-660-LotResult is not present))}",
+        "condition" : "{ND-NoticeResult} ${not((every text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-660-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34" ],
-        "condition" : "{ND-NoticeResult} ${not(not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') or (BT-660-LotResult is not present))}",
+        "condition" : "{ND-NoticeResult} ${not(not(some text:$compResult in BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] satisfies $compResult == 'selec-w') or (BT-660-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
@@ -4661,17 +4661,17 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27" ],
-        "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
+        "condition" : "{ND-NoticeResult} ${(every text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34", "E4", "E5" ],
-        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') or (BT-709-LotResult is not present)}",
+        "condition" : "{ND-NoticeResult} ${not(some text:$compResult in BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] satisfies $compResult == 'selec-w') or (BT-709-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "38", "39", "E6" ],
-        "condition" : "{ND-NoticeResult} ${not(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
+        "condition" : "{ND-NoticeResult} ${not(some text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4681,17 +4681,17 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "25", "26", "27" ],
-        "condition" : "{ND-NoticeResult} ${not((BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present))}",
+        "condition" : "{ND-NoticeResult} ${not((every text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34" ],
-        "condition" : "{ND-NoticeResult} ${not(not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') or (BT-709-LotResult is not present))}",
+        "condition" : "{ND-NoticeResult} ${not(not(some text:$compResult in BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] satisfies $compResult == 'selec-w') or (BT-709-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "38", "39" ],
-        "condition" : "{ND-NoticeResult} ${not(not(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present))}",
+        "condition" : "{ND-NoticeResult} ${not(not(some text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6822,7 +6822,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) and (BT-142-LotResult == 'selec-w') and OPT-315-LotResult not in OPT-316-Contract[(BT-768-Contract == TRUE)]}",
+        "condition" : "{ND-LotResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) and (BT-142-LotResult == 'selec-w') and (every text:$compContract in OPT-315-LotResult satisfies $compContract not in OPT-316-Contract[(BT-768-Contract == TRUE)])}",
         "value" : "{ND-LotResult} ${(BT-709-LotResult is present) or (BT-660-LotResult is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00142-0054"
@@ -7151,7 +7151,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "E5", "T02" ],
-        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult == 'selec-w')}",
+        "condition" : "{ND-NoticeResult} ${not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7165,7 +7165,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "E5", "T02" ],
-        "condition" : "{ND-NoticeResult} ${BT-142-LotResult == 'selec-w'}",
+        "condition" : "{ND-NoticeResult} ${some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7732,12 +7732,12 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "38", "39", "40", "E6" ],
-        "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) and not(BT-768-Contract == TRUE)}",
+        "condition" : "{ND-NoticeResult} ${(some text:$compLot in BT-13713-LotResult satisfies $compLot in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) and not(some indicator:$inFAContract in BT-768-Contract satisfies $inFAContract == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "E5" ],
-        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') and not(BT-768-Contract == TRUE)}",
+        "condition" : "{ND-NoticeResult} ${not(some text:$compResult in BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]] satisfies $compResult == 'selec-w') and not(some indicator:$inFAContract in BT-768-Contract satisfies $inFAContract == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7747,7 +7747,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35" ],
-        "condition" : "{ND-NoticeResult} ${not(not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') and not(BT-768-Contract == TRUE))}",
+        "condition" : "{ND-NoticeResult} ${not(not(some text:$compResult in BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]] satisfies $compResult == 'selec-w') and not(some indicator:$inFAContract in BT-768-Contract satisfies $inFAContract == TRUE))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10563,7 +10563,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22", "29", "30", "31", "33", "34", "E3", "E4", "E5" ],
-        "condition" : "{ND-LotsGroupProcurementScope} ${not(BT-137-LotsGroup in BT-330-Procedure[BT-1375-Procedure in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]])}",
+        "condition" : "{ND-LotsGroupProcurementScope} ${not(BT-137-LotsGroup in BT-330-Procedure[some text:$groupLot in BT-1375-Procedure satisfies $groupLot in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]])}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -10626,7 +10626,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22", "29", "30", "31", "33", "34", "E1", "E2", "E3", "E4", "E5" ],
-        "condition" : "{ND-ProcedureProcurementScope} ${(BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')) or (BT-765-Lot is not present)}",
+        "condition" : "{ND-ProcedureProcurementScope} ${(every text:$faType in BT-765-Lot satisfies $faType not in ('fa-mix','fa-w-rc','fa-wo-rc')) or (BT-765-Lot is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -11000,7 +11000,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "36", "37" ],
-        "condition" : "{ND-SettledContract} ${not(BT-142-LotResult == 'selec-w') or (OPT-322-LotResult is not present)}",
+        "condition" : "{ND-SettledContract} ${not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') or (OPT-322-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -11015,7 +11015,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "36", "37" ],
-        "condition" : "{ND-SettledContract} ${not(not(BT-142-LotResult == 'selec-w') or (OPT-322-LotResult is not present))}",
+        "condition" : "{ND-SettledContract} ${not(not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') or (OPT-322-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -11347,7 +11347,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
-        "condition" : "{ND-NonUBLTenderingTerms} ${not(BT-661-Lot == TRUE) or not(BT-821-Lot == 'epo-notice')}",
+        "condition" : "{ND-NonUBLTenderingTerms} ${not(BT-661-Lot == TRUE) or not(some text:$selectCritSource in BT-821-Lot satisfies $selectCritSource == 'epo-notice')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -11357,7 +11357,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
-        "condition" : "{ND-NonUBLTenderingTerms} ${(BT-661-Lot == TRUE) and (BT-821-Lot == 'epo-notice')}",
+        "condition" : "{ND-NonUBLTenderingTerms} ${(BT-661-Lot == TRUE) and (some text:$selectCritSource in BT-821-Lot satisfies $selectCritSource == 'epo-notice')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -13353,7 +13353,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SecondStage} ${(BT-40-Lot == TRUE) or not(BT-51-Lot is present) or not(BT-821-Lot == 'epo-notice')}",
+        "value" : "{ND-SecondStage} ${(some indicator:$stage2Criteria in BT-40-Lot satisfies $stage2Criteria == TRUE) or not(BT-51-Lot is present) or not(some text:$selectCritSource in BT-821-Lot satisfies $selectCritSource == 'epo-notice')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00051-0100"
       } ]
@@ -18382,7 +18382,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3" ],
-        "condition" : "{ND-ProcedureTerms} ${not(BT-806-Procedure == 'epo-notice')}",
+        "condition" : "{ND-ProcedureTerms} ${not(some text:$exclusGroundSource in BT-806-Procedure satisfies $exclusGroundSource == 'epo-notice')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -18392,7 +18392,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3" ],
-        "condition" : "{ND-ProcedureTerms} ${BT-806-Procedure == 'epo-notice'}",
+        "condition" : "{ND-ProcedureTerms} ${some text:$exclusGroundSource in BT-806-Procedure satisfies $exclusGroundSource == 'epo-notice'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -18561,7 +18561,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
-        "condition" : "{ND-LotTender} ${not(BT-13714-Tender in BT-137-Lot[BT-681-Lot == 'true']) and not(BT-13714-Tender in BT-330-Procedure[BT-1375-Procedure in BT-137-Lot[BT-681-Lot == 'true']])}",
+        "condition" : "{ND-LotTender} ${not(BT-13714-Tender in BT-137-Lot[BT-681-Lot == 'true']) and not(BT-13714-Tender in BT-330-Procedure[some text:$groupLot in BT-1375-Procedure satisfies $groupLot in BT-137-Lot[BT-681-Lot == 'true']])}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -18571,7 +18571,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
-        "condition" : "{ND-LotTender} ${not(not(BT-13714-Tender in BT-137-Lot[BT-681-Lot == 'true']) and not(BT-13714-Tender in BT-330-Procedure[BT-1375-Procedure in BT-137-Lot[BT-681-Lot == 'true']]))}",
+        "condition" : "{ND-LotTender} ${not(not(BT-13714-Tender in BT-137-Lot[BT-681-Lot == 'true']) and not(BT-13714-Tender in BT-330-Procedure[some text:$groupLot in BT-1375-Procedure satisfies $groupLot in BT-137-Lot[BT-681-Lot == 'true']]))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -20846,7 +20846,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "E3", "E4", "E5" ],
-        "condition" : "{ND-LotAwardCriteria} ${not(BT-5421-Lot == 'ord-imp')}",
+        "condition" : "{ND-LotAwardCriteria} ${not(some text:$weight in BT-5421-Lot satisfies $weight == 'ord-imp')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -20901,7 +20901,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "E3", "E4", "E5" ],
-        "condition" : "{ND-LotsGroupAwardCriteria} ${not(BT-5421-LotsGroup == 'ord-imp')}",
+        "condition" : "{ND-LotsGroupAwardCriteria} ${not(some text:$weight in BT-5421-LotsGroup satisfies $weight == 'ord-imp')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -22553,7 +22553,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "29", "30", "31", "33", "34", "36", "37" ],
-        "condition" : "{ND-LotResult} ${(BT-142-LotResult != 'open-nw') and ((BT-142-LotResult != 'clos-nw') or (BT-144-LotResult != 'no-rece')) and not((BT-13713-LotResult in BT-137-Lot[BT-765-Lot == 'fa-wo-rc']) and (OPT-315-LotResult in OPT-316-Contract[(BT-768-Contract == TRUE)]))}",
+        "condition" : "{ND-LotResult} ${(BT-142-LotResult != 'open-nw') and ((BT-142-LotResult != 'clos-nw') or (BT-144-LotResult != 'no-rece')) and not((BT-13713-LotResult in BT-137-Lot[BT-765-Lot == 'fa-wo-rc']) and (some text:$compContract in OPT-315-LotResult satisfies $compContract in OPT-316-Contract[(BT-768-Contract == TRUE)]))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
@@ -23094,12 +23094,12 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "E5" ],
-        "condition" : "{ND-SettledContract} ${not(BT-142-LotResult == 'selec-w') or BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
+        "condition" : "{ND-SettledContract} ${not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') or (every text:$faType in BT-765-Lot satisfies $faType not in ('fa-mix','fa-w-rc','fa-wo-rc'))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "38", "39", "E6" ],
-        "condition" : "{ND-SettledContract} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
+        "condition" : "{ND-SettledContract} ${every text:$faType in BT-765-Lot satisfies $faType not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23109,7 +23109,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "E4", "E5" ],
-        "condition" : "{ND-SettledContract} ${not(not(BT-142-LotResult == 'selec-w') or BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc'))}",
+        "condition" : "{ND-SettledContract} ${not(not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') or (every text:$faType in BT-765-Lot satisfies $faType not in ('fa-mix','fa-w-rc','fa-wo-rc')))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -25411,7 +25411,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3" ],
-        "condition" : "{ND-LotTenderingTerms} ${not(BT-821-Lot == 'epo-notice')}",
+        "condition" : "{ND-LotTenderingTerms} ${not(some text:$selectCritSource in BT-821-Lot satisfies $selectCritSource == 'epo-notice')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -25421,7 +25421,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3" ],
-        "condition" : "{ND-LotTenderingTerms} ${BT-821-Lot == 'epo-notice'}",
+        "condition" : "{ND-LotTenderingTerms} ${some text:$selectCritSource in BT-821-Lot satisfies $selectCritSource == 'epo-notice'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -27254,7 +27254,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "4", "5", "7", "8", "10", "13", "16", "17", "21", "23", "24", "25", "26", "29", "30", "34", "37" ],
-        "condition" : "{ND-Organization} ${(OPT-200-Organization-Company in OPT-300-Procedure-Buyer) and (BT-766-Lot == 'dps-nlist')  and (OPP-052-Organization is not present)}",
+        "condition" : "{ND-Organization} ${(OPT-200-Organization-Company in OPT-300-Procedure-Buyer) and (some text:$dpsType in BT-766-Lot satisfies $dpsType == 'dps-nlist')  and (OPP-052-Organization is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -29375,7 +29375,7 @@
         "message" : "rule|text|BR-OPT-00201-0100"
       }, {
         "condition" : "{ND-Organization} ${OPT-201-Organization-TouchPoint is present}",
-        "value" : "{ND-Organization} ${((OPT-201-Organization-TouchPoint in OPT-301-Lot-AddInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-DocProvider) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-EmployLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-EnvironLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-FiscalLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-Mediator) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-ReviewInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-ReviewOrg) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-TenderEval) or (OPT-201-Organization-TouchPoint in OPT-301-Lot-TenderReceipt) or (OPT-201-Organization-TouchPoint in OPT-301-Part-AddInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Part-DocProvider) or (OPT-201-Organization-TouchPoint in OPT-301-Part-EmployLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Part-EnvironLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Part-FiscalLegis) or (OPT-201-Organization-TouchPoint in OPT-301-Part-Mediator) or (OPT-201-Organization-TouchPoint in OPT-301-Part-ReviewInfo) or (OPT-201-Organization-TouchPoint in OPT-301-Part-ReviewOrg) or (OPT-201-Organization-TouchPoint in OPT-301-Part-TenderEval) or (OPT-201-Organization-TouchPoint in OPT-301-Part-TenderReceipt) or (OPT-201-Organization-TouchPoint in BT-808-Review) or (OPT-201-Organization-TouchPoint in BT-807-Review))}",
+        "value" : "{ND-Organization} ${every text:$touchpoint in OPT-201-Organization-TouchPoint satisfies (($touchpoint in OPT-301-Lot-AddInfo) or ($touchpoint in OPT-301-Lot-DocProvider) or ($touchpoint in OPT-301-Lot-EmployLegis) or ($touchpoint in OPT-301-Lot-EnvironLegis) or ($touchpoint in OPT-301-Lot-FiscalLegis) or ($touchpoint in OPT-301-Lot-Mediator) or ($touchpoint in OPT-301-Lot-ReviewInfo) or ($touchpoint in OPT-301-Lot-ReviewOrg) or ($touchpoint in OPT-301-Lot-TenderEval) or ($touchpoint in OPT-301-Lot-TenderReceipt) or ($touchpoint in OPT-301-Part-AddInfo) or ($touchpoint in OPT-301-Part-DocProvider) or ($touchpoint in OPT-301-Part-EmployLegis) or ($touchpoint in OPT-301-Part-EnvironLegis) or ($touchpoint in OPT-301-Part-FiscalLegis) or ($touchpoint in OPT-301-Part-Mediator) or ($touchpoint in OPT-301-Part-ReviewInfo) or ($touchpoint in OPT-301-Part-ReviewOrg) or ($touchpoint in OPT-301-Part-TenderEval) or ($touchpoint in OPT-301-Part-TenderReceipt) or ($touchpoint in BT-808-Review) or ($touchpoint in BT-807-Review))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00201-0101"
       } ]
@@ -29447,7 +29447,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Organizations} ${OPT-202-UBO is present}",
-        "value" : "{ND-Organizations} ${(OPT-202-UBO in OPT-302-Organization)}",
+        "value" : "{ND-Organizations} ${every text:$ubo in OPT-202-UBO satisfies $ubo in OPT-302-Organization}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00202-0101"
       }, {
@@ -31684,7 +31684,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4" ],
-        "condition" : "{ND-LotResult} ${not(BT-142-LotResult == 'selec-w') or (OPT-322-LotResult is not present)}",
+        "condition" : "{ND-LotResult} ${not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') or (OPT-322-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31699,7 +31699,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4" ],
-        "condition" : "{ND-LotResult} ${not(not(BT-142-LotResult == 'selec-w') or (OPT-322-LotResult is not present))}",
+        "condition" : "{ND-LotResult} ${not(not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') or (OPT-322-LotResult is not present))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31766,7 +31766,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "36", "37" ],
-        "condition" : "{ND-SettledContract} ${not(BT-142-LotResult == 'selec-w')}",
+        "condition" : "{ND-SettledContract} ${not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31785,7 +31785,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "36", "37" ],
-        "condition" : "{ND-SettledContract} ${BT-142-LotResult == 'selec-w'}",
+        "condition" : "{ND-SettledContract} ${some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31851,12 +31851,12 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27", "38", "39", "40", "E6" ],
-        "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present))}",
+        "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(some text:$tenderLot in BT-13714-Tender satisfies $tenderLot in BT-13713-LotResult) and not(some text:$groupLot in BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] satisfies $groupLot in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5", "T02" ],
-        "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)) or (BT-142-LotResult == 'open-nw')}",
+        "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(some text:$tenderLot in BT-13714-Tender satisfies $tenderLot in BT-13713-LotResult) and not(some text:$groupLot in BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] satisfies $groupLot in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)) or (BT-142-LotResult == 'open-nw')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31866,12 +31866,12 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5", "T02" ],
-        "condition" : "{ND-LotResult} ${not((OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)) or (BT-142-LotResult == 'open-nw'))}",
+        "condition" : "{ND-LotResult} ${not((OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(some text:$tenderLot in BT-13714-Tender satisfies $tenderLot in BT-13713-LotResult) and not(some text:$groupLot in BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] satisfies $groupLot in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)) or (BT-142-LotResult == 'open-nw'))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "38", "39", "40", "E6" ],
-        "condition" : "{ND-LotResult} ${not((OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)))}",
+        "condition" : "{ND-LotResult} ${not((OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(some text:$tenderLot in BT-13714-Tender satisfies $tenderLot in BT-13713-LotResult) and not(some text:$groupLot in BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] satisfies $groupLot in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31937,7 +31937,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5", "T02" ],
-        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult == 'selec-w') and not(BT-144-LotResult != 'no-rece')}",
+        "condition" : "{ND-NoticeResult} ${not(some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w') and not(some text:$nonAwardReason in BT-144-LotResult satisfies $nonAwardReason != 'no-rece')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -31951,7 +31951,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5", "T02" ],
-        "condition" : "{ND-NoticeResult} ${BT-142-LotResult == 'selec-w'}",
+        "condition" : "{ND-NoticeResult} ${some text:$compResult in BT-142-LotResult satisfies $compResult == 'selec-w'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
