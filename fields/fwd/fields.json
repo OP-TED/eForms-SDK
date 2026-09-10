@@ -9037,7 +9037,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -9113,7 +9113,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -9184,7 +9184,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -9258,7 +9258,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -9329,7 +9329,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -9400,7 +9400,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -9471,7 +9471,7 @@
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
-        "parentId" : "nuts"
+        "listName" : "nuts"
       },
       "severity" : "ERROR"
     },
@@ -11607,7 +11607,7 @@
       "value" : {
         "id" : "duration",
         "type" : "flat",
-        "parentId" : "timeperiod"
+        "listName" : "timeperiod"
       },
       "severity" : "ERROR"
     },
@@ -11667,7 +11667,7 @@
       "value" : {
         "id" : "duration",
         "type" : "flat",
-        "parentId" : "timeperiod"
+        "listName" : "timeperiod"
       },
       "severity" : "ERROR"
     }
@@ -14930,7 +14930,7 @@
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat",
-        "parentId" : "language"
+        "listName" : "language"
       },
       "severity" : "ERROR"
     },
@@ -22128,7 +22128,7 @@
       "value" : {
         "id" : "contract-term",
         "type" : "flat",
-        "parentId" : "contract-detail"
+        "listName" : "contract-detail"
       },
       "severity" : "ERROR"
     }
@@ -22369,7 +22369,7 @@
       "value" : {
         "id" : "revenue-allocation",
         "type" : "flat",
-        "parentId" : "contract-detail"
+        "listName" : "contract-detail"
       },
       "severity" : "ERROR"
     }
@@ -23435,7 +23435,7 @@
       "value" : {
         "id" : "organisation-role-service",
         "type" : "flat",
-        "parentId" : "organisation-role"
+        "listName" : "organisation-role"
       },
       "severity" : "ERROR"
     }
