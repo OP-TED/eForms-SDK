@@ -1,6 +1,6 @@
-# eForms SDK 2.0.0-alpha.3 Release Notes
+# eForms SDK 2.0.0-alpha.4 Release Notes
 
-SDK 2.0.0-alpha.3 is the third in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1 and alpha.2.
+SDK 2.0.0-alpha.4 is the fourth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2 and alpha.3.
 
 ## Caution: Pre-release
 
@@ -16,17 +16,10 @@ The goal of SDK 2 is to introduce a new version of EFX (the eForms Expression La
 
 ## Contents
 
-SDK 2.0.0-alpha.3 adds one construct to the EFX-2 grammar. The metadata it carries is the same as that of SDK 1.16.0-beta.1.
+This pre-release contains the following changes since alpha.3:
 
-### EFX Grammar Changes
-
-#### EFX Expressions
-
-- **Selectors**: an expression can now be written so that it identifies the XML elements a reference points to, rather than the values held in them. It is written `&{reference}`, or `WITH context SELECT reference`, alongside the existing `${expression}` and `WITH ... COMPUTE ...` forms.
-
-  Selectors are a distinct kind of EFX expression, useful when integrating an EFX processor with a processor native to the underlying data structure. In such a scenario we need pointers to the data (e.g. XPath, JSONPath) rather than the data values themselves — for example, allowing an EFX expression to determine which XML elements Saxon should select.
-
-  The same construct has been added to EFX-1, so that both versions of the language can express it.
+- **`fields.json` forward metadata**: the codelist reference property `parentId` has been renamed to `listName` in `fields/fwd/fields.json`, for clarity. The value it carries is unchanged; it names the codelist to be used for the `listName` attribute.
+- **TEDEN2 default values snippet**: `.ted/teden2/snippets/default-values.json` has been updated to support repeatable groups and notice contexts (procedure, part, lot). This file is reserved for TED applications and is not intended for use by eSenders or other third parties.
 
 ## Download
 
