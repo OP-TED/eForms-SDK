@@ -14,16 +14,25 @@
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
-							<efac:LotTender>
-								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
-							</efac:LotTender>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
-								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">t-med</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-small</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-micro</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-large</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
@@ -39,9 +48,6 @@
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
-							</efac:SettledContract>
-							<efac:SettledContract>
-								<cbc:ID schemeName="contract">CON-0002</cbc:ID>
 							</efac:SettledContract>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
@@ -68,27 +74,6 @@
 								<cbc:ID>ABC DEF-2020-01</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
-						<efac:LotTender>
-							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
-							<cac:LegalMonetaryTotal>
-								<cbc:PayableAmount currencyID="GBP">1000000</cbc:PayableAmount>
-							</cac:LegalMonetaryTotal>
-							<efac:ConcessionRevenue>
-								<efbc:RevenueBuyerAmount currencyID="GBP">456</efbc:RevenueBuyerAmount>
-								<efbc:RevenueUserAmount currencyID="GBP">123</efbc:RevenueUserAmount>
-								<efbc:ValueDescription languageID="ENG">Any other details relevant to the value of the concession according to Art. 8(3) of the directive:
-									It is recognised that an indication of the volumes of business likely to be conducted is required. It is not however possible to predict the impact of the Councils requirements as a result of any future unforeseen circumstances, market changes or forthcoming initiatives. We cannot therefore give any guarantee of likely or potential business levels with this agreement.</efbc:ValueDescription>
-							</efac:ConcessionRevenue>
-							<efac:TenderingParty>
-								<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
-							</efac:TenderingParty>
-							<efac:TenderLot>
-								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
-							</efac:TenderLot>
-							<efac:TenderReference>
-								<cbc:ID>ABC DEF/2020-07</cbc:ID>
-							</efac:TenderReference>
-						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-02-19+01:00</cbc:AwardDate>
@@ -105,32 +90,10 @@
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
 						</efac:SettledContract>
-						<efac:SettledContract>
-							<cbc:ID schemeName="contract">CON-0002</cbc:ID>
-							<cbc:AwardDate>2020-02-19+01:00</cbc:AwardDate>
-							<cbc:Title languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Title>
-							<cac:SignatoryParty>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
-								</cac:PartyIdentification>
-							</cac:SignatoryParty>
-							<efac:ContractReference>
-								<cbc:ID>DF DFGH/2020-07</cbc:ID>
-							</efac:ContractReference>
-							<efac:LotTender>
-								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
-							</efac:LotTender>
-						</efac:SettledContract>
 						<efac:TenderingParty>
 							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							<efac:Tenderer>
 								<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
-							</efac:Tenderer>
-						</efac:TenderingParty>
-						<efac:TenderingParty>
-							<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
-							<efac:Tenderer>
-								<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
@@ -246,34 +209,6 @@
 								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
-						<efac:Organization>
-							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
-							<efac:Company>
-								<cbc:WebsiteURI>https://phoenix.co.uk</cbc:WebsiteURI>
-								<efbc:CompanySizeCode listName="economic-operator-size">medium</efbc:CompanySizeCode>
-								<cac:PartyIdentification>
-									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
-								</cac:PartyIdentification>
-								<cac:PartyName>
-									<cbc:Name languageID="ENG">Phoenix commercial collections</cbc:Name>
-								</cac:PartyName>
-								<cac:PostalAddress>
-									<cbc:CityName>Bolton</cbc:CityName>
-									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
-									</cac:Country>
-								</cac:PostalAddress>
-								<cac:PartyLegalEntity>
-									<cbc:CompanyID>333 333 333</cbc:CompanyID>
-								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>123 456 789</cbc:Telephone>
-									<cbc:Telefax>123 456 7899</cbc:Telefax>
-									<cbc:ElectronicMail>contact@example.com</cbc:ElectronicMail>
-								</cac:Contact>
-							</efac:Company>
-						</efac:Organization>
 						<efac:UltimateBeneficialOwner>
 							<cbc:ID schemeName="ubo">UBO-0001</cbc:ID>
 							<efac:Nationality>
@@ -286,7 +221,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.15</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.16</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f4308a76-5393-477c-ba91-f4c9fb8818a6</cbc:ID>
 	<cbc:ContractFolderID>37f6106b-c2e1-45f1-b88a-14888693ee36</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-10+01:00</cbc:IssueDate>
