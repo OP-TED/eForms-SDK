@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Eccezione all'applicazione della misura IPI</entry>
 <entry key="business-term|description|BT-688">Descrizione e giustificazione per l'applicazione di motivi preminenti di interesse pubblico</entry>
 <entry key="business-term|description|BT-70">Indicare le informazioni principali sull'esecuzione dell'appalto (ad es. obblighi di consegna intermedia, risarcimenti per danni, diritti di proprietà intellettuale)</entry>
-<entry key="business-term|description|BT-701">Identificativo del presente avviso o bando in una procedura di appalto pubblico europea. L'inserimento di tale identificativo in tutte le versioni pubblicate del presente avviso o bando (ad es. pubblicate su TED, sui portali di pubblicazione nazionali o regionali) permette l'individuazione univoca di ogni procedura di appalto nell'Unione.</entry>
+<entry key="business-term|description|BT-701">Identificativo dell’avviso europeo di appalto pubblico del presente avviso.</entry>
 <entry key="business-term|description|BT-702">La lingua o le lingue in cui l'avviso o bando in questione è ufficialmente disponibile. Tali versioni linguistiche hanno pari valore giuridico.</entry>
 <entry key="business-term|description|BT-706">Nazionalità o cittadinanze dei beneficiari effettivi del vincitore, dell'offerente o del subappaltatore, come pubblicate nei registri previsti dalla direttiva (UE) 2018/843 del Parlamento europeo e del Consiglio. In assenza di tale registro (ad es. nel caso di appaltatori stabiliti al di fuori dell'Unione), indicare informazioni equivalenti tratte da altre fonti.</entry>
 <entry key="business-term|description|BT-707">Giustificazione dell'accesso limitato a determinati documenti di gara.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">La comunicazione elettronica impone il ricorso a strumenti e dispositivi non abitualmente disponibili.</entry>
 <entry key="business-term|description|BT-725">Il numero di veicoli pesanti a emissioni zero, come definiti dalla direttiva 2009/33/CE e che rientrano nel suo ambito di applicazione. Veicoli acquistati, presi in locazione o noleggio, ottenuti in leasing, o di cui è stato ottenuto il diritto d'uso mediante contratto per la prestazione di un servizio acquistato, che rientrano nell'ambito di applicazione della direttiva 2009/33/CE.</entry>
 <entry key="business-term|description|BT-726">Il committente sottolinea che il presente appalto è adatto anche alle piccole e medie imprese (PMI).</entry>
-<entry key="business-term|description|BT-727">Esistono ulteriori restrizioni che riguardano il luogo di esecuzione (ad es. "in qualunque luogo dello Spazio economico europeo", "ovunque nel paese in questione").</entry>
+<entry key="business-term|description|BT-727">Se il luogo di esecuzione o di consegna non è limitato a un indirizzo o a una regione specifici, può essere definito con un ambito geografico più ampio.</entry>
 <entry key="business-term|description|BT-728">Informazioni supplementari sul luogo di esecuzione.</entry>
 <entry key="business-term|description|BT-729">La percentuale massima del valore dell'appalto che l'appaltatore deve subappaltare ricorrendo alla procedura competitiva descritta nel titolo III della direttiva 2009/81/CE.</entry>
 <entry key="business-term|description|BT-730">Il committente conosce almeno il valore stimato della parte dell'appalto che l'appaltatore subappalterà a terzi.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Eccezione all'applicazione della misura IPI</entry>
 <entry key="business-term|name|BT-688">Motivi preminenti di interesse pubblico</entry>
 <entry key="business-term|name|BT-70">Condizioni relative all'esecuzione dell'appalto</entry>
-<entry key="business-term|name|BT-701">Identificativo/versione dell'avviso</entry>
+<entry key="business-term|name|BT-701">Identificativo dell'avviso</entry>
 <entry key="business-term|name|BT-702">Lingue in cui il presente avviso è ufficialmente disponibile</entry>
 <entry key="business-term|name|BT-706">Nazionalità del titolare</entry>
 <entry key="business-term|name|BT-707">Giustificazione dell'accesso limitato a determinati documenti di gara</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Utilizzo di uno strumento di comunicazione ad hoc</entry>
 <entry key="business-term|name|BT-725">Numero di veicoli pesanti a emissioni zero</entry>
 <entry key="business-term|name|BT-726">L'appalto si addice anche alle piccole e medie imprese (PMI)</entry>
-<entry key="business-term|name|BT-727">Ulteriori restrizioni sul luogo di esecuzione</entry>
+<entry key="business-term|name|BT-727">Luogo di esecuzione – Ambito geografico</entry>
 <entry key="business-term|name|BT-728">Informazioni supplementari</entry>
 <entry key="business-term|name|BT-729">Percentuale massima del valore dell'appalto che l'appaltatore può subappaltare</entry>
 <entry key="business-term|name|BT-730">Il valore del subappalto è noto</entry>

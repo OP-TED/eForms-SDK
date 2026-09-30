@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Výnimka z uplatnenia opatrenia IPI</entry>
 <entry key="business-term|description|BT-688">Popis a odôvodnenie uplatnenia prevažujúcich dôvodov súvisiacich s verejným záujmom</entry>
 <entry key="business-term|description|BT-70">Hlavné informácie o plnení zmluvy (napr. priebežné výstupy, náhrada škody, práva duševného vlastníctva).</entry>
-<entry key="business-term|description|BT-701">Európsky identifikátor postupu verejného obstarávania tohto oznámenia. Uvedenie tohto identifikátora vo všetkých uverejnených verziách tohto oznámenia (napr. v databáze TED, vnútroštátnych/regionálnych portáloch na uverejňovanie oznámení) umožňuje jednoznačnú identifikáciu oznámení o verejných obstarávaniach v celej Únii.</entry>
+<entry key="business-term|description|BT-701">Identifikátor európskeho oznámenia o verejnom obstarávaní pre toto oznámenie.</entry>
 <entry key="business-term|description|BT-702">Jazyk(-y), v ktorom(-ých) je toto oznámenie oficiálne k dispozícii. Tieto jazykové verzie majú rovnakú právnu platnosť.</entry>
 <entry key="business-term|description|BT-706">Štátna príslušnosť (alebo štátne príslušnosti) oprávneného(-ých) konečného(-ých) užívateľa(-ov) výhod víťaza, uchádzača alebo subdodávateľa, ako je uverejnená v registri(-och) zriadenom(-ých) podľa smernice Európskeho parlamentu a Rady (EÚ) 2018/843. Ak takýto register neexistuje (napr. v prípade dodávateľov usadených mimo EÚ), uvedú sa rovnocenné informácie z iných zdrojov.</entry>
 <entry key="business-term|description|BT-707">Odôvodnenie obmedzeného prístupu k niektorým súťažným podkladom.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektronická komunikácia si vyžaduje použitie nástrojov a zariadení, ktoré nie sú všeobecne dostupné.</entry>
 <entry key="business-term|description|BT-725">Počet ťažkých úžitkových vozidiel s nulovými emisiami v zmysle smernice 2009/33/ES, ktoré patria do rozsahu pôsobnosti danej smernice. Tieto vozidlá sú buď predmetom nákupu, lízingu, prenájmu, nákupu na splátky alebo ich využívanie je predmetom zmluvného záväzku na účely poskytovania nakúpenej služby patriacej do rozsahu pôsobnosti smernice 2009/33/ES.</entry>
 <entry key="business-term|description|BT-726">Kupujúci zdôrazňuje, že dané verejné obstarávanie je vhodné aj pre malé a stredné podniky (MSP).</entry>
-<entry key="business-term|description|BT-727">Na miesto plnenia sa vzťahujú ďalšie obmedzenia (napr. „kdekoľvek v Európskom hospodárskom priestore“, „kdekoľvek v danej krajine“).</entry>
+<entry key="business-term|description|BT-727">Ak miesto plnenia alebo dodania nie je obmedzené na konkrétnu adresu alebo región, možno ho vymedziť širším geografickým rozsahom.</entry>
 <entry key="business-term|description|BT-728">Doplňujúce informácie o mieste plnenia.</entry>
 <entry key="business-term|description|BT-729">Maximálny percentuálny podiel hodnoty zákazky, ktorý musí dodávateľ zadať subdodávateľom prostredníctvom súťažného postupu opísaného v hlave III smernice 2009/81/ES.</entry>
 <entry key="business-term|description|BT-730">Kupujúci pozná aspoň predpokladanú hodnotu časti zákazky, ktorú dodávateľ zadá tretím stranám.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Výnimka z uplatnenia opatrenia IPI</entry>
 <entry key="business-term|name|BT-688">Prevažujúce dôvody súvisiace s verejným záujmom</entry>
 <entry key="business-term|name|BT-70">Podmienky týkajúce sa plnenia zmluvy</entry>
-<entry key="business-term|name|BT-701">Identifikátor/verzia oznámenia</entry>
+<entry key="business-term|name|BT-701">Identifikátor oznámenia</entry>
 <entry key="business-term|name|BT-702">Jazyky, v ktorých je toto oznámenie oficiálne k dispozícii</entry>
 <entry key="business-term|name|BT-706">Štátna príslušnosť vlastníka</entry>
 <entry key="business-term|name|BT-707">Odôvodnenie obmedzeného prístupu k určitým súťažným podkladom</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Používa sa ad hoc komunikačný nástroj</entry>
 <entry key="business-term|name|BT-725">Počet ťažkých úžitkových vozidiel s nulovými emisiami</entry>
 <entry key="business-term|name|BT-726">Toto verejné obstarávanie je vhodné aj pre malé a stredné podniky (MSP)</entry>
-<entry key="business-term|name|BT-727">Iné obmedzenia týkajúce sa miesta plnenia</entry>
+<entry key="business-term|name|BT-727">Miesto plnenia – Geografický rozsah</entry>
 <entry key="business-term|name|BT-728">Doplňujúce informácie</entry>
 <entry key="business-term|name|BT-729">Maximálny percentuálny podiel hodnoty zákazky, ktorý môže dodávateľ zadať subdodávateľom</entry>
 <entry key="business-term|name|BT-730">Hodnota subdodávky je známa</entry>

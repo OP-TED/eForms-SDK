@@ -53,6 +53,7 @@
 <entry key="codelist|name|einvoicing">Lista med koder för att specificera om det är tillåtet med elektronisk fakturering</entry>
 <entry key="codelist|name|energy-efficiency-basis">Rättslig ram för objekten, som Energimärkningsdelegerade handlingar, genomförandeåtgärder (direktiv 2009/125/EG), eller förordning 2020/740; produkter och tjänster som omfattas av GPP; verk, tjänster eller byggnader</entry>
 <entry key="codelist|name|energy-efficiency-item">Produkter som omfattas av Energimärkningsdelegerade handlingar, genomförandeåtgärder (direktiv 2009/125/EG), eller förordning 2020/740; produkter och tjänster som omfattas av GPP; verk, tjänster eller byggnader</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">Denna tabell innehåller förteckningen över koder och värden som används för att identifiera kategorin av produkter, byggentreprenader eller tjänster utifrån deras energieffektivitet.</entry>
 <entry key="codelist|name|energy-efficiency-label">Detta bord ger listan över koder och värden som används för att specificera produktens energieffektivitet</entry>
 <entry key="codelist|name|entity-activity">Lista med koder för huvudsaklig verksamhet som är tillåtna för en upphandlande myndighet</entry>
 <entry key="codelist|name|environmental-impact">Den här tabellen innehåller information om upphandlingen omfattar (och hur) en strategi för att minska inverkan på miljön av byggentreprenaden, varorna eller tjänsten i de tekniska specifikationerna, tilldelningskriterierna, urvalskriterierna eller villkor för genomförande av kontraktet.</entry>
@@ -137,7 +138,6 @@
 <entry key="codelist|name|nda">Lista med koder för att specificera om ett sekretessavtal krävs.</entry>
 <entry key="codelist|name|no-esubmission-justification">Lista med koder för att motivera att elektronisk inlämning är omöjlig.</entry>
 <entry key="codelist|name|non-award-justification">Den här tabellen innehåller köparens skäl till att inte välja en vinnare i upphandlingsförfarandet.</entry>
-<entry key="codelist|name|non-publication-identifier">Lista med koder för identifiering av information vars publicering ska försenas.</entry>
 <entry key="codelist|name|non-publication-justification">Den här tabellen innehåller koder och värden för de viktigaste skälen för att inte omedelbart publicera ett meddelande inom offentlig upphandling.</entry>
 <entry key="codelist|name|notice-purpose">Lista med koder för att specificera syftet med ett meddelande om information om företagsregister</entry>
 <entry key="codelist|name|notice-subtype">Lista med koder för undertyper av meddelande av meddelandetypen information om företagsregistrering.</entry>

@@ -53,6 +53,7 @@
 <entry key="codelist|name|einvoicing">Liosta de na cóid chun a shonrú an gceadaítear sonrascú leictreonach a úsáid nó nach gceadaítear.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Creatlach dlíthiúil don na míreanna, cosúil le hAchtanna Tionólta um Líonadh Fuinnimh, bearta cur i bhfeidhm (Treoir 2009/125/CE), nó Rialachán 2020/740; táirgí agus seirbhísí clúdaithe ag an GPP; oibreacha, seirbhísí nó foirgnimh</entry>
 <entry key="codelist|name|energy-efficiency-item">Táirgí clúdaithe ag na hAchtanna Tionólta um Líonadh Fuinnimh, bearta cur i bhfeidhm (Treoir 2009/125/CE), nó Rialachán 2020/740; táirgí agus seirbhísí clúdaithe ag an GPP; oibreacha, seirbhísí nó foirgnimh</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">Soláthraítear sa tábla seo liosta na gcód agus na luachanna a úsáidtear chun catagóir na dtáirgí, na n-oibreacha nó na seirbhísí a shainaithint de réir a n-éifeachtúlachta fuinnimh.</entry>
 <entry key="codelist|name|energy-efficiency-label">Soláthraíonn an tábla seo liosta de chóid agus luachanna a úsáidtear chun éifeachtacht fuinnimh an táirge a shonrú</entry>
 <entry key="codelist|name|entity-activity">Liosta de na cóid maidir le Príomhghníomhaíocht a cheadaítear d’Eintiteas Conarthach</entry>
 <entry key="codelist|name|environmental-impact">Tugtar eolas sa tábla seo maidir le cé acu atá nó nach bhfuil cur chuige san áireamh sa soláthar (agus cén dóigh) chun maolú a dhéanamh ar thionchair chomhshaoil na hoibre, an tsoláthair nó na seirbhíse a úsáidtear sna sonraíochtaí teicniúla, sna critéir dhámhachtana, sna critéir roghnúcháin nó sa chonradh</entry>
@@ -137,7 +138,6 @@
 <entry key="codelist|name|nda">Liosta de chóid chun a shonrú an bhfuil gá le comhaontú neamhnochta.</entry>
 <entry key="codelist|name|no-esubmission-justification">Liosta de chóid chun bonn cirt a thabhairt don dodhéantacht ríomhaighneacht a dhéanamh</entry>
 <entry key="codelist|name|non-award-justification">Sa tábla seo tá liosta de na cúiseanna a bhí ag an gceannaitheoir gan buaiteoir a roghnú sa nós imeachta soláthair.</entry>
-<entry key="codelist|name|non-publication-identifier">Liosta de chóid chun an t-eolas a shainaithint a mbeidh moill ar a fhoilsiú.</entry>
 <entry key="codelist|name|non-publication-justification">Sa tábla seo tá cóid agus luachanna ar na príomhchúiseanna nár foilsíodh fógra láithreach i gcomhthéacs an tsoláthair phoiblí.</entry>
 <entry key="codelist|name|notice-purpose">Liosta de chóid chun cuspóir an Fhógra Eolais Clárúcháin Gnó a shonrú</entry>
 <entry key="codelist|name|notice-subtype">Liosta de chóid Fochineálacha Fógra a d’fhéadfadh a bheith ann le haghaidh Fógra Eolais Clárúcháin Gnó.</entry>

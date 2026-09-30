@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Uitzondering op de toepassing van de IPI-maatregel</entry>
 <entry key="business-term|description|BT-688">Een beschrijving en rechtvaardiging voor de toepassing van doorslaggevende redenen met betrekking tot het openbaar belang</entry>
 <entry key="business-term|description|BT-70">De belangrijkste informatie over de uitvoering van de opdracht (bv. tussentijdse prestaties, schadevergoeding, intellectuele-eigendomsrechten).</entry>
-<entry key="business-term|description|BT-701">De Europese identificatiecode voor overheidsopdrachten (European Public Procurement Notice Identifier) van deze aankondiging. Vermelding van deze identificatiecode in alle gepubliceerde versies van deze aankondiging (bv. op TED of op nationale en regionale publicatieportalen) maakt de eenduidige identificatie van aanbestedingsaankondigingen in de hele Unie mogelijk.</entry>
+<entry key="business-term|description|BT-701">Identificatiecode van de Europese aankondiging van deze overheidsopdracht.</entry>
 <entry key="business-term|description|BT-702">De taal of talen waarin deze aankondiging officieel beschikbaar is. Deze taalversies zijn alle in gelijke mate rechtsgeldig.</entry>
 <entry key="business-term|description|BT-706">De nationaliteit (of nationaliteiten) van de begunstigde eigenaar(s) van de winnaar, inschrijver of onderaannemer, zoals bekendgemaakt in het/de bij Richtlijn (EU) 2018/843 van het Europees Parlement en de Raad vastgestelde register(s). Als een dergelijk register niet bestaat (bv. wanneer contractanten buiten de EU gevestigd zijn), dan gelijkwaardige informatie uit andere bronnen.</entry>
 <entry key="business-term|description|BT-707">De rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Voor de elektronische communicatie moet worden gebruikgemaakt van instrumenten en middelen die niet algemeen beschikbaar zijn.</entry>
 <entry key="business-term|description|BT-725">Het aantal emissievrije zware bedrijfsvoertuigen, zoals omschreven in Richtlijn 2009/33/EG en vallend binnen de werkingssfeer van die richtlijn. Deze voertuigen zijn ofwel gekocht, geleased, gehuurd of in huurkoop aangeschaft, of het gebruik ervan is contractueel vastgelegd voor het leveren van een ingekochte dienst die binnen de werkingssfeer van Richtlijn 2009/33/EG valt.</entry>
 <entry key="business-term|description|BT-726">De koper benadrukt dat deze aanbesteding ook geschikt is voor kleine en middelgrote ondernemingen (kmo’s).</entry>
-<entry key="business-term|description|BT-727">Er zijn andere beperkingen op de plaats van uitvoering (bv. “overal in de Europese Economische Ruimte”, “overal in het desbetreffende land”).</entry>
+<entry key="business-term|description|BT-727">Wanneer de plaats van uitvoering of levering niet beperkt is tot een specifiek adres of een specifieke regio, kan deze worden gedefinieerd met een ruimer geografisch bereik.</entry>
 <entry key="business-term|description|BT-728">Nadere inlichtingen over de plaats van uitvoering.</entry>
 <entry key="business-term|description|BT-729">Het maximumpercentage van de waarde van de opdracht dat de contractant aan de hand van de in titel III van Richtlijn 2009/81/EG beschreven procedure met mededinging in onderaanneming moet geven.</entry>
 <entry key="business-term|description|BT-730">De koper kent ten minste de geraamde waarde van het deel van de opdracht dat de contractant aan derden in onderaanneming zal geven.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Uitzondering op de toepassing van de IPI-maatregel</entry>
 <entry key="business-term|name|BT-688">Doorslaggevende redenen met betrekking tot het openbaar belang</entry>
 <entry key="business-term|name|BT-70">Voorwaarden met betrekking tot de uitvoering van de opdracht</entry>
-<entry key="business-term|name|BT-701">Identificatiecode/versie van de aankondiging</entry>
+<entry key="business-term|name|BT-701">Identificatiecode van de aankondiging</entry>
 <entry key="business-term|name|BT-702">Talen waarin deze aankondiging officieel beschikbaar is</entry>
 <entry key="business-term|name|BT-706">Nationaliteit van de eigenaar</entry>
 <entry key="business-term|name|BT-707">Rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Er wordt gebruikgemaakt van een ad-hoc-communicatietool</entry>
 <entry key="business-term|name|BT-725">Aantal emissievrije zware bedrijfsvoertuigen</entry>
 <entry key="business-term|name|BT-726">Deze aanbesteding is ook geschikt voor kleine en middelgrote ondernemingen (kmo’s)</entry>
-<entry key="business-term|name|BT-727">Andere beperkingen op de plaats van uitvoering</entry>
+<entry key="business-term|name|BT-727">Plaats van uitvoering – Geografisch bereik</entry>
 <entry key="business-term|name|BT-728">Aanvullende informatie</entry>
 <entry key="business-term|name|BT-729">Maximumpercentage van de waarde van de opdracht dat de contractant in onderaanneming mag geven</entry>
 <entry key="business-term|name|BT-730">Waarde onderaanneming is bekend</entry>

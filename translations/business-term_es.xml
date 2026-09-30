@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Excepción a la aplicación de la medida IPI</entry>
 <entry key="business-term|description|BT-688">Una descripción y justificación para la aplicación de razones imperiosas de interés público</entry>
 <entry key="business-term|description|BT-70">La principal información sobre la ejecución del contrato (por ejemplo, prestaciones intermedias, indemnización por daños, derechos de propiedad intelectual e industrial).</entry>
-<entry key="business-term|description|BT-701">El identificador de anuncio de contratación pública europeo correspondiente a este anuncio. La inclusión de este identificador en todas las versiones publicadas de este anuncio (por ejemplo, en TED o en los portales nacionales o regionales de publicación) permite una identificación única de los anuncios de contratación en toda la Unión.</entry>
+<entry key="business-term|description|BT-701">Identificador del anuncio europeo de contratación pública de este anuncio.</entry>
 <entry key="business-term|description|BT-702">La lengua o lenguas en que este anuncio está oficialmente disponible. Estas versiones lingüísticas tienen la misma validez jurídica.</entry>
 <entry key="business-term|description|BT-706">La nacionalidad o nacionalidades del titular real o titulares reales del ganador, el licitador o el subcontratista, publicadas en los registros establecidos por la Directiva (UE) 2018/843 del Parlamento Europeo y del Consejo. Si no existe tal registro (por ejemplo, en caso de contratistas establecidos fuera de la UE), información equivalente procedente de otras fuentes.</entry>
 <entry key="business-term|description|BT-707">La justificación para restringir el acceso a determinados documentos de contratación.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">La comunicación electrónica exige el uso de herramientas y dispositivos que no están disponibles generalmente.</entry>
 <entry key="business-term|description|BT-725">El número total de vehículos pesados de emisión cero según la definición de la Directiva 2009/33/CE e incluidos en su ámbito de aplicación. Estos vehículos han sido objeto de compra, arrendamiento financiero, alquiler o alquiler con opción de compra o comprometidos por contrato para la prestación de un servicio adquirido que entra en el ámbito de aplicación de la Directiva 2009/33/CE.</entry>
 <entry key="business-term|description|BT-726">El comprador hace hincapié en que esta contratación es también adecuada para las pequeñas y medianas empresas (pymes).</entry>
-<entry key="business-term|description|BT-727">Existen otras restricciones sobre el lugar de ejecución (por ejemplo, «en cualquier lugar del Espacio Económico Europeo», «en cualquier lugar de un país dado»).</entry>
+<entry key="business-term|description|BT-727">Cuando el lugar de ejecución o entrega no esté limitado a una dirección o región específica, podrá definirse con un ámbito geográfico más amplio.</entry>
 <entry key="business-term|description|BT-728">Información adicional sobre el lugar de ejecución.</entry>
 <entry key="business-term|description|BT-729">El porcentaje máximo del valor del contrato que el contratista debe subcontratar mediante el procedimiento competitivo descrito en el título III de la Directiva 2009/81/CE.</entry>
 <entry key="business-term|description|BT-730">El comprador conoce al menos el valor estimado de la parte del contrato que el contratista subcontratará a terceros.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Excepción a la aplicación de la medida IPI</entry>
 <entry key="business-term|name|BT-688">Razones imperiosas de interés público</entry>
 <entry key="business-term|name|BT-70">Condiciones relativas a la ejecución del contrato</entry>
-<entry key="business-term|name|BT-701">Identificador/versión del anuncio</entry>
+<entry key="business-term|name|BT-701">Identificador del anuncio</entry>
 <entry key="business-term|name|BT-702">Lenguas en las que este anuncio está disponible oficialmente</entry>
 <entry key="business-term|name|BT-706">Nacionalidad del titular</entry>
 <entry key="business-term|name|BT-707">Justificación de la restricción del acceso a determinados pliegos de contratación</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Se utiliza una herramienta de comunicación ad hoc</entry>
 <entry key="business-term|name|BT-725">Número de vehículos pesados de emisión cero</entry>
 <entry key="business-term|name|BT-726">Esta contratación también es adecuada para las pequeñas y medianas empresas (pymes)</entry>
-<entry key="business-term|name|BT-727">Otras restricciones del lugar de ejecución</entry>
+<entry key="business-term|name|BT-727">Lugar de ejecución – Ámbito geográfico</entry>
 <entry key="business-term|name|BT-728">Información complementaria</entry>
 <entry key="business-term|name|BT-729">Porcentaje máximo del valor del contrato que el contratista puede subcontratar</entry>
 <entry key="business-term|name|BT-730">Se conoce el valor de la subcontratación</entry>

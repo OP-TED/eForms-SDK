@@ -53,6 +53,7 @@
 <entry key="codelist|name|einvoicing">Lista de códigos para especificar si el uso de facturación electrónica está permitido o no.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Marco jurídico para los elementos, como los actos delegados de etiquetado energético, medidas de implementación (Directiva 2009/125/EC) o Reglamento 2020/740; productos y servicios cubiertos por el GPP; obras, servicios o edificios</entry>
 <entry key="codelist|name|energy-efficiency-item">Productos cubiertos por los actos delegados de etiquetado energético, medidas de implementación (Directiva 2009/125/EC) o Reglamento 2020/740; productos y servicios cubiertos por el GPP; obras, servicios o edificios</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">Esta tabla contiene la lista de códigos y valores utilizados para identificar la categoría de los productos, las obras o los servicios en función de su eficiencia energética.</entry>
 <entry key="codelist|name|energy-efficiency-label">Esta tabla proporciona la lista de códigos y valores utilizados para especificar la eficiencia energética del producto</entry>
 <entry key="codelist|name|entity-activity">Lista de códigos de actividad principal permitidos para una entidad adjudicadora</entry>
 <entry key="codelist|name|environmental-impact">Este cuadro ofrece información sobre si una contratación incluye (y cómo) un enfoque para reducir el impacto medioambiental de la obra, el suministro o el servicio utilizado en las especificaciones técnicas, los criterios de adjudicación, los criterios de selección o la ejecución del contrato.</entry>
@@ -137,7 +138,6 @@
 <entry key="codelist|name|nda">Lista de códigos para especificar si se requiere o no un acuerdo de confidencialidad.</entry>
 <entry key="codelist|name|no-esubmission-justification">Lista de códigos para justificar la imposibilidad de realizar una presentación electrónica</entry>
 <entry key="codelist|name|non-award-justification">Este cuadro contiene la lista de motivos del comprador para no elegir a un ganador en el procedimiento de contratación.</entry>
-<entry key="codelist|name|non-publication-identifier">Lista de códigos para la identificación de la información cuya publicación se retrasará.</entry>
 <entry key="codelist|name|non-publication-justification">Este cuadro proporciona códigos y valores para las principales razones para no publicar inmediatamente un anuncio en el contexto de la contratación pública.</entry>
 <entry key="codelist|name|notice-purpose">Lista de códigos para especificar la finalidad de la nota informativa sobre el registro mercantil</entry>
 <entry key="codelist|name|notice-subtype">Lista de posibles códigos de subtipo de anuncio para un tipo de anuncio de información sobre el registro de empresas.</entry>

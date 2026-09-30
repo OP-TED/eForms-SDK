@@ -67,7 +67,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '37']">
 		<assert id="ND-LotResult-37" role="ERROR" diagnostics="ND-LotResult" test="count(efac:LotResult) &gt; 0">rule|text|ND-LotResult-37</assert>
 		<assert id="ND-NoticeResultGroupFA-37" role="ERROR" diagnostics="ND-NoticeResultGroupFA" test="count(efac:GroupFramework) = 0">rule|text|ND-NoticeResultGroupFA-37</assert>
-		<assert id="ND-NoticeValueUnpublish-37" role="ERROR" diagnostics="ND-NoticeValueUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-NoticeValueUnpublish-37</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '37']">
 		<assert id="ND-LotResultFAValues-37" role="ERROR" diagnostics="ND-LotResultFAValues" test="count(efac:FrameworkAgreementValues) = 0">rule|text|ND-LotResultFAValues-37</assert>
@@ -76,8 +75,6 @@
 		<assert id="ND-ProcurementDetailsLotResult-37" role="ERROR" diagnostics="ND-ProcurementDetailsLotResult" test="count(efac:ProcurementDetails) = 0">rule|text|ND-ProcurementDetailsLotResult-37</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '37']">
-		<assert id="ND-ConcessionRevenue-37" role="ERROR" diagnostics="ND-ConcessionRevenue" test="count(efac:ConcessionRevenue) = 0">rule|text|ND-ConcessionRevenue-37</assert>
-		<assert id="ND-LotTenderOriginCountry-37" role="ERROR" diagnostics="ND-LotTenderOriginCountry" test="count(efac:Origin) = 0">rule|text|ND-LotTenderOriginCountry-37</assert>
 		<assert id="ND-OtherContractExecutionConditions-37" role="ERROR" diagnostics="ND-OtherContractExecutionConditions" test="count(efac:ContractTerm) = 0">rule|text|ND-OtherContractExecutionConditions-37</assert>
 		<assert id="ND-SubcontractedContract-37" role="ERROR" diagnostics="ND-SubcontractedContract" test="count(efac:SubcontractingTerm) = 0">rule|text|ND-SubcontractedContract-37</assert>
 	</rule>

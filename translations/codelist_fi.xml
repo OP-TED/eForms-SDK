@@ -53,6 +53,7 @@
 <entry key="codelist|name|einvoicing">Luettelo koodeista, joilla määritetään, onko sähköinen laskutus sallittu vai ei.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Lainsäädännöllinen kehys kohteille, kuten energiamerkintävaltuutetut toimet, täytäntöönpanotoimet (direktiivi 2009/125/EY) tai asetus 2020/740; tuotteet ja palvelut, jotka kuuluvat GPP:n piiriin; työt, palvelut tai rakennukset</entry>
 <entry key="codelist|name|energy-efficiency-item">Tuotteet, jotka kuuluvat energiamerkintävaltuutetun toimien, täytäntöönpanotoimien (direktiivi 2009/125/EY) tai asetuksen 2020/740 piiriin; tuotteet ja palvelut, jotka kuuluvat GPP:n piiriin; työt, palvelut tai rakennukset</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">Tässä taulukossa esitetään luettelo koodeista ja arvoista, joita käytetään tuotteiden, rakennusurakoiden tai palvelujen luokan määrittämiseen niiden energiatehokkuuden perusteella.</entry>
 <entry key="codelist|name|energy-efficiency-label">Tämä taulukko tarjoaa luettelon koodeista ja arvoista, joita käytetään tuotteen energiatehokkuuden määrittämiseen</entry>
 <entry key="codelist|name|entity-activity">Luettelo hankintayksikölle sallituista pääasiallisen toimialan koodeista</entry>
 <entry key="codelist|name|environmental-impact">Tämä taulukko kertoo, liittyykö hankinnan tekniseen eritelmään, myöntämisperusteisiin, valintaperusteisiin tai sopimuksen täytäntöönpanoon lähestymistapa urakoiden, tavaroiden tai palvelujen ympäristövaikutusten vähentämiseen.</entry>
@@ -137,7 +138,6 @@
 <entry key="codelist|name|nda">Luettelo koodeista, joilla määritetään, vaaditaanko salassapitosopimus vai ei.</entry>
 <entry key="codelist|name|no-esubmission-justification">Luettelo koodeista, joilla perustellaan, miksi tarjousten jättäminen sähköisesti ei ole mahdollista.</entry>
 <entry key="codelist|name|non-award-justification">Tämä taulukko sisältää keskeiset syyt voittajan valitsematta jättämiselle hankintamenettelyssä.</entry>
-<entry key="codelist|name|non-publication-identifier">Luettelo koodeista sellaisille tiedoille, joiden julkaisemista lykätään.</entry>
 <entry key="codelist|name|non-publication-justification">Tämä taulukko sisältää koodit ja arvot keskeisille syille, miksi ilmoitusta ei julkaista välittömästi julkisen hankinnan yhteydessä.</entry>
 <entry key="codelist|name|notice-purpose">Luettelo koodeista, joilla yksilöidään kaupparekisteritietoja koskevan ilmoituksen tarkoitus</entry>
 <entry key="codelist|name|notice-subtype">Luettelo mahdollisista ilmoituksen alatyyppikoodeista kaupparekisteritietoja koskevaa ilmoitusta varten</entry>

@@ -53,6 +53,7 @@
 <entry key="codelist|name|einvoicing">Liste des codes permettant de préciser si l’utilisation de la facturation électronique est autorisée ou non.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Cadre juridique pour les éléments, tels que les actes délégués d'étiquetage énergétique, les mesures d'exécution (Directive 2009/125/CE) ou le Règlement 2020/740 ; produits et services couverts par le GPP ; travaux, services ou bâtiments</entry>
 <entry key="codelist|name|energy-efficiency-item">Produits couverts par les actes délégués d'étiquetage énergétique, les mesures d'exécution (Directive 2009/125/CE) ou le Règlement 2020/740 ; produits et services couverts par le GPP ; travaux, services ou bâtiments</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">Ce tableau fournit la liste des codes et des valeurs utilisés pour identifier la catégorie des produits, travaux ou services en fonction de leur efficacité énergétique.</entry>
 <entry key="codelist|name|energy-efficiency-label">Ce tableau fournit la liste des codes et valeurs utilisés pour spécifier l'efficacité énergétique du produit</entry>
 <entry key="codelist|name|entity-activity">Liste des principaux codes d’activité autorisés pour une entité adjudicatrice</entry>
 <entry key="codelist|name|environmental-impact">Ce tableau fournit des informations sur la question de savoir si un marché inclut (et comment) une approche visant à réduire les incidences environnementales des travaux, fournitures ou services utilisés dans les spécifications techniques, les critères d’attribution, les critères de sélection ou l’exécution du marché.</entry>
@@ -137,7 +138,6 @@
 <entry key="codelist|name|nda">Liste des codes permettant de préciser si un accord de confidentialité est requis.</entry>
 <entry key="codelist|name|no-esubmission-justification">Liste des codes permettant de justifier l’impossibilité d’une présentation par voie électronique</entry>
 <entry key="codelist|name|non-award-justification">Ce tableau fournit la liste des raisons pour lesquelles l’acheteur n’a pas choisi de lauréat dans le cadre de la procédure de passation de marché.</entry>
-<entry key="codelist|name|non-publication-identifier">Liste des codes permettant de déterminer les informations dont la publication sera retardée.</entry>
 <entry key="codelist|name|non-publication-justification">Ce tableau fournit des codes et des valeurs pour les principales raisons pour lesquelles un avis n’a pas été publié immédiatement dans le cadre d’un marché public.</entry>
 <entry key="codelist|name|notice-purpose">Liste des codes permettant de préciser l’objet de l’avis relatif aux informations des registres du commerce</entry>
 <entry key="codelist|name|notice-subtype">Liste des codes de sous-type d’avis possibles pour un type d’avis relatif aux informations des registres du commerce.</entry>

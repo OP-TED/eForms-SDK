@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Išimtis iš IPI priemonės taikymo</entry>
 <entry key="business-term|description|BT-688">Aprašymas ir pagrindimas, kodėl viešojo intereso sumetimais taikomos nesutaikomos priežastys</entry>
 <entry key="business-term|description|BT-70">Pagrindinė informacija apie sutarties vykdymą (pvz., tarpiniai produktai, žalos atlyginimas, intelektinės nuosavybės teisės).</entry>
-<entry key="business-term|description|BT-701">Šio skelbimo identifikatorius Europos viešųjų pirkimų skelbimo sistemoje. Šio identifikatoriaus naudojimas visose paskelbtose šio skelbimo versijose (pvz., paskelbtose TED, nacionaliniuose skelbimo portaluose, regioniniuose skelbimų portaluose) leidžia tiksliai identifikuoti pirkimo skelbimus visoje Sąjungoje.</entry>
+<entry key="business-term|description|BT-701">Šio skelbimo Europos viešojo pirkimo skelbimo identifikatorius.</entry>
 <entry key="business-term|description|BT-702">Kalba (-os), kuria (-iomis) šis skelbimas oficialiai skelbiamas. Šių kalbinių versijų teisinė galia yra vienoda.</entry>
 <entry key="business-term|description|BT-706">Laimėtojo, dalyvio arba subrangovo tikrojo (-ųjų) savininko (-ų) pilietybė (arba pilietybės), paskelbta (-os) registre (-uose), sudarytame (-uose) pagal Europos Parlamento ir Tarybos direktyvą (ES) 2018/843. Jei tokio registro nėra (pvz., jei dalyvauja ne ES įsisteigę rangovai), pateikiama lygiavertė informacija iš kitų šaltinių.</entry>
 <entry key="business-term|description|BT-707">Pagrindimas, kodėl ribojama prieiga prie tam tikrų pirkimo dokumentų.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektroniniams ryšiams palaikyti reikia naudoti priemones ir prietaisus, kurie nėra visuotinai prieinami.</entry>
 <entry key="business-term|description|BT-725">Visų nulinės taršos sunkiųjų transporto priemonių, kurios apibrėžtos Direktyvoje 2009/33/EB ir kurioms ji taikoma, skaičius. Šios transporto priemonės buvo nupirktos, įsigytos lizingo būdu, išsinuomotos arba įsigytos išperkamosios nuomos būdu arba pagal sutartį buvo įsipareigota jas naudoti įsigytoms paslaugoms, kurioms taikoma Direktyva 2009/33/EB, teikti.</entry>
 <entry key="business-term|description|BT-726">Pirkėjas pabrėžia, kad šis viešasis pirkimas taip pat tinkamas mažosioms ir vidutinėms įmonėms (MVĮ).</entry>
-<entry key="business-term|description|BT-727">Yra ir kitų apribojimų dėl sutarties vykdymo vietos (pvz., „bet kur Europos ekonominėje erdvėje“, „bet kur nurodytoje šalyje“).</entry>
+<entry key="business-term|description|BT-727">Kai atlikimo ar pristatymo vieta neapsiriboja konkrečiu adresu ar regionu, ją galima apibrėžti nurodant platesnę geografinę aprėptį.</entry>
 <entry key="business-term|description|BT-728">Papildoma informacija apie sutarties vykdymo vietą.</entry>
 <entry key="business-term|description|BT-729">Didžiausia visos sutarties vertės procentinė dalis, dėl kurios rangovas turi sudaryti subrangos sutartį, paskelbdamas Direktyvos 2009/81/EB III antraštinėje dalyje aprašytą konkurso procedūrą.</entry>
 <entry key="business-term|description|BT-730">Pirkėjas žino bent numatomą sutarties dalies, dėl kurios rangovas su trečiosiomis šalimis sudarys subrangos sutartį, vertę.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Išimtis iš IPI priemonės taikymo</entry>
 <entry key="business-term|name|BT-688">Perstumiantys viešojo intereso motyvai</entry>
 <entry key="business-term|name|BT-70">Su sutarties vykdymu susijusios sąlygos</entry>
-<entry key="business-term|name|BT-701">Skelbimo identifikatorius / versija</entry>
+<entry key="business-term|name|BT-701">Skelbimo identifikatorius</entry>
 <entry key="business-term|name|BT-702">Kalbos, kuriomis šis skelbimas oficialiai skelbiamas</entry>
 <entry key="business-term|name|BT-706">Savininko pilietybė</entry>
 <entry key="business-term|name|BT-707">Pagrindimas, kodėl ribojama prieiga prie tam tikrų pirkimo dokumentų</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Naudojama ad hoc ryšių priemonė</entry>
 <entry key="business-term|name|BT-725">Visai netaršių sunkiųjų transporto priemonių skaičius</entry>
 <entry key="business-term|name|BT-726">Šis viešasis pirkimas taip pat tinkamas mažosioms ir vidutinėms įmonėms (MVĮ)</entry>
-<entry key="business-term|name|BT-727">Kiti apribojimai dėl sutarties vykdymo vietos</entry>
+<entry key="business-term|name|BT-727">Atlikimo vieta – Geografinė aprėptis</entry>
 <entry key="business-term|name|BT-728">Papildoma informacija</entry>
 <entry key="business-term|name|BT-729">Didžiausia visos sutarties vertės procentinė dalis, dėl kurios rangovas gali sudaryti subrangos sutartį</entry>
 <entry key="business-term|name|BT-730">Subrangos vertė žinoma</entry>

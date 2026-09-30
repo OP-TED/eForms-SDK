@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Eisceacht ó chur i bhfeidhm an bheart IPI</entry>
 <entry key="business-term|description|BT-688">Cur síos agus cúis leis an mbeart a bhaineann le cúiseanna forleithne a bhaineann leis an leas poiblí a chur i bhfeidhm</entry>
 <entry key="business-term|description|BT-70">An phríomhfhaisnéis faoi fheidhmíocht an chonartha (e.g. táirgí insoláthartha idirmheánacha, cúiteamh as damáistí, cearta maoine intleachtúla).</entry>
-<entry key="business-term|description|BT-701">Aitheantóir Fógra an tSoláthair Phoiblí Eorpaigh don fhógra seo. Tríd an aitheantóir sin a chur le gach leagan foilsithe den fhógra seo (e.g. TED, tairseacha foilsithe náisiúnta, tairseacha foilsithe réigiúnacha) is féidir sainaithint uathúil a dhéanamh ar fhógraí soláthair ar fud an Aontais.</entry>
+<entry key="business-term|description|BT-701">Aitheantóir an fhógra Eorpaigh um sholáthar poiblí atá sa bhfógra seo.</entry>
 <entry key="business-term|description|BT-702">An teanga nó na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil. Is ionann an bhailíocht dhlíthiúil do na leaganacha teanga seo.</entry>
 <entry key="business-term|description|BT-706">Náisiúntacht (nó náisiúntachtaí) úinéir (nó úinéirí) is tairbhí an bhuaiteora, an tairgeora, nó an fhochonraitheora mar atá foilsithe sa chlár nó sna cláir a bunaíodh le Treoir (AE) 2018/843 ó Pharlaimint na hEorpa agus ón gComhairle. Mura bhfuil a leithéid de chlár ann (e.g. i gcás conraitheoirí atá bunaithe lasmuigh den Aontas), faisnéis choibhéiseach ó fhoinsí eile mar sin.</entry>
 <entry key="business-term|description|BT-707">An t‑údar le srian a chur leis an rochtain ar dhoiciméid soláthair áirithe.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Éilítear leis an gcumarsáid leictreonach úsáid uirlisí agus feistí nach mbíonn le fáil de ghnáth.</entry>
 <entry key="business-term|description|BT-725">Líon na bhfeithiclí tromshaothair astaíochtaí nialasacha mar a shainmhínítear i dTreoir 2009/33/CE agus atá laistigh de raon feidhme na Treorach sin. Tá na feithiclí sin ceannaithe, léasaithe, ar cíos nó fruilcheannaithe nó gealladh i gconradh go n‑úsáidfí iad chun seirbhís atá ceannaithe a sholáthar ar seirbhís í atá laistigh de raon feidhme Threoir 2009/33/CE.</entry>
 <entry key="business-term|description|BT-726">Tá an ceannaitheoir á léiriú go bhfuil an soláthar seo oiriúnach freisin d’fhiontair bheaga agus mheánmhéide (FBManna).</entry>
-<entry key="business-term|description|BT-727">Tá srianta eile ar láthair na feidhmíochta (e.g. 'aon áit sa Limistéar Eorpach Eacnamaíoch, 'aon áit sa tír ar leith').</entry>
+<entry key="business-term|description|BT-727">I gcás nach bhfuil an áit feidhmíochta nó seachadta teoranta do sheoladh nó réigiún sonrach, is féidir í a shainiú le raon geografach níos leithne.</entry>
 <entry key="business-term|description|BT-728">Faisnéis bhreise faoi láthair na feidhmíochta.</entry>
 <entry key="business-term|description|BT-729">An céatadán uasta de luach an chonartha nach mór don chonraitheoir a ligean ar fochonradh ag úsáid an nós imeachta iomaíoch a bhfuil tuairisc air i dTeideal III de Threoir 2009/81/CE.</entry>
 <entry key="business-term|description|BT-730">Is eol don cheannaitheoir an luach measta, ar a laghad, atá ar an gcuid sin den chonradh a ligfidh an conraitheoir ar fochonradh le tríú páirtithe.</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Eisceacht ó chur i bhfeidhm an bheart IPI</entry>
 <entry key="business-term|name|BT-688">Cúiseanna forleithne a bhaineann leis an leas poiblí</entry>
 <entry key="business-term|name|BT-70">Coinníollacha a bhaineann le comhlíonadh an chonartha</entry>
-<entry key="business-term|name|BT-701">Aitheantóir/leagan an fhógra</entry>
+<entry key="business-term|name|BT-701">Aitheantóir an fhógra</entry>
 <entry key="business-term|name|BT-702">Na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil</entry>
 <entry key="business-term|name|BT-706">Náisiúntacht an úinéara</entry>
 <entry key="business-term|name|BT-707">An bonn cirt leis an rochtain ar dhoiciméid soláthair áirithe a shrianadh</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Is uirlis chumarsáide ad hoc a úsáidtear</entry>
 <entry key="business-term|name|BT-725">Líon na bhfeithiclí tromshaothair astaíochtaí nialasacha</entry>
 <entry key="business-term|name|BT-726">Tá an soláthar sin oiriúnach freisin d’fhiontair bheaga agus mheánmhéide (FBManna)</entry>
-<entry key="business-term|name|BT-727">Srianta eile ar áit na feidhmíochta</entry>
+<entry key="business-term|name|BT-727">Áit feidhmíochta – Raon geografach</entry>
 <entry key="business-term|name|BT-728">Eolas breise</entry>
 <entry key="business-term|name|BT-729">An céatadán uasta de luach an chonartha a fhéadfaidh an conraitheoir a ligean ar fochonradh</entry>
 <entry key="business-term|name|BT-730">Is eol luach na fochonraitheoireachta</entry>

@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>UndisclosedDataGroup</ShortName>
+      <LongName>undisclosed-data-group</LongName>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/undisclosed-data-group</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/undisclosed-data-group</CanonicalUri>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>con-esti</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld concession estimates</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита информация за концесия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné odhady koncesí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte koncessionsestimater</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Konzessionsschätzungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένες εκτιμήσεις παραχώρησης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld concession estimates</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>estimaciones de concesiones no reveladas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>kontsessiooniprognoose ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>käyttöoikeussopimuksia koskevien arvioiden julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>estimations de la concession omises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>meastacháin lamháltais nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatne procjene koncesija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>koncesszióbecslések nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>stime delle concessioni omesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiami koncesijos įverčiai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpaustas koncesijas aplēses</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>stimi relatati mal-konċessjonijiet mhux żvelati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven ramingen van de concessie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione szacunki dotyczące koncesji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>estimativas de concessão omitidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>valoare estimată a concesiunii nedivulgată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené odhady koncesie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljene ocene koncesij</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt skattningar av koncessioner</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cri-awrd</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld award criteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрити критерии за възлагане</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejná kritéria pro zadání</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte tildelingskriterier</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Zuschlagskriterien</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένα κριτήρια ανάθεσης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld award criteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>criterios de adjudicación no revelados</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>pakkumuste hindamise kriteeriume ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>sopimuksen tekoperusteiden julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>critères d’attribution omis</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>critéir dhámhachtana nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatni kriteriji za dodjelu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>odaítélési szempontok nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>criteri di aggiudicazione omessi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiami sutarties skyrimo kriterijai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausti piešķiršanas kritēriji</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>kriterji għall-aġġudikazzjoni mhux żvelati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven gunningscriteria</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione kryteria udzielenia zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>critérios de adjudicação omitidos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>criterii de atribuire nedivulgate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené kritériá na vyhodnotenie ponúk</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljena merila za oddajo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt tilldelningskriterier</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>eop-info</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld information about economic operators</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита информация за икономическите субекти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné informace o hospodářských subjektech</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte oplysninger om økonomiske aktører</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Angaben zu den Wirtschaftsteilnehmern</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένες πληροφορίες σχετικά με οικονομικούς φορείς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld information about economic operators</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>información relativa a los operadores económicos no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>teavet ettevõtjate kohta ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>talouden toimijoita koskevien tietojen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>informations sur les opérateurs économiques omises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>eolas nach nochtar maidir le hoibreoirí eacnamaíocha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatni podaci o gospodarskim subjektima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>gazdasági szereplőkre vonatkozó információk nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>informazioni sugli operatori economici omesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama informacija apie ekonominės veiklos vykdytojus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta Informācija par uzņēmējiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>informazzjoni dwar l-operaturi ekonomiċi mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven informatie over marktdeelnemers</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione informacje o podmiotach gospodarczych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>informações sobre os operadores económicos omitidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>informații cu privire la operatorii economici nedivulgate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené informácie o hospodárskych subjektoch</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljene informacije o gospodarskih subjektih</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt information om ekonomiska aktörer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>not-fram</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld information about the framework agreement values</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита информация за стойностите на рамковото споразумение</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné informace o hodnotách rámcové dohody</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte oplysninger om rammeaftalens værdier</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Informationen über die Werte der Rahmenvereinbarung </SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένες πληροφορίες σχετικά με τις αξίες της συμφωνίας-πλαισίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld information about the framework agreement values</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>información sobre los valores del acuerdo marco no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>teavet raamlepingu väärtuste kohta ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>puitejärjestelyn arvoja koskevien tietojen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>informations sur les valeurs de l’accord-cadre omises </SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>eolas nach nochtar faoi luachanna an chreat-chomhaontaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatne informacije o vrijednostima okvirnog sporazuma</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>információk a keretmegállapodás szerinti értékekről nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>informazioni sui valori dell'accordo quadro omesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama informacija apie preliminariosios sutarties vertes</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta informācija par pamatnolīguma vērtībām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>informazzjoni dwar il-valuri tal-ftehim qafas mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven informatie over de waarden van de raamovereenkomst</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione informacje o wartości umowy ramowej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>informações sobre os valores do acordo-quadro omitidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>informații cu privire la valorile contractului-cadru nedivulgate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené informácie o hodnotách rámcovej dohody</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljene informacije o vrednostih okvirnega sporazuma</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt information om ramavtalets värden</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>not-valu</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld notice value</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита стойност по обявлението</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejná hodnota oznámení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdt værdi af bekendtgørelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltener Auftragswert laut Bekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένη αξία σύμβασης σύμφωνα με την προκήρυξη</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld notice value</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>valor del anuncio no revelado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>teate maksumust ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>ilmoituksen mukaisen arvon julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>valeur de l’avis omise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>luach an fhógra nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatna vrijednost obavijesti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>hirdetmény értéke nincs közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>valore dell'avviso omesso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama siūlomos sutarties  vertė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta paziņojuma vērtība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>valur tal-avviż mhux żvelat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven waarde van de aankondiging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawniona wartość ogłoszenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>valor do anúncio omitido</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>valoare a anunțului nedivulgată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnená hodnota oznámenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljena vrednost obvestila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt tillkännagivandets värde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ori-info</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld origin of product or service</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрит произход на продукта или услугата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejný původ produktu nebo služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdt oprindelse af vare eller tjenesteydelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltener Ursprung der Ware oder Dienstleistung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένη καταγωγή προϊόντος ή υπηρεσίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld origin of product or service</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>origen del producto o servicio no revelado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>toote või teenuse päritolu ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tuotteen tai palvelun alkuperän julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>origine du produit ou du service omise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>tionscnamh táirge nó seirbhíse nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatno podrijetlo proizvoda ili usluge</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>termék vagy szolgáltatás származása nincs közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>origine del prodotto o servizio omessa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama produkto arba paslaugos kilmė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta preces vai pakalpojuma izcelsme</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>oriġini tal-prodott jew tas-servizz mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven oorsprong van product of dienst</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione pochodzenie towarów lub usług</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>origem do produto ou serviço omitida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>originea produsului sau a serviciului nedivulgată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnený pôvod výrobku alebo služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljeno poreklo izdelka ali storitve</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt varans eller tjänstens ursprung</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>rev-info</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld review information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита информация за преразглеждане</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné informace o přezkumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte oplysninger om tilbudsgennemgang</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Angaben zur Überprüfung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένες πληροφορίες σχετικά με προσφυγή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld review information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>información sobre revisión no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>teavet läbivaatamise kohta ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>muutoksenhakua koskevien tietojen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>informations sur le réexamen omises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>eolas athbhreithniúcháin nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatne informacije o pregledu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>jogorvoslatra vonatkozó információk nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>informazioni sui ricorsi omesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama peržiūros informacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta informācija par pārskatīšanu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>informazzjoni dwar ir-rieżami mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven informatie over beoordeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione informacje o odwołaniu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>informações sobre a revisão omitidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>informații privind soluționarea căilor de atac nedivulgate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené informácie o preskúmaní</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljene informacije o reviziji</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt information om granskning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-info</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld subcontracting information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита информация за подизпълнение</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné informace o subdodávkách</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte oplysninger om underleverance</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Angaben zur Unterauftragsvergabe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένες πληροφορίες σχετικά με υπεργολαβία</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld subcontracting information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>información sobre subcontratación no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>teavet alltöövõtu kohta ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>alihankintaa koskevien tietojen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>informations sur la sous-traitance omises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>eolas fochonraitheoireachta nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatne informacije o podugovaranju</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>alvállalkozásra vonatkozó információk nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>informazioni sul subappalto omesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama informacija apie subrangą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta informācija par apakšuzņēmējiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>informazzjoni dwar is-sottokuntrattar mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven informatie over onderaanneming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione informacje o podwykonawstwie</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>informações sobre a subcontratação omitidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>informații privind subcontractarea nedivulgate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené informácie o subdodávkach</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljene informacije o oddaji naročil podizvajalcem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt information om underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-lohi</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld value of the lowest and highest tender submitted</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита стойност на най-ниската и най-високата подадена оферта</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejná hodnota nejnižší a nejvyšší podané nabídky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdt værdi af det laveste og højeste afgivne tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückbehaltene Information über den Wert des niedrigsten und des höchsten eingereichten Angebots</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένη τιμή της χαμηλότερης και της υψηλότερης υποβληθείσας προσφοράς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld value of the lowest and highest tender submitted</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>valor de la oferta más baja y más alta presentadas no revelado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>madalaima ja kõrgeima esitatud pakkumuse väärtust ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>alhaisimman ja korkeimman toimitetun tarjouksen arvon julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>valeur omise de l’offre la plus basse et de l’offre la plus élevée soumise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>luach nach nochtar i dtaca leis na dtairiscintí is ísle agus is airde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatna vrijednost najniže i najviše dostavljene ponude</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>a benyújtott legalacsonyabb és legmagasabb ajánlat értéke nincs közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>valore dell'offerta più bassa e più alta presentata omesso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama mažiausia ir didžiausia pasiūlyta kaina</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta zemākā un augstākā iesniegto piedāvājumu vērtība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>valur tal-offerta bl-orħos prezz u bl-ogħla prezz sottomessa mhux żvelat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven waarde van de laagste en hoogste ingediende inschrijving</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawniona wartość najniższej i najwyższej złożonej oferty</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>valores das propostas mais baixa e mais elevada omitidos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>valoare a celei mai mici și a celei mai mari oferte depuse nedivulgată </SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnená hodnota najnižšej a najvyššej predloženej ponuky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljena vrednost najnižje in najvišje predložene ponudbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt värde på det lägsta och högsta anbudet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>sub-stat</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld statistical information on received submissions</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита статистическа информация за получените оферти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné statistické informace o obdržených nabídkách</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdte statistiske oplysninger om indkomne tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene statistische Informationen über eingegangene Angebote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένες στατιστικές πληροφορίες σχετικά με ληφθείσες προσφορές/αιτήσεις συμμετοχής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld statistical information on received submissions</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>información estadística sobre las ofertas recibidas no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>statistilist teavet saadud esildiste kohta ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>vastaanotettuja tarjouksia/osallistumishakemuksia koskevien tietojen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>informations statistiques sur les soumissions reçues omises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>eolas staitistiúil nach nochtar maidir le haighneachtaí a fuarthas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatni statistički podaci o primljenim ponudama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>statisztikai információk a benyújtásokról nincsenek közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>informazioni statistiche sulle offerte ricevute omesse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama statistinė informacija apie gautus pasiūlymus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta statistikas informācija par saņemtajiem piedāvājumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>informazzjoni statistika dwar is-sottomissjonijiet li daħlu mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven statistische informatie over ontvangen inschrijvingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawnione informacje statystyczne o otrzymanych ofertach lub wnioskach</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>informações estatísticas sobre as propostas recebidas omitidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>informații statistice cu privire la ofertele primite nedivulgate </SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené štatistické informácie o predložených ponukách</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljene statistične informacije o prejetih ponudbah</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt statistisk information om mottagna anbud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ten-rank</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld tender rank</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрито място на офертата в класирането</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejné pořadí nabídky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdt rangfølge af tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Rangliste der Bieter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένη κατάταξη προσφοράς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld tender rank</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>posición de la oferta no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>pakkumuse kohta paremusjärjestuses ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tarjouksen sijoituksen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>classement de l’offre omis</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>céim na tairisceana nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatno rangiranje ponuda</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>ajánlat helyezése nincs közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>posto in classifica dell'offerta omesso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama pasiūlymo vieta vertinimo skalėje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausts piedāvājuma sarindojums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>pożizzjoni tal-offerta mhux żvelata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven rangorde van de inschrijving</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawniona pozycja oferty w rankingu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>classificação da proposta omitida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>poziția ofertei în clasament nedivulgată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnené poradie ponuky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljeno mesto ponudbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt anbudens rangordning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ten-valu</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld tender value</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита стойност на офертата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejná hodnota nabídky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdt værdi af tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltener Auftragswert</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένη τιμή προσφοράς</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld tender value</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>valor de la oferta no revelado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>pakkumuse maksumust ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>tarjouksen arvon julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>valeur de l’offre omise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>luach na tairisceana nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatna vrijednost ponude</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>ajánlat értéke nincs közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>valore dell'offerta omesso</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiama pasiūlymo vertė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausta piedāvājuma vērtība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>valur tal-offerta mhux żvelat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven waarde van de inschrijving</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawniona wartość oferty</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>valor da proposta omitido</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>valoare a ofertei nedivulgată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnená hodnota ponuky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljena vrednost ponudbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt upphandlingens värde</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ten-vari</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>withheld tender variant</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>неразкрита оферта вариант</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>neveřejná varianta nabídky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>tilbageholdt alternativt tilbud</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>zurückgehaltene Angebotsvariante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>μη κοινοποιημένη εναλλακτική προσφορά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>withheld tender variant</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>variante de la oferta no revelada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>pakkumuse alternatiivset lahendust ei avaldata</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>vaihtoehtoisen tarjouksen julkaisematta jättäminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>variante de l’offre omise</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>leagan den tairiscint nach nochtar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>privatna varijanta ponude</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>ajánlat változata nincs közzétéve</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>offerta come variante omessa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>neskelbiamas alternatyvusis pasiūlymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>neizpausts piedāvājuma variants</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>varjant tal-offerta mhux żvelat</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>niet vrijgegeven variant van de inschrijving</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>variante da proposta omitida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>varianta ofertei nedivulgată</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>nezverejnený variant ponuky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>neobjavljena variantna ponudba</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>ej offentligt varianter av anbud</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

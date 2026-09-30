@@ -53,6 +53,7 @@
 <entry key="codelist|name|einvoicing">Liste over koder, der angiver, om brug af elektronisk fakturering er tilladt eller ej.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Juridisk ramme for elementer, som energimærkningsdelegerede handlinger, gennemførelsesforanstaltninger (direktiv 2009/125/EF) eller forordning 2020/740; produkter og tjenester dækket af GPP; arbejder, tjenester eller bygninger</entry>
 <entry key="codelist|name|energy-efficiency-item">Produkter dækket af energimærkningsdelegerede handlinger, gennemførelsesforanstaltninger (direktiv 2009/125/EF) eller forordning 2020/740; produkter og tjenester dækket af GPP; arbejder, tjenester eller bygninger</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">Denne tabel indeholder listen over koder og værdier, der anvendes til at identificere kategorien af produkter, bygge- og anlægsarbejder eller tjenesteydelser med hensyn til deres energieffektivitet.</entry>
 <entry key="codelist|name|energy-efficiency-label">Denne tabel giver en liste over koder og værdier, der bruges til at specificere produktets energieffektivitet</entry>
 <entry key="codelist|name|entity-activity">Liste over primære aktivitetskoder, der er tilladt for en ordregiver</entry>
 <entry key="codelist|name|environmental-impact">Denne tabel indeholder oplysninger om, hvorvidt et udbud omfatter (og hvordan) en tilgang til reduktion af miljøvirkningerne af det arbejde, den forsyning eller den tjenesteydelse, der anvendes i de tekniske specifikationer, tildelingskriterierne, udvælgelseskriterierne eller den udførte kontrakt</entry>
@@ -137,7 +138,6 @@
 <entry key="codelist|name|nda">Liste over koder, der angiver, om en fortrolighedsaftale er påkrævet.</entry>
 <entry key="codelist|name|no-esubmission-justification">Liste over koder, der begrunder, at det ikke er muligt at indsende elektronisk</entry>
 <entry key="codelist|name|non-award-justification">Denne tabel indeholder en liste over årsagerne til, at køberen ikke har valgt en vinder i udbudsproceduren.</entry>
-<entry key="codelist|name|non-publication-identifier">Liste over koder til identifikation af de oplysninger, hvis offentliggørelse forsinkes.</entry>
 <entry key="codelist|name|non-publication-justification">Denne tabel viser koder og værdier for hovedårsagerne til ikke straks at offentliggøre en bekendtgørelse i forbindelse med offentlige udbud.</entry>
 <entry key="codelist|name|notice-purpose">Liste over koder, der angiver formålet med bekendtgørelsen om handelsregisteroplysninger</entry>
 <entry key="codelist|name|notice-subtype">Liste over mulige undertypekoder for en bekendtgørelse af typen bekendtgørelse om handelsregisteroplysninger.</entry>
