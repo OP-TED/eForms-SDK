@@ -302,7 +302,6 @@
          "businessEntityId": "Lot",
          "_identifierFieldId": "BT-137-Lot",
          "_captionFieldId": "BT-21-Lot",
-         "_repeatable": true,
          "content": [
             {
                "id": "GR-Lot-ProcurementType",
@@ -1039,7 +1038,6 @@
          "businessEntityId": "Part",
          "_identifierFieldId": "BT-137-Part",
          "_captionFieldId": "BT-21-Part",
-         "_repeatable": true,
          "content": [
             {
                "id": "GR-Part-PlaceOfPerformance",

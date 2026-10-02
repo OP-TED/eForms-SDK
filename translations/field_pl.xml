@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Język, w którym opisany jest cel jakościowy</entry>
 <entry key="field|description|OPT-090-Lot">Kod wskazujący, że mówimy o kategoriach nabywców: 'kategorie nabywców'</entry>
 <entry key="field|description|OPT-100-Contract">Odniesienie do powiadomienia o wynikach zawierającego informacje o podpisanej umowie ramowej, na podstawie której realizowana jest obecna umowa</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Nazwa schematu używanego do zapisania odniesienia do powiadomienia o wynikach zawierającego informacje o podpisanej umowie ramowej, na podstawie której realizowana jest obecna umowa</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Adres internetowy, na którym można znaleźć lokalne prawo podatkowe</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Adres internetowy, na którym można znaleźć lokalne prawo podatkowe</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Identyfikator prawa podatkowego</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Nazwa schematu dla odniesienia do organizacji ('organization') lub punktu kontaktowego ('touchpoint') oceniającego oferty</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Odwołanie do organizacji (ORG-xxxx) lub punktu kontaktowego (TPO-xxxx), do którego należy składać oferty lub wnioski o dopuszczenie do udziału</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Nazwa schematu dla odniesienia do organizacji ('organization') lub punktu kontaktowego ('touchpoint') otrzymującego oferty</entry>
-<entry key="field|description|OPT-301-ReviewBody">Odniesienie do organizacji (ORG-xxxx), która zajmuje się wnioskiem o przegląd w aktualnie raportowanym etapie przeglądu</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Nazwa schematu dla odniesienia do organizacji ('organization') przeglądającej wniosek w aktualnie raportowanym etapie przeglądu</entry>
-<entry key="field|description|OPT-301-ReviewReq">Odniesienie do organizacji (ORG-xxxx), która zainicjowała wniosek o przegląd, który doprowadził do raportowania na aktualnym etapie przeglądu</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Nazwa schematu dla odniesienia do organizacji ('organization') lub punktu kontaktowego ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Odniesienie do organizacji (ORG-xxxx), która jest głównym dostawcą</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Nazwa schematu dla odniesienia do organizacji ('organization') działającej jako główny dostawca</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Odniesienie do organizacji (ORG-xxxx), która jest podwykonawcą jednego lub więcej głównych dostawców</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Jedno z poniższych musi zostać wypełnione: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Każda grupa informacji nieujawnionych zawiera co najmniej jedno pole nieprzeznaczone do publikacji, zgodnie z dokumentacją w TED.</entry>
+<entry key="field|hint|BT-195-notice">Każda grupa informacji nieujawnionych zawiera co najmniej jedno pole nieprzeznaczone do publikacji, zgodnie z dokumentacją w TED: https://ted.europa.eu/pl/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Jeżeli nie podano daty ujawnienia, informacje nigdy nie zostaną ujawnione. Jeżeli podano datę, nie może ona przypadać później niż 5 lat od daty przedłożenia.</entry>
 <entry key="field|hint|BT-22-Lot">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Termin składania ofert</entry>
 <entry key="field|name|BT-1311(d)-Lot">Termin składania wniosków o dopuszczenie do udziału</entry>
 <entry key="field|name|BT-1311(t)-Lot">Termin składania wniosków o dopuszczenie do udziału</entry>
-<entry key="field|name|BT-132(d)-Lot">Data otwarcia</entry>
-<entry key="field|name|BT-132(t)-Lot">Data otwarcia</entry>
+<entry key="field|name|BT-132(d)-Lot">Data publicznego otwarcia</entry>
+<entry key="field|name|BT-132(t)-Lot">Czas publicznego otwarcia</entry>
 <entry key="field|name|BT-133-Lot">Miejsce</entry>
 <entry key="field|name|BT-133-Lot-Language">Miejsce</entry>
 <entry key="field|name|BT-134-Lot">Informacje dodatkowe</entry>

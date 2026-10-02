@@ -1141,6 +1141,9 @@
          <Value ColumnRef="nld_label">
             <SimpleValue>niet vrijgegeven variant van de inschrijving</SimpleValue>
          </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>nieujawniona oferta wariantowa</SimpleValue>
+         </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>variante da proposta omitida</SimpleValue>
          </Value>
