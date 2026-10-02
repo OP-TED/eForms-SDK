@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Lingua utilizzata per la descrizione dell'obiettivo di qualità</entry>
 <entry key="field|description|OPT-090-Lot">Codice per indicare che si tratta di categorie di acquirenti: 'categorie di acquirenti'</entry>
 <entry key="field|description|OPT-100-Contract">Riferimento all'avviso di risultato che contiene informazioni sull'accordo quadro firmato sotto il quale si svolge l'attuale contratto</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Nome dello schema utilizzato per esprimere il riferimento all'avviso di risultato che contiene informazioni sull'accordo quadro firmato sotto il quale si svolge l'attuale contratto</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Indirizzo web dove si può trovare la legislazione fiscale locale</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Indirizzo web dove si può trovare la legislazione fiscale locale</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Identificatore della legislazione fiscale</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Nome dello schema per il riferimento all'organizzazione ('organization') o al punto di contatto ('touchpoint') che valuta le offerte</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Riferimento all'organizzazione (ORG-xxxx) o al punto di contatto (TPO-xxxx) a cui devono essere presentate le offerte o le richieste di partecipazione</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Nome dello schema per il riferimento all'organizzazione ('organization') o al punto di contatto ('touchpoint') che riceve le offerte</entry>
-<entry key="field|description|OPT-301-ReviewBody">Riferimento all'organizzazione (ORG-xxxx) che sta affrontando la richiesta di revisione nella fase di revisione attualmente segnalata</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Nome dello schema per il riferimento all'organizzazione ('organization') che esamina la richiesta nella fase di revisione attualmente segnalata</entry>
-<entry key="field|description|OPT-301-ReviewReq">Riferimento all'organizzazione (ORG-xxxx) che ha avviato una richiesta di revisione che ha portato alla segnalazione per l'attuale fase di revisione</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Nome dello schema per il riferimento all'organizzazione ('organization') o al punto di contatto ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Riferimento all'organizzazione (ORG-xxxx) che è un principale offerente</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Nome dello schema per il riferimento all'organizzazione ('organization') che agisce come principale offerente</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Riferimento all'organizzazione (ORG-xxxx) che è un subappaltatore di uno o più principali offerenti</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Uno dei seguenti campi deve essere compilato: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Ogni gruppo di informazioni non divulgate contiene uno o più campi esclusi dalla pubblicazione, come documentato in TED.</entry>
+<entry key="field|hint|BT-195-notice">Ogni gruppo di informazioni non divulgate contiene uno o più campi esclusi dalla pubblicazione, come documentato in TED: https://ted.europa.eu/it/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Se la data di divulgazione non è indicata, le informazioni non saranno mai divulgate. Se è indicata, non può essere successiva di oltre 5 anni alla data di presentazione.</entry>
 <entry key="field|hint|BT-22-Lot">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Termine per il ricevimento delle offerte</entry>
 <entry key="field|name|BT-1311(d)-Lot">Termine per il ricevimento delle domande di partecipazione</entry>
 <entry key="field|name|BT-1311(t)-Lot">Termine per il ricevimento delle domande di partecipazione</entry>
-<entry key="field|name|BT-132(d)-Lot">Data di apertura</entry>
-<entry key="field|name|BT-132(t)-Lot">Data di apertura</entry>
+<entry key="field|name|BT-132(d)-Lot">Data dell'apertura pubblica</entry>
+<entry key="field|name|BT-132(t)-Lot">Ora dell'apertura pubblica</entry>
 <entry key="field|name|BT-133-Lot">Luogo</entry>
 <entry key="field|name|BT-133-Lot-Language">Luogo</entry>
 <entry key="field|name|BT-134-Lot">Informazioni supplementari</entry>

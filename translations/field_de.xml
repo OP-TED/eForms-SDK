@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Sprache, die für die Beschreibung des Qualitätsziels verwendet wird</entry>
 <entry key="field|description|OPT-090-Lot">Code zur Angabe, dass es sich um Käuferkategorien handelt: 'buyer categories'</entry>
 <entry key="field|description|OPT-100-Contract">Verweis auf die Ergebnismitteilung, die Informationen über die unterzeichnete Rahmenvereinbarung enthält, unter der der aktuelle Vertrag stattfindet</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Name des Schemas, das verwendet wird, um den Verweis auf die Ergebnismitteilung auszudrücken, die Informationen über die unterzeichnete Rahmenvereinbarung enthält, unter der der aktuelle Vertrag stattfindet</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webadresse, unter der die lokale Steuergesetzgebung gefunden werden kann</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Webadresse, unter der die lokale Steuergesetzgebung gefunden werden kann</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Kennung der Steuergesetzgebung</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Name des Schemas für den Verweis auf die Organisation ('organization') oder den Kontaktpunkt ('touchpoint'), der die Angebote bewertet</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Verweis auf die Organisation (ORG-xxxx) oder die Kontaktstelle (TPO-xxxx), an die die Angebote oder Teilnahmeanträge zu richten sind</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Name des Schemas für den Verweis auf die Organisation ('organization') oder den Kontaktpunkt ('touchpoint'), der die Angebote erhält</entry>
-<entry key="field|description|OPT-301-ReviewBody">Verweis auf die Organisation (ORG-xxxx), die den Überprüfungsantrag in der derzeit gemeldeten Überprüfungsphase bearbeitet</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Name des Schemas für den Verweis auf die Organisation ('organization'), die den Antrag in der derzeit gemeldeten Überprüfungsphase überprüft</entry>
-<entry key="field|description|OPT-301-ReviewReq">Verweis auf die Organisation (ORG-xxxx), die einen Überprüfungsantrag eingeleitet hat, der zur Meldung für die aktuelle Überprüfungsstufe geführt hat</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Name des Schemas für den Verweis auf die Organisation ('organization') oder den Kontaktpunkt ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Verweis auf die Organisation (ORG-xxxx), die ein Hauptanbieter ist</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Name des Schemas für den Verweis auf die Organisation ('organization'), die als Hauptanbieter fungiert</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Verweis auf die Organisation (ORG-xxxx), die ein Subunternehmer von einem oder mehreren Hauptanbieter(n) ist</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Eines der folgenden Felder muss ausgefüllt werden: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Jede Gruppe nicht offengelegter Informationen enthält ein oder mehrere Felder, die zurückgehalten werden, wie in TED dokumentiert.</entry>
+<entry key="field|hint|BT-195-notice">Jede Gruppe nicht offengelegter Informationen enthält ein oder mehrere Felder, die zurückgehalten werden, wie in TED dokumentiert: https://ted.europa.eu/de/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Wird kein Datum der Offenlegung angegeben, werden die Informationen niemals offengelegt. Wird ein Datum angegeben, darf es höchstens 5 Jahre nach dem Einreichungsdatum liegen.</entry>
 <entry key="field|hint|BT-22-Lot">Wenn Sie für Ihr Verfahren und Ihre Lose eine interne Kennung verwenden, bitte angeben. Bitte verwenden Sie für jedes Los unterschiedliche Kennungen.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Wenn Sie für Ihr Verfahren und Ihre Lose eine interne Kennung verwenden, bitte angeben. Bitte verwenden Sie für jedes Los unterschiedliche Kennungen.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Frist für den Eingang der Angebote</entry>
 <entry key="field|name|BT-1311(d)-Lot">Frist für den Eingang der Teilnahmeanträge</entry>
 <entry key="field|name|BT-1311(t)-Lot">Frist für den Eingang der Teilnahmeanträge</entry>
-<entry key="field|name|BT-132(d)-Lot">Eröffnungstermin</entry>
-<entry key="field|name|BT-132(t)-Lot">Eröffnungstermin</entry>
+<entry key="field|name|BT-132(d)-Lot">Datum der öffentlichen Öffnung</entry>
+<entry key="field|name|BT-132(t)-Lot">Zeit der öffentlichen Öffnung</entry>
 <entry key="field|name|BT-133-Lot">Ort des Eröffnungstermins</entry>
 <entry key="field|name|BT-133-Lot-Language">Ort des Eröffnungstermins</entry>
 <entry key="field|name|BT-134-Lot">Eröffnungstermin — Beschreibung</entry>

@@ -2,22 +2,22 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>business-entity in Polish. File generated from metadata database.</comment>
-<entry key="business-entity|name|buyer">Nabywca</entry>
-<entry key="business-entity|name|changes">Zmiany</entry>
-<entry key="business-entity|name|contract">Umowa</entry>
-<entry key="business-entity|name|contractModification">Modyfikacja zamówienia</entry>
+<entry key="business-entity|name|Buyer">Nabywca</entry>
+<entry key="business-entity|name|Changes">Zmiany</entry>
+<entry key="business-entity|name|Contract">Umowa</entry>
+<entry key="business-entity|name|ContractModification">Modyfikacja zamówienia</entry>
+<entry key="business-entity|name|Lot">Część zamówienia</entry>
+<entry key="business-entity|name|NoticeResult">Ogłoszenie - Wynik</entry>
+<entry key="business-entity|name|Part">Część</entry>
+<entry key="business-entity|name|Procedure">Procedura</entry>
+<entry key="business-entity|name|Tender">Oferta</entry>
+<entry key="business-entity|name|TenderingParty">Strona oferująca</entry>
+<entry key="business-entity|name|Touchpoint">Punkt kontaktowy</entry>
 <entry key="business-entity|name|euBusiness">Europejski biznes</entry>
 <entry key="business-entity|name|groupOfLots">Grupa części zamówienia</entry>
-<entry key="business-entity|name|lot">Część zamówienia</entry>
 <entry key="business-entity|name|noticeInformation">Informacje o ogłoszeniu</entry>
-<entry key="business-entity|name|noticeResult">Ogłoszenie - Wynik</entry>
 <entry key="business-entity|name|organization">Organizacja</entry>
-<entry key="business-entity|name|part">Część</entry>
-<entry key="business-entity|name|procedure">Procedura</entry>
 <entry key="business-entity|name|resultForLot">Wynik dla partii</entry>
 <entry key="business-entity|name|reviewInformation">Informacje o przeglądzie</entry>
-<entry key="business-entity|name|tender">Oferta</entry>
-<entry key="business-entity|name|tenderingParty">Strona oferująca</entry>
-<entry key="business-entity|name|touchpoint">Punkt kontaktowy</entry>
 <entry key="business-entity|name|ultimateBeneficialOwner">Ostateczny korzystający właściciel</entry>
 </properties>
