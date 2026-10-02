@@ -1971,5 +1971,29 @@
 		<diagnostic id="OPT-321-Tender" see="field:OPT-321-Tender">cbc:ID</diagnostic>
 		<diagnostic id="OPT-322-LotResult" see="field:OPT-322-LotResult">cbc:ID</diagnostic>
 		<diagnostic id="OPT-999-notice" see="field:OPT-999-notice">cac:TenderResult/cbc:AwardDate</diagnostic>
+		<diagnostic id="ND-LotResult_BT-13713-LotResult" see="field:BT-13713-LotResult">efac:TenderLot/cbc:ID</diagnostic>
+		<diagnostic id="ND-LotTenderOriginCountry_BT-191-Tender" see="field:BT-191-Tender">efbc:AreaCode</diagnostic>
+		<diagnostic id="ND-NoticeResultGroupFA_BT-556-NoticeResult" see="field:BT-556-NoticeResult">efac:TenderLot/cbc:ID</diagnostic>
+		<diagnostic id="ND-SubcontractingIndication_BT-651-Lot" see="field:BT-651-Lot">efbc:TenderSubcontractingRequirementsCode</diagnostic>
+		<diagnostic id="ND-IPIMeasureStatistics_BT-686-LotResult" see="field:BT-686-LotResult">efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-UBONationality_BT-706-UBO" see="field:BT-706-UBO">cbc:NationalityID</diagnostic>
+		<diagnostic id="ND-BuyerReviewComplainants_BT-712_b_-LotResult" see="field:BT-712(b)-LotResult">efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-SecondStageThresholdCriterionParameter_BT-752-Lot-ThresholdNumber" see="field:BT-752-Lot-ThresholdNumber">efbc:ParameterNumeric</diagnostic>
+		<diagnostic id="ND-ReceivedSubmissions_BT-759-LotResult" see="field:BT-759-LotResult">efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-SubcontractedContract_BT-773-Tender" see="field:BT-773-Tender">efbc:TermCode</diagnostic>
+		<diagnostic id="ND-TenderAggregatedAmounts_BT-779-Tender" see="field:BT-779-Tender">cbc:PaidAmount</diagnostic>
+		<diagnostic id="ND-TenderAggregatedAmounts_BT-780-Tender" see="field:BT-780-Tender">efbc:PaidAmountDescription</diagnostic>
+		<diagnostic id="ND-TenderAggregatedAmounts_BT-782-Tender" see="field:BT-782-Tender">efbc:PenaltiesAmount</diagnostic>
+		<diagnostic id="ND-AppealRemedy_BT-792-Review" see="field:BT-792-Review">efbc:RemedyTypeCode</diagnostic>
+		<diagnostic id="ND-AppealProcessingParty_BT-799-ReviewBody" see="field:BT-799-ReviewBody">efbc:AppealProcessingPartyTypeCode</diagnostic>
+		<diagnostic id="ND-ExtendedDurationJustification_OPP-020-Contract" see="field:OPP-020-Contract">efbc:ExtendedDurationIndicator</diagnostic>
+		<diagnostic id="ND-Company_OPT-200-Organization-Company" see="field:OPT-200-Organization-Company">cac:PartyIdentification/cbc:ID</diagnostic>
+		<diagnostic id="ND-Touchpoint_OPT-201-Organization-TouchPoint" see="field:OPT-201-Organization-TouchPoint">cac:PartyIdentification/cbc:ID</diagnostic>
+		<diagnostic id="ND-TenderingParty_OPT-210-Tenderer" see="field:OPT-210-Tenderer">cbc:ID</diagnostic>
+		<diagnostic id="ND-Tenderer_OPT-300-Tenderer" see="field:OPT-300-Tenderer">cbc:ID</diagnostic>
+		<diagnostic id="ND-SubContractorTakerReference_OPT-301-Tenderer-MainCont" see="field:OPT-301-Tenderer-MainCont">cbc:ID</diagnostic>
+		<diagnostic id="ND-SubContractor_OPT-301-Tenderer-SubCont" see="field:OPT-301-Tenderer-SubCont">cbc:ID</diagnostic>
+		<diagnostic id="ND-SettledContract_OPT-316-Contract" see="field:OPT-316-Contract">cbc:ID</diagnostic>
+		<diagnostic id="ND-LotResultTenderReference_OPT-320-LotResult" see="field:OPT-320-LotResult">cbc:ID</diagnostic>
 	</diagnostics>
 </schema>
