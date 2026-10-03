@@ -1288,7 +1288,7 @@ templateFragment
     : lineBreak templateFragment?                   # secondaryTemplate
     | textBlock templateFragment?                   # textTemplate
     | labelBlock templateFragment?                  # labelTemplate
-    | expressionBlock templateFragment?             # expressionTemplate
+    | formattedExpressionBlock templateFragment?    # expressionTemplate
     | linkedTextBlock templateFragment?             # linkedTextTemplate
     | linkedLabelBlock templateFragment?            # linkedLabelTemplate
     | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
@@ -1298,7 +1298,34 @@ linkBlock: StartHyperlinkBlock (stringExpression | lateBoundScalar) EndBlock;
 
 linkedTextBlock: textBlock linkBlock;
 linkedLabelBlock: labelBlock linkBlock;
-linkedExpressionBlock: expressionBlock linkBlock;
+linkedExpressionBlock: formattedExpressionBlock linkBlock;
+
+/**
+ * A formatted expression block displays a value formatted according to its type: a number with up to
+ * 9 decimals, a date or a time in the short style, and an amount, a measure or a duration followed by
+ * its unit. Any other value is displayed as it is.
+ *
+ * When the block contains only a field identifier, ${BT-00-Number}, or is the value of the
+ * context field, $value, the field is formatted according to the type of the field; any other
+ * expression, ${BT-00-Number * 2}, according to the type of its result. The field identifier is
+ * listed first, so that it takes precedence over the general expression.
+ *
+ * Format options can follow a pipe: a number of decimals, from 0 to 9, or one of the keywords short,
+ * medium or long, optionally followed by the keyword no-unit; or the keyword no-formatting, which
+ * displays the value of a field as entered, and the value of any other expression as it is, without
+ * a unit. Which options apply to which types is decided by the template translator.
+ */
+formattedExpressionBlock
+    : StartExpressionBlock FieldId formatOptions? EndBlock      # fieldExpressionBlock          // ${BT-00-Number|2}
+    | StartExpressionBlock expression formatOptions? EndBlock   # computedExpressionBlock       // ${BT-00-Number * 2|2}
+    | ShorthandFieldValueReferenceFromContextField              # contextFieldExpressionBlock   // $value
+    ;
+formatOptions
+    : Pipe formatSpecifier FormatNoUnit?
+    | Pipe FormatNoUnit
+    | Pipe FormatNoFormatting
+    ;
+formatSpecifier: FormatDecimals | FormatShort | FormatMedium | FormatLong;
 
 /**
  * A line-break is a newline character (\n).
