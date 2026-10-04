@@ -165,6 +165,24 @@ FreeText: ~[\r\n\f\t #$@&;\\]+;
 OtherEscapeSequence: OTHER_ESC_SEQ;
 
 /*
+ * FORMAT mode
+ * ------------------------------------------------------------------------------------------------
+ * This lexer mode is used for the format options of an expression block in EFX templates, which
+ * follow a pipe: ${BT-00-Number|2}.
+ */
+
+mode FORMAT;
+
+FormatWhitespace: (TAB | SPACE)+ -> channel(HIDDEN);
+FormatDecimals: DIGIT;
+FormatShort: 'short';
+FormatMedium: 'medium';
+FormatLong: 'long';
+FormatNoUnit: 'no-unit';
+FormatNoFormatting: 'no-formatting';
+EndFormatOptions: RBRACE -> popMode, type(EndBlock);
+
+/*
  * LABEL mode
  * ------------------------------------------------------------------------------------------------
  * This lexer mode is used for label blocks in EFX templates #{...}.
@@ -255,6 +273,9 @@ ColonColon: '::';
 
 // An RBRACE indicates the end of an EFX-1 style expression block.
 EndBlock: RBRACE -> popMode;
+
+// A pipe ends the expression of an expression block, and starts its format options: ${BT-00-Number|2}.
+FormatPipe: '|' -> popMode, pushMode(FORMAT), type(Pipe);
 
 EndLetExpression: ';' -> popMode, type(Semicolon);
 
