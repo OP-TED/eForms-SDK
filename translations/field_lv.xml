@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Valoda, kādā aprakstīts kvalitātes mērķis</entry>
 <entry key="field|description|OPT-090-Lot">Kods, kas norāda, ka runa ir par pircēju kategorijām: 'pircēju kategorijas'</entry>
 <entry key="field|description|OPT-100-Contract">Atsauce uz rezultātu paziņojumu, kas satur informāciju par parakstīto ietvaru līgumu, saskaņā ar kuru notiek pašreizējais līgums</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Shēmas nosaukums, kas tiek izmantota, lai izteiktu atsauci uz rezultātu paziņojumu, kas satur informāciju par parakstīto ietvaru līgumu, saskaņā ar kuru notiek pašreizējais līgums</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Tīmekļa adrese, kurā var atrast vietējo nodokļu likumdošanu</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Tīmekļa adrese, kurā var atrast vietējo nodokļu likumdošanu</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Nodokļu likumdošanas identifikators</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Organizācijas ('organization') vai kontaktpunkta ('touchpoint'), kas vērtē piedāvājumus, atsaucēm vajadzīgā shēmas nosaukums</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Attiecīgās organizācijas (ORG-xxxx) vai kontaktpunkta (TPO-xxxx) atsauce, kam jāiesniedz piedāvājumi vai dalības pieprasījumi</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Organizācijas ('organization') vai kontaktpunkta ('touchpoint'), kas saņem piedāvājumus, atsaucēm vajadzīgā shēmas nosaukums</entry>
-<entry key="field|description|OPT-301-ReviewBody">Atsauce uz organizāciju (ORG-xxxx), kas nodarbojas ar pārskatīšanas pieprasījumu pašreizējā pārskatīšanas posmā</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Organizācijas ('organization'), kas pārskata pieprasījumu pašreizējā pārskatīšanas posmā, atsaucēm vajadzīgā shēmas nosaukums</entry>
-<entry key="field|description|OPT-301-ReviewReq">Atsauce uz organizāciju (ORG-xxxx), kas ir iesniegusi pārskatīšanas pieprasījumu, kas noveda pie ziņošanas par pašreizējo pārskatīšanas posmu</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Organizācijas ('organization') vai kontaktpunkta ('touchpoint') atsaucēm vajadzīgā shēmas nosaukums</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Atsauce uz organizāciju (ORG-xxxx), kas ir galvenais piedāvātājs</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Organizācijas ('organization'), kas darbojas kā galvenais piedāvātājs, atsaucēm vajadzīgā shēmas nosaukums</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Atsauce uz organizāciju (ORG-xxxx), kas ir viena vai vairāku galveno piedāvātāju apakšuzņēmējs</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Vienam no sekojošiem jābūt aizpildītam: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Katrā neizpaužamās informācijas grupā ir viens vai vairāki lauki, kurus nepublicē, kā dokumentēts TED.</entry>
+<entry key="field|hint|BT-195-notice">Katrā neizpaužamās informācijas grupā ir viens vai vairāki lauki, kurus nepublicē, kā dokumentēts TED: https://ted.europa.eu/lv/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Ja izpaušanas datums nav norādīts, informācija nekad netiks izpausta. Ja datums ir norādīts, tas nedrīkst būt vēlāk kā 5 gadus pēc iesniegšanas datuma.</entry>
 <entry key="field|hint|BT-22-Lot">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Piedāvājumu saņemšanas termiņš</entry>
 <entry key="field|name|BT-1311(d)-Lot">Dalības pieprasījumu saņemšanas termiņš</entry>
 <entry key="field|name|BT-1311(t)-Lot">Dalības pieprasījumu saņemšanas termiņš</entry>
-<entry key="field|name|BT-132(d)-Lot">Atvēršanas datums</entry>
-<entry key="field|name|BT-132(t)-Lot">Atvēršanas datums</entry>
+<entry key="field|name|BT-132(d)-Lot">Publiskās atvēršanas datums</entry>
+<entry key="field|name|BT-132(t)-Lot">Publiskās atvēršanas laiks</entry>
 <entry key="field|name|BT-133-Lot">Vieta</entry>
 <entry key="field|name|BT-133-Lot-Language">Vieta</entry>
 <entry key="field|name|BT-134-Lot">Papildu informācija</entry>

@@ -2,22 +2,22 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>business-entity in Croatian. File generated from metadata database.</comment>
-<entry key="business-entity|name|buyer">Kupac</entry>
-<entry key="business-entity|name|changes">Promjene</entry>
-<entry key="business-entity|name|contract">Ugovor</entry>
-<entry key="business-entity|name|contractModification">Izmjena ugovora</entry>
+<entry key="business-entity|name|Buyer">Kupac</entry>
+<entry key="business-entity|name|Changes">Promjene</entry>
+<entry key="business-entity|name|Contract">Ugovor</entry>
+<entry key="business-entity|name|ContractModification">Izmjena ugovora</entry>
+<entry key="business-entity|name|Lot">Grupa</entry>
+<entry key="business-entity|name|NoticeResult">Obavijest o rezultatima</entry>
+<entry key="business-entity|name|Part">Dio</entry>
+<entry key="business-entity|name|Procedure">Postupak</entry>
+<entry key="business-entity|name|Tender">Ponuda</entry>
+<entry key="business-entity|name|TenderingParty">Stranka koja natječe</entry>
+<entry key="business-entity|name|Touchpoint">Kontaktna točka</entry>
 <entry key="business-entity|name|euBusiness">Europsko poslovanje</entry>
 <entry key="business-entity|name|groupOfLots">Skupina grupâ</entry>
-<entry key="business-entity|name|lot">Grupa</entry>
 <entry key="business-entity|name|noticeInformation">Informacije o obavijesti</entry>
-<entry key="business-entity|name|noticeResult">Obavijest o rezultatima</entry>
 <entry key="business-entity|name|organization">Organizacija</entry>
-<entry key="business-entity|name|part">Dio</entry>
-<entry key="business-entity|name|procedure">Postupak</entry>
 <entry key="business-entity|name|resultForLot">Rezultat za lot</entry>
 <entry key="business-entity|name|reviewInformation">Informacije o pregledu</entry>
-<entry key="business-entity|name|tender">Ponuda</entry>
-<entry key="business-entity|name|tenderingParty">Stranka koja natječe</entry>
-<entry key="business-entity|name|touchpoint">Kontaktna točka</entry>
 <entry key="business-entity|name|ultimateBeneficialOwner">Konačni korisni vlasnik</entry>
 </properties>

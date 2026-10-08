@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.16.0-beta.3",
+  "sdkVersion" : "eforms-sdk-1.16.0-rc.1",
   "metadataDatabase" : {
-    "version" : "1.14.51",
-    "createdOn" : "2026-09-10T16:05:32"
+    "version" : "1.14.52",
+    "createdOn" : "2026-10-08T10:28:57"
   },
   "businessEntities" : [ {
     "id" : "Address",
@@ -2808,8 +2808,8 @@
   }, {
     "id" : "ND-SubcontractedContract",
     "parentId" : "ND-LotTender",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
-    "xpathRelative" : "efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm",
+    "xpathRelative" : "efac:SubcontractingTerm",
     "xsdSequenceOrder" : [ { "efac:SubcontractingTerm" : 14 } ],
     "repeatable" : false,
     "businessEntityId" : "TenderSubcontracting"
@@ -8393,6 +8393,16 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "value" : "{ND-Root} ${count(BT-195-notice) == count(distinct-values(BT-195-notice))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00195-0104"
+      } ]
     }
   }, {
     "id" : "BT-196-notice",
@@ -16736,7 +16746,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Value",
     "btId" : "BT-553",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount",
     "xpathRelative" : "efbc:TermAmount",
     "xsdSequenceOrder" : [ { "efbc:TermAmount" : 2 } ],
     "type" : "amount",
@@ -16792,7 +16802,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Value Currency",
     "btId" : "BT-553",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount/@currencyID",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount/@currencyID",
     "xpathRelative" : "efbc:TermAmount/@currencyID",
     "xsdSequenceOrder" : [ { "efbc:TermAmount" : 2 } ],
     "type" : "code",
@@ -16816,7 +16826,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Description",
     "btId" : "BT-554",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription",
     "xpathRelative" : "efbc:TermDescription",
     "xsdSequenceOrder" : [ { "efbc:TermDescription" : 3 } ],
     "type" : "text-multilingual",
@@ -16854,7 +16864,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Description Language",
     "btId" : "BT-554",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription/@languageID",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription/@languageID",
     "xpathRelative" : "efbc:TermDescription/@languageID",
     "xsdSequenceOrder" : [ { "efbc:TermDescription" : 3 } ],
     "type" : "code",
@@ -16878,7 +16888,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Percentage",
     "btId" : "BT-555",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermPercent",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermPercent",
     "xpathRelative" : "efbc:TermPercent",
     "xsdSequenceOrder" : [ { "efbc:TermPercent" : 4 } ],
     "type" : "number",
@@ -20647,7 +20657,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Value Known",
     "btId" : "BT-730",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:ValueKnownIndicator",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:ValueKnownIndicator",
     "xpathRelative" : "efbc:ValueKnownIndicator",
     "xsdSequenceOrder" : [ { "efbc:ValueKnownIndicator" : 7 } ],
     "type" : "indicator",
@@ -20700,7 +20710,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Percentage Known",
     "btId" : "BT-731",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:PercentageKnownIndicator",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:PercentageKnownIndicator",
     "xpathRelative" : "efbc:PercentageKnownIndicator",
     "xsdSequenceOrder" : [ { "efbc:PercentageKnownIndicator" : 6 } ],
     "type" : "indicator",
@@ -23350,7 +23360,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting",
     "btId" : "BT-773",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode",
     "xpathRelative" : "efbc:TermCode",
     "xsdSequenceOrder" : [ { "efbc:TermCode" : 5 } ],
     "type" : "code",
@@ -23404,7 +23414,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Listname",
     "btId" : "BT-773",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/@listName",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode/@listName",
     "xpathRelative" : "efbc:TermCode/@listName",
     "xsdSequenceOrder" : [ { "efbc:TermCode" : 5 } ],
     "type" : "text",

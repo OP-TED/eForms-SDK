@@ -17,7 +17,7 @@
 		{BT-503-Business} #{name|BT-503}: ${BT-503-Business} // Telephone
 		{BT-739-Business} #{name|BT-739}: ${BT-739-Business} // Fax
 		{BT-505-Business} #{name|BT-505}: ${BT-505-Business} // Internet address
-	2 {OPP-105-Business} #{name|OPP-105-Business}: #{OPP-105-Business} // 9.2 Sector of activity
+	2 {OPP-105-Business} #{name}: #{OPP-105-Business} // 9.2 Sector of activity
 	3 {ND-Root} #{auxiliary|text|place-registration} // 9.3 Place of registration
 		{OPP-110-Business} #{name|OPP-110}: ${OPP-110-Business} // Town
 		{OPP-111-Business} #{name|OPP-111}: ${OPP-111-Business} // Post code
