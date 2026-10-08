@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.16.0-rc.1",
   "metadataDatabase" : {
-    "version" : "1.14.51",
-    "createdOn" : "2026-10-02T16:47:33"
+    "version" : "1.14.52",
+    "createdOn" : "2026-10-08T10:28:57"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -212,13 +212,13 @@
     "_label" : "codelist|name|contract-term"
   }, {
     "id" : "corporate-body",
-    "version" : "20260617-0",
+    "version" : "20260923-0",
     "filename" : "corporate-body.gc",
     "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
     "_label" : "codelist|name|corporate-body"
   }, {
     "id" : "country",
-    "version" : "20260617-0",
+    "version" : "20260923-0",
     "filename" : "country.gc",
     "description" : "List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.",
     "_label" : "codelist|name|country"
@@ -498,7 +498,7 @@
     "_label" : "codelist|name|irregularity-type"
   }, {
     "id" : "language",
-    "version" : "20260617-0",
+    "version" : "20260923-0",
     "filename" : "language.gc",
     "description" : "List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.",
     "_label" : "codelist|name|language"
@@ -1618,7 +1618,7 @@
     "_label" : "codelist|name|qu-sy"
   }, {
     "id" : "received-submission-type",
-    "version" : "20260617-0",
+    "version" : "20260923-0",
     "filename" : "received-submission-type.gc",
     "description" : "This table provides the list of relevant categories used to classify tenders or requests to participate received within the context of public procurement.",
     "_label" : "codelist|name|received-submission-type"
@@ -1796,7 +1796,7 @@
     "_label" : "codelist|name|transport-service"
   }, {
     "id" : "undisclosed-data-group",
-    "version" : "1.0",
+    "version" : "20260923-0",
     "filename" : "undisclosed-data-group.gc",
     "description" : "List of codes specifying groups of Fields to be withheld",
     "_label" : "codelist|name|undisclosed-data-group"
