@@ -1,4 +1,4 @@
-# SDK 1.16.0-rc.1 Release Notes
+# SDK 1.16.0-rc.2 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.15.1 should also be able to use this version.
 
@@ -34,6 +34,7 @@ In addition to the changes with regards to the new 'undisclosed fields' approach
 	* Update of rules on 'Technical ID of the lot result (RES-XXX)' (OPT-322-LotResult)
 	* Update of EFX syntax in several expressions of business rules to make them more language agnostic 
 	* Restoration of previously removed expression in a co-constraint rule checking for the presence of fields when 'Legal basis' (BT-01-notice) is 'Other'
+    * Update of the condition in the conditionally forbidden rule for ‘Group Framework Value Lot Identifier’ (BT-556-NoticeResult)
 
 ### Updates to notice type definitions
 * Addition of the two 'Deadline Receipt Requests' fields BT-1311(d)-Lot and BT-1311(t)-Lot to the notice type definition for subtype 8
@@ -61,5 +62,5 @@ Updates to business term/field name, description and hint labels, code labels, a
 
 This release note does not cover the details of all changes.
 
-A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-rc.1 can be seen at https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-rc.1 or through the SDK Explorer https://docs.ted.europa.eu/eforms-sdk-explorer/.
+A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-rc.2 can be seen at https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-rc.2 or through the SDK Explorer https://docs.ted.europa.eu/eforms-sdk-explorer/.
 
