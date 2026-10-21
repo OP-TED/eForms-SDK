@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Kraj pochodzenia produktu lub usługi' (BT-191-Tender) nie jest dozwolony (w 'E5 – Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Kraj pochodzenia produktu lub usługi' (BT-191-Tender) musi zawierać wartość z listy kodów (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Kraj pochodzenia produktu lub usługi' (BT-191-Tender) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
+<entry key="rule|text|BR-BT-00191-0053">W ofercie brakuje 'Kraj pochodzenia produktu lub usługi' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Oferta jest ofertą wariantową' (BT-193-Tender) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Oferta jest ofertą wariantową' (BT-193-Tender) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Oferta jest ofertą wariantową' (BT-193-Tender) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556-NoticeResult) musi być zgodne z następującym wzorem: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556-NoticeResult) musi być powiązane z istniejącym 'Procedura - Część zamówienia - Wynik' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556-NoticeResult) musi różnić się od każdego innego 'Grupa – Umowa ramowa – Wartość – ID części zamówienia' w ogłoszeniu.</entry>
+<entry key="rule|text|BR-BT-00556-0102">W wartości grupy umowy ramowej brakuje 'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Wymagane jest poświadczenie bezpieczeństwa' (BT-578-Lot) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Wymagane jest poświadczenie bezpieczeństwa' (BT-578-Lot) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Wymagane jest poświadczenie bezpieczeństwa' (BT-578-Lot) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obowiązkowe wskazanie podwykonawstwa' (BT-651-Lot) nie jest dozwolony, kiedy: 'Obowiązek oferenta dotyczący podwykonawstwa' (BT-66) nie jest wypełnione (w '9 – Wstępne ogłoszenie informacyjne wykorzystywane do skrócenia terminów składania ofert – dyrektywa obronna')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obowiązkowe wskazanie podwykonawstwa' (BT-651-Lot) nie jest dozwolony, kiedy: 'Obowiązek oferenta dotyczący podwykonawstwa' (BT-66) nie jest wypełnione (w 'E3 – Dobrowolne ogłoszenie o zamówieniu')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obowiązkowe wskazanie podwykonawstwa' (BT-651-Lot) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
+<entry key="rule|text|BR-BT-00651-0055">W części zamówienia brakuje 'Obowiązkowe wskazanie podwykonawstwa' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Liczba ofert przetargowych, które podlegają temu środkowi IPI' (BT-686-LotResult) musi być zgodne z następującym wzorem: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Liczba ofert przetargowych, które podlegają temu środkowi IPI' (BT-686-LotResult) musi być mniejsze lub równe 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Liczba ofert przetargowych, które podlegają temu środkowi IPI' (BT-686-LotResult) musi być większe lub równe 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">W wyniku części zamówienia brakuje 'Liczba ofert przetargowych, które podlegają temu środkowi IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Wyjątek od stosowania środka IPI' (BT-687-LotResult) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Wyjątek od stosowania środka IPI' (BT-687-LotResult) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Wyjątek od stosowania środka IPI' (BT-687-LotResult) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Przynależność państwowa właściciela' (BT-706-UBO) nie jest dozwolony, kiedy: 'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) nie jest wypełnione (w 'E4 – Dobrowolne ogłoszenie o udzieleniu zamówienia')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Przynależność państwowa właściciela' (BT-706-UBO) nie jest dozwolony, kiedy: 'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) nie jest wypełnione (w 'E5 – Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Przynależność państwowa właściciela' (BT-706-UBO) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Beneficjentowi rzeczywistemu brakuje 'Przynależność państwowa właściciela' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia' (BT-707-Part) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia' (BT-707-Part) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia' (BT-707-Part) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Liczba odwołujących się' (BT-712(b)-LotResult) musi być zgodne z następującym wzorem: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Liczba odwołujących się' (BT-712(b)-LotResult) musi być mniejsze lub równe 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Liczba odwołujących się' (BT-712(b)-LotResult) musi być większe lub równe 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">W wyniku części zamówienia brakuje 'Liczba odwołujących się' (BT-712(b)-LotResult) lub 'Liczba odwołań nabywców' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Zamówienie wchodzi w zakres dyrektywy Parlamentu Europejskiego i Rady 2009/33/WE (dyrektywa w sprawie czystych ekologicznie pojazdów – CVD)' (BT-717-Lot) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Zamówienie wchodzi w zakres dyrektywy Parlamentu Europejskiego i Rady 2009/33/WE (dyrektywa w sprawie czystych ekologicznie pojazdów – CVD)' (BT-717-Lot) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Zamówienie wchodzi w zakres dyrektywy Parlamentu Europejskiego i Rady 2009/33/WE (dyrektywa w sprawie czystych ekologicznie pojazdów – CVD)' (BT-717-Lot) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot-ThresholdNumber) nie jest dozwolony (w 'E5 – Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot-WeightNumber) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot-ThresholdNumber) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
+<entry key="rule|text|BR-BT-00752-0103">W parametrze kryterium wyboru brakuje 'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot-ThresholdNumber) lub 'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Zastosowanie kryteriów dostępności dla osób niepełnosprawnych w specyfikacjach technicznych' (BT-754-Lot) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Zastosowanie kryteriów dostępności dla osób niepełnosprawnych w specyfikacjach technicznych' (BT-754-Lot) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Zastosowanie kryteriów dostępności dla osób niepełnosprawnych w specyfikacjach technicznych' (BT-754-Lot) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Liczba otrzymanych ofert lub wniosków o dopuszczenie do udziału' (BT-759-LotResult) musi być zgodne z następującym wzorem: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Liczba otrzymanych ofert lub wniosków o dopuszczenie do udziału' (BT-759-LotResult) musi być mniejsze lub równe 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Liczba otrzymanych ofert lub wniosków o dopuszczenie do udziału' (BT-759-LotResult) musi być większe lub równe 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">W wyniku części zamówienia brakuje 'Liczba otrzymanych ofert lub wniosków o dopuszczenie do udziału' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Rodzaj otrzymanych ofert lub wniosków' (BT-760-LotResult) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Rodzaj otrzymanych ofert lub wniosków' (BT-760-LotResult) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Rodzaj otrzymanych ofert lub wniosków' (BT-760-LotResult) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Podwykonawstwo' (BT-773-Tender) nie jest dozwolony, kiedy: 'Techniczne ID oferty' (OPT-321-Tender) nie jest wypełnione (w '29 – Ogłoszenie o udzieleniu zamówienia – dyrektywa ogólna, tryb standardowy')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Podwykonawstwo' (BT-773-Tender) nie jest dozwolony, kiedy: 'Techniczne ID oferty' (OPT-321-Tender) nie jest wypełnione (w '30 – Ogłoszenie o udzieleniu zamówienia – dyrektywa sektorowa, tryb standardowy')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Podwykonawstwo' (BT-773-Tender) nie jest dozwolony, kiedy: 'Techniczne ID oferty' (OPT-321-Tender) nie jest wypełnione (w '31 – Ogłoszenie o udzieleniu zamówienia – dyrektywa obronna, tryb standardowy')</entry>
+<entry key="rule|text|BR-BT-00773-0056">W ofercie brakuje 'Podwykonawstwo' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Podejście do ograniczania wpływu na środowisko' (BT-774-Lot) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Podejście do ograniczania wpływu na środowisko' (BT-774-Lot) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Podejście do ograniczania wpływu na środowisko' (BT-774-Lot) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Oferta – Płatności – Wartość' (BT-779-Tender) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Oferta – Płatności – Wartość' (BT-779-Tender) musi być pozytywny.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Oferta – Płatności – Wartość' (BT-779-Tender) musi być zgodne z następującym wzorem: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">W ofercie brakuje 'Oferta – Płatności – Wartość' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender) nie jest dozwolony, kiedy: 'Oferta – Płatności – Wartość' (BT-779-Tender) nie jest wypełnione (w 'E5 – Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender-Language) musi zawierać wartość z listy kodów (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">W ofercie brakuje 'Oferta – Płatności – Wartość – Dodatkowe informacje' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Okres obowiązywania trwania – Dodatkowe informacje' (BT-781-Lot) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Okres obowiązywania trwania – Dodatkowe informacje' (BT-781-Lot) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Okres obowiązywania trwania – Dodatkowe informacje' (BT-781-Lot) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Oferta – Kary' (BT-782-Tender) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Oferta – Kary' (BT-782-Tender) musi być pozytywny.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Oferta – Kary' (BT-782-Tender) musi być zgodne z następującym wzorem: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">W ofercie brakuje 'Oferta – Kary' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Odwołanie lub decyzja' (BT-783-Review) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Odwołanie lub decyzja' (BT-783-Review) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Odwołanie lub decyzja' (BT-783-Review) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review) jest obowiązkowy, kiedy: 'Odwołanie - Nieprawidłowości - Rodzaj' (BT-791-Review) jest obecny i dotyczy decyzji, która co najmniej częściowo zatwierdza wniosek (w '36 – Ogłoszenie o wynikach konkursu – dyrektywa ogólna, prace projektowe')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review) jest obowiązkowy, kiedy: 'Odwołanie - Nieprawidłowości - Rodzaj' (BT-791-Review) jest obecny i dotyczy decyzji, która co najmniej częściowo zatwierdza wniosek (w '37 – Ogłoszenie o wynikach konkursu – dyrektywa sektorowa, prace projektowe')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review) jest obowiązkowy, kiedy: 'Odwołanie - Nieprawidłowości - Rodzaj' (BT-791-Review) jest obecny i dotyczy decyzji, która co najmniej częściowo zatwierdza wniosek (w 'E5 – Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia')</entry>
+<entry key="rule|text|BR-BT-00792-0102">W odwołaniu brakuje 'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Odwołanie – Środek odwoławczy – Wartość' (BT-793-Review) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Odwołanie – Środek odwoławczy – Wartość' (BT-793-Review) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Odwołanie – Środek odwoławczy – Wartość' (BT-793-Review) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Organ odwoławczy – Rodzaj' (BT-799-ReviewBody) jest obowiązkowy, kiedy: 'Odwołanie lub decyzja' (BT-783-Review) jest obecny i jest 'Decyzja' i wniosek nie został wycofany. (w '35 – Ogłoszenie o udzieleniu koncesji – dyrektywa w sprawie koncesji, tryb uproszczony')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Organ odwoławczy – Rodzaj' (BT-799-ReviewBody) jest obowiązkowy, kiedy: 'Odwołanie lub decyzja' (BT-783-Review) jest obecny i jest 'Decyzja' i wniosek nie został wycofany. (w '36 – Ogłoszenie o wynikach konkursu – dyrektywa ogólna, prace projektowe')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Organ odwoławczy – Rodzaj' (BT-799-ReviewBody) jest obowiązkowy, kiedy: 'Odwołanie lub decyzja' (BT-783-Review) jest obecny i jest 'Decyzja' i wniosek nie został wycofany. (w '37 – Ogłoszenie o wynikach konkursu – dyrektywa sektorowa, prace projektowe')</entry>
+<entry key="rule|text|BR-BT-00799-0098">W odwołaniu brakuje 'Organ odwoławczy – Rodzaj' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Termin – Składanie odpowiedzi' (BT-800(d)-Lot) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Termin – Składanie odpowiedzi' (BT-800(d)-Lot) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Termin – Składanie odpowiedzi' (BT-800(d)-Lot) jest obowiązkowy (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statystyki otrzymanych zgłoszeń: Całkowita liczba 'Oferty złożone drogą elektroniczną' (BT-760-LotResult = t-esubm) musi być określona dokładnie raz</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statystyki otrzymanych zgłoszeń: Całkowita liczba 'Oferty złożone drogą elektroniczną' (BT-760-LotResult = t-esubm) musi być określona dokładnie raz</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statystyki otrzymanych zgłoszeń: Całkowita liczba 'Oferty złożone drogą elektroniczną' (BT-760-LotResult = t-esubm) musi być określona dokładnie raz</entry>
+<entry key="rule|text|BR-BT-13713-0180">W wyniku części zamówienia brakuje 'Wyniki – ID części zamówienia' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identyfikator części zamówienia lub grupy części' (BT-13714-Tender) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identyfikator części zamówienia lub grupy części' (BT-13714-Tender) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identyfikator części zamówienia lub grupy części' (BT-13714-Tender) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Okres obowiązywania umowy przedłuża się ze względu na istotne aktywa niezbędne do realizacji usługi' (OPP-020-Contract) nie jest dozwolony, kiedy: 'Techniczne ID umowy' (OPT-316-Contract) nie jest wypełnione (w 'T02 – Ogłoszenie informacyjne w celu udzielenia zamówienia prowadzącego do zawarcia umowy o świadczenie usług publicznych')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Okres obowiązywania umowy przedłuża się ze względu na istotne aktywa niezbędne do realizacji usługi' (OPP-020-Contract) musi zawierać wartość z listy kodów (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Okres obowiązywania umowy przedłuża się ze względu na istotne aktywa niezbędne do realizacji usługi' (OPP-020-Contract) nie jest dozwolony (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">W umowie brakuje 'Okres obowiązywania umowy przedłuża się ze względu na istotne aktywa niezbędne do realizacji usługi' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Wykaz aktywów wykorzystywanych do świadczenia usług publicznych' (OPP-021-Contract) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Wykaz aktywów wykorzystywanych do świadczenia usług publicznych' (OPP-021-Contract) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Wykaz aktywów wykorzystywanych do świadczenia usług publicznych' (OPP-021-Contract) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organizacja działająca jako główny wykonawca nie może mieć 'Inne punkty kontaktowe'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organizacja działająca jako podwykonawca nie może mieć 'Inne punkty kontaktowe'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Każde istniejące 'Techniczne ID organizacji (ORG-XXX)' (OPT-200-Organization-Company) musi mieć co najmniej jedną rolę lub podrolę</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organizacja nie posiada identyfikatora technicznego (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Techniczne ID punktu kontaktowego (TPO-XXX)' (OPT-201-Organization-TouchPoint) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Techniczne ID punktu kontaktowego (TPO-XXX)' (OPT-201-Organization-TouchPoint) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Techniczne ID punktu kontaktowego (TPO-XXX)' (OPT-201-Organization-TouchPoint) nie jest dozwolony, kiedy: 'Techniczne ID organizacji (ORG-XXX)' (OPT-200-Organization-Company) nie jest wypełnione (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Techniczne ID punktu kontaktowego (TPO-XXX)' (OPT-201-Organization-TouchPoint) musi być zgodne z następującym wzorem: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Techniczne ID punktu kontaktowego (TPO-XXX)' (OPT-201-Organization-TouchPoint) wartość musi być unikalną wartością</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Każde istniejące 'Inne punkty kontaktowe' musi być powiązane z co najmniej jedną z następujących podroli: 'Organizacja udzielająca dodatkowych informacji na temat postępowania o udzielenie zamówienia'; 'Organizacja zapewniająca dostęp offline do dokumentów zamówienia'; 'Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony zatrudnienia i warunków pracy, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane'; 'Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony środowiska, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane'; 'Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie podatków, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane'; 'Organ mediacyjny'; 'Organizacja udzielająca dodatkowych informacji na temat procedur odwoławczych'; 'Organ odwoławczy', 'Organizacja rozpatrująca oferty', 'Organizacja rozpatrująca wnioski o dopuszczenie do udziału'; 'Organ odwoławczy'; Wniosek o przegląd</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Punktowi kontaktowemu brakuje 'Techniczne ID punktu kontaktowego (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Techniczne ID strony oferującej (TPA-XXX)' (OPT-210-Tenderer) wartość musi być unikalną wartością</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Dla każdego 'Techniczne ID strony oferującej (TPA-XXX)' (OPT-210), jeśli istnieje więcej niż jeden oferent (OPT-300-Tenderer), wtedy musi być dokładnie jedno 'Lider grupy' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Każde istniejące 'Techniczne ID strony oferującej (TPA-XXX)' (OPT-210-Tenderer) musi być powiązane z co najmniej jednym 'Organizacja pełniąca tę rolę' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Oferentowi brakuje 'Techniczne ID strony oferującej (TPA-XXX)' (OPT-210-Tenderer) lub w ofercie brakuje 'Strona oferująca' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Nazwa strony oferującej' (OPT-211-Tenderer) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Nazwa strony oferującej' (OPT-211-Tenderer) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Nazwa strony oferującej' (OPT-211-Tenderer) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Oferent' (OPT-300-Tenderer) nie jest dozwolony, kiedy: 'Techniczne ID oferty' (OPT-321-Tender) nie istnieje (w 'E5 – Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Nabywca' (OPT-300-Procedure-Buyer) musi być zgodne z następującym wzorem: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizacja pełniąca tę rolę' (OPT-300-Procedure-Buyer) musi różnić się od każdego innego 'Organizacja pełniąca tę rolę' w ogłoszeniu.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Oferentowi brakuje 'Oferent' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizacja, której budżet jest wykorzystywany do sfinansowania umowy' (OPT-301-LotResult-Financing) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizacja, której budżet jest wykorzystywany do sfinansowania umowy' (OPT-301-LotResult-Financing) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizacja, której budżet jest wykorzystywany do sfinansowania umowy' (OPT-301-LotResult-Financing) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizacja lub konkretny punkt kontaktowy' (OPT-301-Part-ReviewOrg-Scheme) musi zawierać wartość z listy kodów (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizacja lub konkretny punkt kontaktowy' (OPT-301-Part-TenderEval-Scheme) musi zawierać wartość z listy kodów (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizacja lub konkretny punkt kontaktowy' (OPT-301-Part-TenderReceipt-Scheme) musi zawierać wartość z listy kodów (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Podwykonawcy oferenta brakuje 'Główny wykonawca do podwykonawcy' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Oferentowi brakuje 'Podwykonawca' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizacja pełniąca tę rolę' (OPT-302-Organization) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizacja pełniąca tę rolę' (OPT-302-Organization) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizacja pełniąca tę rolę' (OPT-302-Organization) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Każde istniejące 'Techniczne ID umowy' (OPT-316-Contract) musi być powiązane z co najmniej jednym 'Odniesienie do umowy' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Każde istniejące 'Techniczne ID umowy' (OPT-316-Contract) musi być powiązane z co najmniej jednym 'Odniesienie do umowy' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Każde istniejące 'Techniczne ID umowy' (OPT-316-Contract) musi być powiązane z co najmniej jednym 'Odniesienie do umowy' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">W umowie brakuje 'Techniczne ID umowy' (OPT-316-Contract) lub w wyniku części zamówienia brakuje 'Odniesienie do umowy' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Techniczne ID otrzymanej oferty' (OPT-320-LotResult) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Techniczne ID otrzymanej oferty' (OPT-320-LotResult) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Techniczne ID otrzymanej oferty' (OPT-320-LotResult) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Techniczne ID otrzymanej oferty' (OPT-320-LotResult) nie jest dozwolony, kiedy: Nie ma LotResult, ani nie ma przetargu na część objętą przez LotResult i nie ma przetargu na żadną grupę części, która zawierałaby część LotResult, albo nie ma przetargu i nie określono żadnej części dla LotResult (w 'E6 – Dobrowolne ogłoszenie o modyfikacji umowy')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Każde odniesienie do oferty z (OPT-320-LotResult) musi odpowiadać jednej z określonych ofert (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Dla danego wyniku partii, każda odwołana oferta musi dotyczyć albo partii tego wyniku, albo grupy partii zawierającej tę partię.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">W wyniku części zamówienia brakuje 'Techniczne ID otrzymanej oferty' (OPT-320-LotResult), w ofercie brakuje 'Techniczne ID oferty' (OPT-321-Tender) lub w umowie brakuje 'Umowa - identyfikator oferty' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Techniczne ID oferty' (OPT-321-Tender) nie jest dozwolony (w 'X01 – Europejskie ugrupowanie interesów gospodarczych')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Techniczne ID oferty' (OPT-321-Tender) nie jest dozwolony (w 'X02 – Spółka europejska / spółdzielnia europejska')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Techniczne ID oferty' (OPT-321-Tender) nie jest dozwolony (w 'E1 – Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych')</entry>

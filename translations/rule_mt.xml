@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Pajjiż tal-oriġini tal-prodott jew tas-servizz' (BT-191-Tender) mhux permess ('E5 – Avviż volontarju ta’ tlestija')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Pajjiż tal-oriġini tal-prodott jew tas-servizz' (BT-191-Tender) għandu jkun fih valur mil-lista ta’ kodiċijiet (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Pajjiż tal-oriġini tal-prodott jew tas-servizz' (BT-191-Tender) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Offerta hija nieqsa minn 'Pajjiż tal-oriġini tal-prodott jew tas-servizz' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'L-offerta hija varjant' (BT-193-Tender) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'L-offerta hija varjant' (BT-193-Tender) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'L-offerta hija varjant' (BT-193-Tender) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'ID tal-lott tal-valur tal-grupp fi ftehim qafas' (BT-556-NoticeResult) għandu jaqbel mal-mudell li ġej: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'ID tal-lott tal-valur tal-grupp fi ftehim qafas' (BT-556-NoticeResult) irid ikun assoċjat ma’ 'Riżultat tal-proċedura għal lott' (BT-137-LotsGroup) eżistenti</entry>
 <entry key="rule|text|BR-BT-00556-0101">'ID tal-lott tal-valur tal-grupp fi ftehim qafas' (BT-556-NoticeResult) għandu jkun differenti minn kull 'ID tal-lott tal-valur tal-grupp fi ftehim qafas' ieħor fl-avviż.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Il-valur tal-grupp tal-ftehim qafas huwa nieqes minn 'ID tal-lott tal-valur tal-grupp fi ftehim qafas' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Hija meħtieġa approvazzjoni tas-sigurtà' (BT-578-Lot) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Hija meħtieġa approvazzjoni tas-sigurtà' (BT-578-Lot) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Hija meħtieġa approvazzjoni tas-sigurtà' (BT-578-Lot) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Indikazzjoni obbligatorja tas-sottokuntrattar' (BT-651-Lot) mhux permess, meta: 'Obbligu li jrid jiġi rrispettat mill-offerent rigward is-sottokuntrattar' (BT-66) mhuwiex mimli ('9 – Avviż informattiv minn qabel li jintuża biex jitqassru l-limiti ta’ żmien għat-tressiq tal-offerti – Direttiva dwar id-difiża')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Indikazzjoni obbligatorja tas-sottokuntrattar' (BT-651-Lot) mhux permess, meta: 'Obbligu li jrid jiġi rrispettat mill-offerent rigward is-sottokuntrattar' (BT-66) mhuwiex mimli ('E3 – Avviż volontarju ta’ kuntratt')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Indikazzjoni obbligatorja tas-sottokuntrattar' (BT-651-Lot) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Lott huwa nieqes minn 'Indikazzjoni obbligatorja tas-sottokuntrattar' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Numru ta' applikazzjonijiet għall-offerta li jaqa' taħt din il-miżura IPI' (BT-686-LotResult) għandu jaqbel mal-mudell li ġej: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Numru ta' applikazzjonijiet għall-offerta li jaqa' taħt din il-miżura IPI' (BT-686-LotResult) irid ikun anqas minn jew indaqs għal  9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Numru ta' applikazzjonijiet għall-offerta li jaqa' taħt din il-miżura IPI' (BT-686-LotResult) irid ikun akbar minn jew indaqs għal  0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Riżultat tal-lott huwa nieqes minn 'Numru ta' applikazzjonijiet għall-offerta li jaqa'Numru ta' applikazzjonijiet għall-offerta li jaqa' taħt din il-miżura IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Eċċezzjoni mill-applikazzjoni tal-miżura IPI' (BT-687-LotResult) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Eċċezzjoni mill-applikazzjoni tal-miżura IPI' (BT-687-LotResult) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Eċċezzjoni mill-applikazzjoni tal-miżura IPI' (BT-687-LotResult) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Nazzjonalità tas-sid' (BT-706-UBO) mhux permess, meta: 'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) mhuwiex mimli ('E4 – Avviż volontarju ta’ għoti')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Nazzjonalità tas-sid' (BT-706-UBO) mhux permess, meta: 'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) mhuwiex mimli ('E5 – Avviż volontarju ta’ tlestija')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Nazzjonalità tas-sid' (BT-706-UBO) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Is-sid benefiċjarju huwa nieqes minn 'Nazzjonalità tas-sid' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Ġustifikazzjoni għar-restrizzjoni tal-aċċess għal ċerti dokumenti tal-akkwist' (BT-707-Part) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Ġustifikazzjoni għar-restrizzjoni tal-aċċess għal ċerti dokumenti tal-akkwist' (BT-707-Part) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Ġustifikazzjoni għar-restrizzjoni tal-aċċess għal ċerti dokumenti tal-akkwist' (BT-707-Part) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Numru ta’ lmentaturi' (BT-712(b)-LotResult) għandu jaqbel mal-mudell li ġej: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Numru ta’ lmentaturi' (BT-712(b)-LotResult) irid ikun anqas minn jew indaqs għal  9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Numru ta’ lmentaturi' (BT-712(b)-LotResult) irid ikun akbar minn jew indaqs għal  0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Riżultat tal-lott huwa nieqes minn 'Numru ta’ lmentaturi' (BT-712(b)-LotResult) jew 'Numru ta’ talbiet għal rieżami tax-xerrej' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717-Lot) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717-Lot) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717-Lot) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot-ThresholdNumber) mhux permess ('E5 – Avviż volontarju ta’ tlestija')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot-WeightNumber) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot-ThresholdNumber) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Il-parametru tal-kriterju tal-għażla huwa nieqes minn 'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot-ThresholdNumber) jew 'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'L-użu ta’ kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà fl-ispeċifikazzjonijiet tekniċi' (BT-754-Lot) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'L-użu ta’ kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà fl-ispeċifikazzjonijiet tekniċi' (BT-754-Lot) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'L-użu ta’ kriterji ta’ aċċessibbiltà għall-persuni b’diżabbiltà fl-ispeċifikazzjonijiet tekniċi' (BT-754-Lot) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Numru ta’ offerti jew talbiet riċevuti għall-parteċipazzjoni' (BT-759-LotResult) għandu jaqbel mal-mudell li ġej: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Numru ta’ offerti jew talbiet riċevuti għall-parteċipazzjoni' (BT-759-LotResult) irid ikun anqas minn jew indaqs għal  9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Numru ta’ offerti jew talbiet riċevuti għall-parteċipazzjoni' (BT-759-LotResult) irid ikun akbar minn jew indaqs għal  0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Riżultat tal-lott huwa nieqes minn 'Numru ta’ offerti jew talbiet riċevuti għall-parteċipazzjoni' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Tip ta’ sottomissjonijiet riċevuti' (BT-760-LotResult) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Tip ta’ sottomissjonijiet riċevuti' (BT-760-LotResult) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Tip ta’ sottomissjonijiet riċevuti' (BT-760-LotResult) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Sottokuntrattar' (BT-773-Tender) mhux permess, meta: 'ID tekniku tal-offerta' (OPT-321-Tender) mhuwiex mimli ('29 – Avviż ta’ għoti ta’ kuntratt – Direttiva ġenerali, reġim standard')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Sottokuntrattar' (BT-773-Tender) mhux permess, meta: 'ID tekniku tal-offerta' (OPT-321-Tender) mhuwiex mimli ('30 – Avviż ta’ għoti ta’ kuntratt – Direttiva settorjali, reġim standard')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Sottokuntrattar' (BT-773-Tender) mhux permess, meta: 'ID tekniku tal-offerta' (OPT-321-Tender) mhuwiex mimli ('31 – Avviż ta’ għoti ta’ kuntratt – Direttiva dwar id-difiża, reġim standard')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Offerta hija nieqsa minn 'Sottokuntrattar' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Approċċ għat-tnaqqis tal-impatti ambjentali' (BT-774-Lot) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Approċċ għat-tnaqqis tal-impatti ambjentali' (BT-774-Lot) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Approċċ għat-tnaqqis tal-impatti ambjentali' (BT-774-Lot) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Valur tal-pagament tal-offerta' (BT-779-Tender) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Valur tal-pagament tal-offerta' (BT-779-Tender) għandu jkun pożittiv.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Valur tal-pagament tal-offerta' (BT-779-Tender) għandu jaqbel mal-mudell li ġej: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Offerta hija nieqsa minn 'Valur tal-pagament tal-offerta' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender) mhux permess, meta: 'Valur tal-pagament tal-offerta' (BT-779-Tender) mhuwiex mimli ('E5 – Avviż volontarju ta’ tlestija')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender-Language) għandu jkun fih valur mil-lista ta’ kodiċijiet (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Offerta hija nieqsa minn 'Informazzjoni addizzjonali dwar il-valur tal-pagament tal-offerta' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Informazzjoni addizzjonali dwar it-tul ta’ żmien' (BT-781-Lot) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Informazzjoni addizzjonali dwar it-tul ta’ żmien' (BT-781-Lot) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Informazzjoni addizzjonali dwar it-tul ta’ żmien' (BT-781-Lot) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Penali tal-offerta' (BT-782-Tender) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Penali tal-offerta' (BT-782-Tender) għandu jkun pożittiv.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Penali tal-offerta' (BT-782-Tender) għandu jaqbel mal-mudell li ġej: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Offerta hija nieqsa minn 'Penali tal-offerta' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Tip ta’ rimedju tar-rieżami' (BT-792-Review) huwa obbligatorju, meta: 'Tip ta’ irregolarità tar-rieżami' (BT-791-Review) huwa preżenti u huwa dwar deċiżjoni li tapprova mill-inqas parzjalment it-talba ('36 – Avviż dwar ir-riżultat ta’ konkors ta’ disinn – Direttiva ġenerali, id-disinn')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Tip ta’ rimedju tar-rieżami' (BT-792-Review) huwa obbligatorju, meta: 'Tip ta’ irregolarità tar-rieżami' (BT-791-Review) huwa preżenti u huwa dwar deċiżjoni li tapprova mill-inqas parzjalment it-talba ('37 – Avviż dwar ir-riżultat ta’ konkors ta’ disinn – Direttiva settorjali, id-disinn')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Tip ta’ rimedju tar-rieżami' (BT-792-Review) huwa obbligatorju, meta: 'Tip ta’ irregolarità tar-rieżami' (BT-791-Review) huwa preżenti u huwa dwar deċiżjoni li tapprova mill-inqas parzjalment it-talba ('E5 – Avviż volontarju ta’ tlestija')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Reviżjoni hija nieqsa minn 'Tip ta’ rimedju tar-rieżami' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Valur tar-rimedju tar-rieżami' (BT-793-Review) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Valur tar-rimedju tar-rieżami' (BT-793-Review) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Valur tar-rimedju tar-rieżami' (BT-793-Review) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Tip ta’ korp tar-rieżami' (BT-799-ReviewBody) huwa obbligatorju, meta: 'Talba jew deċiżjoni għal rieżami' (BT-783-Review) huwa preżenti u huwa 'Deċiżjoni' u t-talba ma ġietx irtirata. ('35 – Avviż ta’ għoti ta’ konċessjoni – Direttiva dwar il-konċessjonijiet, reġim issimplifikat')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Tip ta’ korp tar-rieżami' (BT-799-ReviewBody) huwa obbligatorju, meta: 'Talba jew deċiżjoni għal rieżami' (BT-783-Review) huwa preżenti u huwa 'Deċiżjoni' u t-talba ma ġietx irtirata. ('36 – Avviż dwar ir-riżultat ta’ konkors ta’ disinn – Direttiva ġenerali, id-disinn')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Tip ta’ korp tar-rieżami' (BT-799-ReviewBody) huwa obbligatorju, meta: 'Talba jew deċiżjoni għal rieżami' (BT-783-Review) huwa preżenti u huwa 'Deċiżjoni' u t-talba ma ġietx irtirata. ('37 – Avviż dwar ir-riżultat ta’ konkors ta’ disinn – Direttiva settorjali, id-disinn')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Reviżjoni hija nieqsa minn 'Tip ta’ korp tar-rieżami' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Skadenza għat-tressiq tat-tweġibiet' (BT-800(d)-Lot) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Skadenza għat-tressiq tat-tweġibiet' (BT-800(d)-Lot) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Skadenza għat-tressiq tat-tweġibiet' (BT-800(d)-Lot) huwa obbligatorju ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statistika tas-sottomissjonijiet riċevuti: In-numru totali ta' 'Offerti ppreżentati b’mod elettroniku' (BT-760-LotResult = t-esubm) għandu jiġi speċifikat eżattament darba waħda</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statistika tas-sottomissjonijiet riċevuti: In-numru totali ta' 'Offerti ppreżentati b’mod elettroniku' (BT-760-LotResult = t-esubm) għandu jiġi speċifikat eżattament darba waħda</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statistika tas-sottomissjonijiet riċevuti: In-numru totali ta' 'Offerti ppreżentati b’mod elettroniku' (BT-760-LotResult = t-esubm) għandu jiġi speċifikat eżattament darba waħda</entry>
+<entry key="rule|text|BR-BT-13713-0180">Riżultat tal-lott huwa nieqes minn 'ID tal-lott tar-riżultati' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identifikatur tal-lott jew tal-grupp ta’ lottijiet' (BT-13714-Tender) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identifikatur tal-lott jew tal-grupp ta’ lottijiet' (BT-13714-Tender) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identifikatur tal-lott jew tal-grupp ta’ lottijiet' (BT-13714-Tender) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'It-tul tal-kuntratt hu estiż minħabba l-assi essenzjali meħtieġa għall-forniment tas-servizz' (OPP-020-Contract) mhux permess, meta: 'ID tekniku tal-kuntratt' (OPT-316-Contract) mhuwiex mimli ('T02 – Avviż ta' tagħrif dwar l-għoti ta' kuntratt ta' servizz pubbliku')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'It-tul tal-kuntratt hu estiż minħabba l-assi essenzjali meħtieġa għall-forniment tas-servizz' (OPP-020-Contract) għandu jkun fih valur mil-lista ta’ kodiċijiet (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'It-tul tal-kuntratt hu estiż minħabba l-assi essenzjali meħtieġa għall-forniment tas-servizz' (OPP-020-Contract) mhux permess ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Kuntratt huwa nieqes minn 'It-tul tal-kuntratt hu estiż minħabba l-assi essenzjali meħtieġa għall-forniment tas-servizz' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Lista ta’ assi użati għall-forniment tas-servizzi pubbliċi' (OPP-021-Contract) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Lista ta’ assi użati għall-forniment tas-servizzi pubbliċi' (OPP-021-Contract) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Lista ta’ assi użati għall-forniment tas-servizzi pubbliċi' (OPP-021-Contract) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organizzazzjoni li taġixxi bħala kuntrattur prinċipali ma tistax ikollha 'Punti ta’ kuntatt oħra'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organizzazzjoni li taġixxi bħala subkontrattur ma tistax ikollha 'Punti ta’ kuntatt oħra'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Kwalunkwe 'ID tekniku tal-organizzazzjoni (ORG-XXX)' (OPT-200-Organization-Company) eżistenti jrid ikollu tal-inqas rwol jew sottorwol wieħed</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organizzazzjoni tkun nieqsa mill-Identifikatur Tekniku tagħha (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'ID tekniku tal-punt ta' kuntatt (TPO-XXX)' (OPT-201-Organization-TouchPoint) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'ID tekniku tal-punt ta' kuntatt (TPO-XXX)' (OPT-201-Organization-TouchPoint) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'ID tekniku tal-punt ta' kuntatt (TPO-XXX)' (OPT-201-Organization-TouchPoint) mhux permess, meta: 'ID tekniku tal-organizzazzjoni (ORG-XXX)' (OPT-200-Organization-Company) mhuwiex mimli ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'ID tekniku tal-punt ta' kuntatt (TPO-XXX)' (OPT-201-Organization-TouchPoint) għandu jaqbel mal-mudell li ġej: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'ID tekniku tal-punt ta' kuntatt (TPO-XXX)' (OPT-201-Organization-TouchPoint) il-valur għandu jkun valur uniku</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Kwalunkwe 'Punti ta’ kuntatt oħra' eżistenti jrid ikun assoċjat ma’ tal-inqas wieħed mir-rwol jew is-sottorwoli li ġejjin: 'Organizzazzjoni li tipprovdi informazzjoni addizzjonali dwar il-proċedura tal-akkwist'; 'Organizzazzjoni li tipprovdi aċċess offline għad-dokumenti tal-akkwist'; 'Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni tal-impjiegi u għall-kundizzjonijiet tax-xogħol applikabbli fil-post fejn irid jitwettaq il-kuntratt'; 'Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni ambjentali applikabbli fil-post fejn irid jitwettaq il-kuntratt'; 'Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għat-taxxi applikabbli fil-post fejn irid jitwettaq il-kuntratt'; 'Organizzazzjoni tal-medjazzjoni'; 'Organizzazzjoni li tipprovdi iktar informazzjoni dwar proċeduri tar-rieżami'; 'Organizzazzjoni tar-rieżami', 'Organizzazzjoni li tipproċessa l-offerti', 'Organizzazzjoni li tipproċessa t-talbiet għall-parteċipazzjoni'; 'Korp tar-rieżami'; Talba għal reviżjoni</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Punt ta’ kuntatt huwa nieqes minn 'ID tekniku tal-punt ta'ID tekniku tal-punt ta' kuntatt (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'ID tekniku tal-parti li toffri (TPA-XXX)' (OPT-210-Tenderer) il-valur għandu jkun valur uniku</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Għal kull 'ID tekniku tal-parti li toffri (TPA-XXX)' (OPT-210), jekk hemm aktar minn offerent wieħed (OPT-300-Tenderer), allura jrid ikun hemm eżattament wieħed 'Mexxej ta' grupp' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Kwalunkwe 'ID tekniku tal-parti li toffri (TPA-XXX)' (OPT-210-Tenderer) eżistenti jrid ikun assoċjat ma’ tal-inqas 'Organizzazzjoni li twettaq din ir-rwol'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Offerent huwa nieqes minn 'ID tekniku tal-parti li toffri (TPA-XXX)' (OPT-210-Tenderer), jew offerta hija nieqsa minn 'Parti li toffri' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Isem tal-parti li toffri' (OPT-211-Tenderer) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Isem tal-parti li toffri' (OPT-211-Tenderer) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Isem tal-parti li toffri' (OPT-211-Tenderer) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Offerent' (OPT-300-Tenderer) mhux permess, meta: 'ID tekniku tal-offerta' (OPT-321-Tender) ma jeżistix ('E5 – Avviż volontarju ta’ tlestija')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Xerrej' (OPT-300-Procedure-Buyer) għandu jaqbel mal-mudell li ġej: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizzazzjoni li twettaq din ir-rwol' (OPT-300-Procedure-Buyer) għandu jkun differenti minn kull 'Organizzazzjoni li twettaq din ir-rwol' ieħor fl-avviż.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Offerent huwa nieqes minn 'Offerent' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizzazzjoni li l-baġit tagħha jintuża għall-pagament tal-kuntratt' (OPT-301-LotResult-Financing) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizzazzjoni li l-baġit tagħha jintuża għall-pagament tal-kuntratt' (OPT-301-LotResult-Financing) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizzazzjoni li l-baġit tagħha jintuża għall-pagament tal-kuntratt' (OPT-301-LotResult-Financing) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Part-ReviewOrg-Scheme) għandu jkun fih valur mil-lista ta’ kodiċijiet (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Part-TenderEval-Scheme) għandu jkun fih valur mil-lista ta’ kodiċijiet (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Part-TenderReceipt-Scheme) għandu jkun fih valur mil-lista ta’ kodiċijiet (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Is-sottokuntrattur tal-offerent huwa nieqes minn 'Organizzazzjoni jew punt ta'Kontrattur ewlieni lis-subappaltatur' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Offerent huwa nieqes minn 'Organizzazzjoni jew punt ta'Sottokuntrattur' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizzazzjoni li twettaq din ir-rwol' (OPT-302-Organization) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizzazzjoni li twettaq din ir-rwol' (OPT-302-Organization) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizzazzjoni li twettaq din ir-rwol' (OPT-302-Organization) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Kwalunkwe 'ID tekniku tal-kuntratt' (OPT-316-Contract) eżistenti jrid ikun assoċjat ma’ tal-inqas 'Riferiment għall-kuntratt' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Kwalunkwe 'ID tekniku tal-kuntratt' (OPT-316-Contract) eżistenti jrid ikun assoċjat ma’ tal-inqas 'Riferiment għall-kuntratt' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Kwalunkwe 'ID tekniku tal-kuntratt' (OPT-316-Contract) eżistenti jrid ikun assoċjat ma’ tal-inqas 'Riferiment għall-kuntratt' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Kuntratt huwa nieqes minn 'ID tekniku tal-kuntratt' (OPT-316-Contract), jew riżultat tal-lott huwa nieqes minn 'Riferiment għall-kuntratt' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'ID tekniku ta' offerta miġbura' (OPT-320-LotResult) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'ID tekniku ta' offerta miġbura' (OPT-320-LotResult) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'ID tekniku ta' offerta miġbura' (OPT-320-LotResult) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'ID tekniku ta' offerta miġbura' (OPT-320-LotResult) mhux permess, meta: M'hemmx LotResult, jew m'hemmx tender għall-lott kopert mill-LotResult u m'hemmx tender għal xi grupp ta' lottijiet li jkun fih il-lott tal-LotResult, jew m'hemmx tender u l-ebda lott ma hu speċifikat għall-LotResult ('E6 – Avviż volontarju ta’ modifika f’kuntratt')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Kull referenza għal offerta minn (OPT-320-LotResult) trid taqbel ma’ waħda mill-offerti definiti (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Għal riżultat speċifiku ta' lot, kull tender rreferenzjat għandu jkun jew għall-lot ta' dak ir-riżultat jew għal grupp ta' lots li fih dak il-lot.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Riżultat tal-lott huwa nieqes minn 'ID tekniku ta'ID tekniku ta' offerta miġbura' (OPT-320-LotResult), offerta hija nieqsa minn 'ID tekniku tal-offerta' (OPT-321-Tender), jew kuntratt huwa nieqes minn 'ID tal-offerta tal-kuntratt' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'ID tekniku tal-offerta' (OPT-321-Tender) mhux permess ('X01 – Grupp Ewropew b'Interess Ekonomiku')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'ID tekniku tal-offerta' (OPT-321-Tender) mhux permess ('X02 – Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'ID tekniku tal-offerta' (OPT-321-Tender) mhux permess ('E1 – Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq')</entry>

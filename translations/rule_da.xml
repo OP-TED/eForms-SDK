@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Produktets eller tjenesteydelsens oprindelsesland' (BT-191-Tender) er ikke tilladt (i 'E5 – Frivillig bekendtgørelse om færdiggørelse')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Produktets eller tjenesteydelsens oprindelsesland' (BT-191-Tender) skal indeholde en værdi fra kodelisten (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Produktets eller tjenesteydelsens oprindelsesland' (BT-191-Tender) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Et tilbud mangler 'Produktets eller tjenesteydelsens oprindelsesland' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Tilbuddet er et alternativt tilbud' (BT-193-Tender) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Tilbuddet er et alternativt tilbud' (BT-193-Tender) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Tilbuddet er et alternativt tilbud' (BT-193-Tender) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556-NoticeResult) skal svare til følgende mønster: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556-NoticeResult) skal være forbundet med en eksisterende 'Procedure delkontraktresultat' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556-NoticeResult) skal være forskellig fra ethvert andet 'Værdi af grupperammeaftale for delkontrakt med ID' i meddelelsen.</entry>
+<entry key="rule|text|BR-BT-00556-0102">En grupperammeaftaleværdi mangler 'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Der kræves sikkerhedsgodkendelse' (BT-578-Lot) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Der kræves sikkerhedsgodkendelse' (BT-578-Lot) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Der kræves sikkerhedsgodkendelse' (BT-578-Lot) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obligatorisk angivelse af underentreprise' (BT-651-Lot) er ikke tilladt, når: 'En forpligtelse, som tilbudsgiveren skal opfylde i forbindelse med underentreprise' (BT-66) er ikke udfyldt (i '9 – Forhåndsmeddelelse anvendt til at afkorte fristerne for modtagelse af tilbud – forsvarsdirektivet')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obligatorisk angivelse af underentreprise' (BT-651-Lot) er ikke tilladt, når: 'En forpligtelse, som tilbudsgiveren skal opfylde i forbindelse med underentreprise' (BT-66) er ikke udfyldt (i 'E3 – Frivillig udbudsbekendtgørelse')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obligatorisk angivelse af underentreprise' (BT-651-Lot) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
+<entry key="rule|text|BR-BT-00651-0055">En delkontrakt mangler 'Obligatorisk angivelse af underentreprise' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Revurderet værdi af rammeaftalen' (BT-660-LotResult) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Revurderet værdi af rammeaftalen' (BT-660-LotResult) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Revurderet værdi af rammeaftalen' (BT-660-LotResult) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Antal tilbudsansøgninger, der falder ind under denne IPI-foranstaltning' (BT-686-LotResult) skal svare til følgende mønster: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Antal tilbudsansøgninger, der falder ind under denne IPI-foranstaltning' (BT-686-LotResult) skal være mindre end eller lig med 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Antal tilbudsansøgninger, der falder ind under denne IPI-foranstaltning' (BT-686-LotResult) skal være større end eller lig med 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Et resultat for en delkontrakt mangler 'Antal tilbudsansøgninger, der falder ind under denne IPI-foranstaltning' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Undtagelse fra anvendelsen af IPI-foranstaltningen' (BT-687-LotResult) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Undtagelse fra anvendelsen af IPI-foranstaltningen' (BT-687-LotResult) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Undtagelse fra anvendelsen af IPI-foranstaltningen' (BT-687-LotResult) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Ejerens nationalitet' (BT-706-UBO) er ikke tilladt, når: 'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke udfyldt (i 'E4 – Frivillig bekendtgørelse om indgåede kontrakter')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Ejerens nationalitet' (BT-706-UBO) er ikke tilladt, når: 'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke udfyldt (i 'E5 – Frivillig bekendtgørelse om færdiggørelse')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Ejerens nationalitet' (BT-706-UBO) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
+<entry key="rule|text|BR-BT-00706-0069">En reel ejer mangler 'Ejerens nationalitet' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Begrundelse for at begrænse adgangen til visse udbudsdokumenter' (BT-707-Part) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Begrundelse for at begrænse adgangen til visse udbudsdokumenter' (BT-707-Part) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Begrundelse for at begrænse adgangen til visse udbudsdokumenter' (BT-707-Part) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Antal klagere' (BT-712(b)-LotResult) skal svare til følgende mønster: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Antal klagere' (BT-712(b)-LotResult) skal være mindre end eller lig med 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Antal klagere' (BT-712(b)-LotResult) skal være større end eller lig med 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Et resultat for en delkontrakt mangler 'Antal klagere' (BT-712(b)-LotResult) eller 'Antal klager' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)' (BT-717-Lot) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)' (BT-717-Lot) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)' (BT-717-Lot) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Antallet af ansøgere, der opfordres til anden fase' (BT-752-Lot-ThresholdNumber) er ikke tilladt (i 'E5 – Frivillig bekendtgørelse om færdiggørelse')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Antallet af ansøgere, der opfordres til anden fase' (BT-752-Lot-WeightNumber) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Antallet af ansøgere, der opfordres til anden fase' (BT-752-Lot-ThresholdNumber) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
+<entry key="rule|text|BR-BT-00752-0103">En parameter for udvælgelseskriteriet mangler 'Antallet af ansøgere, der opfordres til anden fase' (BT-752-Lot-ThresholdNumber) eller 'Antallet af ansøgere, der opfordres til anden fase' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Anvendelsen af tilgængelighedskriterier for personer med handicap i de tekniske specifikationer' (BT-754-Lot) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Anvendelsen af tilgængelighedskriterier for personer med handicap i de tekniske specifikationer' (BT-754-Lot) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Anvendelsen af tilgængelighedskriterier for personer med handicap i de tekniske specifikationer' (BT-754-Lot) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Antal modtagne tilbud og ansøgninger om deltagelse' (BT-759-LotResult) skal svare til følgende mønster: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Antal modtagne tilbud og ansøgninger om deltagelse' (BT-759-LotResult) skal være mindre end eller lig med 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Antal modtagne tilbud og ansøgninger om deltagelse' (BT-759-LotResult) skal være større end eller lig med 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Et resultat for en delkontrakt mangler 'Antal modtagne tilbud og ansøgninger om deltagelse' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Type modtagne indgivelser' (BT-760-LotResult) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Type modtagne indgivelser' (BT-760-LotResult) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Type modtagne indgivelser' (BT-760-LotResult) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Underentreprise' (BT-773-Tender) er ikke tilladt, når: 'Teknisk ID på tilbuddet' (OPT-321-Tender) er ikke udfyldt (i '29 – Bekendtgørelse om indgåede kontrakter – det generelle direktiv, standardordningen')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Underentreprise' (BT-773-Tender) er ikke tilladt, når: 'Teknisk ID på tilbuddet' (OPT-321-Tender) er ikke udfyldt (i '30 – Bekendtgørelse om indgåede kontrakter – sektordirektivet, standardordningen')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Underentreprise' (BT-773-Tender) er ikke tilladt, når: 'Teknisk ID på tilbuddet' (OPT-321-Tender) er ikke udfyldt (i '31 – Bekendtgørelse om indgåede kontrakter – forsvarsdirektivet, standardordningen')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Et tilbud mangler 'Underentreprise' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Tilgang til reduktion af miljøpåvirkninger' (BT-774-Lot) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Tilgang til reduktion af miljøpåvirkninger' (BT-774-Lot) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Tilgang til reduktion af miljøpåvirkninger' (BT-774-Lot) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Værdi af betalinger for gennemførsel af tilbuddet' (BT-779-Tender) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Værdi af betalinger for gennemførsel af tilbuddet' (BT-779-Tender) skal være positiv.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Værdi af betalinger for gennemførsel af tilbuddet' (BT-779-Tender) skal svare til følgende mønster: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Et tilbud mangler 'Værdi af betalinger for gennemførsel af tilbuddet' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender) er ikke tilladt, når: 'Værdi af betalinger for gennemførsel af tilbuddet' (BT-779-Tender) er ikke udfyldt (i 'E5 – Frivillig bekendtgørelse om færdiggørelse')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender-Language) skal indeholde en værdi fra kodelisten (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Et tilbud mangler 'Yderligere oplysninger om værdi af betalinger for gennemførsel af tilbuddet' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Varighed yderligere oplysninger' (BT-781-Lot) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Varighed yderligere oplysninger' (BT-781-Lot) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Varighed yderligere oplysninger' (BT-781-Lot) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Værdi af sanktioner for utilstrækkelig gennemførsel af tilbuddet' (BT-782-Tender) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Værdi af sanktioner for utilstrækkelig gennemførsel af tilbuddet' (BT-782-Tender) skal være positiv.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Værdi af sanktioner for utilstrækkelig gennemførsel af tilbuddet' (BT-782-Tender) skal svare til følgende mønster: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Et tilbud mangler 'Værdi af sanktioner for utilstrækkelig gennemførsel af tilbuddet' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Klage eller afgørelse' (BT-783-Review) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Klage eller afgørelse' (BT-783-Review) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Klage eller afgørelse' (BT-783-Review) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Type af retsmiddel i afgørelsen' (BT-792-Review) er obligatorisk, når: 'Emnet af uregelmæssighed der klages over eller afgørelsen omhandler' (BT-791-Review) er til stede, og det handler om en beslutning, der i det mindste delvis godkender anmodningen (i '36 – Bekendtgørelse om resultater af projektkonkurrence – det generelle direktiv, projektering')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Type af retsmiddel i afgørelsen' (BT-792-Review) er obligatorisk, når: 'Emnet af uregelmæssighed der klages over eller afgørelsen omhandler' (BT-791-Review) er til stede, og det handler om en beslutning, der i det mindste delvis godkender anmodningen (i '37 – Bekendtgørelse om resultater af projektkonkurrence – sektordirektivet, projektering')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Type af retsmiddel i afgørelsen' (BT-792-Review) er obligatorisk, når: 'Emnet af uregelmæssighed der klages over eller afgørelsen omhandler' (BT-791-Review) er til stede, og det handler om en beslutning, der i det mindste delvis godkender anmodningen (i 'E5 – Frivillig bekendtgørelse om færdiggørelse')</entry>
+<entry key="rule|text|BR-BT-00792-0102">En klage mangler 'Type af retsmiddel i afgørelsen' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Værdi af retsmiddel' (BT-793-Review) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Værdi af retsmiddel' (BT-793-Review) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Værdi af retsmiddel' (BT-793-Review) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Type af klageorgan' (BT-799-ReviewBody) er obligatorisk, når: 'Klage eller afgørelse' (BT-783-Review) er til stede og det er 'Afgørelse' og anmodningen er ikke trukket tilbage. (i '35 – Bekendtgørelse om tildelte koncessioner – koncessionsdirektivet, den lempelige ordning')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Type af klageorgan' (BT-799-ReviewBody) er obligatorisk, når: 'Klage eller afgørelse' (BT-783-Review) er til stede og det er 'Afgørelse' og anmodningen er ikke trukket tilbage. (i '36 – Bekendtgørelse om resultater af projektkonkurrence – det generelle direktiv, projektering')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Type af klageorgan' (BT-799-ReviewBody) er obligatorisk, når: 'Klage eller afgørelse' (BT-783-Review) er til stede og det er 'Afgørelse' og anmodningen er ikke trukket tilbage. (i '37 – Bekendtgørelse om resultater af projektkonkurrence – sektordirektivet, projektering')</entry>
+<entry key="rule|text|BR-BT-00799-0098">En klage mangler 'Type af klageorgan' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Frist for modtagelse af svar' (BT-800(d)-Lot) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Frist for modtagelse af svar' (BT-800(d)-Lot) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Frist for modtagelse af svar' (BT-800(d)-Lot) er obligatorisk (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Modtagne tilbudsstatistikker: Det samlede antal 'Tilbud, der er indgivet ad elektronisk vej' (BT-760-LotResult = t-esubm) skal angives nøjagtigt én gang</entry>
 <entry key="rule|text|BR-BT-13713-0178">Modtagne tilbudsstatistikker: Det samlede antal 'Tilbud, der er indgivet ad elektronisk vej' (BT-760-LotResult = t-esubm) skal angives nøjagtigt én gang</entry>
 <entry key="rule|text|BR-BT-13713-0179">Modtagne tilbudsstatistikker: Det samlede antal 'Tilbud, der er indgivet ad elektronisk vej' (BT-760-LotResult = t-esubm) skal angives nøjagtigt én gang</entry>
+<entry key="rule|text|BR-BT-13713-0180">Et resultat for en delkontrakt mangler 'Resultat delkontrakt-ID' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'ID for delkontrakt eller gruppe af delkontrakter' (BT-13714-Tender) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'ID for delkontrakt eller gruppe af delkontrakter' (BT-13714-Tender) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'ID for delkontrakt eller gruppe af delkontrakter' (BT-13714-Tender) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Kontraktens varighed forlænges på grund af væsentlige aktiver, der er nødvendige for leveringen af tjenesteydelsen' (OPP-020-Contract) er ikke tilladt, når: 'Teknisk ID på kontrakten' (OPT-316-Contract) er ikke udfyldt (i 'T02 – Bekendtgørelse om indgåelse af offentlig tjenesteydelseskontrakt')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Kontraktens varighed forlænges på grund af væsentlige aktiver, der er nødvendige for leveringen af tjenesteydelsen' (OPP-020-Contract) skal indeholde en værdi fra kodelisten (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Kontraktens varighed forlænges på grund af væsentlige aktiver, der er nødvendige for leveringen af tjenesteydelsen' (OPP-020-Contract) er ikke tilladt (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">En kontrakt mangler 'Kontraktens varighed forlænges på grund af væsentlige aktiver, der er nødvendige for leveringen af tjenesteydelsen' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Liste over aktiver, der anvendes til levering af offentlige tjenesteydelser' (OPP-021-Contract) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Liste over aktiver, der anvendes til levering af offentlige tjenesteydelser' (OPP-021-Contract) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Liste over aktiver, der anvendes til levering af offentlige tjenesteydelser' (OPP-021-Contract) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">En organisation, der fungerer som hovedentreprenør, kan ikke have 'Andre kontaktpunkter'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">En organisation, der fungerer som underentreprenør, kan ikke have 'Andre kontaktpunkter'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Enhver eksisterende 'Organisationens tekniske ID (ORG-XXX)' (OPT-200-Organization-Company) skal have mindst 1 rolle eller underrolle</entry>
+<entry key="rule|text|BR-OPT-00200-0104">En organisation mangler sin tekniske identifikator (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Afldelingens tekniske ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Afldelingens tekniske ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Afldelingens tekniske ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) er ikke tilladt, når: 'Organisationens tekniske ID (ORG-XXX)' (OPT-200-Organization-Company) er ikke udfyldt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Afldelingens tekniske ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) skal svare til følgende mønster: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">Værdien af 'Afldelingens tekniske ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) skal være en enhedsværdi</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Enhver eksisterende 'Andre kontaktpunkter' skal være forbundet med mindst 1 af følgende roller eller underroller: 'Organisation, der leverer supplerende oplysninger om udbudsproceduren'; 'Organisation, der sikrer adgang til udbudsdokumenterne offline'; 'Organisation, der leverer oplysninger om den generelle lovgivningsramme angående sikkerhed på arbejdspladsen og arbejdsvilkår på det sted, hvor kontrakten skal udføres'; 'Organisation, der leverer oplysninger om den generelle lovgivningsramme angående miljøbeskyttelse på det sted, hvor kontrakten skal udføres'; 'Organisation, der leverer oplysninger om den generelle lovgivningsramme angånde skatter på det sted, hvor kontrakten skal udføres'; 'Organisation med ansvar for mægling'; 'Organisation, der leverer yderligere oplysninger om klageprocedurerne'; 'Organisation med ansvar for klager'; 'Organisation, der behandler tilbud'; 'Organisation, der behandler ansøgninger om deltagelse'; 'Klageinstans'; Se anmoder</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Et kontaktpunkt mangler 'Afldelingens tekniske ID (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">Værdien for 'Tilbudsgivers tekniske ID (TPA-XXX)' (OPT-210-Tenderer) skal være en enhedsværdi</entry>
 <entry key="rule|text|BR-OPT-00210-0101">For hver 'Tilbudsgivers tekniske ID (TPA-XXX)' (OPT-210), hvis der er mere end 1 tilbudsgiver (OPT-300-Tenderer), så skal der være præcis 1 'Gruppeleder' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Enhver eksisterende 'Tilbudsgivers tekniske ID (TPA-XXX)' (OPT-210-Tenderer) skal være forbundet med mindst 1 'Organisationen, der udfylder denne rolle' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">En tilbudsgiver mangler 'Tilbudsgivers tekniske ID (TPA-XXX)' (OPT-210-Tenderer), eller et tilbud mangler 'Tilbudsgiver' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Navn på tilbudsgiver' (OPT-211-Tenderer) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Navn på tilbudsgiver' (OPT-211-Tenderer) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Navn på tilbudsgiver' (OPT-211-Tenderer) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Tilbudsgiver' (OPT-300-Tenderer) er ikke tilladt, når: 'Teknisk ID på tilbuddet' (OPT-321-Tender) eksisterer ikke (i 'E5 – Frivillig bekendtgørelse om færdiggørelse')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Køber' (OPT-300-Procedure-Buyer) skal svare til følgende mønster: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organisationen, der udfylder denne rolle' (OPT-300-Procedure-Buyer) skal være forskellig fra ethvert andet 'Organisationen, der udfylder denne rolle' i meddelelsen.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">En tilbudsgiver mangler 'Tilbudsgiver' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisation, hvis budget anvendes til at betale for kontrakten' (OPT-301-LotResult-Financing) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisation, hvis budget anvendes til at betale for kontrakten' (OPT-301-LotResult-Financing) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisation, hvis budget anvendes til at betale for kontrakten' (OPT-301-LotResult-Financing) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisation eller specifikt kontaktpunkt' (OPT-301-Part-ReviewOrg-Scheme) skal indeholde en værdi fra kodelisten (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisation eller specifikt kontaktpunkt' (OPT-301-Part-TenderEval-Scheme) skal indeholde en værdi fra kodelisten (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisation eller specifikt kontaktpunkt' (OPT-301-Part-TenderReceipt-Scheme) skal indeholde en værdi fra kodelisten (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">En underleverandør til en tilbudsgiver mangler 'Hovedentreprenør til underleverandør' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">En tilbudsgiver mangler 'Underleverandør' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisationen, der udfylder denne rolle' (OPT-302-Organization) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisationen, der udfylder denne rolle' (OPT-302-Organization) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisationen, der udfylder denne rolle' (OPT-302-Organization) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Enhver eksisterende 'Teknisk ID på kontrakten' (OPT-316-Contract) skal være forbundet med mindst 1 'Henvisning til kontrakten' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Enhver eksisterende 'Teknisk ID på kontrakten' (OPT-316-Contract) skal være forbundet med mindst 1 'Henvisning til kontrakten' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Enhver eksisterende 'Teknisk ID på kontrakten' (OPT-316-Contract) skal være forbundet med mindst 1 'Henvisning til kontrakten' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">En kontrakt mangler 'Teknisk ID på kontrakten' (OPT-316-Contract), eller et resultat for en delkontrakt mangler 'Henvisning til kontrakten' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Teknisk ID på et modtaget tilbud' (OPT-320-LotResult) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Teknisk ID på et modtaget tilbud' (OPT-320-LotResult) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Teknisk ID på et modtaget tilbud' (OPT-320-LotResult) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Teknisk ID på et modtaget tilbud' (OPT-320-LotResult) er ikke tilladt, når: Der er ingen LotResult, eller der er ingen udbud for partiet dækket af LotResult og ingen udbud for nogen gruppe af partier, der ville indeholde partiet for LotResult, eller der er ingen udbud og ingen parti er specificeret for LotResult (i 'E6 – Frivillig bekendtgørelse om kontraktændring')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Enhver henvisning til et udbud fra (OPT-320-LotResult) skal svare til en af de definerede udbud (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">For et givet resultat af et parti, skal hver henvist tilbud enten være for partiet af det resultat eller for en gruppe af partier, der indeholder det parti.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Et resultat for en delkontrakt mangler 'Teknisk ID på et modtaget tilbud' (OPT-320-LotResult), et tilbud mangler 'Teknisk ID på tilbuddet' (OPT-321-Tender), eller en kontrakt mangler 'Kontrakt udbuds-ID' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Teknisk ID på tilbuddet' (OPT-321-Tender) er ikke tilladt (i 'X01 – Europæisk økonomisk firmagruppe')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Teknisk ID på tilbuddet' (OPT-321-Tender) er ikke tilladt (i 'X02 – Europæisk selskab/europæisk andelsselskab')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Teknisk ID på tilbuddet' (OPT-321-Tender) er ikke tilladt (i 'E1 – Frivillig meddelelse om høring forud for markedsføring')</entry>

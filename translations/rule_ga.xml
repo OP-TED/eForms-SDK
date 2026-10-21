@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Tír thionscnaimh an táirge nó na seirbhíse' (BT-191-Tender) níl ceadaithe (i 'E5 – Dobrovolný fógra comhlánaithe')</entry>
 <entry key="rule|text|BR-BT-00191-0051">Ní mór luach ó liosta cóid (country) a bheith in 'Tír thionscnaimh an táirge nó na seirbhíse' (BT-191-Tender)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Tír thionscnaimh an táirge nó na seirbhíse' (BT-191-Tender) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Tá 'Tír thionscnaimh an táirge nó na seirbhíse' (BT-191-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Leagan malartach is ea an tairiscint' (BT-193-Tender) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Leagan malartach is ea an tairiscint' (BT-193-Tender) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Leagan malartach is ea an tairiscint' (BT-193-Tender) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">Ní mór 'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) a bheith i gcomhréir leis an bpatrún seo a leanas: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">Ní mór 'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) a bheith bainteach le 'Toradh bheart an nóis imeachta' (BT-137-LotsGroup) atá ann cheana</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) ní mór dó a bheith difriúil ó aon 'Aitheantóir birt chreat an ghrúpa' eile sa fhógra.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Tá 'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) ar iarraidh ó luach ghrúpa an chreatchomhaontaithe.</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Tá gá le himréiteach slándála' (BT-578-Lot) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Tá gá le himréiteach slándála' (BT-578-Lot) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Tá gá le himréiteach slándála' (BT-578-Lot) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Léiriú éigeantach ar fhochonraitheoireacht' (BT-651-Lot) níl ceadaithe, nuair: Níl 'Oibleagáid atá le comhlíonadh ag an tairgeoir maidir le fochonraitheoireacht' (BT-66) líonta isteach (i '9 – Fógra réamhfhaisnéise a úsáidtear chun na teorainneacha ama maidir le tairiscintí a fháil a ghiorrú — treoir maidir le cosaint')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Léiriú éigeantach ar fhochonraitheoireacht' (BT-651-Lot) níl ceadaithe, nuair: Níl 'Oibleagáid atá le comhlíonadh ag an tairgeoir maidir le fochonraitheoireacht' (BT-66) líonta isteach (i 'E3 – Dobrovolný fógra conartha')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Léiriú éigeantach ar fhochonraitheoireacht' (BT-651-Lot) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Tá 'Léiriú éigeantach ar fhochonraitheoireacht' (BT-651-Lot) ar iarraidh ó bheart.</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">Ní mór 'Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) a bheith i gcomhréir leis an bpatrún seo a leanas: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Ní mór Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) a bheith níos lú ná 9999 nó cothrom leis</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Ní mór Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) a bheith níos mó ná 0 nó cothrom leis</entry>
+<entry key="rule|text|BR-BT-00686-0063">Tá 'Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Eisceacht ó chur i bhfeidhm an bheart IPI' (BT-687-LotResult) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Eisceacht ó chur i bhfeidhm an bheart IPI' (BT-687-LotResult) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Eisceacht ó chur i bhfeidhm an bheart IPI' (BT-687-LotResult) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Náisiúntacht an úinéara' (BT-706-UBO) níl ceadaithe, nuair: Níl 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) líonta isteach (i 'E4 – Dobrovolný fógra faoi dhámhachtain')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Náisiúntacht an úinéara' (BT-706-UBO) níl ceadaithe, nuair: Níl 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) líonta isteach (i 'E5 – Dobrovolný fógra comhlánaithe')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Náisiúntacht an úinéara' (BT-706-UBO) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Tá 'Náisiúntacht an úinéara' (BT-706-UBO) ar iarraidh ó úinéir tairbhiúil.</entry>
 <entry key="rule|text|BR-BT-00707-0001">'An bonn cirt leis an rochtain ar dhoiciméid soláthair áirithe a shrianadh' (BT-707-Part) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'An bonn cirt leis an rochtain ar dhoiciméid soláthair áirithe a shrianadh' (BT-707-Part) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'An bonn cirt leis an rochtain ar dhoiciméid soláthair áirithe a shrianadh' (BT-707-Part) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">Ní mór 'Líon na ngearánach' (BT-712(b)-LotResult) a bheith i gcomhréir leis an bpatrún seo a leanas: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Ní mór Líon na ngearánach' (BT-712(b)-LotResult) a bheith níos lú ná 9999 nó cothrom leis</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Ní mór Líon na ngearánach' (BT-712(b)-LotResult) a bheith níos mó ná 0 nó cothrom leis</entry>
+<entry key="rule|text|BR-BT-00712-0154">Tá 'Líon na ngearánach' (BT-712(b)-LotResult) nó 'Líon na n-iarratas ar athbhreithniú ceannaitheora' (BT-635-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717-Lot) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717-Lot) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717-Lot) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-ThresholdNumber) níl ceadaithe (i 'E5 – Dobrovolný fógra comhlánaithe')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-WeightNumber) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-ThresholdNumber) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Tá 'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-ThresholdNumber) nó 'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-WeightNumber) ar iarraidh ó pharaiméadar an chritéir roghnúcháin.</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Úsáid na gcritéar inrochtaineachta le haghaidh daoine atá faoi mhíchumas sna sonraíochtaí teicniúla' (BT-754-Lot) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Úsáid na gcritéar inrochtaineachta le haghaidh daoine atá faoi mhíchumas sna sonraíochtaí teicniúla' (BT-754-Lot) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Úsáid na gcritéar inrochtaineachta le haghaidh daoine atá faoi mhíchumas sna sonraíochtaí teicniúla' (BT-754-Lot) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">Ní mór 'Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) a bheith i gcomhréir leis an bpatrún seo a leanas: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Ní mór Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) a bheith níos lú ná 9999 nó cothrom leis</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Ní mór Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) a bheith níos mó ná 0 nó cothrom leis</entry>
+<entry key="rule|text|BR-BT-00759-0103">Tá 'Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Cineál na n-aighneachtaí a fuarthas' (BT-760-LotResult) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Cineál na n-aighneachtaí a fuarthas' (BT-760-LotResult) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Cineál na n-aighneachtaí a fuarthas' (BT-760-LotResult) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Fochonraitheoireacht' (BT-773-Tender) níl ceadaithe, nuair: Níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach (i '29 – Fógra maidir le dámhachtain conartha — treoir ghinearálta, an gnáthchóras')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Fochonraitheoireacht' (BT-773-Tender) níl ceadaithe, nuair: Níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach (i '30 – Fógra maidir le dámhachtain conartha — treoir earnála, an gnáthchóras')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Fochonraitheoireacht' (BT-773-Tender) níl ceadaithe, nuair: Níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach (i '31 – Fógra maidir le dámhachtain conartha — treoir maidir le cosaint, an gnáthchóras')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Tá 'Fochonraitheoireacht' (BT-773-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|BR-BT-00774-0001">'An cur chuige maidir leis an tionchar ar an gcomhshaol a laghdú' (BT-774-Lot) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'An cur chuige maidir leis an tionchar ar an gcomhshaol a laghdú' (BT-774-Lot) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'An cur chuige maidir leis an tionchar ar an gcomhshaol a laghdú' (BT-774-Lot) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Luach íocaíochta tairisceana' (BT-779-Tender) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Luach íocaíochta tairisceana' (BT-779-Tender) caithfidh sé a bheith dearfach.</entry>
 <entry key="rule|text|BR-BT-00779-0055">Ní mór 'Luach íocaíochta tairisceana' (BT-779-Tender) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Tá 'Luach íocaíochta tairisceana' (BT-779-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) níl ceadaithe, nuair: Níl 'Luach íocaíochta tairisceana' (BT-779-Tender) líonta isteach (i 'E5 – Dobrovolný fógra comhlánaithe')</entry>
 <entry key="rule|text|BR-BT-00780-0055">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender-Language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Tá 'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Eolas breise faoin bhfad ama' (BT-781-Lot) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Eolas breise faoin bhfad ama' (BT-781-Lot) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Eolas breise faoin bhfad ama' (BT-781-Lot) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Pionóis tairisceana' (BT-782-Tender) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Pionóis tairisceana' (BT-782-Tender) caithfidh sé a bheith dearfach.</entry>
 <entry key="rule|text|BR-BT-00782-0055">Ní mór 'Pionóis tairisceana' (BT-782-Tender) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Tá 'Pionóis tairisceana' (BT-782-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Cineál leighis an athbhreithnithe' (BT-792-Review) is éigeantach, nuair: 'Cineál neamhrialtachta an athbhreithnithe' (BT-791-Review) tá ann agus baineann sé le cinneadh a ghlacann go páirteach leis an iarratas (i '36 – Fógra maidir le toradh an chomórtais dearaidh — treoir ghinearálta, dearadh')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Cineál leighis an athbhreithnithe' (BT-792-Review) is éigeantach, nuair: 'Cineál neamhrialtachta an athbhreithnithe' (BT-791-Review) tá ann agus baineann sé le cinneadh a ghlacann go páirteach leis an iarratas (i '37 – Fógra maidir le toradh an chomórtais dearaidh — treoir earnála, dearadh')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Cineál leighis an athbhreithnithe' (BT-792-Review) is éigeantach, nuair: 'Cineál neamhrialtachta an athbhreithnithe' (BT-791-Review) tá ann agus baineann sé le cinneadh a ghlacann go páirteach leis an iarratas (i 'E5 – Dobrovolný fógra comhlánaithe')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Tá 'Cineál leighis an athbhreithnithe' (BT-792-Review) ar iarraidh ó athbhreithniú.</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Luach leighis an athbhreithnithe' (BT-793-Review) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Luach leighis an athbhreithnithe' (BT-793-Review) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Luach leighis an athbhreithnithe' (BT-793-Review) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) is éigeantach, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) tá i láthair agus tá sé 'Cinneadh' agus níor tarraingíodh an t-iarratas siar. (i '35 – Fógra maidir le dámhachtain lamháltais — an treoir maidir le lamháltais, an córas éadrom')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) is éigeantach, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) tá i láthair agus tá sé 'Cinneadh' agus níor tarraingíodh an t-iarratas siar. (i '36 – Fógra maidir le toradh an chomórtais dearaidh — treoir ghinearálta, dearadh')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) is éigeantach, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) tá i láthair agus tá sé 'Cinneadh' agus níor tarraingíodh an t-iarratas siar. (i '37 – Fógra maidir le toradh an chomórtais dearaidh — treoir earnála, dearadh')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Tá 'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) ar iarraidh ó athbhreithniú.</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Sprioc-am le freagraí a fháil' (BT-800(d)-Lot) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Sprioc-am le freagraí a fháil' (BT-800(d)-Lot) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Sprioc-am le freagraí a fháil' (BT-800(d)-Lot) is éigeantach (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Staitisticí na n-iarratas faighte: Caithfear líon iomlán na 'Tairiscintí a cuireadh isteach go leictreonach' (BT-760-LotResult = t-esubm) a shonrú uair amháin go díreach</entry>
 <entry key="rule|text|BR-BT-13713-0178">Staitisticí na n-iarratas faighte: Caithfear líon iomlán na 'Tairiscintí a cuireadh isteach go leictreonach' (BT-760-LotResult = t-esubm) a shonrú uair amháin go díreach</entry>
 <entry key="rule|text|BR-BT-13713-0179">Staitisticí na n-iarratas faighte: Caithfear líon iomlán na 'Tairiscintí a cuireadh isteach go leictreonach' (BT-760-LotResult = t-esubm) a shonrú uair amháin go díreach</entry>
+<entry key="rule|text|BR-BT-13713-0180">Tá 'Aitheantóir birt na dtorthaí' (BT-13713-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Aitheantóir luchtóige nó grúpa luchtóg' (BT-13714-Tender) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Aitheantóir luchtóige nó grúpa luchtóg' (BT-13714-Tender) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Aitheantóir luchtóige nó grúpa luchtóg' (BT-13714-Tender) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Cuirtear síneadh le ré an chonartha mar gheall ar na sócmhainní riachtanacha is gá chun an tseirbhís a sholáthar' (OPP-020-Contract) níl ceadaithe, nuair: Níl 'ID teicniúil an chonartha' (OPT-316-Contract) líonta isteach (i 'T02 – Fógra faisnéise maidir le conradh seirbhíse poiblí a dhámhachtain')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">Ní mór luach ó liosta cóid (indicator) a bheith in 'Cuirtear síneadh le ré an chonartha mar gheall ar na sócmhainní riachtanacha is gá chun an tseirbhís a sholáthar' (OPP-020-Contract)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Cuirtear síneadh le ré an chonartha mar gheall ar na sócmhainní riachtanacha is gá chun an tseirbhís a sholáthar' (OPP-020-Contract) níl ceadaithe (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Tá 'Cuirtear síneadh le ré an chonartha mar gheall ar na sócmhainní riachtanacha is gá chun an tseirbhís a sholáthar' (OPP-020-Contract) ar iarraidh ó chonradh.</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Liosta de na sócmhainní a úsáidtear chun na seirbhísí poiblí a sholáthar' (OPP-021-Contract) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Liosta de na sócmhainní a úsáidtear chun na seirbhísí poiblí a sholáthar' (OPP-021-Contract) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Liosta de na sócmhainní a úsáidtear chun na seirbhísí poiblí a sholáthar' (OPP-021-Contract) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Ní féidir le heagraíocht atá ag gníomhú mar phríomhchonraitheoir 'Pointí teagmhála eile' a bheith aici</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Ní féidir le heagraíocht atá ag gníomhú mar fhoirgníochtóir 'Pointí teagmhála eile' a bheith aici</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Ní mór ról amháin nó fo-ról amháin a bheith ag aon 'ID teicniúil an eagraíochta (ORG-XXX)' (OPT-200-Organization-Company) atá ann cheana</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Tá a hAitheantóir Teicniúil (OPT-200-Organization-Company) ar iarraidh ó eagraíocht</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) níl ceadaithe, nuair: Níl 'ID teicniúil an eagraíochta (ORG-XXX)' (OPT-200-Organization-Company) líonta isteach (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">Ní mór 'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) a bheith i gcomhréir leis an bpatrún seo a leanas: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">Ní mór luach 'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) a bheith in a luach uathúil</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Ní mór aon 'Pointí teagmhála eile' atá ann cheana a bheith bainteach le ceann amháin de na róil nó fo-róil a leanas ar a laghad: 'Eagraíocht a sholáthraíonn faisnéis bhreise faoin nós imeachta soláthair'; 'Eagraíocht a sholáthraíonn rochtain as líne ar na doiciméid soláthair'; 'Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta don chosaint fostaíochta agus do dhálaí oibre is infheidhme san áit ina bhfuil an conradh le cur i gcrích'; 'Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do chosaint an chomhshaoil is infheidhme san áit ina bhfuil an conradh le cur i gcrích'; 'Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do na cánacha is infheidhme san áit ina bhfuil an conradh le cur i gcrích'; 'Eagraíocht idirghabhála'; 'Eagraíocht a sholáthraíonn tuilleadh faisnéise faoi na nósanna imeachta athbhreithnithe'; 'Eagraíocht athbhreithniúcháin'; 'Eagraíocht a phróiseálann tairiscintí'; 'Eagraíocht a phróiseálann iarratais ar rannpháirtíocht'; 'Comhlacht athbhreithnithe'; Iarrthóir an athbhreithnithe</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Tá 'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) ar iarraidh ó phointe teagmhála.</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">Ní mór luach 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer) a bheith in a luach uathúil</entry>
 <entry key="rule|text|BR-OPT-00210-0101">I gcás gach 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210), má tá níos mó ná tairgeoir amháin ann (OPT-300-Tenderer), ní mór díreach aon 'Ceannaire grúpa' (OPT-170) amháin a bheith ann</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Ní mór aon 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer) a bheith bainteach le 'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization) amháin ar a laghad</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Tá 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer) ar iarraidh ó thairgeoir nó tá 'Páirtí tairisceana' (OPT-310-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Ainm an pháirtí tairisceana' (OPT-211-Tenderer) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Ainm an pháirtí tairisceana' (OPT-211-Tenderer) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Ainm an pháirtí tairisceana' (OPT-211-Tenderer) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Tairgeoir' (OPT-300-Tenderer) níl ceadaithe, nuair: Ní ann do 'ID teicniúil an tairiscint' (OPT-321-Tender) (i 'E5 – Dobrovolný fógra comhlánaithe')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">Ní mór 'Ceannaitheoir' (OPT-300-Procedure-Buyer) a bheith i gcomhréir leis an bpatrún seo a leanas: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Eagraíocht atá ag líonadh an róil seo' (OPT-300-Procedure-Buyer) ní mór dó a bheith difriúil ó aon 'Eagraíocht atá ag líonadh an róil seo' eile sa fhógra.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Tá 'Tairgeoir' (OPT-300-Tenderer) ar iarraidh ó thairgeoir.</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Eagraíocht a n-úsáidtear a buiséad chun íoc as an gconradh' (OPT-301-LotResult-Financing) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Eagraíocht a n-úsáidtear a buiséad chun íoc as an gconradh' (OPT-301-LotResult-Financing) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Eagraíocht a n-úsáidtear a buiséad chun íoc as an gconradh' (OPT-301-LotResult-Financing) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-ReviewOrg-Scheme)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-TenderEval-Scheme)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-TenderReceipt-Scheme)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Tá 'Príomhchonraitheoir chuig fochonraitheoir' (OPT-301-Tenderer-MainCont) ar iarraidh ó fhochonraitheoir tairgeora.</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Tá 'Fochonraitheoir' (OPT-301-Tenderer-SubCont) ar iarraidh ó thairgeoir.</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Ní mór aon 'ID teicniúil an chonartha' (OPT-316-Contract) a bheith bainteach le 'Tagairt don chonradh' (OPT-315-LotResult) amháin ar a laghad</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Ní mór aon 'ID teicniúil an chonartha' (OPT-316-Contract) a bheith bainteach le 'Tagairt don chonradh' (OPT-315-LotResult) amháin ar a laghad</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Ní mór aon 'ID teicniúil an chonartha' (OPT-316-Contract) a bheith bainteach le 'Tagairt don chonradh' (OPT-315-LotResult) amháin ar a laghad</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Tá 'ID teicniúil an chonartha' (OPT-316-Contract) ar iarraidh ó chonradh nó tá 'Tagairt don chonradh' (OPT-315-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'ID teicniúil tairiscint faighte' (OPT-320-LotResult) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'ID teicniúil tairiscint faighte' (OPT-320-LotResult) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'ID teicniúil tairiscint faighte' (OPT-320-LotResult) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'ID teicniúil tairiscint faighte' (OPT-320-LotResult) níl ceadaithe, nuair: Níl LotResult ann, nó níl tairiscint ann don bheart a chumhdaítear leis an LotResult agus níl tairiscint ann do ghrúpa beart ar bith a mbeadh bheart an LotResult ann, nó níl aon tairiscint ann agus níl aon bheart sonraithe don LotResult (i 'E6 – Dobrovolný fógra faoi mhodhnú conartha')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Ní mór gach tagairt do thairiscint ó (OPT-320-LotResult) a bheith ag teacht le ceann de na tairiscintí sainaitheanta (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Do ghrúpa tairiscintí a thugtar tagairt dóibh, caithfidh gach tairiscint a bheith dírithe ar an lot sin nó ar ghrúpa loiteanna a bhfuil an lot sin iontu.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Tá 'ID teicniúil tairiscint faighte' (OPT-320-LotResult) ar iarraidh ó thoradh birt, tá 'ID teicniúil an tairiscint' (OPT-321-Tender) ar iarraidh ó thairiscint nó tá 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) ar iarraidh ó chonradh.</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'ID teicniúil an tairiscint' (OPT-321-Tender) níl ceadaithe (i 'X01 – Grúpáil Eorpach um Leas Eacnamaíoch')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'ID teicniúil an tairiscint' (OPT-321-Tender) níl ceadaithe (i 'X02 – Cuideachta Eorpach / Comharchumann Eorpach')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'ID teicniúil an tairiscint' (OPT-321-Tender) níl ceadaithe (i 'E1 – Dobrovolný fógra comhairliúcháin réamh-mhargaidh')</entry>

@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Produkta vai pakalpojuma izcelsmes valsts' (BT-191-Tender) nav atļauts ('E5 – Brīvprātīgs paziņojums par pabeigšanu')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Produkta vai pakalpojuma izcelsmes valsts' (BT-191-Tender) jānorāda vērtība no kodu saraksta (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Produkta vai pakalpojuma izcelsmes valsts' (BT-191-Tender) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Piedāvājumā trūkst 'Produkta vai pakalpojuma izcelsmes valsts' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Piedāvājums ir variants' (BT-193-Tender) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Piedāvājums ir variants' (BT-193-Tender) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Piedāvājums ir variants' (BT-193-Tender) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Pamatnolīguma grupas vērtība – daļas ID' (BT-556-NoticeResult) jāatbilst šādam modelim: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Pamatnolīguma grupas vērtība – daļas ID' (BT-556-NoticeResult) jābūt saistītai ar esošo 'Procedūras daļas rezultāts' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Pamatnolīguma grupas vērtība – daļas ID' (BT-556-NoticeResult) ir jāatšķiras no jebkura cita 'Pamatnolīguma grupas vērtība – daļas ID' paziņojumā.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Pamatnolīguma grupas vērtībā trūkst 'Pamatnolīguma grupas vērtība – daļas ID' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Ir vajadzīga drošības pielaide' (BT-578-Lot) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Ir vajadzīga drošības pielaide' (BT-578-Lot) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Ir vajadzīga drošības pielaide' (BT-578-Lot) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obligāti jānorāda, vai tiks piesaistīti apakšuzņēmēji' (BT-651-Lot) nav atļauts, kad: 'Pienākums, kas pretendentam jāizpilda attiecībā uz apakšuzņēmuma līgumiem' (BT-66) nav aizpildīta ('9 – Iepriekšējs informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņu – Aizsardzības iepirkuma direktīva')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obligāti jānorāda, vai tiks piesaistīti apakšuzņēmēji' (BT-651-Lot) nav atļauts, kad: 'Pienākums, kas pretendentam jāizpilda attiecībā uz apakšuzņēmuma līgumiem' (BT-66) nav aizpildīta ('E3 – Brīvprātīgs paziņojums par līgumu')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obligāti jānorāda, vai tiks piesaistīti apakšuzņēmēji' (BT-651-Lot) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Daļā trūkst 'Obligāti jānorāda, vai tiks piesaistīti apakšuzņēmēji' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Piedāvājumu skaits, kas ietilpst šajā IPI pasākumā' (BT-686-LotResult) jāatbilst šādam modelim: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Piedāvājumu skaits, kas ietilpst šajā IPI pasākumā' (BT-686-LotResult) jābūt mazākam vai vienādam ar 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Piedāvājumu skaits, kas ietilpst šajā IPI pasākumā' (BT-686-LotResult) jābūt lielākam vai vienādam ar 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Daļas rezultātā trūkst 'Piedāvājumu skaits, kas ietilpst šajā IPI pasākumā' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Izņēmums no IPI pasākuma piemērošanas' (BT-687-LotResult) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Izņēmums no IPI pasākuma piemērošanas' (BT-687-LotResult) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Izņēmums no IPI pasākuma piemērošanas' (BT-687-LotResult) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Īpašnieka valstspiederība' (BT-706-UBO) nav atļauts, kad: 'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) nav aizpildīta ('E4 – Brīvprātīgs paziņojums par piešķiršanu')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Īpašnieka valstspiederība' (BT-706-UBO) nav atļauts, kad: 'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) nav aizpildīta ('E5 – Brīvprātīgs paziņojums par pabeigšanu')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Īpašnieka valstspiederība' (BT-706-UBO) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Patiesajam labuma guvējam trūkst 'Īpašnieka valstspiederība' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Pamatojums, kāpēc piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota' (BT-707-Part) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Pamatojums, kāpēc piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota' (BT-707-Part) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Pamatojums, kāpēc piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota' (BT-707-Part) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Sūdzību skaits' (BT-712(b)-LotResult) jāatbilst šādam modelim: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Sūdzību skaits' (BT-712(b)-LotResult) jābūt mazākam vai vienādam ar 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Sūdzību skaits' (BT-712(b)-LotResult) jābūt lielākam vai vienādam ar 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Daļas rezultātā trūkst 'Sūdzību skaits' (BT-712(b)-LotResult) vai 'Pārskatīšanas pieprasījumu skaits' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Iepirkums ietilpst Eiropas Parlamenta un Padomes Direktīvas 2009/33/EK (“Tīro transportlīdzekļu direktīvas” – TTD) darbības jomā' (BT-717-Lot) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Iepirkums ietilpst Eiropas Parlamenta un Padomes Direktīvas 2009/33/EK (“Tīro transportlīdzekļu direktīvas” – TTD) darbības jomā' (BT-717-Lot) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Iepirkums ietilpst Eiropas Parlamenta un Padomes Direktīvas 2009/33/EK (“Tīro transportlīdzekļu direktīvas” – TTD) darbības jomā' (BT-717-Lot) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot-ThresholdNumber) nav atļauts ('E5 – Brīvprātīgs paziņojums par pabeigšanu')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot-WeightNumber) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot-ThresholdNumber) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Atlases kritērija parametrā trūkst 'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot-ThresholdNumber) vai 'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Piekļūstamības kritēriju izmantošana tehniskajās specifikācijās, lai gādātu par personām ar invaliditāti' (BT-754-Lot) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Piekļūstamības kritēriju izmantošana tehniskajās specifikācijās, lai gādātu par personām ar invaliditāti' (BT-754-Lot) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Piekļūstamības kritēriju izmantošana tehniskajās specifikācijās, lai gādātu par personām ar invaliditāti' (BT-754-Lot) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Saņemto piedāvājumu vai dalības pieprasījumu skaits' (BT-759-LotResult) jāatbilst šādam modelim: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Saņemto piedāvājumu vai dalības pieprasījumu skaits' (BT-759-LotResult) jābūt mazākam vai vienādam ar 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Saņemto piedāvājumu vai dalības pieprasījumu skaits' (BT-759-LotResult) jābūt lielākam vai vienādam ar 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Daļas rezultātā trūkst 'Saņemto piedāvājumu vai dalības pieprasījumu skaits' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Saņemto piedāvājumu un pieteikumu veids' (BT-760-LotResult) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Saņemto piedāvājumu un pieteikumu veids' (BT-760-LotResult) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Saņemto piedāvājumu un pieteikumu veids' (BT-760-LotResult) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav atļauts, kad: 'Piedāvājuma tehniskais ID' (OPT-321-Tender) nav aizpildīta ('29 – Paziņojums par līguma slēgšanas tiesību piešķiršanu – Vispārīgā iepirkuma direktīva, standarta režīms')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav atļauts, kad: 'Piedāvājuma tehniskais ID' (OPT-321-Tender) nav aizpildīta ('30 – Paziņojums par līguma slēgšanas tiesību piešķiršanu – Komunālo pakalpojumu direktīva, standarta režīms')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav atļauts, kad: 'Piedāvājuma tehniskais ID' (OPT-321-Tender) nav aizpildīta ('31 – Paziņojums par līguma slēgšanas tiesību piešķiršanu – Aizsardzības iepirkuma direktīva, standarta režīms')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Piedāvājumā trūkst 'Apakšuzņēmēju piesaiste' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Pieeja ietekmes uz vidi mazināšanai' (BT-774-Lot) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Pieeja ietekmes uz vidi mazināšanai' (BT-774-Lot) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Pieeja ietekmes uz vidi mazināšanai' (BT-774-Lot) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Piedāvājuma maksājumu vērtība' (BT-779-Tender) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Piedāvājuma maksājumu vērtība' (BT-779-Tender) jābūt pozitīvam.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Piedāvājuma maksājumu vērtība' (BT-779-Tender) jāatbilst šādam modelim: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Piedāvājumā trūkst 'Piedāvājuma maksājumu vērtība' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender) nav atļauts, kad: 'Piedāvājuma maksājumu vērtība' (BT-779-Tender) nav aizpildīta ('E5 – Brīvprātīgs paziņojums par pabeigšanu')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender-Language) jānorāda vērtība no kodu saraksta (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Piedāvājumā trūkst 'Piedāvājuma maksājumu vērtība – papildu informācija' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Darbības termiņš – papildu informācija' (BT-781-Lot) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Darbības termiņš – papildu informācija' (BT-781-Lot) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Darbības termiņš – papildu informācija' (BT-781-Lot) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Piedāvājuma līgumsods' (BT-782-Tender) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Piedāvājuma līgumsods' (BT-782-Tender) jābūt pozitīvam.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Piedāvājuma līgumsods' (BT-782-Tender) jāatbilst šādam modelim: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Piedāvājumā trūkst 'Piedāvājuma līgumsods' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review) ir obligāts, kad: 'Pārskatīšana – pārkāpumu raksturs' (BT-791-Review) ir klāt un tas attiecas uz lēmumu, kas vismaz daļēji apstiprina pieprasījumu ('36 – Paziņojums par metu konkursa rezultātiem – Vispārīgā iepirkuma direktīva, metu konkursa regulējums')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review) ir obligāts, kad: 'Pārskatīšana – pārkāpumu raksturs' (BT-791-Review) ir klāt un tas attiecas uz lēmumu, kas vismaz daļēji apstiprina pieprasījumu ('37 – Paziņojums par metu konkursa rezultātiem – Komunālo pakalpojumu direktīva, metu konkursa regulējums')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review) ir obligāts, kad: 'Pārskatīšana – pārkāpumu raksturs' (BT-791-Review) ir klāt un tas attiecas uz lēmumu, kas vismaz daļēji apstiprina pieprasījumu ('E5 – Brīvprātīgs paziņojums par pabeigšanu')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Pārskatīšanā trūkst 'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Pārskatīšanas tiesiskās aizsardzības līdzekļa vērtība' (BT-793-Review) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Pārskatīšanas tiesiskās aizsardzības līdzekļa vērtība' (BT-793-Review) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Pārskatīšanas tiesiskās aizsardzības līdzekļa vērtība' (BT-793-Review) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Pārskatīšanas struktūras veids' (BT-799-ReviewBody) ir obligāts, kad: 'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) ir klāt un tas ir 'Lēmums' un pieprasījums nav atsaukts. ('35 – Paziņojums par koncesijas piešķiršanu – Koncesiju direktīva, atvieglotais režīms')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Pārskatīšanas struktūras veids' (BT-799-ReviewBody) ir obligāts, kad: 'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) ir klāt un tas ir 'Lēmums' un pieprasījums nav atsaukts. ('36 – Paziņojums par metu konkursa rezultātiem – Vispārīgā iepirkuma direktīva, metu konkursa regulējums')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Pārskatīšanas struktūras veids' (BT-799-ReviewBody) ir obligāts, kad: 'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) ir klāt un tas ir 'Lēmums' un pieprasījums nav atsaukts. ('37 – Paziņojums par metu konkursa rezultātiem – Komunālo pakalpojumu direktīva, metu konkursa regulējums')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Pārskatīšanā trūkst 'Pārskatīšanas struktūras veids' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Termiņš atbilžu saņemšanai' (BT-800(d)-Lot) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Termiņš atbilžu saņemšanai' (BT-800(d)-Lot) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Termiņš atbilžu saņemšanai' (BT-800(d)-Lot) ir obligāts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Saņemto piedāvājumu statistika: 'Elektroniski iesniegti piedāvājumi' (BT-760-LotResult = t-esubm) ir jānorāda precīzi vienu reizi</entry>
 <entry key="rule|text|BR-BT-13713-0178">Saņemto piedāvājumu statistika: 'Elektroniski iesniegti piedāvājumi' (BT-760-LotResult = t-esubm) ir jānorāda precīzi vienu reizi</entry>
 <entry key="rule|text|BR-BT-13713-0179">Saņemto piedāvājumu statistika: 'Elektroniski iesniegti piedāvājumi' (BT-760-LotResult = t-esubm) ir jānorāda precīzi vienu reizi</entry>
+<entry key="rule|text|BR-BT-13713-0180">Daļas rezultātā trūkst 'Rezultāti – daļas ID' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Daļas vai daļu grupas identifikators' (BT-13714-Tender) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Daļas vai daļu grupas identifikators' (BT-13714-Tender) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Daļas vai daļu grupas identifikators' (BT-13714-Tender) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Līguma darbības termiņš ir pagarināts, jo pakalpojuma sniegšanai ir nepieciešami būtiski aktīvi' (OPP-020-Contract) nav atļauts, kad: 'Līguma tehniskais ID' (OPT-316-Contract) nav aizpildīta ('T02 – Informatīvs paziņojums par pakalpojumu valsts līguma piešķiršanu')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Līguma darbības termiņš ir pagarināts, jo pakalpojuma sniegšanai ir nepieciešami būtiski aktīvi' (OPP-020-Contract) jānorāda vērtība no kodu saraksta (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Līguma darbības termiņš ir pagarināts, jo pakalpojuma sniegšanai ir nepieciešami būtiski aktīvi' (OPP-020-Contract) nav atļauts ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Līgumā trūkst 'Līguma darbības termiņš ir pagarināts, jo pakalpojuma sniegšanai ir nepieciešami būtiski aktīvi' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Sabiedrisko pakalpojumu sniegšanai izmantoto aktīvu saraksts' (OPP-021-Contract) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Sabiedrisko pakalpojumu sniegšanai izmantoto aktīvu saraksts' (OPP-021-Contract) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Sabiedrisko pakalpojumu sniegšanai izmantoto aktīvu saraksts' (OPP-021-Contract) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organizācija, kas darbojas kā galvenais līgumslēdzējs, nevar būt 'Citi kontaktpunkti'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organizācija, kas darbojas kā apakšuzņēmējs, nevar būt 'Citi kontaktpunkti'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Jebkurai esošajai 'Organizācijas tehniskais ID (ORG-XXX)' (OPT-200-Organization-Company) jābūt vismaz vienai lomai vai apakšlomai</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organizācijai trūkst tehniskā identifikatora (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Kontaktpunkta tehniskais ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Kontaktpunkta tehniskais ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Kontaktpunkta tehniskais ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) nav atļauts, kad: 'Organizācijas tehniskais ID (ORG-XXX)' (OPT-200-Organization-Company) nav aizpildīta ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Kontaktpunkta tehniskais ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) jāatbilst šādam modelim: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Kontaktpunkta tehniskais ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) vērtībai jābūt unikālai vērtībai</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Jebkurai esošajai 'Citi kontaktpunkti' ir jābūt saistītai ar vismaz vienu no šādām lomām vai apakšlomām: 'Organizācija, kas sniedz papildu informāciju par iepirkuma procedūru'; 'Organizācija, kas nodrošina bezsaistes piekļuvi iepirkuma procedūras dokumentiem'; 'Organizācija, kas sniedz informāciju par darba aizsardzības un darba apstākļu vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā'; 'Organizācija, kas sniedz informāciju par vides aizsardzības jomas vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā'; 'Organizācija, kas sniedz informāciju par vispārējo tiesisko regulējumu attiecībā uz nodokļiem, kas piemērojami līguma izpildes vietā'; 'Starpniecības jeb mediācijas organizācija'; 'Organizācija, kas sniedz sīkāku informāciju par pārskatīšanas procedūru'; 'Pārskatīšanas organizācija', 'Organizācija, kas apstrādā piedāvājumus', 'Organizācija, kas apstrādā dalības pieprasījumus'; 'Pārskatīšanas struktūra'; Pārskatīšanas pieprasījuma iesniedzējs</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Kontaktpunktā trūkst 'Kontaktpunkta tehniskais ID (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Piedāvājuma sniedzēja tehniskais ID (TPA-XXX)' (OPT-210-Tenderer) Vērtībai jābūt unikālai vērtībai</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Attiecībā uz katru 'Piedāvājuma sniedzēja tehniskais ID (TPA-XXX)' (OPT-210), ja ir vairāk nekā viens pretendents (OPT-300-Tenderer), jābūt tieši vienai 'Grupas vadītājs' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Jebkurai esošajai 'Piedāvājuma sniedzēja tehniskais ID (TPA-XXX)' (OPT-210-Tenderer) jābūt saistītai ar vismaz vienu 'Organizācija, kas pilda šo lomu'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Piedāvājuma iesniedzējam trūkst 'Piedāvājuma sniedzēja tehniskais ID (TPA-XXX)' (OPT-210-Tenderer) vai piedāvājumā trūkst 'Piedāvājuma sniedzējs' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Piedāvājuma sniedzēja nosaukums' (OPT-211-Tenderer) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Piedāvājuma sniedzēja nosaukums' (OPT-211-Tenderer) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Piedāvājuma sniedzēja nosaukums' (OPT-211-Tenderer) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Pretendents' (OPT-300-Tenderer) nav atļauts, kad: 'Piedāvājuma tehniskais ID' (OPT-321-Tender) nepastāv ('E5 – Brīvprātīgs paziņojums par pabeigšanu')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Pircējs' (OPT-300-Procedure-Buyer) jāatbilst šādam modelim: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizācija, kas pilda šo lomu' (OPT-300-Procedure-Buyer) ir jāatšķiras no jebkura cita 'Organizācija, kas pilda šo lomu' paziņojumā.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Piedāvājuma iesniedzējam trūkst 'Pretendents' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizācija, kuras budžetu izmanto, lai samaksātu par līgumu' (OPT-301-LotResult-Financing) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizācija, kuras budžetu izmanto, lai samaksātu par līgumu' (OPT-301-LotResult-Financing) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizācija, kuras budžetu izmanto, lai samaksātu par līgumu' (OPT-301-LotResult-Financing) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizācija vai konkrēts kontaktpunkts' (OPT-301-Part-ReviewOrg-Scheme) jānorāda vērtība no kodu saraksta (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizācija vai konkrēts kontaktpunkts' (OPT-301-Part-TenderEval-Scheme) jānorāda vērtība no kodu saraksta (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizācija vai konkrēts kontaktpunkts' (OPT-301-Part-TenderReceipt-Scheme) jānorāda vērtība no kodu saraksta (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Piedāvājuma iesniedzēja apakšuzņēmējam trūkst 'Galvenais darbuzņēmējs apakšuzņēmējam' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Piedāvājuma iesniedzējam trūkst 'Apakšuzņēmējs' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizācija, kas pilda šo lomu' (OPT-302-Organization) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizācija, kas pilda šo lomu' (OPT-302-Organization) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizācija, kas pilda šo lomu' (OPT-302-Organization) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Katrai esošai 'Līguma tehniskais ID' (OPT-316-Contract) jābūt saistītai ar vismaz vienu 'Atsauce uz līgumu' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Katrai esošai 'Līguma tehniskais ID' (OPT-316-Contract) jābūt saistītai ar vismaz vienu 'Atsauce uz līgumu' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Katrai esošai 'Līguma tehniskais ID' (OPT-316-Contract) jābūt saistītai ar vismaz vienu 'Atsauce uz līgumu' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Līgumā trūkst 'Līguma tehniskais ID' (OPT-316-Contract) vai daļas rezultātā trūkst 'Atsauce uz līgumu' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Saņemtā piedāvājuma tehniskais ID' (OPT-320-LotResult) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Saņemtā piedāvājuma tehniskais ID' (OPT-320-LotResult) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Saņemtā piedāvājuma tehniskais ID' (OPT-320-LotResult) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Saņemtā piedāvājuma tehniskais ID' (OPT-320-LotResult) nav atļauts, kad: Nepastāv LotResult, vai nav piedāvājuma par LotResult aptverto partiju un nav piedāvājuma par nevienu partiju grupu, kas saturētu LotResult partiju, vai nav piedāvājuma un LotResult nav norādīta neviena partija ('E6 – Brīvprātīgs paziņojums par līguma grozījumiem')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Katrai atsaucei uz piedāvājumu no (OPT-320-LotResult) jāatbilst vienam no noteiktajiem piedāvājumiem (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Noteiktā lotes rezultātam, katram minētajam piedāvājumam jābūt vai nu šī rezultāta lotijai, vai lotiju grupai, kas ietver šo loti.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Daļas rezultātā trūkst 'Saņemtā piedāvājuma tehniskais ID' (OPT-320-LotResult), piedāvājumā trūkst 'Piedāvājuma tehniskais ID' (OPT-321-Tender) vai līgumā trūkst 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Piedāvājuma tehniskais ID' (OPT-321-Tender) nav atļauts ('X01 – Eiropas ekonomisko interešu grupa')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Piedāvājuma tehniskais ID' (OPT-321-Tender) nav atļauts ('X02 – Eiropas uzņēmējsabiedrība/Eiropas kooperatīvā sabiedrība')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Piedāvājuma tehniskais ID' (OPT-321-Tender) nav atļauts ('E1 – Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums')</entry>

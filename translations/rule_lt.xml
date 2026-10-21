@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Produkto ar paslaugos kilmės šalis' (BT-191-Tender) nėra leidžiama ('E5 – Savanoriškas skelbimas apie sutarties įvykdymą')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Produkto ar paslaugos kilmės šalis' (BT-191-Tender) turi būti nurodyta vertė iš (country) kodų sąrašo</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Produkto ar paslaugos kilmės šalis' (BT-191-Tender) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Pasiūlyme trūksta 'Produkto ar paslaugos kilmės šalis' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Šis pasiūlymas yra alternatyvus' (BT-193-Tender) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Šis pasiūlymas yra alternatyvus' (BT-193-Tender) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Šis pasiūlymas yra alternatyvus' (BT-193-Tender) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556-NoticeResult) turi atitikti šį modelį: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556-NoticeResult) turi būti susieti su esamais 'Procedūra: pirkimo dalies rezultatai' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556-NoticeResult) privalo skirtis nuo bet kurio kito 'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' skelbime.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Pagrindų susitarimo grupės vertėje trūksta 'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Reikia pateikti patikimumo pažymėjimą' (BT-578-Lot) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Reikia pateikti patikimumo pažymėjimą' (BT-578-Lot) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Reikia pateikti patikimumo pažymėjimą' (BT-578-Lot) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Privalomas subrangos nurodymas' (BT-651-Lot) nėra leidžiama, kai: 'Dalyviui nustatoma subrangos prievolė' (BT-66) neužpildyta ('9 – Išankstinis informacinis skelbimas, kuriuo sutrumpinamas pasiūlymų priėmimo laikotarpis; gynybos direktyva')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Privalomas subrangos nurodymas' (BT-651-Lot) nėra leidžiama, kai: 'Dalyviui nustatoma subrangos prievolė' (BT-66) neužpildyta ('E3 – Savanoriškas skelbimas apie viešąjį pirkimą')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Privalomas subrangos nurodymas' (BT-651-Lot) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Pirkimo dalyje trūksta 'Privalomas subrangos nurodymas' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Pasiūlymų, kurie patenka į šią IPI priemonę, skaičius' (BT-686-LotResult) turi atitikti šį modelį: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Laukelio Pasiūlymų, kurie patenka į šią IPI priemonę, skaičius' (BT-686-LotResult) reikšmė turi būti ne didesnė kaip 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Laukelio Pasiūlymų, kurie patenka į šią IPI priemonę, skaičius' (BT-686-LotResult) reikšmė turi būti ne mažesnė kaip 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Pirkimo dalies rezultate trūksta 'Pasiūlymų, kurie patenka į šią IPI priemonę, skaičius' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Išimtis iš IPI priemonės taikymo' (BT-687-LotResult) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Išimtis iš IPI priemonės taikymo' (BT-687-LotResult) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Išimtis iš IPI priemonės taikymo' (BT-687-LotResult) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Savininko pilietybė' (BT-706-UBO) nėra leidžiama, kai: 'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) neužpildyta ('E4 – Savanoriškas skelbimas apie sutarties sudarymą')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Savininko pilietybė' (BT-706-UBO) nėra leidžiama, kai: 'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) neužpildyta ('E5 – Savanoriškas skelbimas apie sutarties įvykdymą')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Savininko pilietybė' (BT-706-UBO) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Tikrajam savininkui trūksta 'Savininko pilietybė' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Pagrindimas, kodėl ribojama prieiga prie tam tikrų pirkimo dokumentų' (BT-707-Part) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Pagrindimas, kodėl ribojama prieiga prie tam tikrų pirkimo dokumentų' (BT-707-Part) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Pagrindimas, kodėl ribojama prieiga prie tam tikrų pirkimo dokumentų' (BT-707-Part) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Prašymų pateikėjų skaičius' (BT-712(b)-LotResult) turi atitikti šį modelį: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Laukelio Prašymų pateikėjų skaičius' (BT-712(b)-LotResult) reikšmė turi būti ne didesnė kaip 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Laukelio Prašymų pateikėjų skaičius' (BT-712(b)-LotResult) reikšmė turi būti ne mažesnė kaip 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Pirkimo dalies rezultate trūksta 'Prašymų pateikėjų skaičius' (BT-712(b)-LotResult) arba 'Pirkėjo peržiūros prašymų skaičius' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Pirkimui taikoma Europos Parlamento ir Tarybos direktyva 2009/33/EB (Netaršių transporto priemonių direktyva (NTPD))' (BT-717-Lot) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Pirkimui taikoma Europos Parlamento ir Tarybos direktyva 2009/33/EB (Netaršių transporto priemonių direktyva (NTPD))' (BT-717-Lot) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Pirkimui taikoma Europos Parlamento ir Tarybos direktyva 2009/33/EB (Netaršių transporto priemonių direktyva (NTPD))' (BT-717-Lot) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot-ThresholdNumber) nėra leidžiama ('E5 – Savanoriškas skelbimas apie sutarties įvykdymą')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot-WeightNumber) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot-ThresholdNumber) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Atrankos kriterijaus parametre trūksta 'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot-ThresholdNumber) arba 'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Prieinamumo neįgaliems asmenims kriterijų taikymas techninėse specifikacijose' (BT-754-Lot) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Prieinamumo neįgaliems asmenims kriterijų taikymas techninėse specifikacijose' (BT-754-Lot) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Prieinamumo neįgaliems asmenims kriterijų taikymas techninėse specifikacijose' (BT-754-Lot) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Gautų pasiūlymų ar dalyvavimo prašymų skaičius' (BT-759-LotResult) turi atitikti šį modelį: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Laukelio Gautų pasiūlymų ar dalyvavimo prašymų skaičius' (BT-759-LotResult) reikšmė turi būti ne didesnė kaip 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Laukelio Gautų pasiūlymų ar dalyvavimo prašymų skaičius' (BT-759-LotResult) reikšmė turi būti ne mažesnė kaip 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Pirkimo dalies rezultate trūksta 'Gautų pasiūlymų ar dalyvavimo prašymų skaičius' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Pateikimas: rūšys' (BT-760-LotResult) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Pateikimas: rūšys' (BT-760-LotResult) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Pateikimas: rūšys' (BT-760-LotResult) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Subranga' (BT-773-Tender) nėra leidžiama, kai: 'Pasiūlymo techninis ID' (OPT-321-Tender) neužpildyta ('29 – Skelbimas apie sutarties skyrimą; bendroji direktyva, įprasta tvarka')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Subranga' (BT-773-Tender) nėra leidžiama, kai: 'Pasiūlymo techninis ID' (OPT-321-Tender) neužpildyta ('30 – Skelbimas apie sutarties skyrimą; sektoriaus direktyva, įprasta tvarka')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Subranga' (BT-773-Tender) nėra leidžiama, kai: 'Pasiūlymo techninis ID' (OPT-321-Tender) neužpildyta ('31 – Skelbimas apie sutarties skyrimą; gynybos direktyva, įprasta tvarka')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Pasiūlyme trūksta 'Subranga' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Poveikio aplinkai mažinimo metodas' (BT-774-Lot) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Poveikio aplinkai mažinimo metodas' (BT-774-Lot) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Poveikio aplinkai mažinimo metodas' (BT-774-Lot) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Pasiūlymas: mokėjimų vertė' (BT-779-Tender) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Pasiūlymas: mokėjimų vertė' (BT-779-Tender) turi būti teigiamas.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Pasiūlymas: mokėjimų vertė' (BT-779-Tender) turi atitikti šį modelį: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Pasiūlyme trūksta 'Pasiūlymas: mokėjimų vertė' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender) nėra leidžiama, kai: 'Pasiūlymas: mokėjimų vertė' (BT-779-Tender) neužpildyta ('E5 – Savanoriškas skelbimas apie sutarties įvykdymą')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender-Language) turi būti nurodyta vertė iš (eu-official-language) kodų sąrašo</entry>
+<entry key="rule|text|BR-BT-00780-0056">Pasiūlyme trūksta 'Pasiūlymas: mokėjimų vertė: papildoma informacija' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Galiojimas: papildoma informacija' (BT-781-Lot) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Galiojimas: papildoma informacija' (BT-781-Lot) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Galiojimas: papildoma informacija' (BT-781-Lot) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Pasiūlymas: sankcijos' (BT-782-Tender) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Pasiūlymas: sankcijos' (BT-782-Tender) turi būti teigiamas.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Pasiūlymas: sankcijos' (BT-782-Tender) turi atitikti šį modelį: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Pasiūlyme trūksta 'Pasiūlymas: sankcijos' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review) yra privalomas, kai: 'Peržiūra: pažeidimo rūšis' (BT-791-Review) yra ir tai susiję su sprendimu, kuris bent dalinai patvirtina prašymą ('36 – Skelbimas apie projekto konkurso rezultatus – bendroji direktyva, projektas')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review) yra privalomas, kai: 'Peržiūra: pažeidimo rūšis' (BT-791-Review) yra ir tai susiję su sprendimu, kuris bent dalinai patvirtina prašymą ('37 – Skelbimas apie projekto konkurso rezultatus – sektoriaus direktyva, projektas')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review) yra privalomas, kai: 'Peržiūra: pažeidimo rūšis' (BT-791-Review) yra ir tai susiję su sprendimu, kuris bent dalinai patvirtina prašymą ('E5 – Savanoriškas skelbimas apie sutarties įvykdymą')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Peržiūroje trūksta 'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Peržiūra: taisomoji priemonė: vertė' (BT-793-Review) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Peržiūra: taisomoji priemonė: vertė' (BT-793-Review) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Peržiūra: taisomoji priemonė: vertė' (BT-793-Review) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Peržiūros institucija: rūšis' (BT-799-ReviewBody) yra privalomas, kai: 'Peržiūra: prašymas arba sprendimas' (BT-783-Review) yra ir tai yra 'Sprendimas' ir prašymas nebuvo atšauktas. ('35 – Skelbimas apie koncesijos suteikimą; koncesijų direktyva, paprastesnis režimas')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Peržiūros institucija: rūšis' (BT-799-ReviewBody) yra privalomas, kai: 'Peržiūra: prašymas arba sprendimas' (BT-783-Review) yra ir tai yra 'Sprendimas' ir prašymas nebuvo atšauktas. ('36 – Skelbimas apie projekto konkurso rezultatus – bendroji direktyva, projektas')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Peržiūros institucija: rūšis' (BT-799-ReviewBody) yra privalomas, kai: 'Peržiūra: prašymas arba sprendimas' (BT-783-Review) yra ir tai yra 'Sprendimas' ir prašymas nebuvo atšauktas. ('37 – Skelbimas apie projekto konkurso rezultatus – sektoriaus direktyva, projektas')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Peržiūroje trūksta 'Peržiūros institucija: rūšis' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Atsakymai: priėmimo terminas' (BT-800(d)-Lot) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Atsakymai: priėmimo terminas' (BT-800(d)-Lot) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Atsakymai: priėmimo terminas' (BT-800(d)-Lot) yra privalomas ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Gautų pasiūlymų statistika: 'Elektroninėmis priemonėmis pateikti pasiūlymai' (BT-760-LotResult = t-esubm) skaičių reikia nurodyti tiksliai vieną kartą</entry>
 <entry key="rule|text|BR-BT-13713-0178">Gautų pasiūlymų statistika: 'Elektroninėmis priemonėmis pateikti pasiūlymai' (BT-760-LotResult = t-esubm) skaičių reikia nurodyti tiksliai vieną kartą</entry>
 <entry key="rule|text|BR-BT-13713-0179">Gautų pasiūlymų statistika: 'Elektroninėmis priemonėmis pateikti pasiūlymai' (BT-760-LotResult = t-esubm) skaičių reikia nurodyti tiksliai vieną kartą</entry>
+<entry key="rule|text|BR-BT-13713-0180">Pirkimo dalies rezultate trūksta 'Rezultatai: pirkimo dalies ID' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Pirkimo dalies arba pirkimo dalių grupės identifikatorius' (BT-13714-Tender) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Pirkimo dalies arba pirkimo dalių grupės identifikatorius' (BT-13714-Tender) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Pirkimo dalies arba pirkimo dalių grupės identifikatorius' (BT-13714-Tender) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Sutarties galiojimo trukmė pratęsiama dėl esminio turto, būtino paslaugai teikti' (OPP-020-Contract) nėra leidžiama, kai: 'Sutarties techninis ID' (OPT-316-Contract) neužpildyta ('T02 – Informacinis skelbimas dėl viešųjų paslaugų sutarties sudarymo')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Sutarties galiojimo trukmė pratęsiama dėl esminio turto, būtino paslaugai teikti' (OPP-020-Contract) turi būti nurodyta vertė iš (indicator) kodų sąrašo</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Sutarties galiojimo trukmė pratęsiama dėl esminio turto, būtino paslaugai teikti' (OPP-020-Contract) nėra leidžiama ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Sutartyje trūksta 'Sutarties galiojimo trukmė pratęsiama dėl esminio turto, būtino paslaugai teikti' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Turto, naudojamo viešosioms paslaugoms teikti, sąrašas' (OPP-021-Contract) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Turto, naudojamo viešosioms paslaugoms teikti, sąrašas' (OPP-021-Contract) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Turto, naudojamo viešosioms paslaugoms teikti, sąrašas' (OPP-021-Contract) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organizacija, veikianti kaip pagrindinis rangovas, negali turėti 'Kiti ryšių centrai'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organizacija, veikianti kaip subrangovas, negali turėti 'Kiti ryšių centrai'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Visi esami 'Organizacijos techninis ID (ORG-XXX)' (OPT-200-Organization-Company) turi turėti bent vieną funkciją arba pagalbinę funkciją</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Nenurodytas organizacijos techninis identifikatorius (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Kontaktinio taško techninis ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Kontaktinio taško techninis ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Kontaktinio taško techninis ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) nėra leidžiama, kai: 'Organizacijos techninis ID (ORG-XXX)' (OPT-200-Organization-Company) neužpildyta ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Kontaktinio taško techninis ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) turi atitikti šį modelį: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Kontaktinio taško techninis ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) reikšmė turi būti unikali</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Visi esami 'Kiti ryšių centrai' turi būti susiję bent su viena iš šių funkcijų ar pagalbinių funkcijų: 'Organizacija, teikianti papildomą informaciją apie pirkimo procedūrą'; 'Organizacija, teikianti neinternetinę prieigą prie pirkimo dokumentų'; 'Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją užimtumo apsaugos ir darbo sąlygų reglamentavimo sistemą'; 'Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją aplinkosaugos reglamentavimo sistemą'; 'Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją mokesčių reglamentavimo sistemą'; 'Tarpininkavimo organizacija'; 'Organizacija, teikianti daugiau informacijos apie peržiūros procedūras'; 'Peržiūros organizacija', 'Organizacija, tvarkanti pasiūlymus', 'Organizacija, tvarkanti dalyvavimo prašymus'; 'Peržiūros institucija'; Peržiūros užklausos teikėjas</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Kontaktiniame punkte trūksta 'Kontaktinio taško techninis ID (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Pasiūlymo teikėjo techninis ID (TPA-XXX)' (OPT-210-Tenderer) reikšmė turi būti unikali</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Kiekvienam 'Pasiūlymo teikėjo techninis ID (TPA-XXX)' (OPT-210), jei yra daugiau nei vienas (OPT-300-Tenderer) konkurso dalyvis, jis turi turėti tik vieną 'Grupės vadovas' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Visi esami 'Pasiūlymo teikėjo techninis ID (TPA-XXX)' (OPT-210-Tenderer) turi būti susiję su bent viena 'Organizacija, atliekanti šį vaidmenį'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Pasiūlymo teikėjui trūksta 'Pasiūlymo teikėjo techninis ID (TPA-XXX)' (OPT-210-Tenderer), arba pasiūlyme trūksta 'Pasiūlymo teikėjas' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Pasiūlymo teikėjo pavadinimas' (OPT-211-Tenderer) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Pasiūlymo teikėjo pavadinimas' (OPT-211-Tenderer) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Pasiūlymo teikėjo pavadinimas' (OPT-211-Tenderer) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Dalyvis' (OPT-300-Tenderer) nėra leidžiama, kai: 'Pasiūlymo techninis ID' (OPT-321-Tender) nėra ('E5 – Savanoriškas skelbimas apie sutarties įvykdymą')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Pirkėjas' (OPT-300-Procedure-Buyer) turi atitikti šį modelį: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizacija, atliekanti šį vaidmenį' (OPT-300-Procedure-Buyer) privalo skirtis nuo bet kurio kito 'Organizacija, atliekanti šį vaidmenį' skelbime.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Pasiūlymo teikėjui trūksta 'Dalyvis' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizacija, iš kurios biudžeto mokama pagal sutartį' (OPT-301-LotResult-Financing) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizacija, iš kurios biudžeto mokama pagal sutartį' (OPT-301-LotResult-Financing) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizacija, iš kurios biudžeto mokama pagal sutartį' (OPT-301-LotResult-Financing) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizacija arba konkretus kontaktinis taškas' (OPT-301-Part-ReviewOrg-Scheme) turi būti nurodyta vertė iš (player-type) kodų sąrašo</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizacija arba konkretus kontaktinis taškas' (OPT-301-Part-TenderEval-Scheme) turi būti nurodyta vertė iš (player-type) kodų sąrašo</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizacija arba konkretus kontaktinis taškas' (OPT-301-Part-TenderReceipt-Scheme) turi būti nurodyta vertė iš (player-type) kodų sąrašo</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Pasiūlymo teikėjo subrangovui trūksta 'Pagrindinis rangovas subrangovui' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Pasiūlymo teikėjui trūksta 'Subrangovas' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Visi esami 'Sutarties techninis ID' (OPT-316-Contract) turi būti susiję bent su viena 'Nuoroda į sutartį'(OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Visi esami 'Sutarties techninis ID' (OPT-316-Contract) turi būti susiję bent su viena 'Nuoroda į sutartį'(OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Visi esami 'Sutarties techninis ID' (OPT-316-Contract) turi būti susiję bent su viena 'Nuoroda į sutartį'(OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Sutartyje trūksta 'Sutarties techninis ID' (OPT-316-Contract), arba pirkimo dalies rezultate trūksta 'Nuoroda į sutartį' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Gauto pasiūlymo techninis ID' (OPT-320-LotResult) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Gauto pasiūlymo techninis ID' (OPT-320-LotResult) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Gauto pasiūlymo techninis ID' (OPT-320-LotResult) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Gauto pasiūlymo techninis ID' (OPT-320-LotResult) nėra leidžiama, kai: Nėra LotResult, arba nėra pasiūlymo dėl LotResult apimamos partijos ir nėra pasiūlymo dėl jokios partijos grupės, kuri apimtų LotResult partiją, arba nėra pasiūlymo ir LotResult nėra nurodyta jokia partija ('E6 – Savanoriškas skelbimas apie sutarties keitimą')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Kiekviena nuoroda į (OPT-320-LotResult) pateiktą pasiūlymą turi atitikti vieną iš nurodytų pasiūlymų (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Duotam partijos rezultatui, kiekviena minima pasiūlyma turi būti arba šio rezultato partijai, arba partijų grupei, kurioje yra ši partija.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Pirkimo dalies rezultate trūksta 'Gauto pasiūlymo techninis ID' (OPT-320-LotResult), pasiūlyme trūksta 'Pasiūlymo techninis ID' (OPT-321-Tender) arba sutartyje trūksta 'Sutartis: pasiūlymas: ID' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Pasiūlymo techninis ID' (OPT-321-Tender) nėra leidžiama ('X01 – Europos ekonominių interesų grupės')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Pasiūlymo techninis ID' (OPT-321-Tender) nėra leidžiama ('X02 – Europos bendrovė / Europos kooperatinė bendrovė')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Pasiūlymo techninis ID' (OPT-321-Tender) nėra leidžiama ('E1 – Savanoriškas skelbimas apie rinkos konsultacijas')</entry>

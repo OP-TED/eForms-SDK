@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Țara de origine a produsului sau a serviciului' (BT-191-Tender) nu este permis (în 'E5 – Anunț voluntar de finalizare')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Țara de origine a produsului sau a serviciului' (BT-191-Tender) trebuie să conțină o valoare din lista de coduri (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Țara de origine a produsului sau a serviciului' (BT-191-Tender) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Unei oferte îi lipsește 'Țara de origine a produsului sau a serviciului' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Oferta este o variantă' (BT-193-Tender) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Oferta este o variantă' (BT-193-Tender) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Oferta este o variantă' (BT-193-Tender) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult) trebuie să corespundă următorului model: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult) trebuie să fie asociat cu un 'Rezultatul procedurii' (BT-137-LotsGroup) existent</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult) trebuie să difere de orice alt 'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' din anunț.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Valorii grupului acordului-cadru îi lipsește 'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Este necesară autorizarea de securitate' (BT-578-Lot) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Este necesară autorizarea de securitate' (BT-578-Lot) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Este necesară autorizarea de securitate' (BT-578-Lot) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Indicarea obligatorie a subcontractării' (BT-651-Lot) nu este permis când: 'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-66) nu este completat (în '9 – Anunț de intenție utilizat pentru scurtarea termenelor de primire a ofertelor - directivă privind apărarea')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Indicarea obligatorie a subcontractării' (BT-651-Lot) nu este permis când: 'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-66) nu este completat (în 'E3 – Anunț voluntar de participare')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Indicarea obligatorie a subcontractării' (BT-651-Lot) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Unui lot îi lipsește 'Indicarea obligatorie a subcontractării' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult) trebuie să corespundă următorului model: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult) trebuie să fie mai mic sau egal cu 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult) trebuie să fie mai mare sau egal cu 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Rezultatului unei lot îi lipsește 'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Excepție la aplicarea măsurii IPI' (BT-687-LotResult) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Excepție la aplicarea măsurii IPI' (BT-687-LotResult) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Excepție la aplicarea măsurii IPI' (BT-687-LotResult) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Naționalitatea proprietarului' (BT-706-UBO) nu este permis când: 'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu este completat (în 'E4 – Anunț voluntar de atribuire a contractului')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Naționalitatea proprietarului' (BT-706-UBO) nu este permis când: 'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu este completat (în 'E5 – Anunț voluntar de finalizare')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Naționalitatea proprietarului' (BT-706-UBO) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Beneficiarului real îi lipsește 'Naționalitatea proprietarului' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Justificarea restricționării accesului la anumite documente ale achiziției' (BT-707-Part) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Justificarea restricționării accesului la anumite documente ale achiziției' (BT-707-Part) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Justificarea restricționării accesului la anumite documente ale achiziției' (BT-707-Part) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Număr de reclamanți' (BT-712(b)-LotResult) trebuie să corespundă următorului model: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Număr de reclamanți' (BT-712(b)-LotResult) trebuie să fie mai mic sau egal cu 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Număr de reclamanți' (BT-712(b)-LotResult) trebuie să fie mai mare sau egal cu 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Rezultatului unei lot îi lipsește 'Număr de reclamanți' (BT-712(b)-LotResult) sau 'Numărul cererilor de soluționare a căilor de atac adresate cumpărătorului' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717-Lot) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717-Lot) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717-Lot) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-ThresholdNumber) nu este permis (în 'E5 – Anunț voluntar de finalizare')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-WeightNumber) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-ThresholdNumber) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Parametrului criteriului de selecție îi lipsește 'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-ThresholdNumber) sau 'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Utilizarea în specificațiile tehnice a criteriilor de accesibilitate pentru persoanele cu handicap.' (BT-754-Lot) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Utilizarea în specificațiile tehnice a criteriilor de accesibilitate pentru persoanele cu handicap.' (BT-754-Lot) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Utilizarea în specificațiile tehnice a criteriilor de accesibilitate pentru persoanele cu handicap.' (BT-754-Lot) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Număr de oferte/cereri de participare primite' (BT-759-LotResult) trebuie să corespundă următorului model: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Număr de oferte/cereri de participare primite' (BT-759-LotResult) trebuie să fie mai mic sau egal cu 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Număr de oferte/cereri de participare primite' (BT-759-LotResult) trebuie să fie mai mare sau egal cu 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Rezultatului unei lot îi lipsește 'Număr de oferte/cereri de participare primite' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Tip de oferte primite' (BT-760-LotResult) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Tip de oferte primite' (BT-760-LotResult) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Tip de oferte primite' (BT-760-LotResult) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Subcontractare' (BT-773-Tender) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat (în '29 – Anunț de atribuire a contractului – directivă generală, regim standard')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Subcontractare' (BT-773-Tender) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat (în '30 – Anunț de atribuire a contractului – directivă sectorială, regim standard')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Subcontractare' (BT-773-Tender) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat (în '31 – Anunț de atribuire a contractului – directivă privind apărarea, regim standard')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Unei oferte îi lipsește 'Subcontractare' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Abordarea pentru reducerea impactului asupra mediului' (BT-774-Lot) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Abordarea pentru reducerea impactului asupra mediului' (BT-774-Lot) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Abordarea pentru reducerea impactului asupra mediului' (BT-774-Lot) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Valoarea plăților legate de ofertă' (BT-779-Tender) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Valoarea plăților legate de ofertă' (BT-779-Tender) trebuie să fie pozitiv.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Valoarea plăților legate de ofertă' (BT-779-Tender) trebuie să corespundă următorului model: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Unei oferte îi lipsește 'Valoarea plăților legate de ofertă' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender) nu este permis când: 'Valoarea plăților legate de ofertă' (BT-779-Tender) nu este completat (în 'E5 – Anunț voluntar de finalizare')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Unei oferte îi lipsește 'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Informații suplimentare privind durata' (BT-781-Lot) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Informații suplimentare privind durata' (BT-781-Lot) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Informații suplimentare privind durata' (BT-781-Lot) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Sancțiuni privind oferta' (BT-782-Tender) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Sancțiuni privind oferta' (BT-782-Tender) trebuie să fie pozitiv.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Sancțiuni privind oferta' (BT-782-Tender) trebuie să corespundă următorului model: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Unei oferte îi lipsește 'Sancțiuni privind oferta' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Căile de atac - tip de măsură corectivă' (BT-792-Review) este obligatoriu când: 'Căile de atac - tip de neregulă' (BT-791-Review) este prezent și se referă la o decizie care aprobă cel puțin parțial cererea (în '36 – Anunț privind rezultatul concursului de proiecte – directivă generală, proiect')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Căile de atac - tip de măsură corectivă' (BT-792-Review) este obligatoriu când: 'Căile de atac - tip de neregulă' (BT-791-Review) este prezent și se referă la o decizie care aprobă cel puțin parțial cererea (în '37 – Anunț privind rezultatul concursului de proiecte – directivă sectorială, proiect')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Căile de atac - tip de măsură corectivă' (BT-792-Review) este obligatoriu când: 'Căile de atac - tip de neregulă' (BT-791-Review) este prezent și se referă la o decizie care aprobă cel puțin parțial cererea (în 'E5 – Anunț voluntar de finalizare')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Unei contestații îi lipsește 'Căile de atac - tip de măsură corectivă' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Căile de atac - valoarea măsurii corective' (BT-793-Review) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Căile de atac - valoarea măsurii corective' (BT-793-Review) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Căile de atac - valoarea măsurii corective' (BT-793-Review) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Căile de atac - tipul de organism' (BT-799-ReviewBody) este obligatoriu când: 'Căile de atac - cerere sau decizie' (BT-783-Review) este prezent și este 'Decizie' și cererea nu a fost retrasă. (în '35 – Anunț de atribuire a concesiunii – directivă privind concesiunile, regim simplificat')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Căile de atac - tipul de organism' (BT-799-ReviewBody) este obligatoriu când: 'Căile de atac - cerere sau decizie' (BT-783-Review) este prezent și este 'Decizie' și cererea nu a fost retrasă. (în '36 – Anunț privind rezultatul concursului de proiecte – directivă generală, proiect')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Căile de atac - tipul de organism' (BT-799-ReviewBody) este obligatoriu când: 'Căile de atac - cerere sau decizie' (BT-783-Review) este prezent și este 'Decizie' și cererea nu a fost retrasă. (în '37 – Anunț privind rezultatul concursului de proiecte – directivă sectorială, proiect')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Unei contestații îi lipsește 'Căile de atac - tipul de organism' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Termenul de primire a răspunsurilor' (BT-800(d)-Lot) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Termenul de primire a răspunsurilor' (BT-800(d)-Lot) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Termenul de primire a răspunsurilor' (BT-800(d)-Lot) este obligatoriu (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statistici privind ofertele primite: Numărul total de 'Oferte depuse pe cale electronică' (BT-760-LotResult = t-esubm) trebuie specificat exact o singură dată</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statistici privind ofertele primite: Numărul total de 'Oferte depuse pe cale electronică' (BT-760-LotResult = t-esubm) trebuie specificat exact o singură dată</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statistici privind ofertele primite: Numărul total de 'Oferte depuse pe cale electronică' (BT-760-LotResult = t-esubm) trebuie specificat exact o singură dată</entry>
+<entry key="rule|text|BR-BT-13713-0180">Rezultatului unei lot îi lipsește 'Rezultate: identificator lot' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identificatorul lotului sau al grupului de loturi' (BT-13714-Tender) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identificatorul lotului sau al grupului de loturi' (BT-13714-Tender) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identificatorul lotului sau al grupului de loturi' (BT-13714-Tender) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract) nu este permis când: 'ID-ul tehnic al contractului' (OPT-316-Contract) nu este completat (în 'T02 – Anunţ de informare privind atribuirea unui contract de servicii publice')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract) nu este permis (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Unui contract îi lipsește 'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-021-Contract) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-021-Contract) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-021-Contract) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">O organizație care acționează ca antreprenor principal nu poate avea 'Alte puncte de contact'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">O organizație care acționează ca subcontractant nu poate avea 'Alte puncte de contact'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Orice 'ID-ul tehnic al organizației (ORG-XXX)' (OPT-200-Organization-Company) existent trebuie să aibă cel puțin un rol sau un subrol</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Unei organizații îi lipsește identificatorul tehnic (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) nu este permis când: 'ID-ul tehnic al organizației (ORG-XXX)' (OPT-200-Organization-Company) nu este completat (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) trebuie să corespundă următorului model: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">Valoarea 'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) trebuie să fie o valoare unică</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Orice 'Alte puncte de contact' existent trebuie să fie asociat cu cel puțin unul dintre următoarele roluri sau subroluri: 'Organizația care furnizează informații suplimentare cu privire la procedura de achiziții'; 'Organizația care oferă acces offline la documentele achiziției'; 'Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția muncii aplicabil în locul în care urmează să fie executat contractul'; 'Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția mediului aplicabil în locul în care urmează să fie executat contractul'; 'Organizația care furnizează informații referitoare la cadrul legislativ general privind impozitarea aplicabil în locul în care urmează să fie executat contractul'; 'Organizație de mediere'; 'Organizația care furnizează mai multe informații cu privire la căile de atac'; 'Organizația responsabilă cu căile de atac', 'Organizația care prelucrează ofertele', 'Organizația care prelucrează cererile de participare'; 'Organism de soluționare a căilor de atac'; Solicitant de revizuire</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Unui punct de contact îi lipsește 'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">Valoarea 'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer) trebuie să fie o valoare unică</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Pentru fiecare 'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210), dacă există mai mulți ofertanți (OPT-300-Tenderer), atunci trebuie să existe exact un 'Lider de grup' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Orice 'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer) existent trebuie să fie asociat cu cel puțin un 'Organizația care îndeplinește acest rol'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Unui ofertant îi lipsește 'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer), sau unei oferte îi lipsește 'Partea ofertantă' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Numele părții ofertante' (OPT-211-Tenderer) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Numele părții ofertante' (OPT-211-Tenderer) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Numele părții ofertante' (OPT-211-Tenderer) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Ofertant' (OPT-300-Tenderer) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu există (în 'E5 – Anunț voluntar de finalizare')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Cumpărător' (OPT-300-Procedure-Buyer) trebuie să corespundă următorului model: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizația care îndeplinește acest rol' (OPT-300-Procedure-Buyer) trebuie să difere de orice alt 'Organizația care îndeplinește acest rol' din anunț.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Unui ofertant îi lipsește 'Ofertant' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizația al cărei buget este utilizat pentru plata contractului' (OPT-301-LotResult-Financing) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizația al cărei buget este utilizat pentru plata contractului' (OPT-301-LotResult-Financing) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizația al cărei buget este utilizat pentru plata contractului' (OPT-301-LotResult-Financing) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizația sau punctul de contact specific' (OPT-301-Part-ReviewOrg-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizația sau punctul de contact specific' (OPT-301-Part-TenderEval-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizația sau punctul de contact specific' (OPT-301-Part-TenderReceipt-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Subcontractantului unui ofertant îi lipsește 'Contractant principal către subcontractant' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Unui ofertant îi lipsește 'Subcontractant' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizația care îndeplinește acest rol' (OPT-302-Organization) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizația care îndeplinește acest rol' (OPT-302-Organization) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizația care îndeplinește acest rol' (OPT-302-Organization) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Orice 'ID-ul tehnic al contractului' (OPT-316-Contract) existent trebuie să fie asociat cu cel puțin un 'Referință la contract' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Orice 'ID-ul tehnic al contractului' (OPT-316-Contract) existent trebuie să fie asociat cu cel puțin un 'Referință la contract' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Orice 'ID-ul tehnic al contractului' (OPT-316-Contract) existent trebuie să fie asociat cu cel puțin un 'Referință la contract' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Unui contract îi lipsește 'ID-ul tehnic al contractului' (OPT-316-Contract), sau rezultatului unei lot îi lipsește 'Referință la contract' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult) nu este permis când: Nu există LotResult, sau nu există ofertă pentru lotul acoperit de LotResult și nu există ofertă pentru niciun grup de loturi care ar conține lotul LotResult, sau nu există ofertă și niciun lot nu este specificat pentru LotResult (în 'E6 – Anunț voluntar de modificare a contractului')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Fiecare referire la o ofertă de la (OPT-320-LotResult) trebuie să corespundă uneia dintre ofertele definite (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Pentru un rezultat dat al unui lot, fiecare ofertă referențiată trebuie să fie fie pentru lotul acelui rezultat, fie pentru un grup de loturi care conține acel lot.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Rezultatului unei lot îi lipsește 'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult), unei oferte îi lipsește 'ID-ul tehnic al ofertei' (OPT-321-Tender) sau unui contract îi lipsește 'Contract: identificator lot' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este permis (în 'X01 – Grup european de interes economic')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este permis (în 'X02 – Societate europeană/Societate cooperativă europeană')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este permis (în 'E1 – Anunț voluntar de consultare înainte de introducerea pe piață')</entry>

@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Produktens eller tjänstens ursprungsland' (BT-191-Tender) är inte tillåtet (i 'E5 – Frivilliga meddelanden om genomfört kontrakt')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Produktens eller tjänstens ursprungsland' (BT-191-Tender) måste innehålla ett värde från kodlistan (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Produktens eller tjänstens ursprungsland' (BT-191-Tender) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Ett anbud saknar 'Produktens eller tjänstens ursprungsland' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Anbudet är ett alternativt anbud' (BT-193-Tender) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Anbudet är ett alternativt anbud' (BT-193-Tender) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Anbudet är ett alternativt anbud' (BT-193-Tender) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556-NoticeResult) skall motsvara följande mönster: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556-NoticeResult) måste ha anknytning till ett befintligt 'Resultat per delkontrakt' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556-NoticeResult) måste skilja sig från alla andra 'Värde för ett ramavtal inom en grupp – delkontraktets id' i meddelandet.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Ett ramavtals gruppvärde saknar 'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Säkerhetsprövning krävs' (BT-578-Lot) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Säkerhetsprövning krävs' (BT-578-Lot) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Säkerhetsprövning krävs' (BT-578-Lot) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obligatorisk information om underleverantörer' (BT-651-Lot) är inte tillåtet när: 'En skyldighet som anbudsgivaren ska fullgöra vid underentreprenad' (BT-66) fylls inte i (i '9 – Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud – försvars- och säkerhetsdirektivet')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obligatorisk information om underleverantörer' (BT-651-Lot) är inte tillåtet när: 'En skyldighet som anbudsgivaren ska fullgöra vid underentreprenad' (BT-66) fylls inte i (i 'E3 – Frivilligt meddelande om upphandling')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obligatorisk information om underleverantörer' (BT-651-Lot) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Ett delkontrakt saknar 'Obligatorisk information om underleverantörer' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Antal anbudsansökningar som faller under denna IPI-åtgärd' (BT-686-LotResult) skall motsvara följande mönster: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Antal anbudsansökningar som faller under denna IPI-åtgärd' (BT-686-LotResult) måste vara mindre än eller lika med 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Antal anbudsansökningar som faller under denna IPI-åtgärd' (BT-686-LotResult) måste vara större än eller lika med 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Ett resultat för ett delkontrakt saknar 'Antal anbudsansökningar som faller under denna IPI-åtgärd' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Undantag från tillämpningen av IPI-åtgärden' (BT-687-LotResult) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Undantag från tillämpningen av IPI-åtgärden' (BT-687-LotResult) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Undantag från tillämpningen av IPI-åtgärden' (BT-687-LotResult) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Nationalitet på verklig huvudman' (BT-706-UBO) är inte tillåtet när: 'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) fylls inte i (i 'E4 – Frivilliga meddelanden om tilldelning')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Nationalitet på verklig huvudman' (BT-706-UBO) är inte tillåtet när: 'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) fylls inte i (i 'E5 – Frivilliga meddelanden om genomfört kontrakt')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Nationalitet på verklig huvudman' (BT-706-UBO) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
+<entry key="rule|text|BR-BT-00706-0069">En verklig huvudman saknar 'Nationalitet på verklig huvudman' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Motivering för att begränsa åtkomsten till vissa upphandlingsdokument' (BT-707-Part) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Motivering för att begränsa åtkomsten till vissa upphandlingsdokument' (BT-707-Part) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Motivering för att begränsa åtkomsten till vissa upphandlingsdokument' (BT-707-Part) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Antal klagomål' (BT-712(b)-LotResult) skall motsvara följande mönster: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Antal klagomål' (BT-712(b)-LotResult) måste vara mindre än eller lika med 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Antal klagomål' (BT-712(b)-LotResult) måste vara större än eller lika med 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Ett resultat för ett delkontrakt saknar 'Antal klagomål' (BT-712(b)-LotResult) eller 'Antal ansökningar om prövning hos köparen' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' (BT-717-Lot) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' (BT-717-Lot) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' (BT-717-Lot) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot-ThresholdNumber) är inte tillåtet (i 'E5 – Frivilliga meddelanden om genomfört kontrakt')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot-WeightNumber) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot-ThresholdNumber) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
+<entry key="rule|text|BR-BT-00752-0103">En parameter för urvalskriteriet saknar 'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot-ThresholdNumber) eller 'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'De tekniska specifikationerna har bestämts med beaktande av tillgänglighet för personer med funktionsnedsättning' (BT-754-Lot) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'De tekniska specifikationerna har bestämts med beaktande av tillgänglighet för personer med funktionsnedsättning' (BT-754-Lot) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'De tekniska specifikationerna har bestämts med beaktande av tillgänglighet för personer med funktionsnedsättning' (BT-754-Lot) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Antal anbud, anbudsansökningar och intresseanmälningar som inkommit' (BT-759-LotResult) skall motsvara följande mönster: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Antal anbud, anbudsansökningar och intresseanmälningar som inkommit' (BT-759-LotResult) måste vara mindre än eller lika med 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Antal anbud, anbudsansökningar och intresseanmälningar som inkommit' (BT-759-LotResult) måste vara större än eller lika med 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Ett resultat för ett delkontrakt saknar 'Antal anbud, anbudsansökningar och intresseanmälningar som inkommit' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Typ av inlämningar' (BT-760-LotResult) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Typ av inlämningar' (BT-760-LotResult) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Typ av inlämningar' (BT-760-LotResult) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Anlitande av underleverantör' (BT-773-Tender) är inte tillåtet när: 'Tekniskt ID för anbudet' (OPT-321-Tender) fylls inte i (i '29 – Meddelande om tilldelning av kontrakt– klassiska direktivet, standardsystem')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Anlitande av underleverantör' (BT-773-Tender) är inte tillåtet när: 'Tekniskt ID för anbudet' (OPT-321-Tender) fylls inte i (i '30 – Meddelande om tilldelning av kontrakt – försörjningsdirektivet, standardsystem')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Anlitande av underleverantör' (BT-773-Tender) är inte tillåtet när: 'Tekniskt ID för anbudet' (OPT-321-Tender) fylls inte i (i '31 – Meddelande om tilldelning av kontrakt– försvars- och säkerhetsdirektivet, standardsystem')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Ett anbud saknar 'Anlitande av underleverantör' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Metod som ska minska miljöpåverkan' (BT-774-Lot) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Metod som ska minska miljöpåverkan' (BT-774-Lot) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Metod som ska minska miljöpåverkan' (BT-774-Lot) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Värdet på anbudets betalningar' (BT-779-Tender) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Värdet på anbudets betalningar' (BT-779-Tender) måste vara positiv.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Värdet på anbudets betalningar' (BT-779-Tender) skall motsvara följande mönster: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Ett anbud saknar 'Värdet på anbudets betalningar' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender) är inte tillåtet när: 'Värdet på anbudets betalningar' (BT-779-Tender) fylls inte i (i 'E5 – Frivilliga meddelanden om genomfört kontrakt')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender-Language) måste innehålla ett värde från kodlistan (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Ett anbud saknar 'Kompletterande information om värdet på anbudets betalningar' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Kompletterande information om varaktighet' (BT-781-Lot) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Kompletterande information om varaktighet' (BT-781-Lot) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Kompletterande information om varaktighet' (BT-781-Lot) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Anbudssanktioner' (BT-782-Tender) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Anbudssanktioner' (BT-782-Tender) måste vara positiv.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Anbudssanktioner' (BT-782-Tender) skall motsvara följande mönster: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Ett anbud saknar 'Anbudssanktioner' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Ansökningar om prövning eller beslut' (BT-783-Review) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Ansökningar om prövning eller beslut' (BT-783-Review) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Ansökningar om prövning eller beslut' (BT-783-Review) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Prövningens typ av rättsmedel' (BT-792-Review) är obligatoriskt när: 'Prövningens oriktighetstyp' (BT-791-Review) finns och det handlar om ett beslut som åtminstone delvis godkänner begäran (i '36 – Meddelande om resultatet av projekttävlingen – klassiska direktivet, projekttävling')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Prövningens typ av rättsmedel' (BT-792-Review) är obligatoriskt när: 'Prövningens oriktighetstyp' (BT-791-Review) finns och det handlar om ett beslut som åtminstone delvis godkänner begäran (i '37 – Meddelande om resultatet av projekttävlingen – försörjningsdirektivet, projekttävling')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Prövningens typ av rättsmedel' (BT-792-Review) är obligatoriskt när: 'Prövningens oriktighetstyp' (BT-791-Review) finns och det handlar om ett beslut som åtminstone delvis godkänner begäran (i 'E5 – Frivilliga meddelanden om genomfört kontrakt')</entry>
+<entry key="rule|text|BR-BT-00792-0102">En prövning saknar 'Prövningens typ av rättsmedel' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Värdet på prövningens rättsmedel' (BT-793-Review) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Värdet på prövningens rättsmedel' (BT-793-Review) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Värdet på prövningens rättsmedel' (BT-793-Review) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Typ av prövningsorgan' (BT-799-ReviewBody) är obligatoriskt när: 'Ansökningar om prövning eller beslut' (BT-783-Review) är närvarande och det är 'Beslut' och begäran har inte återkallats. (i '35 – Meddelande om tilldelning av kontrakt – koncessionsdirektivet, enklare systemet')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Typ av prövningsorgan' (BT-799-ReviewBody) är obligatoriskt när: 'Ansökningar om prövning eller beslut' (BT-783-Review) är närvarande och det är 'Beslut' och begäran har inte återkallats. (i '36 – Meddelande om resultatet av projekttävlingen – klassiska direktivet, projekttävling')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Typ av prövningsorgan' (BT-799-ReviewBody) är obligatoriskt när: 'Ansökningar om prövning eller beslut' (BT-783-Review) är närvarande och det är 'Beslut' och begäran har inte återkallats. (i '37 – Meddelande om resultatet av projekttävlingen – försörjningsdirektivet, projekttävling')</entry>
+<entry key="rule|text|BR-BT-00799-0098">En prövning saknar 'Typ av prövningsorgan' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Tidsfrist för mottagande av svar' (BT-800(d)-Lot) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Tidsfrist för mottagande av svar' (BT-800(d)-Lot) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Tidsfrist för mottagande av svar' (BT-800(d)-Lot) är obligatoriskt (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statistik över mottagna anbud: Det totala antalet 'Anbud som lämnas in elektroniskt' (BT-760-LotResult = t-esubm) måste anges exakt en gång</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statistik över mottagna anbud: Det totala antalet 'Anbud som lämnas in elektroniskt' (BT-760-LotResult = t-esubm) måste anges exakt en gång</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statistik över mottagna anbud: Det totala antalet 'Anbud som lämnas in elektroniskt' (BT-760-LotResult = t-esubm) måste anges exakt en gång</entry>
+<entry key="rule|text|BR-BT-13713-0180">Ett resultat för ett delkontrakt saknar 'Resultat – delkontraktets id' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identifierare för del eller grupp av delar' (BT-13714-Tender) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identifierare för del eller grupp av delar' (BT-13714-Tender) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identifierare för del eller grupp av delar' (BT-13714-Tender) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Kontraktets löptid förlängs på grund av de väsentliga tillgångar som krävs för att utföra tjänsten' (OPP-020-Contract) är inte tillåtet när: 'Tekniskt ID för kontraktet' (OPT-316-Contract) fylls inte i (i 'T02 – Informationsmeddelande om tilldelning av offentligt tjänstekontrakt')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Kontraktets löptid förlängs på grund av de väsentliga tillgångar som krävs för att utföra tjänsten' (OPP-020-Contract) måste innehålla ett värde från kodlistan (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Kontraktets löptid förlängs på grund av de väsentliga tillgångar som krävs för att utföra tjänsten' (OPP-020-Contract) är inte tillåtet (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Ett kontrakt saknar 'Kontraktets löptid förlängs på grund av de väsentliga tillgångar som krävs för att utföra tjänsten' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Lista över tillgångar som används för att utföra de offentliga tjänsterna' (OPP-021-Contract) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Lista över tillgångar som används för att utföra de offentliga tjänsterna' (OPP-021-Contract) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Lista över tillgångar som används för att utföra de offentliga tjänsterna' (OPP-021-Contract) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">En organisation som agerar som huvudentreprenör kan inte ha 'Andra kontaktpunkter'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">En organisation som agerar som underentreprenör kan inte ha 'Andra kontaktpunkter'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Varje befintlig 'Tekniskt ID för organisationen (ORG-XXX)' (OPT-200-Organization-Company) måste ha minst 1 funktion eller underordnad funktion</entry>
+<entry key="rule|text|BR-OPT-00200-0104">En organisation saknar sin tekniska identifierare (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Tekniskt ID för kontaktpunkten (TPO-XXX)' (OPT-201-Organization-TouchPoint) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Tekniskt ID för kontaktpunkten (TPO-XXX)' (OPT-201-Organization-TouchPoint) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Tekniskt ID för kontaktpunkten (TPO-XXX)' (OPT-201-Organization-TouchPoint) är inte tillåtet när: 'Tekniskt ID för organisationen (ORG-XXX)' (OPT-200-Organization-Company) fylls inte i (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Tekniskt ID för kontaktpunkten (TPO-XXX)' (OPT-201-Organization-TouchPoint) skall motsvara följande mönster: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Tekniskt ID för kontaktpunkten (TPO-XXX)' (OPT-201-Organization-TouchPoint) värdet måste vara ett unikt värde</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Varje befintlig 'Andra kontaktpunkter' ska ha anknytning till minst en av följande funktioner eller underordnade funktioner: 'Organisation som ger kompletterande information om upphandlingsförfarandet'; 'Organisation som ger offlineåtkomst till upphandlingsdokumenten'; 'Organisation som tillhandahåller information om det allmänna regelverk för anställningsskydd och arbetsvillkor som ska tillämpas på den plats där kontraktet ska genomföras'; 'Organisation som tillhandahåller information om det allmänna regelverk för miljöskydd som ska tillämpas på den plats där kontraktet ska genomföras'; 'Organisation som tillhandahåller information om det allmänna regelverk för skatter som ska tillämpas på den plats där kontraktet ska genomföras'; 'Medlingsorganisation'; 'Organisation som ger mer information om prövningsförfaranden'; 'Prövningsorganisation', 'Organisation som behandlar anbud', 'Organisation som behandlar anbudsansökningar'; 'Prövningsorgan'; Granskningsbegäran</entry>
+<entry key="rule|text|BR-OPT-00201-0102">En kontaktpunkt saknar 'Tekniskt ID för kontaktpunkten (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Tekniskt ID för anbudsgivaren (TPA-XXX)' (OPT-210-Tenderer) värdet måste vara ett unikt värde</entry>
 <entry key="rule|text|BR-OPT-00210-0101">För vart och ett av 'Tekniskt ID för anbudsgivaren (TPA-XXX)' (OPT-210), om det finns mer än en anbudsgivare (OPT-300-Tenderer), måste det finnas exakt ett 'Gruppledare' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Varje befintlig 'Tekniskt ID för anbudsgivaren (TPA-XXX)' (OPT-210-Tenderer) måste ha anknytning till minst ett 'Organisationen som utför denna roll'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">En anbudsgivare saknar 'Tekniskt ID för anbudsgivaren (TPA-XXX)' (OPT-210-Tenderer) eller ett anbud saknar 'Anbudsgivare' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Namn på anbudsgivaren' (OPT-211-Tenderer) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Namn på anbudsgivaren' (OPT-211-Tenderer) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Namn på anbudsgivaren' (OPT-211-Tenderer) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Anbudsgivare' (OPT-300-Tenderer) är inte tillåtet när: 'Tekniskt ID för anbudet' (OPT-321-Tender) finns inte (i 'E5 – Frivilliga meddelanden om genomfört kontrakt')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Upphandlare' (OPT-300-Procedure-Buyer) skall motsvara följande mönster: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organisationen som utför denna roll' (OPT-300-Procedure-Buyer) måste skilja sig från alla andra 'Organisationen som utför denna roll' i meddelandet.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">En anbudsgivare saknar 'Anbudsgivare' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisation vars budget används för att betala för kontraktet' (OPT-301-LotResult-Financing) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisation vars budget används för att betala för kontraktet' (OPT-301-LotResult-Financing) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisation vars budget används för att betala för kontraktet' (OPT-301-LotResult-Financing) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisation eller specifik kontakt' (OPT-301-Part-ReviewOrg-Scheme) måste innehålla ett värde från kodlistan (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisation eller specifik kontakt' (OPT-301-Part-TenderEval-Scheme) måste innehålla ett värde från kodlistan (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisation eller specifik kontakt' (OPT-301-Part-TenderReceipt-Scheme) måste innehålla ett värde från kodlistan (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">En underleverantör till en anbudsgivare saknar 'Huvudentreprenör till underleverantör' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">En anbudsgivare saknar 'Underentreprenör' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisationen som utför denna roll' (OPT-302-Organization) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisationen som utför denna roll' (OPT-302-Organization) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisationen som utför denna roll' (OPT-302-Organization) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Varje befintligt 'Tekniskt ID för kontraktet' (OPT-316-Contract) måste ha anknytning till minst 1 'Referens till kontraktet' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Varje befintligt 'Tekniskt ID för kontraktet' (OPT-316-Contract) måste ha anknytning till minst 1 'Referens till kontraktet' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Varje befintligt 'Tekniskt ID för kontraktet' (OPT-316-Contract) måste ha anknytning till minst 1 'Referens till kontraktet' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Ett kontrakt saknar 'Tekniskt ID för kontraktet' (OPT-316-Contract) eller ett resultat för ett delkontrakt saknar 'Referens till kontraktet' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Tekniskt ID för mottaget anbud' (OPT-320-LotResult) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Tekniskt ID för mottaget anbud' (OPT-320-LotResult) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Tekniskt ID för mottaget anbud' (OPT-320-LotResult) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Tekniskt ID för mottaget anbud' (OPT-320-LotResult) är inte tillåtet när: Det finns inget LotResult, eller det finns inget anbud för partiet som täcks av LotResult och inget anbud för någon grupp av partier som skulle innehålla partiet för LotResult, eller det finns inget anbud och inget parti är specificerat för LotResult (i 'E6 – Frivilligt meddelande om kontraktsändring')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Varje hänvisning till ett anbud från (OPT-320-LotResult) måste motsvara ett av de angivna anbuden (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">För ett givet resultat av ett parti måste varje refererat anbud antingen vara för partiet av det resultatet eller för en grupp partier som innehåller det partiet.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Ett resultat för ett delkontrakt saknar 'Tekniskt ID för mottaget anbud' (OPT-320-LotResult), ett anbud saknar 'Tekniskt ID för anbudet' (OPT-321-Tender) eller ett kontrakt saknar 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Tekniskt ID för anbudet' (OPT-321-Tender) är inte tillåtet (i 'X01 – Europeisk ekonomisk intressegruppering')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Tekniskt ID för anbudet' (OPT-321-Tender) är inte tillåtet (i 'X02 – Europabolag/europeisk kooperativ förening')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Tekniskt ID för anbudet' (OPT-321-Tender) är inte tillåtet (i 'E1 – Frivilligt meddelande om förberedande marknadssamråd')</entry>

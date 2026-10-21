@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Land van oorsprong van het product of de dienst' (BT-191-Tender) is niet toegestaan (in 'E5 – Vrijwillige kennisgeving van voltooiing')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Land van oorsprong van het product of de dienst' (BT-191-Tender) moet een waarde uit de codelijst (country) bevatten</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Land van oorsprong van het product of de dienst' (BT-191-Tender) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Bij een inschrijving ontbreekt 'Land van oorsprong van het product of de dienst' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'De inschrijving is een variant' (BT-193-Tender) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'De inschrijving is een variant' (BT-193-Tender) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'De inschrijving is een variant' (BT-193-Tender) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'ID groep raamovereenkomst waarde perceel' (BT-556-NoticeResult) moet overeenkomen met het volgende patroon: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'ID groep raamovereenkomst waarde perceel' (BT-556-NoticeResult) moet zijn gekoppeld aan een bestaande 'Procedure perceel resultaat' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'ID groep raamovereenkomst waarde perceel' (BT-556-NoticeResult) moet verschillen van elk ander 'ID groep raamovereenkomst waarde perceel' in de aankondiging.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Bij de waarde van de groep van de raamovereenkomst ontbreekt 'ID groep raamovereenkomst waarde perceel' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Een veiligheidsmachtiging is vereist' (BT-578-Lot) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Een veiligheidsmachtiging is vereist' (BT-578-Lot) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Een veiligheidsmachtiging is vereist' (BT-578-Lot) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Verplichte vermelding van onderaanneming' (BT-651-Lot) is niet toegestaan, wanneer: 'Een verplichting waaraan de inschrijver moet voldoen met betrekking tot onderaanneming' (BT-66) is niet ingevuld (in '9 – Vooraankondiging gebruikt om termijnen voor ontvangst van inschrijvingen te verkorten – defensierichtlijn')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Verplichte vermelding van onderaanneming' (BT-651-Lot) is niet toegestaan, wanneer: 'Een verplichting waaraan de inschrijver moet voldoen met betrekking tot onderaanneming' (BT-66) is niet ingevuld (in 'E3 – Vrijwillige aankondiging van een opdracht')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Verplichte vermelding van onderaanneming' (BT-651-Lot) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Bij een perceel ontbreekt 'Verplichte vermelding van onderaanneming' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Aantal inschrijvingen die onder deze IPI-maatregel vallen' (BT-686-LotResult) moet overeenkomen met het volgende patroon: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Aantal inschrijvingen die onder deze IPI-maatregel vallen' (BT-686-LotResult) mag maximaal gelijk zijn aan 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Aantal inschrijvingen die onder deze IPI-maatregel vallen' (BT-686-LotResult) moet minimaal gelijk zijn aan 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Bij een resultaat van een perceel ontbreekt 'Aantal inschrijvingen die onder deze IPI-maatregel vallen' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Uitzondering op de toepassing van de IPI-maatregel' (BT-687-LotResult) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Uitzondering op de toepassing van de IPI-maatregel' (BT-687-LotResult) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Uitzondering op de toepassing van de IPI-maatregel' (BT-687-LotResult) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Nationaliteit van de eigenaar' (BT-706-UBO) is niet toegestaan, wanneer: 'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is niet ingevuld (in 'E4 – Vrijwillig gunningsbericht')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Nationaliteit van de eigenaar' (BT-706-UBO) is niet toegestaan, wanneer: 'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is niet ingevuld (in 'E5 – Vrijwillige kennisgeving van voltooiing')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Nationaliteit van de eigenaar' (BT-706-UBO) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Bij de uiteindelijk begunstigde ontbreekt 'Nationaliteit van de eigenaar' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken' (BT-707-Part) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken' (BT-707-Part) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken' (BT-707-Part) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Aantal klagers' (BT-712(b)-LotResult) moet overeenkomen met het volgende patroon: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Aantal klagers' (BT-712(b)-LotResult) mag maximaal gelijk zijn aan 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Aantal klagers' (BT-712(b)-LotResult) moet minimaal gelijk zijn aan 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Bij een resultaat van een perceel ontbreekt 'Aantal klagers' (BT-712(b)-LotResult) of 'Aantal beroepen van kopers' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' (BT-717-Lot) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' (BT-717-Lot) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' (BT-717-Lot) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot-ThresholdNumber) is niet toegestaan (in 'E5 – Vrijwillige kennisgeving van voltooiing')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot-WeightNumber) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot-ThresholdNumber) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Bij de parameter van het selectiecriterium ontbreekt 'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot-ThresholdNumber) of 'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Het gebruik van criteria inzake de toegankelijkheid voor personen met een handicap in de technische specificaties' (BT-754-Lot) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Het gebruik van criteria inzake de toegankelijkheid voor personen met een handicap in de technische specificaties' (BT-754-Lot) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Het gebruik van criteria inzake de toegankelijkheid voor personen met een handicap in de technische specificaties' (BT-754-Lot) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Aantal ontvangen inschrijvingen of verzoeken tot deelname' (BT-759-LotResult) moet overeenkomen met het volgende patroon: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Aantal ontvangen inschrijvingen of verzoeken tot deelname' (BT-759-LotResult) mag maximaal gelijk zijn aan 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Aantal ontvangen inschrijvingen of verzoeken tot deelname' (BT-759-LotResult) moet minimaal gelijk zijn aan 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Bij een resultaat van een perceel ontbreekt 'Aantal ontvangen inschrijvingen of verzoeken tot deelname' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Type van de ontvangen inschrijvingen' (BT-760-LotResult) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Type van de ontvangen inschrijvingen' (BT-760-LotResult) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Type van de ontvangen inschrijvingen' (BT-760-LotResult) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Onderaanneming' (BT-773-Tender) is niet toegestaan, wanneer: 'Technische ID van de aanbieding' (OPT-321-Tender) is niet ingevuld (in '29 – Aankondiging gegunde opdracht – algemene richtlijn, standaardregeling')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Onderaanneming' (BT-773-Tender) is niet toegestaan, wanneer: 'Technische ID van de aanbieding' (OPT-321-Tender) is niet ingevuld (in '30 – Aankondiging gegunde opdracht – sectorale richtlijn, standaardregeling')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Onderaanneming' (BT-773-Tender) is niet toegestaan, wanneer: 'Technische ID van de aanbieding' (OPT-321-Tender) is niet ingevuld (in '31 – Aankondiging gegunde opdracht – defensierichtlijn, standaardregeling')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Bij een inschrijving ontbreekt 'Onderaanneming' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Aanpak voor het beperken van milieueffecten' (BT-774-Lot) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Aanpak voor het beperken van milieueffecten' (BT-774-Lot) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Aanpak voor het beperken van milieueffecten' (BT-774-Lot) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Inschrijving betaling waarde' (BT-779-Tender) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Inschrijving betaling waarde' (BT-779-Tender) moet positief zijn.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Inschrijving betaling waarde' (BT-779-Tender) moet overeenkomen met het volgende patroon: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Bij een inschrijving ontbreekt 'Inschrijving betaling waarde' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender) is niet toegestaan, wanneer: 'Inschrijving betaling waarde' (BT-779-Tender) is niet ingevuld (in 'E5 – Vrijwillige kennisgeving van voltooiing')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender-Language) moet een waarde uit de codelijst (eu-official-language) bevatten</entry>
+<entry key="rule|text|BR-BT-00780-0056">Bij een inschrijving ontbreekt 'Inschrijving betaling waarde aanvullende informatie' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Looptijd aanvullende informatie' (BT-781-Lot) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Looptijd aanvullende informatie' (BT-781-Lot) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Looptijd aanvullende informatie' (BT-781-Lot) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Inschrijving sancties' (BT-782-Tender) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Inschrijving sancties' (BT-782-Tender) moet positief zijn.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Inschrijving sancties' (BT-782-Tender) moet overeenkomen met het volgende patroon: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Bij een inschrijving ontbreekt 'Inschrijving sancties' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Beroep of besluit' (BT-783-Review) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Beroep of besluit' (BT-783-Review) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Beroep of besluit' (BT-783-Review) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Type genoegdoening beroep' (BT-792-Review) is verplicht, wanneer: 'Type onregelmatigheid beroep' (BT-791-Review) is aanwezig en het betreft een beslissing die de aanvraag ten minste gedeeltelijk goedkeurt (in '36 – Aankondiging van de uitslag van een prijsvraag voor ontwerpen – algemene richtlijn, ontwerp')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Type genoegdoening beroep' (BT-792-Review) is verplicht, wanneer: 'Type onregelmatigheid beroep' (BT-791-Review) is aanwezig en het betreft een beslissing die de aanvraag ten minste gedeeltelijk goedkeurt (in '37 – Aankondiging van de uitslag van een prijsvraag voor ontwerpen – sectorale richtlijn, ontwerp')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Type genoegdoening beroep' (BT-792-Review) is verplicht, wanneer: 'Type onregelmatigheid beroep' (BT-791-Review) is aanwezig en het betreft een beslissing die de aanvraag ten minste gedeeltelijk goedkeurt (in 'E5 – Vrijwillige kennisgeving van voltooiing')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Bij een beroep ontbreekt 'Type genoegdoening beroep' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Waarde genoegdoening beroep' (BT-793-Review) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Waarde genoegdoening beroep' (BT-793-Review) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Waarde genoegdoening beroep' (BT-793-Review) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Type beroepsinstantie' (BT-799-ReviewBody) is verplicht, wanneer: 'Beroep of besluit' (BT-783-Review) is aanwezig en het is 'Besluit' en het verzoek is niet ingetrokken. (in '35 – Aankondiging gegunde concessie – concessierichtlijn, lichte regeling')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Type beroepsinstantie' (BT-799-ReviewBody) is verplicht, wanneer: 'Beroep of besluit' (BT-783-Review) is aanwezig en het is 'Besluit' en het verzoek is niet ingetrokken. (in '36 – Aankondiging van de uitslag van een prijsvraag voor ontwerpen – algemene richtlijn, ontwerp')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Type beroepsinstantie' (BT-799-ReviewBody) is verplicht, wanneer: 'Beroep of besluit' (BT-783-Review) is aanwezig en het is 'Besluit' en het verzoek is niet ingetrokken. (in '37 – Aankondiging van de uitslag van een prijsvraag voor ontwerpen – sectorale richtlijn, ontwerp')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Bij een beroep ontbreekt 'Type beroepsinstantie' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Termijn ontvangst antwoorden' (BT-800(d)-Lot) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Termijn ontvangst antwoorden' (BT-800(d)-Lot) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Termijn ontvangst antwoorden' (BT-800(d)-Lot) is verplicht (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statistieken van ontvangen inschrijvingen: Het totale aantal 'Elektronisch ingediende inschrijvingen' (BT-760-LotResult = t-esubm) moet precies één keer worden opgegeven</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statistieken van ontvangen inschrijvingen: Het totale aantal 'Elektronisch ingediende inschrijvingen' (BT-760-LotResult = t-esubm) moet precies één keer worden opgegeven</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statistieken van ontvangen inschrijvingen: Het totale aantal 'Elektronisch ingediende inschrijvingen' (BT-760-LotResult = t-esubm) moet precies één keer worden opgegeven</entry>
+<entry key="rule|text|BR-BT-13713-0180">Bij een resultaat van een perceel ontbreekt 'ID resultaat perceel' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identificatiecode van het perceel of de groep percelen' (BT-13714-Tender) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identificatiecode van het perceel of de groep percelen' (BT-13714-Tender) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identificatiecode van het perceel of de groep percelen' (BT-13714-Tender) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'De looptijd van het contract wordt verlengd vanwege essentiële activa die nodig zijn voor het verlenen van de dienst' (OPP-020-Contract) is niet toegestaan, wanneer: 'Technische ID van het contract' (OPT-316-Contract) is niet ingevuld (in 'T02 – Aankondiging voor gunning van een openbaredienstcontract')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'De looptijd van het contract wordt verlengd vanwege essentiële activa die nodig zijn voor het verlenen van de dienst' (OPP-020-Contract) moet een waarde uit de codelijst (indicator) bevatten</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'De looptijd van het contract wordt verlengd vanwege essentiële activa die nodig zijn voor het verlenen van de dienst' (OPP-020-Contract) is niet toegestaan (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Bij een contract ontbreekt 'De looptijd van het contract wordt verlengd vanwege essentiële activa die nodig zijn voor het verlenen van de dienst' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Lijst van de voor het verlenen van de openbare diensten gebruikte activa' (OPP-021-Contract) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Lijst van de voor het verlenen van de openbare diensten gebruikte activa' (OPP-021-Contract) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Lijst van de voor het verlenen van de openbare diensten gebruikte activa' (OPP-021-Contract) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Een organisatie die optreedt als hoofdaannemer kan geen 'Andere contactpunten' hebben</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Een organisatie die optreedt als onderaannemer kan geen 'Andere contactpunten' hebben</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Alle bestaande 'Technische ID van de organisatie (ORG-XXX)' (OPT-200-Organization-Company) moeten ten minste één rol of subrol hebben</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Een organisatie mist haar technische identificatiecode (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Technische ID van het contactpunt (TPO-XXX)' (OPT-201-Organization-TouchPoint) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Technische ID van het contactpunt (TPO-XXX)' (OPT-201-Organization-TouchPoint) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Technische ID van het contactpunt (TPO-XXX)' (OPT-201-Organization-TouchPoint) is niet toegestaan, wanneer: 'Technische ID van de organisatie (ORG-XXX)' (OPT-200-Organization-Company) is niet ingevuld (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Technische ID van het contactpunt (TPO-XXX)' (OPT-201-Organization-TouchPoint) moet overeenkomen met het volgende patroon: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Technische ID van het contactpunt (TPO-XXX)' (OPT-201-Organization-TouchPoint) waarde moet een unieke waarde zijn</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Elk bestaand 'Andere contactpunten' moet aan ten minste een van de volgende rollen of subrollen zijn gekoppeld: 'Organisatie die nadere inlichtingen over de aanbestedingsprocedure verstrekt'; 'Organisatie die offlinetoegang verleent tot de aanbestedingsstukken'; 'Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake de bescherming van de werknemers en inzake arbeidsvoorwaarden'; 'Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake milieubescherming'; 'Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake belasting'; 'Bemiddelingsorganisatie'; 'Organisatie die meer informatie geeft over beroepsprocedures'; 'Organisatie voor beroepsprocedures', 'Organisatie die inschrijvingen verwerkt', 'Organisatie die verzoeken tot deelname verwerkt'; 'Beroepsinstantie'; Verzoek om herziening</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Bij een contactpunt ontbreekt 'Technische ID van het contactpunt (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Technische ID van de aanbiedende partij (TPA-XXX)' (OPT-210-Tenderer) waarde moet een unieke waarde zijn</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Voor elke 'Technische ID van de aanbiedende partij (TPA-XXX)' (OPT-210), als er meer dan één inschrijver (OPT-300-Tenderer) is, moet er precies één 'Groepsleider'(OPT-170) zijn</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Alle bestaande 'Technische ID van de aanbiedende partij (TPA-XXX)' (OPT-210-Tenderer) moeten worden gekoppeld met ten minste één 'Organisatie die deze rol vervult'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Bij een inschrijver ontbreekt 'Technische ID van de aanbiedende partij (TPA-XXX)' (OPT-210-Tenderer) of bij een inschrijving ontbreekt 'Aanbiedende partij' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Naam van de aanbiedende partij' (OPT-211-Tenderer) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Naam van de aanbiedende partij' (OPT-211-Tenderer) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Naam van de aanbiedende partij' (OPT-211-Tenderer) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Inschrijver' (OPT-300-Tenderer) is niet toegestaan, wanneer: 'Technische ID van de aanbieding' (OPT-321-Tender) bestaat niet (in 'E5 – Vrijwillige kennisgeving van voltooiing')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Koper' (OPT-300-Procedure-Buyer) moet overeenkomen met het volgende patroon: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organisatie die deze rol vervult' (OPT-300-Procedure-Buyer) moet verschillen van elk ander 'Organisatie die deze rol vervult' in de aankondiging.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Bij een inschrijver ontbreekt 'Inschrijver' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisatie waarvan het budget wordt gebruikt om voor de opdracht te betalen' (OPT-301-LotResult-Financing) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisatie waarvan het budget wordt gebruikt om voor de opdracht te betalen' (OPT-301-LotResult-Financing) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisatie waarvan het budget wordt gebruikt om voor de opdracht te betalen' (OPT-301-LotResult-Financing) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisatie of specifiek contactpunt' (OPT-301-Part-ReviewOrg-Scheme) moet een waarde uit de codelijst (player-type) bevatten</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisatie of specifiek contactpunt' (OPT-301-Part-TenderEval-Scheme) moet een waarde uit de codelijst (player-type) bevatten</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisatie of specifiek contactpunt' (OPT-301-Part-TenderReceipt-Scheme) moet een waarde uit de codelijst (player-type) bevatten</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Bij de onderaannemer van een inschrijver ontbreekt 'Hoofdaannemer aan onderaannemer' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Bij een inschrijver ontbreekt 'Onderaannemer' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisatie die deze rol vervult' (OPT-302-Organization) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisatie die deze rol vervult' (OPT-302-Organization) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisatie die deze rol vervult' (OPT-302-Organization) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Alle bestaande 'Technische ID van het contract' (OPT-316-Contract) moeten worden gekoppeld met ten minste één 'Verwijzing naar het contract'(OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Alle bestaande 'Technische ID van het contract' (OPT-316-Contract) moeten worden gekoppeld met ten minste één 'Verwijzing naar het contract'(OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Alle bestaande 'Technische ID van het contract' (OPT-316-Contract) moeten worden gekoppeld met ten minste één 'Verwijzing naar het contract'(OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Bij een contract ontbreekt 'Technische ID van het contract' (OPT-316-Contract) of bij een resultaat van een perceel ontbreekt 'Verwijzing naar het contract' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Technische ID van een ontvangen aanbieding' (OPT-320-LotResult) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Technische ID van een ontvangen aanbieding' (OPT-320-LotResult) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Technische ID van een ontvangen aanbieding' (OPT-320-LotResult) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Technische ID van een ontvangen aanbieding' (OPT-320-LotResult) is niet toegestaan, wanneer: Er is geen LotResult, of er is geen aanbesteding voor het door LotResult gedekte perceel en er is geen aanbesteding voor een groep van percelen die het perceel van LotResult zou bevatten, of er is geen aanbesteding en er is geen perceel gespecificeerd voor LotResult (in 'E6 – Vrijwillige aankondiging van wijziging contract')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Elke verwijzing naar een inschrijver van (OPT-320-LotResult) moet overeenkomen met een van de gedefinieerde inschrijvers (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Voor een gegeven resultaat van een perceel, moet elke gerefereerde aanbieding ofwel voor het perceel van dat resultaat zijn, of voor een groep percelen die dat perceel bevat.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Bij een resultaat van een perceel ontbreekt 'Technische ID van een ontvangen aanbieding' (OPT-320-LotResult), bij een inschrijving ontbreekt 'Technische ID van de aanbieding' (OPT-321-Tender) of bij een contract ontbreekt 'ID opdracht inschrijving' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Technische ID van de aanbieding' (OPT-321-Tender) is niet toegestaan (in 'X01 – Europees economisch samenwerkingsverband')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Technische ID van de aanbieding' (OPT-321-Tender) is niet toegestaan (in 'X02 – Europese vennootschap / Europese coöperatieve vennootschap')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Technische ID van de aanbieding' (OPT-321-Tender) is niet toegestaan (in 'E1 – Vrijwillige aankondiging van voorafgaande marktconsultatie')</entry>

@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'País de origen del producto o servicio' (BT-191-Tender) no está permitido (en 'E5 – Anuncio voluntario de finalización')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'País de origen del producto o servicio' (BT-191-Tender) debe contener un valor de la lista de códigos (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'País de origen del producto o servicio' (BT-191-Tender) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
+<entry key="rule|text|BR-BT-00191-0053">A una oferta le falta 'País de origen del producto o servicio' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'La oferta es una variante' (BT-193-Tender) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'La oferta es una variante' (BT-193-Tender) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'La oferta es una variante' (BT-193-Tender) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Acuerdo marco grupo: valor identificador de lote' (BT-556-NoticeResult) deberán ajustarse al siguiente patrón: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Acuerdo marco grupo: valor identificador de lote' (BT-556-NoticeResult) debe estar asociado a un 'Resultados por lote del procedimiento' (BT-137-LotsGroup) existente</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Acuerdo marco grupo: valor identificador de lote' (BT-556-NoticeResult) debe diferenciarse de cualquier otro 'Acuerdo marco grupo: valor identificador de lote' en el anuncio.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Al valor del grupo del acuerdo marco le falta 'Acuerdo marco grupo: valor identificador de lote' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Se requiere una habilitación de seguridad' (BT-578-Lot) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Se requiere una habilitación de seguridad' (BT-578-Lot) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Se requiere una habilitación de seguridad' (BT-578-Lot) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Indicación obligatoria de subcontratación' (BT-651-Lot) no está permitido cuando: 'Una obligación que debe cumplir el licitador en relación con la subcontratación' (BT-66) no está cumplimentado (en '9 – Anuncio de información previa usado para reducir los plazos de recepción de las ofertas. Directiva de defensa.')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Indicación obligatoria de subcontratación' (BT-651-Lot) no está permitido cuando: 'Una obligación que debe cumplir el licitador en relación con la subcontratación' (BT-66) no está cumplimentado (en 'E3 – Anuncio voluntario de licitación')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Indicación obligatoria de subcontratación' (BT-651-Lot) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
+<entry key="rule|text|BR-BT-00651-0055">A un lote le falta 'Indicación obligatoria de subcontratación' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Número de solicitudes de licitación que caen bajo esta medida IPI' (BT-686-LotResult) deberán ajustarse al siguiente patrón: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Número de solicitudes de licitación que caen bajo esta medida IPI' (BT-686-LotResult) debe ser inferior o igual a 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Número de solicitudes de licitación que caen bajo esta medida IPI' (BT-686-LotResult) debe ser superior o igual a 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">A un resultado de lote le falta 'Número de solicitudes de licitación que caen bajo esta medida IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Excepción a la aplicación de la medida IPI' (BT-687-LotResult) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Excepción a la aplicación de la medida IPI' (BT-687-LotResult) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Excepción a la aplicación de la medida IPI' (BT-687-LotResult) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Nacionalidad del titular' (BT-706-UBO) no está permitido cuando: 'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) no está cumplimentado (en 'E4 – Anuncio voluntario de adjudicación')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Nacionalidad del titular' (BT-706-UBO) no está permitido cuando: 'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) no está cumplimentado (en 'E5 – Anuncio voluntario de finalización')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Nacionalidad del titular' (BT-706-UBO) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Al titular real le falta 'Nacionalidad del titular' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Justificación de la restricción del acceso a determinados pliegos de contratación' (BT-707-Part) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Justificación de la restricción del acceso a determinados pliegos de contratación' (BT-707-Part) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Justificación de la restricción del acceso a determinados pliegos de contratación' (BT-707-Part) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Número de reclamantes' (BT-712(b)-LotResult) deberán ajustarse al siguiente patrón: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Número de reclamantes' (BT-712(b)-LotResult) debe ser inferior o igual a 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Número de reclamantes' (BT-712(b)-LotResult) debe ser superior o igual a 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">A un resultado de lote le falta 'Número de reclamantes' (BT-712(b)-LotResult) o 'Número de recursos interpuestos ante comprador' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'La contratación pública entra en el ámbito de aplicación de la Directiva 2009/33/CE del Parlamento Europeo y del Consejo (Directiva sobre vehículos limpios)' (BT-717-Lot) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'La contratación pública entra en el ámbito de aplicación de la Directiva 2009/33/CE del Parlamento Europeo y del Consejo (Directiva sobre vehículos limpios)' (BT-717-Lot) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'La contratación pública entra en el ámbito de aplicación de la Directiva 2009/33/CE del Parlamento Europeo y del Consejo (Directiva sobre vehículos limpios)' (BT-717-Lot) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot-ThresholdNumber) no está permitido (en 'E5 – Anuncio voluntario de finalización')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot-WeightNumber) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot-ThresholdNumber) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Al parámetro del criterio de selección le falta 'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot-ThresholdNumber) o 'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Aplicación de criterios de accesibilidad para las personas con discapacidad en las especificaciones técnicas' (BT-754-Lot) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Aplicación de criterios de accesibilidad para las personas con discapacidad en las especificaciones técnicas' (BT-754-Lot) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Aplicación de criterios de accesibilidad para las personas con discapacidad en las especificaciones técnicas' (BT-754-Lot) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Número de ofertas o solicitudes de participación recibidas' (BT-759-LotResult) deberán ajustarse al siguiente patrón: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Número de ofertas o solicitudes de participación recibidas' (BT-759-LotResult) debe ser inferior o igual a 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Número de ofertas o solicitudes de participación recibidas' (BT-759-LotResult) debe ser superior o igual a 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">A un resultado de lote le falta 'Número de ofertas o solicitudes de participación recibidas' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Tipo de presentaciones recibidas' (BT-760-LotResult) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Tipo de presentaciones recibidas' (BT-760-LotResult) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Tipo de presentaciones recibidas' (BT-760-LotResult) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Subcontratación' (BT-773-Tender) no está permitido cuando: 'ID técnico de la oferta' (OPT-321-Tender) no está cumplimentado (en '29 – Anuncio de adjudicación de contrato. Directiva general, régimen normal.')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Subcontratación' (BT-773-Tender) no está permitido cuando: 'ID técnico de la oferta' (OPT-321-Tender) no está cumplimentado (en '30 – Anuncio de adjudicación de contrato. Directiva sectorial, régimen normal.')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Subcontratación' (BT-773-Tender) no está permitido cuando: 'ID técnico de la oferta' (OPT-321-Tender) no está cumplimentado (en '31 – Anuncio de adjudicación de contrato. Directiva de defensa, régimen normal.')</entry>
+<entry key="rule|text|BR-BT-00773-0056">A una oferta le falta 'Subcontratación' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Enfoque para reducir el impacto ambiental' (BT-774-Lot) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Enfoque para reducir el impacto ambiental' (BT-774-Lot) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Enfoque para reducir el impacto ambiental' (BT-774-Lot) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Oferta: valor pagos' (BT-779-Tender) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Oferta: valor pagos' (BT-779-Tender) debe ser positivo.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Oferta: valor pagos' (BT-779-Tender) deberán ajustarse al siguiente patrón: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">A una oferta le falta 'Oferta: valor pagos' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Oferta: valor pagos información adicional' (BT-780-Tender) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Oferta: valor pagos información adicional' (BT-780-Tender) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Oferta: valor pagos información adicional' (BT-780-Tender) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Oferta: valor pagos información adicional' (BT-780-Tender) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Oferta: valor pagos información adicional' (BT-780-Tender) no está permitido cuando: 'Oferta: valor pagos' (BT-779-Tender) no está cumplimentado (en 'E5 – Anuncio voluntario de finalización')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Oferta: valor pagos información adicional' (BT-780-Tender-Language) debe contener un valor de la lista de códigos (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">A una oferta le falta 'Oferta: valor pagos información adicional' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Duración: información adicional' (BT-781-Lot) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Duración: información adicional' (BT-781-Lot) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Duración: información adicional' (BT-781-Lot) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Oferta: sanciones' (BT-782-Tender) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Oferta: sanciones' (BT-782-Tender) debe ser positivo.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Oferta: sanciones' (BT-782-Tender) deberán ajustarse al siguiente patrón: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">A una oferta le falta 'Oferta: sanciones' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Recurso: solicitud o decisión' (BT-783-Review) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Recurso: solicitud o decisión' (BT-783-Review) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Recurso: solicitud o decisión' (BT-783-Review) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Recurso: tipo de remedio' (BT-792-Review) es obligatorio cuando: 'Recurso: tipo de irregularidad' (BT-791-Review) está presente y se trata de una decisión que aprueba al menos en parte la solicitud (en '36 – Anuncio del resultado de un concurso de proyectos. Directiva general, proyecto.')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Recurso: tipo de remedio' (BT-792-Review) es obligatorio cuando: 'Recurso: tipo de irregularidad' (BT-791-Review) está presente y se trata de una decisión que aprueba al menos en parte la solicitud (en '37 – Anuncio del resultado de un concurso de proyectos. Directiva sectorial, proyecto.')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Recurso: tipo de remedio' (BT-792-Review) es obligatorio cuando: 'Recurso: tipo de irregularidad' (BT-791-Review) está presente y se trata de una decisión que aprueba al menos en parte la solicitud (en 'E5 – Anuncio voluntario de finalización')</entry>
+<entry key="rule|text|BR-BT-00792-0102">A una revisión le falta 'Recurso: tipo de remedio' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Recurso: valor del remedio' (BT-793-Review) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Recurso: valor del remedio' (BT-793-Review) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Recurso: valor del remedio' (BT-793-Review) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Recurso: tipo de órgano' (BT-799-ReviewBody) es obligatorio cuando: 'Recurso: solicitud o decisión' (BT-783-Review) está presente y es 'Decisión' y la solicitud no ha sido retirada. (en '35 – Anuncio de adjudicación de concesión. Directiva de concesiones, régimen simplificado.')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Recurso: tipo de órgano' (BT-799-ReviewBody) es obligatorio cuando: 'Recurso: solicitud o decisión' (BT-783-Review) está presente y es 'Decisión' y la solicitud no ha sido retirada. (en '36 – Anuncio del resultado de un concurso de proyectos. Directiva general, proyecto.')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Recurso: tipo de órgano' (BT-799-ReviewBody) es obligatorio cuando: 'Recurso: solicitud o decisión' (BT-783-Review) está presente y es 'Decisión' y la solicitud no ha sido retirada. (en '37 – Anuncio del resultado de un concurso de proyectos. Directiva sectorial, proyecto.')</entry>
+<entry key="rule|text|BR-BT-00799-0098">A una revisión le falta 'Recurso: tipo de órgano' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Plazo recepción de respuestas' (BT-800(d)-Lot) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Plazo recepción de respuestas' (BT-800(d)-Lot) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Plazo recepción de respuestas' (BT-800(d)-Lot) es obligatorio (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Estadísticas de las ofertas recibidas: El número total de 'Ofertas presentadas electrónicamente' (BT-760-LotResult = t-esubm) debe especificarse exactamente una vez</entry>
 <entry key="rule|text|BR-BT-13713-0178">Estadísticas de las ofertas recibidas: El número total de 'Ofertas presentadas electrónicamente' (BT-760-LotResult = t-esubm) debe especificarse exactamente una vez</entry>
 <entry key="rule|text|BR-BT-13713-0179">Estadísticas de las ofertas recibidas: El número total de 'Ofertas presentadas electrónicamente' (BT-760-LotResult = t-esubm) debe especificarse exactamente una vez</entry>
+<entry key="rule|text|BR-BT-13713-0180">A un resultado de lote le falta 'Resultados: identificador de lotes' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identificador del lote o el grupo de lotes' (BT-13714-Tender) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identificador del lote o el grupo de lotes' (BT-13714-Tender) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identificador del lote o el grupo de lotes' (BT-13714-Tender) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'La duración del contrato se amplía debido a los activos esenciales necesarios para la prestación del servicio' (OPP-020-Contract) no está permitido cuando: 'ID técnico del contrato' (OPT-316-Contract) no está cumplimentado (en 'T02 – Anuncio de información para la adjudicación de un contrato de servicio público')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'La duración del contrato se amplía debido a los activos esenciales necesarios para la prestación del servicio' (OPP-020-Contract) debe contener un valor de la lista de códigos (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'La duración del contrato se amplía debido a los activos esenciales necesarios para la prestación del servicio' (OPP-020-Contract) no está permitido (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">A un contrato le falta 'La duración del contrato se amplía debido a los activos esenciales necesarios para la prestación del servicio' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Lista de activos utilizados para la prestación de servicios públicos' (OPP-021-Contract) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Lista de activos utilizados para la prestación de servicios públicos' (OPP-021-Contract) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Lista de activos utilizados para la prestación de servicios públicos' (OPP-021-Contract) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Una organización que actúa como contratista principal no puede tener 'Otros puntos de contacto'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Una organización que actúa como subcontratista no puede tener 'Otros puntos de contacto'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Todo 'ID técnico de la organización (ORG-XXX)' (OPT-200-Organization-Company) existente debe tener al menos una función o subfunción</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Una organización carece de su identificador técnico (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'ID técnico del punto de contacto (TPO-XXX)' (OPT-201-Organization-TouchPoint) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'ID técnico del punto de contacto (TPO-XXX)' (OPT-201-Organization-TouchPoint) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'ID técnico del punto de contacto (TPO-XXX)' (OPT-201-Organization-TouchPoint) no está permitido cuando: 'ID técnico de la organización (ORG-XXX)' (OPT-200-Organization-Company) no está cumplimentado (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'ID técnico del punto de contacto (TPO-XXX)' (OPT-201-Organization-TouchPoint) deberán ajustarse al siguiente patrón: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">El valor de 'ID técnico del punto de contacto (TPO-XXX)' (OPT-201-Organization-TouchPoint) debe ser único</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Todo 'Otros puntos de contacto' existente debe estar asociado con al menos una de las siguientes funciones o subfunciones: 'Organización que proporciona información adicional sobre el procedimiento de contratación'; 'Organización que proporciona acceso fuera de línea a los documentos de la contratación'; 'Organización que proporciona información sobre el marco normativo general en materia de protección de los trabajadores y las condiciones de trabajo aplicable en el lugar en que deba ejecutarse el contrato'; 'Organización que proporciona información sobre el marco normativo general por lo que se refiere a la protección del medio ambiente aplicable en el lugar en que deba ejecutarse el contrato'; 'Organización que proporciona información sobre el marco normativo general por lo que se refiere a la fiscalidad aplicable en el lugar en que deba ejecutarse el contrato'; 'Organización de mediación'; 'Organización que proporciona más información sobre los procedimientos de recurso'; 'Organización de encargada de los procedimientos de recurso', 'Organización que tramita ofertas', 'Organización que tramita solicitudes de participación'; 'Recurso: órgano'; Solicitante de la revisión</entry>
+<entry key="rule|text|BR-OPT-00201-0102">A un punto de contacto le falta 'ID técnico del punto de contacto (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">El valor de 'ID técnico de la parte ofertante (TPA-XXX)' (OPT-210-Tenderer) debe ser único</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Para cada 'ID técnico de la parte ofertante (TPA-XXX)' (OPT-210), si hay más de un licitador (OPT-300-Tenderer), entonces debe haber exactamente un 'Jefe de grupo' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Todo 'ID técnico de la parte ofertante (TPA-XXX)' (OPT-210-Tenderer) existente debe estar asociado con al menos un 'Organización que cumple este papel'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">A un licitador le falta 'ID técnico de la parte ofertante (TPA-XXX)' (OPT-210-Tenderer) o a una oferta le falta 'Parte ofertante' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Nombre de la parte ofertante' (OPT-211-Tenderer) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Nombre de la parte ofertante' (OPT-211-Tenderer) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Nombre de la parte ofertante' (OPT-211-Tenderer) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Licitador' (OPT-300-Tenderer) no está permitido cuando: 'ID técnico de la oferta' (OPT-321-Tender) no existe (en 'E5 – Anuncio voluntario de finalización')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Comprador' (OPT-300-Procedure-Buyer) deberán ajustarse al siguiente patrón: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organización que cumple este papel' (OPT-300-Procedure-Buyer) debe diferenciarse de cualquier otro 'Organización que cumple este papel' en el anuncio.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">A un licitador le falta 'Licitador' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organización cuyo presupuesto se utiliza para pagar el contrato' (OPT-301-LotResult-Financing) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organización cuyo presupuesto se utiliza para pagar el contrato' (OPT-301-LotResult-Financing) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organización cuyo presupuesto se utiliza para pagar el contrato' (OPT-301-LotResult-Financing) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organización o punto de contacto específico' (OPT-301-Part-ReviewOrg-Scheme) debe contener un valor de la lista de códigos (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organización o punto de contacto específico' (OPT-301-Part-TenderEval-Scheme) debe contener un valor de la lista de códigos (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organización o punto de contacto específico' (OPT-301-Part-TenderReceipt-Scheme) debe contener un valor de la lista de códigos (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Al subcontratista de un licitador le falta 'Contratista principal a subcontratista' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">A un licitador le falta 'Subcontratista' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organización que cumple este papel' (OPT-302-Organization) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organización que cumple este papel' (OPT-302-Organization) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organización que cumple este papel' (OPT-302-Organization) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Todo 'ID técnico del contrato' (OPT-316-Contract) existente debe estar asociado con al menos un 'Referencia al contrato' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Todo 'ID técnico del contrato' (OPT-316-Contract) existente debe estar asociado con al menos un 'Referencia al contrato' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Todo 'ID técnico del contrato' (OPT-316-Contract) existente debe estar asociado con al menos un 'Referencia al contrato' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">A un contrato le falta 'ID técnico del contrato' (OPT-316-Contract) o a un resultado de lote le falta 'Referencia al contrato' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'ID técnico de una oferta recibida' (OPT-320-LotResult) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'ID técnico de una oferta recibida' (OPT-320-LotResult) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'ID técnico de una oferta recibida' (OPT-320-LotResult) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'ID técnico de una oferta recibida' (OPT-320-LotResult) no está permitido cuando: No existe LotResult, o no hay licitación para el lote cubierto por el LotResult y no hay licitación para ningún grupo de lotes que contenga el lote del LotResult, o no hay licitación y no se especifica ningún lote para el LotResult (en 'E6 – Anuncio voluntario de modificación de contrato')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Toda referencia a una oferta de (OPT-320-LotResult) debe coincidir con una de las ofertas definidas (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Para un resultado dado de un lote, cada licitación referenciada debe ser para el lote de ese resultado o para un grupo de lotes que contenga ese lote.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">A un resultado de lote le falta 'ID técnico de una oferta recibida' (OPT-320-LotResult), a una oferta le falta 'ID técnico de la oferta' (OPT-321-Tender) o a un contrato le falta 'Contrato: identificador de oferta' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'ID técnico de la oferta' (OPT-321-Tender) no está permitido (en 'X01 – Agrupaciones Europeas de Interés Económico')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'ID técnico de la oferta' (OPT-321-Tender) no está permitido (en 'X02 – Sociedad Anónima Europea/Sociedad Cooperativa Europea')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'ID técnico de la oferta' (OPT-321-Tender) no está permitido (en 'E1 – Anuncio voluntario de consulta previa a la introducción en el mercado')</entry>

@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Toote või teenuse päritoluriik' (BT-191-Tender) ei ole lubatud ( 'E5 – Vabatahtlik lepingu täitmise teade')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Toote või teenuse päritoluriik' (BT-191-Tender) peab sisaldama väärtust koodiloendist (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Toote või teenuse päritoluriik' (BT-191-Tender) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Pakkumusel puudub 'Toote või teenuse päritoluriik' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Pakkumus on alternatiivne lahendus' (BT-193-Tender) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Pakkumus on alternatiivne lahendus' (BT-193-Tender) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Pakkumus on alternatiivne lahendus' (BT-193-Tender) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556-NoticeResult) peab vastama järgmisele skeemile: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556-NoticeResult) peab olema seotud olemasoleva elemendiga 'Menetluse tulemus – osad' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556-NoticeResult) peab erinema mis tahes muust 'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' teates.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Raamlepingu rühma väärtusel puudub 'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Nõutav on juurdepääsuluba' (BT-578-Lot) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Nõutav on juurdepääsuluba' (BT-578-Lot) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Nõutav on juurdepääsuluba' (BT-578-Lot) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Allhangete kohustuslik märkimine' (BT-651-Lot) ei ole lubatud, kui: 'Pakkuja peab allhanget puudutava kohustuse täitma' (BT-66) ei ole täidetud ('9 – Eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks – kaitsealane direktiiv')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Allhangete kohustuslik märkimine' (BT-651-Lot) ei ole lubatud, kui: 'Pakkuja peab allhanget puudutava kohustuse täitma' (BT-66) ei ole täidetud ('E3 – Vabatahtlik hanketeade')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Allhangete kohustuslik märkimine' (BT-651-Lot) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Pakkumise osal puudub 'Allhangete kohustuslik märkimine' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Raamlepingu ümberarvutatud eeldatav maksumus osade rühma lõikes' (BT-660-LotResult) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Raamlepingu ümberarvutatud eeldatav maksumus osade rühma lõikes' (BT-660-LotResult) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Raamlepingu ümberarvutatud eeldatav maksumus osade rühma lõikes' (BT-660-LotResult) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Pakkumistaotluste arv, mis kuuluvad selle IPI meetme alla' (BT-686-LotResult) peab vastama järgmisele skeemile: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Pakkumistaotluste arv, mis kuuluvad selle IPI meetme alla' (BT-686-LotResult) peab olema väiksem või võrdne järgmisega: 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Pakkumistaotluste arv, mis kuuluvad selle IPI meetme alla' (BT-686-LotResult) peab olema suurem või võrdne järgmisega: 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Pakkumise osa tulemusel puudub 'Pakkumistaotluste arv, mis kuuluvad selle IPI meetme alla' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Erandid IPI meetme kohaldamisest' (BT-687-LotResult) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Erandid IPI meetme kohaldamisest' (BT-687-LotResult) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Erandid IPI meetme kohaldamisest' (BT-687-LotResult) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Omaniku kodakondsus' (BT-706-UBO) ei ole lubatud, kui: 'UBO tehniline ID (UBO-XXX)' (OPT-202-UBO) ei ole täidetud ('E4 – Vabatahtlik lepingu sõlmimise teade')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Omaniku kodakondsus' (BT-706-UBO) ei ole lubatud, kui: 'UBO tehniline ID (UBO-XXX)' (OPT-202-UBO) ei ole täidetud ('E5 – Vabatahtlik lepingu täitmise teade')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Omaniku kodakondsus' (BT-706-UBO) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Tegelikul kasusaajal puudub 'Omaniku kodakondsus' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Teatavatele hankedokumentidele juurdepääsu piiramise põhjendus' (BT-707-Part) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Teatavatele hankedokumentidele juurdepääsu piiramise põhjendus' (BT-707-Part) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Teatavatele hankedokumentidele juurdepääsu piiramise põhjendus' (BT-707-Part) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Kaebuse esitajate arv' (BT-712(b)-LotResult) peab vastama järgmisele skeemile: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Kaebuse esitajate arv' (BT-712(b)-LotResult) peab olema väiksem või võrdne järgmisega: 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Kaebuse esitajate arv' (BT-712(b)-LotResult) peab olema suurem või võrdne järgmisega: 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Pakkumise osa tulemusel puudub 'Kaebuse esitajate arv' (BT-712(b)-LotResult) või 'Hankija vaidlustustaotluste arv' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' (BT-717-Lot) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' (BT-717-Lot) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' (BT-717-Lot) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot-ThresholdNumber) ei ole lubatud ( 'E5 – Vabatahtlik lepingu täitmise teade')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot-WeightNumber) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot-ThresholdNumber) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Valikukriteeriumi parameetril puudub 'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot-ThresholdNumber) või 'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Puuetega inimeste ligipääsetavuse kriteeriumide kasutamine tehnilistes kirjeldustes' (BT-754-Lot) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Puuetega inimeste ligipääsetavuse kriteeriumide kasutamine tehnilistes kirjeldustes' (BT-754-Lot) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Puuetega inimeste ligipääsetavuse kriteeriumide kasutamine tehnilistes kirjeldustes' (BT-754-Lot) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Laekunud pakkumuste või osalemistaotluste arv' (BT-759-LotResult) peab vastama järgmisele skeemile: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Laekunud pakkumuste või osalemistaotluste arv' (BT-759-LotResult) peab olema väiksem või võrdne järgmisega: 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Laekunud pakkumuste või osalemistaotluste arv' (BT-759-LotResult) peab olema suurem või võrdne järgmisega: 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Pakkumise osa tulemusel puudub 'Laekunud pakkumuste või osalemistaotluste arv' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Laekunud taotluste ja pakkumuste liik' (BT-760-LotResult) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Laekunud taotluste ja pakkumuste liik' (BT-760-LotResult) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Laekunud taotluste ja pakkumuste liik' (BT-760-LotResult) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Allhanked' (BT-773-Tender) ei ole lubatud, kui: 'Pakkumuse tehniline tunnus' (OPT-321-Tender) ei ole täidetud ('29 – Hankelepingu sõlmimise teade – ülddirektiiv, üldkord')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Allhanked' (BT-773-Tender) ei ole lubatud, kui: 'Pakkumuse tehniline tunnus' (OPT-321-Tender) ei ole täidetud ('30 – Hankelepingu sõlmimise teade – valdkondlik direktiiv, üldkord')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Allhanked' (BT-773-Tender) ei ole lubatud, kui: 'Pakkumuse tehniline tunnus' (OPT-321-Tender) ei ole täidetud ('31 – Hankelepingu sõlmimise teade – kaitsealane direktiiv, üldkord')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Pakkumusel puudub 'Allhanked' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Keskkonnamõju vähendamist käsitlev lähenemisviis' (BT-774-Lot) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Keskkonnamõju vähendamist käsitlev lähenemisviis' (BT-774-Lot) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Keskkonnamõju vähendamist käsitlev lähenemisviis' (BT-774-Lot) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Pakkumus – maksete summa' (BT-779-Tender) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Pakkumus – maksete summa' (BT-779-Tender) peab olema positiivne.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Pakkumus – maksete summa' (BT-779-Tender) peab vastama järgmisele skeemile: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Pakkumusel puudub 'Pakkumus – maksete summa' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Pakkumus – maksete summa – lisateave' (BT-780-Tender) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Pakkumus – maksete summa – lisateave' (BT-780-Tender) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Pakkumus – maksete summa – lisateave' (BT-780-Tender) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Pakkumus – maksete summa – lisateave' (BT-780-Tender) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Pakkumus – maksete summa – lisateave' (BT-780-Tender) ei ole lubatud, kui: 'Pakkumus – maksete summa' (BT-779-Tender) ei ole täidetud ('E5 – Vabatahtlik lepingu täitmise teade')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Pakkumus – maksete summa – lisateave' (BT-780-Tender-Language) peab sisaldama väärtust koodiloendist (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Pakkumusel puudub 'Pakkumus – maksete summa – lisateave' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Lepingu kestus – lisateave' (BT-781-Lot) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Lepingu kestus – lisateave' (BT-781-Lot) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Lepingu kestus – lisateave' (BT-781-Lot) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Pakkumus – leppetrahvid' (BT-782-Tender) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Pakkumus – leppetrahvid' (BT-782-Tender) peab olema positiivne.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Pakkumus – leppetrahvid' (BT-782-Tender) peab vastama järgmisele skeemile: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Pakkumusel puudub 'Pakkumus – leppetrahvid' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Vaidlustus - õiguskaitsevahendi liik' (BT-792-Review) on kohustuslik, kui: 'Vaidlustus - rikkumise liik' (BT-791-Review) on olemas ja see puudutab otsust, mis vähemalt osaliselt kiidab taotluse heaks ('36 – Ideekonkursi tulemuse teade – ülddirektiiv, idee')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Vaidlustus - õiguskaitsevahendi liik' (BT-792-Review) on kohustuslik, kui: 'Vaidlustus - rikkumise liik' (BT-791-Review) on olemas ja see puudutab otsust, mis vähemalt osaliselt kiidab taotluse heaks ('37 – Ideekonkursi tulemuse teade – valdkondlik direktiiv, idee')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Vaidlustus - õiguskaitsevahendi liik' (BT-792-Review) on kohustuslik, kui: 'Vaidlustus - rikkumise liik' (BT-791-Review) on olemas ja see puudutab otsust, mis vähemalt osaliselt kiidab taotluse heaks ('E5 – Vabatahtlik lepingu täitmise teade')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Läbivaatamisel puudub 'Vaidlustus - õiguskaitsevahendi liik' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Vaidlustus - õiguskaitsevahendi maksumus' (BT-793-Review) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Vaidlustus - õiguskaitsevahendi maksumus' (BT-793-Review) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Vaidlustus - õiguskaitsevahendi maksumus' (BT-793-Review) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Vaidlustusorgani liik' (BT-799-ReviewBody) on kohustuslik, kui: 'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) on olemas ja see on 'Otsus' ja taotlust ei ole tagasi võetud. ('35 – Kontsessiooni andmise teade – kontsessioonidirektiiv, lihtsustatud kord')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Vaidlustusorgani liik' (BT-799-ReviewBody) on kohustuslik, kui: 'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) on olemas ja see on 'Otsus' ja taotlust ei ole tagasi võetud. ('36 – Ideekonkursi tulemuse teade – ülddirektiiv, idee')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Vaidlustusorgani liik' (BT-799-ReviewBody) on kohustuslik, kui: 'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) on olemas ja see on 'Otsus' ja taotlust ei ole tagasi võetud. ('37 – Ideekonkursi tulemuse teade – valdkondlik direktiiv, idee')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Läbivaatamisel puudub 'Vaidlustusorgani liik' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Vastuste kättesaamise tähtpäev' (BT-800(d)-Lot) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Vastuste kättesaamise tähtpäev' (BT-800(d)-Lot) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Vastuste kättesaamise tähtpäev' (BT-800(d)-Lot) on kohustuslik ('E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Saadud pakkumuste statistika: 'Elektrooniliselt esitatud pakkumused' (BT-760-LotResult = t-esubm) koguarv tuleb täpselt üks kord ära märkida</entry>
 <entry key="rule|text|BR-BT-13713-0178">Saadud pakkumuste statistika: 'Elektrooniliselt esitatud pakkumused' (BT-760-LotResult = t-esubm) koguarv tuleb täpselt üks kord ära märkida</entry>
 <entry key="rule|text|BR-BT-13713-0179">Saadud pakkumuste statistika: 'Elektrooniliselt esitatud pakkumused' (BT-760-LotResult = t-esubm) koguarv tuleb täpselt üks kord ära märkida</entry>
+<entry key="rule|text|BR-BT-13713-0180">Pakkumise osa tulemusel puudub 'Tulemus – osa tunnus' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Osa või osade rühma tunnus' (BT-13714-Tender) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Osa või osade rühma tunnus' (BT-13714-Tender) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Osa või osade rühma tunnus' (BT-13714-Tender) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Lepingu kestust pikendatakse teenuse osutamiseks vajalike põhivarade tõttu' (OPP-020-Contract) ei ole lubatud, kui: 'Lepingu tehniline ID' (OPT-316-Contract) ei ole täidetud ('T02 – Avaliku teenindamise lepingu teade')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Lepingu kestust pikendatakse teenuse osutamiseks vajalike põhivarade tõttu' (OPP-020-Contract) peab sisaldama väärtust koodiloendist (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Lepingu kestust pikendatakse teenuse osutamiseks vajalike põhivarade tõttu' (OPP-020-Contract) ei ole lubatud ( 'E6 – Vabatahtlik lepingu muutmise teade')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Lepingul puudub 'Lepingu kestust pikendatakse teenuse osutamiseks vajalike põhivarade tõttu' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Avalike teenuste osutamiseks kasutatavate varade loetelu' (OPP-021-Contract) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Avalike teenuste osutamiseks kasutatavate varade loetelu' (OPP-021-Contract) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Avalike teenuste osutamiseks kasutatavate varade loetelu' (OPP-021-Contract) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organisatsioon, mis tegutseb peatöövõtjana, ei saa omada 'Muud kontaktpunktid'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organisatsioon, mis tegutseb alltöövõtjana, ei saa omada 'Muud kontaktpunktid'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Iga olemasolev 'Organisatsiooni tehniline ID (ORG-XXX)' (OPT-200-Organization-Company) peab evima vähemalt ühte rolli või alamrolli</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organisatsioonil puudub tehniline tunnus (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Kontaktpunkti tehniline ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Kontaktpunkti tehniline ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Kontaktpunkti tehniline ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) ei ole lubatud, kui: 'Organisatsiooni tehniline ID (ORG-XXX)' (OPT-200-Organization-Company) ei ole täidetud ('E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Kontaktpunkti tehniline ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) peab vastama järgmisele skeemile: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Kontaktpunkti tehniline ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) väärtus peab olema kordumatu väärtus</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Iga olemasolev 'Muud kontaktpunktid' peab olema seotud vähemalt ühega järgmistest rollidest või alamrollidest: 'Organisatsioon, mis annab lisateavet hankemenetluse kohta'; 'Hankedokumentidele internetivälist juurdepääsu pakkuv organisatsioon'; 'Organisatsioon, mis annab teavet tööhõivekaitset ja töötingimusi käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas'; 'Organisatsioon, mis annab teavet keskkonnakaitset käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas'; 'Organisatsioon, mis annab teavet lepingu täitmise kohas kohaldatavate maksude üldise õigusraamistiku kohta'; 'Lepitusorganisatsioon'; 'Organisatsioon, mis annab lisateavet vaidlustamise kohta'; 'Läbivaatav organisatsioon', 'Pakkumusi menetlev organisatsioon', 'Osalustaotlusi menetlev organisatsioon'; 'Vaidlustusorgan'; läbivaatamise taotleja</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Kontaktpunktil puudub 'Kontaktpunkti tehniline ID (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO tehniline ID (UBO-XXX)' (OPT-202-UBO) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO tehniline ID (UBO-XXX)' (OPT-202-UBO) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO tehniline ID (UBO-XXX)' (OPT-202-UBO) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Hankemenetluses osaleja tehniline tunnus (TPA-XXX)' (OPT-210-Tenderer) väärtus peab olema kordumatu väärtus</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Kui iga 'Hankemenetluses osaleja tehniline tunnus (TPA-XXX)' (OPT-210) kohta on rohkem kui üks pakkuja (OPT-300-Tenderer), siis peab olemas olema täpselt üks 'Rühmajuht' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Iga olemasolev 'Hankemenetluses osaleja tehniline tunnus (TPA-XXX)' (OPT-210-Tenderer) peab olema seotud vähemalt ühe järgmise üksusega: 'Organisatsioon, mis täidab seda rolli'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Pakkujal puudub 'Hankemenetluses osaleja tehniline tunnus (TPA-XXX)' (OPT-210-Tenderer) või pakkumisel puudub 'Hankemenetluses osaleja' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Hankemenetluses osaleja nimi' (OPT-211-Tenderer) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Hankemenetluses osaleja nimi' (OPT-211-Tenderer) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Hankemenetluses osaleja nimi' (OPT-211-Tenderer) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Pakkuja' (OPT-300-Tenderer) ei ole lubatud, kui: 'Pakkumuse tehniline tunnus' (OPT-321-Tender) puudub ('E5 – Vabatahtlik lepingu täitmise teade')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Hankija' (OPT-300-Procedure-Buyer) peab vastama järgmisele skeemile: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Seda rolli täitev organisatsioon' (OPT-300-Procedure-Buyer) peab erinema mis tahes muust 'Seda rolli täitev organisatsioon' teates.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Pakkujal puudub 'Pakkuja' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisatsioon, kelle eelarvet kasutatakse lepingu eest tasumiseks' (OPT-301-LotResult-Financing) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisatsioon, kelle eelarvet kasutatakse lepingu eest tasumiseks' (OPT-301-LotResult-Financing) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisatsioon, kelle eelarvet kasutatakse lepingu eest tasumiseks' (OPT-301-LotResult-Financing) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisatsioon või konkreetne kontaktpunkt' (OPT-301-Part-ReviewOrg-Scheme) peab sisaldama väärtust koodiloendist (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisatsioon või konkreetne kontaktpunkt' (OPT-301-Part-TenderEval-Scheme) peab sisaldama väärtust koodiloendist (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisatsioon või konkreetne kontaktpunkt' (OPT-301-Part-TenderReceipt-Scheme) peab sisaldama väärtust koodiloendist (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Pakkuja alltöövõtjal puudub 'Põhiettevõtja alltöövõtjale' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Pakkujal puudub 'Alltöövõtja' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisatsioon, mis täidab seda rolli' (OPT-302-Organization) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisatsioon, mis täidab seda rolli' (OPT-302-Organization) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisatsioon, mis täidab seda rolli' (OPT-302-Organization) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Iga olemasolev 'Lepingu tehniline ID' (OPT-316-Contract) peab olema seotud vähemalt ühega järgmistest: 'Viide lepingule' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Iga olemasolev 'Lepingu tehniline ID' (OPT-316-Contract) peab olema seotud vähemalt ühega järgmistest: 'Viide lepingule' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Iga olemasolev 'Lepingu tehniline ID' (OPT-316-Contract) peab olema seotud vähemalt ühega järgmistest: 'Viide lepingule' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Lepingul puudub 'Lepingu tehniline ID' (OPT-316-Contract) või pakkumise osa tulemusel puudub 'Viide lepingule' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Saadud pakkumuse tehniline tunnus' (OPT-320-LotResult) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Saadud pakkumuse tehniline tunnus' (OPT-320-LotResult) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Saadud pakkumuse tehniline tunnus' (OPT-320-LotResult) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Saadud pakkumuse tehniline tunnus' (OPT-320-LotResult) ei ole lubatud, kui: LotResult puudub või puudub pakkumine LotResultiga hõlmatud osa jaoks ja puudub pakkumine ühegi osa grupi jaoks, mis sisaldaks LotResulti osa, või puudub pakkumine ja LotResulti jaoks pole määratud ühtegi osa ('E6 – Vabatahtlik lepingu muutmise teade')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Iga viide pakkumusele, mis lähtub üksuselt (OPT-320-LotResult), peab vastama ühele määratletud pakkumisele (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Antud tulemuse korral peab iga viidatud pakkumine olema kas selle tulemuse partii või partii grupi jaoks, mis sisaldab seda partiid.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Pakkumise osa tulemusel puudub 'Saadud pakkumuse tehniline tunnus' (OPT-320-LotResult), pakkumisel puudub 'Pakkumuse tehniline tunnus' (OPT-321-Tender) või lepingul puudub 'Leping – pakkumus – tunnus' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Pakkumuse tehniline tunnus' (OPT-321-Tender) ei ole lubatud ( 'X01 – Euroopa majandushuviühing')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Pakkumuse tehniline tunnus' (OPT-321-Tender) ei ole lubatud ( 'X02 – Euroopa äriühing / Euroopa ühistu')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Pakkumuse tehniline tunnus' (OPT-321-Tender) ei ole lubatud ( 'E1 – Vabatahtlik hanke-eelne turu-uuring')</entry>
