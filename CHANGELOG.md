@@ -1,4 +1,4 @@
-# SDK 1.16.0-rc.2 Release Notes
+# SDK 1.16.0-rc.3 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.15.1 should also be able to use this version.
 
@@ -55,12 +55,12 @@ In addition to the changes with regards to the new 'undisclosed fields' approach
 Synchronisation of the code lists with their latest versions on EU Vocabularies: https://op.europa.eu/en/web/eu-vocabularies.
 
 ### Updates on labels and translations
-Updates to business term/field name, description and hint labels, code labels, auxiliary labels, groups labels, expression labels and rule labels and their translations.
+Updates to business term/field name, description and hint labels, code labels, auxiliary labels, groups labels, expression labels and rule labels and their translations, including the messages of the schematron rules added to replace the removed 'minOccurs' checks at schema level.
 
 <br>
 <br>
 
 This release note does not cover the details of all changes.
 
-A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-rc.2 can be seen at https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-rc.2 or through the SDK Explorer https://docs.ted.europa.eu/eforms-sdk-explorer/.
+A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-rc.3 can be seen at https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-rc.3 or through the SDK Explorer https://docs.ted.europa.eu/eforms-sdk-explorer/.
 
