@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Az áru vagy a szolgáltatás származási országa' (BT-191-Tender) nem engedélyezett ('E5 – Önkéntes tájékoztató szerződés teljesítéséről')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Az áru vagy a szolgáltatás származási országa' (BT-191-Tender) mindenképpen tartalmazzon egy értéket a(z) (country) kódlistából</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Az áru vagy a szolgáltatás származási országa' (BT-191-Tender) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Az ajánlatból hiányzik: 'Az áru vagy a szolgáltatás származási országa' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Az ajánlat az egyik változat' (BT-193-Tender) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Az ajánlat az egyik változat' (BT-193-Tender) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Az ajánlat az egyik változat' (BT-193-Tender) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556-NoticeResult) mindenképpen feleljen meg következő mintának: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556-NoticeResult) társítva kell, hogy legyen egy meglévő 'Eljárás részére vonatkozó eredmény' (BT-137-LotsGroup) elemmel</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556-NoticeResult) meg kell különböznie minden más 'Csoportos keretmegállapodáson belüli érték – részazonosító'-től az értesítésben.</entry>
+<entry key="rule|text|BR-BT-00556-0102">A keretmegállapodás csoportértékéből hiányzik: 'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Biztonsági átvilágítást kell végezni' (BT-578-Lot) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Biztonsági átvilágítást kell végezni' (BT-578-Lot) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Biztonsági átvilágítást kell végezni' (BT-578-Lot) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Az alvállalkozásba adás kötelező feltüntetése' (BT-651-Lot) nem engedélyezett, amikor: 'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-66) nincs kitöltve ('9 – Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató – védelmi irányelv')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Az alvállalkozásba adás kötelező feltüntetése' (BT-651-Lot) nem engedélyezett, amikor: 'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-66) nincs kitöltve ('E3 – Önkéntes eljárást megindító hirdetmény')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Az alvállalkozásba adás kötelező feltüntetése' (BT-651-Lot) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
+<entry key="rule|text|BR-BT-00651-0055">A részből hiányzik: 'Az alvállalkozásba adás kötelező feltüntetése' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'A tenderkérelmek száma, amelyek ezen az IPI intézkedésen belül esnek' (BT-686-LotResult) mindenképpen feleljen meg következő mintának: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'A tenderkérelmek száma, amelyek ezen az IPI intézkedésen belül esnek' (BT-686-LotResult) nem lehet nagyobb, mint: 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'A tenderkérelmek száma, amelyek ezen az IPI intézkedésen belül esnek' (BT-686-LotResult) nem lehet kisebb, mint: 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">A rész eredményéből hiányzik: 'A tenderkérelmek száma, amelyek ezen az IPI intézkedésen belül esnek' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Kivétel az IPI intézkedés alkalmazásából' (BT-687-LotResult) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Kivétel az IPI intézkedés alkalmazásából' (BT-687-LotResult) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Kivétel az IPI intézkedés alkalmazásából' (BT-687-LotResult) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'A tulajdonos állampolgársága' (BT-706-UBO) nem engedélyezett, amikor: 'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nincs kitöltve ('E4 – Önkéntes tájékoztató az eljárás eredményéről')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'A tulajdonos állampolgársága' (BT-706-UBO) nem engedélyezett, amikor: 'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nincs kitöltve ('E5 – Önkéntes tájékoztató szerződés teljesítéséről')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'A tulajdonos állampolgársága' (BT-706-UBO) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
+<entry key="rule|text|BR-BT-00706-0069">A tényleges tulajdonosból hiányzik: 'A tulajdonos állampolgársága' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Az egyes közbeszerzési dokumentumokhoz való hozzáférés korlátozásának indoklása' (BT-707-Part) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Az egyes közbeszerzési dokumentumokhoz való hozzáférés korlátozásának indoklása' (BT-707-Part) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Az egyes közbeszerzési dokumentumokhoz való hozzáférés korlátozásának indoklása' (BT-707-Part) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'A panaszosok száma' (BT-712(b)-LotResult) mindenképpen feleljen meg következő mintának: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'A panaszosok száma' (BT-712(b)-LotResult) nem lehet nagyobb, mint: 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'A panaszosok száma' (BT-712(b)-LotResult) nem lehet kisebb, mint: 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">A rész eredményéből hiányzik: 'A panaszosok száma' (BT-712(b)-LotResult) vagy 'Vevői felülvizsgálati kérelmek száma' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' (BT-717-Lot) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' (BT-717-Lot) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' (BT-717-Lot) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot-ThresholdNumber) nem engedélyezett ('E5 – Önkéntes tájékoztató szerződés teljesítéséről')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot-WeightNumber) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot-ThresholdNumber) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
+<entry key="rule|text|BR-BT-00752-0103">A kiválasztási kritérium paraméteréből hiányzik: 'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot-ThresholdNumber) vagy 'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'A fogyatékossággal élő személyek javát szolgáló akadálymentesítési kritériumok alkalmazása a műszaki leírásokban' (BT-754-Lot) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'A fogyatékossággal élő személyek javát szolgáló akadálymentesítési kritériumok alkalmazása a műszaki leírásokban' (BT-754-Lot) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'A fogyatékossággal élő személyek javát szolgáló akadálymentesítési kritériumok alkalmazása a műszaki leírásokban' (BT-754-Lot) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'A beérkezett ajánlatok vagy részvételi jelentkezések száma' (BT-759-LotResult) mindenképpen feleljen meg következő mintának: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'A beérkezett ajánlatok vagy részvételi jelentkezések száma' (BT-759-LotResult) nem lehet nagyobb, mint: 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'A beérkezett ajánlatok vagy részvételi jelentkezések száma' (BT-759-LotResult) nem lehet kisebb, mint: 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">A rész eredményéből hiányzik: 'A beérkezett ajánlatok vagy részvételi jelentkezések száma' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'A benyújtott beadványok típusa' (BT-760-LotResult) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'A benyújtott beadványok típusa' (BT-760-LotResult) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'A benyújtott beadványok típusa' (BT-760-LotResult) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Alvállalkozás' (BT-773-Tender) nem engedélyezett, amikor: 'Az ajánlat technikai azonosítója' (OPT-321-Tender) nincs kitöltve ('29 – Tájékoztató az eljárás eredményéről – általános irányelv, klasszikus ajánlatkérőkre vonatkozó szabályok')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Alvállalkozás' (BT-773-Tender) nem engedélyezett, amikor: 'Az ajánlat technikai azonosítója' (OPT-321-Tender) nincs kitöltve ('30 – Tájékoztató az eljárás eredményéről – ágazati irányelv, általános rész')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Alvállalkozás' (BT-773-Tender) nem engedélyezett, amikor: 'Az ajánlat technikai azonosítója' (OPT-321-Tender) nincs kitöltve ('31 – Tájékoztató az eljárás eredményéről – védelmi irányelv, általános rész')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Az ajánlatból hiányzik: 'Alvállalkozás' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'A környezeti hatások csökkentését célzó módszer' (BT-774-Lot) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'A környezeti hatások csökkentését célzó módszer' (BT-774-Lot) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'A környezeti hatások csökkentését célzó módszer' (BT-774-Lot) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Ajánlat kifizetési értéke' (BT-779-Tender) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Ajánlat kifizetési értéke' (BT-779-Tender) pozitívnak kell lennie.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Ajánlat kifizetési értéke' (BT-779-Tender) mindenképpen feleljen meg következő mintának: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Az ajánlatból hiányzik: 'Ajánlat kifizetési értéke' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender) nem engedélyezett, amikor: 'Ajánlat kifizetési értéke' (BT-779-Tender) nincs kitöltve ('E5 – Önkéntes tájékoztató szerződés teljesítéséről')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender-Language) mindenképpen tartalmazzon egy értéket a(z) (eu-official-language) kódlistából</entry>
+<entry key="rule|text|BR-BT-00780-0056">Az ajánlatból hiányzik: 'Ajánlat kifizetési értéke – kiegészítő információk' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Időtartam – további információk' (BT-781-Lot) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Időtartam – további információk' (BT-781-Lot) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Időtartam – további információk' (BT-781-Lot) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Ajánlat – szankciók' (BT-782-Tender) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Ajánlat – szankciók' (BT-782-Tender) pozitívnak kell lennie.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Ajánlat – szankciók' (BT-782-Tender) mindenképpen feleljen meg következő mintának: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Az ajánlatból hiányzik: 'Ajánlat – szankciók' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Jogorvoslatiintézkedés típusa' (BT-792-Review) kötelező, amikor: 'Jogorvoslat– szabálytalanság típusa' (BT-791-Review) jelen van és egy olyan döntésről van szó, amely legalább részben jóváhagyja a kérelmet ('36 – Tervpályázat eredményéről szóló hirdetmény – általános irányelv, tervezés')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Jogorvoslatiintézkedés típusa' (BT-792-Review) kötelező, amikor: 'Jogorvoslat– szabálytalanság típusa' (BT-791-Review) jelen van és egy olyan döntésről van szó, amely legalább részben jóváhagyja a kérelmet ('37 – Tervpályázat eredményéről szóló hirdetmény – ágazati irányelv, tervezés')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Jogorvoslatiintézkedés típusa' (BT-792-Review) kötelező, amikor: 'Jogorvoslat– szabálytalanság típusa' (BT-791-Review) jelen van és egy olyan döntésről van szó, amely legalább részben jóváhagyja a kérelmet ('E5 – Önkéntes tájékoztató szerződés teljesítéséről')</entry>
+<entry key="rule|text|BR-BT-00792-0102">A jogorvoslatból hiányzik: 'Jogorvoslatiintézkedés típusa' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Jogorvoslatiintézkedés értéke' (BT-793-Review) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Jogorvoslatiintézkedés értéke' (BT-793-Review) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Jogorvoslatiintézkedés értéke' (BT-793-Review) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Jogorvoslati szerv típusa' (BT-799-ReviewBody) kötelező, amikor: 'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) jelen van és 'Döntés' és a kérelmet nem vonták vissza. ('35 – Koncesszió odaítéléséről szóló hirdetmény – koncessziós irányelv, enyhébb szabályozás')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Jogorvoslati szerv típusa' (BT-799-ReviewBody) kötelező, amikor: 'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) jelen van és 'Döntés' és a kérelmet nem vonták vissza. ('36 – Tervpályázat eredményéről szóló hirdetmény – általános irányelv, tervezés')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Jogorvoslati szerv típusa' (BT-799-ReviewBody) kötelező, amikor: 'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) jelen van és 'Döntés' és a kérelmet nem vonták vissza. ('37 – Tervpályázat eredményéről szóló hirdetmény – ágazati irányelv, tervezés')</entry>
+<entry key="rule|text|BR-BT-00799-0098">A jogorvoslatból hiányzik: 'Jogorvoslati szerv típusa' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Határidő – válaszok beérkezése' (BT-800(d)-Lot) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Határidő – válaszok beérkezése' (BT-800(d)-Lot) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Határidő – válaszok beérkezése' (BT-800(d)-Lot) kötelező ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Beérkezett ajánlatok statisztikája: A 'Elektronikusan benyújtott ajánlatok' (BT-760-LotResult = t-esubm) teljes számát pontosan egyszer kell megadni</entry>
 <entry key="rule|text|BR-BT-13713-0178">Beérkezett ajánlatok statisztikája: A 'Elektronikusan benyújtott ajánlatok' (BT-760-LotResult = t-esubm) teljes számát pontosan egyszer kell megadni</entry>
 <entry key="rule|text|BR-BT-13713-0179">Beérkezett ajánlatok statisztikája: A 'Elektronikusan benyújtott ajánlatok' (BT-760-LotResult = t-esubm) teljes számát pontosan egyszer kell megadni</entry>
+<entry key="rule|text|BR-BT-13713-0180">A rész eredményéből hiányzik: 'Eredmény – részazonosító' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'A rész vagy a részcsoport azonosítója' (BT-13714-Tender) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'A rész vagy a részcsoport azonosítója' (BT-13714-Tender) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'A rész vagy a részcsoport azonosítója' (BT-13714-Tender) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract) nem engedélyezett, amikor: 'A szerződés technikai azonosítója' (OPT-316-Contract) nincs kitöltve ('T02 – Közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract) mindenképpen tartalmazzon egy értéket a(z) (indicator) kódlistából</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract) nem engedélyezett ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">A szerződésből hiányzik: 'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-021-Contract) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-021-Contract) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-021-Contract) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Egy fővállalkozóként működő szervezet nem rendelkezhet 'Egyéb kapcsolattartó pontok'-vel</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Egy alvállalkozóként működő szervezet nem rendelkezhet 'Egyéb kapcsolattartó pontok'-vel</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Minden létező 'Szervezet technikai azonosítója (ORG-XXX)' (OPT-200-Organization-Company) legalább egy szerepkörrel vagy alfeladattal kell rendelkezzen</entry>
+<entry key="rule|text|BR-OPT-00200-0104">A szervezet nem rendelkezik műszaki azonosítóval (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Érintési pont technikai azonosítója (TPO-XXX)' (OPT-201-Organization-TouchPoint) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Érintési pont technikai azonosítója (TPO-XXX)' (OPT-201-Organization-TouchPoint) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Érintési pont technikai azonosítója (TPO-XXX)' (OPT-201-Organization-TouchPoint) nem engedélyezett, amikor: 'Szervezet technikai azonosítója (ORG-XXX)' (OPT-200-Organization-Company) nincs kitöltve ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Érintési pont technikai azonosítója (TPO-XXX)' (OPT-201-Organization-TouchPoint) mindenképpen feleljen meg következő mintának: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Érintési pont technikai azonosítója (TPO-XXX)' (OPT-201-Organization-TouchPoint) értékének egyedi értéknek kell lennie</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Bármely meglévő 'Egyéb kapcsolattartó pontok' elemhez társítva kell, hogy legyen legalább egy a következő szerepkörökből vagy alszerepkörökből: 'A közbeszerzési eljárással kapcsolatban további információt nyújtó szervezet'; 'A közbeszerzési dokumentumokhoz offline hozzáférést biztosító szervezet'; 'A szerződés teljesítésének helye szerinti országban alkalmazandó általános munkavédelmi és foglalkoztatási feltételekkel kapcsolatos szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet'; 'A szerződés teljesítésének helye szerinti országban alkalmazandó általános környezetvédelmi szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet'; 'A szerződés teljesítésének helye szerinti országban alkalmazandó adók általános szabályozási keretével kapcsolatban tájékoztatást nyújtó szervezet'; 'Közvetítő szervezet'; 'A felülvizsgálati eljárásokról további információkat nyújtó szervezet'; 'Felülvizsgálati szervezet', 'Ajánlatokat feldolgozó szervezet', 'Részvételi jelentkezéseket feldolgozó szervezet'; 'Jogorvoslatiszerv'; Igénylő ellenőrzése</entry>
+<entry key="rule|text|BR-OPT-00201-0102">A kapcsolattartási pontból hiányzik: 'Érintési pont technikai azonosítója (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Ajánlattevő technikai azonosítója (TPA-XXX)' (OPT-210-Tenderer) értékének egyedi értéknek kell lennie</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Minden egyes 'Ajánlattevő technikai azonosítója (TPA-XXX)' (OPT-210) esetében, ha több mint egy pályázó van(OPT-300-Tenderer), akkor pontosan egy 'Csoportvezető' (OPT-170) kell, hogy legyen</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Minden létező 'Ajánlattevő technikai azonosítója (TPA-XXX)' (OPT-210-Tenderer) társítva kell, hogy legyen legalább egy 'Ezt a szerepet betöltő szervezet'(OPT-302-Organization) elemmel</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Az ajánlattevőből hiányzik: 'Ajánlattevő technikai azonosítója (TPA-XXX)' (OPT-210-Tenderer), vagy az ajánlatból hiányzik: 'Ajánlattevő' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Az ajánlattevő neve' (OPT-211-Tenderer) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Az ajánlattevő neve' (OPT-211-Tenderer) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Az ajánlattevő neve' (OPT-211-Tenderer) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Ajánlattevő' (OPT-300-Tenderer) nem engedélyezett, amikor: 'Az ajánlat technikai azonosítója' (OPT-321-Tender) nem létezik ('E5 – Önkéntes tájékoztató szerződés teljesítéséről')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Vevő' (OPT-300-Procedure-Buyer) mindenképpen feleljen meg következő mintának: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Ezt a szerepet betöltő szervezet' (OPT-300-Procedure-Buyer) meg kell különböznie minden más 'Ezt a szerepet betöltő szervezet'-től az értesítésben.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Az ajánlattevőből hiányzik: 'Ajánlattevő' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Az a szervezet, amelynek költségvetését a szerződés kifizetésére használják' (OPT-301-LotResult-Financing) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Az a szervezet, amelynek költségvetését a szerződés kifizetésére használják' (OPT-301-LotResult-Financing) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Az a szervezet, amelynek költségvetését a szerződés kifizetésére használják' (OPT-301-LotResult-Financing) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Szervezet vagy specifikus kapcsolattartó pont' (OPT-301-Part-ReviewOrg-Scheme) mindenképpen tartalmazzon egy értéket a(z) (player-type) kódlistából</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Szervezet vagy specifikus kapcsolattartó pont' (OPT-301-Part-TenderEval-Scheme) mindenképpen tartalmazzon egy értéket a(z) (player-type) kódlistából</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Szervezet vagy specifikus kapcsolattartó pont' (OPT-301-Part-TenderReceipt-Scheme) mindenképpen tartalmazzon egy értéket a(z) (player-type) kódlistából</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Az ajánlattevő alvállalkozójából hiányzik: 'Fővállalkozó az alvállalkozónak' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Az ajánlattevőből hiányzik: 'Alvállalkozó' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Ezt a szerepet betöltő szervezet' (OPT-302-Organization) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Ezt a szerepet betöltő szervezet' (OPT-302-Organization) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Ezt a szerepet betöltő szervezet' (OPT-302-Organization) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Minden létező 'A szerződés technikai azonosítója' (OPT-316-Contract) társítva kell, hogy legyen legalább egy 'Hivatkozás a szerződésre'(OPT-315-LotResult) elemmel</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Minden létező 'A szerződés technikai azonosítója' (OPT-316-Contract) társítva kell, hogy legyen legalább egy 'Hivatkozás a szerződésre'(OPT-315-LotResult) elemmel</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Minden létező 'A szerződés technikai azonosítója' (OPT-316-Contract) társítva kell, hogy legyen legalább egy 'Hivatkozás a szerződésre'(OPT-315-LotResult) elemmel</entry>
+<entry key="rule|text|BR-OPT-00316-0113">A szerződésből hiányzik: 'A szerződés technikai azonosítója' (OPT-316-Contract), vagy a rész eredményéből hiányzik: 'Hivatkozás a szerződésre' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Bekapott ajánlat technikai azonosítója' (OPT-320-LotResult) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Bekapott ajánlat technikai azonosítója' (OPT-320-LotResult) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Bekapott ajánlat technikai azonosítója' (OPT-320-LotResult) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Bekapott ajánlat technikai azonosítója' (OPT-320-LotResult) nem engedélyezett, amikor: Nincs LotResult, vagy nincs ajánlat a LotResult által lefedett tételre, és nincs ajánlat egyetlen tételcsoportra sem, amely tartalmazná a LotResult tételt, vagy nincs ajánlat és nincs tétel meghatározva a LotResult számára ('E6 – Önkéntes tájékoztató szerződésmódosításról')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">(OPT-320-LotResult) a pályázatra történő minden hivatkozásának meg kell felelnie az egyik meghatározott pályázatnak (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Egy adott tétel eredményére vonatkozóan minden hivatkozott tendernek vagy a tétel eredményére, vagy egy olyan tételcsoportra kell vonatkoznia, amely tartalmazza azt a tételt.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">A rész eredményéből hiányzik: 'Bekapott ajánlat technikai azonosítója' (OPT-320-LotResult), az ajánlatból hiányzik: 'Az ajánlat technikai azonosítója' (OPT-321-Tender), vagy a szerződésből hiányzik: 'Szerződés ajánlati azonosítója' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Az ajánlat technikai azonosítója' (OPT-321-Tender) nem engedélyezett ('X01 – Európai gazdasági egyesülés')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Az ajánlat technikai azonosítója' (OPT-321-Tender) nem engedélyezett ('X02 – Európai részvénytársaság/európai szövetkezet')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Az ajánlat technikai azonosítója' (OPT-321-Tender) nem engedélyezett ('E1 – Önkéntes piaci konzultációt megelőző hirdetmény')</entry>

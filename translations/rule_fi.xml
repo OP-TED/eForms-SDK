@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Tuotteen tai palvelun alkuperämaa' (BT-191-Tender) ei ole sallittu ('E5 – Vapaaehtoinen toteutusilmoitus')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Tuotteen tai palvelun alkuperämaa' (BT-191-Tender) on sisällettävä arvo koodiluettelosta (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Tuotteen tai palvelun alkuperämaa' (BT-191-Tender) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Tarjouksesta puuttuu 'Tuotteen tai palvelun alkuperämaa' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Tarjous on vaihtoehtoinen tarjous' (BT-193-Tender) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Tarjous on vaihtoehtoinen tarjous' (BT-193-Tender) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Tarjous on vaihtoehtoinen tarjous' (BT-193-Tender) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Osien ryhmän arvo puitejärjestelyssä – Osien tunniste' (BT-556-NoticeResult) on vastattava seuraavaa mallia: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Osien ryhmän arvo puitejärjestelyssä – Osien tunniste' (BT-556-NoticeResult) on liityttävä olemassa olevaan 'Menettelyn osakohtaiset tulokset' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Osien ryhmän arvo puitejärjestelyssä – Osien tunniste' (BT-556-NoticeResult) on oltava erilainen kuin mikä tahansa muu 'Osien ryhmän arvo puitejärjestelyssä – Osien tunniste' ilmoituksessa.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Puitejärjestelyn ryhmäarvosta puuttuu 'Osien ryhmän arvo puitejärjestelyssä – Osien tunniste' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Turvallisuusselvitys vaaditaan' (BT-578-Lot) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Turvallisuusselvitys vaaditaan' (BT-578-Lot) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Turvallisuusselvitys vaaditaan' (BT-578-Lot) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Tarjouksessa ilmoitettavat alihankintaa koskevat tiedot' (BT-651-Lot) ei ole sallittu, kun: 'Alihankintaa koskeva velvoite, joka tarjoajan on täytettävä' (BT-66) ei ole täytetty ('9 – Ennakkoilmoitus tarjousten vastaanottamisen määräaikojen lyhentämiseksi – puolustusdirektiivi')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Tarjouksessa ilmoitettavat alihankintaa koskevat tiedot' (BT-651-Lot) ei ole sallittu, kun: 'Alihankintaa koskeva velvoite, joka tarjoajan on täytettävä' (BT-66) ei ole täytetty ('E3 – Vapaaehtoinen hankintailmoitus')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Tarjouksessa ilmoitettavat alihankintaa koskevat tiedot' (BT-651-Lot) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Osasta puuttuu 'Tarjouksessa ilmoitettavat alihankintaa koskevat tiedot' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Tarjoushakemusten määrä, jotka kuuluvat tämän IPI-toimenpiteen piiriin' (BT-686-LotResult) on vastattava seuraavaa mallia: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Kentän Tarjoushakemusten määrä, jotka kuuluvat tämän IPI-toimenpiteen piiriin' (BT-686-LotResult) arvon on oltava enintään 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Kentän Tarjoushakemusten määrä, jotka kuuluvat tämän IPI-toimenpiteen piiriin' (BT-686-LotResult) arvon on oltava vähintään 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Osan tuloksesta puuttuu 'Tarjoushakemusten määrä, jotka kuuluvat tämän IPI-toimenpiteen piiriin' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Poikkeus IPI-toimenpiteen soveltamisesta' (BT-687-LotResult) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Poikkeus IPI-toimenpiteen soveltamisesta' (BT-687-LotResult) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Poikkeus IPI-toimenpiteen soveltamisesta' (BT-687-LotResult) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Omistajan kansalaisuus' (BT-706-UBO) ei ole sallittu, kun: 'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole täytetty ('E4 – Vapaaehtoinen jälki-ilmoitus')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Omistajan kansalaisuus' (BT-706-UBO) ei ole sallittu, kun: 'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole täytetty ('E5 – Vapaaehtoinen toteutusilmoitus')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Omistajan kansalaisuus' (BT-706-UBO) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Tosiasialliselta edunsaajalta puuttuu 'Omistajan kansalaisuus' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Perustelut tiettyjen hankinta-asiakirjojen saatavuuden rajoittamiselle' (BT-707-Part) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Perustelut tiettyjen hankinta-asiakirjojen saatavuuden rajoittamiselle' (BT-707-Part) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Perustelut tiettyjen hankinta-asiakirjojen saatavuuden rajoittamiselle' (BT-707-Part) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Valituksen tekijöiden lukumäärä' (BT-712(b)-LotResult) on vastattava seuraavaa mallia: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Kentän Valituksen tekijöiden lukumäärä' (BT-712(b)-LotResult) arvon on oltava enintään 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Kentän Valituksen tekijöiden lukumäärä' (BT-712(b)-LotResult) arvon on oltava vähintään 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Osan tuloksesta puuttuu 'Valituksen tekijöiden lukumäärä' (BT-712(b)-LotResult) tai 'Muutoksenhakujen lukumäärä' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717-Lot) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717-Lot) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717-Lot) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Valintaperusteen luku' (BT-752-Lot-ThresholdNumber) ei ole sallittu ('E5 – Vapaaehtoinen toteutusilmoitus')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Valintaperusteen luku' (BT-752-Lot-WeightNumber) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Valintaperusteen luku' (BT-752-Lot-ThresholdNumber) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Valintaperusteen parametrilta puuttuu 'Valintaperusteen luku' (BT-752-Lot-ThresholdNumber) tai 'Valintaperusteen luku' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Esteettömyysvaatimusten käyttö teknisissä eritelmissä vammaisia henkilöitä varten' (BT-754-Lot) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Esteettömyysvaatimusten käyttö teknisissä eritelmissä vammaisia henkilöitä varten' (BT-754-Lot) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Esteettömyysvaatimusten käyttö teknisissä eritelmissä vammaisia henkilöitä varten' (BT-754-Lot) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Saatujen tarjousten/osallistumishakemusten määrä' (BT-759-LotResult) on vastattava seuraavaa mallia: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Kentän Saatujen tarjousten/osallistumishakemusten määrä' (BT-759-LotResult) arvon on oltava enintään 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Kentän Saatujen tarjousten/osallistumishakemusten määrä' (BT-759-LotResult) arvon on oltava vähintään 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Osan tuloksesta puuttuu 'Saatujen tarjousten/osallistumishakemusten määrä' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Vastaanotettujen tarjousten/osallistumishakemusten tyyppi' (BT-760-LotResult) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Vastaanotettujen tarjousten/osallistumishakemusten tyyppi' (BT-760-LotResult) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Vastaanotettujen tarjousten/osallistumishakemusten tyyppi' (BT-760-LotResult) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Alihankinta' (BT-773-Tender) ei ole sallittu, kun: 'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole täytetty ('29 – Jälki-ilmoitus – yleisdirektiivi, vakiojärjestelmä')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Alihankinta' (BT-773-Tender) ei ole sallittu, kun: 'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole täytetty ('30 – Jälki-ilmoitus – toimialakohtainen direktiivi, vakiojärjestelmä')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Alihankinta' (BT-773-Tender) ei ole sallittu, kun: 'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole täytetty ('31 – Jälki-ilmoitus – puolustusdirektiivi, vakiojärjestelmä')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Tarjouksesta puuttuu 'Alihankinta' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Lähestymistapa ympäristövaikutusten vähentämiseen' (BT-774-Lot) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Lähestymistapa ympäristövaikutusten vähentämiseen' (BT-774-Lot) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Lähestymistapa ympäristövaikutusten vähentämiseen' (BT-774-Lot) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Tarjoukseen liittyvien maksujen arvo' (BT-779-Tender) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Tarjoukseen liittyvien maksujen arvo' (BT-779-Tender) on oltava positiivinen.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Tarjoukseen liittyvien maksujen arvo' (BT-779-Tender) on vastattava seuraavaa mallia: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Tarjouksesta puuttuu 'Tarjoukseen liittyvien maksujen arvo' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender) ei ole sallittu, kun: 'Tarjoukseen liittyvien maksujen arvo' (BT-779-Tender) ei ole täytetty ('E5 – Vapaaehtoinen toteutusilmoitus')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender-Language) on sisällettävä arvo koodiluettelosta (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Tarjouksesta puuttuu 'Lisätiedot tarjoukseen liittyvistä maksuista' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Lisätiedot kestosta' (BT-781-Lot) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Lisätiedot kestosta' (BT-781-Lot) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Lisätiedot kestosta' (BT-781-Lot) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Tarjoukseen liittyvät seuraamukset' (BT-782-Tender) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Tarjoukseen liittyvät seuraamukset' (BT-782-Tender) on oltava positiivinen.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Tarjoukseen liittyvät seuraamukset' (BT-782-Tender) on vastattava seuraavaa mallia: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Tarjouksesta puuttuu 'Tarjoukseen liittyvät seuraamukset' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Muutoksenhaun korjaustoimenpiteen tyyppi' (BT-792-Review) on pakollinen, kun: 'Muutoksenhaussa väitetyn sääntöjenvastaisuuden tyyppi' (BT-791-Review) on läsnä ja kyse on päätöksestä, joka ainakin osittain hyväksyy pyynnön ('36 – Ilmoitus suunnittelukilpailun tuloksista – yleisdirektiivi, suunnittelu')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Muutoksenhaun korjaustoimenpiteen tyyppi' (BT-792-Review) on pakollinen, kun: 'Muutoksenhaussa väitetyn sääntöjenvastaisuuden tyyppi' (BT-791-Review) on läsnä ja kyse on päätöksestä, joka ainakin osittain hyväksyy pyynnön ('37 – Ilmoitus suunnittelukilpailun tuloksista – toimialakohtainen direktiivi, suunnittelu')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Muutoksenhaun korjaustoimenpiteen tyyppi' (BT-792-Review) on pakollinen, kun: 'Muutoksenhaussa väitetyn sääntöjenvastaisuuden tyyppi' (BT-791-Review) on läsnä ja kyse on päätöksestä, joka ainakin osittain hyväksyy pyynnön ('E5 – Vapaaehtoinen toteutusilmoitus')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Muutoksenhausta puuttuu 'Muutoksenhaun korjaustoimenpiteen tyyppi' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Muutoksenhaun korjaustoimenpiteen arvo' (BT-793-Review) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Muutoksenhaun korjaustoimenpiteen arvo' (BT-793-Review) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Muutoksenhaun korjaustoimenpiteen arvo' (BT-793-Review) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Muutoksenhakuelimen tyyppi' (BT-799-ReviewBody) on pakollinen, kun: 'Muutoksenhakupyyntö tai päätös' (BT-783-Review) on läsnä ja se on 'Päätös' ja pyyntöä ei ole peruutettu. ('35 – Käyttöoikeussopimuksia koskeva jälki-ilmoitus – käyttöoikeussopimusdirektiivi, kevennetty järjestely')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Muutoksenhakuelimen tyyppi' (BT-799-ReviewBody) on pakollinen, kun: 'Muutoksenhakupyyntö tai päätös' (BT-783-Review) on läsnä ja se on 'Päätös' ja pyyntöä ei ole peruutettu. ('36 – Ilmoitus suunnittelukilpailun tuloksista – yleisdirektiivi, suunnittelu')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Muutoksenhakuelimen tyyppi' (BT-799-ReviewBody) on pakollinen, kun: 'Muutoksenhakupyyntö tai päätös' (BT-783-Review) on läsnä ja se on 'Päätös' ja pyyntöä ei ole peruutettu. ('37 – Ilmoitus suunnittelukilpailun tuloksista – toimialakohtainen direktiivi, suunnittelu')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Muutoksenhausta puuttuu 'Muutoksenhakuelimen tyyppi' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Vastausten määräaika' (BT-800(d)-Lot) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Vastausten määräaika' (BT-800(d)-Lot) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Vastausten määräaika' (BT-800(d)-Lot) on pakollinen ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Vastaanotettujen tarjousten tilastot: 'Sähköisesti tehdyt tarjoukset' (BT-760-LotResult = t-esubm) on ilmoitettava täsmälleen kerran</entry>
 <entry key="rule|text|BR-BT-13713-0178">Vastaanotettujen tarjousten tilastot: 'Sähköisesti tehdyt tarjoukset' (BT-760-LotResult = t-esubm) on ilmoitettava täsmälleen kerran</entry>
 <entry key="rule|text|BR-BT-13713-0179">Vastaanotettujen tarjousten tilastot: 'Sähköisesti tehdyt tarjoukset' (BT-760-LotResult = t-esubm) on ilmoitettava täsmälleen kerran</entry>
+<entry key="rule|text|BR-BT-13713-0180">Osan tuloksesta puuttuu 'Tulokset – Osan tunniste' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Osan tai osien ryhmän tunniste' (BT-13714-Tender) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Osan tai osien ryhmän tunniste' (BT-13714-Tender) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Osan tai osien ryhmän tunniste' (BT-13714-Tender) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Sopimuksen voimassaoloa pidennetään palvelun tarjoamiseen tarvittavan keskeisen omaisuuden perusteella' (OPP-020-Contract) ei ole sallittu, kun: 'Sopimuksen tekninen ID' (OPT-316-Contract) ei ole täytetty ('T02 – Ilmoitus julkisia palveluhankintoja koskevan sopimuksen tekemisestä')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Sopimuksen voimassaoloa pidennetään palvelun tarjoamiseen tarvittavan keskeisen omaisuuden perusteella' (OPP-020-Contract) on sisällettävä arvo koodiluettelosta (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Sopimuksen voimassaoloa pidennetään palvelun tarjoamiseen tarvittavan keskeisen omaisuuden perusteella' (OPP-020-Contract) ei ole sallittu ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Sopimuksesta puuttuu 'Sopimuksen voimassaoloa pidennetään palvelun tarjoamiseen tarvittavan keskeisen omaisuuden perusteella' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Luettelo julkisten palvelujen tarjoamisessa käytettävästä omaisuudesta' (OPP-021-Contract) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Luettelo julkisten palvelujen tarjoamisessa käytettävästä omaisuudesta' (OPP-021-Contract) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Luettelo julkisten palvelujen tarjoamisessa käytettävästä omaisuudesta' (OPP-021-Contract) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Pääurakoitsijana toimiva organisaatio ei voi olla 'Muut yhteyspisteet'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Alihankkijana toimiva organisaatio ei voi olla 'Muut yhteyspisteet'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Olemassa olevalla 'Organisaation tekninen ID (ORG-XXX)' (OPT-200-Organization-Company) on oltava vähintään yksi rooli tai alarooli</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organisaatiolta puuttuu sen tekninen tunniste (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Yhteyspisteen tekninen ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Yhteyspisteen tekninen ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Yhteyspisteen tekninen ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) ei ole sallittu, kun: 'Organisaation tekninen ID (ORG-XXX)' (OPT-200-Organization-Company) ei ole täytetty ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Yhteyspisteen tekninen ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) on vastattava seuraavaa mallia: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Yhteyspisteen tekninen ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) arvon on oltava yksilöivä arvo</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Olemassa olevan kohteen 'Muut yhteyspisteet' on liityttävä vähintään yhteen seuraavista rooleista tai alarooleista: 'Hankintamenettelystä lisätietoja antava organisaatio', 'Hankinta-asiakirjoja offline-tilassa tarjoava organisaatio', 'Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista työsuojelua ja työehtoja koskevista yleisistä säännöksistä tietoja antava organisaatio', 'Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista ympäristönsuojelua koskevista yleisistä säännöksistä tietoja antava organisaatio', 'Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista verotusta koskevista yleisistä säännöksistä tietoja antava organisaatio', 'Välityselin', 'Muutoksenhakumenettelyjen määräajoista lisätietoja tarjoava organisaatio', 'Muutoksenhakuelin', 'Tarjouksia käsittelevä organisaatio', 'Osallistumishakemuksia käsittelevä organisaatio', 'Muutoksenhakuelin', tarkistuksen pyytäjä</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Yhteyspisteeltä puuttuu 'Yhteyspisteen tekninen ID (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Tarjoavan osapuolen tekninen ID (TPA-XXX)' (OPT-210-Tenderer) arvon on oltava yksilöivä arvo</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Kullekin kohteelle 'Tarjoavan osapuolen tekninen ID (TPA-XXX)' (OPT-210), jos tarjoajia on useampi kuin yksi (OPT-300-Tenderer), on oltava tasan yksi 'Ryhmänvetäjä' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Jokaisen olemassa olevan kohteen 'Tarjoavan osapuolen tekninen ID (TPA-XXX)' (OPT-210-Tenderer) on liityttävä vähintään yhteen kohteeseen 'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Tarjoajalta puuttuu 'Tarjoavan osapuolen tekninen ID (TPA-XXX)' (OPT-210-Tenderer) tai tarjouksesta puuttuu 'Tarjoava osapuoli' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Tarjoavan osapuolen nimi' (OPT-211-Tenderer) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Tarjoavan osapuolen nimi' (OPT-211-Tenderer) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Tarjoavan osapuolen nimi' (OPT-211-Tenderer) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Tarjoaja' (OPT-300-Tenderer) ei ole sallittu, kun: 'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole olemassa ('E5 – Vapaaehtoinen toteutusilmoitus')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Ostaja' (OPT-300-Procedure-Buyer) on vastattava seuraavaa mallia: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organisaatio, joka täyttää tämän roolin' (OPT-300-Procedure-Buyer) on oltava erilainen kuin mikä tahansa muu 'Organisaatio, joka täyttää tämän roolin' ilmoituksessa.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Tarjoajalta puuttuu 'Tarjoaja' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisaatio, jonka talousarviosta sopimus rahoitetaan' (OPT-301-LotResult-Financing) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisaatio, jonka talousarviosta sopimus rahoitetaan' (OPT-301-LotResult-Financing) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisaatio, jonka talousarviosta sopimus rahoitetaan' (OPT-301-LotResult-Financing) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisaatio tai tietty yhteyshenkilö' (OPT-301-Part-ReviewOrg-Scheme) on sisällettävä arvo koodiluettelosta (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisaatio tai tietty yhteyshenkilö' (OPT-301-Part-TenderEval-Scheme) on sisällettävä arvo koodiluettelosta (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisaatio tai tietty yhteyshenkilö' (OPT-301-Part-TenderReceipt-Scheme) on sisällettävä arvo koodiluettelosta (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Tarjoajan alihankkijalta puuttuu 'Päätoteuttaja alihankkijalle' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Tarjoajalta puuttuu 'Alihankkija' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Jokaisen olemassa olevan kohteen 'Sopimuksen tekninen ID' (OPT-316-Contract) on liityttävä vähintään yhteen kohteeseen 'Viittaus sopimukseen' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Jokaisen olemassa olevan kohteen 'Sopimuksen tekninen ID' (OPT-316-Contract) on liityttävä vähintään yhteen kohteeseen 'Viittaus sopimukseen' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Jokaisen olemassa olevan kohteen 'Sopimuksen tekninen ID' (OPT-316-Contract) on liityttävä vähintään yhteen kohteeseen 'Viittaus sopimukseen' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Sopimuksesta puuttuu 'Sopimuksen tekninen ID' (OPT-316-Contract) tai osan tuloksesta puuttuu 'Viittaus sopimukseen' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Saadun tarjouksen tekninen ID' (OPT-320-LotResult) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Saadun tarjouksen tekninen ID' (OPT-320-LotResult) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Saadun tarjouksen tekninen ID' (OPT-320-LotResult) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Saadun tarjouksen tekninen ID' (OPT-320-LotResult) ei ole sallittu, kun: LotResultia ei ole, tai ei ole tarjousta LotResultin kattamalle erälle eikä tarjousta millekään eräryhmälle, joka sisältäisi LotResultin erän, tai ei ole tarjousta eikä LotResultille ole määritelty mitään erää ('E6 – Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Jokaisen viittauksen tarjoukseen (OPT-320-LotResult) on vastattava yhtä määritellyistä tarjouksista (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Tietyn erän tuloksen osalta jokaisen viitatun tarjouksen on oltava joko kyseisen tuloksen erä tai eräryhmä, joka sisältää kyseisen erän.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Osan tuloksesta puuttuu 'Saadun tarjouksen tekninen ID' (OPT-320-LotResult), tarjouksesta puuttuu 'Tarjouksen tekninen ID' (OPT-321-Tender) tai sopimuksesta puuttuu 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole sallittu ('X01 – Eurooppalainen taloudellinen etuyhtymä')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole sallittu ('X02 – Eurooppayhtiö / Eurooppaosuuskunta')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Tarjouksen tekninen ID' (OPT-321-Tender) ei ole sallittu ('E1 – Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus')</entry>

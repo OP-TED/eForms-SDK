@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Ursprungsland des Produkts oder der Dienstleistung' (BT-191-Tender) ist nicht erlaubt (in 'E5 – Freiwillige Bekanntmachung über die Auftragsausführung')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Ursprungsland des Produkts oder der Dienstleistung' (BT-191-Tender) muss einen Wert aus der Codeliste enthalten (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Ursprungsland des Produkts oder der Dienstleistung' (BT-191-Tender) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
+<entry key="rule|text|BR-BT-00191-0053">Bei einem Angebot fehlt 'Ursprungsland des Produkts oder der Dienstleistung' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Bei dem Angebot handelt es sich um eine Variante' (BT-193-Tender) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Bei dem Angebot handelt es sich um eine Variante' (BT-193-Tender) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Bei dem Angebot handelt es sich um eine Variante' (BT-193-Tender) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556-NoticeResult) muss dem folgenden Muster entsprechen: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556-NoticeResult) muss verbunden sein mit einem bestehenden 'Verfahrensergebnis per Los' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556-NoticeResult) muss sich von jedem anderen 'Wert Rahmenvereinbarung, Gruppe, Loskennung' in der Bekanntmachung unterscheiden.</entry>
+<entry key="rule|text|BR-BT-00556-0102">Beim Wert der Gruppe der Rahmenvereinbarung fehlt 'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Sicherheitsüberprüfung ist erforderlich' (BT-578-Lot) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Sicherheitsüberprüfung ist erforderlich' (BT-578-Lot) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Sicherheitsüberprüfung ist erforderlich' (BT-578-Lot) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obligatorische Angabe der Vergabe von Unteraufträgen' (BT-651-Lot) ist nicht erlaubt, wenn: 'Eine Verpflichtung des Bieters bezüglich der Vergabe von Unteraufträgen.' (BT-66) ist nicht ausgefüllt (in '9 – Vorinformation zum Zweck der Verkürzung der Frist für den Eingang der Angebote – Richtlinie für die Beschaffung im Bereich Verteidigung')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obligatorische Angabe der Vergabe von Unteraufträgen' (BT-651-Lot) ist nicht erlaubt, wenn: 'Eine Verpflichtung des Bieters bezüglich der Vergabe von Unteraufträgen.' (BT-66) ist nicht ausgefüllt (in 'E3 – Freiwillige Auftragsbekanntmachung')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obligatorische Angabe der Vergabe von Unteraufträgen' (BT-651-Lot) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
+<entry key="rule|text|BR-BT-00651-0055">Bei einem Los fehlt 'Obligatorische Angabe der Vergabe von Unteraufträgen' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Neu geschätzter Wert der Rahmenvereinbarung' (BT-660-LotResult) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Neu geschätzter Wert der Rahmenvereinbarung' (BT-660-LotResult) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Neu geschätzter Wert der Rahmenvereinbarung' (BT-660-LotResult) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Anzahl der Angebotsanträge, die unter diese IPI-Maßnahme fallen' (BT-686-LotResult) muss dem folgenden Muster entsprechen: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Anzahl der Angebotsanträge, die unter diese IPI-Maßnahme fallen' (BT-686-LotResult) muss kleiner oder gleich 9999 sein</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Anzahl der Angebotsanträge, die unter diese IPI-Maßnahme fallen' (BT-686-LotResult) muss größer oder gleich 0 sein</entry>
+<entry key="rule|text|BR-BT-00686-0063">Bei einem Losergebnis fehlt 'Anzahl der Angebotsanträge, die unter diese IPI-Maßnahme fallen' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Ausnahme von der Anwendung der IPI-Maßnahme' (BT-687-LotResult) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Ausnahme von der Anwendung der IPI-Maßnahme' (BT-687-LotResult) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Ausnahme von der Anwendung der IPI-Maßnahme' (BT-687-LotResult) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Staatsangehörigkeit des Eigentümers' (BT-706-UBO) ist nicht erlaubt, wenn: 'Technische ID des UBO (UBO-XXX)' (OPT-202-UBO) ist nicht ausgefüllt (in 'E4 – Freiwillige Vergabebekanntmachung')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Staatsangehörigkeit des Eigentümers' (BT-706-UBO) ist nicht erlaubt, wenn: 'Technische ID des UBO (UBO-XXX)' (OPT-202-UBO) ist nicht ausgefüllt (in 'E5 – Freiwillige Bekanntmachung über die Auftragsausführung')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Staatsangehörigkeit des Eigentümers' (BT-706-UBO) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Beim wirtschaftlichen Eigentümer fehlt 'Staatsangehörigkeit des Eigentümers' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Begründung für die Beschränkung des Zugangs zu bestimmten Auftragsunterlagen' (BT-707-Part) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Begründung für die Beschränkung des Zugangs zu bestimmten Auftragsunterlagen' (BT-707-Part) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Begründung für die Beschränkung des Zugangs zu bestimmten Auftragsunterlagen' (BT-707-Part) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Anzahl der Beschwerdeführer' (BT-712(b)-LotResult) muss dem folgenden Muster entsprechen: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Anzahl der Beschwerdeführer' (BT-712(b)-LotResult) muss kleiner oder gleich 9999 sein</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Anzahl der Beschwerdeführer' (BT-712(b)-LotResult) muss größer oder gleich 0 sein</entry>
+<entry key="rule|text|BR-BT-00712-0154">Bei einem Losergebnis fehlt 'Anzahl der Beschwerdeführer' (BT-712(b)-LotResult) oder 'Anzahl der Nachprüfungsanträge – Beschaffer' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' (BT-717-Lot) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' (BT-717-Lot) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' (BT-717-Lot) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot-ThresholdNumber) ist nicht erlaubt (in 'E5 – Freiwillige Bekanntmachung über die Auftragsausführung')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot-WeightNumber) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot-ThresholdNumber) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
+<entry key="rule|text|BR-BT-00752-0103">Beim Parameter des Auswahlkriteriums fehlt 'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot-ThresholdNumber) oder 'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Die Verwendung von Zugänglichkeitskriterien für Menschen mit Behinderungen in den technischen Spezifikationen' (BT-754-Lot) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Die Verwendung von Zugänglichkeitskriterien für Menschen mit Behinderungen in den technischen Spezifikationen' (BT-754-Lot) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Die Verwendung von Zugänglichkeitskriterien für Menschen mit Behinderungen in den technischen Spezifikationen' (BT-754-Lot) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Anzahl der eingegangenen Angebote oder Teilnahmeanträge' (BT-759-LotResult) muss dem folgenden Muster entsprechen: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Anzahl der eingegangenen Angebote oder Teilnahmeanträge' (BT-759-LotResult) muss kleiner oder gleich 9999 sein</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Anzahl der eingegangenen Angebote oder Teilnahmeanträge' (BT-759-LotResult) muss größer oder gleich 0 sein</entry>
+<entry key="rule|text|BR-BT-00759-0103">Bei einem Losergebnis fehlt 'Anzahl der eingegangenen Angebote oder Teilnahmeanträge' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Art der eingegangenen Einreichungen' (BT-760-LotResult) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Art der eingegangenen Einreichungen' (BT-760-LotResult) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Art der eingegangenen Einreichungen' (BT-760-LotResult) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht erlaubt, wenn: 'Technische ID des Angebots' (OPT-321-Tender) ist nicht ausgefüllt (in '29 – Vergabebekanntmachung – allgemeine Richtlinie, Standardregelung')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht erlaubt, wenn: 'Technische ID des Angebots' (OPT-321-Tender) ist nicht ausgefüllt (in '30 – Vergabebekanntmachung – Sektorenrichtlinie, Standardregelung')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht erlaubt, wenn: 'Technische ID des Angebots' (OPT-321-Tender) ist nicht ausgefüllt (in '31 – Vergabebekanntmachung – Richtlinie für Beschaffung im Bereich Verteidigung, Standardregelung')</entry>
+<entry key="rule|text|BR-BT-00773-0056">Bei einem Angebot fehlt 'Vergabe von Unteraufträgen' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Konzept zur Verringerung der Umweltauswirkungen' (BT-774-Lot) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Konzept zur Verringerung der Umweltauswirkungen' (BT-774-Lot) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Konzept zur Verringerung der Umweltauswirkungen' (BT-774-Lot) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Angebot – Wert der Zahlungen' (BT-779-Tender) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Angebot – Wert der Zahlungen' (BT-779-Tender) muss positiv sein.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Angebot – Wert der Zahlungen' (BT-779-Tender) muss dem folgenden Muster entsprechen: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">Bei einem Angebot fehlt 'Angebot – Wert der Zahlungen' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender) ist nicht erlaubt, wenn: 'Angebot – Wert der Zahlungen' (BT-779-Tender) ist nicht ausgefüllt (in 'E5 – Freiwillige Bekanntmachung über die Auftragsausführung')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender-Language) muss einen Wert aus der Codeliste enthalten (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">Bei einem Angebot fehlt 'Angebot – Wert der Zahlungen, zusätzliche Angaben' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Laufzeit – Zusätzliche Angaben' (BT-781-Lot) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Laufzeit – Zusätzliche Angaben' (BT-781-Lot) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Laufzeit – Zusätzliche Angaben' (BT-781-Lot) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Angebot – Strafgebühren' (BT-782-Tender) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Angebot – Strafgebühren' (BT-782-Tender) muss positiv sein.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Angebot – Strafgebühren' (BT-782-Tender) muss dem folgenden Muster entsprechen: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">Bei einem Angebot fehlt 'Angebot – Strafgebühren' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review) ist obligatorisch, wenn: 'Nachprüfung – Art der Unregelmäßigkeit' (BT-791-Review) ist vorhanden und es handelt sich um eine Entscheidung, die den Antrag zumindest teilweise genehmigt (in '36 – Bekanntmachung über das Ergebnis des Wettbewerbs – allgemeine Richtlinie, Wettbewerb')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review) ist obligatorisch, wenn: 'Nachprüfung – Art der Unregelmäßigkeit' (BT-791-Review) ist vorhanden und es handelt sich um eine Entscheidung, die den Antrag zumindest teilweise genehmigt (in '37 – Bekanntmachung über das Ergebnis des Wettbewerbs – Sektorenrichtlinie, Wettbewerb')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review) ist obligatorisch, wenn: 'Nachprüfung – Art der Unregelmäßigkeit' (BT-791-Review) ist vorhanden und es handelt sich um eine Entscheidung, die den Antrag zumindest teilweise genehmigt (in 'E5 – Freiwillige Bekanntmachung über die Auftragsausführung')</entry>
+<entry key="rule|text|BR-BT-00792-0102">Bei einer Nachprüfung fehlt 'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Nachprüfung – Wert der Abhilfemaßnahme' (BT-793-Review) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Nachprüfung – Wert der Abhilfemaßnahme' (BT-793-Review) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Nachprüfung – Wert der Abhilfemaßnahme' (BT-793-Review) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Nachprüfungsstelle – Typ' (BT-799-ReviewBody) ist obligatorisch, wenn: 'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist vorhanden und es ist 'Beschluss' und die Anfrage wurde nicht zurückgezogen. (in '35 – Zuschlagsbekanntmachung – Konzessionsrichtlinie, Sonderregelung')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Nachprüfungsstelle – Typ' (BT-799-ReviewBody) ist obligatorisch, wenn: 'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist vorhanden und es ist 'Beschluss' und die Anfrage wurde nicht zurückgezogen. (in '36 – Bekanntmachung über das Ergebnis des Wettbewerbs – allgemeine Richtlinie, Wettbewerb')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Nachprüfungsstelle – Typ' (BT-799-ReviewBody) ist obligatorisch, wenn: 'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist vorhanden und es ist 'Beschluss' und die Anfrage wurde nicht zurückgezogen. (in '37 – Bekanntmachung über das Ergebnis des Wettbewerbs – Sektorenrichtlinie, Wettbewerb')</entry>
+<entry key="rule|text|BR-BT-00799-0098">Bei einer Nachprüfung fehlt 'Nachprüfungsstelle – Typ' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Frist – Eingang der Antworten' (BT-800(d)-Lot) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Frist – Eingang der Antworten' (BT-800(d)-Lot) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Frist – Eingang der Antworten' (BT-800(d)-Lot) ist obligatorisch (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statistiken der erhaltenen Angebote: Die Gesamtzahl von 'Angebote auf elektronischem Wege eingereicht' (BT-760-LotResult = t-esubm) muss genau einmal angegeben werden</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statistiken der erhaltenen Angebote: Die Gesamtzahl von 'Angebote auf elektronischem Wege eingereicht' (BT-760-LotResult = t-esubm) muss genau einmal angegeben werden</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statistiken der erhaltenen Angebote: Die Gesamtzahl von 'Angebote auf elektronischem Wege eingereicht' (BT-760-LotResult = t-esubm) muss genau einmal angegeben werden</entry>
+<entry key="rule|text|BR-BT-13713-0180">Bei einem Losergebnis fehlt 'Ergebnis, Los-– Kennung' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Kennung des Loses oder der Gruppe von Losen' (BT-13714-Tender) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Kennung des Loses oder der Gruppe von Losen' (BT-13714-Tender) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Kennung des Loses oder der Gruppe von Losen' (BT-13714-Tender) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Die Vertragslaufzeit wird verlängert, weil für die Erbringung der Dienstleistung wesentliche Vermögenswerte erforderlich sind' (OPP-020-Contract) ist nicht erlaubt, wenn: 'Technische ID des Vertrags' (OPT-316-Contract) ist nicht ausgefüllt (in 'T02 – Bekanntmachung über vergebene öffentliche Dienstleistungsaufträge')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Die Vertragslaufzeit wird verlängert, weil für die Erbringung der Dienstleistung wesentliche Vermögenswerte erforderlich sind' (OPP-020-Contract) muss einen Wert aus der Codeliste enthalten (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Die Vertragslaufzeit wird verlängert, weil für die Erbringung der Dienstleistung wesentliche Vermögenswerte erforderlich sind' (OPP-020-Contract) ist nicht erlaubt (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">Bei einem Vertrag fehlt 'Die Vertragslaufzeit wird verlängert, weil für die Erbringung der Dienstleistung wesentliche Vermögenswerte erforderlich sind' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Liste der für die Erbringung öffentlicher Dienstleistungen verwendeten Vermögenswerte' (OPP-021-Contract) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Liste der für die Erbringung öffentlicher Dienstleistungen verwendeten Vermögenswerte' (OPP-021-Contract) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Liste der für die Erbringung öffentlicher Dienstleistungen verwendeten Vermögenswerte' (OPP-021-Contract) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Eine Organisation, die als Hauptauftragnehmer fungiert, kann keinen 'Sonstige Kontaktpersonen' haben</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Eine Organisation, die als Subunternehmer fungiert, kann keinen 'Sonstige Kontaktpersonen' haben</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Jedes bestehende 'Technische ID der Organisation (ORG-XXX)' (OPT-200-Organization-Company) muss mindestens eine Rolle oder Unterrolle haben</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Einer Organisation fehlt ihre technische Kennung (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Technische ID des Kontaktpunkts (TPO-XXX)' (OPT-201-Organization-TouchPoint) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Technische ID des Kontaktpunkts (TPO-XXX)' (OPT-201-Organization-TouchPoint) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Technische ID des Kontaktpunkts (TPO-XXX)' (OPT-201-Organization-TouchPoint) ist nicht erlaubt, wenn: 'Technische ID der Organisation (ORG-XXX)' (OPT-200-Organization-Company) ist nicht ausgefüllt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Technische ID des Kontaktpunkts (TPO-XXX)' (OPT-201-Organization-TouchPoint) muss dem folgenden Muster entsprechen: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Technische ID des Kontaktpunkts (TPO-XXX)' (OPT-201-Organization-TouchPoint) Wert muss ein eindeutiger Wert sein</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Jedes bestehende 'Sonstige Kontaktpersonen' muss mit mindestens einer der folgenden Rollen oder Unterrollen assoziiert sein:'Organisation, die zusätzliche Informationen über das Vergabeverfahren bereitstellt'; 'Organisation, die einen Offline-Zugang zu den Vergabeunterlagen bereitstellt'; 'Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden Rechtsrahmen für Arbeitsschutz und Arbeitsbedingungen bereitstellt'; 'Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden umweltrechtlichen Rahmen bereitstellt'; 'Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden steuerrechtlichen Rahmen bereitstellt'; 'Schlichtungsstelle'; 'Organisation, die weitere Informationen für die Nachprüfungsverfahren bereitstellt'; 'Überprüfungsstelle', 'Organisation, die Angebote bearbeitet', 'Organisation, die Teilnahmeanträge bearbeitet'; 'Nachprüfungsstelle' Antrag auf Überprüfung</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Bei einem Kontaktpunkt fehlt 'Technische ID des Kontaktpunkts (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'Technische ID des UBO (UBO-XXX)' (OPT-202-UBO) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'Technische ID des UBO (UBO-XXX)' (OPT-202-UBO) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'Technische ID des UBO (UBO-XXX)' (OPT-202-UBO) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Technische ID der anbietenden Partei (TPA-XXX)' (OPT-210-Tenderer) Wert muss ein eindeutiger Wert sein</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Für jedes 'Technische ID der anbietenden Partei (TPA-XXX)' (OPT-210), wenn es mehr als einen Bieter gibt (OPT-300-Tenderer), muss es genau einen 'Federführendes Mitglied' (OPT-170) geben</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Jedes bestehende 'Technische ID der anbietenden Partei (TPA-XXX)' (OPT-210-Tenderer) muss mit mindestens einem 'Organisation, die diese Rolle ausfüllt'(OPT-302-Organization) assoziiert sein</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Bei einem Bieter fehlt 'Technische ID der anbietenden Partei (TPA-XXX)' (OPT-210-Tenderer) oder bei einem Angebot fehlt 'Anbietende Partei' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Name der anbietenden Partei' (OPT-211-Tenderer) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Name der anbietenden Partei' (OPT-211-Tenderer) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Name der anbietenden Partei' (OPT-211-Tenderer) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Bieter' (OPT-300-Tenderer) ist nicht erlaubt, wenn: 'Technische ID des Angebots' (OPT-321-Tender) existiert nicht (in 'E5 – Freiwillige Bekanntmachung über die Auftragsausführung')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Beschaffer' (OPT-300-Procedure-Buyer) muss dem folgenden Muster entsprechen: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organisation, die diese Rolle ausfüllt' (OPT-300-Procedure-Buyer) muss sich von jedem anderen 'Organisation, die diese Rolle ausfüllt' in der Bekanntmachung unterscheiden.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Bei einem Bieter fehlt 'Bieter' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisation, aus deren Mitteln der Auftrag bezahlt wird' (OPT-301-LotResult-Financing) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisation, aus deren Mitteln der Auftrag bezahlt wird' (OPT-301-LotResult-Financing) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisation, aus deren Mitteln der Auftrag bezahlt wird' (OPT-301-LotResult-Financing) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisation oder spezifischer Kontaktpunkt' (OPT-301-Part-ReviewOrg-Scheme) muss einen Wert aus der Codeliste enthalten (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisation oder spezifischer Kontaktpunkt' (OPT-301-Part-TenderEval-Scheme) muss einen Wert aus der Codeliste enthalten (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisation oder spezifischer Kontaktpunkt' (OPT-301-Part-TenderReceipt-Scheme) muss einen Wert aus der Codeliste enthalten (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Beim Unterauftragnehmer eines Bieters fehlt 'Hauptauftragnehmer an Subunternehmer' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Bei einem Bieter fehlt 'Unterauftragnehmer' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisation, die diese Rolle ausfüllt' (OPT-302-Organization) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisation, die diese Rolle ausfüllt' (OPT-302-Organization) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisation, die diese Rolle ausfüllt' (OPT-302-Organization) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Jeder bestehende 'Technische ID des Vertrags' (OPT-316-Contract) muss mit mindestens einem 'Verweis auf den Vertrag' (OPT-315-LotResult) assoziiert sein</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Jeder bestehende 'Technische ID des Vertrags' (OPT-316-Contract) muss mit mindestens einem 'Verweis auf den Vertrag' (OPT-315-LotResult) assoziiert sein</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Jeder bestehende 'Technische ID des Vertrags' (OPT-316-Contract) muss mit mindestens einem 'Verweis auf den Vertrag' (OPT-315-LotResult) assoziiert sein</entry>
+<entry key="rule|text|BR-OPT-00316-0113">Bei einem Vertrag fehlt 'Technische ID des Vertrags' (OPT-316-Contract) oder bei einem Losergebnis fehlt 'Verweis auf den Vertrag' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Technische ID eines erhaltenen Angebots' (OPT-320-LotResult) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Technische ID eines erhaltenen Angebots' (OPT-320-LotResult) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Technische ID eines erhaltenen Angebots' (OPT-320-LotResult) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Technische ID eines erhaltenen Angebots' (OPT-320-LotResult) ist nicht erlaubt, wenn: Es gibt kein LotResult, oder es gibt keine Ausschreibung für das von LotResult abgedeckte Los und keine Ausschreibung für eine Gruppe von Losen, die das Los des LotResult enthalten würde, oder es gibt keine Ausschreibung und kein Los ist für das LotResult angegeben (in 'E6 – Freiwillige Bekanntmachung einer Auftragsänderung')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Jeder Verweis auf ein Angebot aus (OPT-320-LotResult) muss mit einem der definierten Angebote (OPT-321-Tender) übereinstimmen</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Für ein gegebenes Losergebnis muss jedes referenzierte Angebot entweder für das Los dieses Ergebnisses oder für eine Gruppe von Losen sein, die dieses Los enthält.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Bei einem Losergebnis fehlt 'Technische ID eines erhaltenen Angebots' (OPT-320-LotResult), bei einem Angebot fehlt 'Technische ID des Angebots' (OPT-321-Tender) oder bei einem Vertrag fehlt 'Auftrag, Ausschreibung – Kennung' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Technische ID des Angebots' (OPT-321-Tender) ist nicht erlaubt (in 'X01 – Europäische wirtschaftliche Interessenvereinigung')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Technische ID des Angebots' (OPT-321-Tender) ist nicht erlaubt (in 'X02 – Europäische Gesellschaft/Europäische Genossenschaft')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Technische ID des Angebots' (OPT-321-Tender) ist nicht erlaubt (in 'E1 – Freiwillige Bekanntmachung über vorherige Marktkonsultation')</entry>

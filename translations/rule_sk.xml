@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Krajina pôvodu výrobku alebo služby' (BT-191-Tender) nie je povolené (v 'E5 – Dobrovoľné oznámenie o dokončení')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Krajina pôvodu výrobku alebo služby' (BT-191-Tender) musí obsahovať hodnotu zo zoznamu kódov (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Krajina pôvodu výrobku alebo služby' (BT-191-Tender) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
+<entry key="rule|text|BR-BT-00191-0053">V ponuke chýba 'Krajina pôvodu výrobku alebo služby' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Ponuka je variantné riešenie' (BT-193-Tender) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Ponuka je variantné riešenie' (BT-193-Tender) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Ponuka je variantné riešenie' (BT-193-Tender) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Identifikátor časti rámcovej hodnoty skupiny' (BT-556-NoticeResult) musí zodpovedať tomuto vzoru: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'Identifikátor časti rámcovej hodnoty skupiny' (BT-556-NoticeResult) musí byť spojený s existujúcim 'Výsledok postupu obstarávania podľa časti' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Identifikátor časti rámcovej hodnoty skupiny' (BT-556-NoticeResult) sa musí líšiť od akéhokoľvek iného 'Identifikátor časti rámcovej hodnoty skupiny' v oznámení.</entry>
+<entry key="rule|text|BR-BT-00556-0102">V hodnote skupiny rámcovej dohody chýba 'Identifikátor časti rámcovej hodnoty skupiny' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Vyžaduje sa bezpečnostná previerka' (BT-578-Lot) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Vyžaduje sa bezpečnostná previerka' (BT-578-Lot) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Vyžaduje sa bezpečnostná previerka' (BT-578-Lot) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Povinné označenie zadávania zákaziek subdodávateľom' (BT-651-Lot) nie je povolené, keď: 'Povinnosť, ktorú musí uchádzač splniť v prípade zadania zákazky subdodávateľovi' (BT-66) nie je vyplnený (v '9 – predbežné oznámenie použité na skrátenie lehoty na prijímanie ponúk – smernica o zákazkách v oblasti obrany a bezpečnosti')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Povinné označenie zadávania zákaziek subdodávateľom' (BT-651-Lot) nie je povolené, keď: 'Povinnosť, ktorú musí uchádzač splniť v prípade zadania zákazky subdodávateľovi' (BT-66) nie je vyplnený (v 'E3 – Dobrovoľné oznámenie o vyhlásení obstarávania')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Povinné označenie zadávania zákaziek subdodávateľom' (BT-651-Lot) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
+<entry key="rule|text|BR-BT-00651-0055">V časti chýba 'Povinné označenie zadávania zákaziek subdodávateľom' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Prehodnotená hodnota rámcovej dohody' (BT-660-LotResult) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Prehodnotená hodnota rámcovej dohody' (BT-660-LotResult) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Prehodnotená hodnota rámcovej dohody' (BT-660-LotResult) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Počet ponúk, ktoré spadajú pod toto opatrenie IPI' (BT-686-LotResult) musí zodpovedať tomuto vzoru: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Počet ponúk, ktoré spadajú pod toto opatrenie IPI' (BT-686-LotResult) musí byť menšie alebo sa rovnať 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Počet ponúk, ktoré spadajú pod toto opatrenie IPI' (BT-686-LotResult) musí byť väčšie alebo sa rovnať 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">Vo výsledku časti chýba 'Počet ponúk, ktoré spadajú pod toto opatrenie IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Výnimka z uplatnenia opatrenia IPI' (BT-687-LotResult) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Výnimka z uplatnenia opatrenia IPI' (BT-687-LotResult) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Výnimka z uplatnenia opatrenia IPI' (BT-687-LotResult) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Štátna príslušnosť vlastníka' (BT-706-UBO) nie je povolené, keď: 'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) nie je vyplnený (v 'E4 – Dobrovoľné oznámenie o výsledku obstarávania')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Štátna príslušnosť vlastníka' (BT-706-UBO) nie je povolené, keď: 'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) nie je vyplnený (v 'E5 – Dobrovoľné oznámenie o dokončení')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Štátna príslušnosť vlastníka' (BT-706-UBO) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
+<entry key="rule|text|BR-BT-00706-0069">V konečnom užívateľovi výhod chýba 'Štátna príslušnosť vlastníka' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Odôvodnenie obmedzeného prístupu k určitým súťažným podkladom' (BT-707-Part) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Odôvodnenie obmedzeného prístupu k určitým súťažným podkladom' (BT-707-Part) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Odôvodnenie obmedzeného prístupu k určitým súťažným podkladom' (BT-707-Part) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Počet sťažovateľov' (BT-712(b)-LotResult) musí zodpovedať tomuto vzoru: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Počet sťažovateľov' (BT-712(b)-LotResult) musí byť menšie alebo sa rovnať 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Počet sťažovateľov' (BT-712(b)-LotResult) musí byť väčšie alebo sa rovnať 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">Vo výsledku časti chýba 'Počet sťažovateľov' (BT-712(b)-LotResult) alebo 'Počet žiadostí o preskúmania kupujúcim' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Obstarávanie patrí do rozsahu pôsobnosti smernice Európskeho parlamentu a Rady 2009/33/ES (smernica o ekologických vozidlách)' (BT-717-Lot) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Obstarávanie patrí do rozsahu pôsobnosti smernice Európskeho parlamentu a Rady 2009/33/ES (smernica o ekologických vozidlách)' (BT-717-Lot) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Obstarávanie patrí do rozsahu pôsobnosti smernice Európskeho parlamentu a Rady 2009/33/ES (smernica o ekologických vozidlách)' (BT-717-Lot) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Číslo výzvy spojenej s podmienkami účasti druhej fázy' (BT-752-Lot-ThresholdNumber) nie je povolené (v 'E5 – Dobrovoľné oznámenie o dokončení')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Číslo výzvy spojenej s podmienkami účasti druhej fázy' (BT-752-Lot-WeightNumber) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Číslo výzvy spojenej s podmienkami účasti druhej fázy' (BT-752-Lot-ThresholdNumber) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
+<entry key="rule|text|BR-BT-00752-0103">V parametri výberového kritéria chýba 'Číslo výzvy spojenej s podmienkami účasti druhej fázy' (BT-752-Lot-ThresholdNumber) alebo 'Číslo výzvy spojenej s podmienkami účasti druhej fázy' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Uplatnenie kritérií prístupnosti pre osoby so zdravotným postihnutím, uvedených v technických špecifikáciách' (BT-754-Lot) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Uplatnenie kritérií prístupnosti pre osoby so zdravotným postihnutím, uvedených v technických špecifikáciách' (BT-754-Lot) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Uplatnenie kritérií prístupnosti pre osoby so zdravotným postihnutím, uvedených v technických špecifikáciách' (BT-754-Lot) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Počet prijatých ponúk alebo žiadostí o účasť' (BT-759-LotResult) musí zodpovedať tomuto vzoru: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Počet prijatých ponúk alebo žiadostí o účasť' (BT-759-LotResult) musí byť menšie alebo sa rovnať 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Počet prijatých ponúk alebo žiadostí o účasť' (BT-759-LotResult) musí byť väčšie alebo sa rovnať 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">Vo výsledku časti chýba 'Počet prijatých ponúk alebo žiadostí o účasť' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Typ prijatých ponúk' (BT-760-LotResult) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Typ prijatých ponúk' (BT-760-LotResult) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Typ prijatých ponúk' (BT-760-LotResult) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je povolené, keď: 'Technické ID ponuky' (OPT-321-Tender) nie je vyplnený (v '29 – oznámenie o výsledku verejného obstarávania – všeobecná smernica, štandardný režim')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je povolené, keď: 'Technické ID ponuky' (OPT-321-Tender) nie je vyplnený (v '30 – oznámenie o výsledku obstarávania – sektorová smernica, štandardný režim')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je povolené, keď: 'Technické ID ponuky' (OPT-321-Tender) nie je vyplnený (v '31 – oznámenie o výsledku verejného obstarávania – smernica o zákazkách v oblasti obrany a bezpečnosti, štandardný režim')</entry>
+<entry key="rule|text|BR-BT-00773-0056">V ponuke chýba 'Zadávanie zákaziek subdodávateľom' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Prístup zameraný na znižovanie environmentálnych vplyvov' (BT-774-Lot) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Prístup zameraný na znižovanie environmentálnych vplyvov' (BT-774-Lot) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Prístup zameraný na znižovanie environmentálnych vplyvov' (BT-774-Lot) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Hodnota platieb na základe ponuky' (BT-779-Tender) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Hodnota platieb na základe ponuky' (BT-779-Tender) musí byť pozitívny.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Hodnota platieb na základe ponuky' (BT-779-Tender) musí zodpovedať tomuto vzoru: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">V ponuke chýba 'Hodnota platieb na základe ponuky' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender) nie je povolené, keď: 'Hodnota platieb na základe ponuky' (BT-779-Tender) nie je vyplnený (v 'E5 – Dobrovoľné oznámenie o dokončení')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender-Language) musí obsahovať hodnotu zo zoznamu kódov (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">V ponuke chýba 'Doplňujúce informácie o hodnote platieb na základe ponuky' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Doplňujúce informácie o trvaní' (BT-781-Lot) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Doplňujúce informácie o trvaní' (BT-781-Lot) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Doplňujúce informácie o trvaní' (BT-781-Lot) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Sankcie v súvislosti s ponukou' (BT-782-Tender) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Sankcie v súvislosti s ponukou' (BT-782-Tender) musí byť pozitívny.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Sankcie v súvislosti s ponukou' (BT-782-Tender) musí zodpovedať tomuto vzoru: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">V ponuke chýba 'Sankcie v súvislosti s ponukou' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Typ prostriedku nápravy podľa preskúmania' (BT-792-Review) je povinné, keď: 'Typ nezrovnalosti podľa preskúmania' (BT-791-Review) je prítomný a týka sa rozhodnutia, ktoré aspoň čiastočne schvaľuje žiadosť (v '36 – oznámenie o výsledku súťaže návrhov – všeobecná smernica, návrh')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Typ prostriedku nápravy podľa preskúmania' (BT-792-Review) je povinné, keď: 'Typ nezrovnalosti podľa preskúmania' (BT-791-Review) je prítomný a týka sa rozhodnutia, ktoré aspoň čiastočne schvaľuje žiadosť (v '37 – oznámenie o výsledku súťaže návrhov – sektorová smernica, návrh')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Typ prostriedku nápravy podľa preskúmania' (BT-792-Review) je povinné, keď: 'Typ nezrovnalosti podľa preskúmania' (BT-791-Review) je prítomný a týka sa rozhodnutia, ktoré aspoň čiastočne schvaľuje žiadosť (v 'E5 – Dobrovoľné oznámenie o dokončení')</entry>
+<entry key="rule|text|BR-BT-00792-0102">V preskúmaní chýba 'Typ prostriedku nápravy podľa preskúmania' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Hodnota prostriedku nápravy podľa preskúmania' (BT-793-Review) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Hodnota prostriedku nápravy podľa preskúmania' (BT-793-Review) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Hodnota prostriedku nápravy podľa preskúmania' (BT-793-Review) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Typ orgánu zodpovedného za preskúmanie' (BT-799-ReviewBody) je povinné, keď: 'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) je prítomné a je 'Rozhodnutie' a žiadosť nebola stiahnutá. (v '35 – oznámenie o udelení koncesie – smernica o koncesiách, zjednodušený režim')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Typ orgánu zodpovedného za preskúmanie' (BT-799-ReviewBody) je povinné, keď: 'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) je prítomné a je 'Rozhodnutie' a žiadosť nebola stiahnutá. (v '36 – oznámenie o výsledku súťaže návrhov – všeobecná smernica, návrh')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Typ orgánu zodpovedného za preskúmanie' (BT-799-ReviewBody) je povinné, keď: 'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) je prítomné a je 'Rozhodnutie' a žiadosť nebola stiahnutá. (v '37 – oznámenie o výsledku súťaže návrhov – sektorová smernica, návrh')</entry>
+<entry key="rule|text|BR-BT-00799-0098">V preskúmaní chýba 'Typ orgánu zodpovedného za preskúmanie' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Lehota na doručenie odpovedí' (BT-800(d)-Lot) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Lehota na doručenie odpovedí' (BT-800(d)-Lot) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Lehota na doručenie odpovedí' (BT-800(d)-Lot) je povinné (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Štatistika prijatých ponúk: Celkový počet 'Ponuky podané elektronicky' (BT-760-LotResult = t-esubm) musí byť uvedený presne raz</entry>
 <entry key="rule|text|BR-BT-13713-0178">Štatistika prijatých ponúk: Celkový počet 'Ponuky podané elektronicky' (BT-760-LotResult = t-esubm) musí byť uvedený presne raz</entry>
 <entry key="rule|text|BR-BT-13713-0179">Štatistika prijatých ponúk: Celkový počet 'Ponuky podané elektronicky' (BT-760-LotResult = t-esubm) musí byť uvedený presne raz</entry>
+<entry key="rule|text|BR-BT-13713-0180">Vo výsledku časti chýba 'Identifikátor časti výsledku' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identifikátor časti alebo skupiny častí' (BT-13714-Tender) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identifikátor časti alebo skupiny častí' (BT-13714-Tender) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identifikátor časti alebo skupiny častí' (BT-13714-Tender) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Trvanie zmluvy sa predlžuje z dôvodu základných aktív potrebných na poskytovanie služby' (OPP-020-Contract) nie je povolené, keď: 'Technické ID zmluvy' (OPT-316-Contract) nie je vyplnený (v 'T02 – Oznámenie o zadaní zmlúv o službách vo verejnom záujme')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Trvanie zmluvy sa predlžuje z dôvodu základných aktív potrebných na poskytovanie služby' (OPP-020-Contract) musí obsahovať hodnotu zo zoznamu kódov (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Trvanie zmluvy sa predlžuje z dôvodu základných aktív potrebných na poskytovanie služby' (OPP-020-Contract) nie je povolené (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">V zmluve chýba 'Trvanie zmluvy sa predlžuje z dôvodu základných aktív potrebných na poskytovanie služby' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Zoznam aktív používaných na poskytovanie verejných služieb' (OPP-021-Contract) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Zoznam aktív používaných na poskytovanie verejných služieb' (OPP-021-Contract) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Zoznam aktív používaných na poskytovanie verejných služieb' (OPP-021-Contract) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organizácia, ktorá koná ako hlavný dodávateľ, nemôže mať 'Ostatné kontaktné miesta'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organizácia, ktorá koná ako subdodávateľ, nemôže mať 'Ostatné kontaktné miesta'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Akýkoľvek existujúci 'Technické ID organizácie (ORG-XXX)' (OPT-200-Organization-Company) musí mať aspoň jednu úlohu alebo podúlohu</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organizácii chýba jej technický identifikátor (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Technické ID kontaktného miesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Technické ID kontaktného miesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Technické ID kontaktného miesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) nie je povolené, keď: 'Technické ID organizácie (ORG-XXX)' (OPT-200-Organization-Company) nie je vyplnený (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Technické ID kontaktného miesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) musí zodpovedať tomuto vzoru: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">Hodnota 'Technické ID kontaktného miesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) musí byť jedinečná hodnota</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Všetky existujúce 'Ostatné kontaktné miesta' musia byť spojené aspoň s jednou z týchto úloh alebo vedľajších úloh: 'Organizácia poskytujúca doplňujúce informácie o postupe verejného obstarávania'; 'Organizácia poskytujúca offline prístup k súťažným podkladom'; 'Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre ochranu zamestnanosti a pracovné podmienky uplatňovaného v mieste plnenia zákazky'; 'Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre ochranu životného prostredia uplatňovaného v mieste plnenia zákazky'; 'Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre dane uplatňovaného v mieste plnenia zákazky'; 'Sprostredkovateľská organizácia'; 'Organizácia poskytujúca ďalšie informácie o postupy preskúmania'; 'Organizácia pre preskúmanie', 'Organizácia spracúvajúca ponuky', 'Organizácia spracúvajúca žiadosti o účasť'; 'Orgán zodpovedný za preskúmanie'; žiadateľ o preskúmanie</entry>
+<entry key="rule|text|BR-OPT-00201-0102">V kontaktnom mieste chýba 'Technické ID kontaktného miesta (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">Hodnota 'Technické ID ponúkajúcej strany (TPA-XXX)' (OPT-210-Tenderer) musí byť jedinečná hodnota</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Pre každý 'Technické ID ponúkajúcej strany (TPA-XXX)' (OPT-210), ak existuje viac ako jeden uchádzač (OPT-300-Tenderer), potom musí byť presne jeden 'Vedúci subjekt skupiny' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Akýkoľvek existujúci 'Technické ID ponúkajúcej strany (TPA-XXX)' (OPT-210-Tenderer) musí byť spojený aspoň s jedným 'Organizácia, ktorá plní túto úlohu'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">V uchádzačovi chýba 'Technické ID ponúkajúcej strany (TPA-XXX)' (OPT-210-Tenderer) alebo v ponuke chýba 'Ponúkajúca strana' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Názov ponúkajúcej strany' (OPT-211-Tenderer) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Názov ponúkajúcej strany' (OPT-211-Tenderer) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Názov ponúkajúcej strany' (OPT-211-Tenderer) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Uchádzač' (OPT-300-Tenderer) nie je povolené, keď: 'Technické ID ponuky' (OPT-321-Tender) neexistuje (v 'E5 – Dobrovoľné oznámenie o dokončení')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Kupujúci' (OPT-300-Procedure-Buyer) musí zodpovedať tomuto vzoru: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizácia, ktorá plní túto úlohu' (OPT-300-Procedure-Buyer) sa musí líšiť od akéhokoľvek iného 'Organizácia, ktorá plní túto úlohu' v oznámení.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">V uchádzačovi chýba 'Uchádzač' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizácia, ktorej rozpočet sa používa na úhradu zákazky' (OPT-301-LotResult-Financing) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizácia, ktorej rozpočet sa používa na úhradu zákazky' (OPT-301-LotResult-Financing) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizácia, ktorej rozpočet sa používa na úhradu zákazky' (OPT-301-LotResult-Financing) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizácia alebo konkrétny kontaktný bod' (OPT-301-Part-ReviewOrg-Scheme) musí obsahovať hodnotu zo zoznamu kódov (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizácia alebo konkrétny kontaktný bod' (OPT-301-Part-TenderEval-Scheme) musí obsahovať hodnotu zo zoznamu kódov (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizácia alebo konkrétny kontaktný bod' (OPT-301-Part-TenderReceipt-Scheme) musí obsahovať hodnotu zo zoznamu kódov (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">V subdodávateľovi uchádzača chýba 'Hlavný dodávateľ subdodávateľovi' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">V uchádzačovi chýba 'Subdodávateľ' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Akýkoľvek existujúci 'Technické ID zmluvy' (OPT-316-Contract) musí byť spojený aspoň s jedným 'Odkaz na zmluvu' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Akýkoľvek existujúci 'Technické ID zmluvy' (OPT-316-Contract) musí byť spojený aspoň s jedným 'Odkaz na zmluvu' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Akýkoľvek existujúci 'Technické ID zmluvy' (OPT-316-Contract) musí byť spojený aspoň s jedným 'Odkaz na zmluvu' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">V zmluve chýba 'Technické ID zmluvy' (OPT-316-Contract) alebo vo výsledku časti chýba 'Odkaz na zmluvu' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Technické ID prijatej ponuky' (OPT-320-LotResult) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Technické ID prijatej ponuky' (OPT-320-LotResult) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Technické ID prijatej ponuky' (OPT-320-LotResult) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Technické ID prijatej ponuky' (OPT-320-LotResult) nie je povolené, keď: Neexistuje LotResult, alebo neexistuje ponuka pre časť pokrytú LotResult a neexistuje ponuka pre žiadnu skupinu častí, ktorá by obsahovala časť LotResult, alebo neexistuje ponuka a žiadna časť nie je špecifikovaná pre LotResult (v 'E6 – Dobrovoľné oznámenie o úprave zmluvy')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Každá zmienka o ponuke z (OPT-320-LotResult) musí zodpovedať jednej z vymedzených ponúk (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Pre daný výsledok dávky musí byť každá odkazovaná ponuka buď pre dávku tohto výsledku alebo pre skupinu dávok obsahujúcu túto dávku.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">Vo výsledku časti chýba 'Technické ID prijatej ponuky' (OPT-320-LotResult), v ponuke chýba 'Technické ID ponuky' (OPT-321-Tender) alebo v zmluve chýba 'Identifikátor ponuky' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Technické ID ponuky' (OPT-321-Tender) nie je povolené (v 'X01 – Európske zoskupenie hospodárskych záujmov')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Technické ID ponuky' (OPT-321-Tender) nie je povolené (v 'X02 – Európska spoločnosť/európske družstvo')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Technické ID ponuky' (OPT-321-Tender) nie je povolené (v 'E1 – Dobrovoľné oznámenie o predbežnej trhovej konzultácii')</entry>

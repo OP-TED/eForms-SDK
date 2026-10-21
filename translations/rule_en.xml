@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Country of origin of the product or the service' (BT-191-Tender) is not allowed (in 'E5 – Voluntary completion notice')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Country of origin of the product or the service' (BT-191-Tender) must contain a value from codelist (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Country of origin of the product or the service' (BT-191-Tender) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
+<entry key="rule|text|BR-BT-00191-0053">A tender is missing 'Country of origin of the product or the service' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'The tender is a variant' (BT-193-Tender) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'The tender is a variant' (BT-193-Tender) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'The tender is a variant' (BT-193-Tender) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'Group framework value lot identifier' (BT-556-NoticeResult) must match the following pattern: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">Every 'Group framework value lot identifier' (BT-556-NoticeResult) must be associated with an existing 'Group of lots' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'Group framework value lot identifier' (BT-556-NoticeResult) must differ from any other 'Group framework value lot identifier' in the notice.</entry>
+<entry key="rule|text|BR-BT-00556-0102">A group framework value is missing the 'Group framework value lot identifier' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Security clearance is required' (BT-578-Lot) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Security clearance is required' (BT-578-Lot) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Security clearance is required' (BT-578-Lot) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obligatory indication of subcontracting' (BT-651-Lot) is not allowed when: 'An obligation to be met by the tenderer concerning subcontracting' (BT-66) is not filled in (in '9 – Prior information notice used to shorten time limits for receipt of tenders – defence directive')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obligatory indication of subcontracting' (BT-651-Lot) is not allowed when: 'An obligation to be met by the tenderer concerning subcontracting' (BT-66) is not filled in (in 'E3 – Voluntary contract notice')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obligatory indication of subcontracting' (BT-651-Lot) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
+<entry key="rule|text|BR-BT-00651-0055">A lot is missing 'Obligatory indication of subcontracting' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Re-estimated value of the framework agreement' (BT-660-LotResult) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Re-estimated value of the framework agreement' (BT-660-LotResult) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Re-estimated value of the framework agreement' (BT-660-LotResult) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Number of tender applications that fall under this IPI measure' (BT-686-LotResult) must match the following pattern: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Number of tender applications that fall under this IPI measure' (BT-686-LotResult) must be lower than or equal to 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Number of tender applications that fall under this IPI measure' (BT-686-LotResult) must be greater than or equal to 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">A LotResult is missing 'Number of tender applications that fall under this IPI measure' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Exception to the application of the IPI measure' (BT-687-LotResult) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Exception to the application of the IPI measure' (BT-687-LotResult) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Exception to the application of the IPI measure' (BT-687-LotResult) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Nationality of the owner' (BT-706-UBO) is not allowed when: 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not filled in (in 'E4 – Voluntary award notice')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Nationality of the owner' (BT-706-UBO) is not allowed when: 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not filled in (in 'E5 – Voluntary completion notice')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Nationality of the owner' (BT-706-UBO) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
+<entry key="rule|text|BR-BT-00706-0069">A UBO is missing 'Nationality of the owner' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Justification for restricting access to certain procurement documents' (BT-707-Part) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Justification for restricting access to certain procurement documents' (BT-707-Part) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Justification for restricting access to certain procurement documents' (BT-707-Part) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Number of complainants' (BT-712(b)-LotResult) must match the following pattern: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Number of complainants' (BT-712(b)-LotResult) must be lower than or equal to 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Number of complainants' (BT-712(b)-LotResult) must be greater than or equal to 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">A LotResult is missing 'Number of complainants' (BT-712(b)-LotResult) or 'Number of buyer review requests' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717-Lot) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717-Lot) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717-Lot) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Selection criteria second stage invite number' (BT-752-Lot-ThresholdNumber) is not allowed (in 'E5 – Voluntary completion notice')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Selection criteria second stage invite number' (BT-752-Lot-WeightNumber) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Selection criteria second stage invite number' (BT-752-Lot-ThresholdNumber) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
+<entry key="rule|text|BR-BT-00752-0103">A selection criterion parameter is missing 'Selection criteria second stage invite number' (BT-752-Lot-ThresholdNumber), or 'Selection criteria second stage invite number' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'The use of accessibility criteria for persons with disabilities in the technical specifications' (BT-754-Lot) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'The use of accessibility criteria for persons with disabilities in the technical specifications' (BT-754-Lot) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'The use of accessibility criteria for persons with disabilities in the technical specifications' (BT-754-Lot) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Number of tenders or requests to participate received' (BT-759-LotResult) must match the following pattern: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Number of tenders or requests to participate received' (BT-759-LotResult) must be lower than or equal to 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Number of tenders or requests to participate received' (BT-759-LotResult) must be greater than or equal to 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">A LotResult is missing 'Number of tenders or requests to participate received' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Type of received submissions' (BT-760-LotResult) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Type of received submissions' (BT-760-LotResult) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Type of received submissions' (BT-760-LotResult) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Subcontracting' (BT-773-Tender) is not allowed when: 'Technical ID of the tender' (OPT-321-Tender) is not filled in (in '29 – Contract award notice – general directive, standard regime')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Subcontracting' (BT-773-Tender) is not allowed when: 'Technical ID of the tender' (OPT-321-Tender) is not filled in (in '30 – Contract award notice – sectoral directive, standard regime')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Subcontracting' (BT-773-Tender) is not allowed when: 'Technical ID of the tender' (OPT-321-Tender) is not filled in (in '31 – Contract award notice – defence directive, standard regime')</entry>
+<entry key="rule|text|BR-BT-00773-0056">A tender is missing 'Subcontracting' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Approach to reducing environmental impacts' (BT-774-Lot) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Approach to reducing environmental impacts' (BT-774-Lot) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Approach to reducing environmental impacts' (BT-774-Lot) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Tender payment value' (BT-779-Tender) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Tender payment value' (BT-779-Tender) must be positive.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Tender payment value' (BT-779-Tender) must match the following pattern: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">A tender is missing 'Tender payment value' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Tender payment value additional information' (BT-780-Tender) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Tender payment value additional information' (BT-780-Tender) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Tender payment value additional information' (BT-780-Tender) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Tender payment value additional information' (BT-780-Tender) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Tender payment value additional information' (BT-780-Tender) is not allowed when: 'Tender payment value' (BT-779-Tender) is not filled in (in 'E5 – Voluntary completion notice')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Tender payment value additional information' (BT-780-Tender-Language) must contain a value from codelist (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">A tender is missing 'Tender payment value additional information' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Duration additional information' (BT-781-Lot) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Duration additional information' (BT-781-Lot) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Duration additional information' (BT-781-Lot) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Tender penalties' (BT-782-Tender) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Tender penalties' (BT-782-Tender) must be positive.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Tender penalties' (BT-782-Tender) must match the following pattern: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">A tender is missing 'Tender penalties' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Review request or decision' (BT-783-Review) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Review request or decision' (BT-783-Review) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Review request or decision' (BT-783-Review) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Review remedy type' (BT-792-Review) is mandatory when: 'Review irregularity type' (BT-791-Review) is present and it is about a decision at least partly approving the request (in '36 – Design contest result notice – general directive, design')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Review remedy type' (BT-792-Review) is mandatory when: 'Review irregularity type' (BT-791-Review) is present and it is about a decision at least partly approving the request (in '37 – Design contest result notice – sectoral directive, design')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Review remedy type' (BT-792-Review) is mandatory when: 'Review irregularity type' (BT-791-Review) is present and it is about a decision at least partly approving the request (in 'E5 – Voluntary completion notice')</entry>
+<entry key="rule|text|BR-BT-00792-0102">A review is missing 'Review remedy type' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Review remedy value' (BT-793-Review) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Review remedy value' (BT-793-Review) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Review remedy value' (BT-793-Review) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Review body type' (BT-799-ReviewBody) is mandatory when: 'Review request or decision' (BT-783-Review) is present. (in '35 – Concession award notice – concessions directive, light regime')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Review body type' (BT-799-ReviewBody) is mandatory when: 'Review request or decision' (BT-783-Review) is present. (in '36 – Design contest result notice – general directive, design')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Review body type' (BT-799-ReviewBody) is mandatory when: 'Review request or decision' (BT-783-Review) is present. (in '37 – Design contest result notice – sectoral directive, design')</entry>
+<entry key="rule|text|BR-BT-00799-0098">A review is missing 'Review body type' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Deadline for receipt of answers' (BT-800(d)-Lot) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Deadline for receipt of answers' (BT-800(d)-Lot) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Deadline for receipt of answers' (BT-800(d)-Lot) is mandatory (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Received submissions statistics: The total number of 'Tenders submitted electronically' (BT-760-LotResult = t-esubm) must be specified exactly once</entry>
 <entry key="rule|text|BR-BT-13713-0178">Received submissions statistics: The total number of 'Tenders submitted electronically' (BT-760-LotResult = t-esubm) must be specified exactly once</entry>
 <entry key="rule|text|BR-BT-13713-0179">Received submissions statistics: The total number of 'Tenders submitted electronically' (BT-760-LotResult = t-esubm) must be specified exactly once</entry>
+<entry key="rule|text|BR-BT-13713-0180">A LotResult is missing 'Result lot identifier' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identifier of lot or group of lots' (BT-13714-Tender) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identifier of lot or group of lots' (BT-13714-Tender) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identifier of lot or group of lots' (BT-13714-Tender) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract) is not allowed when: 'Technical ID of the contract' (OPT-316-Contract) is not filled in (in 'T02 – Information notice for award of public service contract')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract) must contain a value from codelist (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract) is not allowed (in 'E6 – Voluntary contract modification notice')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">A contract is missing 'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'List of assets used for the provision of the public services' (OPP-021-Contract) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'List of assets used for the provision of the public services' (OPP-021-Contract) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'List of assets used for the provision of the public services' (OPP-021-Contract) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">An organisation acting as main contractor can not have 'Other contact points'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">An organisation acting as a subcontractor can not have 'Other contact points'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Any existing 'Organisation technical ID (ORG-XXX)' (OPT-200-Organization-Company) must have at least one role or subrole</entry>
+<entry key="rule|text|BR-OPT-00200-0104">An organisation is missing its Technical Identifier (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is not allowed when: 'Organisation technical ID (ORG-XXX)' (OPT-200-Organization-Company) is not filled in (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) must match the following pattern: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) value must be a unique value</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Any existing 'Other contact points' must be associated with at least one of the following roles or subroles: 'Organisation providing additional information about the procurement procedure'; 'Organisation providing offline access to the procurement documents'; 'Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed'; 'Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed'; 'Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed'; 'Mediation organisation'; 'Organisation providing more information on the review procedures'; 'Review organisation', 'Organisation processing tenders', 'Organisation processing requests to participate'; 'Review body'; Review requester</entry>
+<entry key="rule|text|BR-OPT-00201-0102">A touchpoint is missing its 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">'Tendering party technical ID (TPA-XXX)' (OPT-210-Tenderer) value must be a unique value</entry>
 <entry key="rule|text|BR-OPT-00210-0101">For each 'Tendering party technical ID (TPA-XXX)' (OPT-210), if there is more than one tenderer (OPT-300-Tenderer), then there must be exactly one 'Group leader' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Any existing 'Tendering party technical ID (TPA-XXX)' (OPT-210-Tenderer) must be associated with at least one 'Tendering party' (OPT-310-Tender) in the tender</entry>
+<entry key="rule|text|BR-OPT-00210-0103">A tendering party is missing its 'Tendering party technical ID (TPA-XXX)' (OPT-210-Tenderer), or a tender is missing 'Tendering party' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Name of the tendering party' (OPT-211-Tenderer) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Name of the tendering party' (OPT-211-Tenderer) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Name of the tendering party' (OPT-211-Tenderer) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Tenderer' (OPT-300-Tenderer) is not allowed when: 'Technical ID of the tender' (OPT-321-Tender) does not exist (in 'E5 – Voluntary completion notice')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Buyer' (OPT-300-Procedure-Buyer) must match the following pattern: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organisation filling this role' (OPT-300-Procedure-Buyer) must differ from any other 'Organisation filling this role' in the notice.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">A tendering party is missing 'Tenderer' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organisation whose budget is used to pay for the contract' (OPT-301-LotResult-Financing) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organisation whose budget is used to pay for the contract' (OPT-301-LotResult-Financing) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organisation whose budget is used to pay for the contract' (OPT-301-LotResult-Financing) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organisation or specific contact point' (OPT-301-Part-ReviewOrg-Scheme) must contain a value from codelist (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organisation or specific contact point' (OPT-301-Part-TenderEval-Scheme) must contain a value from codelist (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organisation or specific contact point' (OPT-301-Part-TenderReceipt-Scheme) must contain a value from codelist (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">A tendering party subcontractor is missing 'Main contractor to subcontractor' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">A tendering party is missing 'Subcontractor' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organisation filling this role' (OPT-302-Organization) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organisation filling this role' (OPT-302-Organization) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organisation filling this role' (OPT-302-Organization) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Any exisiting 'Technical ID of the contract' (OPT-316-Contract) must be associated with at least one 'Reference to the contract' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Any exisiting 'Technical ID of the contract' (OPT-316-Contract) must be associated with at least one 'Reference to the contract' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Any exisiting 'Technical ID of the contract' (OPT-316-Contract) must be associated with at least one 'Reference to the contract' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">A contract is missing its 'Technical ID of the contract' (OPT-316-Contract), or a LotResult is missing 'Reference to the contract' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Technical ID of a received tender' (OPT-320-LotResult) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Technical ID of a received tender' (OPT-320-LotResult) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Technical ID of a received tender' (OPT-320-LotResult) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Technical ID of a received tender' (OPT-320-LotResult) is not allowed when: There is no LotResult, or there is no tender for the lot covered by the LotResult and no tender for any group of lots that would contain the lot of the LotResult, or there is no tender and no lot is specified for the LotResult (in 'E6 – Voluntary contract modification notice')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Every reference to a tender from (OPT-320-LotResult) must match one of the defined tenders (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">For a given result of a lot, every referenced tender must either be for the lot of that result or for a group of lots containing that lot.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">A LotResult is missing its 'Technical ID of a received tender' (OPT-320-LotResult), or a tender is missing its 'Technical ID of the tender' (OPT-321-Tender), or a contract is missing a 'Contract tender identifier' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Technical ID of the tender' (OPT-321-Tender) is not allowed (in 'X01 – European Economic Interest Grouping')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Technical ID of the tender' (OPT-321-Tender) is not allowed (in 'X02 – European Company / European Cooperative Society')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Technical ID of the tender' (OPT-321-Tender) is not allowed (in 'E1 – Voluntary pre-market consultation notice')</entry>

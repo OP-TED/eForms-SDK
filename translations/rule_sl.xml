@@ -7189,6 +7189,7 @@
 <entry key="rule|text|BR-BT-00191-0050">'Država porekla proizvoda ali storitve' (BT-191-Tender) ni dovoljeno (v 'E5 – Dobrovoljno obvestilo o dokončanju')</entry>
 <entry key="rule|text|BR-BT-00191-0051">'Država porekla proizvoda ali storitve' (BT-191-Tender) mora vsebovati vrednost iz šifranta (country)</entry>
 <entry key="rule|text|BR-BT-00191-0052">'Država porekla proizvoda ali storitve' (BT-191-Tender) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
+<entry key="rule|text|BR-BT-00191-0053">V ponudbi manjka 'Država porekla proizvoda ali storitve' (BT-191-Tender).</entry>
 <entry key="rule|text|BR-BT-00193-0001">'Ponudba je variantna' (BT-193-Tender) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00193-0002">'Ponudba je variantna' (BT-193-Tender) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00193-0003">'Ponudba je variantna' (BT-193-Tender) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -11878,6 +11879,7 @@
 <entry key="rule|text|BR-BT-00556-0051">'ID sklopa pri vrednosti za skupino v okvirnem sporazumu' (BT-556-NoticeResult) se mora ujemati z naslednjim vzorcem: GroupID</entry>
 <entry key="rule|text|BR-BT-00556-0100">'ID sklopa pri vrednosti za skupino v okvirnem sporazumu' (BT-556-NoticeResult) mora biti povezano z obstoječim 'Rezultati postopka za sklop' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|BR-BT-00556-0101">'ID sklopa pri vrednosti za skupino v okvirnem sporazumu' (BT-556-NoticeResult) se mora razlikovati od katerega koli drugega 'ID sklopa pri vrednosti za skupino v okvirnem sporazumu' v obvestilu.</entry>
+<entry key="rule|text|BR-BT-00556-0102">V vrednosti skupine okvirnega sporazuma manjka 'ID sklopa pri vrednosti za skupino v okvirnem sporazumu' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|BR-BT-00578-0001">'Zahtevano je varnostno preverjanje' (BT-578-Lot) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00578-0002">'Zahtevano je varnostno preverjanje' (BT-578-Lot) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00578-0003">'Zahtevano je varnostno preverjanje' (BT-578-Lot) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -12703,6 +12705,7 @@
 <entry key="rule|text|BR-BT-00651-0052">'Obvezna navedba oddaje naročil podizvajalcem' (BT-651-Lot) ni dovoljeno, ko: 'Obveznost, ki jo mora ponudnik izpolniti v zvezi z oddajo naročil podizvajalcem' (BT-66) ni izpolnjeno (v '9 – predhodno informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb – direktiva na področju obrambe')</entry>
 <entry key="rule|text|BR-BT-00651-0053">'Obvezna navedba oddaje naročil podizvajalcem' (BT-651-Lot) ni dovoljeno, ko: 'Obveznost, ki jo mora ponudnik izpolniti v zvezi z oddajo naročil podizvajalcem' (BT-66) ni izpolnjeno (v 'E3 – Dobrovoljno obvestilo o naročilu')</entry>
 <entry key="rule|text|BR-BT-00651-0054">'Obvezna navedba oddaje naročil podizvajalcem' (BT-651-Lot) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
+<entry key="rule|text|BR-BT-00651-0055">V sklopu manjka 'Obvezna navedba oddaje naročil podizvajalcem' (BT-651-Lot).</entry>
 <entry key="rule|text|BR-BT-00660-0001">'Ponovno ocenjena vrednost okvirnega sporazuma' (BT-660-LotResult) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00660-0002">'Ponovno ocenjena vrednost okvirnega sporazuma' (BT-660-LotResult) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00660-0003">'Ponovno ocenjena vrednost okvirnega sporazuma' (BT-660-LotResult) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -13068,6 +13071,7 @@
 <entry key="rule|text|BR-BT-00686-0060">'Število prijav za javno naročilo, ki spadajo pod ta ukrep IPI' (BT-686-LotResult) se mora ujemati z naslednjim vzorcem: Integer</entry>
 <entry key="rule|text|BR-BT-00686-0062_max">'Vrednost Število prijav za javno naročilo, ki spadajo pod ta ukrep IPI' (BT-686-LotResult) mora biti manjša od ali enaka 9999</entry>
 <entry key="rule|text|BR-BT-00686-0062_min">'Vrednost Število prijav za javno naročilo, ki spadajo pod ta ukrep IPI' (BT-686-LotResult) mora biti večja od ali enaka 0</entry>
+<entry key="rule|text|BR-BT-00686-0063">V rezultatu sklopa manjka 'Število prijav za javno naročilo, ki spadajo pod ta ukrep IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|BR-BT-00687-0001">'Izjema od uporabe ukrepa IPI' (BT-687-LotResult) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00687-0002">'Izjema od uporabe ukrepa IPI' (BT-687-LotResult) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00687-0003">'Izjema od uporabe ukrepa IPI' (BT-687-LotResult) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -13335,6 +13339,7 @@
 <entry key="rule|text|BR-BT-00706-0060">'Državljanstvo lastnika' (BT-706-UBO) ni dovoljeno, ko: 'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) ni izpolnjeno (v 'E4 – Dobrovoljno obvestilo o oddaji naročila')</entry>
 <entry key="rule|text|BR-BT-00706-0067">'Državljanstvo lastnika' (BT-706-UBO) ni dovoljeno, ko: 'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) ni izpolnjeno (v 'E5 – Dobrovoljno obvestilo o dokončanju')</entry>
 <entry key="rule|text|BR-BT-00706-0068">'Državljanstvo lastnika' (BT-706-UBO) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
+<entry key="rule|text|BR-BT-00706-0069">Dejanskemu lastniku manjka 'Državljanstvo lastnika' (BT-706-UBO).</entry>
 <entry key="rule|text|BR-BT-00707-0001">'Obrazložitev za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila' (BT-707-Part) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00707-0002">'Obrazložitev za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila' (BT-707-Part) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00707-0003">'Obrazložitev za omejitve dostopa do nekaterih dokumentov v zvezi z oddajo javnega naročila' (BT-707-Part) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -13819,6 +13824,7 @@
 <entry key="rule|text|BR-BT-00712-0152">'Število pritožnikov' (BT-712(b)-LotResult) se mora ujemati z naslednjim vzorcem: Integer</entry>
 <entry key="rule|text|BR-BT-00712-0153_max">'Vrednost Število pritožnikov' (BT-712(b)-LotResult) mora biti manjša od ali enaka 9999</entry>
 <entry key="rule|text|BR-BT-00712-0153_min">'Vrednost Število pritožnikov' (BT-712(b)-LotResult) mora biti večja od ali enaka 0</entry>
+<entry key="rule|text|BR-BT-00712-0154">V rezultatu sklopa manjka 'Število pritožnikov' (BT-712(b)-LotResult) ali 'Število zahtevkov kupcu za revizijo' (BT-635-LotResult).</entry>
 <entry key="rule|text|BR-BT-00717-0001">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' (BT-717-Lot) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00717-0002">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' (BT-717-Lot) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00717-0003">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' (BT-717-Lot) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -16031,6 +16037,7 @@
 <entry key="rule|text|BR-BT-00752-0100">'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot-ThresholdNumber) ni dovoljeno (v 'E5 – Dobrovoljno obvestilo o dokončanju')</entry>
 <entry key="rule|text|BR-BT-00752-0101">'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot-WeightNumber) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
 <entry key="rule|text|BR-BT-00752-0102">'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot-ThresholdNumber) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
+<entry key="rule|text|BR-BT-00752-0103">V parametru izbirnega merila manjka 'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot-ThresholdNumber) ali 'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|BR-BT-00754-0001">'Uporaba meril dostopnosti za invalidne osebe v tehničnih specifikacijah' (BT-754-Lot) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00754-0002">'Uporaba meril dostopnosti za invalidne osebe v tehničnih specifikacijah' (BT-754-Lot) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00754-0003">'Uporaba meril dostopnosti za invalidne osebe v tehničnih specifikacijah' (BT-754-Lot) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -16296,6 +16303,7 @@
 <entry key="rule|text|BR-BT-00759-0101">'Število prejetih ponudb ali prijav za sodelovanje' (BT-759-LotResult) se mora ujemati z naslednjim vzorcem: Integer</entry>
 <entry key="rule|text|BR-BT-00759-0102_max">'Vrednost Število prejetih ponudb ali prijav za sodelovanje' (BT-759-LotResult) mora biti manjša od ali enaka 9999</entry>
 <entry key="rule|text|BR-BT-00759-0102_min">'Vrednost Število prejetih ponudb ali prijav za sodelovanje' (BT-759-LotResult) mora biti večja od ali enaka 0</entry>
+<entry key="rule|text|BR-BT-00759-0103">V rezultatu sklopa manjka 'Število prejetih ponudb ali prijav za sodelovanje' (BT-759-LotResult).</entry>
 <entry key="rule|text|BR-BT-00760-0001">'Vrsta prejetih vlog' (BT-760-LotResult) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00760-0002">'Vrsta prejetih vlog' (BT-760-LotResult) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00760-0003">'Vrsta prejetih vlog' (BT-760-LotResult) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -16982,6 +16990,7 @@
 <entry key="rule|text|BR-BT-00773-0053">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni dovoljeno, ko: 'Tehnični ID ponudbe' (OPT-321-Tender) ni izpolnjeno (v '29 – obvestilo o oddaji javnega naročila – splošna direktiva, standardna ureditev')</entry>
 <entry key="rule|text|BR-BT-00773-0054">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni dovoljeno, ko: 'Tehnični ID ponudbe' (OPT-321-Tender) ni izpolnjeno (v '30 – obvestilo o oddaji javnega naročila – sektorska direktiva, standardna ureditev')</entry>
 <entry key="rule|text|BR-BT-00773-0055">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni dovoljeno, ko: 'Tehnični ID ponudbe' (OPT-321-Tender) ni izpolnjeno (v '31 – obvestilo o oddaji javnega naročila – direktiva na področju obrambe, standardna ureditev')</entry>
+<entry key="rule|text|BR-BT-00773-0056">V ponudbi manjka 'Oddaja naročil podizvajalcem' (BT-773-Tender).</entry>
 <entry key="rule|text|BR-BT-00774-0001">'Pristop k zmanjšanju vplivov na okolje' (BT-774-Lot) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00774-0002">'Pristop k zmanjšanju vplivov na okolje' (BT-774-Lot) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00774-0003">'Pristop k zmanjšanju vplivov na okolje' (BT-774-Lot) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -17167,6 +17176,7 @@
 <entry key="rule|text|BR-BT-00779-0053">'Ponudba – vrednost plačil' (BT-779-Tender) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
 <entry key="rule|text|BR-BT-00779-0054">'Ponudba – vrednost plačil' (BT-779-Tender) mora biti pozitiven.</entry>
 <entry key="rule|text|BR-BT-00779-0055">'Ponudba – vrednost plačil' (BT-779-Tender) se mora ujemati z naslednjim vzorcem: AmountValue</entry>
+<entry key="rule|text|BR-BT-00779-0056">V ponudbi manjka 'Ponudba – vrednost plačil' (BT-779-Tender).</entry>
 <entry key="rule|text|BR-BT-00780-0001">'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00780-0002">'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00780-0003">'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -17220,6 +17230,7 @@
 <entry key="rule|text|BR-BT-00780-0051">'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
 <entry key="rule|text|BR-BT-00780-0054">'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender) ni dovoljeno, ko: 'Ponudba – vrednost plačil' (BT-779-Tender) ni izpolnjeno (v 'E5 – Dobrovoljno obvestilo o dokončanju')</entry>
 <entry key="rule|text|BR-BT-00780-0055">'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender-Language) mora vsebovati vrednost iz šifranta (eu-official-language)</entry>
+<entry key="rule|text|BR-BT-00780-0056">V ponudbi manjka 'Ponudba – vrednost plačil, dodatne informacije' (BT-780-Tender).</entry>
 <entry key="rule|text|BR-BT-00781-0001">'Trajanje – dodatne informacije' (BT-781-Lot) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00781-0002">'Trajanje – dodatne informacije' (BT-781-Lot) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00781-0003">'Trajanje – dodatne informacije' (BT-781-Lot) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -17326,6 +17337,7 @@
 <entry key="rule|text|BR-BT-00782-0053">'Ponudba – kazni' (BT-782-Tender) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
 <entry key="rule|text|BR-BT-00782-0054">'Ponudba – kazni' (BT-782-Tender) mora biti pozitiven.</entry>
 <entry key="rule|text|BR-BT-00782-0055">'Ponudba – kazni' (BT-782-Tender) se mora ujemati z naslednjim vzorcem: AmountValue</entry>
+<entry key="rule|text|BR-BT-00782-0056">V ponudbi manjka 'Ponudba – kazni' (BT-782-Tender).</entry>
 <entry key="rule|text|BR-BT-00783-0001">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00783-0002">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00783-0003">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -17910,6 +17922,7 @@
 <entry key="rule|text|BR-BT-00792-0096">'Revizija – vrsta pravnega sredstva' (BT-792-Review) je obvezno, ko: 'Revizija – vrsta nepravilnosti' (BT-791-Review) je prisoten in se nanaša na odločitev, ki vsaj delno odobrava zahtevo (v '36 – obvestilo o rezultatih projektnega natečaja – splošna direktiva, projektni natečaj')</entry>
 <entry key="rule|text|BR-BT-00792-0097">'Revizija – vrsta pravnega sredstva' (BT-792-Review) je obvezno, ko: 'Revizija – vrsta nepravilnosti' (BT-791-Review) je prisoten in se nanaša na odločitev, ki vsaj delno odobrava zahtevo (v '37 – obvestilo o rezultatih projektnega natečaja – sektorska direktiva, projektni natečaj')</entry>
 <entry key="rule|text|BR-BT-00792-0101">'Revizija – vrsta pravnega sredstva' (BT-792-Review) je obvezno, ko: 'Revizija – vrsta nepravilnosti' (BT-791-Review) je prisoten in se nanaša na odločitev, ki vsaj delno odobrava zahtevo (v 'E5 – Dobrovoljno obvestilo o dokončanju')</entry>
+<entry key="rule|text|BR-BT-00792-0102">V reviziji manjka 'Revizija – vrsta pravnega sredstva' (BT-792-Review).</entry>
 <entry key="rule|text|BR-BT-00793-0001">'Revizija – vrednost pravnega sredstva' (BT-793-Review) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00793-0002">'Revizija – vrednost pravnega sredstva' (BT-793-Review) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00793-0003">'Revizija – vrednost pravnega sredstva' (BT-793-Review) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -18311,6 +18324,7 @@
 <entry key="rule|text|BR-BT-00799-0095">'Vrsta revizijskega organa' (BT-799-ReviewBody) je obvezno, ko: 'Zahtevek za revizijo ali sklep' (BT-783-Review) je prisotno in je 'Odločba' in zahteva ni bila umaknjena. (v '35 – obvestilo o podelitvi koncesije – direktiva o koncesijah, enostavnejša ureditev')</entry>
 <entry key="rule|text|BR-BT-00799-0096">'Vrsta revizijskega organa' (BT-799-ReviewBody) je obvezno, ko: 'Zahtevek za revizijo ali sklep' (BT-783-Review) je prisotno in je 'Odločba' in zahteva ni bila umaknjena. (v '36 – obvestilo o rezultatih projektnega natečaja – splošna direktiva, projektni natečaj')</entry>
 <entry key="rule|text|BR-BT-00799-0097">'Vrsta revizijskega organa' (BT-799-ReviewBody) je obvezno, ko: 'Zahtevek za revizijo ali sklep' (BT-783-Review) je prisotno in je 'Odločba' in zahteva ni bila umaknjena. (v '37 – obvestilo o rezultatih projektnega natečaja – sektorska direktiva, projektni natečaj')</entry>
+<entry key="rule|text|BR-BT-00799-0098">V reviziji manjka 'Vrsta revizijskega organa' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|BR-BT-00800-0001">'Rok – prejem prijav interesa' (BT-800(d)-Lot) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-00800-0002">'Rok – prejem prijav interesa' (BT-800(d)-Lot) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-00800-0003">'Rok – prejem prijav interesa' (BT-800(d)-Lot) je obvezno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -22679,6 +22693,7 @@
 <entry key="rule|text|BR-BT-13713-0177">Statistika prejetih ponudb: Skupno število 'Elektronsko predložene ponudbe' (BT-760-LotResult = t-esubm) mora biti določeno natančno enkrat</entry>
 <entry key="rule|text|BR-BT-13713-0178">Statistika prejetih ponudb: Skupno število 'Elektronsko predložene ponudbe' (BT-760-LotResult = t-esubm) mora biti določeno natančno enkrat</entry>
 <entry key="rule|text|BR-BT-13713-0179">Statistika prejetih ponudb: Skupno število 'Elektronsko predložene ponudbe' (BT-760-LotResult = t-esubm) mora biti določeno natančno enkrat</entry>
+<entry key="rule|text|BR-BT-13713-0180">V rezultatu sklopa manjka 'ID sklopa za rezultat' (BT-13713-LotResult).</entry>
 <entry key="rule|text|BR-BT-13714-0001">'Identifikator sklopa ali skupine sklopov' (BT-13714-Tender) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-BT-13714-0002">'Identifikator sklopa ali skupine sklopov' (BT-13714-Tender) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-BT-13714-0003">'Identifikator sklopa ali skupine sklopov' (BT-13714-Tender) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -22862,6 +22877,7 @@
 <entry key="rule|text|BR-OPP-00020-0051">'Trajanje javnega naročila je podaljšano zaradi osnovnih sredstev, potrebnih za zagotavljanje storitev' (OPP-020-Contract) ni dovoljeno, ko: 'Tehnični ID pogodbe' (OPT-316-Contract) ni izpolnjeno (v 'T02 – Informativno obvestilo za sklenitev pogodbe o izvajanju javne službe')</entry>
 <entry key="rule|text|BR-OPP-00020-0052">'Trajanje javnega naročila je podaljšano zaradi osnovnih sredstev, potrebnih za zagotavljanje storitev' (OPP-020-Contract) mora vsebovati vrednost iz šifranta (indicator)</entry>
 <entry key="rule|text|BR-OPP-00020-0053">'Trajanje javnega naročila je podaljšano zaradi osnovnih sredstev, potrebnih za zagotavljanje storitev' (OPP-020-Contract) ni dovoljeno (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
+<entry key="rule|text|BR-OPP-00020-0054">V pogodbi manjka 'Trajanje javnega naročila je podaljšano zaradi osnovnih sredstev, potrebnih za zagotavljanje storitev' (OPP-020-Contract).</entry>
 <entry key="rule|text|BR-OPP-00021-0001">'Seznam sredstev, uporabljenih za zagotavljanje javnih storitev' (OPP-021-Contract) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPP-00021-0002">'Seznam sredstev, uporabljenih za zagotavljanje javnih storitev' (OPP-021-Contract) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPP-00021-0003">'Seznam sredstev, uporabljenih za zagotavljanje javnih storitev' (OPP-021-Contract) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -25969,6 +25985,7 @@
 <entry key="rule|text|BR-OPT-00200-0101">Organizacija, ki deluje kot glavni izvajalec, ne more imeti 'Druge kontaktne točke'</entry>
 <entry key="rule|text|BR-OPT-00200-0102">Organizacija, ki deluje kot podizvajalec, ne more imeti 'Druge kontaktne točke'</entry>
 <entry key="rule|text|BR-OPT-00200-0103">Vsaka obstoječa 'Tehnični ID organizacije (ORG-XXX)' (OPT-200-Organization-Company) mora imeti vsaj eno vlogo ali podvlogo</entry>
+<entry key="rule|text|BR-OPT-00200-0104">Organizacija nima svojega tehničnega identifikatorja (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|BR-OPT-00201-0001">'Tehnični ID kontaktnega mesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00201-0002">'Tehnični ID kontaktnega mesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00201-0003">'Tehnični ID kontaktnega mesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) ni dovoljeno, ko: 'Tehnični ID organizacije (ORG-XXX)' (OPT-200-Organization-Company) ni izpolnjeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -25979,6 +25996,7 @@
 <entry key="rule|text|BR-OPT-00201-0052">'Tehnični ID kontaktnega mesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) se mora ujemati z naslednjim vzorcem: TouchPointID</entry>
 <entry key="rule|text|BR-OPT-00201-0100">Vrednost 'Tehnični ID kontaktnega mesta (TPO-XXX)' (OPT-201-Organization-TouchPoint) mora biti edinstvena vrednost</entry>
 <entry key="rule|text|BR-OPT-00201-0101">Vsaka obstoječa 'Druge kontaktne točke' mora biti povezana z vsaj eno od naslednjih vlog ali podvlog: 'Organizacija, ki daje na voljo dodatne informacije o postopku za oddajo javnega naročila'; 'Organizacija, ki omogoča nespletni dostop do dokumentov v zvezi z oddajo javnega naročila'; 'Organizacija, ki daje informacije o splošnem regulativnem okviru glede zaščite delovnega mesta in pogojev za delo, ki se uporablja v kraju izvajanja naročila'; 'Organizacija, ki daje informacije o splošnem regulativnem okviru glede varstva okolja, ki se uporablja v kraju izvajanja naročila'; 'Organizacija, ki daje informacije o splošnem regulativnem okviru glede davkov, ki se uporablja v kraju izvajanja naročila'; 'Organizacija za mediacijo'; 'Organizacija, ki daje dodatne informacije o revizijskih postopkih'; 'Organizacija za revizijo'; 'Organizacija, ki obdeluje ponudbe'; 'Organizacija, ki obdeluje prijave za sodelovanje'; 'Revizijski organ'; vlagatelj zahtevka za revizijo</entry>
+<entry key="rule|text|BR-OPT-00201-0102">Na kontaktni točki manjka 'Tehnični ID kontaktnega mesta (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|BR-OPT-00202-0001">'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00202-0002">'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00202-0003">'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -26096,6 +26114,7 @@
 <entry key="rule|text|BR-OPT-00210-0100">Vrednost 'Tehnični ID ponudnika (TPA-XXX)' (OPT-210-Tenderer) mora biti edinstvena vrednost</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Za vsako 'Tehnični ID ponudnika (TPA-XXX)' (OPT-210): če je več kot en ponudnik (OPT-300-Tenderer), mora biti točno ena 'Vodja skupine' (OPT-170)</entry>
 <entry key="rule|text|BR-OPT-00210-0102">Vsaka obstoječa 'Tehnični ID ponudnika (TPA-XXX)' (OPT-210-Tenderer) mora biti povezana z vsaj eno 'Organizacija, ki opravlja to vlogo' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0103">Ponudniku manjka 'Tehnični ID ponudnika (TPA-XXX)' (OPT-210-Tenderer) ali v ponudbi manjka 'Ponudnik' (OPT-310-Tender).</entry>
 <entry key="rule|text|BR-OPT-00211-0001">'Ime ponudnika' (OPT-211-Tenderer) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00211-0002">'Ime ponudnika' (OPT-211-Tenderer) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00211-0003">'Ime ponudnika' (OPT-211-Tenderer) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -26306,6 +26325,7 @@
 <entry key="rule|text|BR-OPT-00300-0288">'Ponudnik' (OPT-300-Tenderer) ni dovoljeno, ko: 'Tehnični ID ponudbe' (OPT-321-Tender) ne obstaja (v 'E5 – Dobrovoljno obvestilo o dokončanju')</entry>
 <entry key="rule|text|BR-OPT-00300-0289">'Kupec' (OPT-300-Procedure-Buyer) se mora ujemati z naslednjim vzorcem: OrganizationID</entry>
 <entry key="rule|text|BR-OPT-00300-0290">'Organizacija, ki opravlja to vlogo' (OPT-300-Procedure-Buyer) se mora razlikovati od katerega koli drugega 'Organizacija, ki opravlja to vlogo' v obvestilu.</entry>
+<entry key="rule|text|BR-OPT-00300-0291">Ponudniku manjka 'Ponudnik' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|BR-OPT-00301-0001">'Organizacija, katere proračunska sredstva se uporabljajo za plačilo naročila' (OPT-301-LotResult-Financing) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00301-0002">'Organizacija, katere proračunska sredstva se uporabljajo za plačilo naročila' (OPT-301-LotResult-Financing) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00301-0003">'Organizacija, katere proračunska sredstva se uporabljajo za plačilo naročila' (OPT-301-LotResult-Financing) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -27251,6 +27271,8 @@
 <entry key="rule|text|BR-OPT-00301-1477">'Organizacija ali določena kontaktna točka' (OPT-301-Part-ReviewOrg-Scheme) mora vsebovati vrednost iz šifranta (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1478">'Organizacija ali določena kontaktna točka' (OPT-301-Part-TenderEval-Scheme) mora vsebovati vrednost iz šifranta (player-type)</entry>
 <entry key="rule|text|BR-OPT-00301-1479">'Organizacija ali določena kontaktna točka' (OPT-301-Part-TenderReceipt-Scheme) mora vsebovati vrednost iz šifranta (player-type)</entry>
+<entry key="rule|text|BR-OPT-00301-1480">Podizvajalcu ponudnika manjka 'Glavni izvajalec podizvajalcu' (OPT-301-Tenderer-MainCont).</entry>
+<entry key="rule|text|BR-OPT-00301-1481">Ponudniku manjka 'Podizvajalec' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|BR-OPT-00302-0001">'Organizacija, ki opravlja to vlogo' (OPT-302-Organization) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00302-0002">'Organizacija, ki opravlja to vlogo' (OPT-302-Organization) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00302-0003">'Organizacija, ki opravlja to vlogo' (OPT-302-Organization) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -27526,6 +27548,7 @@
 <entry key="rule|text|BR-OPT-00316-0110">Vsaka obstoječa 'Tehnični ID pogodbe' (OPT-316-Contract) mora biti povezana z vsaj enim 'Sklic na pogodbo' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0111">Vsaka obstoječa 'Tehnični ID pogodbe' (OPT-316-Contract) mora biti povezana z vsaj enim 'Sklic na pogodbo' (OPT-315-LotResult)</entry>
 <entry key="rule|text|BR-OPT-00316-0112">Vsaka obstoječa 'Tehnični ID pogodbe' (OPT-316-Contract) mora biti povezana z vsaj enim 'Sklic na pogodbo' (OPT-315-LotResult)</entry>
+<entry key="rule|text|BR-OPT-00316-0113">V pogodbi manjka 'Tehnični ID pogodbe' (OPT-316-Contract) ali v rezultatu sklopa manjka 'Sklic na pogodbo' (OPT-315-LotResult).</entry>
 <entry key="rule|text|BR-OPT-00320-0001">'Tehnični ID prejete ponudbe' (OPT-320-LotResult) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00320-0002">'Tehnični ID prejete ponudbe' (OPT-320-LotResult) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00320-0003">'Tehnični ID prejete ponudbe' (OPT-320-LotResult) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
@@ -27596,6 +27619,7 @@
 <entry key="rule|text|BR-OPT-00320-0068">'Tehnični ID prejete ponudbe' (OPT-320-LotResult) ni dovoljeno, ko: Ni LotResult, ali ni ponudbe za skupino, ki jo pokriva LotResult, in ni ponudbe za nobeno skupino skupin, ki bi vsebovala skupino LotResult, ali ni ponudbe in ni določena nobena skupina za LotResult (v 'E6 – Dobrovoljno obvestilo o spremembi naročila')</entry>
 <entry key="rule|text|BR-OPT-00320-0100">Vsak sklic na ponudbo iz (OPT-320-LotResult) se mora ujemati z eno od opredeljenih ponudb (OPT-321-Tender)</entry>
 <entry key="rule|text|BR-OPT-00320-0101">Za dani rezultat sklopa mora vsaka navedena ponudba veljati bodisi za sklop tega rezultata bodisi za skupino sklopov, ki vsebuje ta sklop.</entry>
+<entry key="rule|text|BR-OPT-00320-0102">V rezultatu sklopa manjka 'Tehnični ID prejete ponudbe' (OPT-320-LotResult), v ponudbi manjka 'Tehnični ID ponudbe' (OPT-321-Tender) ali v pogodbi manjka 'ID izbrane ponudbe' (BT-3202-Contract).</entry>
 <entry key="rule|text|BR-OPT-00321-0001">'Tehnični ID ponudbe' (OPT-321-Tender) ni dovoljeno (v 'X01 – Evropsko gospodarsko interesno združenje')</entry>
 <entry key="rule|text|BR-OPT-00321-0002">'Tehnični ID ponudbe' (OPT-321-Tender) ni dovoljeno (v 'X02 – Evropska družba/Evropska zadruga')</entry>
 <entry key="rule|text|BR-OPT-00321-0003">'Tehnični ID ponudbe' (OPT-321-Tender) ni dovoljeno (v 'E1 – Dobrovoljno obvestilo o predhodnem preverjanju trga')</entry>
