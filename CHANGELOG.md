@@ -55,7 +55,7 @@ In addition to the changes with regards to the new 'undisclosed fields' approach
 Synchronisation of the code lists with their latest versions on EU Vocabularies: https://op.europa.eu/en/web/eu-vocabularies.
 
 ### Updates on labels and translations
-Updates to business term/field name, description and hint labels, code labels, auxiliary labels, groups labels, expression labels and rule labels and their translations, including the messages of the schematron rules added to replace the removed 'minOccurs' checks at schema level.
+Updates to business term/field name, description and hint labels, code labels, auxiliary labels, groups labels, expression labels and rule labels and their translations.
 
 <br>
 <br>
