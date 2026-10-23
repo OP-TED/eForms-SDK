@@ -1,4 +1,4 @@
-# SDK 1.16.0-rc.3 Release Notes
+# SDK 1.16.0-rc.4 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.15.1 should also be able to use this version.
 
@@ -62,5 +62,5 @@ Updates to business term/field name, description and hint labels, code labels, a
 
 This release note does not cover the details of all changes.
 
-A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-rc.3 can be seen at https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-rc.3 or through the SDK Explorer https://docs.ted.europa.eu/eforms-sdk-explorer/.
+A comprehensive list of changes between SDK 1.15.1 and SDK 1.16.0-rc.4 can be seen at https://github.com/OP-TED/eForms-SDK/compare/1.15.1...1.16.0-rc.4 or through the SDK Explorer https://docs.ted.europa.eu/eforms-sdk-explorer/.
 
