@@ -1,6 +1,6 @@
-# eForms SDK 2.0.0-alpha.4 Release Notes
+# eForms SDK 2.0.0-alpha.5 Release Notes
 
-SDK 2.0.0-alpha.4 is the fourth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2 and alpha.3.
+SDK 2.0.0-alpha.5 is the fifth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2, alpha.3 and alpha.4.
 
 ## Caution: Pre-release
 
@@ -16,10 +16,12 @@ The goal of SDK 2 is to introduce a new version of EFX (the eForms Expression La
 
 ## Contents
 
-This pre-release contains the following changes since alpha.3:
+This pre-release contains the following changes since alpha.4:
 
-- **`fields.json` forward metadata**: the codelist reference property `parentId` has been renamed to `listName` in `fields/fwd/fields.json`, for clarity. The value it carries is unchanged; it names the codelist to be used for the `listName` attribute.
-- **TEDEN2 default values snippet**: `.ted/teden2/snippets/default-values.json` has been updated to support repeatable groups and notice contexts (procedure, part, lot). This file is reserved for TED applications and is not intended for use by eSenders or other third parties.
+- **Formatting of displayed values in EFX 2 templates**: the expression blocks of a template accept format options, so that the value a template displays can be formatted where it is displayed.
+- **Validation rules no longer filter on the `listName` attribute**: rule contexts and test expressions that selected an element by its `listName` attribute, such as `efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']`, now select the element itself. The codelist a value belongs to is named by its data type in SDK 2 rather than carried per field, so the attribute no longer identifies the element. The affected rules keep their identifiers and messages, and apply to a wider set of elements than before.
+- **Metadata refreshed from the eForms Metadata Database**: fields and their forward-format counterparts, notice type definitions, codelists, view templates, validation rules and labels have been regenerated.
+- **`view-templates/summary.efx` removed**: the view it rendered no longer exists in the database and the view template index no longer references the file.
 
 ## Download
 
