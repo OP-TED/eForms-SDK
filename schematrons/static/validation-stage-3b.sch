@@ -1111,17 +1111,17 @@
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cbc:CalculationExpression/@languageID">
         <assert id="R-YAX-YKR" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-YAX-YKR</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount">
         <assert id="R-TV8-MXV" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-TV8-MXV</assert>
         <assert id="R-67G-EPC" role="ERROR" diagnostics="BT-553-Tender_BT-553-Tender-Currency" test="@currencyID">rule|text|R-67G-EPC</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount/@currencyID">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount/@currencyID">
         <assert id="R-PR7-YHL" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-PR7-YHL</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription">
         <assert id="R-EUB-XXX" role="ERROR" test="string-length(./normalize-space(text())) &lt;= 6000">rule|text|R-EUB-XXX</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription/@languageID">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription/@languageID">
         <assert id="R-QFV-G67" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-QFV-G67</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:TenderLot/cbc:ID">
@@ -1445,10 +1445,10 @@
     <rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cbc:Description/@languageID">
         <assert id="R-4HS-L2D" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-4HS-L2D</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:ValueKnownIndicator">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:ValueKnownIndicator">
         <assert id="R-AW7-D4W" role="ERROR" test="string(.) = ('false','true')">rule|text|R-AW7-D4W</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:PercentageKnownIndicator">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:PercentageKnownIndicator">
         <assert id="R-OH0-PX3" role="ERROR" test="string(.) = ('false','true')">rule|text|R-OH0-PX3</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm/cbc:Description">
@@ -1685,7 +1685,7 @@
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description/@languageID">
         <assert id="R-77K-KT0" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-77K-KT0</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode">
         <assert id="R-9ZW-0EQ" role="ERROR" test="./normalize-space(text()) = ('no','not-known','yes')">rule|text|R-9ZW-0EQ</assert>
         <assert id="R-ZOH-4IS" role="ERROR" test="fn:matches(normalize-space(./text()), '^\P{Z}(.*\P{Z})?$')">rule|text|R-ZOH-4IS</assert>
         <assert id="R-KY4-0FY" role="ERROR" diagnostics="BT-773-Tender_BT-773-Tender-List" test="@listName">rule|text|R-KY4-0FY</assert>

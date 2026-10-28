@@ -14465,9 +14465,9 @@ WITH ND-NoticeResultGroupFA
     AS ERROR R-MIC-XBY
     FOR BT-1561-NoticeResult
     IN 25,26,27,29,30,31,33,34,38,39
-  WHEN not(every text:$groupResult in BT-556-NoticeResult, text:$lot in BT-1375-Procedure[BT-330-Procedure == $groupResult], text:$result in BT-142-LotResult[BT-13713-LotResult == $lot] satisfies ($result == 'selec-w')) or (every text:$group in BT-556-NoticeResult satisfies (count(BT-137-Lot[(BT-137-Lot in BT-1375-Procedure[BT-330-Procedure == $group]) and (BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc'])]) < 2))
+  WHEN (count(BT-330-Procedure[every text:$lot in BT-1375-Procedure, text:$result in BT-142-LotResult[BT-13713-LotResult == $lot] satisfies ($result == 'selec-w')]) == 0) or (every text:$group2 in BT-330-Procedure satisfies (count(BT-137-Lot[(BT-137-Lot in BT-1375-Procedure[BT-330-Procedure == $group2]) and (BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc'])]) < 2))
   ASSERT BT-556-NoticeResult is not present
-    AS ERROR R-HMV-L4S
+    AS ERROR R-5HY-P32
     FOR BT-556-NoticeResult
     IN 29,30,31,33,34,E4,E5
 
@@ -16830,6 +16830,10 @@ WITH ND-Root
     AS ERROR R-BR5-WS6
     FOR BT-127-notice
     IN *
+  ASSERT count(BT-195-notice) == count(distinct-values(BT-195-notice))
+    AS ERROR R-48Z-1D0
+    FOR BT-195-notice
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6,T02
   WHEN BT-702(b)-notice is present
   ASSERT not(BT-702(a)-notice in BT-702(b)-notice)
     AS ERROR R-TDG-CLE
