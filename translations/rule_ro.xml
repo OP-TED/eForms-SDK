@@ -109,6 +109,7 @@
 <entry key="rule|text|R-0LJ-YIQ">'Numărul cererilor de soluționare a căilor de atac adresate cumpărătorului' (BT-635-LotResult) trebuie să corespundă următorului model: Integer</entry>
 <entry key="rule|text|R-0LS-ONG">'Telefon' (BT-503-Organization-Company) trebuie să corespundă următorului model: PhoneNumber</entry>
 <entry key="rule|text|R-0MB-OTZ">'Tip' (BT-539-LotsGroup) este obligatoriu când: ID-ul lotului este completat.</entry>
+<entry key="rule|text|R-0MC-RYP">Unei oferte îi lipsește 'Sancțiuni privind oferta' (BT-782-Tender).</entry>
 <entry key="rule|text|R-0MZ-COQ">'Termenul de primire a răspunsurilor' (BT-800(t)-Lot) este obligatoriu</entry>
 <entry key="rule|text|R-0N4-IWZ">'Organizația responsabilă cu căile de atac' (OPT-301-Part-ReviewOrg) este obligatoriu</entry>
 <entry key="rule|text|R-0NJ-6O5">Atributul 'listName' trebuie să fie prezent pentru 'Țara' (OPP-112-Business-List)</entry>
@@ -117,7 +118,6 @@
 <entry key="rule|text|R-0O2-JNZ">Atributul 'listName' trebuie să fie prezent pentru 'Subdiviziunea țării (NUTS)' (BT-507-UBO-List)</entry>
 <entry key="rule|text|R-0O3-06F">'Descriere' (BT-09(b)-Procedure) nu este permis când: 'Drept transnațional aplicabil' (BT-09(a)-Procedure) nu este completat</entry>
 <entry key="rule|text|R-0OO-ZFB">Dacă 'Tip de anunț' (BT-02) este 'Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare', atunci 'Subtipul anunțului' (OPP-070) trebuie să fie 4, 5, 6 sau E2</entry>
-<entry key="rule|text|R-0OP-IWR">Identificator secțiune' (BT-1501(n)-Contract-Scheme) trebuie să conțină o valoare din lista de coduri (notice-reference)</entry>
 <entry key="rule|text|R-0OY-5YF">Atributul 'schemeName' trebuie să fie prezent pentru 'Organizația sau punctul de contact specific' (OPT-301-Lot-FiscalLegis-Scheme)</entry>
 <entry key="rule|text|R-0P0-XTT">Atributul 'listName' trebuie să fie prezent pentru 'Temeiul juridic al CVD pentru a stabili ce categorie de proceduri de achiziții se aplică' (BT-735-LotResult-List)</entry>
 <entry key="rule|text|R-0PB-CIZ">'Este necesar un acord de confidențialitate' (BT-801-Lot) nu se poate repeta</entry>
@@ -153,7 +153,6 @@
 <entry key="rule|text|R-11H-P4X">'Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii' (BT-543-Lot) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-11U-78G">'Valoarea maximă a acordului-cadru' (BT-709-LotResult-Currency) trebuie să conțină o valoare din lista de coduri (currency)</entry>
 <entry key="rule|text|R-12A-UV0">'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) nu este permis</entry>
-<entry key="rule|text|R-12N-PH6">'Data la care se va publica' (BT-198) valoarea trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii' (BT-05)</entry>
 <entry key="rule|text|R-12P-4SJ">'Adresă poștală' (BT-5101(a)-Procedure) nu este permis</entry>
 <entry key="rule|text|R-131-EBJ">'Justificarea procedurii accelerate' (BT-1351-Procedure) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-13P-6KD">'Unde se găsesc informații despre documentele restricționate' (BT-615-Lot) trebuie să corespundă următorului model: URL</entry>
@@ -263,6 +262,7 @@
 <entry key="rule|text|R-29Q-MU1">'Numărul este un tip de prag' (BT-7532-Lot) nu este permis când: 'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40) nu este 'da' sau 'Numărul este un tip de pondere' (BT-7531) este completat</entry>
 <entry key="rule|text|R-29Q-XK8">'Consumul de energie în kWh/an' (BT-813-LotResult) nu este permis</entry>
 <entry key="rule|text|R-2A0-7R6">'ID-ul documentului de legislație fiscală' (OPT-111-Part-FiscalLegis) nu este permis</entry>
+<entry key="rule|text|R-2A0-WBV">Rezultatului unei lot îi lipsește 'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult), unei oferte îi lipsește 'ID-ul tehnic al ofertei' (OPT-321-Tender) sau unui contract îi lipsește 'Contract: identificator lot' (BT-3202-Contract).</entry>
 <entry key="rule|text|R-2A2-W5U">'Nume' (BT-632-Part) nu se poate repeta</entry>
 <entry key="rule|text|R-2AL-NB1">'Localitate' (BT-5131-Lot) nu este permis când: 'Locul de executare – Domeniul geografic' (BT-727) este completat sau 'Țara' (BT-5141) nu este completat</entry>
 <entry key="rule|text|R-2BX-8N8">'Descrierea garanției financiare' (BT-75-Lot) este obligatoriu când: 'Este necesară o garanție.' (BT-751-Lot) este 'da'.</entry>
@@ -284,7 +284,6 @@
 <entry key="rule|text|R-2GK-01L">'Număr legat de criteriul de atribuire' (BT-541-Lot-FixedNumber) nu se poate repeta</entry>
 <entry key="rule|text|R-2GS-I3E">'Participare rezervată' (BT-71-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-2GU-QHW">'Numărul este un tip de prag' (BT-7532-Lot) nu este permis</entry>
-<entry key="rule|text|R-2GV-P8Q">'Data la care se va publica' (BT-198) valoarea trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii' (BT-05)</entry>
 <entry key="rule|text|R-2GY-EQZ">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-20)</entry>
 <entry key="rule|text|R-2HC-IUQ">'Tip de serviciu furnizat' (OPT-030-Procedure-SProvider) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-2HK-BGP">Atributul 'schemeName' trebuie să fie prezent pentru 'Organizația sau punctul de contact specific' (OPT-301-Part-ReviewOrg-Scheme)</entry>
@@ -333,7 +332,6 @@
 <entry key="rule|text|R-2W0-V5X">'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult) trebuie să corespundă următorului model: TenderID</entry>
 <entry key="rule|text|R-2WG-4C0">'Căile de atac - identificatorul secțiunii în anunț' (BT-786-Review) nu este permis când: 'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent</entry>
 <entry key="rule|text|R-2WL-GMO">'Tip de anunț' (BT-02-notice) trebuie să conțină o valoare din lista de coduri (notice-type)</entry>
-<entry key="rule|text|R-2XG-HZL">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-2XG-YAG">'Unde se găsesc documentele achiziției' (BT-15-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-2XL-IMM">'Data de atribuire a ofertei fictive' (OPT-999-notice) nu este permis</entry>
 <entry key="rule|text|R-2YL-K0Q">'Căile de atac - identificatorul secțiunii în anunț' (BT-786-Review) nu trebuie să aibă spații la început sau la sfârșit</entry>
@@ -344,7 +342,6 @@
 <entry key="rule|text|R-2Z5-M33">Atributul 'listName' trebuie să fie prezent pentru 'Subdiviziunea țării (NUTS)' (BT-507-Business-List)</entry>
 <entry key="rule|text|R-2ZB-DPR">'Se aplică un sistem dinamic de achiziții' (BT-766-Part) nu este permis</entry>
 <entry key="rule|text|R-2ZE-53X">Dacă 'Măsură IPI specifică' (BT-685-LotResult) este egal cu 'Dispozitive medicale originare din China – Regulamentul (UE) 2025/1197', atunci lotul asociat trebuie să aibă fie 'Clasificarea principală' (BT-262-Lot), fie cel puțin un 'Clasificare suplimentară' (BT-263-Lot) pentru dispozitive medicale</entry>
-<entry key="rule|text|R-2ZN-YO8">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-30H-IXV">'Adresa contractului' (BT-151-Contract) nu se poate repeta</entry>
 <entry key="rule|text|R-30Q-PBK">'Numărul este un tip de pondere' (BT-5421-LotsGroup) nu se poate repeta</entry>
 <entry key="rule|text|R-30V-AUP">'Se aplică un sistem dinamic de achiziții' (BT-766-Part) trebuie să conțină o valoare din lista de coduri (dps-usage)</entry>
@@ -388,11 +385,11 @@
 <entry key="rule|text|R-3AX-PED">'Forma juridică pe care trebuie să o adopte un grup de ofertanți căruia i se atribuie un contract' (BT-76-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-3B6-JXA">'Identificatorul solicitantului de revizuire' (BT-808-Review) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-3BZ-GV1">'Denumire' (BT-734-LotsGroup) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
+<entry key="rule|text|R-3CW-1PM">Unui ofertant îi lipsește 'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer), sau unei oferte îi lipsește 'Partea ofertantă' (OPT-310-Tender).</entry>
 <entry key="rule|text|R-3CY-CO3">'Achizitorul este o entitate contractantă' (BT-740-Procedure-Buyer) trebuie să conțină o valoare din lista de coduri (buyer-contracting-type)</entry>
 <entry key="rule|text|R-3CZ-6NM">'Contractul este atribuit în baza unui acord-cadru' (BT-768-Contract) este obligatoriu când: A fost ales un câștigător și 'Se aplică un acord-cadru' (BT-765-Lot) corespunde acordului-cadru al procedurii.</entry>
 <entry key="rule|text|R-3EF-GU4">Numărul total de oferte primite trebuie să fie egal cu numărul de oferte primite de la organizațiile mari plus numărul de oferte primite de la organizațiile micro, mici și mijlocii.</entry>
 <entry key="rule|text|R-3EU-UGY">'Localitate' (BT-5131-Procedure) nu poate fi mai lung de 400 caractere</entry>
-<entry key="rule|text|R-3EY-J6P">'Data la care se va publica' (BT-198) valoarea trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii' (BT-05)</entry>
 <entry key="rule|text|R-3F3-DAK">'Metoda utilizată pentru calcularea valorii estimate a concesiunii' (BT-163-Tender) este obligatoriu când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) este completat.</entry>
 <entry key="rule|text|R-3F8-NUW">'Consumul de energie în kWh/an' (BT-813-LotResult) este obligatoriu când: 'Lista EED' (Bază) (BT-811(a)-LotResult) există și nu este setat la 'Eticheta energetică'.</entry>
 <entry key="rule|text|R-3FA-SU7">'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) nu este permis când: Valoarea 'Tip de procedură' (BT-105) nu este egală cu 'Restrânsă', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Dialog competitiv', 'Parteneriat pentru inovare' și 'Altă procedură cu mai multe etape', sau 'Termenul-limită pentru primirea cererilor de exprimare a interesului' (BT-630) este prezent</entry>
@@ -411,7 +408,7 @@
 <entry key="rule|text|R-3K4-290">'Valoarea recalculată a acordurilor-cadru pentru un grup de loturi' (BT-1561-NoticeResult) trebuie să corespundă următorului model: AmountValue</entry>
 <entry key="rule|text|R-3KK-ZDO">'Adresă poștală' (BT-5101(a)-Part) nu este permis când: 'Localitate' (BT-5131) nu este completat</entry>
 <entry key="rule|text|R-3L8-M5E">'Lista EED (element)' (BT-811(b)-LotResult) trebuie să conțină o valoare din lista de coduri (energy-efficiency-item)</entry>
-<entry key="rule|text|R-3LL-3UB">'Valoarea maximă a acordurilor-cadru pentru acest grup de loturi' (BT-156-NoticeResult) este obligatoriu când: expression|name|542</entry>
+<entry key="rule|text|R-3LL-3UB"></entry>
 <entry key="rule|text|R-3M1-VOG">'Codul justificării nedivulgării' (BT-197-notice) nu se poate repeta</entry>
 <entry key="rule|text|R-3M4-NKV">'Adresă poștală' (BT-510(b)-Business) nu se poate repeta</entry>
 <entry key="rule|text|R-3MC-ZA0">'Descriere' (BT-24-Part-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
@@ -429,7 +426,6 @@
 <entry key="rule|text|R-3QI-0OB">'Identificatorul lotului sau al grupului de loturi' (BT-13714-Tender) este obligatoriu când: 'Identificatorul ofertei' (BT-3201-Tender) este completat.</entry>
 <entry key="rule|text|R-3R3-XZP">'Telefon' (BT-503-Business) nu se poate repeta</entry>
 <entry key="rule|text|R-3R7-Z22">'Localitate' (OPP-110-Business) este obligatoriu când: 'Număr de înregistrare' (BT-501-Business-European) este completat.</entry>
-<entry key="rule|text|R-3SJ-5NM">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-3TB-BZ3">'Forma juridică pe care trebuie să o adopte un grup de ofertanți căruia i se atribuie un contract' (BT-76-Lot) nu este permis</entry>
 <entry key="rule|text|R-3TI-DT3">'Alte categorii de achizitori' (BT-111-Lot) nu este permis</entry>
 <entry key="rule|text|R-3U5-U5P">'Este nevoie de semnătura sau sigiliul electronic(ă) avansat(ă) sau calificat(ă) [conform definiției din Regulamentul (UE) nr. 910/2014]' (BT-744-Lot) trebuie să conțină o valoare din lista de coduri (esignature-submission)</entry>
@@ -460,7 +456,6 @@
 <entry key="rule|text|R-3ZW-OUH">'Statutul selecției câștigătorului' (BT-142-LotResult) trebuie să conțină o valoare din lista de coduri (winner-selection-status)</entry>
 <entry key="rule|text|R-409-1BU">'Adresă poștală' (BT-510(b)-UBO) nu este permis când: 'Adresă poștală' (BT-510(a)-UBO) nu este completat</entry>
 <entry key="rule|text|R-40R-QUP">'Profilul achizitorului' (BT-508-Procedure-Buyer) trebuie să corespundă următorului model: URL</entry>
-<entry key="rule|text|R-40X-DUK">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-41V-86E">'Descrierea modificărilor' (BT-141(a)-notice) nu este permis</entry>
 <entry key="rule|text|R-41Z-29T">'Activitatea autorității contractante' (BT-10-Procedure-Buyer) este obligatoriu când: 'Forma juridică a achizitorului' (BT-11) este unul dintre următoarele: 'Organism de drept public'; 'Organism de drept public, controlat de o autoritate guvernamentală centrală'; 'Organism de drept public, controlat de o autoritate locală'; 'Organism de drept public, controlat de o autoritate regională'; 'Autoritate guvernamentală centrală'; 'Contractant din domeniul apărării'; 'Instituție, organ sau agenție a UE'; 'Organizație internațională'; 'Autoritate locală'; 'Organizație care atribuie un contract subvenționat de o autoritate contractantă'; 'Organizație care atribuie un contract subvenționat de o autoritate guvernamentală centrală'; 'Organizație care atribuie un contract subvenționat de o autoritate locală'; 'Organizație care atribuie un contract subvenționat de o autoritate regională'; 'Autoritate regională'.</entry>
 <entry key="rule|text|R-42R-104">'Organizație care furnizează informații despre legislația muncii' (OPT-301-Lot-EmployLegis) trebuie să corespundă următorului model: OrgOrTouchPointID</entry>
@@ -482,8 +477,10 @@
 <entry key="rule|text|R-47L-Y7X">'Identificator de grup' (BT-330-Procedure) trebuie să corespundă următorului model: GroupID</entry>
 <entry key="rule|text|R-47U-EMX">'Metrica de economie EED' (OPT-081-LotResult) este obligatoriu când: 'Economie de energie în kWh/an' (în kWh/an) (BT-814-LotResult) există.</entry>
 <entry key="rule|text|R-48O-ZT2">'Natura suplimentară a contractului' (BT-531-Procedure) nu se poate repeta</entry>
+<entry key="rule|text|R-48Z-1D0">Unul sau mai multe coduri pentru 'Grup de informații nedivulgate' (BT-195-notice) sunt utilizate de mai multe ori.</entry>
 <entry key="rule|text|R-49A-VC1">'Informații suplimentare' (OPP-130-Business) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-49D-HC7">'Lista EED (element)' (BT-811(b)-LotResult) nu trebuie să aibă spații la început sau la sfârșit</entry>
+<entry key="rule|text|R-49S-N8D">Valorii grupului acordului-cadru îi lipsește 'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|R-4AB-YK0">'Unde se găsesc documentele achiziției' (BT-15-Part) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-4AC-T0U">'Natura suplimentară a contractului' (BT-531-Lot) trebuie să conțină o valoare din lista de coduri (contract-nature)</entry>
 <entry key="rule|text|R-4AJ-BM0">'Naționalitatea proprietarului' (BT-706-UBO) este obligatoriu când: 'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) este completat.</entry>
@@ -508,7 +505,6 @@
 <entry key="rule|text|R-4IN-WTU">'Clasificare suplimentară' (BT-263-Part) trebuie să conțină o valoare din lista de coduri (cpv)</entry>
 <entry key="rule|text|R-4KI-XSJ">'Data divulgării' (BT-198-notice) nu este permis când: 'Câmp de publicat ulterior' (BT-195-notice) este gol</entry>
 <entry key="rule|text|R-4KL-SBN">'Baza legală a procedurii fără un identificator (descriere)' (BT-01(f)-Procedure) nu poate fi mai lung de 400 caractere</entry>
-<entry key="rule|text|R-4KV-XZW">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-4L5-LUG">Fiecare ofertant din cadrul unei părți care depune ofertă (OPT-300-Tenderer) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-4LB-0WW">'Tip de vehicul' (OPT-155-LotResult) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-4LK-7KO">'Valoarea subcontractării este cunoscută' (BT-730-Tender) nu este permis când: 'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
@@ -517,7 +513,6 @@
 <entry key="rule|text|R-4NV-J3N">Atributul 'listName' trebuie să fie prezent pentru 'Dimensiunea operatorului economic' (BT-165-Organization-Company-List)</entry>
 <entry key="rule|text|R-4NZ-H3E">'Limbile în care acest anunț este disponibil oficial' (BT-702(a)-notice) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-4O1-4MR">'Furnizor de servicii de achiziție' (OPT-300-Procedure-SProvider) nu este permis</entry>
-<entry key="rule|text|R-4O7-9ZI">'Data la care se va publica' (BT-198) valoarea trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii' (BT-05)</entry>
 <entry key="rule|text|R-4PA-IU3">'Se va utiliza plata electronică' (BT-93-Lot) nu este permis</entry>
 <entry key="rule|text|R-4PB-GKY">'Sistemul dinamic de achiziții a fost sistat' (BT-119-LotResult) nu este permis când: Nu se utilizează sistemul dinamic de achiziții</entry>
 <entry key="rule|text|R-4QE-LUT">'Durată' (BT-36-Part) nu este permis</entry>
@@ -547,7 +542,6 @@
 <entry key="rule|text|R-4XC-5I9">Atributul 'listName' trebuie să fie prezent pentru 'Căile de atac - cerere sau decizie' (BT-783-Review-List)</entry>
 <entry key="rule|text|R-4YD-ORK">'Data încheierii contractului' (BT-145-Contract) este obligatoriu când: 'Contract: identificator lot' (BT-3202-Contract) este completat.</entry>
 <entry key="rule|text|R-4Z3-VLE">'Organizația care oferă acces offline la documentele achiziției' (OPT-301-Lot-DocProvider) nu este permis</entry>
-<entry key="rule|text|R-4ZC-5GQ">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-4ZM-110">'Justificarea duratei acordului-cadru' (BT-109-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-4ZO-KIE">'Informații suplimentare' (OPP-130-Business) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-4ZU-5UE">Fiecare semnatar al unui contract (OPT-300) trebuie să corespundă uneia dintre organizațiile definite (OPT-200)</entry>
@@ -556,7 +550,6 @@
 <entry key="rule|text|R-514-G06">'Informații suplimentare privind durata' (BT-781-Lot) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-518-HSD">'Data publicării' (OPP-012-notice) nu se poate repeta</entry>
 <entry key="rule|text|R-51B-4DP">'Căile de atac - valoarea măsurii corective' (BT-793-Review) nu este permis când: 'Căile de atac - tip de măsură corectivă' (BT-792-Review) nu este prezent sau nu este 'Decizie'</entry>
-<entry key="rule|text|R-51O-R2H">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-51S-T9D">Trebuie să se specifice o limbă pentru 'Justificarea duratei acordului-cadru' (BT-109-Lot)</entry>
 <entry key="rule|text|R-51Z-OS8">'Regulamentul privind subvențiile străine' (BT-681-Lot) nu este permis</entry>
 <entry key="rule|text|R-52D-QJT">'Trebuie să fie specificate numele și calificările profesionale ale personalului însărcinat cu executarea contractului' (BT-79-Lot) trebuie să conțină o valoare din lista de coduri (requirement-stage)</entry>
@@ -566,15 +559,14 @@
 <entry key="rule|text|R-52Z-KRT">'Identificatorul contractului' (BT-150-Contract) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-53R-6MC">'Lider de grup' (OPP-050-Organization) este obligatoriu când: Organizația este un cumpărător și există mai mult de un cumpărător.</entry>
 <entry key="rule|text|R-54C-6QN">'Descriere' (BT-122-Lot) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
+<entry key="rule|text|R-55W-Y7L">Unui punct de contact îi lipsește 'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|R-56I-IS3">'Tip' (BT-539-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-56S-Y32">'Țara' (BT-514-Business) nu se poate repeta</entry>
 <entry key="rule|text|R-574-8T1">'Organizație de mediere' (OPT-301-Lot-Mediator) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-577-1PH">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-36)</entry>
 <entry key="rule|text|R-57H-K8W">'Telefon' (BT-503-Organization-Company) nu se poate repeta</entry>
 <entry key="rule|text|R-57H-VSZ">'Unde se găsesc informații despre documentele restricționate' (BT-615-Lot) este obligatoriu când: 'Accesul la anumite documente de achiziție este restricționat.' (BT-14-Lot) este restricționat.</entry>
-<entry key="rule|text|R-57N-MMP">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-57R-8F1">Atributul 'listName' trebuie să fie prezent pentru 'Numărul este un tip de pondere' (BT-5421-LotsGroup-List)</entry>
-<entry key="rule|text|R-57T-OQE">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-582-0N7">'Termenul-limită pentru primirea cererilor de exprimare a interesului' (BT-630(d)-Lot) nu este permis</entry>
 <entry key="rule|text|R-586-WT2">'Data estimată de trimitere a invitațiilor de confirmare a interesului' (BT-631-Lot) trebuie să corespundă următorului model: Date</entry>
 <entry key="rule|text|R-58P-GOO">'Țara de origine a produsului sau a serviciului' (BT-191-Tender) nu este permis</entry>
@@ -597,6 +589,7 @@
 <entry key="rule|text|R-5GT-NS6">Ofertantul principal nu poate acționa ca 'Organizația care primește ofertele'</entry>
 <entry key="rule|text|R-5HA-5FW">'Identificatorul anunțului anterior' (BT-125(i)-Part) nu se poate repeta</entry>
 <entry key="rule|text|R-5HW-G6D">'Număr de oferte/cereri de participare primite' (BT-759-LotResult) nu se poate repeta</entry>
+<entry key="rule|text|R-5HY-P32">'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult) nu este permis când: Nu au fost atribuite toate loturile care aparțin grupului sau există un singur lot în grupul de loturi în care este implicat un acord-cadru</entry>
 <entry key="rule|text|R-5I6-8OM">'Căile de atac - tipul de organism' (BT-799-ReviewBody) nu se poate repeta</entry>
 <entry key="rule|text|R-5IH-8DU">'Principalele caracteristici ale procedurii' (BT-88-Procedure-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-5IQ-UP7">'Sector de activitate' (OPP-105-Business) nu se poate repeta</entry>
@@ -646,7 +639,6 @@
 <entry key="rule|text|R-61Z-YOK">'ID-ul documentului de legislație de mediu' (OPT-112-Part-EnvironLegis) nu este permis</entry>
 <entry key="rule|text|R-628-8OG">'Cod poștal' (BT-512-Organization-TouchPoint) nu este permis</entry>
 <entry key="rule|text|R-62F-V5G">'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-WeightNumber) este obligatoriu când: 'Descriere' - 'Criteriu de atribuire' (BT-540-LotsGroup) este prezent și 'Număr legat de criteriul de atribuire' – 'Numărul este o valoare fixă' (BT-541-LotsGroup-FixedNumber), 'Număr legat de criteriul de atribuire' – 'Numărul este un tip de prag' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii' (BT-543-LotsGroup) nu sunt prezente</entry>
-<entry key="rule|text|R-62H-JQS">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-62N-MVZ">'Justificarea duratei acordului-cadru' (BT-109-Lot) nu este permis când: Durata lotului trebuie să fie mai mare de 7 ani</entry>
 <entry key="rule|text|R-62V-ADZ">'Informații suplimentare' (BT-728-Lot) nu este permis când: 'Locul de executare – Domeniul geografic' (BT-727) și 'Țara' (BT-5141) nu sunt completate</entry>
 <entry key="rule|text|R-63K-USI">Trebuie să se specifice o limbă pentru 'Descrierea modificărilor' (BT-202-Contract)</entry>
@@ -704,8 +696,8 @@
 <entry key="rule|text|R-6ME-7ZQ">'Adresa web a legislației fiscale' (OPT-110-Part-FiscalLegis) nu este permis</entry>
 <entry key="rule|text|R-6MH-OT7">'Contract: identificator lot' (BT-3202-Contract) nu este permis</entry>
 <entry key="rule|text|R-6MV-ZN4">'Descriere' (BT-777-Lot) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
+<entry key="rule|text|R-6N9-LTG">Rezultatului unei lot îi lipsește 'Rezultate: identificator lot' (BT-13713-LotResult).</entry>
 <entry key="rule|text|R-6NC-I79">'Se va utiliza comanda electronică' (BT-92-Lot) este obligatoriu</entry>
-<entry key="rule|text|R-6NK-C9X">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-6NR-HO7">'Metoda utilizată pentru calcularea valorii estimate a concesiunii' (BT-163-Tender) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-6O0-ZMS">Atributul 'listName' trebuie să fie prezent pentru 'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717-Lot-List)</entry>
 <entry key="rule|text|R-6O6-ZQ2">'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer) este obligatoriu când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) este completat.</entry>
@@ -726,6 +718,7 @@
 <entry key="rule|text|R-6SA-VYU">Atributul 'listName' trebuie să fie prezent pentru 'Țara' (BT-514-Organization-Company-List)</entry>
 <entry key="rule|text|R-6SO-EH5">Orice referire la o organizație pentru un rol de furnizor de servicii (OPT-300-Procedure-SProvider) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-6TC-BGB">'Subdiviziunea țării (NUTS)' (BT-5071-Part) este obligatoriu când: 'Locul de executare – Domeniul geografic' (BT-727) nu este completat și 'Țara' (BT-5141-UBO) are coduri NUTS</entry>
+<entry key="rule|text|R-6TG-TEM">Unei oferte îi lipsește 'Valoarea plăților legate de ofertă' (BT-779-Tender).</entry>
 <entry key="rule|text|R-6TT-FMW">'Subtipul anunțului' (OPP-070-notice) este obligatoriu</entry>
 <entry key="rule|text|R-6UC-KCK">'Informații suplimentare privind justificarea nedivulgării' (BT-196-notice) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-6UU-FG6">'Contractul este atribuit în baza unui acord-cadru' (BT-768-Contract) nu se poate repeta</entry>
@@ -747,7 +740,6 @@
 <entry key="rule|text|R-71J-V5T">'Organizație care furnizează informații despre legislația muncii' (OPT-301-Part-EmployLegis) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-71K-GZS">'Numărul ediției JO S' (OPP-011-notice) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-71T-49M">'Justificare pentru neindicarea ponderii criteriilor de atribuire' (BT-733-LotsGroup) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
-<entry key="rule|text|R-72D-80V">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-736-3O4">'Numărul este un tip de pondere' (BT-5421-Lot) trebuie să conțină o valoare din lista de coduri (number-weight)</entry>
 <entry key="rule|text|R-738-QV9">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-25)</entry>
 <entry key="rule|text|R-73S-7UE">'Data de sfârșit a duratei' (BT-537-Part) nu este permis</entry>
@@ -760,7 +752,7 @@
 <entry key="rule|text|R-75P-6GW">'Punct de contact' (BT-502-Organization-Company) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-75T-57G">'Tip' (BT-539-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-765-7R2">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) trebuie să fie pozitiv.</entry>
-<entry key="rule|text|R-77F-0DW">'Data deschiderii' (BT-132(d)-Lot) nu este permis când: 'Tip de procedură' (BT-105-Procedure) nu este 'Deschisă'</entry>
+<entry key="rule|text|R-77F-0DW">'Data deschiderii publice' (BT-132(d)-Lot) nu este permis când: 'Tip de procedură' (BT-105-Procedure) nu este 'Deschisă'</entry>
 <entry key="rule|text|R-77H-7RV">'Procentul maxim din valoarea contractului pe care contractantul îl poate subcontracta' (BT-729-Lot) nu este permis când: 'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-65_Lot) nu este 'Contractantul trebuie să subcontracteze un procentaj minim din contract utilizând procedura prevăzută la titlul III din Directiva 2009/81/CE.'</entry>
 <entry key="rule|text|R-77K-KT0">'Informații suplimentare' (BT-772-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-77Q-74K">'Tip de clasificare' (BT-26(m)-Procedure) nu este permis când: 'Clasificarea principală' (BT-262-Procedure) nu este completat</entry>
@@ -836,6 +828,7 @@
 <entry key="rule|text|R-7VS-N3J">'Fax' (BT-739-Organization-TouchPoint) trebuie să corespundă următorului model: PhoneNumber</entry>
 <entry key="rule|text|R-7VU-BVH">'Descriere' (BT-122-Lot) nu este permis când: 'Se utilizează o licitație electronică' (BT-767-Lot) nu este 'da'</entry>
 <entry key="rule|text|R-7WF-AIG">'Grup de informații nedivulgate' (BT-195-notice) nu este permis</entry>
+<entry key="rule|text|R-7WI-K7F">Unui contract îi lipsește 'ID-ul tehnic al contractului' (OPT-316-Contract), sau rezultatului unei lot îi lipsește 'Referință la contract' (OPT-315-LotResult).</entry>
 <entry key="rule|text|R-7X8-WZW">'Locul de executare' este obligatoriu pentru procedură</entry>
 <entry key="rule|text|R-7Y9-JQW">Un cumpărător nu poate fi ofertant (main or subcontractor)</entry>
 <entry key="rule|text|R-7YD-GR9">Atributul 'listName' trebuie să fie prezent pentru 'Temeiul juridic al CVD pentru a stabili ce categorie de proceduri de achiziții se aplică' (BT-735-Lot-List)</entry>
@@ -890,7 +883,6 @@
 <entry key="rule|text|R-8DU-AC8">'Adresa de internet' (BT-505-Business) nu este permis</entry>
 <entry key="rule|text|R-8E0-O11">'Țara' (BT-5141-Lot) este obligatoriu când: 'Locul de executare – Domeniul geografic' (BT-727-Lot) nu este 'Oriunde' sau 'Oriunde în Spațiul Economic European'.</entry>
 <entry key="rule|text|R-8E3-HCM">'Descriere' (BT-24-Procedure) nu este permis</entry>
-<entry key="rule|text|R-8F3-0R2">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-8FF-0JC">'Lista EED (Bază)' (BT-811(a)-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-8GT-FPD">'Temei juridic' (BT-01(e)-Procedure) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-8GU-DL8">'Durata în care oferta trebuie să rămână valabilă' (BT-98-Lot) nu este permis când: Valoarea 'Tip de procedură' (BT-105) nu este egală cu 'Deschisă' sau 'Altă procedură cu o singură etapă'</entry>
@@ -899,6 +891,7 @@
 <entry key="rule|text|R-8IE-DLL">'Informații suplimentare' (BT-728-Part-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-8IU-H2V">'Adresă poștală' (BT-510(c)-Organization-TouchPoint) nu se poate repeta</entry>
 <entry key="rule|text|R-8J1-1Q1">'Subdiviziunea țării (NUTS)' (BT-507-Business) este obligatoriu când: 'Țara' (BT-514-Business) are coduri NUTS.</entry>
+<entry key="rule|text|R-8J5-LB2">Unei oferte îi lipsește 'Subcontractare' (BT-773-Tender).</entry>
 <entry key="rule|text|R-8JC-CXA">'Descriere' (BT-540-LotsGroup) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-8JD-5LS">'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-8JJ-Q1A">'Căile de atac - tip de decizie' (BT-790-Review) nu este permis când: 'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent sau nu este 'Decizie' sau cererea a fost retrasă</entry>
@@ -961,7 +954,7 @@
 <entry key="rule|text|R-96R-H5Z">'Descriere obiectiv de calitate' (OPT-072-Lot) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-972-0NT">'Alte categorii de achizitori' (BT-111-Lot) nu este permis când: 'Se aplică un acord-cadru' (BT-765-Lot) nu este una dintre următoarele: 'Acord-cadru, parțial fără și parțial cu reluarea procedurii concurențiale'; 'Acord-cadru, cu reluarea procedurii concurențiale'; 'Acord-cadru, fără reluarea procedurii concurențiale'</entry>
 <entry key="rule|text|R-972-NW2">'Numărul este o valoare fixă' (BT-5422-Lot) trebuie să conțină o valoare din lista de coduri (number-fixed)</entry>
-<entry key="rule|text|R-97B-5E5">'Data deschiderii' (BT-132(d)-Lot) nu se poate repeta</entry>
+<entry key="rule|text|R-97B-5E5">'Data deschiderii publice' (BT-132(d)-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-97P-YEV">'Denumire' (BT-734-LotsGroup) nu este permis</entry>
 <entry key="rule|text|R-9B2-DZ5">O organizație care acționează ca subcontractant nu poate avea 'Alte puncte de contact'</entry>
 <entry key="rule|text|R-9BH-N7S">'Clasificare suplimentară' (BT-263-Procedure) trebuie să conțină o valoare din lista de coduri (cpv)</entry>
@@ -999,7 +992,7 @@
 <entry key="rule|text|R-9MG-WIJ">Statistici privind ofertele primite: Numărul total de 'Oferte depuse de ofertanți înregistrați în alte țări din Spațiul Economic European decât țara cumpărătorului' (BT-760-LotResult = t-oth-eea) trebuie specificat exact o singură dată</entry>
 <entry key="rule|text|R-9NA-SCU">Fiecare referire la partea ofertantă de la (OPT-310-Tender) trebuie să corespundă uneia dintre părțile ofertante definite (OPT-210-Tenderer)</entry>
 <entry key="rule|text|R-9NL-8CI">'Data începerii' (BT-536-Lot) nu este permis</entry>
-<entry key="rule|text|R-9O0-I7Y">'Data deschiderii' (BT-132(t)-Lot) nu este permis</entry>
+<entry key="rule|text|R-9O0-I7Y">'Ora deschiderii publice' (BT-132(t)-Lot) nu este permis</entry>
 <entry key="rule|text|R-9O6-IB6">'Eticheta de eficiență energetică' (BT-812-LotResult) trebuie să conțină o valoare din lista de coduri (energy-efficiency-label)</entry>
 <entry key="rule|text|R-9OI-X06">Trebuie să se specifice o limbă pentru 'Temeiul juridic al procedurii (descriere)' (BT-01(d)-Procedure)</entry>
 <entry key="rule|text|R-9OO-YN4">'Telefon' (BT-503-Business) nu poate fi mai lung de 30 caractere</entry>
@@ -1043,6 +1036,7 @@
 <entry key="rule|text|R-A3K-3ZH">Atributul 'listName' trebuie să fie prezent pentru 'Obiectivul achiziției publice strategice' (BT-06-Lot-List)</entry>
 <entry key="rule|text|R-A3Q-DUG">'Numărul maxim de loturi pentru care se pot atribui contracte unui singur ofertant' (BT-33-Procedure) este obligatoriu când: Există mai multe loturi.</entry>
 <entry key="rule|text|R-A4U-KMK">'Acest anunț conține informații relevante pentru' (OPP-100-Business) nu trebuie să aibă spații la început sau la sfârșit</entry>
+<entry key="rule|text|R-A4X-NTN">Beneficiarului real îi lipsește 'Naționalitatea proprietarului' (BT-706-UBO).</entry>
 <entry key="rule|text|R-A50-1V0">'Se va utiliza plata electronică' (BT-93-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-A51-PEX">'Accesul la anumite documente de achiziție este restricționat.' (BT-14-Lot) trebuie să conțină o valoare din lista de coduri (document-distribution)</entry>
 <entry key="rule|text|R-A53-N57">'Subdiviziunea țării (NUTS)' (BT-507-UBO) nu este permis</entry>
@@ -1101,13 +1095,13 @@
 <entry key="rule|text|R-AMR-RX7">Ofertantul principal nu poate acționa ca 'Organizația care execută plata'</entry>
 <entry key="rule|text|R-AN6-WV9">'Informații suplimentare' (BT-300-Procedure) nu este permis</entry>
 <entry key="rule|text|R-ANF-XP5">'Termenul-limită pentru primirea cererilor de participare' (BT-1311(t)-Lot) nu este permis când: 'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) nu este completat</entry>
-<entry key="rule|text|R-AO9-I8Z">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-AOO-25U">'Adresă poștală' (BT-510(b)-Organization-Company) nu se poate repeta</entry>
 <entry key="rule|text|R-AOU-3CI">'Limbile în care acest anunț este disponibil oficial' (BT-702(b)-notice) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-APH-7K9">'Informații suplimentare' (BT-728-Lot) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-AQQ-US1">'Metoda utilizată pentru calcularea valorii estimate a concesiunii' (BT-163-Tender-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-AQZ-2OF">Fiecare furnizor de informații pentru revizuire pentru un lot (OPT-301-Lot-ReviewInfo) sau parte (OPT-301-Part-ReviewInfo) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company) alte puncte de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-AR0-ASS">'Țara' (BT-5141-Part) este obligatoriu când: 'Locul de executare – Domeniul geografic' (BT-727-Part) este 'Oriunde' sau 'Oriunde în Spațiul Economic European'.</entry>
+<entry key="rule|text|R-AR0-OPR">Unei organizații îi lipsește identificatorul tehnic (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-ARR-F5W">Ofertantul principal nu poate acționa ca 'Organizația care oferă acces offline la documentele achiziției'</entry>
 <entry key="rule|text|R-ARZ-PVM">'Număr de oferte/cereri de participare primite' (BT-759-LotResult) trebuie să fie mai mare sau egal cu 0. 'Număr de oferte/cereri de participare primite' (BT-759-LotResult) trebuie să fie mai mic sau egal cu 9999</entry>
 <entry key="rule|text|R-ASY-HWA">'Unde se găsesc documentele achiziției' (BT-15-Part) nu este permis când: 'Accesul la anumite documente de achiziție este restricționat.' (BT-14-Part) este limitat</entry>
@@ -1124,7 +1118,7 @@
 <entry key="rule|text|R-AVM-PWR">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) trebuie să corespundă următorului model: ProcedureVersionIDOrPublicationNumber</entry>
 <entry key="rule|text|R-AVW-8NE">'Informații suplimentare privind justificarea nedivulgării' (BT-196-notice) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
 <entry key="rule|text|R-AW7-D4W">'Valoarea subcontractării este cunoscută' (BT-730-Tender) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
-<entry key="rule|text|R-AWY-5XJ">'999' nu este o valoare validă pentru 'Locul care primește premiul' (BT-44-Lot). Vă rugăm să utilizați o altă valoare.</entry>
+<entry key="rule|text|R-AWY-5XJ">'Locul care primește premiul' (BT-44-Lot) a fost completată cu o valoare de spațiu rezervat automat. Vă rugăm să furnizați o valoare corectă, după caz.</entry>
 <entry key="rule|text|R-AY8-F36">'Căile de atac - motivele retragerii cererii de soluționare' (BT-798-Review) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-AY8-GW5">'Numărul maxim de participanți' (BT-113-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-AYM-VBT">'Denumire oficială' (BT-500-UBO) nu este permis când: 'Naționalitatea proprietarului' (BT-706) nu este completat</entry>
@@ -1141,7 +1135,6 @@
 <entry key="rule|text|R-B37-V2C">'Categoria de vehicul' (BT-723-LotResult) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-B39-CPW">'Justificarea restricționării accesului la anumite documente ale achiziției' (BT-707-Part) nu este permis</entry>
 <entry key="rule|text|R-B3L-HCG">Fiecare furnizor de informații privind legislația de mediu pentru un lot (OPT-301-Lot-EnvironLegis) sau parte (OPT-301-Part-EnvironLegis) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company) alte puncte de contact (OPT-201-Organization-Touchpoint)</entry>
-<entry key="rule|text|R-B3L-L5T">'Data la care se va publica' (BT-198) valoarea trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii' (BT-05)</entry>
 <entry key="rule|text|R-B3R-NMQ">'Informații suplimentare' (BT-134-Lot) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-B42-8I5">Atributul 'schemeName' trebuie să fie prezent pentru 'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult-Scheme)</entry>
 <entry key="rule|text|R-B59-VBU">'Metoda utilizată pentru calcularea valorii estimate a concesiunii' (BT-163-Tender) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat</entry>
@@ -1160,11 +1153,9 @@
 <entry key="rule|text|R-BAP-LIK">'Subdiviziunea țării (NUTS)' (BT-507-UBO) trebuie să corespundă unuia dintre codurile NUTS pentru 'Țara' (BT-514-UBO) specificat</entry>
 <entry key="rule|text|R-BBD-0JL">'Căile de atac - motivele retragerii cererii de soluționare' (BT-798-Review) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-BBH-A1X">'Temeiul juridic al CVD pentru a stabili ce categorie de proceduri de achiziții se aplică' (BT-735-Lot) nu este permis când: 'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717) nu este 'da'</entry>
-<entry key="rule|text|R-BBW-OPO">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-BC6-TEW">'Revizuiți identificatorul tehnic' (BT-804-Review) nu este permis când: 'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent</entry>
 <entry key="rule|text|R-BCD-C13">'Contract: identificator lot' (BT-3202-Contract) trebuie să fie diferit de orice alt 'Contract: identificator lot' din anunț.</entry>
 <entry key="rule|text|R-BCG-872">'Subdiviziunea țării (NUTS)' (BT-5071-Lot) este obligatoriu când: 'Locul de executare – Domeniul geografic' (BT-727) nu este completat și 'Țara' (BT-5141-UBO) are coduri NUTS</entry>
-<entry key="rule|text|R-BCM-UDZ">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-BD9-0D6">'Criterii privind achizițiile ecologice' (BT-805-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-BDB-RPB">Trebuie să se specifice o limbă pentru 'Descriere' (BT-09(b)-Procedure)</entry>
 <entry key="rule|text|R-BDI-O13">'Contractant principal către subcontractant' (OPT-301-Tenderer-MainCont) trebuie să corespundă următorului model: OrganizationID</entry>
@@ -1214,7 +1205,6 @@
 <entry key="rule|text|R-BQW-7W4">'Căile de atac - tipul de organism' (BT-799-ReviewBody) nu este permis</entry>
 <entry key="rule|text|R-BQX-NL4">'Informații suplimentare' (BT-772-Lot) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-BR5-WS6">'Data estimată a publicării unui anunț de participare în cadrul acestei proceduri' (BT-127) trebuie să fie mai târziu de 'Data notificării expedierii' (BT-05)</entry>
-<entry key="rule|text|R-BRV-OSC">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-BSA-6C2">'Organizația sau punctul de contact specific' (OPT-301-Part-ReviewOrg-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
 <entry key="rule|text|R-BSJ-OT2">'Identificatorul de personalizare (UBL)' (OPT-002-notice) nu se poate repeta</entry>
 <entry key="rule|text|R-BTL-QDO">'Temei juridic' (BT-01(c)-Procedure-Scheme) nu poate fi mai lung de 100 caractere</entry>
@@ -1225,7 +1215,6 @@
 <entry key="rule|text|R-BU4-2QL">Orice 'Grup de loturi' (BT-330-Procedure) folosit pentru definirea compoziției grupului trebuie să corespundă unui 'Grup de loturi' (BT-137-LotsGroup) existent</entry>
 <entry key="rule|text|R-BUN-2P2">'Identificator intern' (BT-22-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-BV9-5FL">Ofertantul principal nu poate acționa ca 'Organizația care prelucrează ofertele'</entry>
-<entry key="rule|text|R-BVT-NK9">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-BVU-0OO">'Motivul modificării' (BT-200-Contract) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-BWE-0QK">'Descrierea garanției financiare' (BT-75-Lot) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-BXT-YTN">Trebuie să furnizați toate sau niciunul dintre numerele numărului total de 'Oferte a căror admisibilitate sau inadmisibilitate nu a fost verificată' (BT-760-LotResult = t-no-verif), 'Oferte verificate și inadmisibile' (BT-760-LotResult = t-verif-inad) și 'Oferte verificate și inadmisibile din cauza prețului sau a costului anormal de scăzut' (BT-760-LotResult = t-verif-inad-low)</entry>
@@ -1238,8 +1227,6 @@
 <entry key="rule|text|R-C1A-QH0">'Depunere electronică' (BT-17-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-C2N-R12">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-33)</entry>
 <entry key="rule|text|R-C2T-N1D">'Cod poștal' (BT-512-Business) nu se poate repeta</entry>
-<entry key="rule|text|R-C36-9HK">Atributul 'schemeName' trebuie să fie prezent pentru 'Identificatorul anunțului anterior' (BT-125(i)-Lot-Scheme)</entry>
-<entry key="rule|text|R-C36-QZH">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-C4I-JVS">Atributul 'listName' trebuie să fie prezent pentru 'Ofertantul trebuie să prezinte oferte pentru toate loturile' (BT-763-Procedure-List)</entry>
 <entry key="rule|text|R-C4O-0A0">'Se va utiliza comanda electronică' (BT-92-Lot) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
 <entry key="rule|text|R-C4R-KFJ">'Detalii suplimentare privind fondurile UE' (BT-6140-Lot) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
@@ -1308,7 +1295,6 @@
 <entry key="rule|text|R-CSV-XQ3">'Abordarea pentru reducerea impactului asupra mediului' (BT-774-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-CTH-WW0">'Fax' (BT-739-Organization-TouchPoint) nu este permis</entry>
 <entry key="rule|text|R-CU7-UIU">Atributul 'listName' trebuie să fie prezent pentru 'Se aplică măsurile din cadrul Instrumentului pentru achiziții publice internaționale' (BT-684-Lot-List)</entry>
-<entry key="rule|text|R-CUO-CXF">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-CUW-2S2">'Motivul pentru care nu a fost ales un câștigător' (BT-144-LotResult) trebuie să conțină o valoare din lista de coduri (non-award-justification)</entry>
 <entry key="rule|text|R-CV2-W6E">'Țara' (BT-5141-Procedure) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-CVF-T46">'Căile de atac - descriere' (BT-789-Review) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
@@ -1362,7 +1348,7 @@
 <entry key="rule|text|R-DFE-SV4">'Obiectivul achiziției publice strategice' (BT-06-Lot) nu este permis</entry>
 <entry key="rule|text|R-DFX-8SA">'Organizația care furnizează mai multe informații cu privire la căile de atac' (OPT-301-Lot-ReviewInfo) nu se poate repeta</entry>
 <entry key="rule|text|R-DFY-0OU">'Un grup de ofertanți căruia i se atribuie un contract trebuie să adopte o anumită formă juridică' (BT-761-Lot) nu se poate repeta</entry>
-<entry key="rule|text|R-DGG-B2D">'Data deschiderii' (BT-132(d)-Lot) trebuie să corespundă următorului model: Date</entry>
+<entry key="rule|text|R-DGG-B2D">'Data deschiderii publice' (BT-132(d)-Lot) trebuie să corespundă următorului model: Date</entry>
 <entry key="rule|text|R-DH7-Q55">'Tip de clasificare' (BT-26(a)-Lot) trebuie să conțină o valoare din lista de coduri (classification-type)</entry>
 <entry key="rule|text|R-DHB-GD6">'Indicarea obligatorie a subcontractării' (BT-651-Lot) nu este permis când: 'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-66) nu este completat</entry>
 <entry key="rule|text|R-DHU-YHE">'Activitatea autorității contractante' (BT-10-Procedure-Buyer) nu este permis când: 'Forma juridică a achizitorului' (BT-11-Procedure-Buyer) nu este una dintre următoarele: 'Organism de drept public'; 'Organism de drept public, controlat de o autoritate guvernamentală centrală'; 'Organism de drept public, controlat de o autoritate locală'; 'Organism de drept public, controlat de o autoritate regională'; 'Autoritate guvernamentală centrală'; 'Contractant din domeniul apărării'; 'Instituție, organ sau agenție a UE'; 'Organizație internațională'; 'Autoritate locală'; 'Organizație care atribuie un contract subvenționat de o autoritate contractantă'; 'Organizație care atribuie un contract subvenționat de o autoritate guvernamentală centrală'; 'Organizație care atribuie un contract subvenționat de o autoritate locală'; 'Organizație care atribuie un contract subvenționat de o autoritate regională'; 'Autoritate regională'</entry>
@@ -1401,14 +1387,12 @@
 <entry key="rule|text|R-DWX-3GA">'Informații suplimentare' (BT-728-Part) nu este permis când: 'Informații suplimentare' (BT-728) și BT-5142 (BT-5142) nu sunt completate</entry>
 <entry key="rule|text|R-DXO-0LD">'Unde se găsesc informații despre documentele restricționate' (BT-615-Part) nu este permis</entry>
 <entry key="rule|text|R-DY4-BC4">'URL' (BT-124-Lot) nu se poate repeta</entry>
-<entry key="rule|text|R-DY4-X1P">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-DY9-ZHL">'Termenul-limită pentru primirea ofertelor' (BT-131(t)-Lot) este obligatoriu când: 'Termenul-limită pentru primirea ofertelor' (BT-131(d)-Lot) este completat.</entry>
 <entry key="rule|text|R-DYK-IQD">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-t01)</entry>
 <entry key="rule|text|R-DYK-VPP">'Identificator intern' (BT-22-Part) nu se poate repeta</entry>
 <entry key="rule|text|R-DYL-DDP">'Organizația sau punctul de contact specific' (OPT-301-Part-TenderReceipt-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
 <entry key="rule|text|R-DZR-BW6">'Licitația electronică se desfășoară la adresa' (BT-123-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-DZX-RQG">'Identificatorul lotului sau al grupului de loturi' (BT-13714-Tender) nu este permis</entry>
-<entry key="rule|text|R-E0C-A64">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-E0C-E1H">'Locul de executare – Domeniul geografic' (BT-727-Part) nu este permis când: 'Subdiviziunea țării (NUTS)' (BT-5071-Part) este completat</entry>
 <entry key="rule|text|R-E0F-442">'Valoarea premiului' (BT-644-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-E0H-0WC">'Anunț anterior' (OPP-090-Procedure) trebuie să corespundă următorului model: ProcedureVersionIDOrPublicationNumber</entry>
@@ -1427,7 +1411,7 @@
 <entry key="rule|text|R-E4E-GPK">'Valoarea plăților legate de ofertă' (BT-779-Tender) trebuie să corespundă următorului model: AmountValue</entry>
 <entry key="rule|text|R-E4G-KIS">'Căile de atac - titlu' (BT-788-Review) nu este permis când: 'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent</entry>
 <entry key="rule|text|R-E4Q-LF6">Ofertantul principal nu poate acționa ca 'Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția mediului aplicabil în locul în care urmează să fie executat contractul'</entry>
-<entry key="rule|text|R-E4Z-MUC">'Data deschiderii' (BT-132(d)-Lot) nu este permis</entry>
+<entry key="rule|text|R-E4Z-MUC">'Data deschiderii publice' (BT-132(d)-Lot) nu este permis</entry>
 <entry key="rule|text|R-E50-DZK">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-021-Contract) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-E5E-JGB">'ID-ul tehnic al contractului' (OPT-316-Contract) nu se poate repeta</entry>
 <entry key="rule|text|R-E5M-U84">'Activitatea autorității contractante' (BT-10-Procedure-Buyer) este obligatoriu</entry>
@@ -1467,7 +1451,6 @@
 <entry key="rule|text|R-EHQ-1BK">'Achizitorul își rezervă dreptul de a atribui contractul pe baza ofertelor inițiale, fără alte negocieri' (BT-120-Lot) nu este permis când: 'Tip de procedură' (BT-105) nu este 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
 <entry key="rule|text|R-EI0-LGR">Dacă 'Participare rezervată' (BT-71) este 'Participarea este rezervată organizațiilor care desfășoară o misiune de serviciu public și care îndeplinesc alte condiții relevante prevăzute în legislație.', atunci 'Durată' (BT-36) trebuie să fie mai mic sau egal cu 3 ani sau 'Data începerii' (BT-536) trebuie să fie mai devreme de 'Data de sfârșit a duratei' (BT-537) cu maximum 3 ani</entry>
 <entry key="rule|text|R-EI7-KOH">'Locul de executare – Domeniul geografic' (BT-727-Lot) nu este permis</entry>
-<entry key="rule|text|R-EJZ-J6N">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-EKN-UG7">'Titlu' (BT-21-Procedure) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-EL1-BF7">'Descriere' (BT-201-Contract) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-EL2-MV7">'Procedura concurențială este sistată' (BT-756-Procedure) nu se poate repeta</entry>
@@ -1477,7 +1460,6 @@
 <entry key="rule|text|R-ELD-7BL">'Tip de oferte primite' (BT-760-LotResult) este obligatoriu când: Valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) nu este egală cu 'Câștigătorul nu a fost selecționat până în prezent, dar procedura concurențială se află încă în curs de desfășurare.', iar valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) nu este egală cu 'Nu a fost ales un câștigător, iar procedura concurențială s-a încheiat.' sau 'Motivul pentru care nu a fost ales un câștigător' (BT-144-LotResult) nu este egală cu 'Nu a fost primit(ă) nicio ofertă, nicio cerere de participare și niciun proiect'.</entry>
 <entry key="rule|text|R-ELK-AOS">'ID-ul tehnic al contractului' (OPT-316-Contract) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-ELL-YB8">'Unde se găsesc informații despre documentele restricționate' (BT-615-Part) trebuie să corespundă următorului model: URL</entry>
-<entry key="rule|text|R-ELM-8WC">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-ELO-86W">'Identificatorul organismului de revizuire' (BT-807-Review) nu se poate repeta</entry>
 <entry key="rule|text|R-ELW-BNM">'Țara' (BT-5141-Lot) nu este permis</entry>
 <entry key="rule|text|R-EMB-JBI">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-WeightNumber) nu este permis</entry>
@@ -1485,7 +1467,6 @@
 <entry key="rule|text|R-EMJ-GRB">'Contract: identificator lot' (BT-3202-Contract) este obligatoriu când: 'Statutul selecției câștigătorului' (BT-142-LotResult) este 'A fost selecționat cel puțin un câștigător.' și 'ID-ul tehnic al rezultatului lotului (RES-XXX)' (OPT-322) este completat.</entry>
 <entry key="rule|text|R-EMY-NNT">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) nu este permis când: Nu este implicat un acord-cadru</entry>
 <entry key="rule|text|R-EN3-Q1Q">Atributul 'schemeName' trebuie să fie prezent pentru 'Organizația sau punctul de contact specific' (OPT-301-Tenderer-SubCont-Scheme)</entry>
-<entry key="rule|text|R-EN4-C6E">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-ENI-GSS">'Punct de contact' (BT-502-Business) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-ENK-UY5">'Se aplică un acord-cadru' (BT-765-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-EOJ-CBL">'Organizația care prelucrează ofertele' (OPT-301-Lot-TenderEval) trebuie să corespundă următorului model: OrgOrTouchPointID</entry>
@@ -1654,6 +1635,7 @@
 <entry key="rule|text|R-GAR-6A4">'Căile de atac - dată' (BT-787-Review) nu este permis</entry>
 <entry key="rule|text|R-GAZ-1EB">'Identificator intern' (BT-22-Lot) nu este permis</entry>
 <entry key="rule|text|R-GB2-KKF">'Denumire oficială' (BT-500-Business) nu este permis</entry>
+<entry key="rule|text|R-GBB-VEE">Unei oferte îi lipsește 'Informații suplimentare privind valoarea plăților legate de ofertă' (BT-780-Tender).</entry>
 <entry key="rule|text|R-GBR-E70">Trebuie să se specifice o limbă pentru 'Descriere' (BT-540-LotsGroup)</entry>
 <entry key="rule|text|R-GC3-Y6Y">'Termenul de primire a răspunsurilor' (BT-800(d)-Lot) nu este permis</entry>
 <entry key="rule|text|R-GC6-X8V">'Descrierea modificărilor' (BT-202-Contract) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
@@ -1812,7 +1794,6 @@
 <entry key="rule|text|R-I1D-0Q0">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-24)</entry>
 <entry key="rule|text|R-I2T-H1J">'Țara' (BT-5141-Procedure) nu se poate repeta</entry>
 <entry key="rule|text|R-I5J-5ZO">'Organizație de mediere' (OPT-301-Lot-Mediator) nu se poate repeta</entry>
-<entry key="rule|text|R-I5J-D2J">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-I5S-JI5">'Fax' (BT-739-Organization-TouchPoint) este obligatoriu când: 'E-mail' (BT-506-Organization-TouchPoint), 'Telefon' (BT-503-Organization-TouchPoint), 'Denumire oficială' (BT-500-Organization-TouchPoint), 'Adresa de internet' (BT-505-Organization-TouchPoint), 'Punctul final de schimb de informații (URL)' (BT-509-Organization-TouchPoint) nu sunt completate; 'ID-ul tehnic al punctului de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) este completat</entry>
 <entry key="rule|text|R-I5U-5H8">'Valoarea tuturor contractelor atribuite în această notificare' (BT-161-NoticeResult) trebuie să corespundă următorului model: AmountValue</entry>
 <entry key="rule|text|R-I62-NWQ">'Cod poștal' (BT-5121-Part) nu este permis când: 'Localitate' (BT-5131) nu este completat</entry>
@@ -1851,12 +1832,10 @@
 <entry key="rule|text|R-ICZ-TMZ">'Beneficiarul final efectiv' (OPT-160-UBO) nu este permis când: 'Denumire oficială' (BT-500-UBO) nu este completat</entry>
 <entry key="rule|text|R-ID6-SBY">'Identificatorul versiunii UBL (UBL)' (OPT-001-notice) este obligatoriu</entry>
 <entry key="rule|text|R-ID7-J4X">'Achiziția publică este finanțată cel puțin parțial din fonduri ale Uniunii Europene' (BT-60-Lot) este obligatoriu</entry>
-<entry key="rule|text|R-ID9-8YC">Atributul 'schemeName' trebuie să fie prezent pentru 'Identificatorul anunțului anterior' (BT-125(i)-Part-Scheme)</entry>
 <entry key="rule|text|R-IDK-BO5">'Cantitatea de eficiență energetică' (BT-815-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-IDO-DNT">O organizație care acționează ca antreprenor principal nu poate avea 'Alte puncte de contact'</entry>
 <entry key="rule|text|R-IDP-M6E">'Orice contract de servicii care rezultă din concurs va fi atribuit unuia dintre câștigătorii concursului' (BT-41-Lot) este obligatoriu</entry>
 <entry key="rule|text|R-IE4-78B">'Acest lot va fi relansat' (BT-634-Lot) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
-<entry key="rule|text|R-IE8-CP8">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-IEQ-Y52">'Excepție la aplicarea măsurii IPI' (BT-687-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-IEU-4Q4">'Organizația sau punctul de contact specific' (OPT-301-Lot-ReviewInfo-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
 <entry key="rule|text|R-IF7-MO3">'Clasificarea principală' (BT-262-Part) este obligatoriu</entry>
@@ -1913,12 +1892,12 @@
 <entry key="rule|text|R-IYT-3LL">'ID-ul tehnic al contractului' (OPT-316-Contract) nu este permis</entry>
 <entry key="rule|text|R-IYX-S9B">'Informații suplimentare' (BT-134-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-IZ3-4JF">'Justificare pentru neindicarea ponderii criteriilor de atribuire' (BT-733-Lot) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
+<entry key="rule|text|R-IZB-7G8">Unui ofertant îi lipsește 'Ofertant' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|R-IZO-0NF">'Oferta este o variantă' (BT-193-Tender) nu este permis</entry>
 <entry key="rule|text|R-IZO-C7I">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-e4)</entry>
 <entry key="rule|text|R-IZO-CMO">'Venituri estimate provenite de la achizitorul care a atribuit concesiunea' (BT-160-Tender) nu se poate repeta</entry>
 <entry key="rule|text|R-IZT-NC2">Atributul 'listName' trebuie să fie prezent pentru 'Este necesară o garanție.' (BT-751-Lot-List)</entry>
 <entry key="rule|text|R-J00-IVK">'Contract: identificator lot' (BT-3202-Contract) nu este permis când: 'ID-ul tehnic al contractului' (OPT-316-Contract) nu este completat; 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat</entry>
-<entry key="rule|text|R-J09-0A0">Atributul 'schemeName' trebuie să fie prezent pentru 'Identificator secțiune' (BT-1501(n)-Contract-Scheme)</entry>
 <entry key="rule|text|R-J0K-B67">'Acord financiar' (BT-77-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-J15-475">'Țara' (OPP-112-Business) nu este permis când: Se aplică înregistrării în UE a companiilor</entry>
 <entry key="rule|text|R-J1C-U9E">'Se va utiliza comanda electronică' (BT-92-Lot) nu este permis</entry>
@@ -1984,7 +1963,6 @@
 <entry key="rule|text|R-JLQ-DDV">'Loturi incluse' (BT-1375-Procedure) trebuie să fie asociat cu un 'Rezultatul procedurii' (BT-137-Lots) existent</entry>
 <entry key="rule|text|R-JM5-26L">'Codul cerinței de executare' (OPT-060-Lot) trebuie să conțină o valoare din lista de coduri (conditions)</entry>
 <entry key="rule|text|R-JM7-JBS">'Informații suplimentare' (BT-300-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
-<entry key="rule|text|R-JM8-CLH">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-JMN-T2M">'Valoarea tuturor contractelor atribuite în această notificare' (BT-161-NoticeResult) trebuie să fie pozitiv.</entry>
 <entry key="rule|text|R-JNM-RKX">'Identificatorul anunțului anterior' (BT-125(i)-Part) nu este permis</entry>
 <entry key="rule|text|R-JNV-O9R">'Execuția este rezervată unei anumite profesii. Referință la baza legală' (OPT-070-Lot) nu poate fi mai lung de 4.000 caractere</entry>
@@ -1994,6 +1972,7 @@
 <entry key="rule|text|R-JPW-0DM">Fiecare furnizor de documente pentru un lot (OPT-301-Lot-DocProvider) sau parte (OPT-301-Part-DocProvider) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company) alte puncte de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-JQ3-Q4N">'Identificatorul fondurilor UE' (BT-5011-Contract) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-JQH-9OY">'Descriere' (BT-201-Contract) nu este permis</entry>
+<entry key="rule|text|R-JQI-KCC">Rezultatului unei lot îi lipsește 'Număr de oferte/cereri de participare primite' (BT-759-LotResult).</entry>
 <entry key="rule|text|R-JQM-K79">'Adresă poștală' (BT-5101(a)-Part) nu se poate repeta</entry>
 <entry key="rule|text|R-JRA-L3U">'Venituri estimate provenite de la achizitorul care a atribuit concesiunea' (BT-160-Tender-Currency) trebuie să conțină o valoare din lista de coduri (currency)</entry>
 <entry key="rule|text|R-JS1-NVO">'Tip de clasificare' (BT-26(m)-Part) trebuie să conțină o valoare din lista de coduri (classification-type)</entry>
@@ -2031,7 +2010,6 @@
 <entry key="rule|text|R-K42-YYN">'ID-ul tehnic al organizației (ORG-XXX)' (OPT-200-Organization-Company) nu este permis</entry>
 <entry key="rule|text|R-K44-695">Dacă 'Tip de formular' (BT-03) este 'Notificare prealabilă a atribuirii directe', atunci 'Tip de anunț' (BT-02) trebuie să fie 'Anunț de transparență ex ante voluntară'</entry>
 <entry key="rule|text|R-K44-JP5">Cumpărătorul nu este stabilit în Spațiul Economic European sau într-o țară asociată</entry>
-<entry key="rule|text|R-K4B-405">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-K61-41O">'Numărul este un tip de pondere' (BT-7531-Lot) nu este permis când: 'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40) nu este 'da' sau 'Numărul este un tip de prag' (BT-7532) este completat</entry>
 <entry key="rule|text|R-K6N-LJX">'Lista EED (element)' (BT-811(b)-LotResult) nu este permis</entry>
 <entry key="rule|text|R-K6Q-AXM">'Informații privind ofertantul care pot fi completate după termenul-limită de depunere' (BT-771-Lot) nu se poate repeta</entry>
@@ -2050,7 +2028,6 @@
 <entry key="rule|text|R-KAQ-QWW">Dacă 'Temei juridic' (BT-01) este 'Directiva 2009/81/CE', 'Procedura este accelerată' (BT-106) poate fi 'Da' doar dacă 'Tip de procedură' (BT-105) este 'Restrânsă' sau 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
 <entry key="rule|text|R-KB0-G6H">'Valoarea celei mai mari oferte admisibile' (BT-711-LotResult) nu este permis când: Valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) este egală cu 'Câștigătorul nu a fost selecționat până în prezent, dar procedura concurențială se află încă în curs de desfășurare.', sau valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) este egală cu 'Nu a fost ales un câștigător, iar procedura concurențială s-a încheiat.' și 'Motivul pentru care nu a fost ales un câștigător' (BT-144-LotResult) este egală cu 'Nu a fost primit(ă) nicio ofertă, nicio cerere de participare și niciun proiect'</entry>
 <entry key="rule|text|R-KB3-NKC">'Informații suplimentare' (BT-728-Procedure) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
-<entry key="rule|text|R-KC0-S5R">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-KC7-EYG">'Unde se găsesc documentele achiziției' (BT-15-Part) trebuie să corespundă următorului model: URL</entry>
 <entry key="rule|text|R-KC8-KU9">'Adresa de depunere' (BT-18-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-KC9-Y0L">'Câștigătorul este cotat pe o piață reglementată' (BT-746-Organization) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
@@ -2064,6 +2041,7 @@
 <entry key="rule|text|R-KDZ-0RX">'Descriere' (BT-762-notice) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
 <entry key="rule|text|R-KE0-VOX">'Valoarea tuturor contractelor atribuite în această notificare' (BT-161-NoticeResult) este obligatoriu când: Există un lot atribuit fără un acord-cadru sau un contract în cadrul unui acord-cadru.</entry>
 <entry key="rule|text|R-KES-O23">'Țara' (BT-514-Business) nu trebuie să aibă spații la început sau la sfârșit</entry>
+<entry key="rule|text|R-KEY-3G1">Subcontractantului unui ofertant îi lipsește 'Contractant principal către subcontractant' (OPT-301-Tenderer-MainCont).</entry>
 <entry key="rule|text|R-KEY-PVO">'Numărul maxim de loturi pentru care se pot atribui contracte unui singur ofertant' (BT-33-Procedure) trebuie să corespundă următorului model: Integer</entry>
 <entry key="rule|text|R-KF3-GJV">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) nu este permis când: Nu este implicat niciun acord-cadru</entry>
 <entry key="rule|text|R-KFR-TEP">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-WeightNumber) nu se poate repeta</entry>
@@ -2096,7 +2074,6 @@
 <entry key="rule|text|R-KQJ-UKJ">'Referință la contract' (OPT-315-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-KR4-VA2">'Numărul este un tip de pondere' (BT-5421-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-KR6-Q0G">'Durată' (OPA-36-Part-Number) nu este permis când: 'Data începerii' (BT-536-Part) și 'Data de sfârșit a duratei' (BT-537-Part) sunt prezente, sau 'Altă durată' (BT-538-Part) este prezent</entry>
-<entry key="rule|text|R-KRV-FNJ">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-KS5-WZD">'Execuția este rezervată unei anumite profesii. Referință la baza legală' (OPT-070-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-KSK-7VV">'Codul justificării nedivulgării' (BT-197-notice) este obligatoriu când: 'Câmp de publicat ulterior' (BT-195-notice) este completat</entry>
 <entry key="rule|text|R-KSS-70F">'Căile de atac - URL' (BT-794-Review) nu poate fi mai lung de 400 caractere</entry>
@@ -2111,8 +2088,8 @@
 <entry key="rule|text|R-KW3-NRX">'Identificator intern' (BT-22-Lot) trebuie să fie diferit de orice alt 'Identificator intern' din anunț.</entry>
 <entry key="rule|text|R-KW9-T3L">'Unde se găsesc informații despre documentele restricționate' (BT-615-Part) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-KWW-BME">'Data la care a fost ales câștigătorul' (BT-1451-Contract) trebuie să corespundă următorului model: Date</entry>
-<entry key="rule|text|R-KXK-4IL">Identificatorul anunțului anterior' (BT-125(i)-Lot-Scheme) trebuie să conțină o valoare din lista de coduri (notice-reference)</entry>
 <entry key="rule|text|R-KXT-4N5">'Căile de atac - tip de măsură corectivă' (BT-792-Review) trebuie să conțină o valoare din lista de coduri (remedy-type)</entry>
+<entry key="rule|text|R-KXV-0IT">Unei contestații îi lipsește 'Căile de atac - tip de măsură corectivă' (BT-792-Review).</entry>
 <entry key="rule|text|R-KY4-0FY">Atributul 'listName' trebuie să fie prezent pentru 'Subcontractare' (BT-773-Tender-List)</entry>
 <entry key="rule|text|R-KYQ-WYK">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu se poate repeta</entry>
 <entry key="rule|text|R-KZ0-V96">'Achizitorul este o entitate contractantă' (BT-740-Procedure-Buyer) nu se poate repeta</entry>
@@ -2153,7 +2130,7 @@
 <entry key="rule|text|R-LFS-5S9">'Denumire oficială' (BT-500-Organization-TouchPoint-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-LG9-9J2">'Cantitate' (BT-25-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-LGS-T3Z">'Se aplică un acord-cadru' (BT-765-Part) nu trebuie să aibă spații la început sau la sfârșit</entry>
-<entry key="rule|text|R-LH3-A27">'Data deschiderii' (BT-132(t)-Lot) este obligatoriu când: 'Termenul-limită pentru solicitarea de informații suplimentare' (BT-132(d)-Lot) nu este completat.</entry>
+<entry key="rule|text|R-LH3-A27">'Ora deschiderii publice' (BT-132(t)-Lot) este obligatoriu când: 'Termenul-limită pentru solicitarea de informații suplimentare' (BT-132(d)-Lot) nu este completat.</entry>
 <entry key="rule|text|R-LIL-P4Y">Nu poate fi mai mult de un 'Punctaj minim' sau mai mult de un 'Numărul maxim al ofertelor acceptate' pentru 'Numărul este un tip de prag' (BT-5423) pentru fiecare criteriu în acest grup de loturi</entry>
 <entry key="rule|text|R-LIR-64E">'Denumire' (BT-734-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-LJ6-0DS">'Adresă poștală' (BT-5101(a)-Lot) nu este permis când: 'Localitate' (BT-5131) nu este completat</entry>
@@ -2170,7 +2147,6 @@
 <entry key="rule|text|R-LPT-TIY">Pentru un anumit 'Criterii de atribuire' (BG-707), 'Numărul este un tip de pondere' (BT-5421) trebuie să fie 'Ordinea importanței' pentru toate sau pentru niciuna dintre 'Criteriu de atribuire' (BG-38)</entry>
 <entry key="rule|text|R-LPY-1LM">'Adresa de internet' (BT-505-Organization-Company) nu este permis</entry>
 <entry key="rule|text|R-LQ3-WB6">'Limbile în care pot fi depuse ofertele sau cererile de participare' (BT-97-Lot) nu se poate repeta</entry>
-<entry key="rule|text|R-LQA-UYO">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-LQF-MEP">'Justificarea procedurii accelerate' (BT-1351-Procedure) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-LQG-8CY">'Adresa URL a anunțului' (OPP-122-Business) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-LR5-73X">Trebuie să se specifice o limbă pentru 'Metoda utilizată pentru calcularea valorii estimate a concesiunii' (BT-163-Tender)</entry>
@@ -2296,7 +2272,6 @@
 <entry key="rule|text|R-MX3-SZD">Atributul 'schemeName' trebuie să fie prezent pentru 'ID-ul tehnic al unei oferte primite' (OPT-320-LotResult-Scheme)</entry>
 <entry key="rule|text|R-MXA-BE0">'Baza legală a procedurii fără un identificator (descriere)' (BT-01(f)-Procedure) nu este permis</entry>
 <entry key="rule|text|R-MXP-FJO">'Adresa de depunere' (BT-18-Lot) trebuie să corespundă următorului model: URL</entry>
-<entry key="rule|text|R-MXX-45Q">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-MXX-HJ9">'Natura serviciilor de transport' (OPP-040-Procedure) nu se poate repeta</entry>
 <entry key="rule|text|R-MY2-0SB">'ID-ul tehnic al contractului' (OPT-316-Contract) trebuie să corespundă următorului model: ContractID</entry>
 <entry key="rule|text|R-MYZ-6HR">'Se aplică măsurile din cadrul Instrumentului pentru achiziții publice internaționale' (BT-684-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
@@ -2318,7 +2293,6 @@
 <entry key="rule|text|R-N4S-3M1">'Subdiviziunea țării (NUTS)' (BT-5071-Lot) nu este permis când: 'Locul de executare – Domeniul geografic' (BT-727) este completat sau 'Țara' (BT-5141) nu este completat</entry>
 <entry key="rule|text|R-N4X-O47">Dacă 'Natura contractului' (BT-23) este 'Lucrări' și 'Tip de clasificare' este CPV, atunci 'Clasificarea principală' (BT-262) trebuie să fie 45</entry>
 <entry key="rule|text|R-N54-1QY">'Țara' (BT-514-UBO) nu se poate repeta</entry>
-<entry key="rule|text|R-N5H-TM8">Identificatorul anunțului anterior' (BT-125(i)-Part-Scheme) trebuie să conțină o valoare din lista de coduri (notice-reference)</entry>
 <entry key="rule|text|R-N5L-9H9">'Valoarea plăților legate de ofertă' (BT-779-Tender) trebuie să fie pozitiv.</entry>
 <entry key="rule|text|R-N5R-R6H">'Facturare electronică' (BT-743-Lot) nu este permis</entry>
 <entry key="rule|text|R-N75-2YE">'Importanța activelor esențiale furnizate în raport cu activele globale necesare pentru furnizarea serviciilor publice' (OPP-022-Contract) nu se poate repeta</entry>
@@ -2408,7 +2382,6 @@
 <entry key="rule|text|R-NYO-TJ0">'Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii' (BT-543-LotsGroup) nu este permis</entry>
 <entry key="rule|text|R-NYQ-IM5">'Descriere condiții contractuale (altele decât alocarea veniturilor)' (OPP-031-Tender) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-NZ5-D7P">'Fax' (BT-739-Organization-Company) nu poate fi mai lung de 30 caractere</entry>
-<entry key="rule|text|R-NZI-7AJ">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-NZM-1OL">'Cod poștal' (BT-5121-Procedure) nu este permis</entry>
 <entry key="rule|text|R-O06-3OY">'Informații suplimentare privind durata' (BT-781-Lot) este obligatoriu</entry>
 <entry key="rule|text|R-O12-BOI">'Termenul-limită pentru solicitarea de informații suplimentare' (BT-13) trebuie să fie mai devreme sau la fel ca 'Termenul-limită pentru primirea cererilor de participare' (BT-1311)</entry>
@@ -2487,6 +2460,7 @@
 <entry key="rule|text|R-ORD-5OS">'Număr de reclamanți' (BT-712(a)-LotResult) trebuie să conțină o valoare din lista de coduri (review-type)</entry>
 <entry key="rule|text|R-OS0-QIK">'Adresă poștală' (BT-510(c)-Organization-Company) nu este permis când: 'Adresă poștală' (BT-510(b)-Organization-Company) nu este completat</entry>
 <entry key="rule|text|R-OS5-1BJ">'Țara' (BT-514-Organization-TouchPoint) nu trebuie să aibă spații la început sau la sfârșit</entry>
+<entry key="rule|text|R-OSD-4R2">Parametrului criteriului de selecție îi lipsește 'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-ThresholdNumber) sau 'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|R-OSH-N0D">'Căile de atac - tip de măsură corectivă' (BT-792-Review) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-OSQ-GMB">'Durata în care oferta trebuie să rămână valabilă' (OPA-98-Lot-Number) nu este permis</entry>
 <entry key="rule|text|R-OT5-XFM">Dacă 'Tip de formular' (BT-03) este 'Modificări aduse contractului', atunci 'Tip de anunț' (BT-02) trebuie să fie 'Anunț de modificare a contractului'</entry>
@@ -2565,6 +2539,7 @@
 <entry key="rule|text|R-PFC-AV4">'Activitatea entității contractante' (BT-610-Procedure-Buyer) nu se poate repeta</entry>
 <entry key="rule|text|R-PFD-5IL">Trebuie să se specifice o limbă pentru 'Informații suplimentare' (BT-300-Part)</entry>
 <entry key="rule|text|R-PFT-77Y">'Descriere obiectiv de calitate' (OPT-072-Lot) nu este permis</entry>
+<entry key="rule|text|R-PFU-0U1">Unei oferte îi lipsește 'Țara de origine a produsului sau a serviciului' (BT-191-Tender).</entry>
 <entry key="rule|text|R-PFZ-RQ0">'Căile de atac - tip de decizie' (BT-790-Review) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-PG5-7QL">'Temeiul juridic al procedurii' (BT-01-notice) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-PGS-0H6">'Organizația care primește ofertele' (OPT-301-Part-TenderReceipt) nu trebuie să aibă spații la început sau la sfârșit</entry>
@@ -2589,7 +2564,6 @@
 <entry key="rule|text|R-PL8-4CL">'Căile de atac - tip de decizie' (BT-790-Review) este obligatoriu când: 'Căile de atac - retragerea cererii' (BT-796-Review) este setat la 'da'.</entry>
 <entry key="rule|text|R-PMG-185">Atributul 'listName' trebuie să fie prezent pentru 'Participare rezervată' (BT-71-Lot-List)</entry>
 <entry key="rule|text|R-PMI-EAT">'Abordarea pentru reducerea impactului asupra mediului' (BT-774-Lot) trebuie să conțină o valoare din lista de coduri (environmental-impact)</entry>
-<entry key="rule|text|R-PN1-90P">'Data la care se va publica' (BT-198) valoarea trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii' (BT-05)</entry>
 <entry key="rule|text|R-PN7-L0O">'Forma juridică pe care trebuie să o adopte un grup de ofertanți căruia i se atribuie un contract' (BT-76-Lot) este obligatoriu când: 'Un grup de ofertanți căruia i se atribuie un contract trebuie să adopte o anumită formă juridică' (BT-761-Lot) este 'da'.</entry>
 <entry key="rule|text|R-PNG-1YX">'Numărul maxim de loturi pentru care un ofertant poate depune oferte' (BT-31-Procedure) trebuie să corespundă următorului model: Integer</entry>
 <entry key="rule|text|R-POE-2JS">'Căile de atac - descriere' (BT-789-Review) nu este permis</entry>
@@ -2641,6 +2615,7 @@
 <entry key="rule|text|R-Q4X-S8O">Atributul 'listName' trebuie să fie prezent pentru 'Numărul este un tip de prag' (BT-7532-Lot-List)</entry>
 <entry key="rule|text|R-Q53-30O">Dacă 'Tip de formular' (BT-03) este 'Planificare', atunci 'Tip de anunț' (BT-02) trebuie să fie 'Anunț privind publicarea unui anunț de intenție sau a unui anunț periodic de informare privind profilul unui cumpărător', 'Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare', 'Anunț de intenție sau anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor' sau 'Anunț de intenție pentru servicii publice de transport de călători'</entry>
 <entry key="rule|text|R-Q53-JFM">'Partea ofertantă' (OPT-310-Tender) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat</entry>
+<entry key="rule|text|R-Q5S-9O8">Unei contestații îi lipsește 'Căile de atac - tipul de organism' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|R-Q5V-1SI">'Organizația al cărei buget este utilizat pentru plata contractului' (OPT-301-LotResult-Financing) nu este permis</entry>
 <entry key="rule|text|R-Q5Z-SVE">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-26)</entry>
 <entry key="rule|text|R-Q6L-WDD">'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult) trebuie să fie mai mare sau egal cu 0. 'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult) trebuie să fie mai mic sau egal cu 9999</entry>
@@ -2669,7 +2644,6 @@
 <entry key="rule|text|R-QAY-8S3">'Data preferată pentru publicare' (BT-738-notice) trebuie să fie între 0 și 60 de zile după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-QBD-HMJ">'Cantitatea de eficiență energetică' (BT-815-LotResult) nu este permis când: 'Lista EED' (Basis) (BT-811(a)-LotResult) nu există</entry>
 <entry key="rule|text|R-QBU-VVH">'Localitate' (BT-513-Organization-TouchPoint) este obligatoriu când: 'Țara' (BT-514-Organization-TouchPoint) este completat.</entry>
-<entry key="rule|text|R-QC6-1AF">Atributul 'schemeName' trebuie să fie prezent pentru 'Anunț care a creat acordul-cadru' (OPT-100-Contract-Scheme)</entry>
 <entry key="rule|text|R-QC8-COU">'Organizația care furnizează informații suplimentare cu privire la procedura de achiziții' (OPT-301-Lot-AddInfo) nu se poate repeta</entry>
 <entry key="rule|text|R-QCL-4I7">'Numărul este un tip de pondere' (BT-5421-Lot) nu este permis</entry>
 <entry key="rule|text|R-QCL-QDA">Dacă 'Temei juridic' (BT-01) este 'Directiva 2014/24/UE' și 'Tip de anunț' (BT-02) este 'Anunț de participare sau de concesionare - regim standard' și 'Tip de procedură' (BT-105) este 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', atunci 'Numărul minim de candidați care urmează să fie invitați în a doua etapă a procedurii' (BT-50) trebuie să fie mai mare de 2</entry>
@@ -2678,13 +2652,11 @@
 <entry key="rule|text|R-QDW-FLX">'Locul pe lista câștigătorilor' (BT-171) trebuie să fie egal cu 0</entry>
 <entry key="rule|text|R-QEO-QD2">'Achiziția publică este finanțată cel puțin parțial din fonduri ale Uniunii Europene' (BT-60-Lot) nu este permis</entry>
 <entry key="rule|text|R-QEP-0IX">'Natura contractului' (BT-23-Procedure) nu trebuie să aibă spații la început sau la sfârșit</entry>
-<entry key="rule|text|R-QET-6IO">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-QEY-TBX">Fiecare organizație de revizuire pentru un lot (OPT-301-Lot-ReviewOrg) sau parte (OPT-301-Part-ReviewOrg) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company) alte puncte de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-QF5-3JJ">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-12)</entry>
 <entry key="rule|text|R-QFU-FN0">Numărul total de oferte primite trebuie să fie egal cu numărul de oferte primite de la organizațiile mari plus numărul de oferte primite de la micro-organizații, plus numărul de oferte primite de la organizațiile mici plus numărul de oferte primite de la organizațiile de dimensiuni medii.</entry>
 <entry key="rule|text|R-QFV-G67">'Descriere' (BT-554-Tender-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-QG3-D1O">'Justificarea duratei acordului-cadru' (BT-109-Lot) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
-<entry key="rule|text|R-QG7-OU8">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-QGA-KFD">'Denumire oficială' (BT-500-Organization-Company) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-QGQ-UVL">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-2)</entry>
 <entry key="rule|text|R-QGS-DVQ">Pentru un rezultat dat al unui lot, fiecare ofertă referențiată trebuie să fie fie pentru lotul acelui rezultat, fie pentru un grup de loturi care conține acel lot.</entry>
@@ -2704,7 +2676,6 @@
 <entry key="rule|text|R-QN6-DSA">'ID-ul documentului de legislație de mediu' (OPT-112-Lot-EnvironLegis) nu se poate repeta</entry>
 <entry key="rule|text|R-QNT-MN8">'Valoarea tuturor contractelor atribuite în această notificare' (BT-161-NoticeResult-Currency) trebuie să conțină o valoare din lista de coduri (currency)</entry>
 <entry key="rule|text|R-QP1-FY0">'Valoarea estimată fără TVA' (BT-27-Lot) nu este permis</entry>
-<entry key="rule|text|R-QP6-7NP">Anunț care a creat acordul-cadru' (OPT-100-Contract-Scheme) trebuie să conțină o valoare din lista de coduri (notice-reference)</entry>
 <entry key="rule|text|R-QP7-XUC">'Valoarea celei mai mari oferte admisibile' (BT-711-LotResult) trebuie să fie pozitiv.</entry>
 <entry key="rule|text|R-QPH-E6R">'Temei juridic' (BT-01(e)-Procedure) nu este permis</entry>
 <entry key="rule|text|R-QPM-IHM">'Valoarea licitației' (BT-720-Tender) nu se poate repeta</entry>
@@ -2719,7 +2690,6 @@
 <entry key="rule|text|R-QTW-KPY">'Număr de înregistrare' (BT-501-Business-European) nu este permis</entry>
 <entry key="rule|text|R-QU2-JJ2">Subofertantul nu poate acționa ca 'Organizația care semnează contractul'</entry>
 <entry key="rule|text|R-QUR-467">'Titlu' (BT-21-Procedure) este obligatoriu</entry>
-<entry key="rule|text|R-QUS-87L">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-QV7-V0B">'Justificarea duratei acordului-cadru' (BT-109-Lot) este obligatoriu când: Durata lotului nu depășește 7 ani.</entry>
 <entry key="rule|text|R-QVH-SKK">Fiecare destinatar al ofertei (OPT-301-Lot-TenderReceipt) sau (OPT-301-Part-TenderReceipt) trebuie să corespundă uneia dintre organizațiile definite (OPT-200-Organization-Company) alte puncte de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-QVU-VYH">'Număr de reclamanți' (BT-712(a)-LotResult) nu este permis</entry>
@@ -2737,7 +2707,6 @@
 <entry key="rule|text|R-R0C-TRC">'Temeiul juridic al CVD pentru a stabili ce categorie de proceduri de achiziții se aplică' (BT-735-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-R0J-MWK">'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
 <entry key="rule|text|R-R15-KUU">'Informații suplimentare' (BT-45-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
-<entry key="rule|text|R-R1P-8C5">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-R21-BRK">'Descriere' (BT-201-Contract) poate fi numai în una dintre limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-R2D-DXI">'ID-ul tehnic al contractului' (OPT-316-Contract) este obligatoriu</entry>
 <entry key="rule|text|R-R35-T08">'Data publicării' (OPP-012-notice) trebuie să corespundă următorului model: Date</entry>
@@ -2830,6 +2799,7 @@
 <entry key="rule|text|R-S18-KY8">Subofertantul nu poate acționa ca 'Organizația care primește ofertele'</entry>
 <entry key="rule|text|R-S1I-B0E">Trebuie să se specifice o limbă pentru 'Descriere' (BT-732-Lot)</entry>
 <entry key="rule|text|R-S1K-0VB">'Temeiul juridic al procedurii (ELI – CELEX)' (BT-01(c)-Procedure) nu este permis</entry>
+<entry key="rule|text|R-S1Q-NKP">Rezultatului unei lot îi lipsește 'Numărul de aplicații de ofertare care intră sub această măsură IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|R-S1U-UPP">'Termenul-limită pentru obținerea autorizării de securitate' (BT-78-Lot) trebuie să corespundă următorului model: Date</entry>
 <entry key="rule|text|R-S1V-6N1">'Informații suplimentare privind acordul de confidențialitate' (BT-802-Lot) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-S1W-NMO">Suma tuturor 'Număr legat de criteriul de atribuire' (BT-541) de tip 'Ponderare (procentaj, valoare exactă)' trebuie să fie egală cu 100 pentru fiecare criteriu în lot</entry>
@@ -2856,7 +2826,6 @@
 <entry key="rule|text|R-S7N-2QG">'Titlu' (BT-21-Lot) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-S7W-3SU">'Identificatorul de personalizare (UBL)' (OPT-002-notice) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-S86-VPX">Atributul 'schemeName' trebuie să fie prezent pentru 'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer-Scheme)</entry>
-<entry key="rule|text|R-S8E-F7X">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-S8H-LNV">'Cod obiectiv de calitate' (OPT-071-Lot) este obligatoriu</entry>
 <entry key="rule|text|R-S8P-7R8">Atributul 'listName' trebuie să fie prezent pentru 'Subdiviziunea țării (NUTS)' (BT-507-Organization-Company-List)</entry>
 <entry key="rule|text|R-S9U-F5I">'Informații suplimentare' (BT-772-Lot) nu poate fi mai lung de 6.000 caractere</entry>
@@ -2888,7 +2857,6 @@
 <entry key="rule|text|R-SN5-AZG">'Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii' (BT-543-Lot) nu este permis</entry>
 <entry key="rule|text|R-SN7-F2W">Trebuie să se specifice o limbă pentru 'Informații suplimentare' (BT-772-Lot)</entry>
 <entry key="rule|text|R-SNA-9YO">'Codul cerinței de executare' (OPT-060-Lot) este obligatoriu</entry>
-<entry key="rule|text|R-SNH-2MQ">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-SNN-G7Z">'Subdiviziunea țării (NUTS)' (BT-507-Organization-Company) trebuie să conțină o valoare din lista de coduri (nuts-lvl3)</entry>
 <entry key="rule|text|R-SNT-H53">'Regulamentul privind subvențiile străine' (BT-681-Lot) trebuie să conțină o valoare din lista de coduri (fsr)</entry>
 <entry key="rule|text|R-SOW-1XJ">'Numărul maxim de reînnoiri' (BT-58-Lot) este obligatoriu</entry>
@@ -2908,7 +2876,6 @@
 <entry key="rule|text|R-STU-Y0J">'Titlu' (BT-21-LotsGroup) nu este permis</entry>
 <entry key="rule|text|R-SU4-LO0">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-8)</entry>
 <entry key="rule|text|R-SUE-AY9">'Punctul final de schimb de informații (URL)' (BT-509-Organization-TouchPoint) trebuie să corespundă următorului model: URL</entry>
-<entry key="rule|text|R-SUN-K67">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-SV2-SQI">'Valoarea premiului' (BT-644-Lot) este obligatoriu când: 'Orice contract de servicii care rezultă din concurs va fi atribuit unuia dintre câștigătorii concursului' (BT-41-Lot) nu este adevărat</entry>
 <entry key="rule|text|R-SV7-TAI">Subofertantul nu poate acționa ca 'Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția mediului aplicabil în locul în care urmează să fie executat contractul'</entry>
 <entry key="rule|text|R-SVB-MJ0">Statistici privind ofertele primite: Numărul total de 'Oferte depuse pe cale electronică' (BT-760-LotResult = t-esubm) trebuie specificat exact o singură dată</entry>
@@ -2917,16 +2884,15 @@
 <entry key="rule|text|R-SVV-EQL">'Numărul este o valoare fixă' (BT-5422-LotsGroup) nu este permis când: 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-FixedNumber) nu este prezent</entry>
 <entry key="rule|text|R-SW5-51C">'Adresă poștală' (BT-510(a)-Organization-TouchPoint) nu se poate repeta</entry>
 <entry key="rule|text|R-SWI-NPL">'Organizație care furnizează informații despre legislația de mediu' (OPT-301-Part-EnvironLegis) nu se poate repeta</entry>
+<entry key="rule|text|R-SWK-JGR">Unui contract îi lipsește 'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract).</entry>
 <entry key="rule|text|R-SXI-QDV">'Detalii suplimentare privind fondurile UE' (BT-6110-Contract) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
 <entry key="rule|text|R-SXJ-I8X">'Identificatorul de personalizare (UBL)' (OPT-002-notice) este obligatoriu</entry>
 <entry key="rule|text|R-SXY-RXR">'Identificatorul anunțului' (BT-701-notice) este obligatoriu</entry>
 <entry key="rule|text|R-SYM-FW1">Atributul 'listName' trebuie să fie prezent pentru 'Participare rezervată' (BT-71-Part-List)</entry>
-<entry key="rule|text|R-SYX-QUS">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-SZ0-B41">'Obiectiv social promovat' (BT-775-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-SZC-ZA0">'Identificatorul lotului sau al grupului de loturi' (BT-13714-Tender-Scheme) trebuie să conțină o valoare din lista de coduri (tendered-object)</entry>
 <entry key="rule|text|R-SZT-43W">'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-556-NoticeResult) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-T01-PJW">'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) nu este permis</entry>
-<entry key="rule|text|R-T05-L0Z">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-T06-8NX">'Departament' (BT-16-Organization-Company) nu este permis</entry>
 <entry key="rule|text|R-T0P-VFW">'Fax' (BT-739-Organization-Company) nu este permis</entry>
 <entry key="rule|text|R-T0V-F01">'Denumire' (BT-734-Lot) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
@@ -2937,7 +2903,6 @@
 <entry key="rule|text|R-T1T-89E">'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40-Lot) nu este permis</entry>
 <entry key="rule|text|R-T30-FHZ">'Telefon' (BT-503-Organization-TouchPoint) nu se poate repeta</entry>
 <entry key="rule|text|R-T32-WXB">Toate loturile din aceeași grupă trebuie să aibă același 'Termenul-limită pentru primirea ofertelor' (BT-131)</entry>
-<entry key="rule|text|R-T39-GIZ">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-T3J-KXI">'Cod' (BT-67(a)-Procedure) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-T3K-YL6">'Țara' (BT-514-UBO) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-T3Z-QGS">'Cod poștal' (BT-5121-Procedure) nu poate fi mai lung de 400 caractere</entry>
@@ -2963,7 +2928,7 @@
 <entry key="rule|text|R-TB0-38C">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717-Lot) nu este permis</entry>
 <entry key="rule|text|R-TB6-TOR">'Metrica de consum EED' (OPT-080-LotResult) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-TBM-O37">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-29)</entry>
-<entry key="rule|text|R-TBX-U1E">'Data deschiderii' (BT-132(t)-Lot) nu se poate repeta</entry>
+<entry key="rule|text|R-TBX-U1E">'Ora deschiderii publice' (BT-132(t)-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-TC6-DR2">'Identificator secțiune' (BT-13716-notice) nu este permis când: 'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) nu este completat</entry>
 <entry key="rule|text|R-TCW-R9N">Pentru un Anunț de Rezultat, orice Lot din anunț cu un Acord Cadru, fără Contract în cadrul acelui Acord Cadru și fără DPS, trebuie să aibă exact un Rezultat Lot asociat.</entry>
 <entry key="rule|text|R-TD3-EJL">Subofertantul nu poate acționa ca 'Organizația care furnizează informații suplimentare cu privire la procedura de achiziții'</entry>
@@ -3043,10 +3008,9 @@
 <entry key="rule|text|R-U42-PTX">'Forma juridică pe care trebuie să o adopte un grup de ofertanți căruia i se atribuie un contract' (BT-76-Lot) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
 <entry key="rule|text|R-U4G-HRO">'Telefon' (BT-503-Organization-TouchPoint) nu este permis</entry>
 <entry key="rule|text|R-U4U-H53">'Cod' (BT-67(a)-Procedure) trebuie să conțină o valoare din lista de coduri (exclusion-ground)</entry>
-<entry key="rule|text|R-U5R-2WU">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-U67-LR2">'Cod sancțiuni și recompense' (OPP-033-Tender) nu se poate repeta</entry>
 <entry key="rule|text|R-U6R-3XA">'Valoarea maximă a acordului-cadru' (BT-271-Procedure) nu este permis când: Nu există niciun acord-cadru pentru niciunul dintre loturi</entry>
-<entry key="rule|text|R-U7F-U45">'Data deschiderii' (BT-132(t)-Lot) trebuie să corespundă următorului model: Time</entry>
+<entry key="rule|text|R-U7F-U45">'Ora deschiderii publice' (BT-132(t)-Lot) trebuie să corespundă următorului model: Time</entry>
 <entry key="rule|text|R-U7S-LQE">Atributul 'listName' trebuie să fie prezent pentru 'Tip de vehicul' (OPT-155-LotResult-List)</entry>
 <entry key="rule|text|R-U8R-OBM">'Subdiviziunea țării (NUTS)' (BT-5071-Part) nu este permis când: 'Locul de executare – Domeniul geografic' (BT-727) este completat sau 'Țara' (BT-5141) nu este completat</entry>
 <entry key="rule|text|R-U9B-3JF">'Depunere electronică' (BT-17-Lot) este obligatoriu</entry>
@@ -3069,6 +3033,7 @@
 <entry key="rule|text|R-UHP-R4C">'Căile de atac - dată' (BT-787-Review) nu este permis când: 'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent</entry>
 <entry key="rule|text|R-UHS-R96">'ID-ul documentului de legislație de mediu' (OPT-112-Part-EnvironLegis) nu se poate repeta</entry>
 <entry key="rule|text|R-UI0-PBV">'Locul de executare – Domeniul geografic' (BT-727-Lot) nu este permis când: 'Subdiviziunea țării (NUTS)' B373(BT-5071-Lot) este completat</entry>
+<entry key="rule|text|R-UIJ-ZV4">Unui ofertant îi lipsește 'Subcontractant' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|R-UIO-CLU">'Numărul maxim de candidați care urmează să fie invitați în a doua etapă a procedurii' (BT-51-Lot) nu este permis când: 'Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.' (BT-661-Lot) nu este 'da'</entry>
 <entry key="rule|text|R-UJ6-048">'Sursa motivelor de excludere' (BT-806-Procedure) nu se poate repeta</entry>
 <entry key="rule|text|R-UJM-K4K">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-37)</entry>
@@ -3110,7 +3075,6 @@
 <entry key="rule|text|R-UW7-5K0">'Căile de atac - taxă cerere' (BT-795-Review) trebuie să corespundă următorului model: AmountValue</entry>
 <entry key="rule|text|R-UX0-FK9">Atributul 'listName' trebuie să fie prezent pentru 'Este nevoie de semnătura sau sigiliul electronic(ă) avansat(ă) sau calificat(ă) [conform definiției din Regulamentul (UE) nr. 910/2014]' (BT-744-Lot-List)</entry>
 <entry key="rule|text|R-UX9-G3Z">'Oferta este o variantă' (BT-193-Tender) nu este permis când: Procedura pentru lot este finalizată și nu a fost atribuită</entry>
-<entry key="rule|text|R-UXI-WU2">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-UZN-BY6">'Tipul de presupusă neregulă' (BT-636-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-UZN-OE3">'Sursa criteriilor de selecție' (BT-821-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-V00-H0E">'Dimensiunea operatorului economic' (BT-165-Organization-Company) nu trebuie să aibă spații la început sau la sfârșit</entry>
@@ -3136,7 +3100,6 @@
 <entry key="rule|text|R-V79-Z6Y">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-27)</entry>
 <entry key="rule|text|R-V7F-68L">'Identificatorul versiunii UBL (UBL)' (OPT-001-notice) trebuie să corespundă următorului model: UBLVersionID</entry>
 <entry key="rule|text|R-V7N-SUL">'Valoarea recalculată a acordurilor-cadru pentru un grup de loturi' (BT-1561-NoticeResult) nu este permis când: 'Valoarea unui grup de loturi dintr-un acord-cadru: identificator lot' (BT-557) nu este completat</entry>
-<entry key="rule|text|R-V7P-MZM">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-V8C-1Q1">Dacă 'Temei juridic' (BT-01) este 'Directiva 2014/23/UE' sau 'Directiva 2009/81/CE' și 'Forma juridică a achizitorului' (BT-11) este 'Organizație care atribuie un contract subvenționat de o autoritate contractantă', 'Organizație internațională' sau 'Contractant din domeniul apărării', atunci 'Achizitorul este o entitate contractantă' (BT-740)trebuie să fie 'Nu'</entry>
 <entry key="rule|text|R-V8D-R8C">Valoarea 'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) trebuie să fie o valoare unică</entry>
 <entry key="rule|text|R-V8Z-VN6">'Alte informații despre reînnoire' (BT-57-Lot) poate fi prezent numai o singură dată pentru fiecare limbă</entry>
@@ -3163,7 +3126,6 @@
 <entry key="rule|text|R-VFT-471">'Identificator fonduri UE' (BT-5010-Lot) nu poate fi mai lung de 100 caractere</entry>
 <entry key="rule|text|R-VFZ-MYA">'ID-ul tehnic al părții ofertante (TPA-XXX)' (OPT-210-Tenderer) nu se poate repeta</entry>
 <entry key="rule|text|R-VG2-9E5">'Descriere' (BT-762-notice) trebuie să fie prezent în toate limbile oficiale ale anunțului</entry>
-<entry key="rule|text|R-VG3-LEV">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-VGO-S2E">'Organizația sau punctul de contact specific' (OPT-301-Part-TenderEval-Scheme) trebuie să conțină o valoare din lista de coduri (player-type)</entry>
 <entry key="rule|text|R-VGX-GSV">'Natura contractului' (BT-23-Lot) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-VH6-V2C">'Valoarea maximă a acordului-cadru' (BT-271-Lot) trebuie să fie pozitiv.</entry>
@@ -3210,6 +3172,7 @@
 <entry key="rule|text|R-VSO-FS4">'Locul care primește premiul' (BT-44-Lot) nu este permis când: 'Valoarea premiului' (BT-644-Lot) nu este completat</entry>
 <entry key="rule|text|R-VSP-FAU">'Dimensiunea operatorului economic' (BT-165-Organization-Company) este obligatoriu când: Dacă organizația a depus 'Partea ofertantă' (OPT-310-Tender) care a condus la 'Contract: identificator lot' (BT-3202-Contract), atunci organizația este câștigătoare</entry>
 <entry key="rule|text|R-VU8-91R">'Identificator intern' (BT-22-LotsGroup) nu trebuie să aibă spații la început sau la sfârșit</entry>
+<entry key="rule|text|R-VUI-M9B">Unui lot îi lipsește 'Indicarea obligatorie a subcontractării' (BT-651-Lot).</entry>
 <entry key="rule|text|R-VUV-LEE">'Lista EED (Bază)' (BT-811(a)-LotResult) nu este permis când: 'Lista EED (element)' (BT-811(b)-LotResult) nu există</entry>
 <entry key="rule|text|R-VUV-LY3">'Lista EED (Bază)' (BT-811(a)-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-VV0-R8G">'Ofertanții pot depune mai multe oferte' (BT-769-Lot) trebuie să conțină o valoare din lista de coduri (permission)</entry>
@@ -3242,7 +3205,6 @@
 <entry key="rule|text|R-W48-YI9">'Organizația care prelucrează ofertele' (OPT-301-Lot-TenderEval) nu este permis</entry>
 <entry key="rule|text|R-W4F-8OC">'Număr de reclamanți' (BT-712(a)-LotResult) nu se poate repeta</entry>
 <entry key="rule|text|R-W4X-DYE">Statistici privind ofertele primite: Numărul total de 'Oferte depuse de ofertanți înregistrați în țări din afara Spațiului Economic European' (BT-760-LotResult = t-no-eea) trebuie specificat exact o singură dată</entry>
-<entry key="rule|text|R-W4Z-1B5">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-W50-182">'Informații suplimentare' (OPP-130-Business-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-W5D-ELV">Atributul 'listName' trebuie să fie prezent pentru 'EED aplicabilă' (BT-810-Lot-List)</entry>
 <entry key="rule|text|R-W5K-89C">'Termenul-limită pentru obținerea autorizării de securitate' (BT-78-Lot) nu este permis când: 'Este necesară autorizarea de securitate' (BT-578) este 'nu'</entry>
@@ -3260,6 +3222,7 @@
 <entry key="rule|text|R-W8T-0RM">'Valoarea maximă a acordului-cadru' (BT-271-Procedure) trebuie să corespundă următorului model: AmountValue</entry>
 <entry key="rule|text|R-W9I-W7Y">'Tip de procedură' (BT-105-Procedure) trebuie să conțină o valoare din lista de coduri (procedure-type-27)</entry>
 <entry key="rule|text|R-W9R-98T">'Această procedură va fi relansată' (BT-634-Procedure) nu este permis</entry>
+<entry key="rule|text|R-WA6-APY">Rezultatului unei lot îi lipsește 'Număr de reclamanți' (BT-712(b)-LotResult) sau 'Numărul cererilor de soluționare a căilor de atac adresate cumpărătorului' (BT-635-LotResult).</entry>
 <entry key="rule|text|R-WA7-HAT">'Identificatorul anunțului' (BT-701-notice) trebuie să corespundă următorului model: ProcedureOrNoticeID</entry>
 <entry key="rule|text|R-WB0-J5L">'Justificarea duratei acordului-cadru' (BT-109-Lot) este obligatoriu când: Durata lotului nu depășește 4 ani.</entry>
 <entry key="rule|text|R-WBQ-59W">'Detalii suplimentare privind fondurile UE' (BT-6140-Lot) nu este permis când: 'Identificator fonduri UE' (BT-5010) și 'Program fonduri UE' (BT-7220) nu sunt completate</entry>
@@ -3406,7 +3369,6 @@
 <entry key="rule|text|R-XSU-3GA">'Sector de activitate' (OPP-105-Business) nu trebuie să aibă spații la început sau la sfârșit</entry>
 <entry key="rule|text|R-XTC-324">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-12)</entry>
 <entry key="rule|text|R-XTO-IX7">Atributul 'listName' trebuie să fie prezent pentru 'Metrica de economie EED' (OPT-081-LotResult-List)</entry>
-<entry key="rule|text|R-XTR-ILB">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-XVA-DRD">'Este necesară o garanție.' (BT-751-Lot) trebuie să conțină o valoare din lista de coduri (tender-guarantee-required)</entry>
 <entry key="rule|text|R-XVB-7HS">Suma tuturor 'Număr legat de criteriul de atribuire' (BT-541) de tip 'Ponderare (zecimal, valoare exactă)' trebuie să fie egală cu 1 pentru fiecare criteriu în grupul de loturi</entry>
 <entry key="rule|text|R-XVJ-0HH">'Categorii de cumpărători' (OPT-090-Lot) nu se poate repeta</entry>
@@ -3450,7 +3412,7 @@
 <entry key="rule|text|R-Y82-A07">'Detalii suplimentare privind fondurile UE' (BT-6140-Lot) nu poate fi mai lung de 6.000 caractere</entry>
 <entry key="rule|text|R-Y8T-HJS">Suma tuturor 'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752) de tip 'Ponderare (procentaj, valoare exactă)' trebuie să fie egală cu 100</entry>
 <entry key="rule|text|R-Y8Y-44I">'Temeiul juridic al procedurii' (BT-01-notice) trebuie să conțină o valoare din lista de coduri (legal-basis-32)</entry>
-<entry key="rule|text|R-Y8Y-F09">'Data deschiderii' (BT-132(t)-Lot) nu este permis când: 'Termenul-limită pentru solicitarea de informații suplimentare' (BT-132(d)-Lot) este completat</entry>
+<entry key="rule|text|R-Y8Y-F09">'Ora deschiderii publice' (BT-132(t)-Lot) nu este permis când: 'Termenul-limită pentru solicitarea de informații suplimentare' (BT-132(d)-Lot) este completat</entry>
 <entry key="rule|text|R-Y95-HPO">'Informații privind termenele-limită pentru reexaminare' (BT-99-Lot-Language) trebuie să conțină o valoare din lista de coduri (eu-official-language)</entry>
 <entry key="rule|text|R-Y99-JBR">'Subcontractare' (BT-773-Tender) nu este permis când: 'ID-ul tehnic al ofertei' (OPT-321-Tender) nu este completat</entry>
 <entry key="rule|text|R-Y9D-SGW">'Cod' (BT-67(a)-Procedure) nu se poate repeta</entry>
@@ -3503,7 +3465,6 @@
 <entry key="rule|text|R-YT8-ZP6">'Subdiviziunea țării (NUTS)' (BT-507-Business) trebuie să conțină o valoare din lista de coduri (nuts-lvl3)</entry>
 <entry key="rule|text|R-YUA-PJ2">'Obiectivul achiziției publice strategice' (BT-06-Lot) nu se poate repeta</entry>
 <entry key="rule|text|R-YUX-UJP">'Rezultate: identificator lot' (BT-13713-LotResult) nu trebuie să aibă spații la început sau la sfârșit</entry>
-<entry key="rule|text|R-YUZ-K95">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-YV7-VPT">'E-mail' (BT-506-Organization-Company) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-YVB-IXU">'Justificarea restricționării accesului la anumite documente ale achiziției' (BT-707-Lot) trebuie să conțină o valoare din lista de coduri (communication-justification)</entry>
 <entry key="rule|text|R-YVD-NLZ">'Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.' (BT-661-Lot) trebuie să conțină o valoare din lista de coduri (indicator)</entry>
@@ -3512,7 +3473,6 @@
 <entry key="rule|text|R-YWR-58S">'Subtipul anunțului' (OPP-070-notice) trebuie să conțină o valoare din lista de coduri (notice-subtype)</entry>
 <entry key="rule|text|R-YWS-I8K">'Organizație care furnizează informații despre legislația fiscală' (OPT-301-Part-FiscalLegis) nu se poate repeta</entry>
 <entry key="rule|text|R-YY1-6NF">Atributul 'listName' trebuie să fie prezent pentru 'Natura contractului' (BT-23-Part-List)</entry>
-<entry key="rule|text|R-YZY-RI3">'Data la care se va publica' (BT-198) trebuie să fie între 2 zile și 10 ani după 'Data notificării expedierii'</entry>
 <entry key="rule|text|R-Z0J-AVA">'Adresă poștală' (BT-5101(b)-Procedure) nu poate fi mai lung de 400 caractere</entry>
 <entry key="rule|text|R-Z0X-7DD">Dacă 'Tip de anunț' (BT-02) este 'Anunț de atribuire a contractului sau a concesiunii - regim simplificat', atunci 'Subtipul anunțului' (OPP-070) trebuie să fie 33, 34 sau 35</entry>
 <entry key="rule|text|R-Z10-F9I">'Data de sfârșit a duratei' (BT-537-Part) nu este permis când: 'Data începerii' (BT-536-Part) și 'Altă durată' (BT-538-Part) sunt prezente, sau 'Data începerii' (BT-536-Part) și 'Durată' (BT-36-Part) sunt prezente, sau 'Altă durată' (BT-538-Part) este prezent și egal cu 'Nelimitat'</entry>

@@ -2,22 +2,22 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>business-entity in Bulgarian. File generated from metadata database.</comment>
-<entry key="business-entity|name|buyer">Купувач</entry>
-<entry key="business-entity|name|changes">Промени</entry>
-<entry key="business-entity|name|contract">Договор</entry>
-<entry key="business-entity|name|contractModification">Изменение на договор</entry>
+<entry key="business-entity|name|Buyer">Купувач</entry>
+<entry key="business-entity|name|Changes">Промени</entry>
+<entry key="business-entity|name|Contract">Договор</entry>
+<entry key="business-entity|name|ContractModification">Изменение на договор</entry>
+<entry key="business-entity|name|Lot">Обособена позиция</entry>
+<entry key="business-entity|name|NoticeResult">Обявление за резултата</entry>
+<entry key="business-entity|name|Part">Част</entry>
+<entry key="business-entity|name|Procedure">Процедура</entry>
+<entry key="business-entity|name|Tender">Търг</entry>
+<entry key="business-entity|name|TenderingParty">Сторона по обществената поръчка</entry>
+<entry key="business-entity|name|Touchpoint">Точка на контакт</entry>
 <entry key="business-entity|name|euBusiness">Европейски бизнес</entry>
 <entry key="business-entity|name|groupOfLots">Група обособени позиции</entry>
-<entry key="business-entity|name|lot">Обособена позиция</entry>
 <entry key="business-entity|name|noticeInformation">Информация за обявлението</entry>
-<entry key="business-entity|name|noticeResult">Обявление за резултата</entry>
 <entry key="business-entity|name|organization">Организация</entry>
-<entry key="business-entity|name|part">Част</entry>
-<entry key="business-entity|name|procedure">Процедура</entry>
 <entry key="business-entity|name|resultForLot">Резултат за партида</entry>
 <entry key="business-entity|name|reviewInformation">Информация за преглед</entry>
-<entry key="business-entity|name|tender">Търг</entry>
-<entry key="business-entity|name|tenderingParty">Сторона по обществената поръчка</entry>
-<entry key="business-entity|name|touchpoint">Точка на контакт</entry>
 <entry key="business-entity|name|ultimateBeneficialOwner">Крайният ползващ от ползите собственик</entry>
 </properties>

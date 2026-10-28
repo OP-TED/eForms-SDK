@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Sprog, der bruges til beskrivelse af kvalitetsmålet</entry>
 <entry key="field|description|OPT-090-Lot">Kode til at angive, at det drejer sig om køberkategorier: 'buyer categories'</entry>
 <entry key="field|description|OPT-100-Contract">Henvisning til resultatmeddelelsen, der indeholder oplysninger om den underskrevne rammeaftale, under hvilken den nuværende kontrakt finder sted</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Navn på det skema, der bruges til at udtrykke henvisningen til resultatmeddelelsen, der indeholder oplysninger om den underskrevne rammeaftale, under hvilken den nuværende kontrakt finder sted</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webadresse, hvor lokal skattelovgivning kan findes</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Webadresse, hvor lokal skattelovgivning kan findes</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Identifikator for skattelovgivningen</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Navnet på ordningen for henvisningen til organisationen ('organization') eller kontaktpunktet ('touchpoint') der vurderer tilbudene</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Henvisning til organisationen (ORG-xxxx) eller kontaktpunktet (TPO-xxxx), som tilbuddene eller anmodningerne om deltagelse skal indsendes til</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Navnet på ordningen for henvisningen til organisationen ('organization') eller kontaktpunktet ('touchpoint') der modtager tilbudene</entry>
-<entry key="field|description|OPT-301-ReviewBody">Henvisning til organisationen (ORG-xxxx), der håndterer gennemgangsanmodningen på det aktuelt rapporterede gennemgangsstadie</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Navnet på ordningen for henvisningen til organisationen ('organization') der gennemgår anmodningen på det aktuelt rapporterede gennemgangsstadie</entry>
-<entry key="field|description|OPT-301-ReviewReq">Henvisning til organisationen (ORG-xxxx), der indledte en gennemgangsanmodning, der førte til rapportering for det aktuelle gennemgangsstadie</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Navnet på ordningen for henvisningen til organisationen ('organization') eller kontaktpunktet ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Henvisning til organisationen (ORG-xxxx), der er en hovedudbyder</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Navnet på ordningen for henvisningen til organisationen ('organization') der handler som en hovedudbyder</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Henvisning til organisationen (ORG-xxxx), der er en underleverandør til en eller flere hovedudbydere</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">En af følgende skal udfyldes: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Hver gruppe af ikke-offentliggjorte oplysninger indeholder et eller flere felter, der tilbageholdes, som dokumenteret i TED.</entry>
+<entry key="field|hint|BT-195-notice">Hver gruppe af ikke-offentliggjorte oplysninger indeholder et eller flere felter, der tilbageholdes, som dokumenteret i TED: https://ted.europa.eu/da/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Hvis datoen for offentliggørelse ikke er angivet, vil oplysningerne aldrig blive offentliggjort. Hvis datoen er angivet, må den ikke ligge mere end 5 år efter indsendelsesdatoen.</entry>
 <entry key="field|hint|BT-22-Lot">Hvis du anvender en intern identifikator til din procedure og dine delkontrakter, bedes du udfylde den. Anvend forskellige identifikatorer for hver delkontrakt.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Hvis du anvender en intern identifikator til din procedure og dine delkontrakter, bedes du udfylde den. Anvend forskellige identifikatorer for hver delkontrakt.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Frist for modtagelse af tilbud</entry>
 <entry key="field|name|BT-1311(d)-Lot">Frist for modtagelse af anmodninger om deltagelse</entry>
 <entry key="field|name|BT-1311(t)-Lot">Frist for modtagelse af anmodninger om deltagelse</entry>
-<entry key="field|name|BT-132(d)-Lot">Åbningsdato</entry>
-<entry key="field|name|BT-132(t)-Lot">Åbningsdato</entry>
+<entry key="field|name|BT-132(d)-Lot">Dato for offentlig åbning</entry>
+<entry key="field|name|BT-132(t)-Lot">Tidspunkt for offentlig åbning</entry>
 <entry key="field|name|BT-133-Lot">Sted</entry>
 <entry key="field|name|BT-133-Lot-Language">Sted</entry>
 <entry key="field|name|BT-134-Lot">Yderligere oplysninger</entry>

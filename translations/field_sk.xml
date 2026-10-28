@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Jazyk, v ktorom je popísaný kvalitatívny cieľ</entry>
 <entry key="field|description|OPT-090-Lot">Kód, ktorý označuje, že ide o kategórie kupujúcich: 'kategórie kupujúcich'</entry>
 <entry key="field|description|OPT-100-Contract">Odkaz na výsledkovú správu obsahujúcu informácie o podpísanej rámcovej dohode, na ktorej je založená súčasná zmluva</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Názov schémy použitej na zaznamenanie odkazu na výsledkovú správu obsahujúcu informácie o podpísanej rámcovej dohode, na ktorej je založená súčasná zmluva</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webová adresa, na ktorej je možné nájsť miestnu daňovú legislatívu</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Webová adresa, na ktorej je možné nájsť miestnu daňovú legislatívu</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Identifikátor daňovej legislatívy</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Názov schémy pre odkaz na organizáciu ('organization') alebo kontaktný bod ('touchpoint'), ktorý hodnotí ponuky</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Referencia na organizáciu (ORG-xxxx) alebo kontaktné miesto (TPO-xxxx), ktorému sa majú predložiť ponuky alebo žiadosti o účasť</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Názov schémy pre odkaz na organizáciu ('organization') alebo kontaktný bod ('touchpoint'), ktorý prijíma ponuky</entry>
-<entry key="field|description|OPT-301-ReviewBody">Odkaz na organizáciu (ORG-xxxx), ktorá sa zaoberá žiadosťou o preskúmanie v aktuálne hlásenej fáze preskúmania</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Názov schémy pre odkaz na organizáciu ('organization'), ktorá preskúmava žiadosť v aktuálne hlásenej fáze preskúmania</entry>
-<entry key="field|description|OPT-301-ReviewReq">Odkaz na organizáciu (ORG-xxxx), ktorá podala žiadosť o preskúmanie, ktorá viedla k hláseniu v aktuálnej fáze preskúmania</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Názov schémy pre odkaz na organizáciu ('organization') alebo kontaktný bod ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Odkaz na organizáciu (ORG-xxxx), ktorá je hlavným dodávateľom</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Názov schémy pre odkaz na organizáciu ('organization'), ktorá pôsobí ako hlavný dodávateľ</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Odkaz na organizáciu (ORG-xxxx), ktorá je subdodávateľom jedného alebo viacerých hlavných dodávateľov</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Jeden z nasledujúcich musí byť vyplnený: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Každá skupina nezverejnených informácií obsahuje jedno alebo viac polí, ktoré sa nezverejňujú, ako je zdokumentované v TED.</entry>
+<entry key="field|hint|BT-195-notice">Každá skupina nezverejnených informácií obsahuje jedno alebo viac polí, ktoré sa nezverejňujú, ako je zdokumentované v TED: https://ted.europa.eu/sk/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Ak sa dátum zverejnenia neuvedie, informácie sa nikdy nezverejnia. Ak sa dátum uvedie, nesmie byť neskorší ako 5 rokov od dátumu predloženia.</entry>
 <entry key="field|hint|BT-22-Lot">Ak pre svoj postup a časť používate interný identifikátor, uveďte ich. Pre každú časť použite jednotlivý identifikátor.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ak pre svoj postup a časť používate interný identifikátor, uveďte ich. Pre každú časť použite jednotlivý identifikátor.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Lehota na prijímanie ponúk</entry>
 <entry key="field|name|BT-1311(d)-Lot">Lehota na prijímanie žiadostí o účasť</entry>
 <entry key="field|name|BT-1311(t)-Lot">Lehota na prijímanie žiadostí o účasť</entry>
-<entry key="field|name|BT-132(d)-Lot">Dátum otvorenia</entry>
-<entry key="field|name|BT-132(t)-Lot">Dátum otvorenia</entry>
+<entry key="field|name|BT-132(d)-Lot">Dátum verejného otvárania</entry>
+<entry key="field|name|BT-132(t)-Lot">Čas verejného otvárania</entry>
 <entry key="field|name|BT-133-Lot">Miesto</entry>
 <entry key="field|name|BT-133-Lot-Language">Miesto</entry>
 <entry key="field|name|BT-134-Lot">Doplňujúce informácie</entry>
