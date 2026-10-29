@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Wyjątek od stosowania środka IPI</entry>
 <entry key="business-term|description|BT-688">Opis i uzasadnienie zastosowania nadrzędnych powodów związanych z interesem publicznym</entry>
 <entry key="business-term|description|BT-70">Główne informacje na temat realizacji zamówienia (np. rezultaty pośrednie, rekompensata za szkody, prawa własności intelektualnej).</entry>
-<entry key="business-term|description|BT-701">Europejski identyfikator ogłoszenia w sprawie zamówienia publicznego dla danego ogłoszenia. Umieszczenie tego identyfikatora we wszystkich publikowanych wersjach danego ogłoszenia (np. publikowanych w TED, na krajowych portalach publikacyjnych, na regionalnych portalach publikacyjnych) umożliwia jednoznaczną identyfikację ogłoszeń dotyczących zamówień w całej Unii.</entry>
+<entry key="business-term|description|BT-701">Identyfikator europejskiego ogłoszenia o zamówieniu publicznym dla niniejszego ogłoszenia.</entry>
 <entry key="business-term|description|BT-702">Język lub języki, w których dane ogłoszenie jest oficjalnie dostępne. Te wersje językowe są jednakowo ważne pod względem prawnym.</entry>
 <entry key="business-term|description|BT-706">Obywatelstwo (lub obywatelstwa) faktycznego właściciela (faktycznych właścicieli) zwycięzcy, oferenta lub podwykonawcy; zgodnie z rejestrem(-ami) ustanowionym(i) dyrektywą Parlamentu Europejskiego i Rady (UE) 2018/843. Jeżeli taki rejestr nie istnieje (np. w przypadku wykonawców z siedzibą poza Unią), należy podać równoważne informacje z innych źródeł.</entry>
 <entry key="business-term|description|BT-707">Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Komunikacja elektroniczna wymaga użycia narzędzi i urządzeń, które nie są powszechnie dostępne.</entry>
 <entry key="business-term|description|BT-725">Liczba bezemisyjnych pojazdów ciężkich zgodnie z definicją i zakresem stosowania w dyrektywie 2009/33/WE. Pojazdy te są przedmiotem zakupu, dzierżawy, najmu lub leasingu, bądź ich wykorzystanie zostało przewidziane w umowie na świadczenie usługi objętej zakresem dyrektywy 2009/33/WE.</entry>
 <entry key="business-term|description|BT-726">Nabywca podkreśla, że dane zamówienie jest również odpowiednie dla małych i średnich przedsiębiorstw (MŚP).</entry>
-<entry key="business-term|description|BT-727">Występują inne ograniczenia dotyczące miejsca realizacji (np. „w dowolnym miejscu w Europejskim Obszarze Gospodarczym”, „w dowolnym miejscu w danym państwie”).</entry>
+<entry key="business-term|description|BT-727">Jeżeli miejsce realizacji lub dostawy nie jest ograniczone do konkretnego adresu lub regionu, można je określić za pomocą szerszego zakresu geograficznego.</entry>
 <entry key="business-term|description|BT-728">Dodatkowe informacje na temat miejsca realizacji.</entry>
 <entry key="business-term|description|BT-729">Maksymalny odsetek wartości zamówienia, jaki wykonawca musi zlecić podwykonawcom z zastosowaniem procedury konkurencyjnej opisanej w tytule III dyrektywy 2009/81/WE.</entry>
 <entry key="business-term|description|BT-730">Nabywca zna przynajmniej szacunkową wartość części zamówienia, której realizację wykonawca zleci osobom trzecim.</entry>
@@ -266,9 +266,6 @@
 <entry key="business-term|description|BT-744">Wymagane jest użycie zaawansowanego lub kwalifikowanego podpisu elektronicznego lub pieczęci elektronicznej (zgodnie z definicją w rozporządzeniu Parlamentu Europejskiego i Rady (UE) nr 910/2014).</entry>
 <entry key="business-term|description|BT-745">Opis, w jaki sposób dokonać złożenia oferty, wniosku o dopuszczenie do udziału lub zgłoszenia zainteresowania drogą nieelektroniczną.</entry>
 <entry key="business-term|description|BT-746">Obywatelstwo (lub obywatelstwa) faktycznego właściciela (faktycznych właścicieli) zwycięzcy, oferenta lub podwykonawcy nie jest (są) publikowane w rejestrach ustanowionych dyrektywą Parlamentu Europejskiego i Rady (UE) 2018/843, ponieważ zwycięzca jest notowany na rynku regulowanym (np. na giełdzie papierów wartościowych), który zapewnia odpowiednią przejrzystość zgodnie z przepisami dotyczącymi przeciwdziałania praniu pieniędzy.</entry>
-<entry key="business-term|description|BT-747">Kryteria (lub kryterium) dotyczą przykładowo sytuacji ekonomicznej i finansowej lub zdolności technicznej i zawodowej.</entry>
-<entry key="business-term|description|BT-748">Kryteria (lub kryterium) danego rodzaju są (jest) stosowane, niestosowane lub (w przypadku wstępnego ogłoszenia informacyjnego, które wykorzystuje się jako zaproszenie do ubiegania się o zamówienie lub w celu skrócenia terminów) zastosowanie nie jest jeszcze wiadome.</entry>
-<entry key="business-term|description|BT-749">Nazwy kryteriów (lub kryterium) kwalifikacji.</entry>
 <entry key="business-term|description|BT-75">Opis zabezpieczenia finansowego wymaganego od oferenta w momencie składania oferty. Zabezpieczenie może mieć formę np. wpłaty na rzecz nabywcy lub dokumentu wystawionego przez bank. Zabezpieczenie zwykle przepada, jeżeli oferent wygrał postępowanie, ale następnie odmówił podpisania umowy.</entry>
 <entry key="business-term|description|BT-750">Opis kryteriów kwalifikacji oraz zastosowanie tego kryterium do wyboru kandydatów, którzy zostaną zaproszeni do drugiego etapu procedury (jeżeli określono maksymalną liczbę kandydatów).</entry>
 <entry key="business-term|description|BT-751">Wymagane jest zabezpieczenie.</entry>
@@ -589,7 +586,7 @@
 <entry key="business-term|name|BT-687">Wyjątek od stosowania środka IPI</entry>
 <entry key="business-term|name|BT-688">Nadrzędne powody związane z interesem publicznym</entry>
 <entry key="business-term|name|BT-70">Warunki dotyczące realizacji zamówienia</entry>
-<entry key="business-term|name|BT-701">Identyfikator/wersja ogłoszenia</entry>
+<entry key="business-term|name|BT-701">Identyfikator ogłoszenia</entry>
 <entry key="business-term|name|BT-702">Języki, w których przedmiotowe ogłoszenie jest oficjalnie dostępne</entry>
 <entry key="business-term|name|BT-706">Przynależność państwowa właściciela</entry>
 <entry key="business-term|name|BT-707">Uzasadnienie zastrzeżenia dostępu do niektórych dokumentów zamówienia</entry>
@@ -612,7 +609,7 @@
 <entry key="business-term|name|BT-724">Używane jest narzędzie komunikacji ad hoc</entry>
 <entry key="business-term|name|BT-725">Liczba bezemisyjnych pojazdów ciężkich</entry>
 <entry key="business-term|name|BT-726">Przedmiotowe zamówienie jest odpowiednie również dla małych i średnich przedsiębiorstw (MŚP)</entry>
-<entry key="business-term|name|BT-727">Inne ograniczenia dotyczące miejsca realizacji</entry>
+<entry key="business-term|name|BT-727">Miejsce realizacji – Zakres geograficzny</entry>
 <entry key="business-term|name|BT-728">Informacje dodatkowe</entry>
 <entry key="business-term|name|BT-729">Maksymalny odsetek wartości zamówienia, jaki wykonawca może zlecić podwykonawcom</entry>
 <entry key="business-term|name|BT-730">Podwykonawstwo - Wartość jest znana</entry>
@@ -630,9 +627,6 @@
 <entry key="business-term|name|BT-744">Wymagane jest użycie zaawansowanego lub kwalifikowanego podpisu elektronicznego lub pieczęci elektronicznej (zgodnie z definicją w rozporządzeniu (UE) nr 910/2014)</entry>
 <entry key="business-term|name|BT-745">Opis</entry>
 <entry key="business-term|name|BT-746">Zwycięzca jest notowany na rynku regulowanym</entry>
-<entry key="business-term|name|BT-747">Rodzaj</entry>
-<entry key="business-term|name|BT-748">Wykorzystanie tego kryterium</entry>
-<entry key="business-term|name|BT-749">Nazwa</entry>
 <entry key="business-term|name|BT-75">Opis gwarancji finansowej</entry>
 <entry key="business-term|name|BT-750">Opis kryterium selekcji</entry>
 <entry key="business-term|name|BT-751">Wymagane jest zabezpieczenie</entry>

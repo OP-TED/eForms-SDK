@@ -27,6 +27,7 @@
 	<xsd:element name="EformsExtension">
 		<xsd:complexType>
 			<xsd:sequence>
+				<xsd:element ref="local-extensions" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efbc:AccessToolName" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efbc:FrameworkMaximumAmount" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efbc:ProcedureRelaunchIndicator" minOccurs="0" maxOccurs="1"/>
@@ -43,6 +44,7 @@
 				<xsd:element ref="efac:Funding" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:InterestExpressionReceptionPeriod" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NonOfficialLanguages" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="efac:NoticeInformationNondisclosure" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NoticeResult" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:NoticeSubType" minOccurs="0" maxOccurs="1"/>
 				<xsd:element ref="efac:OfficialLanguages" minOccurs="0" maxOccurs="1"/>
@@ -53,6 +55,13 @@
 				<xsd:element ref="efac:SubsidiaryClassification" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:ReferencedDocumentPart" minOccurs="0" maxOccurs="unbounded"/>
 				<xsd:element ref="efac:TenderSubcontractingRequirements" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="local-extensions">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:any namespace="##other" processContents="lax" minOccurs="1" maxOccurs="unbounded"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>

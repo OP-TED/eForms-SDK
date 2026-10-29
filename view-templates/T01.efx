@@ -12,7 +12,7 @@
 		{ND-ProcedureProcurementScope} #{field|name|BT-24-Procedure}: ${BT-24-Procedure} // Procedure Description
 		{OPP-090-Procedure} #{field|name|OPP-090-Procedure}: ${OPP-090-Procedure} // Previous Notice
 		{BT-22-Procedure} #{field|name|BT-22-Procedure}: ${BT-22-Procedure} // Internal identifier
-		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
+		{BT-105-Procedure} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{field|name|BT-23-Procedure}: #{BT-23-Procedure} // Nature of the contract
 			{OPP-040-Procedure} #{field|name|OPP-040-Procedure}: #{OPP-040-Procedure} // Main Nature - Sub Type (T01, T02)
@@ -27,7 +27,7 @@
 			{BT-01-notice} #{BT-01-notice} // Procedure Legal Basis
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
-			0 {BT-09(a)-Procedure[BT-09(b)-Procedure != 'unpublished']} #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure} // Applicable cross-border law
+			{BT-09(a)-Procedure} #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure} // Applicable cross-border law
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5 Lots
 	1 {ND-Lot} #{field|name|BT-137-Lot}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{field|name|BT-21-Lot}: ${BT-21-Lot} // Title
@@ -61,19 +61,31 @@
 			{BT-137-Lot[OPT-301-Lot-AddInfo is present]} #{auxiliary|text|organisation-providing-info-procedure}: ${for text:$refid1 in OPT-301-Lot-AddInfo, text:$orgname1 in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid1) or (OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is not present] == $refid1)] return $orgname1}${for text:$refid2 in OPT-301-Lot-AddInfo, text:$orgname2 in BT-500-Organization-Company[(OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is present] == $refid2)], text:$tponame in BT-500-Organization-TouchPoint[(OPT-201-Organization-TouchPoint == $refid2)] return concat($orgname2, ' - ', $tponame)} // Organisation providing additional information about the procurement procedure (Lot)
 8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
-		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
-		{BT-501-Organization-Company} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
-		{BT-16-Organization-Company} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
-		{BT-510(a)-Organization-Company} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
-		{BT-513-Organization-Company} #{field|name|BT-513-Organization-Company}: ${BT-513-Organization-Company} // Organization City
-		{BT-512-Organization-Company} #{field|name|BT-512-Organization-Company}: ${BT-512-Organization-Company} // Organization Post Code
-		{BT-507-Organization-Company} #{field|name|BT-507-Organization-Company}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) // Organization Country Subdivision
-		{BT-514-Organization-Company} #{field|name|BT-514-Organization-Company}: #{BT-514-Organization-Company} // Organization Country
-		{BT-502-Organization-Company} #{field|name|BT-502-Organization-Company}: ${BT-502-Organization-Company} // Organization Contact Point
-		{BT-506-Organization-Company} #{field|name|BT-506-Organization-Company}: ${BT-506-Organization-Company} // Organization Contact Email Address
-		{BT-503-Organization-Company} #{field|name|BT-503-Organization-Company}: ${BT-503-Organization-Company} // Organization Contact Telephone Number
-		{BT-739-Organization-Company} #{field|name|BT-739-Organization-Company}: ${BT-739-Organization-Company} // Organization Contact Fax
-		{BT-505-Organization-Company} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
+		{ND-Organization[BT-500-Organization-Company != 'unpublished']} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
+		{BT-501-Organization-Company[BT-501-Organization-Company != 'unpublished']} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
+		{BT-501-Organization-Company[BT-501-Organization-Company == 'unpublished']} #{field|name|BT-501-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Identifier (undisclosed)
+		{BT-16-Organization-Company[BT-16-Organization-Company != 'unpublished']} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
+		{BT-16-Organization-Company[BT-16-Organization-Company == 'unpublished']} #{field|name|BT-16-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Part Name (undisclosed)
+		{BT-510(a)-Organization-Company[BT-510(a)-Organization-Company != 'unpublished']} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
+		{BT-510(a)-Organization-Company[BT-510(a)-Organization-Company == 'unpublished']} #{field|name|BT-510(a)-Organization-Company}: #{auxiliary|text|undisclosed} // Postal address (undisclosed)
+		{BT-513-Organization-Company[BT-513-Organization-Company != 'unpublished']} #{field|name|BT-513-Organization-Company}: ${BT-513-Organization-Company} // Organization City
+		{BT-513-Organization-Company[BT-513-Organization-Company == 'unpublished']} #{field|name|BT-513-Organization-Company}: #{auxiliary|text|undisclosed} // Organization City (undisclosed)
+		{BT-512-Organization-Company[BT-512-Organization-Company != 'unpublished']} #{field|name|BT-512-Organization-Company}: ${BT-512-Organization-Company} // Organization Post Code
+		{BT-512-Organization-Company[BT-512-Organization-Company == 'unpublished']} #{field|name|BT-512-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Post Code (undisclosed)
+		{BT-507-Organization-Company[BT-507-Organization-Company != 'unpublished']} #{field|name|BT-507-Organization-Company}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) // Organization Country Subdivision
+		{BT-507-Organization-Company[BT-507-Organization-Company == 'unpublished']} #{field|name|BT-507-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Country Subdivision (undisclosed)
+		{BT-514-Organization-Company[BT-514-Organization-Company != 'unpublished']} #{field|name|BT-514-Organization-Company}: #{BT-514-Organization-Company} // Organization Country
+		{BT-514-Organization-Company[BT-514-Organization-Company == 'unpublished']} #{field|name|BT-514-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Country (undisclosed)
+		{BT-502-Organization-Company[BT-502-Organization-Company != 'unpublished']} #{field|name|BT-502-Organization-Company}: ${BT-502-Organization-Company} // Organization Contact Point
+		{BT-502-Organization-Company[BT-502-Organization-Company == 'unpublished']} #{field|name|BT-502-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Point (undisclosed)
+		{BT-506-Organization-Company[BT-506-Organization-Company != 'unpublished']} #{field|name|BT-506-Organization-Company}: ${BT-506-Organization-Company} // Organization Contact Email Address
+		{BT-506-Organization-Company[BT-506-Organization-Company == 'unpublished']} #{field|name|BT-506-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Email Address (undisclosed)
+		{BT-503-Organization-Company[BT-503-Organization-Company != 'unpublished']} #{field|name|BT-503-Organization-Company}: ${BT-503-Organization-Company} // Organization Contact Telephone Number
+		{BT-503-Organization-Company[BT-503-Organization-Company == 'unpublished']} #{field|name|BT-503-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Telephone Number (undisclosed)
+		{BT-739-Organization-Company[BT-739-Organization-Company != 'unpublished']} #{field|name|BT-739-Organization-Company}: ${BT-739-Organization-Company} // Organization Contact Fax
+		{BT-739-Organization-Company[BT-739-Organization-Company == 'unpublished']} #{field|name|BT-739-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Fax (undisclosed)
+		{BT-505-Organization-Company[BT-505-Organization-Company != 'unpublished']} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
+		{BT-505-Organization-Company[BT-505-Organization-Company == 'unpublished']} #{field|name|BT-505-Organization-Company}: #{auxiliary|text|undisclosed}// Organization Internet Address (undisclosed)
 		{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{field|name|BT-508-Procedure-Buyer}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
 		0 {ND-Touchpoint} #{auxiliary|text|other-contact-point}: // TouchPoint / Other contact points
 			{ND-Touchpoint[BT-500-Organization-TouchPoint is present]} #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint} // Buyer Touchpoint Name

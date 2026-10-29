@@ -48,18 +48,9 @@
 		<assert id="ND-Funding-T01" role="ERROR" diagnostics="ND-Funding" test="count(efac:Funding) = 0">rule|text|ND-Funding-T01</assert>
 		<assert id="ND-SelectionCriteria-T01" role="ERROR" diagnostics="ND-SelectionCriteria" test="count(efac:SelectionCriteria) = 0">rule|text|ND-SelectionCriteria-T01</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T01']">
-		<assert id="ND-ProcedureTenderingProcessExtension-T01" role="ERROR" diagnostics="ND-ProcedureTenderingProcessExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-ProcedureTenderingProcessExtension-T01</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = 'T01']">
-		<assert id="ND-DirectAwardExtension-T01" role="ERROR" diagnostics="ND-DirectAwardExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-DirectAwardExtension-T01</assert>
-	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T01']">
 		<assert id="ND-LotDistribution-T01" role="ERROR" diagnostics="ND-LotDistribution" test="count(cac:LotDistribution) = 0">rule|text|ND-LotDistribution-T01</assert>
 		<assert id="ND-TendererQualificationRequest-T01" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-TendererQualificationRequest-T01</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[$noticeSubType = 'T01']">
-		<assert id="ND-CrossBorderLawUnpublish-T01" role="ERROR" diagnostics="ND-CrossBorderLawUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-CrossBorderLawUnpublish-T01</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T01']">
 		<assert id="ND-ContractModification-T01" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-T01</assert>

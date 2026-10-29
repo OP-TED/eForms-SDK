@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Izuzetak od primjene mjere IPI</entry>
 <entry key="business-term|description|BT-688">Opis i opravdanje za primjenu pretežitih razloga koji se odnose na javni interes</entry>
 <entry key="business-term|description|BT-70">Glavne informacije o izvršenju ugovora (npr. privremeni rezultati, naknada štete, prava intelektualnog vlasništva).</entry>
-<entry key="business-term|description|BT-701">Europski identifikator obavijesti o javnoj nabavi za ovu obavijest. Uključivanjem tog identifikatora u sve objavljene verzije ove obavijesti (npr. na TED-u, nacionalnim portalima za publikacije, regionalnim portalima za publikacije) omogućuje se jedinstvena identifikacija obavijesti o nabavi diljem Unije.</entry>
+<entry key="business-term|description|BT-701">Identifikator europske obavijesti o javnoj nabavi za ovu obavijest.</entry>
 <entry key="business-term|description|BT-702">Jezik ili jezici na kojima je ta obavijest službeno dostupna. Te su jezične verzije jednako pravno valjane.</entry>
 <entry key="business-term|description|BT-706">Državljanstvo (ili državljanstva) stvarnog ili stvarnih vlasnika pobjednika, ponuditelja ili podugovaratelja kako je objavljeno u registru ili registrima uspostavljenima Direktivom Europskog parlamenta i Vijeća (EU) 2018/843. Ako takav registar ne postoji (npr. u slučaju ugovaratelja s poslovnim nastanom izvan Unije), onda jednakovrijedne informacije iz drugih izvora.</entry>
 <entry key="business-term|description|BT-707">Obrazloženje za ograničavanje pristupa određenoj dokumentaciji o nabavi.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Za elektroničku komunikaciju potrebno je upotrebljavati alate i uređaje koji nisu općenito dostupni.</entry>
 <entry key="business-term|description|BT-725">Broj teških vozila s nultim emisijama kako su definirana u Direktivi 2009/33/EZ i koja su obuhvaćena područjem primjene te direktive. Ta su vozila kupljena, u leasingu, unajmljena, unajmljena s pravom otkupa ili je njihova uporaba ugovorno određena za pružanje kupljene usluge obuhvaćene područjem primjene Direktive 2009/33/EZ.</entry>
 <entry key="business-term|description|BT-726">Kupac naglašava da je ta javna nabava primjerena i za mala i srednja poduzeća (MSP-ove).</entry>
-<entry key="business-term|description|BT-727">Postoje druga ograničenja u pogledu mjesta izvršenja (npr. „bilo gdje u Europskom gospodarskom prostoru”, „bilo gdje u određenoj zemlji”).</entry>
+<entry key="business-term|description|BT-727">Ako mjesto izvršenja ili isporuke nije ograničeno na određenu adresu ili regiju, može se definirati širim geografskim opsegom.</entry>
 <entry key="business-term|description|BT-728">Dodatne informacije o mjestu izvršenja.</entry>
 <entry key="business-term|description|BT-729">Maksimalni postotak vrijednosti ugovora koji ugovaratelj mora dati u podugovor u okviru postupka nadmetanja opisanog u glavi III. Direktive 2009/81/EZ.</entry>
 <entry key="business-term|description|BT-730">Kupac zna barem procijenjenu vrijednost dijela ugovora koji će ugovaratelj dati u podugovor trećim stranama.</entry>
@@ -266,9 +266,6 @@
 <entry key="business-term|description|BT-744">Potreban je napredni ili kvalificirani elektronički potpis ili pečat (kako je definirano u Uredbi (EU) br. 910/2014 Europskog parlamenta i Vijeća).</entry>
 <entry key="business-term|description|BT-745">Opis načina podnošenja ponuda, zahtjeva za sudjelovanje ili iskaza interesa u neelektroničkom obliku.</entry>
 <entry key="business-term|description|BT-746">Državljanstvo (državljanstva) stvarnog ili stvarnih vlasnika pobjednika, ponuditelja ili podugovaratelja nije objavljeno (nisu objavljena) u registru ili registrima uspostavljenima Direktivom (EU) 2018/843 zato što je pobjednik uvršten na uređenom tržištu (npr. uvršten na burzu) na kojemu se osigurava odgovarajuća transparentnost u skladu sa zakonodavstvom o sprečavanju pranja novca.</entry>
-<entry key="business-term|description|BT-747">Kriterij ili kriteriji se odnose, na primjer, na ekonomsku i financijsku sposobnost ili tehničku i stručnu sposobnost.</entry>
-<entry key="business-term|description|BT-748">Kriteriji (ili kriterij) određene vrste upotrebljavaju se ili se ne upotrebljavaju, ili (u slučaju prethodne informacijske obavijesti upotrijebljene kao poziv na nadmetanje ili za smanjenje rokova) upotreba još nije poznata.</entry>
-<entry key="business-term|description|BT-749">Naziv kriterija za odabir.</entry>
 <entry key="business-term|description|BT-75">Opis financijskog jamstva koje se traži od ponuditelja prilikom podnošenja ponude. Jamstvo može biti u obliku, npr., isplate kupcu ili dokument iz banke. Pravo na jamstvo obično se gubi ako ponuditelj dobije ugovor, ali ga potom odbije potpisati.</entry>
 <entry key="business-term|description|BT-750">Opis kriterija za odabir i načina primjene tog kriterija na odabir natjecatelja koji će biti pozvani u drugu fazu postupka (ako je određen maksimalni broj natjecatelja).</entry>
 <entry key="business-term|description|BT-751">Jamstvo je potrebno.</entry>
@@ -589,7 +586,7 @@
 <entry key="business-term|name|BT-687">Izuzetak od primjene mjere IPI</entry>
 <entry key="business-term|name|BT-688">Pretežiti razlozi koji se odnose na javni interes</entry>
 <entry key="business-term|name|BT-70">Uvjeti koji se odnose na izvršenje ugovora</entry>
-<entry key="business-term|name|BT-701">Identifikacijska oznaka / verzija obavijesti</entry>
+<entry key="business-term|name|BT-701">Identifikacijska oznaka obavijesti</entry>
 <entry key="business-term|name|BT-702">Jezici na kojima je ova obavijest službeno dostupna</entry>
 <entry key="business-term|name|BT-706">Državljanstvo vlasnika</entry>
 <entry key="business-term|name|BT-707">Obrazloženje ograničavanja pristupa određenoj dokumentaciji o nabavi</entry>
@@ -612,7 +609,7 @@
 <entry key="business-term|name|BT-724">Koristi se ad hoc komunikacijski alat</entry>
 <entry key="business-term|name|BT-725">Broj teških vozila s nultim emisijama</entry>
 <entry key="business-term|name|BT-726">Ova javna nabava prikladna je i za mala i srednja poduzeća (MSP-ovi)</entry>
-<entry key="business-term|name|BT-727">Druga ograničenja koja se odnose na mjesto izvršenja</entry>
+<entry key="business-term|name|BT-727">Mjesto izvršenja – Geografski opseg</entry>
 <entry key="business-term|name|BT-728">Dodatne informacije</entry>
 <entry key="business-term|name|BT-729">Maksimalan postotak vrijednosti ugovora koji ugovaratelj može podugovoriti</entry>
 <entry key="business-term|name|BT-730">Vrijednost podugovaranja poznata</entry>
@@ -630,9 +627,6 @@
 <entry key="business-term|name|BT-744">Potreban je napredan ili kvalificirani elektronički potpis ili pečat (kako je definirano u Uredbi (EU) br. 910/2014)</entry>
 <entry key="business-term|name|BT-745">Opis</entry>
 <entry key="business-term|name|BT-746">Pobjednik je uvršten na uređeno tržište</entry>
-<entry key="business-term|name|BT-747">Vrsta</entry>
-<entry key="business-term|name|BT-748">Primjena ovog kriterija</entry>
-<entry key="business-term|name|BT-749">Naziv</entry>
 <entry key="business-term|name|BT-75">Opis financijskog jamstva</entry>
 <entry key="business-term|name|BT-750">Opis kriterija odabira</entry>
 <entry key="business-term|name|BT-751">Jamstvo je potrebno</entry>

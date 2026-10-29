@@ -84,6 +84,7 @@ fragment Char: ~[\r\n\f\t #$}{];
 fragment Dollar: '$';	// Used for label placeholders
 fragment Sharp: '#';	// Used for expression placeholders
 fragment OpenBrace: '{';
+fragment Ampersand: '&';	// Used for selector blocks
 
 ShorthandFieldValueReferenceFromContextField: Dollar ValueKeyword;
 ShorthandIndirectLabelReferenceFromContextField: Sharp ValueKeyword;
@@ -94,6 +95,7 @@ ShorthandLabelType: LabelType -> type(LabelType);
 
 StartExpression: Dollar OpenBrace -> pushMode(EXPRESSION);
 StartLabel: Sharp OpenBrace -> pushMode(LABEL);
+StartSelector: Ampersand OpenBrace -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
 EndOfLineComment: Whitespace* '//' ~[\r\n\f]* -> skip;

@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Excepție de la aplicarea măsurii IPI</entry>
 <entry key="business-term|description|BT-688">O descriere și justificare pentru aplicarea motivelor preponderente legate de interesul public</entry>
 <entry key="business-term|description|BT-70">Principalele informații cu privire la executarea contractului (de exemplu, prestații intermediare, despăgubiri pentru daune, drepturi de proprietate intelectuală).</entry>
-<entry key="business-term|description|BT-701">Identificatorul anunțului de achiziții publice în Uniunea Europeană. Includerea acestui identificator în orice versiune publicată a anunțului în cauză (de exemplu pe TED, pe portaluri de publicare naționale, pe portaluri de publicații regionale) permite identificarea unică a anunțurilor de achiziții publice în UE.</entry>
+<entry key="business-term|description|BT-701">Identificatorul anunțului european de achiziție publică al acestui anunț.</entry>
 <entry key="business-term|description|BT-702">Limba (limbile) în care anunțul respectiv este oficial disponibil. Aceste versiuni lingvistice au aceeași validitate juridică.</entry>
 <entry key="business-term|description|BT-706">Naționalitatea (sau naționalitățile) beneficiarului (beneficiarilor) efectiv(i) al(ai) câștigătorului, ofertantului sau subcontractantului, astfel cum a(u) fost publicată (publicate) în registrul (registrele) prevăzut(e) de Directiva (UE) 2018/843 a Parlamentului European și a Consiliului. Dacă nu există un astfel de registru (de exemplu, în cazul unor contractanți stabiliți în afara Uniunii), atunci informații echivalente din alte surse.</entry>
 <entry key="business-term|description|BT-707">Justificarea restricționării accesului la anumite documente privind achizițiile publice.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Comunicațiile electronice necesită utilizarea unor instrumente și dispozitive care nu sunt general disponibile.</entry>
 <entry key="business-term|description|BT-725">Numărul de vehicule grele cu emisii zero, astfel cum sunt definite de Directiva 2009/33/CE, care se încadrează în domeniul de aplicare al acesteia. Aceste vehicule au fost cumpărate, preluate în sistem de leasing, închiriate, cumpărate cu plata în rate sau au fost angajate prin contract pentru furnizarea unui serviciu achiziționat care intră în domeniul de aplicare al Directivei 2009/33/CE.</entry>
 <entry key="business-term|description|BT-726">Cumpărătorul subliniază că achiziția în cauză este adecvată și pentru întreprinderile mici și mijlocii (IMM-uri).</entry>
-<entry key="business-term|description|BT-727">Există alte restricții privind locul efectuării (de exemplu, „oriunde în Spațiul Economic European”, „oriunde în țara respectivă”).</entry>
+<entry key="business-term|description|BT-727">În cazul în care locul de executare sau de livrare nu este limitat la o anumită adresă sau regiune, acesta poate fi definit printr-un domeniu geografic mai larg.</entry>
 <entry key="business-term|description|BT-728">Informații suplimentare privind locul efectuării.</entry>
 <entry key="business-term|description|BT-729">Procentul maxim al valorii contractului pe care contractantul trebuie să îl subcontracteze utilizând procedura competitivă descrisă în titlul III din Directiva 2009/81/CE.</entry>
 <entry key="business-term|description|BT-730">Cumpărătorul cunoaște cel puțin valoarea estimată a părții din contract pe care contractantul o va subcontracta unor părți terțe.</entry>
@@ -266,9 +266,6 @@
 <entry key="business-term|description|BT-744">Obligativitatea semnăturii sau a ștampilei electronice avansate sau calificate [conform definiției din Regulamentul (UE) nr. 910/2014 al Parlamentului European și al Consiliului].</entry>
 <entry key="business-term|description|BT-745">Descrierea modalităților de prezentare a ofertelor, a cererilor de participare sau manifestărilor interesului pe cale neelectronică.</entry>
 <entry key="business-term|description|BT-746">Naționalitatea (sau naționalitățile) beneficiarului (beneficiarilor) efectiv(i) al(ai) câștigătorului, ofertantului sau subcontractantului nu este (sunt) publicată (publicate) în registrul (registrele) prevăzut(e) de Directiva (UE) 2018/843 a Parlamentului European și a Consiliului, deoarece câștigătorul este cotat pe o piață reglementată (de exemplu, o bursă de valori) care asigură o transparență adecvată în conformitate cu legislația privind combaterea spălării banilor.</entry>
-<entry key="business-term|description|BT-747">Criteriile (sau criteriul) privesc (privește), de exemplu, capacitatea economică și financiară sau capacitatea tehnică și profesională.</entry>
-<entry key="business-term|description|BT-748">Criteriile (sau criteriul) tipului în cauză sunt (este) utilizat(e), neutilizat(e) sau (în cazul unui anunț de intenție utilizat ca invitație la procedura concurențială de ofertare sau pentru scurtarea termenelor) utilizarea nu este cunoscută încă.</entry>
-<entry key="business-term|description|BT-749">Denumirea criteriilor (sau a criteriului) de selecție.</entry>
 <entry key="business-term|description|BT-75">Descrierea garanției financiare solicitate ofertantului la depunerea ofertei. Garanția poate lua, de exemplu, forma unei plăți către cumpărător sau a unui document de la o bancă. În general, garanția ar fi reținută în momentul în care ofertantul ar câștiga contractul, dar ar refuza să îl semneze.</entry>
 <entry key="business-term|description|BT-750">Descrierea criteriului de selecție și cum va fi utilizat acesta pentru a selecta candidații care urmează să fie invitați să participe la cea de-a doua etapă a procedurii (dacă a fost stabilit un număr maxim de candidați).</entry>
 <entry key="business-term|description|BT-751">Este necesară o garanție.</entry>
@@ -589,7 +586,7 @@
 <entry key="business-term|name|BT-687">Excepție la aplicarea măsurii IPI</entry>
 <entry key="business-term|name|BT-688">Motive preponderente legate de interesul public</entry>
 <entry key="business-term|name|BT-70">Condiții privind executarea contractului</entry>
-<entry key="business-term|name|BT-701">Identificatorul/versiunea anunțului</entry>
+<entry key="business-term|name|BT-701">Identificatorul anunțului</entry>
 <entry key="business-term|name|BT-702">Limbile în care acest anunț este disponibil oficial</entry>
 <entry key="business-term|name|BT-706">Naționalitatea proprietarului</entry>
 <entry key="business-term|name|BT-707">Justificarea restricționării accesului la anumite documente ale achiziției</entry>
@@ -612,7 +609,7 @@
 <entry key="business-term|name|BT-724">Se utilizează un instrument de comunicare ad-hoc</entry>
 <entry key="business-term|name|BT-725">Numărul de vehicule grele cu emisii zero</entry>
 <entry key="business-term|name|BT-726">Această procedură de achiziții publice este adecvată și pentru întreprinderile mici și mijlocii (IMM-uri)</entry>
-<entry key="business-term|name|BT-727">Alte restricții privind locul de executare</entry>
+<entry key="business-term|name|BT-727">Locul de executare – Domeniul geografic</entry>
 <entry key="business-term|name|BT-728">Informații suplimentare</entry>
 <entry key="business-term|name|BT-729">Procentul maxim din valoarea contractului pe care contractantul îl poate subcontracta</entry>
 <entry key="business-term|name|BT-730">Valoarea subcontractării este cunoscută</entry>
@@ -630,9 +627,6 @@
 <entry key="business-term|name|BT-744">Este nevoie de semnătura sau sigiliul electronic(ă) avansat(ă) sau calificat(ă) [conform definiției din Regulamentul (UE) nr. 910/2014]</entry>
 <entry key="business-term|name|BT-745">Descriere</entry>
 <entry key="business-term|name|BT-746">Câștigătorul este cotat pe o piață reglementată</entry>
-<entry key="business-term|name|BT-747">Tip</entry>
-<entry key="business-term|name|BT-748">Utilizarea acestui criteriu</entry>
-<entry key="business-term|name|BT-749">Denumire</entry>
 <entry key="business-term|name|BT-75">Descrierea garanției financiare</entry>
 <entry key="business-term|name|BT-750">Descrierea criteriului de selecție</entry>
 <entry key="business-term|name|BT-751">Este necesară o garanție.</entry>
