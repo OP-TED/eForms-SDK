@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Jezik koji se koristi za opis cilja kvalitete</entry>
 <entry key="field|description|OPT-090-Lot">Kod koji označava da se radi o kategorijama kupaca: 'kategorije kupaca'</entry>
 <entry key="field|description|OPT-100-Contract">Referenca na obavijest o rezultatu koja sadrži informacije o potpisanom okvirnom sporazumu na temelju kojeg se trenutni ugovor odvija</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Ime sheme koja se koristi za izražavanje reference na obavijest o rezultatu koja sadrži informacije o potpisanom okvirnom sporazumu na temelju kojeg se trenutni ugovor odvija</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Web adresa na kojoj se može pronaći lokalno porezno zakonodavstvo</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Web adresa na kojoj se može pronaći lokalno porezno zakonodavstvo</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Identifikator poreznog zakonodavstva</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Naziv sheme za referencu na organizaciju ('organization') ili kontakt točku ('touchpoint') koja procjenjuje ponude</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Referenca na organizaciju (ORG-xxxx) ili kontakt točku (TPO-xxxx) kojoj treba dostaviti ponude ili zahtjeve za sudjelovanje</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Naziv sheme za referencu na organizaciju ('organization') ili kontakt točku ('touchpoint') koja prima ponude</entry>
-<entry key="field|description|OPT-301-ReviewBody">Referenca na organizaciju (ORG-xxxx) koja se bavi zahtjevom za pregled na trenutno prijavljenoj fazi pregleda</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Naziv sheme za referencu na organizaciju ('organization') koja pregledava zahtjev na trenutno prijavljenoj fazi pregleda</entry>
-<entry key="field|description|OPT-301-ReviewReq">Referenca na organizaciju (ORG-xxxx) koja je pokrenula zahtjev za pregled koji je doveo do izvješćivanja o trenutnoj fazi pregleda</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Naziv sheme za referencu na organizaciju ('organization') ili kontakt točku ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Referenca na organizaciju (ORG-xxxx) koja je glavni ponuđač</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Naziv sheme za referencu na organizaciju ('organization') koja djeluje kao glavni ponuđač</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Referenca na organizaciju (ORG-xxxx) koja je podugovaratelj jednog ili više glavnih ponuđača</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Jedno od sljedećeg mora biti ispunjeno: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Svaka skupina neobjavljenih informacija sadržava jedno ili više polja koja se ne objavljuju, kako je dokumentirano u TED-u.</entry>
+<entry key="field|hint|BT-195-notice">Svaka skupina neobjavljenih informacija sadržava jedno ili više polja koja se ne objavljuju, kako je dokumentirano u TED-u: https://ted.europa.eu/hr/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Ako datum objave nije naveden, informacije se nikada neće objaviti. Ako je datum naveden, ne smije biti više od 5 godina nakon datuma podnošenja.</entry>
 <entry key="field|hint|BT-22-Lot">Ako imate interni identifikator za svoj postupak i grupe, navedite ga. Svaka grupa mora imati jedinstveni dentifikator.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ako imate interni identifikator za svoj postupak i grupe, navedite ga. Svaka grupa mora imati jedinstveni dentifikator.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Rok za zaprimanje ponuda</entry>
 <entry key="field|name|BT-1311(d)-Lot">Rok za primitak zahtjeva za sudjelovanje</entry>
 <entry key="field|name|BT-1311(t)-Lot">Rok za primitak zahtjeva za sudjelovanje</entry>
-<entry key="field|name|BT-132(d)-Lot">Datum otvaranja</entry>
-<entry key="field|name|BT-132(t)-Lot">Datum otvaranja</entry>
+<entry key="field|name|BT-132(d)-Lot">Datum javnog otvaranja</entry>
+<entry key="field|name|BT-132(t)-Lot">Vrijeme javnog otvaranja</entry>
 <entry key="field|name|BT-133-Lot">Mjesto</entry>
 <entry key="field|name|BT-133-Lot-Language">Mjesto</entry>
 <entry key="field|name|BT-134-Lot">Dodatne informacije</entry>

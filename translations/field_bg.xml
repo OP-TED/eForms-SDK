@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Език, използван за описание на целта за качество</entry>
 <entry key="field|description|OPT-090-Lot">Код за указване, че става въпрос за категории на купувачи: 'buyer categories'</entry>
 <entry key="field|description|OPT-100-Contract">Препратка към известието за резултата, което съдържа информация за подписания рамков договор, по който се провежда настоящият договор</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Име на схемата, използвана за изразяване на препратката към известието за резултата, което съдържа информация за подписания рамков договор, по който се провежда настоящият договор</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Уеб адрес, където може да се намери местното данъчно законодателство</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Уеб адрес, където може да се намери местното данъчно законодателство</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Идентификатор на данъчното законодателство</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Име на схемата за референцията към организацията ('организация') или контактната точка ('контактна точка'), оценяваща търговските предложения</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Препратка към организацията (ORG-xxxx) или контактната точка (TPO-xxxx), на която трябва да се подават офертите или исканията за участие</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Име на схемата за референцията към организацията ('организация') или контактната точка ('контактна точка'), получаваща търговските предложения</entry>
-<entry key="field|description|OPT-301-ReviewBody">Справка до организацията (ORG-xxxx), която се занимава с прегледа на искането в момента на докладване на прегледа</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Име на схемата за референцията към организацията ('организация'), преглеждаща искането в момента на докладване на прегледа</entry>
-<entry key="field|description|OPT-301-ReviewReq">Справка до организацията (ORG-xxxx), която е инициирала искане за преглед, което е довело до докладването за текущата стадия на прегледа</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Име на схемата за референцията към организацията ('организация') или контактната точка ('контактна точка')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Справка до организацията (ORG-xxxx), която е основен участник в търга</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Име на схемата за референцията към организацията ('организация'), действаща като основен участник в търга</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Справка до организацията (ORG-xxxx), която е подизпълнител на един или повече основни участници в търга</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Добавете толкова обособени позиции, колкото желаете да включите в групата обособени позиции.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Добавете толкова обособени позиции, колкото желаете да включите в групата обособени позиции.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Един от следните трябва да бъде попълнен: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Всяка група непубликувана информация съдържа едно или повече полета, които не се публикуват, както е документирано в TED.</entry>
+<entry key="field|hint|BT-195-notice">Всяка група непубликувана информация съдържа едно или повече полета, които не се публикуват, както е документирано в TED: https://ted.europa.eu/bg/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Ако датата на оповестяване не е посочена, информацията никога няма да бъде оповестена. Ако датата е посочена, тя не може да бъде повече от 5 години след датата на подаване.</entry>
 <entry key="field|hint|BT-22-Lot">Ако използвате вътрешен идентификатор за вашата процедура и обособени позиции, моля, посочете го. Използвайте различен идентификатор за всяка обособена позиция.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ако използвате вътрешен идентификатор за вашата процедура и обособени позиции, моля, посочете го. Използвайте различен идентификатор за всяка обособена позиция.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Краен срок за получаване на оферти</entry>
 <entry key="field|name|BT-1311(d)-Lot">Краен срок за получаване на заявления за участие</entry>
 <entry key="field|name|BT-1311(t)-Lot">Краен срок за получаване на заявления за участие</entry>
-<entry key="field|name|BT-132(d)-Lot">Дата на отваряне</entry>
-<entry key="field|name|BT-132(t)-Lot">Дата на отваряне</entry>
+<entry key="field|name|BT-132(d)-Lot">Дата на публичното отваряне</entry>
+<entry key="field|name|BT-132(t)-Lot">Час на публичното отваряне</entry>
 <entry key="field|name|BT-133-Lot">Място</entry>
 <entry key="field|name|BT-133-Lot-Language">Място</entry>
 <entry key="field|name|BT-134-Lot">Допълнителна информация</entry>

@@ -13,7 +13,7 @@
         "nodes" : [ "ND-RootExtension" ]
       }, {
         "ruleId" : "R-YWR-58S",
-        "codeLists" : [ "notice-subtype" ]
+        "codelists" : [ "notice-subtype" ]
       }, {
         "ruleId" : "R-A2B-FD2",
         "fields" : [ "BT-02-notice" ],
@@ -218,7 +218,7 @@
         "nodes" : [ "ND-AuctionTerms" ]
       }, {
         "ruleId" : "R-IJQ-JA9",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     },
     "requiredBy" : {
@@ -237,7 +237,7 @@
         "nodes" : [ "ND-AwardingTerms" ]
       }, {
         "ruleId" : "R-5BW-7YZ",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-EHQ-1BK",
         "fields" : [ "BT-105-Procedure" ],
@@ -262,7 +262,7 @@
         "nodes" : [ "ND-AwardingTerms" ]
       }, {
         "ruleId" : "R-K9C-M9T",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     },
     "requiredBy" : {
@@ -284,7 +284,7 @@
         "nodes" : [ "ND-AwardingTerms" ]
       }, {
         "ruleId" : "R-0KA-O6R",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -333,21 +333,21 @@
         "nodes" : [ "ND-BusinessAddress" ]
       }, {
         "ruleId" : "R-YT8-ZP6",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-46B-STW",
         "fields" : [ "BT-514-Business" ],
         "nodes" : [ "ND-BusinessAddress" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-8J1-1Q1",
         "fields" : [ "BT-514-Business" ],
         "nodes" : [ "ND-BusinessAddress" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-WWG-K53",
         "fields" : [ "BT-514-Business" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -423,7 +423,7 @@
         "ruleId" : "R-KTY-MYV",
         "fields" : [ "BT-514-Business" ],
         "nodes" : [ "ND-BusinessAddress" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -464,7 +464,7 @@
         "nodes" : [ "ND-BusinessAddress" ]
       }, {
         "ruleId" : "R-XGL-OCA",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       } ]
     },
     "requiredBy" : {
@@ -670,7 +670,7 @@
         "nodes" : [ "ND-Change" ]
       }, {
         "ruleId" : "R-4UZ-VH6",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-1NG-MG0",
         "fields" : [ "BT-13716-notice" ],
@@ -743,7 +743,7 @@
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-3GP-E68",
-        "codeLists" : [ "economic-operator-size" ]
+        "codelists" : [ "economic-operator-size" ]
       }, {
         "ruleId" : "R-5DD-4SZ",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Tenderer", "OPT-301-Tenderer-SubCont" ],
@@ -862,21 +862,21 @@
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-SNN-G7Z",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-IM0-8CV",
         "fields" : [ "BT-514-Organization-Company" ],
         "nodes" : [ "ND-Company" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-6L0-71L",
         "fields" : [ "BT-514-Organization-Company" ],
         "nodes" : [ "ND-Company" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-9C5-DG7",
         "fields" : [ "BT-514-Organization-Company" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -963,7 +963,7 @@
         "ruleId" : "R-OO2-8CS",
         "fields" : [ "BT-514-Organization-Company" ],
         "nodes" : [ "ND-Company" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -999,12 +999,12 @@
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-X5Z-YE6",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-K44-JP5",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
         "nodes" : [ "ND-Company" ],
-        "codeLists" : [ "lawful-country" ]
+        "codelists" : [ "lawful-country" ]
       } ]
     },
     "requiredBy" : {
@@ -1134,7 +1134,7 @@
         "nodes" : [ "ND-ContractingAuthorityActivity" ]
       }, {
         "ruleId" : "R-MKN-TDC",
-        "codeLists" : [ "authority-activity" ]
+        "codelists" : [ "authority-activity" ]
       }, {
         "ruleId" : "R-DHU-YHE",
         "fields" : [ "BT-11-Procedure-Buyer" ],
@@ -1164,7 +1164,7 @@
         "nodes" : [ "ND-BuyerLegalType" ]
       }, {
         "ruleId" : "R-MUQ-WKG",
-        "codeLists" : [ "buyer-legal-type" ]
+        "codelists" : [ "buyer-legal-type" ]
       } ]
     },
     "requiredBy" : {
@@ -1200,7 +1200,7 @@
         "nodes" : [ "ND-ContractingEntityActivity" ]
       }, {
         "ruleId" : "R-0J2-OZN",
-        "codeLists" : [ "entity-activity" ]
+        "codelists" : [ "entity-activity" ]
       }, {
         "ruleId" : "R-HQF-PUD",
         "fields" : [ "BT-11-Procedure-Buyer" ],
@@ -1230,7 +1230,7 @@
         "nodes" : [ "ND-BuyerContractingType" ]
       }, {
         "ruleId" : "R-3CY-CO3",
-        "codeLists" : [ "buyer-contracting-type" ]
+        "codelists" : [ "buyer-contracting-type" ]
       }, {
         "ruleId" : "R-FGN-0QH",
         "fields" : [ "BT-11-Procedure-Buyer", "BT-02-notice" ],
@@ -1371,7 +1371,7 @@
         "nodes" : [ "ND-ExclusionGrounds" ]
       }, {
         "ruleId" : "R-U4U-H53",
-        "codeLists" : [ "exclusion-ground" ]
+        "codelists" : [ "exclusion-ground" ]
       }, {
         "ruleId" : "R-JCU-8UP",
         "fields" : [ "BT-806-Procedure" ],
@@ -1524,7 +1524,7 @@
         "nodes" : [ "ND-FABuyerCategories" ]
       }, {
         "ruleId" : "R-XGS-F2X",
-        "codeLists" : [ "buyer-categories" ]
+        "codelists" : [ "buyer-categories" ]
       } ]
     }
   }, {
@@ -1865,7 +1865,7 @@
         "nodes" : [ "ND-LotAdditionalClassification" ]
       }, {
         "ruleId" : "R-DH7-Q55",
-        "codeLists" : [ "classification-type" ]
+        "codelists" : [ "classification-type" ]
       }, {
         "ruleId" : "R-0A3-N81",
         "fields" : [ "BT-263-Lot" ]
@@ -1893,7 +1893,7 @@
         "nodes" : [ "ND-LotAwardCriterion" ]
       }, {
         "ruleId" : "R-BOA-7YG",
-        "codeLists" : [ "award-criterion-type" ]
+        "codelists" : [ "award-criterion-type" ]
       }, {
         "ruleId" : "R-LPT-TIY",
         "fields" : [ "BT-5421-Lot" ],
@@ -2134,7 +2134,7 @@
         "nodes" : [ "ND-LotAwardFixedCriterionParameter" ]
       }, {
         "ruleId" : "R-972-NW2",
-        "codeLists" : [ "number-fixed" ]
+        "codelists" : [ "number-fixed" ]
       }, {
         "ruleId" : "R-E5Z-UY9",
         "fields" : [ "BT-541-Lot-FixedNumber" ],
@@ -2161,7 +2161,7 @@
         "nodes" : [ "ND-LotAwardThresholdCriterionParameter" ]
       }, {
         "ruleId" : "R-GL6-IEW",
-        "codeLists" : [ "number-threshold" ]
+        "codelists" : [ "number-threshold" ]
       }, {
         "ruleId" : "R-5XN-Y5L",
         "fields" : [ "BT-541-Lot-ThresholdNumber" ],
@@ -2188,7 +2188,7 @@
         "nodes" : [ "ND-LotAwardWeightCriterionParameter" ]
       }, {
         "ruleId" : "R-736-3O4",
-        "codeLists" : [ "number-weight" ]
+        "codelists" : [ "number-weight" ]
       }, {
         "ruleId" : "R-F0J-L83",
         "fields" : [ "BT-541-Lot-WeightNumber" ],
@@ -2339,7 +2339,7 @@
         "nodes" : [ "ND-LotDuration" ]
       }, {
         "ruleId" : "R-GKF-NZ4",
-        "codeLists" : [ "duration" ]
+        "codelists" : [ "duration" ]
       }, {
         "ruleId" : "R-9P9-EF3",
         "fields" : [ "BT-36-Lot", "BT-537-Lot", "BT-536-Lot" ],
@@ -2539,7 +2539,7 @@
         "nodes" : [ "ND-LotMainClassification" ]
       }, {
         "ruleId" : "R-G2A-M8J",
-        "codeLists" : [ "classification-type" ]
+        "codelists" : [ "classification-type" ]
       }, {
         "ruleId" : "R-SPS-406",
         "fields" : [ "BT-262-Lot" ]
@@ -2564,7 +2564,7 @@
         "nodes" : [ "ND-LotPerformanceAddress" ]
       }, {
         "ruleId" : "R-J3B-1NJ",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-N4S-3M1",
         "fields" : [ "BT-727-Lot", "BT-5141-Lot" ],
@@ -2573,11 +2573,11 @@
         "ruleId" : "R-BCG-872",
         "fields" : [ "BT-727-Lot", "BT-5141-Lot" ],
         "nodes" : [ "ND-LotPlacePerformance" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-MMP-FHY",
         "fields" : [ "BT-5141-Lot" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -2657,7 +2657,7 @@
         "ruleId" : "R-917-8WO",
         "fields" : [ "BT-5141-Lot", "BT-5101(a)-Lot" ],
         "nodes" : [ "ND-LotPlacePerformance" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -2694,7 +2694,7 @@
         "nodes" : [ "ND-LotPerformanceAddress" ]
       }, {
         "ruleId" : "R-TI7-MI3",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-FXF-GC1",
         "fields" : [ "BT-727-Lot" ],
@@ -2721,7 +2721,7 @@
         "nodes" : [ "ND-LotPerformanceAddress" ]
       }, {
         "ruleId" : "R-OK1-87V",
-        "codeLists" : [ "other-place-service" ]
+        "codelists" : [ "other-place-service" ]
       }, {
         "ruleId" : "R-UI0-PBV",
         "fields" : [ "BT-5071-Lot" ],
@@ -2798,7 +2798,7 @@
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
         "ruleId" : "R-A51-PEX",
-        "codeLists" : [ "document-distribution" ]
+        "codelists" : [ "document-distribution" ]
       } ]
     },
     "requiredBy" : {
@@ -2855,7 +2855,7 @@
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
         "ruleId" : "R-YVB-IXU",
-        "codeLists" : [ "communication-justification" ]
+        "codelists" : [ "communication-justification" ]
       }, {
         "ruleId" : "R-OIY-W66",
         "fields" : [ "BT-14-Lot" ],
@@ -2877,7 +2877,7 @@
         "nodes" : [ "ND-LotDocOfficialLanguage" ]
       }, {
         "ruleId" : "R-6H0-Y1S",
-        "codeLists" : [ "language" ]
+        "codelists" : [ "language" ]
       }, {
         "ruleId" : "R-33Z-NXR",
         "fields" : [ "BT-14-Lot" ],
@@ -2895,7 +2895,7 @@
         "nodes" : [ "ND-LotDocNonOfficialLanguage" ]
       }, {
         "ruleId" : "R-S6D-C1H",
-        "codeLists" : [ "language" ]
+        "codelists" : [ "language" ]
       }, {
         "ruleId" : "R-CK8-CHW",
         "fields" : [ "BT-14-Lot" ],
@@ -2932,7 +2932,7 @@
         "nodes" : [ "ND-StrategicProcurementType" ]
       }, {
         "ruleId" : "R-2QB-819",
-        "codeLists" : [ "strategic-procurement" ]
+        "codelists" : [ "strategic-procurement" ]
       } ]
     },
     "requiredBy" : {
@@ -2999,7 +2999,7 @@
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-9GQ-TQS",
-        "codeLists" : [ "contract-nature" ]
+        "codelists" : [ "contract-nature" ]
       }, {
         "ruleId" : "R-P50-M3L",
         "nodes" : [ "ND-LotProcurementScope" ]
@@ -3070,7 +3070,7 @@
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-YJ3-SRW",
-        "codeLists" : [ "cpv" ]
+        "codelists" : [ "cpv" ]
       }, {
         "ruleId" : "R-W0T-ORH",
         "fields" : [ "BT-71-Lot" ],
@@ -3105,7 +3105,7 @@
         "nodes" : [ "ND-LotAdditionalClassification" ]
       }, {
         "ruleId" : "R-UMU-MJP",
-        "codeLists" : [ "cpv" ]
+        "codelists" : [ "cpv" ]
       } ]
     },
     "requiredBy" : {
@@ -3167,7 +3167,7 @@
         "nodes" : [ "ND-LotContractAdditionalNature" ]
       }, {
         "ruleId" : "R-4AC-T0U",
-        "codeLists" : [ "contract-nature" ]
+        "codelists" : [ "contract-nature" ]
       }, {
         "ruleId" : "R-BEM-4LX",
         "fields" : [ "BT-23-Lot" ],
@@ -3190,7 +3190,7 @@
         "fields" : [ "BT-25-Lot" ]
       }, {
         "ruleId" : "R-I8R-JQ8",
-        "codeLists" : [ "measurement-unit" ]
+        "codelists" : [ "measurement-unit" ]
       } ]
     }
   }, {
@@ -3204,7 +3204,7 @@
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-OMX-3LS",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -3218,7 +3218,7 @@
         "nodes" : [ "ND-AccessibilityJustification" ]
       }, {
         "ruleId" : "R-2MH-IU9",
-        "codeLists" : [ "accessibility" ]
+        "codelists" : [ "accessibility" ]
       } ]
     },
     "requiredBy" : {
@@ -3237,7 +3237,7 @@
         "nodes" : [ "ND-LotEnvironmentalImpactType" ]
       }, {
         "ruleId" : "R-PMI-EAT",
-        "codeLists" : [ "environmental-impact" ]
+        "codelists" : [ "environmental-impact" ]
       } ]
     },
     "requiredBy" : {
@@ -3256,7 +3256,7 @@
         "nodes" : [ "ND-LotSocialObjectiveType" ]
       }, {
         "ruleId" : "R-0WP-GHV",
-        "codeLists" : [ "social-objective" ]
+        "codelists" : [ "social-objective" ]
       } ]
     },
     "requiredBy" : {
@@ -3275,7 +3275,7 @@
         "nodes" : [ "ND-LotInnovativeAcquisitionType" ]
       }, {
         "ruleId" : "R-2MU-56X",
-        "codeLists" : [ "innovative-acquisition" ]
+        "codelists" : [ "innovative-acquisition" ]
       } ]
     },
     "requiredBy" : {
@@ -3294,7 +3294,7 @@
         "nodes" : [ "ND-LotGreenCriteria" ]
       }, {
         "ruleId" : "R-QJ1-T21",
-        "codeLists" : [ "gpp-criteria" ]
+        "codelists" : [ "gpp-criteria" ]
       } ]
     },
     "requiredBy" : {
@@ -3344,7 +3344,7 @@
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-5BC-0WP",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-4PB-GKY",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-766-Lot" ],
@@ -3461,7 +3461,7 @@
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-3ZW-OUH",
-        "codeLists" : [ "winner-selection-status" ]
+        "codelists" : [ "winner-selection-status" ]
       }, {
         "ruleId" : "R-DTZ-E0V",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "OPT-315-LotResult", "OPT-316-Contract", "BT-768-Contract", "BT-709-LotResult", "BT-660-LotResult" ],
@@ -3490,7 +3490,7 @@
         "nodes" : [ "ND-DecisionReason" ]
       }, {
         "ruleId" : "R-CUW-2S2",
-        "codeLists" : [ "non-award-justification" ]
+        "codelists" : [ "non-award-justification" ]
       }, {
         "ruleId" : "R-9LR-D20",
         "fields" : [ "BT-142-LotResult" ],
@@ -3517,7 +3517,7 @@
         "nodes" : [ "ND-ReviewRequestsStatistics" ]
       }, {
         "ruleId" : "R-N79-TR7",
-        "codeLists" : [ "irregularity-type" ]
+        "codelists" : [ "irregularity-type" ]
       }, {
         "ruleId" : "R-MLG-A8G",
         "fields" : [ "BT-142-LotResult" ],
@@ -3540,7 +3540,7 @@
         "nodes" : [ "ND-IPIAppliedMeasure" ]
       }, {
         "ruleId" : "R-B5M-EFX",
-        "codeLists" : [ "international-procurement-instrument-measure" ]
+        "codelists" : [ "international-procurement-instrument-measure" ]
       }, {
         "ruleId" : "R-MLT-6UK",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-684-Lot", "BT-142-LotResult" ],
@@ -3589,7 +3589,7 @@
         "nodes" : [ "ND-IPIMeasureException" ]
       }, {
         "ruleId" : "R-699-T64",
-        "codeLists" : [ "international-procurement-instrument-application" ]
+        "codelists" : [ "international-procurement-instrument-application" ]
       }, {
         "ruleId" : "R-GIR-XWA",
         "fields" : [ "BT-685-LotResult" ],
@@ -3699,7 +3699,7 @@
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-ORD-5OS",
-        "codeLists" : [ "review-type" ]
+        "codelists" : [ "review-type" ]
       }, {
         "ruleId" : "R-1I9-3AS",
         "fields" : [ "BT-142-LotResult" ],
@@ -3746,7 +3746,7 @@
         "nodes" : [ "ND-ReceivedSubmissions" ]
       }, {
         "ruleId" : "R-EH7-3LQ",
-        "codeLists" : [ "received-submission-type" ]
+        "codelists" : [ "received-submission-type" ]
       }, {
         "ruleId" : "R-9HT-GF5",
         "fields" : [ "BT-142-LotResult", "BT-144-LotResult" ],
@@ -3777,7 +3777,7 @@
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       }, {
         "ruleId" : "R-NG9-0PW",
-        "codeLists" : [ "energy-efficiency-basis" ]
+        "codelists" : [ "energy-efficiency-basis" ]
       }, {
         "ruleId" : "R-VUV-LEE",
         "fields" : [ "BT-811(b)-LotResult" ],
@@ -3804,7 +3804,7 @@
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       }, {
         "ruleId" : "R-3L8-M5E",
-        "codeLists" : [ "energy-efficiency-item" ]
+        "codelists" : [ "energy-efficiency-item" ]
       }, {
         "ruleId" : "R-PHE-F9N",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-810-Lot", "BT-142-LotResult" ],
@@ -3839,7 +3839,7 @@
         "nodes" : [ "ND-EEDAssetLabel" ]
       }, {
         "ruleId" : "R-9O6-IB6",
-        "codeLists" : [ "energy-efficiency-label" ]
+        "codelists" : [ "energy-efficiency-label" ]
       }, {
         "ruleId" : "R-EDO-Y5P",
         "fields" : [ "BT-811(a)-LotResult" ],
@@ -3928,7 +3928,7 @@
         "nodes" : [ "ND-EEDConsumption" ]
       }, {
         "ruleId" : "R-G8A-PCD",
-        "codeLists" : [ "metric-type" ]
+        "codelists" : [ "metric-type" ]
       }, {
         "ruleId" : "R-M9W-YSS",
         "fields" : [ "BT-811(a)-LotResult" ],
@@ -3955,7 +3955,7 @@
         "nodes" : [ "ND-EEDSavings" ]
       }, {
         "ruleId" : "R-W12-ROD",
-        "codeLists" : [ "metric-type" ]
+        "codelists" : [ "metric-type" ]
       }, {
         "ruleId" : "R-ZWE-OT0",
         "fields" : [ "BT-814-LotResult" ],
@@ -4396,7 +4396,7 @@
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-SRM-SIE",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-9BM-TKK",
         "fields" : [ "OPT-321-Tender", "OPT-320-LotResult", "BT-142-LotResult" ],
@@ -4419,7 +4419,7 @@
         "nodes" : [ "ND-LotTenderOriginCountry" ]
       }, {
         "ruleId" : "R-LCC-VQB",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       } ]
     },
     "requiredBy" : {
@@ -4438,7 +4438,7 @@
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-ZGR-KZC",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-UX9-G3Z",
         "fields" : [ "OPT-320-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-142-LotResult", "BT-3202-Contract", "BT-768-Contract", "OPT-310-Tender", "OPT-321-Tender", "OPT-300-Tenderer", "OPT-210-Tenderer", "OPT-301-Tenderer-SubCont" ],
@@ -4487,7 +4487,7 @@
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-LUC-PNE",
-        "codeLists" : [ "foreign-subsidy-measure-conclusion" ]
+        "codelists" : [ "foreign-subsidy-measure-conclusion" ]
       }, {
         "ruleId" : "R-D7C-U42",
         "fields" : [ "BT-13714-Tender", "BT-137-Lot", "BT-681-Lot", "BT-330-Procedure", "BT-1375-Procedure" ],
@@ -4545,7 +4545,7 @@
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
         "ruleId" : "R-9ZW-0EQ",
-        "codeLists" : [ "applicability" ]
+        "codelists" : [ "applicability" ]
       }, {
         "ruleId" : "R-Y99-JBR",
         "fields" : [ "OPT-321-Tender" ],
@@ -4644,7 +4644,7 @@
         "nodes" : [ "ND-OtherContractExecutionConditions" ]
       }, {
         "ruleId" : "R-LBC-BXR",
-        "codeLists" : [ "contract-term" ]
+        "codelists" : [ "contract-term" ]
       } ]
     },
     "requiredBy" : {
@@ -4666,7 +4666,7 @@
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-1SA-QC4",
-        "codeLists" : [ "rewards-penalties" ]
+        "codelists" : [ "rewards-penalties" ]
       } ]
     },
     "requiredBy" : {
@@ -4688,7 +4688,7 @@
         "nodes" : [ "ND-RevenueAllocation" ]
       }, {
         "ruleId" : "R-67R-C9H",
-        "codeLists" : [ "revenue-allocation" ]
+        "codelists" : [ "revenue-allocation" ]
       } ]
     },
     "requiredBy" : {
@@ -4843,7 +4843,7 @@
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
         "ruleId" : "R-BY9-C49",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-NME-ANR",
         "fields" : [ "BT-23-Lot" ],
@@ -5113,7 +5113,7 @@
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
         "ruleId" : "R-WUI-CVI",
-        "codeLists" : [ "esubmission" ]
+        "codelists" : [ "esubmission" ]
       } ]
     },
     "requiredBy" : {
@@ -5132,7 +5132,7 @@
         "nodes" : [ "ND-NonEsubmission" ]
       }, {
         "ruleId" : "R-I74-V9N",
-        "codeLists" : [ "no-esubmission-justification" ]
+        "codelists" : [ "no-esubmission-justification" ]
       }, {
         "ruleId" : "R-VFN-9LJ",
         "fields" : [ "BT-17-Lot" ],
@@ -5226,7 +5226,7 @@
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
         "ruleId" : "R-IRS-3HS",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-LX4-GC8",
         "fields" : [ "BT-105-Procedure" ],
@@ -5302,7 +5302,7 @@
         "nodes" : [ "ND-LotFAContractingSystem" ]
       }, {
         "ruleId" : "R-Q2P-9FM",
-        "codeLists" : [ "framework-agreement" ]
+        "codelists" : [ "framework-agreement" ]
       } ]
     },
     "requiredBy" : {
@@ -5324,7 +5324,7 @@
         "nodes" : [ "ND-LotDPSContractingSystem" ]
       }, {
         "ruleId" : "R-RYK-J9B",
-        "codeLists" : [ "dps-usage" ]
+        "codelists" : [ "dps-usage" ]
       } ]
     },
     "requiredBy" : {
@@ -5354,7 +5354,7 @@
         "nodes" : [ "ND-LotTenderingProcessExtension" ]
       }, {
         "ruleId" : "R-IE4-78B",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-MOY-MF9",
         "fields" : [ "BT-142-LotResult", "BT-140-notice" ],
@@ -5394,7 +5394,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-CLZ-GNC",
-        "codeLists" : [ "eu-funded" ]
+        "codelists" : [ "eu-funded" ]
       } ]
     },
     "requiredBy" : {
@@ -5413,7 +5413,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-LSR-W0O",
-        "codeLists" : [ "permission" ]
+        "codelists" : [ "permission" ]
       } ]
     },
     "requiredBy" : {
@@ -5435,7 +5435,7 @@
         "nodes" : [ "ND-SubcontractingObligation" ]
       }, {
         "ruleId" : "R-ZOP-OOJ",
-        "codeLists" : [ "subcontracting-obligation" ]
+        "codelists" : [ "subcontracting-obligation" ]
       } ]
     },
     "requiredBy" : {
@@ -5454,7 +5454,7 @@
         "nodes" : [ "ND-FSR" ]
       }, {
         "ruleId" : "R-SNT-H53",
-        "codeLists" : [ "fsr" ]
+        "codelists" : [ "fsr" ]
       } ]
     },
     "requiredBy" : {
@@ -5476,7 +5476,7 @@
         "nodes" : [ "ND-LotReservedProcurement" ]
       }, {
         "ruleId" : "R-3VK-A13",
-        "codeLists" : [ "reserved-procurement" ]
+        "codelists" : [ "reserved-procurement" ]
       } ]
     },
     "requiredBy" : {
@@ -5498,7 +5498,7 @@
         "nodes" : [ "ND-LotReservedExecution" ]
       }, {
         "ruleId" : "R-KA5-WGM",
-        "codeLists" : [ "reserved-execution" ]
+        "codelists" : [ "reserved-execution" ]
       } ]
     },
     "requiredBy" : {
@@ -5520,7 +5520,7 @@
         "nodes" : [ "ND-LotEInvoicing" ]
       }, {
         "ruleId" : "R-EYM-XDV",
-        "codeLists" : [ "einvoicing" ]
+        "codelists" : [ "einvoicing" ]
       } ]
     },
     "requiredBy" : {
@@ -5539,7 +5539,7 @@
         "nodes" : [ "ND-LotESignature" ]
       }, {
         "ruleId" : "R-3U5-U5P",
-        "codeLists" : [ "esignature-submission" ]
+        "codelists" : [ "esignature-submission" ]
       } ]
     },
     "requiredBy" : {
@@ -5592,7 +5592,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-XVA-DRD",
-        "codeLists" : [ "tender-guarantee-required" ]
+        "codelists" : [ "tender-guarantee-required" ]
       } ]
     },
     "requiredBy" : {
@@ -5614,7 +5614,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-8P4-V1E",
-        "codeLists" : [ "required" ]
+        "codelists" : [ "required" ]
       } ]
     },
     "requiredBy" : {
@@ -5636,7 +5636,7 @@
         "nodes" : [ "ND-LotECatalog" ]
       }, {
         "ruleId" : "R-M97-76T",
-        "codeLists" : [ "ecatalog-submission" ]
+        "codelists" : [ "ecatalog-submission" ]
       } ]
     },
     "requiredBy" : {
@@ -5655,7 +5655,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-VV0-R8G",
-        "codeLists" : [ "permission" ]
+        "codelists" : [ "permission" ]
       } ]
     },
     "requiredBy" : {
@@ -5674,7 +5674,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-UPO-AC1",
-        "codeLists" : [ "missing-info-submission" ]
+        "codelists" : [ "missing-info-submission" ]
       } ]
     },
     "requiredBy" : {
@@ -5739,7 +5739,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-52D-QJT",
-        "codeLists" : [ "requirement-stage" ]
+        "codelists" : [ "requirement-stage" ]
       }, {
         "ruleId" : "R-2PB-Y6G",
         "fields" : [ "BT-23-Lot", "BT-531-Lot" ],
@@ -5762,7 +5762,7 @@
         "nodes" : [ "ND-NDA" ]
       }, {
         "ruleId" : "R-P2S-PTE",
-        "codeLists" : [ "nda" ]
+        "codelists" : [ "nda" ]
       } ]
     },
     "requiredBy" : {
@@ -5781,7 +5781,7 @@
         "nodes" : [ "ND-SelectionCriteria" ]
       }, {
         "ruleId" : "R-L35-2E9",
-        "codeLists" : [ "selection-criterion" ]
+        "codelists" : [ "selection-criterion" ]
       }, {
         "ruleId" : "R-OIS-05I",
         "fields" : [ "BT-821-Lot" ],
@@ -5819,7 +5819,7 @@
         "nodes" : [ "ND-SelectionCriteriaSource" ]
       }, {
         "ruleId" : "R-LK7-5ZX",
-        "codeLists" : [ "selection-criteria-source" ]
+        "codelists" : [ "selection-criteria-source" ]
       } ]
     },
     "requiredBy" : {
@@ -5838,7 +5838,7 @@
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-81M-WRW",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     },
     "requiredBy" : {
@@ -5887,7 +5887,7 @@
         "nodes" : [ "ND-LotSubmissionLanguage" ]
       }, {
         "ruleId" : "R-0AQ-35G",
-        "codeLists" : [ "language" ]
+        "codelists" : [ "language" ]
       } ]
     }
   }, {
@@ -5947,7 +5947,7 @@
         "nodes" : [ "ND-ExecutionRequirements" ]
       }, {
         "ruleId" : "R-JM5-26L",
-        "codeLists" : [ "conditions" ]
+        "codelists" : [ "conditions" ]
       } ]
     },
     "requiredBy" : {
@@ -5969,7 +5969,7 @@
         "nodes" : [ "ND-QualityTarget" ]
       }, {
         "ruleId" : "R-T89-78C",
-        "codeLists" : [ "customer-service" ]
+        "codelists" : [ "customer-service" ]
       } ]
     },
     "requiredBy" : {
@@ -6127,7 +6127,7 @@
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
         "ruleId" : "R-KAK-9E3",
-        "codeLists" : [ "award-criterion-type" ]
+        "codelists" : [ "award-criterion-type" ]
       }, {
         "ruleId" : "R-Z81-MNC",
         "fields" : [ "BT-137-LotsGroup" ],
@@ -6372,7 +6372,7 @@
         "nodes" : [ "ND-LotsGroupAwardFixedCriterionParameter" ]
       }, {
         "ruleId" : "R-HJE-UJE",
-        "codeLists" : [ "number-fixed" ]
+        "codelists" : [ "number-fixed" ]
       }, {
         "ruleId" : "R-SVV-EQL",
         "fields" : [ "BT-541-LotsGroup-FixedNumber" ],
@@ -6399,7 +6399,7 @@
         "nodes" : [ "ND-LotsGroupAwardThresholdCriterionParameter" ]
       }, {
         "ruleId" : "R-E2U-2KC",
-        "codeLists" : [ "number-threshold" ]
+        "codelists" : [ "number-threshold" ]
       }, {
         "ruleId" : "R-MOP-U3Z",
         "fields" : [ "BT-541-LotsGroup-ThresholdNumber" ],
@@ -6426,7 +6426,7 @@
         "nodes" : [ "ND-LotsGroupAwardWeightCriterionParameter" ]
       }, {
         "ruleId" : "R-W0Y-KNP",
-        "codeLists" : [ "number-weight" ]
+        "codelists" : [ "number-weight" ]
       }, {
         "ruleId" : "R-EWS-OG9",
         "fields" : [ "BT-541-LotsGroup-WeightNumber" ],
@@ -6574,7 +6574,7 @@
         "nodes" : [ "ND-LotsGroupProcurementScope" ]
       }, {
         "ruleId" : "R-9CK-ZV7",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -6633,7 +6633,7 @@
         "nodes" : [ "ND-ModificationReason" ]
       }, {
         "ruleId" : "R-JO6-Y0X",
-        "codeLists" : [ "modification-justification" ]
+        "codelists" : [ "modification-justification" ]
       } ]
     },
     "requiredBy" : {
@@ -6720,7 +6720,7 @@
         "nodes" : [ "ND-SelectionCriteria" ]
       }, {
         "ruleId" : "R-8JW-OE9",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-E66-VRC",
         "fields" : [ "BT-661-Lot", "BT-821-Lot" ],
@@ -6766,7 +6766,7 @@
         "nodes" : [ "ND-SubcontractingIndication" ]
       }, {
         "ruleId" : "R-N7L-DBK",
-        "codeLists" : [ "subcontracting-indication" ]
+        "codelists" : [ "subcontracting-indication" ]
       }, {
         "ruleId" : "R-DHB-GD6",
         "fields" : [ "BT-65-Lot" ],
@@ -6793,7 +6793,7 @@
         "nodes" : [ "ND-IPILot" ]
       }, {
         "ruleId" : "R-UHF-4WN",
-        "codeLists" : [ "ipi-scope" ]
+        "codelists" : [ "ipi-scope" ]
       } ]
     },
     "requiredBy" : {
@@ -6812,7 +6812,7 @@
         "nodes" : [ "ND-Funding" ]
       }, {
         "ruleId" : "R-OVA-Z75",
-        "codeLists" : [ "eu-programme" ]
+        "codelists" : [ "eu-programme" ]
       } ]
     },
     "requiredBy" : {
@@ -6831,7 +6831,7 @@
         "nodes" : [ "ND-EEDLot" ]
       }, {
         "ruleId" : "R-PII-YJ8",
-        "codeLists" : [ "eed-scope" ]
+        "codelists" : [ "eed-scope" ]
       } ]
     },
     "requiredBy" : {
@@ -6850,7 +6850,7 @@
         "nodes" : [ "ND-EEDProcurementDetailsLot" ]
       }, {
         "ruleId" : "R-0K0-NLJ",
-        "codeLists" : [ "energy-efficiency-basis" ]
+        "codelists" : [ "energy-efficiency-basis" ]
       }, {
         "ruleId" : "R-Q02-0B2",
         "fields" : [ "BT-811(b)-Lot" ],
@@ -6873,7 +6873,7 @@
         "nodes" : [ "ND-EEDProcurementDetailsLot" ]
       }, {
         "ruleId" : "R-7L7-4UN",
-        "codeLists" : [ "energy-efficiency-item" ]
+        "codelists" : [ "energy-efficiency-item" ]
       }, {
         "ruleId" : "R-15A-IUM",
         "fields" : [ "BT-810-Lot" ],
@@ -7093,8 +7093,8 @@
         "ruleId" : "R-LVO-VEX",
         "nodes" : [ "ND-NoticeResultGroupFA" ]
       }, {
-        "ruleId" : "R-HMV-L4S",
-        "fields" : [ "BT-1375-Procedure", "BT-330-Procedure", "BT-142-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot" ],
+        "ruleId" : "R-5HY-P32",
+        "fields" : [ "BT-330-Procedure", "BT-1375-Procedure", "BT-142-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot" ],
         "nodes" : [ "ND-NoticeResultGroupFA" ]
       }, {
         "ruleId" : "R-CBV-WOM",
@@ -7120,7 +7120,7 @@
         "nodes" : [ "ND-OperationType" ]
       }, {
         "ruleId" : "R-VP2-J21",
-        "codeLists" : [ "notice-purpose" ]
+        "codelists" : [ "notice-purpose" ]
       } ]
     },
     "requiredBy" : {
@@ -7212,7 +7212,7 @@
         "nodes" : [ "ND-Organization" ]
       }, {
         "ruleId" : "R-CXT-C5O",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-7PV-ABU",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-SProvider", "OPT-301-Tenderer-SubCont", "OPT-300-Tenderer", "BT-746-Organization" ],
@@ -7239,7 +7239,7 @@
         "nodes" : [ "ND-Organization" ]
       }, {
         "ruleId" : "R-KC9-Y0L",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-35B-HO0",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Tenderer", "OPT-301-Tenderer-SubCont" ],
@@ -7262,7 +7262,7 @@
         "nodes" : [ "ND-Organization" ]
       }, {
         "ruleId" : "R-24J-D7E",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-T96-GZP",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
@@ -7284,7 +7284,7 @@
         "nodes" : [ "ND-Organization" ]
       }, {
         "ruleId" : "R-JVS-OT0",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-3Y4-ZYH",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
@@ -7306,7 +7306,7 @@
         "nodes" : [ "ND-Organization" ]
       }, {
         "ruleId" : "R-NQS-0BU",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-I8W-45W",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
@@ -7475,7 +7475,7 @@
         "nodes" : [ "ND-PartAdditionalClassification" ]
       }, {
         "ruleId" : "R-MA3-4D5",
-        "codeLists" : [ "classification-type" ]
+        "codelists" : [ "classification-type" ]
       }, {
         "ruleId" : "R-34S-B3C",
         "fields" : [ "BT-263-Part" ]
@@ -7572,7 +7572,7 @@
         "nodes" : [ "ND-PartDuration" ]
       }, {
         "ruleId" : "R-IUO-R0U",
-        "codeLists" : [ "duration" ]
+        "codelists" : [ "duration" ]
       }, {
         "ruleId" : "R-GVN-SS6",
         "fields" : [ "BT-36-Part", "BT-537-Part", "BT-536-Part" ],
@@ -7733,7 +7733,7 @@
         "nodes" : [ "ND-PartMainClassification" ]
       }, {
         "ruleId" : "R-JS1-NVO",
-        "codeLists" : [ "classification-type" ]
+        "codelists" : [ "classification-type" ]
       }, {
         "ruleId" : "R-R40-QJC",
         "fields" : [ "BT-262-Part" ]
@@ -7758,7 +7758,7 @@
         "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
         "ruleId" : "R-AM7-IFQ",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-U8R-OBM",
         "fields" : [ "BT-727-Part", "BT-5141-Part" ],
@@ -7767,11 +7767,11 @@
         "ruleId" : "R-6TC-BGB",
         "fields" : [ "BT-727-Part", "BT-5141-Part" ],
         "nodes" : [ "ND-PartPlacePerformance" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-1CY-092",
         "fields" : [ "BT-5141-Part" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -7851,7 +7851,7 @@
         "ruleId" : "R-2VO-7QQ",
         "fields" : [ "BT-5141-Part", "BT-5101(a)-Part" ],
         "nodes" : [ "ND-PartPlacePerformance" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -7885,7 +7885,7 @@
         "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
         "ruleId" : "R-A6K-WE7",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-QTJ-THY",
         "fields" : [ "BT-727-Part" ],
@@ -7912,7 +7912,7 @@
         "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
         "ruleId" : "R-W5Y-YUF",
-        "codeLists" : [ "other-place-service" ]
+        "codelists" : [ "other-place-service" ]
       }, {
         "ruleId" : "R-E0C-E1H",
         "fields" : [ "BT-5071-Part" ],
@@ -7986,7 +7986,7 @@
         "nodes" : [ "ND-PartProcurementDocument" ]
       }, {
         "ruleId" : "R-K2S-GRF",
-        "codeLists" : [ "document-distribution" ]
+        "codelists" : [ "document-distribution" ]
       } ]
     },
     "requiredBy" : {
@@ -8043,7 +8043,7 @@
         "nodes" : [ "ND-PartProcurementDocument" ]
       }, {
         "ruleId" : "R-6PJ-0ZZ",
-        "codeLists" : [ "communication-justification" ]
+        "codelists" : [ "communication-justification" ]
       }, {
         "ruleId" : "R-IHT-8HF",
         "fields" : [ "BT-14-Part" ],
@@ -8061,7 +8061,7 @@
         "nodes" : [ "ND-PartDocOfficialLanguage" ]
       }, {
         "ruleId" : "R-ACZ-ZK8",
-        "codeLists" : [ "language" ]
+        "codelists" : [ "language" ]
       }, {
         "ruleId" : "R-II4-603",
         "fields" : [ "BT-14-Part" ],
@@ -8079,7 +8079,7 @@
         "nodes" : [ "ND-PartDocNonOfficialLanguage" ]
       }, {
         "ruleId" : "R-RKM-2P2",
-        "codeLists" : [ "language" ]
+        "codelists" : [ "language" ]
       }, {
         "ruleId" : "R-XQE-1V0",
         "fields" : [ "BT-14-Part" ],
@@ -8161,7 +8161,7 @@
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-VE8-I83",
-        "codeLists" : [ "contract-nature" ]
+        "codelists" : [ "contract-nature" ]
       }, {
         "ruleId" : "R-OFL-RWF",
         "fields" : [ "BT-531-Part" ],
@@ -8213,7 +8213,7 @@
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-AVK-FPY",
-        "codeLists" : [ "cpv" ]
+        "codelists" : [ "cpv" ]
       }, {
         "ruleId" : "R-KIT-1JK",
         "fields" : [ "BT-71-Part" ],
@@ -8248,7 +8248,7 @@
         "nodes" : [ "ND-PartAdditionalClassification" ]
       }, {
         "ruleId" : "R-4IN-WTU",
-        "codeLists" : [ "cpv" ]
+        "codelists" : [ "cpv" ]
       } ]
     },
     "requiredBy" : {
@@ -8290,7 +8290,7 @@
         "nodes" : [ "ND-PartContractAdditionalNature" ]
       }, {
         "ruleId" : "R-EYL-YTM",
-        "codeLists" : [ "contract-nature" ]
+        "codelists" : [ "contract-nature" ]
       }, {
         "ruleId" : "R-66U-L1L",
         "fields" : [ "BT-23-Part" ],
@@ -8313,7 +8313,7 @@
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-8U5-OKK",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -8327,7 +8327,7 @@
         "nodes" : [ "ND-PartReservedProcurement" ]
       }, {
         "ruleId" : "R-PY5-QG4",
-        "codeLists" : [ "reserved-procurement" ]
+        "codelists" : [ "reserved-procurement" ]
       } ]
     },
     "requiredBy" : {
@@ -8409,7 +8409,7 @@
         "nodes" : [ "ND-PartTenderingProcess" ]
       }, {
         "ruleId" : "R-4M9-OMJ",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -8484,7 +8484,7 @@
         "nodes" : [ "ND-PartFAContractingSystem" ]
       }, {
         "ruleId" : "R-DRW-ZFH",
-        "codeLists" : [ "framework-agreement" ]
+        "codelists" : [ "framework-agreement" ]
       } ]
     },
     "requiredBy" : {
@@ -8503,7 +8503,7 @@
         "nodes" : [ "ND-PartDPSContractingSystem" ]
       }, {
         "ruleId" : "R-30V-AUP",
-        "codeLists" : [ "dps-usage" ]
+        "codelists" : [ "dps-usage" ]
       } ]
     },
     "requiredBy" : {
@@ -8533,7 +8533,7 @@
         "nodes" : [ "ND-PartReservedExecution" ]
       }, {
         "ruleId" : "R-AF4-I6H",
-        "codeLists" : [ "reserved-execution" ]
+        "codelists" : [ "reserved-execution" ]
       } ]
     },
     "requiredBy" : {
@@ -8692,7 +8692,7 @@
         "nodes" : [ "ND-PostAwardProcess" ]
       }, {
         "ruleId" : "R-C4O-0A0",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -8709,7 +8709,7 @@
         "nodes" : [ "ND-PostAwardProcess" ]
       }, {
         "ruleId" : "R-66R-8J7",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -8766,7 +8766,7 @@
         "nodes" : [ "ND-ProcedureAdditionalCommodityClassification" ]
       }, {
         "ruleId" : "R-PJD-QD1",
-        "codeLists" : [ "classification-type" ]
+        "codelists" : [ "classification-type" ]
       }, {
         "ruleId" : "R-ETM-LUG",
         "fields" : [ "BT-263-Procedure" ]
@@ -8788,7 +8788,7 @@
         "nodes" : [ "ND-ProcedureMainClassification" ]
       }, {
         "ruleId" : "R-BYY-BZS",
-        "codeLists" : [ "classification-type" ]
+        "codelists" : [ "classification-type" ]
       }, {
         "ruleId" : "R-DER-CQ1",
         "fields" : [ "BT-262-Procedure" ]
@@ -8813,7 +8813,7 @@
         "nodes" : [ "ND-ProcedurePlacePerformance" ]
       }, {
         "ruleId" : "R-NBW-U70",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-8O3-GKH",
         "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
@@ -8822,11 +8822,11 @@
         "ruleId" : "R-7UU-QJ3",
         "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformance" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-IQ0-79Q",
         "fields" : [ "BT-5141-Procedure" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -8906,7 +8906,7 @@
         "ruleId" : "R-DSD-XYA",
         "fields" : [ "BT-5141-Procedure", "BT-5101(a)-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformance" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -8940,7 +8940,7 @@
         "nodes" : [ "ND-ProcedurePlacePerformance" ]
       }, {
         "ruleId" : "R-V4W-AI9",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-O2S-N2J",
         "fields" : [ "BT-727-Procedure" ],
@@ -8967,7 +8967,7 @@
         "nodes" : [ "ND-ProcedurePlacePerformance" ]
       }, {
         "ruleId" : "R-LF9-VCQ",
-        "codeLists" : [ "other-place-service" ]
+        "codelists" : [ "other-place-service" ]
       }, {
         "ruleId" : "R-I6Q-2VO",
         "fields" : [ "BT-5071-Procedure" ],
@@ -9070,7 +9070,7 @@
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
         "ruleId" : "R-P65-8H6",
-        "codeLists" : [ "contract-nature" ]
+        "codelists" : [ "contract-nature" ]
       }, {
         "ruleId" : "R-PAU-LBD",
         "nodes" : [ "ND-ProcedureProcurementScope" ]
@@ -9125,7 +9125,7 @@
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
         "ruleId" : "R-6M8-SMK",
-        "codeLists" : [ "cpv" ]
+        "codelists" : [ "cpv" ]
       }, {
         "ruleId" : "R-6JK-5H9",
         "fields" : [ "BT-23-Procedure" ],
@@ -9156,7 +9156,7 @@
         "nodes" : [ "ND-ProcedureAdditionalCommodityClassification" ]
       }, {
         "ruleId" : "R-9BH-N7S",
-        "codeLists" : [ "cpv" ]
+        "codelists" : [ "cpv" ]
       } ]
     },
     "requiredBy" : {
@@ -9218,7 +9218,7 @@
         "nodes" : [ "ND-ProcedureContractAdditionalNature" ]
       }, {
         "ruleId" : "R-ZI8-CDP",
-        "codeLists" : [ "contract-nature" ]
+        "codelists" : [ "contract-nature" ]
       }, {
         "ruleId" : "R-NE3-BFZ",
         "fields" : [ "BT-23-Procedure" ],
@@ -9244,7 +9244,7 @@
         "nodes" : [ "ND-ProcedureTransportServiceType" ]
       }, {
         "ruleId" : "R-FG5-2WK",
-        "codeLists" : [ "transport-service" ]
+        "codelists" : [ "transport-service" ]
       } ]
     },
     "requiredBy" : {
@@ -9266,7 +9266,7 @@
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
         "ruleId" : "R-8YO-F1A",
-        "codeLists" : [ "procurement-procedure-type" ]
+        "codelists" : [ "procurement-procedure-type" ]
       }, {
         "ruleId" : "R-FIG-XB6",
         "fields" : [ "BT-106-Procedure" ],
@@ -9309,7 +9309,7 @@
         "nodes" : [ "ND-AcceleratedProcedure" ]
       }, {
         "ruleId" : "R-67J-HFX",
-        "codeLists" : [ "accelerated-procedure" ]
+        "codelists" : [ "accelerated-procedure" ]
       }, {
         "ruleId" : "R-4VG-TC6",
         "fields" : [ "BT-105-Procedure" ],
@@ -9352,7 +9352,7 @@
         "nodes" : [ "ND-DirectAward" ]
       }, {
         "ruleId" : "R-YK4-JHA",
-        "codeLists" : [ "direct-award-justification" ]
+        "codelists" : [ "direct-award-justification" ]
       }, {
         "ruleId" : "R-LW4-36W",
         "fields" : [ "BT-105-Procedure" ],
@@ -9379,7 +9379,7 @@
         "nodes" : [ "ND-ProcedureTenderingProcessExtension" ]
       }, {
         "ruleId" : "R-P0X-W47",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-XYC-UY0",
         "fields" : [ "BT-142-LotResult", "BT-140-notice" ],
@@ -9397,7 +9397,7 @@
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
         "ruleId" : "R-DOU-TVZ",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       } ]
     }
   }, {
@@ -9411,7 +9411,7 @@
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
         "ruleId" : "R-P12-7P3",
-        "codeLists" : [ "tenderlot-presentation" ]
+        "codelists" : [ "tenderlot-presentation" ]
       }, {
         "ruleId" : "R-4IJ-KN5",
         "fields" : [ "BT-137-Lot" ],
@@ -9550,7 +9550,7 @@
         "nodes" : [ "ND-ExclusionGroundsSource" ]
       }, {
         "ruleId" : "R-G6W-L0L",
-        "codeLists" : [ "exclusion-grounds-source" ]
+        "codelists" : [ "exclusion-grounds-source" ]
       } ]
     },
     "requiredBy" : {
@@ -9585,7 +9585,7 @@
         "nodes" : [ "ND-ProcurementDetailsLotResult" ]
       }, {
         "ruleId" : "R-CJM-YIA",
-        "codeLists" : [ "vehicle-category" ]
+        "codelists" : [ "vehicle-category" ]
       }, {
         "ruleId" : "R-H9C-BWR",
         "fields" : [ "BT-735-LotResult" ],
@@ -9608,7 +9608,7 @@
         "nodes" : [ "ND-ProcurementStatistics" ]
       }, {
         "ruleId" : "R-A60-MIJ",
-        "codeLists" : [ "vehicles" ]
+        "codelists" : [ "vehicles" ]
       }, {
         "ruleId" : "R-0A5-IWR",
         "fields" : [ "BT-723-LotResult" ],
@@ -9788,7 +9788,7 @@
         "nodes" : [ "ND-RegistrarAddress" ]
       }, {
         "ruleId" : "R-B79-7QD",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-J15-475",
         "fields" : [ "BT-501-Business-European" ],
@@ -9978,7 +9978,7 @@
         "nodes" : [ "ND-AppealDecision" ]
       }, {
         "ruleId" : "R-78W-5KF",
-        "codeLists" : [ "review-decision-type" ]
+        "codelists" : [ "review-decision-type" ]
       }, {
         "ruleId" : "R-8JJ-Q1A",
         "fields" : [ "BT-783-Review", "BT-796-Review" ],
@@ -10005,7 +10005,7 @@
         "nodes" : [ "ND-AppealIrregularity" ]
       }, {
         "ruleId" : "R-PA6-B9C",
-        "codeLists" : [ "irregularity-type" ]
+        "codelists" : [ "irregularity-type" ]
       }, {
         "ruleId" : "R-GMO-ZZV",
         "fields" : [ "BT-783-Review" ],
@@ -10032,7 +10032,7 @@
         "nodes" : [ "ND-AppealRemedy" ]
       }, {
         "ruleId" : "R-KXT-4N5",
-        "codeLists" : [ "remedy-type" ]
+        "codelists" : [ "remedy-type" ]
       }, {
         "ruleId" : "R-88T-RD6",
         "fields" : [ "BT-783-Review", "BT-790-Review" ],
@@ -10114,7 +10114,7 @@
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
         "ruleId" : "R-JP9-YR2",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-AKJ-X27",
         "fields" : [ "BT-783-Review" ],
@@ -10187,7 +10187,7 @@
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
         "ruleId" : "R-RQ9-33B",
-        "codeLists" : [ "review-body-type" ]
+        "codelists" : [ "review-body-type" ]
       }, {
         "ruleId" : "R-KQ2-QS3",
         "fields" : [ "BT-783-Review" ],
@@ -10304,160 +10304,160 @@
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-F73-H6C",
-        "codeLists" : [ "legal-basis" ]
+        "codelists" : [ "legal-basis" ]
       }, {
         "ruleId" : "R-D9C-MQY",
-        "codeLists" : [ "legal-basis-1" ]
+        "codelists" : [ "legal-basis-1" ]
       }, {
         "ruleId" : "R-WLD-AEU",
-        "codeLists" : [ "legal-basis-10" ]
+        "codelists" : [ "legal-basis-10" ]
       }, {
         "ruleId" : "R-CAZ-SHW",
-        "codeLists" : [ "legal-basis-11" ]
+        "codelists" : [ "legal-basis-11" ]
       }, {
         "ruleId" : "R-XTC-324",
-        "codeLists" : [ "legal-basis-12" ]
+        "codelists" : [ "legal-basis-12" ]
       }, {
         "ruleId" : "R-PU3-5G5",
-        "codeLists" : [ "legal-basis-13" ]
+        "codelists" : [ "legal-basis-13" ]
       }, {
         "ruleId" : "R-RQF-I49",
-        "codeLists" : [ "legal-basis-14" ]
+        "codelists" : [ "legal-basis-14" ]
       }, {
         "ruleId" : "R-P5W-2AO",
-        "codeLists" : [ "legal-basis-15" ]
+        "codelists" : [ "legal-basis-15" ]
       }, {
         "ruleId" : "R-6M5-T6I",
-        "codeLists" : [ "legal-basis-16" ]
+        "codelists" : [ "legal-basis-16" ]
       }, {
         "ruleId" : "R-TL4-V2B",
-        "codeLists" : [ "legal-basis-17" ]
+        "codelists" : [ "legal-basis-17" ]
       }, {
         "ruleId" : "R-K36-VTY",
-        "codeLists" : [ "legal-basis-18" ]
+        "codelists" : [ "legal-basis-18" ]
       }, {
         "ruleId" : "R-BOJ-U0M",
-        "codeLists" : [ "legal-basis-19" ]
+        "codelists" : [ "legal-basis-19" ]
       }, {
         "ruleId" : "R-QGQ-UVL",
-        "codeLists" : [ "legal-basis-2" ]
+        "codelists" : [ "legal-basis-2" ]
       }, {
         "ruleId" : "R-RO9-37X",
-        "codeLists" : [ "legal-basis-20" ]
+        "codelists" : [ "legal-basis-20" ]
       }, {
         "ruleId" : "R-ZXP-W7Y",
-        "codeLists" : [ "legal-basis-21" ]
+        "codelists" : [ "legal-basis-21" ]
       }, {
         "ruleId" : "R-ONU-7HT",
-        "codeLists" : [ "legal-basis-22" ]
+        "codelists" : [ "legal-basis-22" ]
       }, {
         "ruleId" : "R-FI1-CV2",
-        "codeLists" : [ "legal-basis-23" ]
+        "codelists" : [ "legal-basis-23" ]
       }, {
         "ruleId" : "R-3IO-5VP",
-        "codeLists" : [ "legal-basis-24" ]
+        "codelists" : [ "legal-basis-24" ]
       }, {
         "ruleId" : "R-738-QV9",
-        "codeLists" : [ "legal-basis-25" ]
+        "codelists" : [ "legal-basis-25" ]
       }, {
         "ruleId" : "R-OW7-8QY",
-        "codeLists" : [ "legal-basis-26" ]
+        "codelists" : [ "legal-basis-26" ]
       }, {
         "ruleId" : "R-V79-Z6Y",
-        "codeLists" : [ "legal-basis-27" ]
+        "codelists" : [ "legal-basis-27" ]
       }, {
         "ruleId" : "R-9BS-5RP",
-        "codeLists" : [ "legal-basis-28" ]
+        "codelists" : [ "legal-basis-28" ]
       }, {
         "ruleId" : "R-P12-VBJ",
-        "codeLists" : [ "legal-basis-29" ]
+        "codelists" : [ "legal-basis-29" ]
       }, {
         "ruleId" : "R-KJO-E6Y",
-        "codeLists" : [ "legal-basis-3" ]
+        "codelists" : [ "legal-basis-3" ]
       }, {
         "ruleId" : "R-P61-VCH",
-        "codeLists" : [ "legal-basis-30" ]
+        "codelists" : [ "legal-basis-30" ]
       }, {
         "ruleId" : "R-ER0-QTM",
-        "codeLists" : [ "legal-basis-31" ]
+        "codelists" : [ "legal-basis-31" ]
       }, {
         "ruleId" : "R-Y8Y-44I",
-        "codeLists" : [ "legal-basis-32" ]
+        "codelists" : [ "legal-basis-32" ]
       }, {
         "ruleId" : "R-C2N-R12",
-        "codeLists" : [ "legal-basis-33" ]
+        "codelists" : [ "legal-basis-33" ]
       }, {
         "ruleId" : "R-BQO-P1D",
-        "codeLists" : [ "legal-basis-34" ]
+        "codelists" : [ "legal-basis-34" ]
       }, {
         "ruleId" : "R-MHG-85K",
-        "codeLists" : [ "legal-basis-35" ]
+        "codelists" : [ "legal-basis-35" ]
       }, {
         "ruleId" : "R-577-1PH",
-        "codeLists" : [ "legal-basis-36" ]
+        "codelists" : [ "legal-basis-36" ]
       }, {
         "ruleId" : "R-UJM-K4K",
-        "codeLists" : [ "legal-basis-37" ]
+        "codelists" : [ "legal-basis-37" ]
       }, {
         "ruleId" : "R-T4J-NKB",
-        "codeLists" : [ "legal-basis-38" ]
+        "codelists" : [ "legal-basis-38" ]
       }, {
         "ruleId" : "R-HZU-LHO",
-        "codeLists" : [ "legal-basis-39" ]
+        "codelists" : [ "legal-basis-39" ]
       }, {
         "ruleId" : "R-NC5-EDU",
-        "codeLists" : [ "legal-basis-4" ]
+        "codelists" : [ "legal-basis-4" ]
       }, {
         "ruleId" : "R-2LM-0T9",
-        "codeLists" : [ "legal-basis-40" ]
+        "codelists" : [ "legal-basis-40" ]
       }, {
         "ruleId" : "R-J1P-TE8",
-        "codeLists" : [ "legal-basis-5" ]
+        "codelists" : [ "legal-basis-5" ]
       }, {
         "ruleId" : "R-P84-VVI",
-        "codeLists" : [ "legal-basis-6" ]
+        "codelists" : [ "legal-basis-6" ]
       }, {
         "ruleId" : "R-NBK-9I5",
-        "codeLists" : [ "legal-basis-7" ]
+        "codelists" : [ "legal-basis-7" ]
       }, {
         "ruleId" : "R-SU4-LO0",
-        "codeLists" : [ "legal-basis-8" ]
+        "codelists" : [ "legal-basis-8" ]
       }, {
         "ruleId" : "R-27Y-7VE",
-        "codeLists" : [ "legal-basis-9" ]
+        "codelists" : [ "legal-basis-9" ]
       }, {
         "ruleId" : "R-ZQV-3AS",
-        "codeLists" : [ "legal-basis-cei" ]
+        "codelists" : [ "legal-basis-cei" ]
       }, {
         "ruleId" : "R-PA0-3N0",
-        "codeLists" : [ "legal-basis-e1" ]
+        "codelists" : [ "legal-basis-e1" ]
       }, {
         "ruleId" : "R-WZI-Z8P",
-        "codeLists" : [ "legal-basis-e2" ]
+        "codelists" : [ "legal-basis-e2" ]
       }, {
         "ruleId" : "R-Y56-IN7",
-        "codeLists" : [ "legal-basis-e3" ]
+        "codelists" : [ "legal-basis-e3" ]
       }, {
         "ruleId" : "R-IZO-C7I",
-        "codeLists" : [ "legal-basis-e4" ]
+        "codelists" : [ "legal-basis-e4" ]
       }, {
         "ruleId" : "R-V0I-BN8",
-        "codeLists" : [ "legal-basis-e5" ]
+        "codelists" : [ "legal-basis-e5" ]
       }, {
         "ruleId" : "R-2PZ-A2E",
-        "codeLists" : [ "legal-basis-e6" ]
+        "codelists" : [ "legal-basis-e6" ]
       }, {
         "ruleId" : "R-H98-8MW",
-        "codeLists" : [ "legal-basis-t01" ]
+        "codelists" : [ "legal-basis-t01" ]
       }, {
         "ruleId" : "R-S7J-CPY",
-        "codeLists" : [ "legal-basis-t02" ]
+        "codelists" : [ "legal-basis-t02" ]
       }, {
         "ruleId" : "R-AF9-8AW",
-        "codeLists" : [ "legal-basis-x01" ]
+        "codelists" : [ "legal-basis-x01" ]
       }, {
         "ruleId" : "R-PPJ-YHZ",
-        "codeLists" : [ "legal-basis-x02" ]
+        "codelists" : [ "legal-basis-x02" ]
       }, {
         "ruleId" : "R-ROU-1GW",
         "fields" : [ "BT-01(c)-Procedure", "BT-01(f)-Procedure" ],
@@ -10480,37 +10480,37 @@
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-2WL-GMO",
-        "codeLists" : [ "notice-type" ]
+        "codelists" : [ "notice-type" ]
       }, {
         "ruleId" : "R-1H0-6AR",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codeLists" : [ "bri" ]
+        "codelists" : [ "bri" ]
       }, {
         "ruleId" : "R-YN8-HNM",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codeLists" : [ "competition" ]
+        "codelists" : [ "competition" ]
       }, {
         "ruleId" : "R-OT5-XFM",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codeLists" : [ "cont-modif" ]
+        "codelists" : [ "cont-modif" ]
       }, {
         "ruleId" : "R-K44-695",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codeLists" : [ "dir-awa-pre" ]
+        "codelists" : [ "dir-awa-pre" ]
       }, {
         "ruleId" : "R-Q53-30O",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codeLists" : [ "planning" ]
+        "codelists" : [ "planning" ]
       }, {
         "ruleId" : "R-YD2-WDV",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codeLists" : [ "result" ]
+        "codelists" : [ "result" ]
       } ]
     },
     "requiredBy" : {
@@ -10529,7 +10529,7 @@
         "fields" : [ "BT-02-notice" ]
       }, {
         "ruleId" : "R-R6Z-YRR",
-        "codeLists" : [ "form-type" ]
+        "codelists" : [ "form-type" ]
       } ]
     },
     "requiredBy" : {
@@ -10611,7 +10611,10 @@
         "nodes" : [ "ND-UndisclosedGroupReference" ]
       }, {
         "ruleId" : "R-XKG-C3J",
-        "codeLists" : [ "undisclosed-data-group" ]
+        "codelists" : [ "undisclosed-data-group" ]
+      }, {
+        "ruleId" : "R-48Z-1D0",
+        "nodes" : [ "ND-Root" ]
       } ]
     },
     "requiredBy" : {
@@ -10657,7 +10660,7 @@
         "nodes" : [ "ND-NondisclosureJustification" ]
       }, {
         "ruleId" : "R-1JM-ZLS",
-        "codeLists" : [ "non-publication-justification" ]
+        "codelists" : [ "non-publication-justification" ]
       }, {
         "ruleId" : "R-J7T-D1R",
         "fields" : [ "BT-195-notice" ],
@@ -10718,7 +10721,7 @@
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-4NZ-H3E",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       }, {
         "ruleId" : "R-TDG-CLE",
         "fields" : [ "BT-702(b)-notice" ],
@@ -10755,7 +10758,7 @@
         "nodes" : [ "ND-BusinessCapability" ]
       }, {
         "ruleId" : "R-5BI-S7L",
-        "codeLists" : [ "main-activity" ]
+        "codelists" : [ "main-activity" ]
       } ]
     },
     "requiredBy" : {
@@ -10833,7 +10836,7 @@
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
         "ruleId" : "R-21L-9V9",
-        "codeLists" : [ "review-information-type" ]
+        "codelists" : [ "review-information-type" ]
       } ]
     },
     "requiredBy" : {
@@ -10852,7 +10855,7 @@
         "nodes" : [ "ND-SecondStage" ]
       }, {
         "ruleId" : "R-YVD-NLZ",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-YFL-JZQ",
         "fields" : [ "BT-105-Procedure" ],
@@ -10879,7 +10882,7 @@
         "nodes" : [ "ND-SecondStageThresholdCriterionParameter" ]
       }, {
         "ruleId" : "R-3Y4-YQD",
-        "codeLists" : [ "number-threshold" ]
+        "codelists" : [ "number-threshold" ]
       }, {
         "ruleId" : "R-29Q-MU1",
         "fields" : [ "BT-752-Lot-ThresholdNumber" ],
@@ -10906,7 +10909,7 @@
         "nodes" : [ "ND-SecondStageWeightCriterionParameter" ]
       }, {
         "ruleId" : "R-0RS-C4Q",
-        "codeLists" : [ "number-weight" ]
+        "codelists" : [ "number-weight" ]
       }, {
         "ruleId" : "R-K61-41O",
         "fields" : [ "BT-752-Lot-WeightNumber" ],
@@ -10933,7 +10936,7 @@
         "nodes" : [ "ND-SecurityClearanceTerms" ]
       }, {
         "ruleId" : "R-697-UT1",
-        "codeLists" : [ "required" ]
+        "codelists" : [ "required" ]
       } ]
     },
     "requiredBy" : {
@@ -11068,7 +11071,7 @@
         "nodes" : [ "ND-ServiceProviderParty" ]
       }, {
         "ruleId" : "R-NBI-3S0",
-        "codeLists" : [ "organisation-role-service" ]
+        "codelists" : [ "organisation-role-service" ]
       }, {
         "ruleId" : "R-TVJ-963",
         "fields" : [ "OPT-300-Procedure-SProvider" ],
@@ -11281,7 +11284,7 @@
         "nodes" : [ "ND-ContractEUFunds" ]
       }, {
         "ruleId" : "R-Z1J-HCY",
-        "codeLists" : [ "eu-programme" ]
+        "codelists" : [ "eu-programme" ]
       } ]
     },
     "requiredBy" : {
@@ -11300,7 +11303,7 @@
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-3UM-WEC",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-0L8-9F7",
         "fields" : [ "BT-765-Lot" ],
@@ -11331,7 +11334,7 @@
         "nodes" : [ "ND-ExtendedDurationJustification" ]
       }, {
         "ruleId" : "R-R0J-MWK",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-MGR-SWI",
         "fields" : [ "OPT-316-Contract" ],
@@ -11437,7 +11440,7 @@
         "nodes" : [ "ND-StrategicProcurementInformationLot" ]
       }, {
         "ruleId" : "R-MSV-WI7",
-        "codeLists" : [ "cvd-contract-type" ]
+        "codelists" : [ "cvd-contract-type" ]
       }, {
         "ruleId" : "R-BBH-A1X",
         "fields" : [ "BT-717-Lot" ],
@@ -11460,7 +11463,7 @@
         "nodes" : [ "ND-StrategicProcurementInformationLotResult" ]
       }, {
         "ruleId" : "R-ZXS-9VG",
-        "codeLists" : [ "cvd-contract-type" ]
+        "codelists" : [ "cvd-contract-type" ]
       }, {
         "ruleId" : "R-7VA-OMS",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-717-Lot", "BT-142-LotResult" ],
@@ -11487,7 +11490,7 @@
         "nodes" : [ "ND-StrategicProcurementLot" ]
       }, {
         "ruleId" : "R-PC4-PFA",
-        "codeLists" : [ "cvd-scope" ]
+        "codelists" : [ "cvd-scope" ]
       } ]
     },
     "requiredBy" : {
@@ -11635,7 +11638,7 @@
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
         "ruleId" : "R-AW7-D4W",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-4LK-7KO",
         "fields" : [ "BT-773-Tender" ],
@@ -11662,7 +11665,7 @@
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
         "ruleId" : "R-OH0-PX3",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-LLU-1VL",
         "fields" : [ "BT-773-Tender" ],
@@ -11727,7 +11730,7 @@
         "nodes" : [ "ND-Tenderer" ]
       }, {
         "ruleId" : "R-WPR-O95",
-        "codeLists" : [ "indicator" ]
+        "codelists" : [ "indicator" ]
       }, {
         "ruleId" : "R-NTL-4SB",
         "fields" : [ "OPT-210-Tenderer", "OPT-300-Tenderer" ],
@@ -12120,21 +12123,21 @@
         "nodes" : [ "ND-Touchpoint" ]
       }, {
         "ruleId" : "R-MR9-UO3",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-OMA-6QL",
         "fields" : [ "BT-514-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-M1R-PVG",
         "fields" : [ "BT-514-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-7V1-55U",
         "fields" : [ "BT-514-Organization-TouchPoint" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -12234,7 +12237,7 @@
         "ruleId" : "R-SAY-IDR",
         "fields" : [ "BT-514-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -12272,7 +12275,7 @@
         "nodes" : [ "ND-Touchpoint" ]
       }, {
         "ruleId" : "R-T1K-L9P",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-EDA-JIW",
         "fields" : [ "BT-500-Organization-TouchPoint" ],
@@ -12373,21 +12376,21 @@
         "nodes" : [ "ND-UBO" ]
       }, {
         "ruleId" : "R-RTE-WQB",
-        "codeLists" : [ "nuts-lvl3" ]
+        "codelists" : [ "nuts-lvl3" ]
       }, {
         "ruleId" : "R-VCB-QZ7",
         "fields" : [ "BT-514-UBO" ],
         "nodes" : [ "ND-UBO" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-IHU-0AE",
         "fields" : [ "BT-514-UBO" ],
         "nodes" : [ "ND-UBO" ],
-        "codeLists" : [ "nuts-country" ]
+        "codelists" : [ "nuts-country" ]
       }, {
         "ruleId" : "R-BAP-LIK",
         "fields" : [ "BT-514-UBO" ],
-        "codeLists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
+        "codelists" : [ "nuts-alb-lvl3", "nuts-aut-lvl3", "nuts-bel-lvl3", "nuts-bgr-lvl3", "nuts-che-lvl3", "nuts-cyp-lvl3", "nuts-cze-lvl3", "nuts-deu-lvl3", "nuts-dnk-lvl3", "nuts-esp-lvl3", "nuts-est-lvl3", "nuts-fin-lvl3", "nuts-fra-lvl3", "nuts-grc-lvl3", "nuts-hrv-lvl3", "nuts-hun-lvl3", "nuts-irl-lvl3", "nuts-isl-lvl3", "nuts-ita-lvl3", "nuts-lie-lvl3", "nuts-ltu-lvl3", "nuts-lux-lvl3", "nuts-lva-lvl3", "nuts-mkd-lvl3", "nuts-mlt-lvl3", "nuts-mne-lvl3", "nuts-nld-lvl3", "nuts-nor-lvl3", "nuts-pol-lvl3", "nuts-prt-lvl3", "nuts-rou-lvl3", "nuts-srb-lvl3", "nuts-svk-lvl3", "nuts-svn-lvl3", "nuts-swe-lvl3", "nuts-tur-lvl3", "nuts-ukr-lvl3", "nuts-xkx-lvl3" ]
       } ]
     },
     "requiredBy" : {
@@ -12463,7 +12466,7 @@
         "ruleId" : "R-KUU-B9W",
         "fields" : [ "BT-514-UBO" ],
         "nodes" : [ "ND-UBO" ],
-        "codeLists" : [ "postcode-country" ]
+        "codelists" : [ "postcode-country" ]
       } ]
     }
   }, {
@@ -12496,7 +12499,7 @@
         "nodes" : [ "ND-UBO" ]
       }, {
         "ruleId" : "R-9PV-37X",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-YD5-QFT",
         "fields" : [ "BT-500-UBO" ],
@@ -12523,7 +12526,7 @@
         "nodes" : [ "ND-UBONationality" ]
       }, {
         "ruleId" : "R-DAA-F9E",
-        "codeLists" : [ "country" ]
+        "codelists" : [ "country" ]
       }, {
         "ruleId" : "R-OBH-UDY",
         "fields" : [ "OPT-202-UBO" ],
@@ -12605,7 +12608,7 @@
         "nodes" : [ "ND-ChangeReason" ]
       }, {
         "ruleId" : "R-45C-TWW",
-        "codeLists" : [ "change-corrig-justification" ]
+        "codelists" : [ "change-corrig-justification" ]
       }, {
         "ruleId" : "R-N0B-W7Z",
         "fields" : [ "BT-758-notice" ],
@@ -12719,7 +12722,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-39P-JU5",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12732,7 +12735,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-VB0-SB0",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12753,7 +12756,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-L2R-PTE",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12790,7 +12793,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-4ZM-110",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12811,7 +12814,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-XL4-LC5",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12827,7 +12830,7 @@
         "fields" : [ "BT-1118-NoticeResult" ]
       }, {
         "ruleId" : "R-5BO-WLD",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -12838,7 +12841,7 @@
         "fields" : [ "BT-118-NoticeResult" ]
       }, {
         "ruleId" : "R-Z1M-RUD",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -12846,7 +12849,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-HWA-NKV",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12859,7 +12862,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-ZUR-O50",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12872,7 +12875,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-IYX-S9B",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12885,7 +12888,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-Q79-CS0",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12898,7 +12901,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-ZY2-2HB",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -12954,7 +12957,7 @@
         "fields" : [ "BT-13714-Tender" ]
       }, {
         "ruleId" : "R-SZC-ZA0",
-        "codeLists" : [ "tendered-object" ]
+        "codelists" : [ "tendered-object" ]
       } ]
     }
   }, {
@@ -12978,7 +12981,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-HL8-H35",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13018,7 +13021,7 @@
         "fields" : [ "BT-156-NoticeResult" ]
       }, {
         "ruleId" : "R-GVO-L5F",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13029,7 +13032,7 @@
         "fields" : [ "BT-1561-NoticeResult" ]
       }, {
         "ruleId" : "R-GJ8-8AX",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13040,7 +13043,7 @@
         "fields" : [ "BT-157-LotsGroup" ]
       }, {
         "ruleId" : "R-7AA-KT0",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13051,7 +13054,7 @@
         "fields" : [ "BT-160-Tender" ]
       }, {
         "ruleId" : "R-JRA-L3U",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13062,7 +13065,7 @@
         "fields" : [ "BT-161-NoticeResult" ]
       }, {
         "ruleId" : "R-QNT-MN8",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13073,7 +13076,7 @@
         "fields" : [ "BT-162-Tender" ]
       }, {
         "ruleId" : "R-XX3-9J6",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13081,7 +13084,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-AQQ-US1",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13126,7 +13129,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-05S-DXB",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13155,7 +13158,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-V3N-R6D",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13168,7 +13171,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-CZK-Y6T",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13181,7 +13184,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-TTO-75W",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13194,7 +13197,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-D92-E3B",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13207,7 +13210,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-CSB-D0R",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13220,7 +13223,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-O6D-MVO",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13289,7 +13292,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-HT1-KOK",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13302,7 +13305,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-BEP-51Z",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13315,7 +13318,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-3MC-ZA0",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13328,7 +13331,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-JVP-HA1",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13344,7 +13347,7 @@
         "fields" : [ "BT-27-Lot" ]
       }, {
         "ruleId" : "R-KH7-VHU",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13355,7 +13358,7 @@
         "fields" : [ "BT-27-LotsGroup" ]
       }, {
         "ruleId" : "R-MAZ-1P1",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13366,7 +13369,7 @@
         "fields" : [ "BT-27-Part" ]
       }, {
         "ruleId" : "R-E37-M1K",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13377,7 +13380,7 @@
         "fields" : [ "BT-27-Procedure" ]
       }, {
         "ruleId" : "R-3J4-X6J",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13388,7 +13391,7 @@
         "fields" : [ "BT-271-Lot" ]
       }, {
         "ruleId" : "R-6F2-5CB",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13399,7 +13402,7 @@
         "fields" : [ "BT-271-LotsGroup" ]
       }, {
         "ruleId" : "R-XMI-51G",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13410,7 +13413,7 @@
         "fields" : [ "BT-271-Procedure" ]
       }, {
         "ruleId" : "R-4VC-986",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13418,7 +13421,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-JM7-JBS",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13431,7 +13434,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-C9R-U66",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13444,7 +13447,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-2I8-KXE",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13457,7 +13460,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-BPV-E69",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13489,7 +13492,7 @@
         "fields" : [ "BT-36-Lot" ]
       }, {
         "ruleId" : "R-4W6-K38",
-        "codeLists" : [ "duration-unit" ]
+        "codelists" : [ "duration-unit" ]
       } ]
     }
   }, {
@@ -13500,7 +13503,7 @@
         "fields" : [ "BT-36-Part" ]
       }, {
         "ruleId" : "R-O8D-DU9",
-        "codeLists" : [ "duration-unit" ]
+        "codelists" : [ "duration-unit" ]
       } ]
     }
   }, {
@@ -13508,7 +13511,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-R15-KUU",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13521,7 +13524,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-P5P-5EL",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13534,7 +13537,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-LFS-5S9",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13731,7 +13734,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-9W3-L1F",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13744,7 +13747,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-D47-R70",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13757,7 +13760,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-IB8-2OG",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13818,7 +13821,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-OF6-C8O",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13831,7 +13834,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-YAX-YKR",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13847,7 +13850,7 @@
         "fields" : [ "BT-553-Tender" ]
       }, {
         "ruleId" : "R-PR7-YHL",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13855,7 +13858,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-QFV-G67",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13876,7 +13879,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-DN5-F17",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13913,7 +13916,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-4VF-JVN",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13926,7 +13929,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-I9F-1WR",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -13958,7 +13961,7 @@
         "fields" : [ "BT-644-Lot" ]
       }, {
         "ruleId" : "R-6EE-NBV",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -13985,7 +13988,7 @@
         "fields" : [ "BT-660-LotResult" ]
       }, {
         "ruleId" : "R-MCF-D24",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14001,7 +14004,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-OP5-SFT",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14054,7 +14057,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-PH7-GTA",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14067,7 +14070,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-Y18-QDF",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14088,7 +14091,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-N2O-JYR",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14104,7 +14107,7 @@
         "fields" : [ "BT-709-LotResult" ]
       }, {
         "ruleId" : "R-11U-78G",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14131,7 +14134,7 @@
         "fields" : [ "BT-710-LotResult" ]
       }, {
         "ruleId" : "R-A67-WSM",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14142,7 +14145,7 @@
         "fields" : [ "BT-711-LotResult" ]
       }, {
         "ruleId" : "R-S7G-EZ7",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14169,7 +14172,7 @@
         "fields" : [ "BT-720-Tender" ]
       }, {
         "ruleId" : "R-S63-9RG",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14177,7 +14180,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-827-RDL",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14214,7 +14217,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-COQ-FNS",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14227,7 +14230,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-8IE-DLL",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14240,7 +14243,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-4HS-L2D",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14253,7 +14256,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-NPA-RR6",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14266,7 +14269,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-T5O-FHL",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14279,7 +14282,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-QJC-ND5",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14292,7 +14295,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-LIR-64E",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14305,7 +14308,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-ZWU-SZ4",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14374,7 +14377,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-GE6-KC0",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14387,7 +14390,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-ONU-AJS",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14400,7 +14403,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-6D0-RYY",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14445,7 +14448,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-1E7-5YS",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14458,7 +14461,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-3AX-PED",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14487,7 +14490,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-X4Q-M8B",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14556,7 +14559,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-J0K-B67",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14577,7 +14580,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-77K-KT0",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14622,7 +14625,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-FXT-O0Z",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14638,7 +14641,7 @@
         "fields" : [ "BT-779-Tender" ]
       }, {
         "ruleId" : "R-XVU-M8V",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14646,7 +14649,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-4QZ-Z3J",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14659,7 +14662,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-P2J-P5K",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14675,7 +14678,7 @@
         "fields" : [ "BT-782-Tender" ]
       }, {
         "ruleId" : "R-SLH-Q6P",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14691,7 +14694,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-7IV-KN0",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14704,7 +14707,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-O5J-75R",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14752,7 +14755,7 @@
         "fields" : [ "BT-793-Review" ]
       }, {
         "ruleId" : "R-M8C-A1Y",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14763,7 +14766,7 @@
         "fields" : [ "BT-795-Review" ]
       }, {
         "ruleId" : "R-01O-W3U",
-        "codeLists" : [ "currency" ]
+        "codelists" : [ "currency" ]
       } ]
     }
   }, {
@@ -14771,7 +14774,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-OO4-S8S",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14800,7 +14803,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-745-0Q8",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14917,7 +14920,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-5IH-8DU",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14930,7 +14933,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-8KH-I9M",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14946,7 +14949,7 @@
         "fields" : [ "BT-98-Lot" ]
       }, {
         "ruleId" : "R-1S2-4T4",
-        "codeLists" : [ "duration-unit" ]
+        "codelists" : [ "duration-unit" ]
       } ]
     }
   }, {
@@ -14954,7 +14957,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-Y95-HPO",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -14983,7 +14986,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-2EZ-KXZ",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -15004,7 +15007,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-B6S-SAS",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -15025,7 +15028,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-CIE-5NS",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -15102,7 +15105,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-W50-182",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -15131,7 +15134,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-KS5-WZD",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -15152,7 +15155,7 @@
     "dependsOn" : {
       "assert" : [ {
         "ruleId" : "R-D80-EP9",
-        "codeLists" : [ "eu-official-language" ]
+        "codelists" : [ "eu-official-language" ]
       } ]
     },
     "requiredBy" : {
@@ -15256,7 +15259,7 @@
         "fields" : [ "OPT-301-Lot-AddInfo" ]
       }, {
         "ruleId" : "R-853-P13",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15267,7 +15270,7 @@
         "fields" : [ "OPT-301-Lot-DocProvider" ]
       }, {
         "ruleId" : "R-BEW-BA3",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15278,7 +15281,7 @@
         "fields" : [ "OPT-301-Lot-EmployLegis" ]
       }, {
         "ruleId" : "R-WN6-HD2",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15289,7 +15292,7 @@
         "fields" : [ "OPT-301-Lot-EnvironLegis" ]
       }, {
         "ruleId" : "R-KZ7-H0U",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15300,7 +15303,7 @@
         "fields" : [ "OPT-301-Lot-FiscalLegis" ]
       }, {
         "ruleId" : "R-6YH-X2W",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15311,7 +15314,7 @@
         "fields" : [ "OPT-301-Lot-Mediator" ]
       }, {
         "ruleId" : "R-7UV-6DS",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15322,7 +15325,7 @@
         "fields" : [ "OPT-301-Lot-ReviewInfo" ]
       }, {
         "ruleId" : "R-IEU-4Q4",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15333,7 +15336,7 @@
         "fields" : [ "OPT-301-Lot-ReviewOrg" ]
       }, {
         "ruleId" : "R-WHL-4J5",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15344,7 +15347,7 @@
         "fields" : [ "OPT-301-Lot-TenderEval" ]
       }, {
         "ruleId" : "R-Z7F-8J9",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15355,7 +15358,7 @@
         "fields" : [ "OPT-301-Lot-TenderReceipt" ]
       }, {
         "ruleId" : "R-6KC-T4N",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15382,7 +15385,7 @@
         "fields" : [ "OPT-301-Part-AddInfo" ]
       }, {
         "ruleId" : "R-Z7I-C3B",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15393,7 +15396,7 @@
         "fields" : [ "OPT-301-Part-DocProvider" ]
       }, {
         "ruleId" : "R-CCH-94G",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15404,7 +15407,7 @@
         "fields" : [ "OPT-301-Part-EmployLegis" ]
       }, {
         "ruleId" : "R-S3V-9EA",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15415,7 +15418,7 @@
         "fields" : [ "OPT-301-Part-EnvironLegis" ]
       }, {
         "ruleId" : "R-VHW-JNU",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15426,7 +15429,7 @@
         "fields" : [ "OPT-301-Part-FiscalLegis" ]
       }, {
         "ruleId" : "R-15W-Y6A",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15437,7 +15440,7 @@
         "fields" : [ "OPT-301-Part-Mediator" ]
       }, {
         "ruleId" : "R-JBV-3XS",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15448,7 +15451,7 @@
         "fields" : [ "OPT-301-Part-ReviewInfo" ]
       }, {
         "ruleId" : "R-L5K-P7W",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15459,7 +15462,7 @@
         "fields" : [ "OPT-301-Part-ReviewOrg" ]
       }, {
         "ruleId" : "R-BSA-6C2",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15470,7 +15473,7 @@
         "fields" : [ "OPT-301-Part-TenderEval" ]
       }, {
         "ruleId" : "R-VGO-S2E",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {
@@ -15481,7 +15484,7 @@
         "fields" : [ "OPT-301-Part-TenderReceipt" ]
       }, {
         "ruleId" : "R-DYL-DDP",
-        "codeLists" : [ "player-type" ]
+        "codelists" : [ "player-type" ]
       } ]
     }
   }, {

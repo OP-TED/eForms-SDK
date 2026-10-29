@@ -105,7 +105,7 @@
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cbc:CalculationExpression">
         <assert id="R-B8O-H9O" role="ERROR" test="@languageID">rule|text|R-B8O-H9O</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription">
         <assert id="R-YSA-PFO" role="ERROR" test="@languageID">rule|text|R-YSA-PFO</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cac:Renewal/cac:Period/cbc:Description">
@@ -1257,7 +1257,7 @@
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/efac:MainContractor">
         <assert id="R-QS6-ACZ" role="ERROR" diagnostics="ND-SubContractorTakerReference_OPT-301-Tenderer-MainCont" test="count(cbc:ID/normalize-space(text())) &lt; 2">rule|text|R-QS6-ACZ</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm">
         <assert id="R-0W3-C8H" role="ERROR" diagnostics="ND-SubcontractedContract_BT-553-Tender" test="count(efbc:TermAmount/number()) &lt; 2">rule|text|R-0W3-C8H</assert>
         <assert id="R-B26-UPV" role="ERROR" diagnostics="ND-SubcontractedContract_BT-554-Tender" test="(every $lg in distinct-values((../../../../../../../cbc:NoticeLanguageCode/normalize-space(text()), ../../../../../../../cac:AdditionalNoticeLanguage/cbc:ID/normalize-space(text()))) satisfies efbc:TermDescription/@languageID = $lg) or (not(efbc:TermDescription))">rule|text|R-B26-UPV</assert>
         <assert id="R-N30-LE7" role="ERROR" diagnostics="ND-SubcontractedContract_BT-554-Tender" test="count(efbc:TermDescription/@languageID) = count(distinct-values(efbc:TermDescription/@languageID))">rule|text|R-N30-LE7</assert>

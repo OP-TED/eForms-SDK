@@ -2,22 +2,22 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>business-entity in Hungarian. File generated from metadata database.</comment>
-<entry key="business-entity|name|buyer">Vevő</entry>
-<entry key="business-entity|name|changes">Változások</entry>
-<entry key="business-entity|name|contract">Szerződés</entry>
-<entry key="business-entity|name|contractModification">Szerződésmódosítás</entry>
+<entry key="business-entity|name|Buyer">Vevő</entry>
+<entry key="business-entity|name|Changes">Változások</entry>
+<entry key="business-entity|name|Contract">Szerződés</entry>
+<entry key="business-entity|name|ContractModification">Szerződésmódosítás</entry>
+<entry key="business-entity|name|Lot">Rész</entry>
+<entry key="business-entity|name|NoticeResult">Hirdetmény eredménye</entry>
+<entry key="business-entity|name|Part">Rész</entry>
+<entry key="business-entity|name|Procedure">Eljárás</entry>
+<entry key="business-entity|name|Tender">Ajánlat</entry>
+<entry key="business-entity|name|TenderingParty">Ajánlattevő</entry>
+<entry key="business-entity|name|Touchpoint">Kapcsolatpont</entry>
 <entry key="business-entity|name|euBusiness">Európai üzlet</entry>
 <entry key="business-entity|name|groupOfLots">Részcsoport</entry>
-<entry key="business-entity|name|lot">Rész</entry>
 <entry key="business-entity|name|noticeInformation">A hirdetményre vonatkozó információk</entry>
-<entry key="business-entity|name|noticeResult">Hirdetmény eredménye</entry>
 <entry key="business-entity|name|organization">Szervezet</entry>
-<entry key="business-entity|name|part">Rész</entry>
-<entry key="business-entity|name|procedure">Eljárás</entry>
 <entry key="business-entity|name|resultForLot">Eredmény tételenként</entry>
 <entry key="business-entity|name|reviewInformation">Információ a felülvizsgálatról</entry>
-<entry key="business-entity|name|tender">Ajánlat</entry>
-<entry key="business-entity|name|tenderingParty">Ajánlattevő</entry>
-<entry key="business-entity|name|touchpoint">Kapcsolatpont</entry>
 <entry key="business-entity|name|ultimateBeneficialOwner">Végleges haszonélvező tulajdonos</entry>
 </properties>

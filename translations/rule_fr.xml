@@ -109,6 +109,7 @@
 <entry key="rule|text|R-0LJ-YIQ">'Nombre de demandes de recours acheteur' (BT-635-LotResult) doit correspondre au modèle suivant: Integer</entry>
 <entry key="rule|text|R-0LS-ONG">'Téléphone' (BT-503-Organization-Company) doit correspondre au modèle suivant: PhoneNumber</entry>
 <entry key="rule|text|R-0MB-OTZ">'Type' (BT-539-LotsGroup) est obligatoire, quand: L'ID du lot est rempli.</entry>
+<entry key="rule|text|R-0MC-RYP">Il manque 'Montant des pénalités liées à l’offre' (BT-782-Tender) dans une offre.</entry>
 <entry key="rule|text|R-0MZ-COQ">'Date limite de réception des réponses' (BT-800(t)-Lot) est obligatoire</entry>
 <entry key="rule|text|R-0N4-IWZ">'Organisation chargée des procédures de recours' (OPT-301-Part-ReviewOrg) est obligatoire</entry>
 <entry key="rule|text|R-0NJ-6O5">La caractéristique 'listName' doit être présente pour 'Pays' (OPP-112-Business-List)</entry>
@@ -117,7 +118,6 @@
 <entry key="rule|text|R-0O2-JNZ">La caractéristique 'listName' doit être présente pour 'Subdivision pays (NUTS)' (BT-507-UBO-List)</entry>
 <entry key="rule|text|R-0O3-06F">'Description' (BT-09(b)-Procedure) n'est pas autorisé, quand: 'Droit transnational applicable' (BT-09(a)-Procedure) n’est pas rempli</entry>
 <entry key="rule|text|R-0OO-ZFB">Si 'Type d’avis' (BT-02) est 'Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information', alors 'Sous-type d’avis' (OPP-070) doit être 4, 5, 6 ou E2</entry>
-<entry key="rule|text|R-0OP-IWR">Identifiant de la section' (BT-1501(n)-Contract-Scheme) doit contenir une valeur de la liste de codes (notice-reference)</entry>
 <entry key="rule|text|R-0OY-5YF">La caractéristique 'schemeName' doit être présente pour 'Organisation ou point de contact spécifique' (OPT-301-Lot-FiscalLegis-Scheme)</entry>
 <entry key="rule|text|R-0P0-XTT">La caractéristique 'listName' doit être présente pour 'La base juridique de la directive sur les véhicules propres pour établir la catégorie de procédure de passation de marché qui s’applique' (BT-735-LotResult-List)</entry>
 <entry key="rule|text|R-0PB-CIZ">'Un accord de confidentialité est requis' (BT-801-Lot) ne peut pas être répété</entry>
@@ -153,7 +153,6 @@
 <entry key="rule|text|R-11H-P4X">'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-11U-78G">'Valeur maximale de l’accord-cadre' (BT-709-LotResult-Currency) doit contenir une valeur de la liste de codes (currency)</entry>
 <entry key="rule|text|R-12A-UV0">'ID technique du point de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) n'est pas autorisé</entry>
-<entry key="rule|text|R-12N-PH6">'Date de publication' (BT-198) la valeur doit être comprise entre 2 jours et 10 ans après le 'Date d’envoi de l’avis' (BT-05)</entry>
 <entry key="rule|text|R-12P-4SJ">'Adresse postale' (BT-5101(a)-Procedure) n'est pas autorisé</entry>
 <entry key="rule|text|R-131-EBJ">'Justification de la procédure accélérée' (BT-1351-Procedure) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-13P-6KD">'Des informations sur les documents restreints sont disponibles à l’adresse suivante' (BT-615-Lot) doit correspondre au modèle suivant: URL</entry>
@@ -263,6 +262,7 @@
 <entry key="rule|text|R-29Q-MU1">'Le nombre est un type de seuil' (BT-7532-Lot) n'est pas autorisé, quand: 'Les critères seront appliqués pour sélectionner les candidats à inviter pour la seconde étape de la procédure' (BT-40) n’est pas 'oui' ou 'Le nombre est une pondération' (BT-7531) est rempli</entry>
 <entry key="rule|text|R-29Q-XK8">'Consommation d'énergie en kWh/an' (BT-813-LotResult) n'est pas autorisé</entry>
 <entry key="rule|text|R-2A0-7R6">'ID du document de législation fiscale' (OPT-111-Part-FiscalLegis) n'est pas autorisé</entry>
+<entry key="rule|text|R-2A0-WBV">Il manque 'ID technique d'ID technique d'une offre reçue' (OPT-320-LotResult) dans un résultat de lot, 'ID technique de l'ID technique de l'offre' (OPT-321-Tender) dans une offre ou 'Identifiant offre contrat' (BT-3202-Contract) dans un marché.</entry>
 <entry key="rule|text|R-2A2-W5U">'Nom' (BT-632-Part) ne peut pas être répété</entry>
 <entry key="rule|text|R-2AL-NB1">'Ville' (BT-5131-Lot) n'est pas autorisé, quand: 'Lieu d’exécution – Portée géographique' (BT-727) est rempli ou 'Pays' (BT-5141) n’est pas rempli</entry>
 <entry key="rule|text|R-2BX-8N8">'Description de la garantie financière' (BT-75-Lot) est obligatoire, quand: 'Une garantie est requise' (BT-751-Lot) est 'oui'.</entry>
@@ -284,7 +284,6 @@
 <entry key="rule|text|R-2GK-01L">'Nombre critère d’attribution' (BT-541-Lot-FixedNumber) ne peut pas être répété</entry>
 <entry key="rule|text|R-2GS-I3E">'Participation réservée' (BT-71-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-2GU-QHW">'Le nombre est un type de seuil' (BT-7532-Lot) n'est pas autorisé</entry>
-<entry key="rule|text|R-2GV-P8Q">'Date de publication' (BT-198) la valeur doit être comprise entre 2 jours et 10 ans après le 'Date d’envoi de l’avis' (BT-05)</entry>
 <entry key="rule|text|R-2GY-EQZ">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-20)</entry>
 <entry key="rule|text|R-2HC-IUQ">'Type de service fourni' (OPT-030-Procedure-SProvider) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-2HK-BGP">La caractéristique 'schemeName' doit être présente pour 'Organisation ou point de contact spécifique' (OPT-301-Part-ReviewOrg-Scheme)</entry>
@@ -333,7 +332,6 @@
 <entry key="rule|text|R-2W0-V5X">'ID technique d'une offre reçue' (OPT-320-LotResult) doit correspondre au modèle suivant: TenderID</entry>
 <entry key="rule|text|R-2WG-4C0">'Identifiant de section d'avis de recours' (BT-786-Review) n'est pas autorisé, quand: 'Demande ou décision de recours' (BT-783-Review) n'est pas présent</entry>
 <entry key="rule|text|R-2WL-GMO">'Type d’avis' (BT-02-notice) doit contenir une valeur de la liste de codes (notice-type)</entry>
-<entry key="rule|text|R-2XG-HZL">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-2XG-YAG">'Adresse des documents de marché' (BT-15-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-2XL-IMM">'Date fictive d’attribution du marché' (OPT-999-notice) n'est pas autorisé</entry>
 <entry key="rule|text|R-2YL-K0Q">'Identifiant de section d'avis de recours' (BT-786-Review) ne doit pas avoir d'espaces en début ou en fin</entry>
@@ -344,7 +342,6 @@
 <entry key="rule|text|R-2Z5-M33">La caractéristique 'listName' doit être présente pour 'Subdivision pays (NUTS)' (BT-507-Business-List)</entry>
 <entry key="rule|text|R-2ZB-DPR">'Recours au système d'acquisition dynamique' (BT-766-Part) n'est pas autorisé</entry>
 <entry key="rule|text|R-2ZE-53X">Si 'Mesure spécifique de l'IPI' (BT-685-LotResult) est égal à 'Dispositifs médicaux originaires de Chine — règlement (UE) 2025/1197', alors le lot associé doit avoir soit 'Nomenclature principale' (BT-262-Lot) soit au moins une 'Nomenclature complémentaire' (BT-263-Lot) pour les dispositifs médicaux</entry>
-<entry key="rule|text|R-2ZN-YO8">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-30H-IXV">'Adresse du marché' (BT-151-Contract) ne peut pas être répété</entry>
 <entry key="rule|text|R-30Q-PBK">'Le nombre est une pondération' (BT-5421-LotsGroup) ne peut pas être répété</entry>
 <entry key="rule|text|R-30V-AUP">'Recours au système d'acquisition dynamique' (BT-766-Part) doit contenir une valeur de la liste de codes (dps-usage)</entry>
@@ -388,11 +385,11 @@
 <entry key="rule|text|R-3AX-PED">'Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué' (BT-76-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-3B6-JXA">'Identifiant du demandeur d'examen' (BT-808-Review) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-3BZ-GV1">'Nom' (BT-734-LotsGroup) ne peut être que dans une des langues officielles de l’avis</entry>
+<entry key="rule|text|R-3CW-1PM">Il manque 'ID technique de la partie appelante (TPA-XXX)' (OPT-210-Tenderer) chez un soumissionnaire ou 'Partie soumissionnaire' (OPT-310-Tender) dans une offre.</entry>
 <entry key="rule|text|R-3CY-CO3">'L’acheteur est une entité adjudicatrice' (BT-740-Procedure-Buyer) doit contenir une valeur de la liste de codes (buyer-contracting-type)</entry>
 <entry key="rule|text|R-3CZ-6NM">'Le marché est attribué dans le contexte d’un accord-cadre' (BT-768-Contract) est obligatoire, quand: Un gagnant a été choisi et 'Recours à un accord-cadre' (BT-765-Lot) correspond à l'accord-cadre de la procédure.</entry>
 <entry key="rule|text|R-3EF-GU4">Le nombre total d'offres reçues doit être égal au nombre d'offres reçues de grandes organisations plus le nombre d'offres reçues de micro-, petites et moyennes organisations.</entry>
 <entry key="rule|text|R-3EU-UGY">'Ville' (BT-5131-Procedure) ne peut pas dépasser 400 caractères</entry>
-<entry key="rule|text|R-3EY-J6P">'Date de publication' (BT-198) la valeur doit être comprise entre 2 jours et 10 ans après le 'Date d’envoi de l’avis' (BT-05)</entry>
 <entry key="rule|text|R-3F3-DAK">'Méthode utilisée pour calculer la valeur estimée de la concession' (BT-163-Tender) est obligatoire, quand: 'ID technique de l'offre' (OPT-321-Tender) est rempli.</entry>
 <entry key="rule|text|R-3F8-NUW">'Consommation d'énergie en kWh/an' (BT-813-LotResult) est obligatoire, quand: 'Liste EED' (Base) (BT-811(a)-LotResult) existe et n'est pas défini sur 'Étiquette énergétique'.</entry>
 <entry key="rule|text|R-3FA-SU7">'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) n'est pas autorisé, quand: La valeur de 'Type de procédure' (BT-105) n'est pas égale à 'Restreinte', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Dialogue compétitif', 'Partenariat d’innovation' et 'Autre procédure en plusieurs étapes', ou 'Date limite de réception des manifestations d’intérêt' (BT-630) est présent</entry>
@@ -411,7 +408,7 @@
 <entry key="rule|text|R-3K4-290">'Valeur réestimée des accords-cadres dans un groupe de lots' (BT-1561-NoticeResult) doit correspondre au modèle suivant: AmountValue</entry>
 <entry key="rule|text|R-3KK-ZDO">'Adresse postale' (BT-5101(a)-Part) n'est pas autorisé, quand: 'Ville' (BT-5131) n’est pas rempli</entry>
 <entry key="rule|text|R-3L8-M5E">'Liste EED (article)' (BT-811(b)-LotResult) doit contenir une valeur de la liste de codes (energy-efficiency-item)</entry>
-<entry key="rule|text|R-3LL-3UB">'Valeur maximale des accords-cadres dans ce groupe de lots' (BT-156-NoticeResult) est obligatoire, quand: expression|name|542</entry>
+<entry key="rule|text|R-3LL-3UB"></entry>
 <entry key="rule|text|R-3M1-VOG">'Code de justification de la non-divulgation' (BT-197-notice) ne peut pas être répété</entry>
 <entry key="rule|text|R-3M4-NKV">'Adresse postale' (BT-510(b)-Business) ne peut pas être répété</entry>
 <entry key="rule|text|R-3MC-ZA0">'Description' (BT-24-Part-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
@@ -429,7 +426,6 @@
 <entry key="rule|text|R-3QI-0OB">'Identifiant du lot ou groupe de lots' (BT-13714-Tender) est obligatoire, quand: 'Identifiant de l’offre' (BT-3201-Tender) est rempli.</entry>
 <entry key="rule|text|R-3R3-XZP">'Téléphone' (BT-503-Business) ne peut pas être répété</entry>
 <entry key="rule|text|R-3R7-Z22">'Ville' (OPP-110-Business) est obligatoire, quand: 'Numéro d’enregistrement' (BT-501-Business-European) est rempli.</entry>
-<entry key="rule|text|R-3SJ-5NM">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-3TB-BZ3">'Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué' (BT-76-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-3TI-DT3">'Autres acheteurs' (BT-111-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-3U5-U5P">'La signature ou le cachet électronique avancé(e) ou qualifié(e) [au sens du règlement (UE) № 910/2014] est requis(e)' (BT-744-Lot) doit contenir une valeur de la liste de codes (esignature-submission)</entry>
@@ -460,7 +456,6 @@
 <entry key="rule|text|R-3ZW-OUH">'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) doit contenir une valeur de la liste de codes (winner-selection-status)</entry>
 <entry key="rule|text|R-409-1BU">'Adresse postale' (BT-510(b)-UBO) n'est pas autorisé, quand: 'Adresse postale' (BT-510(a)-UBO) n’est pas rempli</entry>
 <entry key="rule|text|R-40R-QUP">'Profil de l’acheteur' (BT-508-Procedure-Buyer) doit correspondre au modèle suivant: URL</entry>
-<entry key="rule|text|R-40X-DUK">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-41V-86E">'Description des changements' (BT-141(a)-notice) n'est pas autorisé</entry>
 <entry key="rule|text|R-41Z-29T">'Activité du pouvoir adjudicateur' (BT-10-Procedure-Buyer) est obligatoire, quand: 'Forme juridique de l’acheteur' (BT-11) est l'un des suivants: 'Organisme de droit public'; 'Organisme de droit public, contrôlé par une autorité publique centrale'; 'Organisme de droit public, contrôlé par une autorité locale'; 'Organisme de droit public, contrôlé par une autorité régionale'; 'Autorité publique centrale'; 'Contractant du secteur de la défense'; 'Institution, organe ou agence de l’UE'; 'Organisation internationale'; 'Autorité locale'; 'Organisation qui passe un marché subventionné par un pouvoir adjudicateur'; 'Organisation qui passe un marché subventionné par une autorité publique centrale'; 'Organisation qui passe un marché subventionné par une autorité locale'; 'Organisation qui passe un marché subventionné par une autorité régionale'; 'Autorité régionale'.</entry>
 <entry key="rule|text|R-42R-104">'Organisation fournissant des informations sur la législation du travail' (OPT-301-Lot-EmployLegis) doit correspondre au modèle suivant: OrgOrTouchPointID</entry>
@@ -482,8 +477,10 @@
 <entry key="rule|text|R-47L-Y7X">'Identifiant de groupe' (BT-330-Procedure) doit correspondre au modèle suivant: GroupID</entry>
 <entry key="rule|text|R-47U-EMX">'Métrique d'économies EED' (OPT-081-LotResult) est obligatoire, quand: 'Économies d'énergie en kWh/an' (en kWh/an) (BT-814-LotResult) existe.</entry>
 <entry key="rule|text|R-48O-ZT2">'Nature complémentaire du marché' (BT-531-Procedure) ne peut pas être répété</entry>
+<entry key="rule|text|R-48Z-1D0">Un ou plusieurs codes pour 'Groupe d’informations non divulguées' (BT-195-notice) sont utilisés plusieurs fois.</entry>
 <entry key="rule|text|R-49A-VC1">'Informations complémentaires' (OPP-130-Business) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-49D-HC7">'Liste EED (article)' (BT-811(b)-LotResult) ne doit pas avoir d'espaces en début ou en fin</entry>
+<entry key="rule|text|R-49S-N8D">Il manque 'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556-NoticeResult) dans la valeur d’un groupe d’accord-cadre.</entry>
 <entry key="rule|text|R-4AB-YK0">'Adresse des documents de marché' (BT-15-Part) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-4AC-T0U">'Nature complémentaire du marché' (BT-531-Lot) doit contenir une valeur de la liste de codes (contract-nature)</entry>
 <entry key="rule|text|R-4AJ-BM0">'Nationalité du bénéficiaire effectif' (BT-706-UBO) est obligatoire, quand: 'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) est rempli.</entry>
@@ -508,7 +505,6 @@
 <entry key="rule|text|R-4IN-WTU">'Nomenclature complémentaire' (BT-263-Part) doit contenir une valeur de la liste de codes (cpv)</entry>
 <entry key="rule|text|R-4KI-XSJ">'Date de divulgation' (BT-198-notice) n'est pas autorisé, quand: 'Champ à publier ultérieurement' (BT-195-notice) est vide</entry>
 <entry key="rule|text|R-4KL-SBN">'Base légale de la procédure sans identifiant (description)' (BT-01(f)-Procedure) ne peut pas dépasser 400 caractères</entry>
-<entry key="rule|text|R-4KV-XZW">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-4L5-LUG">Chaque soumissionnaire au sein d’une partie soumissionnaire (OPT-300-Tenderer) doit appartenir à l’une des organisations définies (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-4LB-0WW">'Type de véhicule' (OPT-155-LotResult) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-4LK-7KO">'La valeur de la sous-traitance est connue' (BT-730-Tender) n'est pas autorisé, quand: 'Part sous-traitée' (BT-773-Tender) n’est pas 'Oui'</entry>
@@ -517,7 +513,6 @@
 <entry key="rule|text|R-4NV-J3N">La caractéristique 'listName' doit être présente pour 'Taille de l’opérateur économique' (BT-165-Organization-Company-List)</entry>
 <entry key="rule|text|R-4NZ-H3E">'Langues dans lesquelles l’avis en question est officiellement disponible' (BT-702(a)-notice) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-4O1-4MR">'Prestataire de services de passation de marché' (OPT-300-Procedure-SProvider) n'est pas autorisé</entry>
-<entry key="rule|text|R-4O7-9ZI">'Date de publication' (BT-198) la valeur doit être comprise entre 2 jours et 10 ans après le 'Date d’envoi de l’avis' (BT-05)</entry>
 <entry key="rule|text|R-4PA-IU3">'Le paiement électronique sera utilisé' (BT-93-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-4PB-GKY">'Il est mis fin au système d'acquisition dynamique' (BT-119-LotResult) n'est pas autorisé, quand: Le système d’acquisition dynamique n’est pas utilisé</entry>
 <entry key="rule|text|R-4QE-LUT">'Durée' (BT-36-Part) n'est pas autorisé</entry>
@@ -547,7 +542,6 @@
 <entry key="rule|text|R-4XC-5I9">La caractéristique 'listName' doit être présente pour 'Demande ou décision de recours' (BT-783-Review-List)</entry>
 <entry key="rule|text|R-4YD-ORK">'Date de conclusion du marché/concession' (BT-145-Contract) est obligatoire, quand: 'Identifiant offre contrat' (BT-3202-Contract) est rempli.</entry>
 <entry key="rule|text|R-4Z3-VLE">'Organisation qui fournit un accès hors ligne aux documents de marché' (OPT-301-Lot-DocProvider) n'est pas autorisé</entry>
-<entry key="rule|text|R-4ZC-5GQ">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-4ZM-110">'Justification de la durée de l’accord-cadre' (BT-109-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-4ZO-KIE">'Informations complémentaires' (OPP-130-Business) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-4ZU-5UE">Tout signataire d’un contrat (OPT-300) doit correspondre à l’une des organisations définies (OPT-200)</entry>
@@ -556,7 +550,6 @@
 <entry key="rule|text|R-514-G06">'Informations complémentaires sur la durée' (BT-781-Lot) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-518-HSD">'Date de publication' (OPP-012-notice) ne peut pas être répété</entry>
 <entry key="rule|text|R-51B-4DP">'Valeur de la solution du recours' (BT-793-Review) n'est pas autorisé, quand: 'Type de solution du recours' (BT-792-Review) n'est pas présent ou il n'est pas 'Décision'</entry>
-<entry key="rule|text|R-51O-R2H">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-51S-T9D">Une langue doit être indiquée pour 'Justification de la durée de l’accord-cadre' (BT-109-Lot)</entry>
 <entry key="rule|text|R-51Z-OS8">'Règlement sur les subventions étrangères' (BT-681-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-52D-QJT">'Les noms et les qualifications professionnelles du personnel chargé de l’exécution du marché doivent être mentionnés' (BT-79-Lot) doit contenir une valeur de la liste de codes (requirement-stage)</entry>
@@ -566,15 +559,14 @@
 <entry key="rule|text|R-52Z-KRT">'Identifiant du contrat' (BT-150-Contract) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-53R-6MC">'Chef de groupe' (OPP-050-Organization) est obligatoire, quand: L'organisation est un acheteur et il y a plus d'un acheteur.</entry>
 <entry key="rule|text|R-54C-6QN">'Description' (BT-122-Lot) ne peut être que dans une des langues officielles de l’avis</entry>
+<entry key="rule|text|R-55W-Y7L">Il manque 'ID technique du point de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) dans un point de contact.</entry>
 <entry key="rule|text|R-56I-IS3">'Type' (BT-539-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-56S-Y32">'Pays' (BT-514-Business) ne peut pas être répété</entry>
 <entry key="rule|text|R-574-8T1">'Organisation chargée des procédures de médiation' (OPT-301-Lot-Mediator) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-577-1PH">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-36)</entry>
 <entry key="rule|text|R-57H-K8W">'Téléphone' (BT-503-Organization-Company) ne peut pas être répété</entry>
 <entry key="rule|text|R-57H-VSZ">'Des informations sur les documents restreints sont disponibles à l’adresse suivante' (BT-615-Lot) est obligatoire, quand: 'L’accès à certains documents de marché est restreint' (BT-14-Lot) est restreint.</entry>
-<entry key="rule|text|R-57N-MMP">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-57R-8F1">La caractéristique 'listName' doit être présente pour 'Le nombre est une pondération' (BT-5421-LotsGroup-List)</entry>
-<entry key="rule|text|R-57T-OQE">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-582-0N7">'Date limite de réception des manifestations d’intérêt' (BT-630(d)-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-586-WT2">'Date d’envoi estimée des appels à manifestation d’intérêt' (BT-631-Lot) doit correspondre au modèle suivant: Date</entry>
 <entry key="rule|text|R-58P-GOO">'Pays d’origine du produit ou du service' (BT-191-Tender) n'est pas autorisé</entry>
@@ -597,6 +589,7 @@
 <entry key="rule|text|R-5GT-NS6">Le soumissionnaire principal ne peut pas agir en tant que'Organisation qui reçoit les offres'</entry>
 <entry key="rule|text|R-5HA-5FW">'Identifiant de l’avis antérieur' (BT-125(i)-Part) ne peut pas être répété</entry>
 <entry key="rule|text|R-5HW-G6D">'Nombre d'offres ou de demandes de participation/candidatures reçues' (BT-759-LotResult) ne peut pas être répété</entry>
+<entry key="rule|text|R-5HY-P32">'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556-NoticeResult) n'est pas autorisé, quand: Tous les lots appartenant au groupe de lots n’ont pas été attribués, ou il n’y a qu’un seul lot dans le groupe de lots qui fait l’objet d’un accord-cadre</entry>
 <entry key="rule|text|R-5I6-8OM">'Type d’instance chargée des procédures de recours' (BT-799-ReviewBody) ne peut pas être répété</entry>
 <entry key="rule|text|R-5IH-8DU">'Principales caractéristiques de la procédure et informations sur l'endroit où obtenir les règles complètes applicables à la procédure' (BT-88-Procedure-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-5IQ-UP7">'Secteur d’activité' (OPP-105-Business) ne peut pas être répété</entry>
@@ -646,7 +639,6 @@
 <entry key="rule|text|R-61Z-YOK">'ID du document de législation environnementale' (OPT-112-Part-EnvironLegis) n'est pas autorisé</entry>
 <entry key="rule|text|R-628-8OG">'Code postal' (BT-512-Organization-TouchPoint) n'est pas autorisé</entry>
 <entry key="rule|text|R-62F-V5G">'Nombre critère d’attribution' (BT-541-LotsGroup-WeightNumber) est obligatoire, quand: 'Description' - 'Critère d’attribution' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' – 'Le nombre est une valeur fixe' (BT-541-LotsGroup-FixedNumber), 'Nombre critère d’attribution' – 'Le nombre est un type de seuil' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) ne sont pas présents</entry>
-<entry key="rule|text|R-62H-JQS">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-62N-MVZ">'Justification de la durée de l’accord-cadre' (BT-109-Lot) n'est pas autorisé, quand: La durée du lot doit être supérieure à sept ans</entry>
 <entry key="rule|text|R-62V-ADZ">'Informations complémentaires' (BT-728-Lot) n'est pas autorisé, quand: 'Lieu d’exécution – Portée géographique' (BT-727) et 'Pays' (BT-5141) ne sont pas remplis</entry>
 <entry key="rule|text|R-63K-USI">Une langue doit être indiquée pour 'Description des modifications' (BT-202-Contract)</entry>
@@ -704,8 +696,8 @@
 <entry key="rule|text|R-6ME-7ZQ">'Adresse web de la législation fiscale' (OPT-110-Part-FiscalLegis) n'est pas autorisé</entry>
 <entry key="rule|text|R-6MH-OT7">'Identifiant offre contrat' (BT-3202-Contract) n'est pas autorisé</entry>
 <entry key="rule|text|R-6MV-ZN4">'Description' (BT-777-Lot) ne peut être présent qu’une seule fois par langue</entry>
+<entry key="rule|text|R-6N9-LTG">Il manque 'Résultat – Identifiants des lots' (BT-13713-LotResult) dans un résultat de lot.</entry>
 <entry key="rule|text|R-6NC-I79">'La commande en ligne sera utilisée' (BT-92-Lot) est obligatoire</entry>
-<entry key="rule|text|R-6NK-C9X">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-6NR-HO7">'Méthode utilisée pour calculer la valeur estimée de la concession' (BT-163-Tender) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-6O0-ZMS">La caractéristique 'listName' doit être présente pour 'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717-Lot-List)</entry>
 <entry key="rule|text|R-6O6-ZQ2">'ID technique de la partie appelante (TPA-XXX)' (OPT-210-Tenderer) est obligatoire, quand: 'ID technique de l'offre' (OPT-321-Tender) est rempli.</entry>
@@ -726,6 +718,7 @@
 <entry key="rule|text|R-6SA-VYU">La caractéristique 'listName' doit être présente pour 'Pays' (BT-514-Organization-Company-List)</entry>
 <entry key="rule|text|R-6SO-EH5">Toute référence à une organisation pour un rôle de prestataire de services (OPT-300-Procedure-SProvider) doit correspondre à l’une des organisations définies (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-6TC-BGB">'Subdivision pays (NUTS)' (BT-5071-Part) est obligatoire, quand: 'Lieu d’exécution – Portée géographique' (BT-727) n’est pas rempli et 'Pays' (BT-5141-UBO) possède des codes NUTS</entry>
+<entry key="rule|text|R-6TG-TEM">Il manque 'Valeur des paiements de l’offre' (BT-779-Tender) dans une offre.</entry>
 <entry key="rule|text|R-6TT-FMW">'Sous-type d’avis' (OPP-070-notice) est obligatoire</entry>
 <entry key="rule|text|R-6UC-KCK">'Informations complémentaires sur la justification de la non-divulgation' (BT-196-notice) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-6UU-FG6">'Le marché est attribué dans le contexte d’un accord-cadre' (BT-768-Contract) ne peut pas être répété</entry>
@@ -747,7 +740,6 @@
 <entry key="rule|text|R-71J-V5T">'Organisation fournissant des informations sur la législation du travail' (OPT-301-Part-EmployLegis) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-71K-GZS">'Numéro de publication au JO S' (OPP-011-notice) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-71T-49M">'Justification de l’absence d’indication de la pondération des critères d’attribution' (BT-733-LotsGroup) ne peut être présent qu’une seule fois par langue</entry>
-<entry key="rule|text|R-72D-80V">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-736-3O4">'Le nombre est une pondération' (BT-5421-Lot) doit contenir une valeur de la liste de codes (number-weight)</entry>
 <entry key="rule|text|R-738-QV9">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-25)</entry>
 <entry key="rule|text|R-73S-7UE">'Date de fin de durée' (BT-537-Part) n'est pas autorisé</entry>
@@ -760,7 +752,7 @@
 <entry key="rule|text|R-75P-6GW">'Point de contact' (BT-502-Organization-Company) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-75T-57G">'Type' (BT-539-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-765-7R2">'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) doit être positif.</entry>
-<entry key="rule|text|R-77F-0DW">'Date d'ouverture' (BT-132(d)-Lot) n'est pas autorisé, quand: 'Type de procédure' (BT-105-Procedure) n’est pas 'Ouverte'</entry>
+<entry key="rule|text|R-77F-0DW">'Date de l’ouverture publique' (BT-132(d)-Lot) n'est pas autorisé, quand: 'Type de procédure' (BT-105-Procedure) n’est pas 'Ouverte'</entry>
 <entry key="rule|text|R-77H-7RV">'Pourcentage maximal de la valeur du marché que le contractant peut sous-traiter' (BT-729-Lot) n'est pas autorisé, quand: 'Obligation que le soumissionnaire doit respecter en matière de sous-traitance' (BT-65_Lot) n’est pas 'Le contractant doit sous-traiter un pourcentage minimal du marché selon la procédure prévue au titre III de la directive 2009/81/CE.'</entry>
 <entry key="rule|text|R-77K-KT0">'Informations complémentaires' (BT-772-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-77Q-74K">'Type de nomenclature' (BT-26(m)-Procedure) n'est pas autorisé, quand: 'Nomenclature principale' (BT-262-Procedure) n’est pas rempli</entry>
@@ -836,6 +828,7 @@
 <entry key="rule|text|R-7VS-N3J">'Télécopieur' (BT-739-Organization-TouchPoint) doit correspondre au modèle suivant: PhoneNumber</entry>
 <entry key="rule|text|R-7VU-BVH">'Description' (BT-122-Lot) n'est pas autorisé, quand: 'Une enchère électronique est utilisée' (BT-767-Lot) n’est pas 'oui'</entry>
 <entry key="rule|text|R-7WF-AIG">'Groupe d’informations non divulguées' (BT-195-notice) n'est pas autorisé</entry>
+<entry key="rule|text|R-7WI-K7F">Il manque 'ID technique du contrat' (OPT-316-Contract) dans un marché ou 'Référence au contrat' (OPT-315-LotResult) dans un résultat de lot.</entry>
 <entry key="rule|text|R-7X8-WZW">'Lieu d’exécution' est obligatoire pour la procédure</entry>
 <entry key="rule|text|R-7Y9-JQW">Un acheteur ne peut pas être un soumissionnaire (main or subcontractor)</entry>
 <entry key="rule|text|R-7YD-GR9">La caractéristique 'listName' doit être présente pour 'La base juridique de la directive sur les véhicules propres pour établir la catégorie de procédure de passation de marché qui s’applique' (BT-735-Lot-List)</entry>
@@ -890,7 +883,6 @@
 <entry key="rule|text|R-8DU-AC8">'Adresse internet' (BT-505-Business) n'est pas autorisé</entry>
 <entry key="rule|text|R-8E0-O11">'Pays' (BT-5141-Lot) est obligatoire, quand: 'Lieu d’exécution – Portée géographique' (BT-727-Lot) n'est pas 'N’importe où' ou 'N’importe où dans l’Espace économique européen'.</entry>
 <entry key="rule|text|R-8E3-HCM">'Description' (BT-24-Procedure) n'est pas autorisé</entry>
-<entry key="rule|text|R-8F3-0R2">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-8FF-0JC">'Liste EED (base)' (BT-811(a)-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-8GT-FPD">'Base juridique' (BT-01(e)-Procedure) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-8GU-DL8">'Durée de validité des offres' (BT-98-Lot) n'est pas autorisé, quand: La valeur de 'Type de procédure' (BT-105) n'est pas égale à 'Ouverte' ou 'Autre procédure en une seule étape'</entry>
@@ -899,6 +891,7 @@
 <entry key="rule|text|R-8IE-DLL">'Informations complémentaires' (BT-728-Part-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-8IU-H2V">'Adresse postale' (BT-510(c)-Organization-TouchPoint) ne peut pas être répété</entry>
 <entry key="rule|text|R-8J1-1Q1">'Subdivision pays (NUTS)' (BT-507-Business) est obligatoire, quand: 'Pays' (BT-514-Business) possède des codes NUTS.</entry>
+<entry key="rule|text|R-8J5-LB2">Il manque 'Part sous-traitée' (BT-773-Tender) dans une offre.</entry>
 <entry key="rule|text|R-8JC-CXA">'Description' (BT-540-LotsGroup) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-8JD-5LS">'ID technique d'une offre reçue' (OPT-320-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-8JJ-Q1A">'Type de décision de recours' (BT-790-Review) n'est pas autorisé, quand: 'Demande ou décision de recours' (BT-783-Review) n'est pas présent ou il n'est pas 'Décision' ou la demande a été retirée</entry>
@@ -961,7 +954,7 @@
 <entry key="rule|text|R-96R-H5Z">'Description de l’objectif de qualité' (OPT-072-Lot) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-972-0NT">'Autres acheteurs' (BT-111-Lot) n'est pas autorisé, quand: 'Recours à un accord-cadre' (BT-765-Lot) ne fait pas partie des éléments suivants: 'Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence'; 'Accord-cadre, avec remise en concurrence'; 'Accord-cadre, sans remise en concurrence'</entry>
 <entry key="rule|text|R-972-NW2">'Le nombre est une valeur fixe' (BT-5422-Lot) doit contenir une valeur de la liste de codes (number-fixed)</entry>
-<entry key="rule|text|R-97B-5E5">'Date d'ouverture' (BT-132(d)-Lot) ne peut pas être répété</entry>
+<entry key="rule|text|R-97B-5E5">'Date de l’ouverture publique' (BT-132(d)-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-97P-YEV">'Nom' (BT-734-LotsGroup) n'est pas autorisé</entry>
 <entry key="rule|text|R-9B2-DZ5">Une organisation agissant en tant que sous-traitant ne peut pas avoir de 'Autres points de contact'</entry>
 <entry key="rule|text|R-9BH-N7S">'Nomenclature complémentaire' (BT-263-Procedure) doit contenir une valeur de la liste de codes (cpv)</entry>
@@ -999,7 +992,7 @@
 <entry key="rule|text|R-9MG-WIJ">Statistiques des soumissions reçues: Le nombre total de 'Offres reçues de soumissionnaires enregistrés dans des pays de l’Espace économique européen autres que le pays de l’acheteur' (BT-760-LotResult = t-oth-eea) doit être spécifié une seule fois</entry>
 <entry key="rule|text|R-9NA-SCU">Toute référence à la partie soumissionnaire de (OPT-310-Tender) doit correspondre à l’une des parties soumissionnaires définies (OPT-210-Tenderer)</entry>
 <entry key="rule|text|R-9NL-8CI">'Date de début' (BT-536-Lot) n'est pas autorisé</entry>
-<entry key="rule|text|R-9O0-I7Y">'Date d'ouverture' (BT-132(t)-Lot) n'est pas autorisé</entry>
+<entry key="rule|text|R-9O0-I7Y">'Heure de l’ouverture publique' (BT-132(t)-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-9O6-IB6">'Étiquette d'efficacité énergétique' (BT-812-LotResult) doit contenir une valeur de la liste de codes (energy-efficiency-label)</entry>
 <entry key="rule|text|R-9OI-X06">Une langue doit être indiquée pour 'Base juridique de la procédure (description)' (BT-01(d)-Procedure)</entry>
 <entry key="rule|text|R-9OO-YN4">'Téléphone' (BT-503-Business) ne peut pas dépasser 30 caractères</entry>
@@ -1043,6 +1036,7 @@
 <entry key="rule|text|R-A3K-3ZH">La caractéristique 'listName' doit être présente pour 'Objectif du marché public stratégique' (BT-06-Lot-List)</entry>
 <entry key="rule|text|R-A3Q-DUG">'Nombre maximal de lots pouvant être attribués à un soumissionnaire' (BT-33-Procedure) est obligatoire, quand: Il y a plusieurs lots.</entry>
 <entry key="rule|text|R-A4U-KMK">'Cet avis contient des informations concernant' (OPP-100-Business) ne doit pas avoir d'espaces en début ou en fin</entry>
+<entry key="rule|text|R-A4X-NTN">Il manque 'Nationalité du bénéficiaire effectif' (BT-706-UBO) chez le bénéficiaire effectif.</entry>
 <entry key="rule|text|R-A50-1V0">'Le paiement électronique sera utilisé' (BT-93-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-A51-PEX">'L’accès à certains documents de marché est restreint' (BT-14-Lot) doit contenir une valeur de la liste de codes (document-distribution)</entry>
 <entry key="rule|text|R-A53-N57">'Subdivision pays (NUTS)' (BT-507-UBO) n'est pas autorisé</entry>
@@ -1101,13 +1095,13 @@
 <entry key="rule|text|R-AMR-RX7">Le soumissionnaire principal ne peut pas agir en tant que'Organisation qui exécute le paiement'</entry>
 <entry key="rule|text|R-AN6-WV9">'Informations complémentaires' (BT-300-Procedure) n'est pas autorisé</entry>
 <entry key="rule|text|R-ANF-XP5">'Date limite de réception des demandes de participation/candidatures' (BT-1311(t)-Lot) n'est pas autorisé, quand: 'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) n’est pas rempli</entry>
-<entry key="rule|text|R-AO9-I8Z">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-AOO-25U">'Adresse postale' (BT-510(b)-Organization-Company) ne peut pas être répété</entry>
 <entry key="rule|text|R-AOU-3CI">'Langues dans lesquelles l’avis en question est officiellement disponible' (BT-702(b)-notice) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-APH-7K9">'Informations complémentaires' (BT-728-Lot) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-AQQ-US1">'Méthode utilisée pour calculer la valeur estimée de la concession' (BT-163-Tender-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-AQZ-2OF">Tout fournisseur d’informations sur les recours pour un lot (OPT-301-Lot-ReviewInfo) ou une partie (OPT-301-Part-ReviewInfo) doit correspondre à l’une des organisations définies (OPT-200-Organization-Company) à d’autres points de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-AR0-ASS">'Pays' (BT-5141-Part) est obligatoire, quand: 'Lieu d’exécution – Portée géographique' (BT-727-Part) est 'N’importe où' ou 'N’importe où dans l’Espace économique européen'.</entry>
+<entry key="rule|text|R-AR0-OPR">Une organisation manque son identifiant technique (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-ARR-F5W">Le soumissionnaire principal ne peut pas agir en tant que'Organisation qui fournit un accès hors ligne aux documents de marché'</entry>
 <entry key="rule|text|R-ARZ-PVM">'Nombre d'offres ou de demandes de participation/candidatures reçues' (BT-759-LotResult) doit être supérieur ou égal à 0. 'Nombre d'offres ou de demandes de participation/candidatures reçues' (BT-759-LotResult) doit être inférieur ou égal à 9999</entry>
 <entry key="rule|text|R-ASY-HWA">'Adresse des documents de marché' (BT-15-Part) n'est pas autorisé, quand: 'L’accès à certains documents de marché est restreint' (BT-14-Part) est restreint</entry>
@@ -1124,7 +1118,7 @@
 <entry key="rule|text|R-AVM-PWR">'Version de l’avis antérieur à modifier' (BT-758-notice) doit correspondre au modèle suivant: ProcedureVersionIDOrPublicationNumber</entry>
 <entry key="rule|text|R-AVW-8NE">'Informations complémentaires sur la justification de la non-divulgation' (BT-196-notice) ne peut être présent qu’une seule fois par langue</entry>
 <entry key="rule|text|R-AW7-D4W">'La valeur de la sous-traitance est connue' (BT-730-Tender) doit contenir une valeur de la liste de codes (indicator)</entry>
-<entry key="rule|text|R-AWY-5XJ">'999' n'est pas une valeur valide pour 'Rang du candidat recevant la prime' (BT-44-Lot). Veuillez utiliser une autre valeur.</entry>
+<entry key="rule|text|R-AWY-5XJ">'Rang du candidat recevant la prime' (BT-44-Lot) a été rempli avec un espace réservé automatique. Veuillez fournir une valeur correcte si nécessaire.</entry>
 <entry key="rule|text|R-AY8-F36">'Motifs du retrait de la demande de recours' (BT-798-Review) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-AY8-GW5">'Nombre maximal de candidats' (BT-113-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-AYM-VBT">'Nom officiel' (BT-500-UBO) n'est pas autorisé, quand: 'Nationalité du bénéficiaire effectif' (BT-706) n’est pas rempli</entry>
@@ -1141,7 +1135,6 @@
 <entry key="rule|text|R-B37-V2C">'Catégorie de véhicule' (BT-723-LotResult) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-B39-CPW">'Justification de la restriction de l’accès à certains documents de marché' (BT-707-Part) n'est pas autorisé</entry>
 <entry key="rule|text|R-B3L-HCG">Tout fournisseur d’informations sur la législation environnementale pour un lot (OPT-301-Lot-EnvironLegis) ou une partie (OPT-301-Part-EnvironLegis) doit correspondre à l’une des organisations définies (OPT-200-Organization-Company) à d’autres points de contact (OPT-201-Organization-Touchpoint)</entry>
-<entry key="rule|text|R-B3L-L5T">'Date de publication' (BT-198) la valeur doit être comprise entre 2 jours et 10 ans après le 'Date d’envoi de l’avis' (BT-05)</entry>
 <entry key="rule|text|R-B3R-NMQ">'Informations complémentaires' (BT-134-Lot) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-B42-8I5">La caractéristique 'schemeName' doit être présente pour 'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556-NoticeResult-Scheme)</entry>
 <entry key="rule|text|R-B59-VBU">'Méthode utilisée pour calculer la valeur estimée de la concession' (BT-163-Tender) n'est pas autorisé, quand: 'ID technique de l'offre' (OPT-321-Tender) n’est pas rempli</entry>
@@ -1160,11 +1153,9 @@
 <entry key="rule|text|R-BAP-LIK">'Subdivision pays (NUTS)' (BT-507-UBO) doit correspondre à l'un des codes NUTS spécifiés pour le 'Pays' (BT-514-UBO)</entry>
 <entry key="rule|text|R-BBD-0JL">'Motifs du retrait de la demande de recours' (BT-798-Review) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-BBH-A1X">'La base juridique de la directive sur les véhicules propres pour établir la catégorie de procédure de passation de marché qui s’applique' (BT-735-Lot) n'est pas autorisé, quand: 'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui'</entry>
-<entry key="rule|text|R-BBW-OPO">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-BC6-TEW">'Identifiant technique de l'examen' (BT-804-Review) n'est pas autorisé, quand: 'Demande ou décision de recours' (BT-783-Review) n'est pas présent</entry>
 <entry key="rule|text|R-BCD-C13">Le champ 'Identifiant offre contrat' (BT-3202-Contract) doit être différent de tout autre champ 'Identifiant offre contrat' dans l’avis.</entry>
 <entry key="rule|text|R-BCG-872">'Subdivision pays (NUTS)' (BT-5071-Lot) est obligatoire, quand: 'Lieu d’exécution – Portée géographique' (BT-727) n’est pas rempli et 'Pays' (BT-5141-UBO) possède des codes NUTS</entry>
-<entry key="rule|text|R-BCM-UDZ">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-BD9-0D6">'Critères marchés publics écologiques' (BT-805-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-BDB-RPB">Une langue doit être indiquée pour 'Description' (BT-09(b)-Procedure)</entry>
 <entry key="rule|text|R-BDI-O13">'Entrepreneur principal au sous-traitant' (OPT-301-Tenderer-MainCont) doit correspondre au modèle suivant: OrganizationID</entry>
@@ -1214,7 +1205,6 @@
 <entry key="rule|text|R-BQW-7W4">'Type d’instance chargée des procédures de recours' (BT-799-ReviewBody) n'est pas autorisé</entry>
 <entry key="rule|text|R-BQX-NL4">'Informations complémentaires' (BT-772-Lot) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-BR5-WS6">'Date prévue de publication d’un avis de marché dans le cadre de la procédure en question' (BT-127) doit être ultérieur à 'Date d’envoi de l’avis' (BT-05)</entry>
-<entry key="rule|text|R-BRV-OSC">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-BSA-6C2">'Organisation ou point de contact spécifique' (OPT-301-Part-ReviewOrg-Scheme) doit contenir une valeur de la liste de codes (player-type)</entry>
 <entry key="rule|text|R-BSJ-OT2">'Identifiant de la personnalisation (UBL)' (OPT-002-notice) ne peut pas être répété</entry>
 <entry key="rule|text|R-BTL-QDO">'Base juridique' (BT-01(c)-Procedure-Scheme) ne peut pas dépasser 100 caractères</entry>
@@ -1225,7 +1215,6 @@
 <entry key="rule|text|R-BU4-2QL">Chaque 'Groupe de lots' (BT-330-Procedure) utilisé pour la définition de la composition du groupe doit correspondre à un 'Groupe de lots' (BT-137-LotsGroup) existant</entry>
 <entry key="rule|text|R-BUN-2P2">'Identifiant interne' (BT-22-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-BV9-5FL">Le soumissionnaire principal ne peut pas agir en tant que'Organisation qui traite les offres'</entry>
-<entry key="rule|text|R-BVT-NK9">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-BVU-0OO">'Raison de la modification' (BT-200-Contract) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-BWE-0QK">'Description de la garantie financière' (BT-75-Lot) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-BXT-YTN">Vous devez fournir tous ou aucun des numéros du nombre total de 'Offres pour lesquelles il n’a pas été vérifié si elles sont recevables ou non' (BT-760-LotResult = t-no-verif), 'Offres vérifiées et jugées irrecevables' (BT-760-LotResult = t-verif-inad), et 'Offres vérifiées et jugées irrecevables en raison d’un prix ou d’un coût anormalement bas' (BT-760-LotResult = t-verif-inad-low)</entry>
@@ -1238,8 +1227,6 @@
 <entry key="rule|text|R-C1A-QH0">'Soumission par voie électronique' (BT-17-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-C2N-R12">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-33)</entry>
 <entry key="rule|text|R-C2T-N1D">'Code postal' (BT-512-Business) ne peut pas être répété</entry>
-<entry key="rule|text|R-C36-9HK">La caractéristique 'schemeName' doit être présente pour 'Identifiant de l’avis antérieur' (BT-125(i)-Lot-Scheme)</entry>
-<entry key="rule|text|R-C36-QZH">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-C4I-JVS">La caractéristique 'listName' doit être présente pour 'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763-Procedure-List)</entry>
 <entry key="rule|text|R-C4O-0A0">'La commande en ligne sera utilisée' (BT-92-Lot) doit contenir une valeur de la liste de codes (indicator)</entry>
 <entry key="rule|text|R-C4R-KFJ">'Autres informations sur les fonds de l’UE' (BT-6140-Lot) ne peut être présent qu’une seule fois par langue</entry>
@@ -1308,7 +1295,6 @@
 <entry key="rule|text|R-CSV-XQ3">'Méthode utilisée pour réduire l’incidence environnementale' (BT-774-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-CTH-WW0">'Télécopieur' (BT-739-Organization-TouchPoint) n'est pas autorisé</entry>
 <entry key="rule|text|R-CU7-UIU">La caractéristique 'listName' doit être présente pour 'Les mesures relevant de l’instrument relatif aux marchés publics internationaux sont applicables' (BT-684-Lot-List)</entry>
-<entry key="rule|text|R-CUO-CXF">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-CUW-2S2">'La raison pour laquelle un adjudicataire/attributaire n'a pas été choisi' (BT-144-LotResult) doit contenir une valeur de la liste de codes (non-award-justification)</entry>
 <entry key="rule|text|R-CV2-W6E">'Pays' (BT-5141-Procedure) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-CVF-T46">'Description du recours' (BT-789-Review) ne peut être que dans une des langues officielles de l’avis</entry>
@@ -1362,7 +1348,7 @@
 <entry key="rule|text|R-DFE-SV4">'Objectif du marché public stratégique' (BT-06-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-DFX-8SA">'Organisation qui fournit des précisions concernant l’introduction des recours' (OPT-301-Lot-ReviewInfo) ne peut pas être répété</entry>
 <entry key="rule|text|R-DFY-0OU">'Forme juridique soumissionnaire' (BT-761-Lot) ne peut pas être répété</entry>
-<entry key="rule|text|R-DGG-B2D">'Date d'ouverture' (BT-132(d)-Lot) doit correspondre au modèle suivant: Date</entry>
+<entry key="rule|text|R-DGG-B2D">'Date de l’ouverture publique' (BT-132(d)-Lot) doit correspondre au modèle suivant: Date</entry>
 <entry key="rule|text|R-DH7-Q55">'Type de nomenclature' (BT-26(a)-Lot) doit contenir une valeur de la liste de codes (classification-type)</entry>
 <entry key="rule|text|R-DHB-GD6">'Indication obligatoire de la sous-traitance' (BT-651-Lot) n'est pas autorisé, quand: 'Obligation que le soumissionnaire doit respecter en matière de sous-traitance' (BT-66) n’est pas rempli</entry>
 <entry key="rule|text|R-DHU-YHE">'Activité du pouvoir adjudicateur' (BT-10-Procedure-Buyer) n'est pas autorisé, quand: 'Forme juridique de l’acheteur' (BT-11-Procedure-Buyer) ne fait pas partie des éléments suivants: 'Organisme de droit public'; 'Organisme de droit public, contrôlé par une autorité publique centrale'; 'Organisme de droit public, contrôlé par une autorité locale'; 'Organisme de droit public, contrôlé par une autorité régionale'; 'Autorité publique centrale'; 'Contractant du secteur de la défense'; 'Institution, organe ou agence de l’UE'; 'Organisation internationale'; 'Autorité locale'; 'Organisation qui passe un marché subventionné par un pouvoir adjudicateur'; 'Organisation qui passe un marché subventionné par une autorité publique centrale'; 'Organisation qui passe un marché subventionné par une autorité locale'; 'Organisation qui passe un marché subventionné par une autorité régionale'; 'Autorité régionale'</entry>
@@ -1401,14 +1387,12 @@
 <entry key="rule|text|R-DWX-3GA">'Informations complémentaires' (BT-728-Part) n'est pas autorisé, quand: 'Informations complémentaires' (BT-728) et BT-5142 (BT-5142) ne sont pas remplis</entry>
 <entry key="rule|text|R-DXO-0LD">'Des informations sur les documents restreints sont disponibles à l’adresse suivante' (BT-615-Part) n'est pas autorisé</entry>
 <entry key="rule|text|R-DY4-BC4">'URL' (BT-124-Lot) ne peut pas être répété</entry>
-<entry key="rule|text|R-DY4-X1P">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-DY9-ZHL">'Date limite de réception des offres' (BT-131(t)-Lot) est obligatoire, quand: 'Date limite de réception des offres' (BT-131(d)-Lot) est rempli.</entry>
 <entry key="rule|text|R-DYK-IQD">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-t01)</entry>
 <entry key="rule|text|R-DYK-VPP">'Identifiant interne' (BT-22-Part) ne peut pas être répété</entry>
 <entry key="rule|text|R-DYL-DDP">'Organisation ou point de contact spécifique' (OPT-301-Part-TenderReceipt-Scheme) doit contenir une valeur de la liste de codes (player-type)</entry>
 <entry key="rule|text|R-DZR-BW6">'Une enchère électronique a lieu à l’adresse suivante' (BT-123-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-DZX-RQG">'Identifiant du lot ou groupe de lots' (BT-13714-Tender) n'est pas autorisé</entry>
-<entry key="rule|text|R-E0C-A64">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-E0C-E1H">'Lieu d’exécution – Portée géographique' (BT-727-Part) n'est pas autorisé, quand: 'Subdivision pays (NUTS)' (BT-5071-Part) est rempli</entry>
 <entry key="rule|text|R-E0F-442">'Valeur de la prime' (BT-644-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-E0H-0WC">'Avis précédent' (OPP-090-Procedure) doit correspondre au modèle suivant: ProcedureVersionIDOrPublicationNumber</entry>
@@ -1427,7 +1411,7 @@
 <entry key="rule|text|R-E4E-GPK">'Valeur des paiements de l’offre' (BT-779-Tender) doit correspondre au modèle suivant: AmountValue</entry>
 <entry key="rule|text|R-E4G-KIS">'Titre du recours' (BT-788-Review) n'est pas autorisé, quand: 'Demande ou décision de recours' (BT-783-Review) n'est pas présent</entry>
 <entry key="rule|text|R-E4Q-LF6">Le soumissionnaire principal ne peut pas agir en tant que'Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection de l’environnement, est applicable au lieu où la prestation doit être réalisée'</entry>
-<entry key="rule|text|R-E4Z-MUC">'Date d'ouverture' (BT-132(d)-Lot) n'est pas autorisé</entry>
+<entry key="rule|text|R-E4Z-MUC">'Date de l’ouverture publique' (BT-132(d)-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-E50-DZK">'Liste des actifs utilisés pour la prestation de services publics' (OPP-021-Contract) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-E5E-JGB">'ID technique du contrat' (OPT-316-Contract) ne peut pas être répété</entry>
 <entry key="rule|text|R-E5M-U84">'Activité du pouvoir adjudicateur' (BT-10-Procedure-Buyer) est obligatoire</entry>
@@ -1467,7 +1451,6 @@
 <entry key="rule|text|R-EHQ-1BK">'L’acheteur se réserve le droit d’attribuer le marché sur la base des offres initiales sans mener de négociations' (BT-120-Lot) n'est pas autorisé, quand: 'Type de procédure' (BT-105) n'est pas 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="rule|text|R-EI0-LGR">Si 'Participation réservée' (BT-71) est 'La participation est réservée à des organisations qui poursuivent une mission de service public et respectent d’autres conditions pertinentes énoncées dans la législation.', alors 'Durée' (BT-36) doit être inférieur ou égal à trois ans ou 'Date de début' (BT-536) être antérieur à 'Date de fin de durée' (BT-537) de trois ans au maximum</entry>
 <entry key="rule|text|R-EI7-KOH">'Lieu d’exécution – Portée géographique' (BT-727-Lot) n'est pas autorisé</entry>
-<entry key="rule|text|R-EJZ-J6N">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-EKN-UG7">'Titre' (BT-21-Procedure) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-EL1-BF7">'Description' (BT-201-Contract) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-EL2-MV7">'Il est mis fin à l’appel à la concurrence' (BT-756-Procedure) ne peut pas être répété</entry>
@@ -1477,7 +1460,6 @@
 <entry key="rule|text|R-ELD-7BL">'Type de soumissions reçues' (BT-760-LotResult) est obligatoire, quand: La valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) n'est pas égale à 'Le lauréat n’a pas encore été choisi, mais la mise en concurrence est toujours en cours.', et la valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) n'est pas égale à 'Aucun lauréat n’a été choisi et la mise en concurrence est clos.' ou 'La raison pour laquelle un adjudicataire/attributaire n'a pas été choisi' (BT-144-LotResult) n'est pas égale à 'Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu'.</entry>
 <entry key="rule|text|R-ELK-AOS">'ID technique du contrat' (OPT-316-Contract) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-ELL-YB8">'Des informations sur les documents restreints sont disponibles à l’adresse suivante' (BT-615-Part) doit correspondre au modèle suivant: URL</entry>
-<entry key="rule|text|R-ELM-8WC">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-ELO-86W">'Identifiant de l'organe d'examen' (BT-807-Review) ne peut pas être répété</entry>
 <entry key="rule|text|R-ELW-BNM">'Pays' (BT-5141-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-EMB-JBI">'Nombre de critères de sélection seconde étape' (BT-752-Lot-WeightNumber) n'est pas autorisé</entry>
@@ -1485,7 +1467,6 @@
 <entry key="rule|text|R-EMJ-GRB">'Identifiant offre contrat' (BT-3202-Contract) est obligatoire, quand: 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est 'Au moins un lauréat a été choisi.' et 'ID technique du résultat du lot (RES-XXX)' (OPT-322) est rempli.</entry>
 <entry key="rule|text|R-EMY-NNT">'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) n'est pas autorisé, quand: Aucun accord-cadre n'est impliqué</entry>
 <entry key="rule|text|R-EN3-Q1Q">La caractéristique 'schemeName' doit être présente pour 'Organisation ou point de contact spécifique' (OPT-301-Tenderer-SubCont-Scheme)</entry>
-<entry key="rule|text|R-EN4-C6E">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-ENI-GSS">'Point de contact' (BT-502-Business) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-ENK-UY5">'Recours à un accord-cadre' (BT-765-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-EOJ-CBL">'Organisation qui traite les offres' (OPT-301-Lot-TenderEval) doit correspondre au modèle suivant: OrgOrTouchPointID</entry>
@@ -1654,6 +1635,7 @@
 <entry key="rule|text|R-GAR-6A4">'Date et heure du recours' (BT-787-Review) n'est pas autorisé</entry>
 <entry key="rule|text|R-GAZ-1EB">'Identifiant interne' (BT-22-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-GB2-KKF">'Nom officiel' (BT-500-Business) n'est pas autorisé</entry>
+<entry key="rule|text|R-GBB-VEE">Il manque 'Informations complémentaires sur la valeur des paiements de l’offre' (BT-780-Tender) dans une offre.</entry>
 <entry key="rule|text|R-GBR-E70">Une langue doit être indiquée pour 'Description' (BT-540-LotsGroup)</entry>
 <entry key="rule|text|R-GC3-Y6Y">'Date limite de réception des réponses' (BT-800(d)-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-GC6-X8V">'Description des modifications' (BT-202-Contract) doit être présent dans toutes les langues officielles de l’avis</entry>
@@ -1812,7 +1794,6 @@
 <entry key="rule|text|R-I1D-0Q0">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-24)</entry>
 <entry key="rule|text|R-I2T-H1J">'Pays' (BT-5141-Procedure) ne peut pas être répété</entry>
 <entry key="rule|text|R-I5J-5ZO">'Organisation chargée des procédures de médiation' (OPT-301-Lot-Mediator) ne peut pas être répété</entry>
-<entry key="rule|text|R-I5J-D2J">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-I5S-JI5">'Télécopieur' (BT-739-Organization-TouchPoint) est obligatoire, quand: 'Adresse électronique' (BT-506-Organization-TouchPoint), 'Téléphone' (BT-503-Organization-TouchPoint), 'Nom officiel' (BT-500-Organization-TouchPoint), 'Adresse internet' (BT-505-Organization-TouchPoint), 'Adresse URL pour l'échange d'informations' (BT-509-Organization-TouchPoint) ne sont pas remplis; 'ID technique du point de contact (TPO-XXX)' (OPT-201-Organization-TouchPoint) est rempli</entry>
 <entry key="rule|text|R-I5U-5H8">'Valeur de tous les contrats attribués dans cet avis' (BT-161-NoticeResult) doit correspondre au modèle suivant: AmountValue</entry>
 <entry key="rule|text|R-I62-NWQ">'Code postal' (BT-5121-Part) n'est pas autorisé, quand: 'Ville' (BT-5131) n’est pas rempli</entry>
@@ -1851,12 +1832,10 @@
 <entry key="rule|text|R-ICZ-TMZ">'Bénéficiaire effectif ultime' (OPT-160-UBO) n'est pas autorisé, quand: 'Nom officiel' (BT-500-UBO) n’est pas rempli</entry>
 <entry key="rule|text|R-ID6-SBY">'Identifiant de la version UBL (UBL)' (OPT-001-notice) est obligatoire</entry>
 <entry key="rule|text|R-ID7-J4X">'Le marché est au moins partiellement financé par des fonds de l’Union européenne' (BT-60-Lot) est obligatoire</entry>
-<entry key="rule|text|R-ID9-8YC">La caractéristique 'schemeName' doit être présente pour 'Identifiant de l’avis antérieur' (BT-125(i)-Part-Scheme)</entry>
 <entry key="rule|text|R-IDK-BO5">'Quantité d'efficacité énergétique' (BT-815-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-IDO-DNT">Une organisation agissant en tant que contractant principal ne peut pas avoir de 'Autres points de contact'</entry>
 <entry key="rule|text|R-IDP-M6E">'Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours' (BT-41-Lot) est obligatoire</entry>
 <entry key="rule|text|R-IE4-78B">'Ce lot sera relancé' (BT-634-Lot) doit contenir une valeur de la liste de codes (indicator)</entry>
-<entry key="rule|text|R-IE8-CP8">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-IEQ-Y52">'Exception à l'application de la mesure IPI' (BT-687-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-IEU-4Q4">'Organisation ou point de contact spécifique' (OPT-301-Lot-ReviewInfo-Scheme) doit contenir une valeur de la liste de codes (player-type)</entry>
 <entry key="rule|text|R-IF7-MO3">'Nomenclature principale' (BT-262-Part) est obligatoire</entry>
@@ -1913,12 +1892,12 @@
 <entry key="rule|text|R-IYT-3LL">'ID technique du contrat' (OPT-316-Contract) n'est pas autorisé</entry>
 <entry key="rule|text|R-IYX-S9B">'Informations complémentaires' (BT-134-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-IZ3-4JF">'Justification de l’absence d’indication de la pondération des critères d’attribution' (BT-733-Lot) ne peut être que dans une des langues officielles de l’avis</entry>
+<entry key="rule|text|R-IZB-7G8">Il manque 'Soumissionnaire' (OPT-300-Tenderer) chez un soumissionnaire.</entry>
 <entry key="rule|text|R-IZO-0NF">'L’offre est une variante' (BT-193-Tender) n'est pas autorisé</entry>
 <entry key="rule|text|R-IZO-C7I">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-e4)</entry>
 <entry key="rule|text|R-IZO-CMO">'Recettes estimées provenant de l’acheteur ayant attribué la concession' (BT-160-Tender) ne peut pas être répété</entry>
 <entry key="rule|text|R-IZT-NC2">La caractéristique 'listName' doit être présente pour 'Une garantie est requise' (BT-751-Lot-List)</entry>
 <entry key="rule|text|R-J00-IVK">'Identifiant offre contrat' (BT-3202-Contract) n'est pas autorisé, quand: 'ID technique du contrat' (OPT-316-Contract) n’est pas rempli; 'ID technique de l'offre' (OPT-321-Tender) n’est pas rempli</entry>
-<entry key="rule|text|R-J09-0A0">La caractéristique 'schemeName' doit être présente pour 'Identifiant de la section' (BT-1501(n)-Contract-Scheme)</entry>
 <entry key="rule|text|R-J0K-B67">'Arrangement financier' (BT-77-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-J15-475">'Pays' (OPP-112-Business) n'est pas autorisé, quand: Cela s’applique à l’inscription au registre du commerce de l’UE</entry>
 <entry key="rule|text|R-J1C-U9E">'La commande en ligne sera utilisée' (BT-92-Lot) n'est pas autorisé</entry>
@@ -1984,7 +1963,6 @@
 <entry key="rule|text|R-JLQ-DDV">'Lots inclus' (BT-1375-Procedure) doit être associé à un 'Résultat procédure par lot' (BT-137-Lots) existant</entry>
 <entry key="rule|text|R-JM5-26L">'Code de l’obligation d’exécution' (OPT-060-Lot) doit contenir une valeur de la liste de codes (conditions)</entry>
 <entry key="rule|text|R-JM7-JBS">'Informations complémentaires' (BT-300-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
-<entry key="rule|text|R-JM8-CLH">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-JMN-T2M">'Valeur de tous les contrats attribués dans cet avis' (BT-161-NoticeResult) doit être positif.</entry>
 <entry key="rule|text|R-JNM-RKX">'Identifiant de l’avis antérieur' (BT-125(i)-Part) n'est pas autorisé</entry>
 <entry key="rule|text|R-JNV-O9R">'L'exécution est réservée à une profession particulière. Référence à la base juridique' (OPT-070-Lot) ne peut pas dépasser 4 000 caractères</entry>
@@ -1994,6 +1972,7 @@
 <entry key="rule|text|R-JPW-0DM">Tout fournisseur de documents pour un lot (OPT-301-Lot-DocProvider) ou une partie (OPT-301-Part-DocProvider) doit correspondre à l’une des organisations définies (OPT-200-Organization-Company) à d’autres points de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-JQ3-Q4N">'Identifiant des fonds de l’UE' (BT-5011-Contract) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-JQH-9OY">'Description' (BT-201-Contract) n'est pas autorisé</entry>
+<entry key="rule|text|R-JQI-KCC">Il manque 'Nombre d'Nombre d'offres ou de demandes de participation/candidatures reçues' (BT-759-LotResult) dans un résultat de lot.</entry>
 <entry key="rule|text|R-JQM-K79">'Adresse postale' (BT-5101(a)-Part) ne peut pas être répété</entry>
 <entry key="rule|text|R-JRA-L3U">'Recettes estimées provenant de l’acheteur ayant attribué la concession' (BT-160-Tender-Currency) doit contenir une valeur de la liste de codes (currency)</entry>
 <entry key="rule|text|R-JS1-NVO">'Type de nomenclature' (BT-26(m)-Part) doit contenir une valeur de la liste de codes (classification-type)</entry>
@@ -2031,7 +2010,6 @@
 <entry key="rule|text|R-K42-YYN">'ID technique de l'organisation (ORG-XXX)' (OPT-200-Organization-Company) n'est pas autorisé</entry>
 <entry key="rule|text|R-K44-695">Si 'Type de formulaire' (BT-03) est 'Notification préalable d’attribution directe', alors 'Type d’avis' (BT-02) doit être 'Avis en cas de transparence ex ante volontaire'</entry>
 <entry key="rule|text|R-K44-JP5">L’acheteur n’est pas établi dans l’Espace économique européen ni dans un pays associé</entry>
-<entry key="rule|text|R-K4B-405">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-K61-41O">'Le nombre est une pondération' (BT-7531-Lot) n'est pas autorisé, quand: 'Les critères seront appliqués pour sélectionner les candidats à inviter pour la seconde étape de la procédure' (BT-40) n’est pas 'oui' ou 'Le nombre est un type de seuil' (BT-7532) est rempli</entry>
 <entry key="rule|text|R-K6N-LJX">'Liste EED (article)' (BT-811(b)-LotResult) n'est pas autorisé</entry>
 <entry key="rule|text|R-K6Q-AXM">'Informations relatives au soumissionnaire qui peuvent être complétées après la date limite de présentation des offres' (BT-771-Lot) ne peut pas être répété</entry>
@@ -2050,7 +2028,6 @@
 <entry key="rule|text|R-KAQ-QWW">Si 'Base juridique' (BT-01) est 'Directive 2009/81/CE', 'La procédure est accélérée' (BT-106) peut être 'Oui' uniquement si 'Type de procédure' (BT-105) est 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="rule|text|R-KB0-G6H">'Valeur de l’offre recevable la plus élevée' (BT-711-LotResult) n'est pas autorisé, quand: La valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est égale à 'Le lauréat n’a pas encore été choisi, mais la mise en concurrence est toujours en cours.', ou la valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est égale à 'Aucun lauréat n’a été choisi et la mise en concurrence est clos.' et 'La raison pour laquelle un adjudicataire/attributaire n'a pas été choisi' (BT-144-LotResult) est égale à 'Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu'</entry>
 <entry key="rule|text|R-KB3-NKC">'Informations complémentaires' (BT-728-Procedure) ne peut être présent qu’une seule fois par langue</entry>
-<entry key="rule|text|R-KC0-S5R">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-KC7-EYG">'Adresse des documents de marché' (BT-15-Part) doit correspondre au modèle suivant: URL</entry>
 <entry key="rule|text|R-KC8-KU9">'Adresse de soumission' (BT-18-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-KC9-Y0L">'Le Titulaire/lauréat est coté sur un marché réglementé' (BT-746-Organization) doit contenir une valeur de la liste de codes (indicator)</entry>
@@ -2064,6 +2041,7 @@
 <entry key="rule|text|R-KDZ-0RX">'Description' (BT-762-notice) ne peut être présent qu’une seule fois par langue</entry>
 <entry key="rule|text|R-KE0-VOX">'Valeur de tous les contrats attribués dans cet avis' (BT-161-NoticeResult) est obligatoire, quand: Il y a un lot attribué sans accord-cadre ou contrat dans le cadre d'un accord-cadre.</entry>
 <entry key="rule|text|R-KES-O23">'Pays' (BT-514-Business) ne doit pas avoir d'espaces en début ou en fin</entry>
+<entry key="rule|text|R-KEY-3G1">Il manque 'Entrepreneur principal au sous-traitant' (OPT-301-Tenderer-MainCont) chez le sous-traitant d’un soumissionnaire.</entry>
 <entry key="rule|text|R-KEY-PVO">'Nombre maximal de lots pouvant être attribués à un soumissionnaire' (BT-33-Procedure) doit correspondre au modèle suivant: Integer</entry>
 <entry key="rule|text|R-KF3-GJV">'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) n'est pas autorisé, quand: Aucun accord-cadre n'est impliqué</entry>
 <entry key="rule|text|R-KFR-TEP">'Nombre de critères de sélection seconde étape' (BT-752-Lot-WeightNumber) ne peut pas être répété</entry>
@@ -2096,7 +2074,6 @@
 <entry key="rule|text|R-KQJ-UKJ">'Référence au contrat' (OPT-315-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-KR4-VA2">'Le nombre est une pondération' (BT-5421-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-KR6-Q0G">'Durée' (OPA-36-Part-Number) n'est pas autorisé, quand: 'Date de début' (BT-536-Part) et 'Date de fin de durée' (BT-537-Part) sont présents, ou 'Autre durée' (BT-538-Part) est présent</entry>
-<entry key="rule|text|R-KRV-FNJ">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-KS5-WZD">'L'exécution est réservée à une profession particulière. Référence à la base juridique' (OPT-070-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-KSK-7VV">'Code de justification de la non-divulgation' (BT-197-notice) est obligatoire, quand: 'Champ à publier ultérieurement' (BT-195-notice) est rempli</entry>
 <entry key="rule|text|R-KSS-70F">'URL du recours' (BT-794-Review) ne peut pas dépasser 400 caractères</entry>
@@ -2111,8 +2088,8 @@
 <entry key="rule|text|R-KW3-NRX">'Identifiant interne' (BT-22-Lot) doit être différent de tout autre 'Identifiant interne' dans l'avis.</entry>
 <entry key="rule|text|R-KW9-T3L">'Des informations sur les documents restreints sont disponibles à l’adresse suivante' (BT-615-Part) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-KWW-BME">'Date à laquelle l'adjudicataire/attributaire a été choisi' (BT-1451-Contract) doit correspondre au modèle suivant: Date</entry>
-<entry key="rule|text|R-KXK-4IL">Identifiant de l’avis antérieur' (BT-125(i)-Lot-Scheme) doit contenir une valeur de la liste de codes (notice-reference)</entry>
 <entry key="rule|text|R-KXT-4N5">'Type de solution du recours' (BT-792-Review) doit contenir une valeur de la liste de codes (remedy-type)</entry>
+<entry key="rule|text|R-KXV-0IT">Il manque 'Type de solution du recours' (BT-792-Review) dans un recours.</entry>
 <entry key="rule|text|R-KY4-0FY">La caractéristique 'listName' doit être présente pour 'Part sous-traitée' (BT-773-Tender-List)</entry>
 <entry key="rule|text|R-KYQ-WYK">'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) ne peut pas être répété</entry>
 <entry key="rule|text|R-KZ0-V96">'L’acheteur est une entité adjudicatrice' (BT-740-Procedure-Buyer) ne peut pas être répété</entry>
@@ -2153,7 +2130,7 @@
 <entry key="rule|text|R-LFS-5S9">'Nom officiel' (BT-500-Organization-TouchPoint-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-LG9-9J2">'Quantité' (BT-25-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-LGS-T3Z">'Recours à un accord-cadre' (BT-765-Part) ne doit pas avoir d'espaces en début ou en fin</entry>
-<entry key="rule|text|R-LH3-A27">'Date d'ouverture' (BT-132(t)-Lot) est obligatoire, quand: 'Date limite de demande d’informations complémentaires' (BT-132(d)-Lot) n'est pas rempli.</entry>
+<entry key="rule|text|R-LH3-A27">'Heure de l’ouverture publique' (BT-132(t)-Lot) est obligatoire, quand: 'Date limite de demande d’informations complémentaires' (BT-132(d)-Lot) n'est pas rempli.</entry>
 <entry key="rule|text|R-LIL-P4Y">Il ne peut y avoir plus d'un 'Note minimale' ou plus d'un 'Nombre maximal d’offres acceptées' pour 'Le nombre est un type de seuil' (BT-5423) pour chaque critère dans ce groupe de lots</entry>
 <entry key="rule|text|R-LIR-64E">'Nom' (BT-734-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-LJ6-0DS">'Adresse postale' (BT-5101(a)-Lot) n'est pas autorisé, quand: 'Ville' (BT-5131) n’est pas rempli</entry>
@@ -2170,7 +2147,6 @@
 <entry key="rule|text|R-LPT-TIY">Pour un 'Critères d'attribution' (BG-707) donné, 'Le nombre est une pondération' (BT-5421) doit être 'Ordre d’importance' pour la totalité ou pour aucun des éléments de 'Critère d’attribution' (BG-38)</entry>
 <entry key="rule|text|R-LPY-1LM">'Adresse internet' (BT-505-Organization-Company) n'est pas autorisé</entry>
 <entry key="rule|text|R-LQ3-WB6">'Langues dans lesquelles les offres ou demandes de participation/candidatures peuvent être présentées' (BT-97-Lot) ne peut pas être répété</entry>
-<entry key="rule|text|R-LQA-UYO">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-LQF-MEP">'Justification de la procédure accélérée' (BT-1351-Procedure) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-LQG-8CY">'URL de l’annonce' (OPP-122-Business) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-LR5-73X">Une langue doit être indiquée pour 'Méthode utilisée pour calculer la valeur estimée de la concession' (BT-163-Tender)</entry>
@@ -2296,7 +2272,6 @@
 <entry key="rule|text|R-MX3-SZD">La caractéristique 'schemeName' doit être présente pour 'ID technique d'une offre reçue' (OPT-320-LotResult-Scheme)</entry>
 <entry key="rule|text|R-MXA-BE0">'Base légale de la procédure sans identifiant (description)' (BT-01(f)-Procedure) n'est pas autorisé</entry>
 <entry key="rule|text|R-MXP-FJO">'Adresse de soumission' (BT-18-Lot) doit correspondre au modèle suivant: URL</entry>
-<entry key="rule|text|R-MXX-45Q">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-MXX-HJ9">'Nature des services de transport' (OPP-040-Procedure) ne peut pas être répété</entry>
 <entry key="rule|text|R-MY2-0SB">'ID technique du contrat' (OPT-316-Contract) doit correspondre au modèle suivant: ContractID</entry>
 <entry key="rule|text|R-MYZ-6HR">'Les mesures relevant de l’instrument relatif aux marchés publics internationaux sont applicables' (BT-684-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
@@ -2318,7 +2293,6 @@
 <entry key="rule|text|R-N4S-3M1">'Subdivision pays (NUTS)' (BT-5071-Lot) n'est pas autorisé, quand: 'Lieu d’exécution – Portée géographique' (BT-727) est rempli ou 'Pays' (BT-5141) n’est pas rempli</entry>
 <entry key="rule|text|R-N4X-O47">Si 'Nature principale du marché' (BT-23) est 'Marché de travaux' et 'Type de nomenclature' est CPV, alors 'Nomenclature principale' (BT-262) doit être 45</entry>
 <entry key="rule|text|R-N54-1QY">'Pays' (BT-514-UBO) ne peut pas être répété</entry>
-<entry key="rule|text|R-N5H-TM8">Identifiant de l’avis antérieur' (BT-125(i)-Part-Scheme) doit contenir une valeur de la liste de codes (notice-reference)</entry>
 <entry key="rule|text|R-N5L-9H9">'Valeur des paiements de l’offre' (BT-779-Tender) doit être positif.</entry>
 <entry key="rule|text|R-N5R-R6H">'Facturation électronique' (BT-743-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-N75-2YE">'Importance des actifs essentiels fournis par rapport à l’ensemble des actifs nécessaires à la prestation de services publics' (OPP-022-Contract) ne peut pas être répété</entry>
@@ -2408,7 +2382,6 @@
 <entry key="rule|text|R-NYO-TJ0">'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) n'est pas autorisé</entry>
 <entry key="rule|text|R-NYQ-IM5">'Description des conditions du marché (hors affectation des recettes)' (OPP-031-Tender) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-NZ5-D7P">'Télécopieur' (BT-739-Organization-Company) ne peut pas dépasser 30 caractères</entry>
-<entry key="rule|text|R-NZI-7AJ">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-NZM-1OL">'Code postal' (BT-5121-Procedure) n'est pas autorisé</entry>
 <entry key="rule|text|R-O06-3OY">'Informations complémentaires sur la durée' (BT-781-Lot) est obligatoire</entry>
 <entry key="rule|text|R-O12-BOI">'Date limite de demande d’informations complémentaires' (BT-13) doit être antérieur ou identique à 'Date limite de réception des demandes de participation/candidatures' (BT-1311)</entry>
@@ -2487,6 +2460,7 @@
 <entry key="rule|text|R-ORD-5OS">'Nombre de personnes ayant déposées une demande de recours' (BT-712(a)-LotResult) doit contenir une valeur de la liste de codes (review-type)</entry>
 <entry key="rule|text|R-OS0-QIK">'Adresse postale' (BT-510(c)-Organization-Company) n'est pas autorisé, quand: 'Adresse postale' (BT-510(b)-Organization-Company) n’est pas rempli</entry>
 <entry key="rule|text|R-OS5-1BJ">'Pays' (BT-514-Organization-TouchPoint) ne doit pas avoir d'espaces en début ou en fin</entry>
+<entry key="rule|text|R-OSD-4R2">Il manque 'Nombre de critères de sélection seconde étape' (BT-752-Lot-ThresholdNumber) ou 'Nombre de critères de sélection seconde étape' (BT-752-Lot-WeightNumber) dans le paramètre du critère de sélection.</entry>
 <entry key="rule|text|R-OSH-N0D">'Type de solution du recours' (BT-792-Review) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-OSQ-GMB">'Durée de validité des offres' (OPA-98-Lot-Number) n'est pas autorisé</entry>
 <entry key="rule|text|R-OT5-XFM">Si 'Type de formulaire' (BT-03) est 'Modification du marché', alors 'Type d’avis' (BT-02) doit être 'Avis de modification de marché'</entry>
@@ -2565,6 +2539,7 @@
 <entry key="rule|text|R-PFC-AV4">'Activité de l’entité adjudicatrice' (BT-610-Procedure-Buyer) ne peut pas être répété</entry>
 <entry key="rule|text|R-PFD-5IL">Une langue doit être indiquée pour 'Informations complémentaires' (BT-300-Part)</entry>
 <entry key="rule|text|R-PFT-77Y">'Description de l’objectif de qualité' (OPT-072-Lot) n'est pas autorisé</entry>
+<entry key="rule|text|R-PFU-0U1">Il manque 'Pays d’origine du produit ou du service' (BT-191-Tender) dans une offre.</entry>
 <entry key="rule|text|R-PFZ-RQ0">'Type de décision de recours' (BT-790-Review) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-PG5-7QL">'Base juridique de la procédure' (BT-01-notice) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-PGS-0H6">'Organisation qui reçoit les offres' (OPT-301-Part-TenderReceipt) ne doit pas avoir d'espaces en début ou en fin</entry>
@@ -2589,7 +2564,6 @@
 <entry key="rule|text|R-PL8-4CL">'Type de décision de recours' (BT-790-Review) est obligatoire, quand: 'Demande de recours retirée' (BT-796-Review) est défini sur 'oui'.</entry>
 <entry key="rule|text|R-PMG-185">La caractéristique 'listName' doit être présente pour 'Participation réservée' (BT-71-Lot-List)</entry>
 <entry key="rule|text|R-PMI-EAT">'Méthode utilisée pour réduire l’incidence environnementale' (BT-774-Lot) doit contenir une valeur de la liste de codes (environmental-impact)</entry>
-<entry key="rule|text|R-PN1-90P">'Date de publication' (BT-198) la valeur doit être comprise entre 2 jours et 10 ans après le 'Date d’envoi de l’avis' (BT-05)</entry>
 <entry key="rule|text|R-PN7-L0O">'Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué' (BT-76-Lot) est obligatoire, quand: 'Forme juridique soumissionnaire' (BT-761-Lot) est 'oui'.</entry>
 <entry key="rule|text|R-PNG-1YX">'Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre' (BT-31-Procedure) doit correspondre au modèle suivant: Integer</entry>
 <entry key="rule|text|R-POE-2JS">'Description du recours' (BT-789-Review) n'est pas autorisé</entry>
@@ -2641,6 +2615,7 @@
 <entry key="rule|text|R-Q4X-S8O">La caractéristique 'listName' doit être présente pour 'Le nombre est un type de seuil' (BT-7532-Lot-List)</entry>
 <entry key="rule|text|R-Q53-30O">Si 'Type de formulaire' (BT-03) est 'Planification', alors 'Type d’avis' (BT-02) doit être 'Avis annonçant la publication d’un avis de préinformation ou d’un avis périodique indicatif sur un profil d’acheteur', 'Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information', 'Avis de préinformation ou avis périodique indicatif utilisé pour raccourcir les délais de réception des offres' ou 'Avis de préinformation relatif à des services publics de transport de voyageurs'</entry>
 <entry key="rule|text|R-Q53-JFM">'Partie soumissionnaire' (OPT-310-Tender) n'est pas autorisé, quand: 'ID technique de l'offre' (OPT-321-Tender) n’est pas rempli</entry>
+<entry key="rule|text|R-Q5S-9O8">Il manque 'Type d’instance chargée des procédures de recours' (BT-799-ReviewBody) dans un recours.</entry>
 <entry key="rule|text|R-Q5V-1SI">'Organisation dont le budget est utilisé pour payer le marché' (OPT-301-LotResult-Financing) n'est pas autorisé</entry>
 <entry key="rule|text|R-Q5Z-SVE">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-26)</entry>
 <entry key="rule|text|R-Q6L-WDD">'Nombre de demandes d'offre qui relèvent de cette mesure IPI' (BT-686-LotResult) doit être supérieur ou égal à 0. 'Nombre de demandes d'offre qui relèvent de cette mesure IPI' (BT-686-LotResult) doit être inférieur ou égal à 9999</entry>
@@ -2669,7 +2644,6 @@
 <entry key="rule|text|R-QAY-8S3">'Date souhaitée de publication de l'avis' (BT-738-notice) doit être compris entre 0 et 60 jours après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-QBD-HMJ">'Quantité d'efficacité énergétique' (BT-815-LotResult) n'est pas autorisé, quand: 'Liste EED' (Basis) (BT-811(a)-LotResult) n'existe pas</entry>
 <entry key="rule|text|R-QBU-VVH">'Ville' (BT-513-Organization-TouchPoint) est obligatoire, quand: 'Pays' (BT-514-Organization-TouchPoint) est renseigné.</entry>
-<entry key="rule|text|R-QC6-1AF">La caractéristique 'schemeName' doit être présente pour 'Avis qui a créé l'accord-cadre' (OPT-100-Contract-Scheme)</entry>
 <entry key="rule|text|R-QC8-COU">'Organisation qui fournit des informations complémentaires sur la procédure de passation de marché' (OPT-301-Lot-AddInfo) ne peut pas être répété</entry>
 <entry key="rule|text|R-QCL-4I7">'Le nombre est une pondération' (BT-5421-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-QCL-QDA">Si 'Base juridique' (BT-01) est 'Directive 2014/24/UE' et 'Type d’avis' (BT-02) est 'Avis de marché ou de concession – régime ordinaire' et 'Type de procédure' (BT-105) est 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', alors 'Nombre minimal de candidats à convoquer pour la seconde étape de la procédure' (BT-50) doit être supérieur à deux</entry>
@@ -2678,13 +2652,11 @@
 <entry key="rule|text|R-QDW-FLX">'Rang de classement du candidat/lauréat' (BT-171) doit être égal à 0</entry>
 <entry key="rule|text|R-QEO-QD2">'Le marché est au moins partiellement financé par des fonds de l’Union européenne' (BT-60-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-QEP-0IX">'Nature principale du marché' (BT-23-Procedure) ne doit pas avoir d'espaces en début ou en fin</entry>
-<entry key="rule|text|R-QET-6IO">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-QEY-TBX">Toute organisation chargée des procédures de recours pour un lot (OPT-301-Lot-ReviewOrg) ou une partie (OPT-301-Part-ReviewOrg) doit correspondre à l’une des organisations définies(OPT-200-Organization-Company) à d’autres points de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-QF5-3JJ">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-12)</entry>
 <entry key="rule|text|R-QFU-FN0">Le nombre total d'offres reçues doit être égal au nombre d'offres reçues de grandes organisations plus le nombre d'offres reçues de micro-organisations, plus le nombre d'offres reçues de petites organisations plus le nombre d'offres reçues de moyennes organisations.</entry>
 <entry key="rule|text|R-QFV-G67">'Description' (BT-554-Tender-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-QG3-D1O">'Justification de la durée de l’accord-cadre' (BT-109-Lot) ne peut être présent qu’une seule fois par langue</entry>
-<entry key="rule|text|R-QG7-OU8">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-QGA-KFD">'Nom officiel' (BT-500-Organization-Company) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-QGQ-UVL">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-2)</entry>
 <entry key="rule|text|R-QGS-DVQ">Pour un résultat donné d'un lot, chaque soumission référencée doit être soit pour le lot de ce résultat, soit pour un groupe de lots contenant ce lot.</entry>
@@ -2704,7 +2676,6 @@
 <entry key="rule|text|R-QN6-DSA">'ID du document de législation environnementale' (OPT-112-Lot-EnvironLegis) ne peut pas être répété</entry>
 <entry key="rule|text|R-QNT-MN8">'Valeur de tous les contrats attribués dans cet avis' (BT-161-NoticeResult-Currency) doit contenir une valeur de la liste de codes (currency)</entry>
 <entry key="rule|text|R-QP1-FY0">'Valeur estimée hors TVA' (BT-27-Lot) n'est pas autorisé</entry>
-<entry key="rule|text|R-QP6-7NP">Avis qui a créé l'accord-cadre' (OPT-100-Contract-Scheme) doit contenir une valeur de la liste de codes (notice-reference)</entry>
 <entry key="rule|text|R-QP7-XUC">'Valeur de l’offre recevable la plus élevée' (BT-711-LotResult) doit être positif.</entry>
 <entry key="rule|text|R-QPH-E6R">'Base juridique' (BT-01(e)-Procedure) n'est pas autorisé</entry>
 <entry key="rule|text|R-QPM-IHM">'Valeur de l'offre' (BT-720-Tender) ne peut pas être répété</entry>
@@ -2719,7 +2690,6 @@
 <entry key="rule|text|R-QTW-KPY">'Numéro d’enregistrement' (BT-501-Business-European) n'est pas autorisé</entry>
 <entry key="rule|text|R-QU2-JJ2">Le sous-soumissionnaire ne peut pas agir en tant que 'Organisation qui signe le contrat'</entry>
 <entry key="rule|text|R-QUR-467">'Titre' (BT-21-Procedure) est obligatoire</entry>
-<entry key="rule|text|R-QUS-87L">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-QV7-V0B">'Justification de la durée de l’accord-cadre' (BT-109-Lot) est obligatoire, quand: La durée du lot ne dépasse pas 7 ans.</entry>
 <entry key="rule|text|R-QVH-SKK">Tout destinataire de l’offre (OPT-301-Lot-TenderReceipt) ou (OPT-301-Part-TenderReceipt) doit correspondre à l’une des organisations définies(OPT-200-Organization-Company) à d’autres points de contact (OPT-201-Organization-Touchpoint)</entry>
 <entry key="rule|text|R-QVU-VYH">'Nombre de personnes ayant déposées une demande de recours' (BT-712(a)-LotResult) n'est pas autorisé</entry>
@@ -2737,7 +2707,6 @@
 <entry key="rule|text|R-R0C-TRC">'La base juridique de la directive sur les véhicules propres pour établir la catégorie de procédure de passation de marché qui s’applique' (BT-735-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-R0J-MWK">'La durée du marché est prolongée en raison des actifs essentiels nécessaires à la prestation du service' (OPP-020-Contract) doit contenir une valeur de la liste de codes (indicator)</entry>
 <entry key="rule|text|R-R15-KUU">'Informations complémentaires' (BT-45-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
-<entry key="rule|text|R-R1P-8C5">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-R21-BRK">'Description' (BT-201-Contract) ne peut être que dans une des langues officielles de l’avis</entry>
 <entry key="rule|text|R-R2D-DXI">'ID technique du contrat' (OPT-316-Contract) est obligatoire</entry>
 <entry key="rule|text|R-R35-T08">'Date de publication' (OPP-012-notice) doit correspondre au modèle suivant: Date</entry>
@@ -2830,6 +2799,7 @@
 <entry key="rule|text|R-S18-KY8">Le sous-soumissionnaire ne peut pas agir en tant que 'Organisation qui reçoit les offres'</entry>
 <entry key="rule|text|R-S1I-B0E">Une langue doit être indiquée pour 'Description' (BT-732-Lot)</entry>
 <entry key="rule|text|R-S1K-0VB">'Base juridique de la procédure (ELI — CELEX)' (BT-01(c)-Procedure) n'est pas autorisé</entry>
+<entry key="rule|text|R-S1Q-NKP">Il manque 'Nombre de demandes d'Nombre de demandes d'offre qui relèvent de cette mesure IPI' (BT-686-LotResult) dans un résultat de lot.</entry>
 <entry key="rule|text|R-S1U-UPP">'Date limite d’obtention de l’habilitation de sécurité' (BT-78-Lot) doit correspondre au modèle suivant: Date</entry>
 <entry key="rule|text|R-S1V-6N1">'Informations complémentaires sur l’accord de confidentialité' (BT-802-Lot) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-S1W-NMO">La somme de tous les 'Nombre critère d’attribution' (BT-541) de type 'Pondération (pourcentage, valeur exacte)' doit être égale à 100 pour chaque critère dans le lot</entry>
@@ -2856,7 +2826,6 @@
 <entry key="rule|text|R-S7N-2QG">'Titre' (BT-21-Lot) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-S7W-3SU">'Identifiant de la personnalisation (UBL)' (OPT-002-notice) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-S86-VPX">La caractéristique 'schemeName' doit être présente pour 'ID technique de la partie appelante (TPA-XXX)' (OPT-210-Tenderer-Scheme)</entry>
-<entry key="rule|text|R-S8E-F7X">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-S8H-LNV">'Code de l’objectif de qualité' (OPT-071-Lot) est obligatoire</entry>
 <entry key="rule|text|R-S8P-7R8">La caractéristique 'listName' doit être présente pour 'Subdivision pays (NUTS)' (BT-507-Organization-Company-List)</entry>
 <entry key="rule|text|R-S9U-F5I">'Informations complémentaires' (BT-772-Lot) ne peut pas dépasser 6 000 caractères</entry>
@@ -2888,7 +2857,6 @@
 <entry key="rule|text|R-SN5-AZG">'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-SN7-F2W">Une langue doit être indiquée pour 'Informations complémentaires' (BT-772-Lot)</entry>
 <entry key="rule|text|R-SNA-9YO">'Code de l’obligation d’exécution' (OPT-060-Lot) est obligatoire</entry>
-<entry key="rule|text|R-SNH-2MQ">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-SNN-G7Z">'Subdivision pays (NUTS)' (BT-507-Organization-Company) doit contenir une valeur de la liste de codes (nuts-lvl3)</entry>
 <entry key="rule|text|R-SNT-H53">'Règlement sur les subventions étrangères' (BT-681-Lot) doit contenir une valeur de la liste de codes (fsr)</entry>
 <entry key="rule|text|R-SOW-1XJ">'Nombre maximum de reconductions' (BT-58-Lot) est obligatoire</entry>
@@ -2908,7 +2876,6 @@
 <entry key="rule|text|R-STU-Y0J">'Titre' (BT-21-LotsGroup) n'est pas autorisé</entry>
 <entry key="rule|text|R-SU4-LO0">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-8)</entry>
 <entry key="rule|text|R-SUE-AY9">'Adresse URL pour l'échange d'informations' (BT-509-Organization-TouchPoint) doit correspondre au modèle suivant: URL</entry>
-<entry key="rule|text|R-SUN-K67">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-SV2-SQI">'Valeur de la prime' (BT-644-Lot) est obligatoire, quand: 'Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours' (BT-41-Lot) n’est pas vrai</entry>
 <entry key="rule|text|R-SV7-TAI">Le sous-soumissionnaire ne peut pas agir en tant que 'Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection de l’environnement, est applicable au lieu où la prestation doit être réalisée'</entry>
 <entry key="rule|text|R-SVB-MJ0">Statistiques des soumissions reçues: Le nombre total de 'Offres présentées par voie électronique' (BT-760-LotResult = t-esubm) doit être spécifié une seule fois</entry>
@@ -2917,16 +2884,15 @@
 <entry key="rule|text|R-SVV-EQL">'Le nombre est une valeur fixe' (BT-5422-LotsGroup) n'est pas autorisé, quand: 'Nombre critère d’attribution' (BT-541-LotsGroup-FixedNumber) n'est pas présent</entry>
 <entry key="rule|text|R-SW5-51C">'Adresse postale' (BT-510(a)-Organization-TouchPoint) ne peut pas être répété</entry>
 <entry key="rule|text|R-SWI-NPL">'Organisation fournissant des informations sur la législation environnementale' (OPT-301-Part-EnvironLegis) ne peut pas être répété</entry>
+<entry key="rule|text|R-SWK-JGR">Il manque 'La durée du marché est prolongée en raison des actifs essentiels nécessaires à la prestation du service' (OPP-020-Contract) dans un marché.</entry>
 <entry key="rule|text|R-SXI-QDV">'Autres informations sur les fonds de l’UE' (BT-6110-Contract) ne peut être présent qu’une seule fois par langue</entry>
 <entry key="rule|text|R-SXJ-I8X">'Identifiant de la personnalisation (UBL)' (OPT-002-notice) est obligatoire</entry>
 <entry key="rule|text|R-SXY-RXR">'Identifiant de l’avis' (BT-701-notice) est obligatoire</entry>
 <entry key="rule|text|R-SYM-FW1">La caractéristique 'listName' doit être présente pour 'Participation réservée' (BT-71-Part-List)</entry>
-<entry key="rule|text|R-SYX-QUS">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-SZ0-B41">'Objectif social promu' (BT-775-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-SZC-ZA0">'Identifiant du lot ou groupe de lots' (BT-13714-Tender-Scheme) doit contenir une valeur de la liste de codes (tendered-object)</entry>
 <entry key="rule|text|R-SZT-43W">'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556-NoticeResult) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-T01-PJW">'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) n'est pas autorisé</entry>
-<entry key="rule|text|R-T05-L0Z">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-T06-8NX">'Département' (BT-16-Organization-Company) n'est pas autorisé</entry>
 <entry key="rule|text|R-T0P-VFW">'Télécopieur' (BT-739-Organization-Company) n'est pas autorisé</entry>
 <entry key="rule|text|R-T0V-F01">'Nom' (BT-734-Lot) ne peut être présent qu’une seule fois par langue</entry>
@@ -2937,7 +2903,6 @@
 <entry key="rule|text|R-T1T-89E">'Les critères seront appliqués pour sélectionner les candidats à inviter pour la seconde étape de la procédure' (BT-40-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-T30-FHZ">'Téléphone' (BT-503-Organization-TouchPoint) ne peut pas être répété</entry>
 <entry key="rule|text|R-T32-WXB">Tous les lots du même groupe doivent avoir le même 'Date limite de réception des offres' (BT-131)</entry>
-<entry key="rule|text|R-T39-GIZ">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-T3J-KXI">'Code' (BT-67(a)-Procedure) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-T3K-YL6">'Pays' (BT-514-UBO) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-T3Z-QGS">'Code postal' (BT-5121-Procedure) ne peut pas dépasser 400 caractères</entry>
@@ -2963,7 +2928,7 @@
 <entry key="rule|text|R-TB0-38C">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717-Lot) n'est pas autorisé</entry>
 <entry key="rule|text|R-TB6-TOR">'Métrique de consommation EED' (OPT-080-LotResult) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-TBM-O37">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-29)</entry>
-<entry key="rule|text|R-TBX-U1E">'Date d'ouverture' (BT-132(t)-Lot) ne peut pas être répété</entry>
+<entry key="rule|text|R-TBX-U1E">'Heure de l’ouverture publique' (BT-132(t)-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-TC6-DR2">'Identifiant de la section' (BT-13716-notice) n'est pas autorisé, quand: 'Version de l’avis antérieur à modifier' (BT-758-notice) n’est pas rempli</entry>
 <entry key="rule|text|R-TCW-R9N">Pour un avis de résultat, tout lot dans l'avis avec un accord-cadre, sans contrat dans cet accord-cadre et sans DPS, doit avoir exactement un résultat de lot associé.</entry>
 <entry key="rule|text|R-TD3-EJL">Le sous-soumissionnaire ne peut pas agir en tant que 'Organisation qui fournit des informations complémentaires sur la procédure de passation de marché'</entry>
@@ -3043,10 +3008,9 @@
 <entry key="rule|text|R-U42-PTX">'Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué' (BT-76-Lot) doit être présent dans toutes les langues officielles de l’avis</entry>
 <entry key="rule|text|R-U4G-HRO">'Téléphone' (BT-503-Organization-TouchPoint) n'est pas autorisé</entry>
 <entry key="rule|text|R-U4U-H53">'Code' (BT-67(a)-Procedure) doit contenir une valeur de la liste de codes (exclusion-ground)</entry>
-<entry key="rule|text|R-U5R-2WU">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-U67-LR2">'Code des pénalités et récompenses' (OPP-033-Tender) ne peut pas être répété</entry>
 <entry key="rule|text|R-U6R-3XA">'Valeur maximale de l’accord-cadre' (BT-271-Procedure) n'est pas autorisé, quand: Aucun des lots ne fait l’objet d’un accord-cadre</entry>
-<entry key="rule|text|R-U7F-U45">'Date d'ouverture' (BT-132(t)-Lot) doit correspondre au modèle suivant: Time</entry>
+<entry key="rule|text|R-U7F-U45">'Heure de l’ouverture publique' (BT-132(t)-Lot) doit correspondre au modèle suivant: Time</entry>
 <entry key="rule|text|R-U7S-LQE">La caractéristique 'listName' doit être présente pour 'Type de véhicule' (OPT-155-LotResult-List)</entry>
 <entry key="rule|text|R-U8R-OBM">'Subdivision pays (NUTS)' (BT-5071-Part) n'est pas autorisé, quand: 'Lieu d’exécution – Portée géographique' (BT-727) est rempli ou 'Pays' (BT-5141) n’est pas rempli</entry>
 <entry key="rule|text|R-U9B-3JF">'Soumission par voie électronique' (BT-17-Lot) est obligatoire</entry>
@@ -3069,6 +3033,7 @@
 <entry key="rule|text|R-UHP-R4C">'Date et heure du recours' (BT-787-Review) n'est pas autorisé, quand: 'Demande ou décision de recours' (BT-783-Review) n'est pas présent</entry>
 <entry key="rule|text|R-UHS-R96">'ID du document de législation environnementale' (OPT-112-Part-EnvironLegis) ne peut pas être répété</entry>
 <entry key="rule|text|R-UI0-PBV">'Lieu d’exécution – Portée géographique' (BT-727-Lot) n'est pas autorisé, quand: 'Subdivision pays (NUTS)' B373(BT-5071-Lot) est rempli</entry>
+<entry key="rule|text|R-UIJ-ZV4">Il manque 'Sous-traitant' (OPT-301-Tenderer-SubCont) chez un soumissionnaire.</entry>
 <entry key="rule|text|R-UIO-CLU">'Nombre maximal de candidats à inviter pour la seconde étape de la procédure' (BT-51-Lot) n'est pas autorisé, quand: 'Le nombre de candidats à inviter pour la seconde étape de la procédure est limité' (BT-661-Lot) n’est pas 'oui'</entry>
 <entry key="rule|text|R-UJ6-048">'Source des motifs d'exclusion' (BT-806-Procedure) ne peut pas être répété</entry>
 <entry key="rule|text|R-UJM-K4K">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-37)</entry>
@@ -3110,7 +3075,6 @@
 <entry key="rule|text|R-UW7-5K0">'Honoraire pour la demande de recours' (BT-795-Review) doit correspondre au modèle suivant: AmountValue</entry>
 <entry key="rule|text|R-UX0-FK9">La caractéristique 'listName' doit être présente pour 'La signature ou le cachet électronique avancé(e) ou qualifié(e) [au sens du règlement (UE) № 910/2014] est requis(e)' (BT-744-Lot-List)</entry>
 <entry key="rule|text|R-UX9-G3Z">'L’offre est une variante' (BT-193-Tender) n'est pas autorisé, quand: La procédure relative au lot est terminée et n’a pas été attribuée</entry>
-<entry key="rule|text|R-UXI-WU2">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-UZN-BY6">'Type d’irrégularité alléguée' (BT-636-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-UZN-OE3">'Source des critères de sélection' (BT-821-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-V00-H0E">'Taille de l’opérateur économique' (BT-165-Organization-Company) ne doit pas avoir d'espaces en début ou en fin</entry>
@@ -3136,7 +3100,6 @@
 <entry key="rule|text|R-V79-Z6Y">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-27)</entry>
 <entry key="rule|text|R-V7F-68L">'Identifiant de la version UBL (UBL)' (OPT-001-notice) doit correspondre au modèle suivant: UBLVersionID</entry>
 <entry key="rule|text|R-V7N-SUL">'Valeur réestimée des accords-cadres dans un groupe de lots' (BT-1561-NoticeResult) n'est pas autorisé, quand: 'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-557) n’est pas rempli</entry>
-<entry key="rule|text|R-V7P-MZM">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-V8C-1Q1">Si 'Base juridique' (BT-01) est 'Directive 2014/23/UE' ou 'Directive 2009/81/CE' et 'Forme juridique de l’acheteur' (BT-11) est 'Organisation qui passe un marché subventionné par un pouvoir adjudicateur', 'Organisation internationale' ou 'Contractant du secteur de la défense', alors 'L’acheteur est une entité adjudicatrice' (BT-740) doit être 'Non'</entry>
 <entry key="rule|text|R-V8D-R8C">La valeur de 'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) doit être une valeur unique</entry>
 <entry key="rule|text|R-V8Z-VN6">'Autres informations sur le renouvellement' (BT-57-Lot) ne peut être présent qu’une seule fois par langue</entry>
@@ -3163,7 +3126,6 @@
 <entry key="rule|text|R-VFT-471">'Identifiant des fonds de l’UE' (BT-5010-Lot) ne peut pas dépasser 100 caractères</entry>
 <entry key="rule|text|R-VFZ-MYA">'ID technique de la partie appelante (TPA-XXX)' (OPT-210-Tenderer) ne peut pas être répété</entry>
 <entry key="rule|text|R-VG2-9E5">'Description' (BT-762-notice) doit être présent dans toutes les langues officielles de l’avis</entry>
-<entry key="rule|text|R-VG3-LEV">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-VGO-S2E">'Organisation ou point de contact spécifique' (OPT-301-Part-TenderEval-Scheme) doit contenir une valeur de la liste de codes (player-type)</entry>
 <entry key="rule|text|R-VGX-GSV">'Nature principale du marché' (BT-23-Lot) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-VH6-V2C">'Valeur maximale de l’accord-cadre' (BT-271-Lot) doit être positif.</entry>
@@ -3210,6 +3172,7 @@
 <entry key="rule|text|R-VSO-FS4">'Rang du candidat recevant la prime' (BT-44-Lot) n'est pas autorisé, quand: 'Valeur de la prime' (BT-644-Lot) n’est pas rempli</entry>
 <entry key="rule|text|R-VSP-FAU">'Taille de l’opérateur économique' (BT-165-Organization-Company) est obligatoire, quand: Si l’organisation a soumis 'Partie soumissionnaire' (OPT-310-Tender) qui aboutit à 'Identifiant offre contrat' (BT-3202-Contract), l’organisation est retenue</entry>
 <entry key="rule|text|R-VU8-91R">'Identifiant interne' (BT-22-LotsGroup) ne doit pas avoir d'espaces en début ou en fin</entry>
+<entry key="rule|text|R-VUI-M9B">Il manque 'Indication obligatoire de la sous-traitance' (BT-651-Lot) dans un lot.</entry>
 <entry key="rule|text|R-VUV-LEE">'Liste EED (base)' (BT-811(a)-LotResult) n'est pas autorisé, quand: 'Liste EED (article)' (BT-811(b)-LotResult) n'existe pas</entry>
 <entry key="rule|text|R-VUV-LY3">'Liste EED (base)' (BT-811(a)-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-VV0-R8G">'Les soumissionnaires peuvent présenter plusieurs offres' (BT-769-Lot) doit contenir une valeur de la liste de codes (permission)</entry>
@@ -3242,7 +3205,6 @@
 <entry key="rule|text|R-W48-YI9">'Organisation qui traite les offres' (OPT-301-Lot-TenderEval) n'est pas autorisé</entry>
 <entry key="rule|text|R-W4F-8OC">'Nombre de personnes ayant déposées une demande de recours' (BT-712(a)-LotResult) ne peut pas être répété</entry>
 <entry key="rule|text|R-W4X-DYE">Statistiques des soumissions reçues: Le nombre total de 'Offres reçues de soumissionnaires enregistrés dans des pays situés en dehors de l’Espace économique européen' (BT-760-LotResult = t-no-eea) doit être spécifié une seule fois</entry>
-<entry key="rule|text|R-W4Z-1B5">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-W50-182">'Informations complémentaires' (OPP-130-Business-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-W5D-ELV">La caractéristique 'listName' doit être présente pour 'EED applicable' (BT-810-Lot-List)</entry>
 <entry key="rule|text|R-W5K-89C">'Date limite d’obtention de l’habilitation de sécurité' (BT-78-Lot) n'est pas autorisé, quand: 'Une habilitation de sécurité est requise' (BT-578) est 'non'</entry>
@@ -3260,6 +3222,7 @@
 <entry key="rule|text|R-W8T-0RM">'Valeur maximale de l’accord-cadre' (BT-271-Procedure) doit correspondre au modèle suivant: AmountValue</entry>
 <entry key="rule|text|R-W9I-W7Y">'Type de procédure' (BT-105-Procedure) doit contenir une valeur de la liste de codes (procedure-type-27)</entry>
 <entry key="rule|text|R-W9R-98T">'Cette procédure sera relancée' (BT-634-Procedure) n'est pas autorisé</entry>
+<entry key="rule|text|R-WA6-APY">Il manque 'Nombre de personnes ayant déposées une demande de recours' (BT-712(b)-LotResult) ou 'Nombre de demandes de recours acheteur' (BT-635-LotResult) dans un résultat de lot.</entry>
 <entry key="rule|text|R-WA7-HAT">'Identifiant de l’avis' (BT-701-notice) doit correspondre au modèle suivant: ProcedureOrNoticeID</entry>
 <entry key="rule|text|R-WB0-J5L">'Justification de la durée de l’accord-cadre' (BT-109-Lot) est obligatoire, quand: La durée du lot ne dépasse pas 4 ans.</entry>
 <entry key="rule|text|R-WBQ-59W">'Autres informations sur les fonds de l’UE' (BT-6140-Lot) n'est pas autorisé, quand: 'Identifiant des fonds de l’UE' (BT-5010) et 'Code du programme de financement de l'UE' (BT-7220) ne sont pas remplis</entry>
@@ -3406,7 +3369,6 @@
 <entry key="rule|text|R-XSU-3GA">'Secteur d’activité' (OPP-105-Business) ne doit pas avoir d'espaces en début ou en fin</entry>
 <entry key="rule|text|R-XTC-324">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-12)</entry>
 <entry key="rule|text|R-XTO-IX7">La caractéristique 'listName' doit être présente pour 'Métrique d'économies EED' (OPT-081-LotResult-List)</entry>
-<entry key="rule|text|R-XTR-ILB">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-XVA-DRD">'Une garantie est requise' (BT-751-Lot) doit contenir une valeur de la liste de codes (tender-guarantee-required)</entry>
 <entry key="rule|text|R-XVB-7HS">La somme de tous les 'Nombre critère d’attribution' (BT-541) de type 'Pondération (décimal, valeur exacte)' doit être égale à 1 pour chaque critère dans le groupe de lots</entry>
 <entry key="rule|text|R-XVJ-0HH">'Catégories d’acheteurs' (OPT-090-Lot) ne peut pas être répété</entry>
@@ -3450,7 +3412,7 @@
 <entry key="rule|text|R-Y82-A07">'Autres informations sur les fonds de l’UE' (BT-6140-Lot) ne peut pas dépasser 6 000 caractères</entry>
 <entry key="rule|text|R-Y8T-HJS">La somme de tous les 'Nombre critères sélection seconde étape' (BT-752) de type 'Pondération (pourcentage, valeur exacte)' doit être égale à 100</entry>
 <entry key="rule|text|R-Y8Y-44I">'Base juridique de la procédure' (BT-01-notice) doit contenir une valeur de la liste de codes (legal-basis-32)</entry>
-<entry key="rule|text|R-Y8Y-F09">'Date d'ouverture' (BT-132(t)-Lot) n'est pas autorisé, quand: 'Date limite de demande d’informations complémentaires' (BT-132(d)-Lot) est rempli</entry>
+<entry key="rule|text|R-Y8Y-F09">'Heure de l’ouverture publique' (BT-132(t)-Lot) n'est pas autorisé, quand: 'Date limite de demande d’informations complémentaires' (BT-132(d)-Lot) est rempli</entry>
 <entry key="rule|text|R-Y95-HPO">'Description des délais d'introduction des procédures de recours' (BT-99-Lot-Language) doit contenir une valeur de la liste de codes (eu-official-language)</entry>
 <entry key="rule|text|R-Y99-JBR">'Part sous-traitée' (BT-773-Tender) n'est pas autorisé, quand: 'ID technique de l'offre' (OPT-321-Tender) n’est pas rempli</entry>
 <entry key="rule|text|R-Y9D-SGW">'Code' (BT-67(a)-Procedure) ne peut pas être répété</entry>
@@ -3503,7 +3465,6 @@
 <entry key="rule|text|R-YT8-ZP6">'Subdivision pays (NUTS)' (BT-507-Business) doit contenir une valeur de la liste de codes (nuts-lvl3)</entry>
 <entry key="rule|text|R-YUA-PJ2">'Objectif du marché public stratégique' (BT-06-Lot) ne peut pas être répété</entry>
 <entry key="rule|text|R-YUX-UJP">'Résultat – Identifiants des lots' (BT-13713-LotResult) ne doit pas avoir d'espaces en début ou en fin</entry>
-<entry key="rule|text|R-YUZ-K95">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-YV7-VPT">'Adresse électronique' (BT-506-Organization-Company) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-YVB-IXU">'Justification de la restriction de l’accès à certains documents de marché' (BT-707-Lot) doit contenir une valeur de la liste de codes (communication-justification)</entry>
 <entry key="rule|text|R-YVD-NLZ">'Le nombre de candidats à inviter pour la seconde étape de la procédure est limité' (BT-661-Lot) doit contenir une valeur de la liste de codes (indicator)</entry>
@@ -3512,7 +3473,6 @@
 <entry key="rule|text|R-YWR-58S">'Sous-type d’avis' (OPP-070-notice) doit contenir une valeur de la liste de codes (notice-subtype)</entry>
 <entry key="rule|text|R-YWS-I8K">'Organisation fournissant des informations sur la législation fiscale' (OPT-301-Part-FiscalLegis) ne peut pas être répété</entry>
 <entry key="rule|text|R-YY1-6NF">La caractéristique 'listName' doit être présente pour 'Nature principale du marché' (BT-23-Part-List)</entry>
-<entry key="rule|text|R-YZY-RI3">'Date de publication' (BT-198) doit être entre deux jours et dix ans après 'Date d’envoi de l’avis'</entry>
 <entry key="rule|text|R-Z0J-AVA">'Adresse postale' (BT-5101(b)-Procedure) ne peut pas dépasser 400 caractères</entry>
 <entry key="rule|text|R-Z0X-7DD">Si 'Type d’avis' (BT-02) est 'Avis d’attribution de marché ou de concession – régime assoupli', alors 'Sous-type d’avis' (OPP-070) doit être 33, 34 ou 35</entry>
 <entry key="rule|text|R-Z10-F9I">'Date de fin de durée' (BT-537-Part) n'est pas autorisé, quand: 'Date de début' (BT-536-Part) et 'Autre durée' (BT-538-Part) sont présents, ou 'Date de début' (BT-536-Part) et 'Durée' (BT-36-Part) sont présents, ou 'Autre durée' (BT-538-Part) est présent et égal à 'Illimité'</entry>
