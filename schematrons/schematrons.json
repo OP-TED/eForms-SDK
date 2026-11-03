@@ -254,6 +254,11 @@
     "stage" : "1a",
     "filename" : "dynamic/validation-stage-1a-T02.sch"
   }, {
+    "name" : "validation-stage-1m",
+    "type" : "dynamic",
+    "stage" : "1m",
+    "filename" : "dynamic/validation-stage-1m.sch"
+  }, {
     "name" : "validation-stage-2a",
     "type" : "dynamic",
     "stage" : "2a",
@@ -1687,6 +1692,11 @@
     "type" : "static",
     "stage" : "1a",
     "filename" : "static/validation-stage-1a-T02.sch"
+  }, {
+    "name" : "validation-stage-1m",
+    "type" : "static",
+    "stage" : "1m",
+    "filename" : "static/validation-stage-1m.sch"
   }, {
     "name" : "validation-stage-2a",
     "type" : "static",

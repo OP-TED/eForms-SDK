@@ -20,6 +20,7 @@
     <phase id="eforms-1">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-1" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-1" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -34,6 +35,7 @@
     <phase id="eforms-2">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-2" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-2" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -48,6 +50,7 @@
     <phase id="eforms-3">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-3" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-3" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -62,6 +65,7 @@
     <phase id="eforms-4">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-4" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-4" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -76,6 +80,7 @@
     <phase id="eforms-5">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-5" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-5" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -90,6 +95,7 @@
     <phase id="eforms-6">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-6" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-6" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -104,6 +110,7 @@
     <phase id="eforms-7">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-7" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-7" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -118,6 +125,7 @@
     <phase id="eforms-8">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-8" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-8" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -132,6 +140,7 @@
     <phase id="eforms-9">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-9" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-9" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -146,6 +155,7 @@
     <phase id="eforms-10">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-10" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-10" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -160,6 +170,7 @@
     <phase id="eforms-11">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-11" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-11" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -174,6 +185,7 @@
     <phase id="eforms-12">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-12" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-12" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -188,6 +200,7 @@
     <phase id="eforms-13">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-13" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-13" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -202,6 +215,7 @@
     <phase id="eforms-14">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-14" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-14" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -216,6 +230,7 @@
     <phase id="eforms-15">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-15" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-15" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -230,6 +245,7 @@
     <phase id="eforms-16">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-16" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-16" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -244,6 +260,7 @@
     <phase id="eforms-17">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-17" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-17" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -258,6 +275,7 @@
     <phase id="eforms-18">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-18" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-18" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -272,6 +290,7 @@
     <phase id="eforms-19">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-19" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-19" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -286,6 +305,7 @@
     <phase id="eforms-20">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-20" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-20" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -300,6 +320,7 @@
     <phase id="eforms-21">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-21" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-21" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -314,6 +335,7 @@
     <phase id="eforms-22">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-22" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-22" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -328,6 +350,7 @@
     <phase id="eforms-23">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-23" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-23" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -342,6 +365,7 @@
     <phase id="eforms-24">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-24" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-24" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -356,6 +380,7 @@
     <phase id="eforms-25">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-25" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-25" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -370,6 +395,7 @@
     <phase id="eforms-26">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-26" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-26" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -384,6 +410,7 @@
     <phase id="eforms-27">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-27" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-27" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -398,6 +425,7 @@
     <phase id="eforms-28">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-28" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-28" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -412,6 +440,7 @@
     <phase id="eforms-29">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-29" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-29" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -428,6 +457,7 @@
     <phase id="eforms-30">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-30" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-30" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -444,6 +474,7 @@
     <phase id="eforms-31">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-31" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-31" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -460,6 +491,7 @@
     <phase id="eforms-32">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-32" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-32" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -476,6 +508,7 @@
     <phase id="eforms-33">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-33" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-33" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -492,6 +525,7 @@
     <phase id="eforms-34">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-34" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-34" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -508,6 +542,7 @@
     <phase id="eforms-35">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-35" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-35" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -524,6 +559,7 @@
     <phase id="eforms-36">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-36" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-36" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -540,6 +576,7 @@
     <phase id="eforms-37">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-37" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-37" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -556,6 +593,7 @@
     <phase id="eforms-38">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-38" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-38" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -571,6 +609,7 @@
     <phase id="eforms-39">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-39" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-39" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -586,6 +625,7 @@
     <phase id="eforms-40">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-40" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-40" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -599,6 +639,7 @@
     </phase>
     <phase id="eforms-CEI">
         <active pattern="EFORMS-validation-stage-1a" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-CEI" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -612,6 +653,7 @@
     </phase>
     <phase id="eforms-E1">
         <active pattern="EFORMS-validation-stage-1a" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-E1" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -626,6 +668,7 @@
     <phase id="eforms-E2">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-E2" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-E2" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -640,6 +683,7 @@
     <phase id="eforms-E3">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-E3" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-E3" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -654,6 +698,7 @@
     <phase id="eforms-E4">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-E4" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-E4" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -670,6 +715,7 @@
     <phase id="eforms-E5">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-E5" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-E5" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -686,6 +732,7 @@
     <phase id="eforms-E6">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-E6" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-E6" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -701,6 +748,7 @@
     <phase id="eforms-T01">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-T01" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-T01" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -715,6 +763,7 @@
     <phase id="eforms-T02">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-T02" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-T02" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -730,6 +779,7 @@
     <phase id="eforms-X01">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-X01" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-X01" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -744,6 +794,7 @@
     <phase id="eforms-X02">
         <active pattern="EFORMS-validation-stage-1a" />
         <active pattern="EFORMS-validation-stage-1a-X02" />
+        <active pattern="EFORMS-validation-stage-1m" />
         <active pattern="EFORMS-validation-stage-2a" />
         <active pattern="EFORMS-validation-stage-2a-X02" />
         <active pattern="EFORMS-validation-stage-2b" />
@@ -806,6 +857,7 @@
     <include href="validation-stage-1a-E6.sch"/>
     <include href="validation-stage-1a-T01.sch"/>
     <include href="validation-stage-1a-T02.sch"/>
+    <include href="validation-stage-1m.sch"/>
     <include href="validation-stage-2a.sch"/>
     <include href="validation-stage-2a-1.sch"/>
     <include href="validation-stage-2a-2.sch"/>
@@ -1749,9 +1801,12 @@
         <diagnostic id="ND-SubContractor_OPT-301-Tenderer-SubCont" see="field:OPT-301-Tenderer-SubCont">cbc:ID</diagnostic>
         <diagnostic id="ND-SubContractorTakerReference_OPT-301-Tenderer-MainCont" see="field:OPT-301-Tenderer-MainCont">cbc:ID</diagnostic>
         <diagnostic id="ND-SubcontractedContract_BT-773-Tender" see="field:BT-773-Tender">efbc:TermCode</diagnostic>
+        <diagnostic id="ND-TenderAggregatedAmounts_BT-779-Tender" see="field:BT-779-Tender">cbc:PaidAmount</diagnostic>
         <diagnostic id="ND-SubcontractingIndication_BT-651-Lot" see="field:BT-651-Lot">efbc:TenderSubcontractingRequirementsCode</diagnostic>
         <diagnostic id="ND-SubcontractingObligation_BT-65-Lot" see="field:BT-65-Lot">cbc:SubcontractingConditionsCode</diagnostic>
         <diagnostic id="ND-TenderAggregatedAmounts_BT-780-Tender" see="field:BT-780-Tender">efbc:PaidAmountDescription</diagnostic>
+        <diagnostic id="ND-TenderAggregatedAmounts_BT-782-Tender" see="field:BT-782-Tender">efbc:PenaltiesAmount</diagnostic>
+        <diagnostic id="ND-AppealProcessingParty_BT-799-ReviewBody" see="field:BT-799-ReviewBody">efbc:AppealProcessingPartyTypeCode</diagnostic>
         <diagnostic id="ND-Tenderer_OPT-300-Tenderer" see="field:OPT-300-Tenderer">cbc:ID</diagnostic>
         <diagnostic id="ND-Touchpoint_OPT-201-Organization-TouchPoint" see="field:OPT-201-Organization-TouchPoint">cac:PartyIdentification/cbc:ID</diagnostic>
         <diagnostic id="ND-UBO_OPT-202-UBO" see="field:OPT-202-UBO">cbc:ID</diagnostic>
