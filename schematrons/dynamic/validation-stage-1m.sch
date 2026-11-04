@@ -27,7 +27,7 @@
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics">
         <assert id="BR-BT-00759-0103" role="ERROR" diagnostics="ND-ReceivedSubmissions_BT-759-LotResult" test="efbc:StatisticsNumeric">rule|text|BR-BT-00759-0103</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm">
         <assert id="BR-BT-00773-0056" role="ERROR" diagnostics="ND-SubcontractedContract_BT-773-Tender" test="efbc:TermCode">rule|text|BR-BT-00773-0056</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts">
