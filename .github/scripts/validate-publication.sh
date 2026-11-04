@@ -16,50 +16,8 @@ skip() {
   echo "::notice::$*"
 }
 
-validate_release_source() {
-  [[ -n "${GITHUB_TOKEN:-}" ]] || fail "GITHUB_TOKEN is required to validate a release."
-  [[ -n "${GITHUB_API_URL:-}" ]] || fail "GITHUB_API_URL is required to validate a release."
-  [[ -n "${GITHUB_REPOSITORY:-}" ]] || fail "GITHUB_REPOSITORY is required to validate a release."
-  [[ -n "${GITHUB_SHA:-}" ]] || fail "GITHUB_SHA is required to validate a release."
-
-  local pulls
-  pulls="$(curl --fail-with-body --silent --show-error --location \
-    --header "Accept: application/vnd.github+json" \
-    --header "Authorization: Bearer ${GITHUB_TOKEN}" \
-    --header "X-GitHub-Api-Version: 2022-11-28" \
-    "${GITHUB_API_URL}/repos/${GITHUB_REPOSITORY}/commits/${GITHUB_SHA}/pulls")"
-
-  local -a candidates
-  mapfile -t candidates < <(
-    jq --raw-output --arg sha "${GITHUB_SHA}" '
-      .[]
-      | select(.merged_at != null and .merge_commit_sha == $sha)
-      | select(
-          (((.base.ref == "develop") or (.base.ref == "efx-2"))
-            and (.head.ref | startswith("prepare/")))
-          or
-          ((.base.ref == "main") and (.head.ref | startswith("release/")))
-        )
-      | [.number, .base.ref, .head.ref]
-      | @tsv
-    ' <<< "${pulls}"
-  )
-
-  if [[ "${#candidates[@]}" -ne 1 ]]; then
-    fail "The release commit must be the merge commit of exactly one recognized release PR flow. Found ${#candidates[@]}."
-  fi
-
-  local pr_number target_branch source_branch
-  IFS=$'\t' read -r pr_number target_branch source_branch <<< "${candidates[0]}"
-
-  git fetch --no-tags origin \
-    "refs/heads/${target_branch}:refs/remotes/origin/${target_branch}"
-  if ! git merge-base --is-ancestor "${GITHUB_SHA}" "refs/remotes/origin/${target_branch}"; then
-    fail "Release commit ${GITHUB_SHA} is not contained in ${target_branch}."
-  fi
-
-  echo "::notice::Validated merged PR #${pr_number}: ${source_branch} -> ${target_branch}."
-}
+# Shared with recovery, which validates a tagged checkout using the reviewed guard.
+source "$(dirname "${BASH_SOURCE[0]}")/validate-release-source.sh"
 
 [[ -n "${PROJECT_VERSION:-}" ]] || fail "PROJECT_VERSION is required."
 [[ -n "${GITHUB_EVENT_NAME:-}" ]] || fail "GITHUB_EVENT_NAME is required."
@@ -87,7 +45,7 @@ case "${GITHUB_EVENT_NAME}" in
     [[ "${GITHUB_REF_TYPE:-}" == "tag" ]] || fail "A published release must run from a tag ref."
     [[ "${GITHUB_REF_NAME:-}" == "${RELEASE_TAG_NAME}" ]] || \
       fail "Workflow ref ${GITHUB_REF_NAME:-<unset>} does not match release tag ${RELEASE_TAG_NAME}."
-    validate_release_source
+    validate_release_source "${GITHUB_SHA}"
     publish
     ;;
 
