@@ -15,6 +15,10 @@ on:
   # Allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+concurrency:
+  group: sdk-maven-${{ github.event.release.tag_name || github.ref_name }}
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-latest
