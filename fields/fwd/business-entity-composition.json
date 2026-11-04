@@ -7322,7 +7322,7 @@
         "name" : "subcontracting",
         "type" : "entity",
         "nodeId" : "ND-SubcontractedContract",
-        "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
+        "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm",
         "entityType" : "TenderSubcontracting",
         "properties" : [ {
           "name" : "_privacy_code_",
@@ -7466,37 +7466,37 @@
           "name" : "code",
           "type" : "primitive",
           "fieldId" : "BT-773-Tender",
-          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode",
+          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode",
           "primitiveType" : "code"
         }, {
           "name" : "description",
           "type" : "primitive",
           "fieldId" : "BT-554-Tender",
-          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription",
+          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription",
           "primitiveType" : "text-multilingual"
         }, {
           "name" : "isPercentageKnown",
           "type" : "primitive",
           "fieldId" : "BT-731-Tender",
-          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:PercentageKnownIndicator",
+          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:PercentageKnownIndicator",
           "primitiveType" : "indicator"
         }, {
           "name" : "isValueKnown",
           "type" : "primitive",
           "fieldId" : "BT-730-Tender",
-          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:ValueKnownIndicator",
+          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:ValueKnownIndicator",
           "primitiveType" : "indicator"
         }, {
           "name" : "percentage",
           "type" : "primitive",
           "fieldId" : "BT-555-Tender",
-          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermPercent",
+          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermPercent",
           "primitiveType" : "number"
         }, {
           "name" : "value",
           "type" : "primitive",
           "fieldId" : "BT-553-Tender",
-          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount",
+          "absoluteXpath" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount",
           "primitiveType" : "amount"
         } ]
       }, {

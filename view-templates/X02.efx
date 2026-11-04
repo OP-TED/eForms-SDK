@@ -28,7 +28,7 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 		WITH BT-503-Business DISPLAY #{name|BT-503}: $value; // Telephone
 		WITH BT-739-Business DISPLAY #{name|BT-739}: $value; // Fax
 		WITH BT-505-Business DISPLAY #{name|BT-505}: $value; // Internet address
-	2 WITH OPP-105-Business DISPLAY #{name|OPP-105-Business}: #value; // 9.2 Sector of activity
+	2 WITH OPP-105-Business DISPLAY #{name}: #value; // 9.2 Sector of activity
 	3 WITH ND-Root DISPLAY #{auxiliary|text|place-registration}; // 9.3 Place of registration
 		WITH OPP-110-Business DISPLAY #{name|OPP-110}: $value; // Town
 		WITH OPP-111-Business DISPLAY #{name|OPP-111}: $value; // Post code
@@ -58,5 +58,5 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 	WITH OPP-010-notice DISPLAY #{name}: $value; // Notice publication number
 	WITH OPP-011-notice DISPLAY #{name}: $value; // OJ S issue number
 	WITH OPP-012-notice DISPLAY #{name}: $value; // Publication date
---- NAVIGATION --- // NAVIGATION
---- SUMMARY --- // SUMMARY
+DISPLAY Navigation first line ${BT-01-notice}; // NAVIGATION
+DISPLAY Summary first line  #{BT-03-notice}; // Notice Form Type

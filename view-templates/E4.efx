@@ -54,11 +54,11 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 			WITH BT-01(c)-Procedure DISPLAY $value - ${BT-01(d)-Procedure:preferredLanguageText}; // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			WITH BT-01(e)-Procedure DISPLAY ${BT-01(f)-Procedure:preferredLanguageText}; // Procedure Legal Basis (no ID) Description
 			0 WITH BT-09(a)-Procedure DISPLAY #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure:preferredLanguageText} ; // Applicable cross-border law
-	2 {ND-NoticeInformationNondisclosure} #{auxiliary|text|undisclosed-information} // 2.2 Undisclosed information
+	2 {ND-NoticeInformationNondisclosure} #{auxiliary|text|undisclosed-info} // 2.2 Undisclosed information
 		0 {BT-197-notice} #{field|name|BT-197-notice}: #{BT-197-notice} // Non-disclosure Justification Code
 		0 {BT-198-notice} #{field|name|BT-198-notice}: ${BT-198-notice} // Disclosure date
 		0 {ND-NoticeInformationNondisclosure[BT-196-notice is present]} #{field|name|BT-196-notice}: ${BT-196-notice:preferredLanguageText} // Non-disclosure Justification Description
-		1 {ND-NoticeInformationNondisclosure[BT-195-notice is present]} #{auxiliary|text|undisclosed-information-groups} // Undisclosed Information Groups
+		1 {ND-NoticeInformationNondisclosure[BT-195-notice is present]} #{auxiliary|text|undisclosed-info-groups} // Undisclosed Information Groups
 4 WITH ND-Root[BT-137-LotsGroup is present] DISPLAY #{auxiliary|text|group-of-lots}; // 4 Group of lots
 	1 WITH ND-LotsGroup DISPLAY #{field|name|BT-330-Procedure}: ${BT-137-LotsGroup}; // 4.1 Group of lots
 		WITH BT-137-LotsGroup DISPLAY #{field|name|BT-1375-Procedure}: ${for text:$gloid in BT-137-LotsGroup return BT-1375-Procedure[BT-330-Procedure == $gloid]}; // Lots included / Group Lot Identifier 
@@ -236,7 +236,7 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 				WITH OPT-320-LotResult[count(($tpaname))>0] WHEN 'unpublished' in $tpaname DISPLAY #{field|name|OPT-211-Tenderer}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{field|name|OPT-211-Tenderer}: ${$tpaname}; // Name of the tendering party for this non-winning tenderer
 				WITH OPT-320-LotResult[count($tpaleaderorgids)>0] DISPLAY #{field|name|OPT-170-Tenderer}: ${BT-500-Organization-Company[OPT-200-Organization-Company in $tpaleaderorgids]:preferredLanguageText}; // Leader of tendering party for this non-winning tenderer
 				WITH OPT-320-LotResult[count($tpaunleaderorgids)>0] DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company[OPT-200-Organization-Company in $tpaunleaderorgids]:preferredLanguageText}; // Names of non-leaders for this non-winning tenderer
-				0 WITH OPT-320-LotResult[count(($subconids))>0] DISPLAY #{auxiliary|text|tenderer-subcontracto}:; // Subcontractors of the non- winner
+				0 WITH OPT-320-LotResult[count(($subconids))>0] DISPLAY #{auxiliary|text|tenderer-subcontractor}:; // Subcontractors of the non- winner
 					WITH OPT-320-LotResult[count(($subconids))>0] INVOKE roles-and-org-names('field|name|BT-500-Organization-Company', $subconids); // Subcontractor names
 				WITH OPT-321-Tender[OPT-321-Tender == $tenderid] DISPLAY #{auxiliary|text|tender}:; // Tender
 				WITH OPT-321-Tender[OPT-321-Tender == $tenderid] DISPLAY #{field|name|BT-3201-Tender}: ${BT-3201-Tender}; // Tender identifier
@@ -391,5 +391,5 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 	WITH OPP-010-notice DISPLAY #{name}: $value; // Notice publication number
 	WITH OPP-011-notice DISPLAY #{name}: $value; // OJ S issue number
 	WITH OPP-012-notice DISPLAY #{name}: $value; // Publication date
---- NAVIGATION --- // NAVIGATION
---- SUMMARY --- // SUMMARY
+DISPLAY Navigation first line ${BT-01-notice}; // NAVIGATION
+DISPLAY Summary first line  #{BT-03-notice}; // Notice Form Type
