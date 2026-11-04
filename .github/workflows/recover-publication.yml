@@ -41,6 +41,7 @@ jobs:
           ref: refs/tags/${{ inputs.tag }}
           path: sdk
           fetch-depth: 0
+          persist-credentials: false
       - name: Validate recovery
         id: recovery
         working-directory: sdk

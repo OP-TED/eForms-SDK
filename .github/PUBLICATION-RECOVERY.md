@@ -26,15 +26,17 @@ old release workflow still uses the old guard.
    PR merge SHA at the tag, an allowed PR flow, target-branch containment and the
    matching SDK POM coordinates. It requires HTTP 404 for the POM, main JAR and
    sources JAR on Maven Central; network errors and other statuses block recovery.
-   No signing credentials are imported and Maven is not run in validation-only mode.
+   In validation-only mode no signing credentials are imported and Maven is not run.
 4. Once publication is authorized, repeat the same inputs with **publish** checked.
    This runs the tagged POM's release profile with the normal signing and Central
    credentials. It does not update the POM, tag, GitHub release, or SDK files.
 5. Verify the deployment and the published artifacts. If publication fails after
    upload, inspect the Portal before retrying; a pending upload is not a failed upload.
 
-After review, propagate the shared guard and normal guard changes together to
-`main` and `efx-2` so future release tags include the fix. Recovery itself can serve
+After successfully recovering SDK 1.16.0, immediately prepare the follow-up PRs
+to propagate the shared guard and normal guard changes together to `main` and
+`efx-2`. Merge the `efx-2` fix before SDK 2 publication and the `main` fix before
+the next SDK 1 final release. Recovery itself can serve
 either SDK line from the default branch. Normal manual publication remains
 snapshot-only; recovery is the explicit exception for already published releases.
 
