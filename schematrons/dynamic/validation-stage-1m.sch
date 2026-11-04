@@ -18,16 +18,16 @@
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/efac:Nationality">
         <assert id="R-A4X-NTN" role="ERROR" diagnostics="ND-UBONationality_BT-706-UBO" test="cbc:NationalityID">rule|text|R-A4X-NTN</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics">
         <assert id="R-WA6-APY" role="ERROR" diagnostics="ND-BuyerReviewComplainants_BT-712_b_-LotResult" test="efbc:StatisticsNumeric">rule|text|R-WA6-APY</assert>
     </rule>
-    <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold']">
+    <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter">
         <assert id="R-OSD-4R2" role="ERROR" diagnostics="ND-SecondStageThresholdCriterionParameter_BT-752-Lot-ThresholdNumber" test="efbc:ParameterNumeric">rule|text|R-OSD-4R2</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics">
         <assert id="R-JQI-KCC" role="ERROR" diagnostics="ND-ReceivedSubmissions_BT-759-LotResult" test="efbc:StatisticsNumeric">rule|text|R-JQI-KCC</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm">
         <assert id="R-8J5-LB2" role="ERROR" diagnostics="ND-SubcontractedContract_BT-773-Tender" test="efbc:TermCode">rule|text|R-8J5-LB2</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts">
