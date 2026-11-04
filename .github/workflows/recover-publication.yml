@@ -1,0 +1,75 @@
+name: Recover Maven Central publication
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing published SDK release tag (for example 1.16.0)
+        required: true
+        type: string
+      pr:
+        description: Merged release PR number (for example 1445)
+        required: true
+        type: string
+      publish:
+        description: Publish after confirming no successful or pending deployment exists in Actions or the Central Portal
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: sdk-maven-${{ inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out reviewed recovery tooling
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.workflow_sha }}
+          path: tooling
+          persist-credentials: false
+      - name: Check out the existing release tag
+        uses: actions/checkout@v4
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+          path: sdk
+          fetch-depth: 0
+      - name: Validate recovery
+        id: recovery
+        working-directory: sdk
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          RELEASE_TAG_NAME: ${{ inputs.tag }}
+          RELEASE_PR_NUMBER: ${{ inputs.pr }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: bash ../tooling/.github/scripts/validate-publication-recovery.sh
+      - name: Set up Java for publishing to Maven Central
+        if: inputs.publish && steps.recovery.outputs.validated == 'true'
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          server-id: central
+          server-username: MAVEN_USERNAME
+          server-password: MAVEN_PASSWORD
+      - name: Import GPG Key
+        if: inputs.publish && steps.recovery.outputs.validated == 'true'
+        uses: crazy-max/ghaction-import-gpg@v6
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
+      - name: Publish the unchanged tagged SDK
+        if: inputs.publish && steps.recovery.outputs.validated == 'true'
+        working-directory: sdk
+        env:
+          MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
+          MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: mvn --batch-mode deploy "-Dgpg.passphrase=${GPG_PASSPHRASE}" -Prelease
