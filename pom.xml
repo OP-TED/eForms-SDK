@@ -47,7 +47,7 @@
     <version.exec.plugin>3.1.0</version.exec.plugin>
     <version.install.plugin>2.5.2</version.install.plugin>
     <version.jar.plugin>3.3.0</version.jar.plugin>
-    <version.central-publishing.plugin>0.8.0</version.central-publishing.plugin>
+    <version.central-publishing.plugin>0.12.0</version.central-publishing.plugin>
   </properties>
 
   <repositories>
