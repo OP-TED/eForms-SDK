@@ -1,0 +1,29 @@
+name: Test publication guards
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/**'
+      - '.github/tests/**'
+      - '.github/workflows/*publication*'
+      - '.github/workflows/publish.yml'
+  push:
+    branches: [develop, efx-2, main]
+    paths:
+      - '.github/scripts/**'
+      - '.github/tests/**'
+      - '.github/workflows/*publication*'
+      - '.github/workflows/publish.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check shell syntax
+        run: bash -n .github/scripts/validate-publication.sh && bash -n .github/scripts/validate-release-source.sh && bash -n .github/scripts/validate-publication-recovery.sh
+      - name: Test guards without network access or publication credentials
+        run: python3 .github/tests/test_publication.py
