@@ -35,20 +35,33 @@
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
 8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
-		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
-		{BT-501-Organization-Company} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
-		{BT-16-Organization-Company} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
-		{BT-510(a)-Organization-Company} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
-		{BT-513-Organization-Company} #{field|name|BT-513-Organization-Company}: ${BT-513-Organization-Company} // Organization City
-		{BT-512-Organization-Company} #{field|name|BT-512-Organization-Company}: ${BT-512-Organization-Company} // Organization Post Code
-		{BT-507-Organization-Company} #{field|name|BT-507-Organization-Company}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) // Organization Country Subdivision
-		{BT-514-Organization-Company} #{field|name|BT-514-Organization-Company}: #{BT-514-Organization-Company} // Organization Country
-		{BT-502-Organization-Company} #{field|name|BT-502-Organization-Company}: ${BT-502-Organization-Company} // Organization Contact Point
-		{BT-506-Organization-Company} #{field|name|BT-506-Organization-Company}: ${BT-506-Organization-Company} // Organization Contact Email Address
-		{BT-503-Organization-Company} #{field|name|BT-503-Organization-Company}: ${BT-503-Organization-Company} // Organization Contact Telephone Number
-		{BT-739-Organization-Company} #{field|name|BT-739-Organization-Company}: ${BT-739-Organization-Company} // Organization Contact Fax
-		{BT-505-Organization-Company} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
-		{BT-509-Organization-Company} #{field|name|BT-509-Organization-Company}: ${BT-509-Organization-Company} // Organization eDelivery Gateway
+		{ND-Organization[BT-500-Organization-Company != 'unpublished']} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
+		{BT-501-Organization-Company[BT-501-Organization-Company != 'unpublished']} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
+		{BT-501-Organization-Company[BT-501-Organization-Company == 'unpublished']} #{field|name|BT-501-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Identifier (undisclosed)
+		{BT-16-Organization-Company[BT-16-Organization-Company != 'unpublished']} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
+		{BT-16-Organization-Company[BT-16-Organization-Company == 'unpublished']} #{field|name|BT-16-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Part Name (undisclosed)
+		{BT-510(a)-Organization-Company[BT-510(a)-Organization-Company != 'unpublished']} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address
+		{BT-510(a)-Organization-Company[BT-510(a)-Organization-Company == 'unpublished']} #{field|name|BT-510(a)-Organization-Company}: #{auxiliary|text|undisclosed} // Postal address (undisclosed)
+		{BT-513-Organization-Company[BT-513-Organization-Company != 'unpublished']} #{field|name|BT-513-Organization-Company}: ${BT-513-Organization-Company} // Organization City
+		{BT-513-Organization-Company[BT-513-Organization-Company == 'unpublished']} #{field|name|BT-513-Organization-Company}: #{auxiliary|text|undisclosed} // Organization City (undisclosed)
+		{BT-512-Organization-Company[BT-512-Organization-Company != 'unpublished']} #{field|name|BT-512-Organization-Company}: ${BT-512-Organization-Company} // Organization Post Code
+		{BT-512-Organization-Company[BT-512-Organization-Company == 'unpublished']} #{field|name|BT-512-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Post Code (undisclosed)
+		{BT-507-Organization-Company[BT-507-Organization-Company != 'unpublished']} #{field|name|BT-507-Organization-Company}: #{BT-507-Organization-Company} (${BT-507-Organization-Company}) // Organization Country Subdivision
+		{BT-507-Organization-Company[BT-507-Organization-Company == 'unpublished']} #{field|name|BT-507-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Country Subdivision (undisclosed)
+		{BT-514-Organization-Company[BT-514-Organization-Company != 'unpublished']} #{field|name|BT-514-Organization-Company}: #{BT-514-Organization-Company} // Organization Country
+		{BT-514-Organization-Company[BT-514-Organization-Company == 'unpublished']} #{field|name|BT-514-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Country (undisclosed)
+		{BT-502-Organization-Company[BT-502-Organization-Company != 'unpublished']} #{field|name|BT-502-Organization-Company}: ${BT-502-Organization-Company} // Organization Contact Point
+		{BT-502-Organization-Company[BT-502-Organization-Company == 'unpublished']} #{field|name|BT-502-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Point (undisclosed)
+		{BT-506-Organization-Company[BT-506-Organization-Company != 'unpublished']} #{field|name|BT-506-Organization-Company}: ${BT-506-Organization-Company} // Organization Contact Email Address
+		{BT-506-Organization-Company[BT-506-Organization-Company == 'unpublished']} #{field|name|BT-506-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Email Address (undisclosed)
+		{BT-503-Organization-Company[BT-503-Organization-Company != 'unpublished']} #{field|name|BT-503-Organization-Company}: ${BT-503-Organization-Company} // Organization Contact Telephone Number
+		{BT-503-Organization-Company[BT-503-Organization-Company == 'unpublished']} #{field|name|BT-503-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Telephone Number (undisclosed)
+		{BT-739-Organization-Company[BT-739-Organization-Company != 'unpublished']} #{field|name|BT-739-Organization-Company}: ${BT-739-Organization-Company} // Organization Contact Fax
+		{BT-739-Organization-Company[BT-739-Organization-Company == 'unpublished']} #{field|name|BT-739-Organization-Company}: #{auxiliary|text|undisclosed} // Organization Contact Fax (undisclosed)
+		{BT-505-Organization-Company[BT-505-Organization-Company != 'unpublished']} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
+		{BT-505-Organization-Company[BT-505-Organization-Company == 'unpublished']} #{field|name|BT-505-Organization-Company}: #{auxiliary|text|undisclosed}// Organization Internet Address (undisclosed)
+		{BT-509-Organization-Company[BT-509-Organization-Company != 'unpublished']} #{field|name|BT-509-Organization-Company}: ${BT-509-Organization-Company} // Organization eDelivery Gateway
+		{BT-509-Organization-Company[BT-509-Organization-Company == 'unpublished']} #{field|name|BT-509-Organization-Company}: #{auxiliary|text|undisclosed} // Organization eDelivery Gateway (undisclosed)
 		{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{field|name|BT-508-Procedure-Buyer}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
 		0 {ND-Touchpoint} #{auxiliary|text|other-contact-point}: // TouchPoint / Other contact points
 			{ND-Touchpoint[BT-500-Organization-TouchPoint is present]} #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint} // Buyer Touchpoint Name

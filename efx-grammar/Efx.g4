@@ -11,7 +11,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression expressionBlock EOF;
+singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression (expressionBlock | selectorBlock) EOF;
 
 /* 
  * A template-file is a series of template-lines.
@@ -85,6 +85,23 @@ otherAssetId: OtherAssetId | AssetType | LabelType;
 expressionBlock
     : StartExpression expression EndExpression          # standardExpressionBlock
     | ShorthandFieldValueReferenceFromContextField      # shorthandFieldValueReferenceFromContextField
+    ;
+
+/*
+ * A selector-block starts with & and contains, inside curly braces, a reference to the XML
+ * element(s) it designates. Unlike an expression-block, which yields the value of what it
+ * references, a selector-block yields the reference itself: the translated selector identifies
+ * the elements rather than reading them. It exists so that a host application can ask EFX where
+ * something is, instead of what it contains.
+ * A selector-block may only appear at the top level; it is not an expression and cannot be
+ * nested inside one.
+ */
+selectorBlock: StartSelector selection EndExpression;
+
+selection
+    : fieldContext
+    | nodeContext
+    | attributeReference
     ;
 
 /*
