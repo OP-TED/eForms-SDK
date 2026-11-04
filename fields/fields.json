@@ -10128,14 +10128,7 @@
         "canModify" : true,
         "canRemove" : true
       },
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-ProcedureMainClassification} ${notice(BT-758-notice)/OPP-070-notice in ['10','11','CEI','12','13','14','15','16','17','18','19','E3','20','21','22','23','24','25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5'] and (notice(BT-758-notice)/BT-262-Procedure is present)}",
-        "value" : {
-          "canModify" : false
-        },
-        "severity" : "ERROR"
-      } ]
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
