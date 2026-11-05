@@ -35,9 +35,28 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-          server-id: central
-          server-username: MAVEN_USERNAME
-          server-password: MAVEN_PASSWORD
+      # Written here because setup-java cannot declare repositoryOrigins. Since Maven 3.10, the
+      # credentials of a server are sent only to the hosts known for its id, and for the id central
+      # that is only repo.maven.apache.org. Without central.sonatype.com, snapshots are uploaded
+      # without credentials and refused.
+      - name: Write the Maven settings for publishing to the Maven Central Repository
+        run: |
+          cat > ~/.m2/settings.xml <<'EOF'
+          <settings xmlns="http://maven.apache.org/SETTINGS/1.3.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.3.0 https://maven.apache.org/xsd/settings-1.3.0.xsd">
+            <servers>
+              <server>
+                <id>central</id>
+                <username>${env.MAVEN_USERNAME}</username>
+                <password>${env.MAVEN_PASSWORD}</password>
+                <repositoryOrigins>
+                  <repositoryOrigin>https://central.sonatype.com</repositoryOrigin>
+                </repositoryOrigins>
+              </server>
+            </servers>
+          </settings>
+          EOF
       - name: Read project version
         id: project
         shell: bash
