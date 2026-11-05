@@ -1204,7 +1204,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin">
 		<assert id="BT-191-Tender_R" role="ERROR" diagnostics="BT-191-Tender" test="count(efbc:AreaCode) &lt; 2">rule|text|BT-191-Tender_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm">
 		<assert id="BT-553-Tender_R" role="ERROR" diagnostics="BT-553-Tender" test="count(efbc:TermAmount) &lt; 2">rule|text|BT-553-Tender_R</assert>
 		<assert id="BT-554-Tender_A" role="ERROR" diagnostics="BT-554-Tender" test="count(efbc:TermDescription[@languageID = preceding-sibling::efbc:TermDescription/@languageID]) = 0">rule|text|BT-554-Tender_A</assert>
 		<assert id="BT-554-Tender_B" role="ERROR" diagnostics="BT-554-Tender" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:TermDescription/@languageID = $lg) or count(efbc:TermDescription) = 0">rule|text|BT-554-Tender_B</assert>
@@ -1214,7 +1214,7 @@
 		<assert id="BT-731-Tender_R" role="ERROR" diagnostics="BT-731-Tender" test="count(efbc:PercentageKnownIndicator) &lt; 2">rule|text|BT-731-Tender_R</assert>
 		<assert id="BT-773-Tender_R" role="ERROR" diagnostics="BT-773-Tender" test="count(efbc:TermCode) &lt; 2">rule|text|BT-773-Tender_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription">
 		<assert id="BT-554-Tender_D" role="ERROR" test="@languageID">rule|text|BT-554-Tender_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">

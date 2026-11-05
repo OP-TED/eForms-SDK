@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Limba utilizată pentru descrierea obiectivului de calitate</entry>
 <entry key="field|description|OPT-090-Lot">Codul care indică faptul că este vorba despre categorii de cumpărători: 'categorii de cumpărători'</entry>
 <entry key="field|description|OPT-100-Contract">Referința la raportul de rezultate care conține informații despre contractul-cadru semnat pe baza căruia se desfășoară contractul actual</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Numele schemei utilizate pentru a nota referința la raportul de rezultate care conține informații despre contractul-cadru semnat pe baza căruia se desfășoară contractul actual</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Adresa web unde poate fi găsită legislația fiscală locală</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Adresa web unde poate fi găsită legislația fiscală locală</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Identificatorul legislației fiscale</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Numele schemei pentru referința la organizația ('organization') sau punctul de contact ('touchpoint') care evaluează ofertele</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Referință la organizația (ORG-xxxx) sau punctul de contact (TPO-xxxx) cărora trebuie să li se depună ofertele sau cererile de participare</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Numele schemei pentru referința la organizația ('organization') sau punctul de contact ('touchpoint') care primește ofertele</entry>
-<entry key="field|description|OPT-301-ReviewBody">Referință la organizația (ORG-xxxx) care gestionează cererea de revizuire în etapa de revizuire curent raportată</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Numele schemei pentru referința la organizația ('organization') care revizuiește cererea în etapa de revizuire curent raportată</entry>
-<entry key="field|description|OPT-301-ReviewReq">Referință la organizația (ORG-xxxx) care a inițiat cererea de revizuire care a condus la raportarea în etapa de revizuire curentă</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Numele schemei pentru referința la organizația ('organization') sau punctul de contact ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Referință la organizația (ORG-xxxx) care este ofertantul principal</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Numele schemei pentru referința la organizația ('organization') care acționează ca ofertant principal</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Referință la organizația (ORG-xxxx) care este subcontractant al unuia sau mai multor ofertanți principali</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Unul dintre următoarele trebuie completat: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Fiecare grup de informații nedivulgate conține unul sau mai multe câmpuri care nu sunt publicate, astfel cum este documentat în TED.</entry>
+<entry key="field|hint|BT-195-notice">Fiecare grup de informații nedivulgate conține unul sau mai multe câmpuri care nu sunt publicate, astfel cum este documentat în TED: https://ted.europa.eu/ro/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Dacă data divulgării nu este furnizată, informațiile nu vor fi divulgate niciodată. Dacă data este furnizată, aceasta nu poate fi la mai mult de 5 ani de la data transmiterii.</entry>
 <entry key="field|hint|BT-22-Lot">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați un identificator diferit pentru fiecare lot.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați un identificator diferit pentru fiecare lot.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Termenul-limită pentru primirea ofertelor</entry>
 <entry key="field|name|BT-1311(d)-Lot">Termenul-limită pentru primirea cererilor de participare</entry>
 <entry key="field|name|BT-1311(t)-Lot">Termenul-limită pentru primirea cererilor de participare</entry>
-<entry key="field|name|BT-132(d)-Lot">Data deschiderii</entry>
-<entry key="field|name|BT-132(t)-Lot">Data deschiderii</entry>
+<entry key="field|name|BT-132(d)-Lot">Data deschiderii publice</entry>
+<entry key="field|name|BT-132(t)-Lot">Ora deschiderii publice</entry>
 <entry key="field|name|BT-133-Lot">Locul</entry>
 <entry key="field|name|BT-133-Lot-Language">Locul</entry>
 <entry key="field|name|BT-134-Lot">Informații suplimentare</entry>

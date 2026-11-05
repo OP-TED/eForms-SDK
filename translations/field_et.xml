@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Kvaliteedieesmärgi kirjelduseks kasutatav keel</entry>
 <entry key="field|description|OPT-090-Lot">Kood, mis näitab, et tegemist on ostjate kategooriatega: 'ostjate kategooriad'</entry>
 <entry key="field|description|OPT-100-Contract">Viide tulemuste teatele, mis sisaldab teavet praeguse lepingu aluseks oleva raamlepingu allkirjastamise kohta</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Skeemi nimi, mida kasutatakse viite väljendamiseks tulemuste teatele, mis sisaldab teavet raamlepingu allkirjastamise kohta, mille alusel praegune leping toimub</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Veebiaadress, kus võib leida kohalikku maksuseadustikku</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Veebiaadress, kus võib leida kohalikku maksuseadustikku</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Maksuseadustiku identifikaator</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Organisatsiooni ('organisatsioon') või kontaktipunkti ('touchpoint') viitamise skeemi nimi, mis hindab pakkumisi</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Viide organisatsioonile (ORG-xxxx) või kontaktpunktile (TPO-xxxx), kellele pakkumised või osalemistaotlused tuleb esitada</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Organisatsiooni ('organisatsioon') või kontaktipunkti ('touchpoint') viitamise skeemi nimi, mis võtab pakkumisi vastu</entry>
-<entry key="field|description|OPT-301-ReviewBody">Viide organisatsioonile (ORG-xxxx), kes tegeleb ülevaatamistaotlusega praegusel ülevaatamisetapil</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Organisatsiooni ('organisatsioon') viitamise skeemi nimi, mis vaatab taotluse üle praegusel ülevaatamisetapil</entry>
-<entry key="field|description|OPT-301-ReviewReq">Viide organisatsioonile (ORG-xxxx), kes algatas ülevaatamistaotluse, mis viis praeguse ülevaatamisetapi aruandluse juurde</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Organisatsiooni ('organisatsioon') või kontaktipunkti ('touchpoint') viitamise skeemi nimi</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Viide organisatsioonile (ORG-xxxx), mis on peamine pakkujate</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Organisatsiooni ('organisatsioon') viitamise skeemi nimi, mis tegutseb peamise pakkujana</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Viide organisatsioonile (ORG-xxxx), mis on ühe või mitme peamise pakkujate alltöövõtja</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Üks järgmistest tuleb täita: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Iga avalikustamata teabe rühm sisaldab üht või mitut välja, mida ei avaldata, nagu on dokumenteeritud TEDis.</entry>
+<entry key="field|hint|BT-195-notice">Iga avalikustamata teabe rühm sisaldab üht või mitut välja, mida ei avaldata, nagu on dokumenteeritud TEDis: https://ted.europa.eu/et/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Kui avalikustamise kuupäeva ei esitata, ei avalikustata teavet kunagi. Kui kuupäev esitatakse, ei tohi see olla hilisem kui 5 aastat pärast esitamise kuupäeva.</entry>
 <entry key="field|hint|BT-22-Lot">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Pakkumuste esitamise tähtaeg</entry>
 <entry key="field|name|BT-1311(d)-Lot">Osalemistaotluste esitamise tähtaeg</entry>
 <entry key="field|name|BT-1311(t)-Lot">Osalemistaotluste esitamise tähtaeg</entry>
-<entry key="field|name|BT-132(d)-Lot">Avamise kuupäev</entry>
-<entry key="field|name|BT-132(t)-Lot">Avamise kuupäev</entry>
+<entry key="field|name|BT-132(d)-Lot">Avaliku avamise kuupäev</entry>
+<entry key="field|name|BT-132(t)-Lot">Avaliku avamise kellaaeg</entry>
 <entry key="field|name|BT-133-Lot">Koht</entry>
 <entry key="field|name|BT-133-Lot-Language">Koht</entry>
 <entry key="field|name|BT-134-Lot">Lisateave</entry>
