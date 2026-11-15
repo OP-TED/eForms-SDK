@@ -1,3 +1,10 @@
+# Changes since 2.0.0-alpha.5
+
+These changes are on the `efx-2` branch and will be part of the next pre-release.
+
+- **Dynamic rules (validation stage `6m`)**: 29 rules check a notice against notices that are already published, by calling the dynamic rules API of TED Monitor. They cover the notices referred to in BT-758-notice, BT-1501(n)-Contract, BT-125(i)-Lot, BT-125(i)-Part, OPP-090-Procedure and OPT-100-Contract. The API endpoint (`tedmon`) and its seven functions are declared in `validation/dynamic-functions.efx`, which `rules.efx` includes first; the rules are in `validation/stage-6m.efx`. They are translated into the dynamic Schematron only (`schematrons/dynamic/validation-stage-6m.sch`). The validator sets the URL of the API at run time, in the Schematron variable `apiUrl-tedmon`, which is empty by default. When the API cannot answer, the rules that depend on it report a warning instead of an error.
+- **Generated Schematron requires XSLT 3.0**: both `complete-validation.sch` files now declare `queryBinding="xslt3"`, and the dynamic Schematron uses XSLT 3.0 to make each API call only once and to handle a failed call. Validate with an XSLT 3.0 processor, such as Saxon 12.
+
 # eForms SDK 2.0.0-alpha.5 Release Notes
 
 SDK 2.0.0-alpha.5 is the fifth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2, alpha.3 and alpha.4.
