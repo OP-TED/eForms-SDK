@@ -1,6 +1,6 @@
-# eForms SDK 2.0.0-alpha.4 Release Notes
+# eForms SDK 2.0.0-alpha.6 Release Notes
 
-SDK 2.0.0-alpha.4 is the fourth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2 and alpha.3.
+SDK 2.0.0-alpha.6 is the sixth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2, alpha.3, alpha.4 and alpha.5.
 
 ## Caution: Pre-release
 
@@ -16,10 +16,8 @@ The goal of SDK 2 is to introduce a new version of EFX (the eForms Expression La
 
 ## Contents
 
-This pre-release contains the following changes since alpha.3:
+This pre-release contains the following changes since alpha.5:
 
-- **`fields.json` forward metadata**: the codelist reference property `parentId` has been renamed to `listName` in `fields/fwd/fields.json`, for clarity. The value it carries is unchanged; it names the codelist to be used for the `listName` attribute.
-- **TEDEN2 default values snippet**: `.ted/teden2/snippets/default-values.json` has been updated to support repeatable groups and notice contexts (procedure, part, lot). This file is reserved for TED applications and is not intended for use by eSenders or other third parties.
 - **The EFX grammar no longer types expressions**: one `expression` rule replaces the typed expression and sequence rules. The EFX translator infers the type of each part of an expression from its literals, from the field metadata and from the declarations in scope, and rejects an expression whose types do not fit. Declarations keep their types, as in `text:$name = ...`. See "How expressions are parsed" in `efx-grammar/README.md`. With it, EFX changes as follows:
   - **Casts are removed**: `(text*)BT-00-Repeatable-Text` is written `BT-00-Repeatable-Text`, since the type of every reference is known.
   - **A single value is accepted wherever a sequence is**, as a sequence of one value, whatever gives it: `count($x)` and `'a' in $x` are valid when `$x` holds one text.
