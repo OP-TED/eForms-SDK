@@ -1,0 +1,15 @@
+// Functions of the dynamic rules API (TED Monitor), used by the dynamic rules in stage-6m.efx.
+// These declarations must come before every stage, so this file is included first in rules.efx.
+
+// The dynamic rules API. Its URL is given at run time.
+ENDPOINT 'tedmon';
+
+// Each function returns 1 (true) or 0 (false). When the API cannot answer (-1),
+// the rules that use the function stay silent and a warning is raised instead.
+LET dynamic : ?notice-is-published(text : $noticeRef) CALL API 'tedmon', ON ERROR WARN;
+LET dynamic : ?notice-is-in-eforms-format(text : $noticeRef) CALL API 'tedmon', ON ERROR WARN;
+LET dynamic : ?notice-has-no-subsequent-change-notice(text : $noticeRef) CALL API 'tedmon', ON ERROR WARN;
+LET dynamic : ?notice-has-not-been-cancelled(text : $noticeRef) CALL API 'tedmon', ON ERROR WARN;
+LET dynamic : ?notice-procedure-identifier-is(text : $noticeRef, text : $procedureIdentifier) CALL API 'tedmon', ON ERROR WARN;
+LET dynamic : ?notice-procedure-type-is(text : $noticeRef, text : $procedureType) CALL API 'tedmon', ON ERROR WARN;
+LET dynamic : ?notice-main-nature-is(text : $noticeRef, text : $mainNature) CALL API 'tedmon', ON ERROR WARN;

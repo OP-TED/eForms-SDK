@@ -1,3 +1,5 @@
+#include "dynamic-functions.efx"
+
 #include "stage-1a.efx"
 
 --- STAGE 2a ---
@@ -17178,4 +17180,6 @@ WITH OPT-320-LotResult
     IN *
 
 #include "stage-5m.efx"
+
+#include "stage-6m.efx"
 
