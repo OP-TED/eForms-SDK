@@ -103,7 +103,7 @@
         <assert id="R-NT7-EHB" role="ERROR" diagnostics="ND-LotTender_BT-160-Tender" test="(not(efac:ConcessionRevenue/efbc:RevenueBuyerAmount)) or (not(not(cbc:ID)))">rule|text|R-NT7-EHB</assert>
         <assert id="R-X4I-8R8" role="ERROR" diagnostics="ND-LotTender_BT-162-Tender" test="(not(efac:ConcessionRevenue/efbc:RevenueUserAmount)) or (not(not(cbc:ID)))">rule|text|R-X4I-8R8</assert>
         <assert id="R-B59-VBU" role="ERROR" diagnostics="ND-LotTender_BT-163-Tender" test="(not(efac:ConcessionRevenue/efbc:ValueDescription)) or (not(not(cbc:ID)))">rule|text|R-B59-VBU</assert>
-        <assert id="R-Y99-JBR" role="ERROR" diagnostics="ND-LotTender_BT-773-Tender" test="(not(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode)) or (not(not(cbc:ID)))">rule|text|R-Y99-JBR</assert>
+        <assert id="R-Y99-JBR" role="ERROR" diagnostics="ND-LotTender_BT-773-Tender" test="(not(efac:SubcontractingTerm/efbc:TermCode)) or (not(not(cbc:ID)))">rule|text|R-Y99-JBR</assert>
         <assert id="R-Q53-JFM" role="ERROR" diagnostics="ND-LotTender_OPT-310-Tender" test="(not(efac:TenderingParty/cbc:ID)) or (not(not(cbc:ID)))">rule|text|R-Q53-JFM</assert>
         <assert id="R-EFD-W2R" role="ERROR" diagnostics="ND-LotTender_OPT-310-Tender" test="(efac:TenderingParty/cbc:ID) or (not(not(not(cbc:ID))))">rule|text|R-EFD-W2R</assert>
     </rule>
@@ -198,7 +198,7 @@
         <assert id="R-FT5-2FZ" role="ERROR" diagnostics="ND-SubContractor_OPT-301-Tenderer-MainCont" test="(not(efac:MainContractor/cbc:ID)) or (not(not(cbc:ID)))">rule|text|R-FT5-2FZ</assert>
         <assert id="R-DTE-5HX" role="ERROR" diagnostics="ND-SubContractor_OPT-301-Tenderer-MainCont" test="(efac:MainContractor/cbc:ID) or (not(not(not(cbc:ID))))">rule|text|R-DTE-5HX</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm">
         <assert id="R-SD4-1DN" role="ERROR" diagnostics="ND-SubcontractedContract_BT-553-Tender" test="(not(efbc:TermAmount)) or (not(not(efbc:ValueKnownIndicator = true())))">rule|text|R-SD4-1DN</assert>
         <assert id="R-PJC-0O5" role="ERROR" diagnostics="ND-SubcontractedContract_BT-553-Tender" test="(efbc:TermAmount) or (not(efbc:ValueKnownIndicator = true()))">rule|text|R-PJC-0O5</assert>
         <assert id="R-BOK-HY8" role="ERROR" diagnostics="ND-SubcontractedContract_BT-554-Tender" test="(not(efbc:TermDescription)) or (not(not(efbc:TermCode/normalize-space(text()) = 'yes')))">rule|text|R-BOK-HY8</assert>

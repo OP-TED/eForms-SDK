@@ -83,7 +83,7 @@
     "attributeOf" : "BT-01(d)-Procedure",
     "legalType" : "CODE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -166,7 +166,7 @@
     "attributeOf" : "BT-01(f)-Procedure",
     "legalType" : "CODE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -195,7 +195,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "legal-basis",
         "type" : "flat"
@@ -594,7 +594,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "notice-type",
         "type" : "flat"
@@ -654,7 +654,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "form-type",
         "type" : "flat"
@@ -782,7 +782,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "strategic-procurement",
         "type" : "flat"
@@ -884,7 +884,7 @@
     "attributeOf" : "BT-09(b)-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -933,7 +933,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "authority-activity",
         "type" : "flat"
@@ -987,7 +987,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "procurement-procedure-type",
         "type" : "flat"
@@ -1108,7 +1108,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "accelerated-procedure",
         "type" : "flat"
@@ -1204,7 +1204,7 @@
     "attributeOf" : "BT-109-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -1243,7 +1243,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "buyer-legal-type",
         "type" : "flat"
@@ -1309,7 +1309,7 @@
     "attributeOf" : "BT-111-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -1330,7 +1330,7 @@
     "attributes" : [ "BT-1118-NoticeResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "not-fram"
+      "groupId" : "not-fram"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -1406,7 +1406,7 @@
     "attributeOf" : "BT-1118-NoticeResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -1482,7 +1482,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -1522,7 +1522,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -1543,7 +1543,7 @@
     "attributes" : [ "BT-118-NoticeResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "not-fram"
+      "groupId" : "not-fram"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -1614,7 +1614,7 @@
     "attributeOf" : "BT-118-NoticeResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -1658,7 +1658,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -1702,7 +1702,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -1753,7 +1753,7 @@
     "attributeOf" : "BT-122-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -2581,7 +2581,7 @@
     "attributeOf" : "BT-133-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -2632,7 +2632,7 @@
     "attributeOf" : "BT-134-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -2693,7 +2693,7 @@
     "attributeOf" : "BT-135-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -2754,7 +2754,7 @@
     "attributeOf" : "BT-1351-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -2799,7 +2799,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "direct-award-justification",
         "type" : "flat"
@@ -3239,7 +3239,7 @@
     "attributeOf" : "BT-13714-Tender",
     "legalType" : "IDENTIFIER",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "tendered-object",
         "type" : "flat"
@@ -3416,7 +3416,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "document-distribution",
         "type" : "flat"
@@ -3445,7 +3445,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "document-distribution",
         "type" : "flat"
@@ -3486,7 +3486,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "change-corrig-justification",
         "type" : "flat"
@@ -3552,7 +3552,7 @@
     "attributeOf" : "BT-141(a)-notice",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -3591,7 +3591,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "winner-selection-status",
         "type" : "flat"
@@ -3666,7 +3666,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "non-award-justification",
         "type" : "flat"
@@ -4169,7 +4169,7 @@
     "attributeOf" : "BT-156-NoticeResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -4238,7 +4238,7 @@
     "attributeOf" : "BT-1561-NoticeResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -4292,7 +4292,7 @@
     "attributeOf" : "BT-157-LotsGroup",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -4313,7 +4313,7 @@
     "legalType" : "TEXT",
     "maxLength" : 1000,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-16-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-16-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -4369,7 +4369,7 @@
     "attributes" : [ "BT-160-Tender-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "con-esti"
+      "groupId" : "con-esti"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -4420,7 +4420,7 @@
     "attributeOf" : "BT-160-Tender",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -4441,7 +4441,7 @@
     "attributes" : [ "BT-161-NoticeResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "not-valu"
+      "groupId" : "not-valu"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -4488,7 +4488,7 @@
     "attributeOf" : "BT-161-NoticeResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -4509,7 +4509,7 @@
     "attributes" : [ "BT-162-Tender-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "con-esti"
+      "groupId" : "con-esti"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -4560,7 +4560,7 @@
     "attributeOf" : "BT-162-Tender",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -4582,7 +4582,7 @@
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "disclosureControl" : {
-      "fieldGroupId" : "con-esti"
+      "groupId" : "con-esti"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -4624,7 +4624,7 @@
     "attributeOf" : "BT-163-Tender",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -4645,7 +4645,7 @@
     "attributes" : [ "BT-165-Organization-Company-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-165-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-165-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -4674,7 +4674,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "economic-operator-size",
         "type" : "flat"
@@ -4728,7 +4728,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "esubmission",
         "type" : "flat"
@@ -4763,7 +4763,7 @@
     "type" : "integer",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "ten-rank"
+      "groupId" : "ten-rank"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -4818,7 +4818,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -4905,7 +4905,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "no-esubmission-justification",
         "type" : "flat"
@@ -4941,7 +4941,7 @@
     "attributes" : [ "BT-191-Tender-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "ori-info"
+      "groupId" : "ori-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -4953,7 +4953,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -4988,7 +4988,7 @@
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "disclosureControl" : {
-      "fieldGroupId" : "ten-vari"
+      "groupId" : "ten-vari"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -5015,7 +5015,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -5044,12 +5044,22 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "undisclosed-data-group",
         "type" : "flat"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "value" : "{ND-Root} ${count(BT-195-notice) == count(distinct-values(BT-195-notice))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|R-48Z-1D0"
+      } ]
     }
   }, {
     "id" : "BT-196-notice",
@@ -5095,7 +5105,7 @@
     "attributeOf" : "BT-196-notice",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5140,7 +5150,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "non-publication-justification",
         "type" : "flat"
@@ -5231,7 +5241,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "modification-justification",
         "type" : "flat"
@@ -5301,7 +5311,7 @@
     "attributeOf" : "BT-201-Contract",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5356,7 +5366,7 @@
     "attributeOf" : "BT-202-Contract",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5411,7 +5421,7 @@
     "attributeOf" : "BT-21-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5462,7 +5472,7 @@
     "attributeOf" : "BT-21-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5517,7 +5527,7 @@
     "attributeOf" : "BT-21-Part",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5572,7 +5582,7 @@
     "attributeOf" : "BT-21-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -5799,7 +5809,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-nature",
         "type" : "flat"
@@ -5869,7 +5879,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-nature",
         "type" : "flat"
@@ -5933,7 +5943,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-nature",
         "type" : "flat"
@@ -6019,7 +6029,7 @@
     "attributeOf" : "BT-24-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -6070,7 +6080,7 @@
     "attributeOf" : "BT-24-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -6125,7 +6135,7 @@
     "attributeOf" : "BT-24-Part",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -6180,7 +6190,7 @@
     "attributeOf" : "BT-24-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -6249,7 +6259,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "classification-type",
         "type" : "flat"
@@ -6295,7 +6305,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "classification-type",
         "type" : "flat"
@@ -6341,7 +6351,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "classification-type",
         "type" : "flat"
@@ -6387,7 +6397,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "classification-type",
         "type" : "flat"
@@ -6433,7 +6443,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "classification-type",
         "type" : "flat"
@@ -6479,7 +6489,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "classification-type",
         "type" : "flat"
@@ -6518,7 +6528,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cpv",
         "type" : "hierarchical"
@@ -6582,7 +6592,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cpv",
         "type" : "hierarchical"
@@ -6646,7 +6656,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cpv",
         "type" : "hierarchical"
@@ -6659,14 +6669,7 @@
         "canModify" : true,
         "canRemove" : true
       },
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-ProcedureMainClassification} ${notice(BT-758-notice)/OPP-070-notice in ['10','11','CEI','12','13','14','15','16','17','18','19','E3','20','21','22','23','24','25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5'] and (notice(BT-758-notice)/BT-262-Procedure is present)}",
-        "value" : {
-          "canModify" : false
-        },
-        "severity" : "ERROR"
-      } ]
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
@@ -6711,7 +6714,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cpv",
         "type" : "hierarchical"
@@ -6741,7 +6744,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cpv",
         "type" : "hierarchical"
@@ -6771,7 +6774,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cpv",
         "type" : "hierarchical"
@@ -6825,7 +6828,7 @@
     "attributeOf" : "BT-27-Lot",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -6879,7 +6882,7 @@
     "attributeOf" : "BT-27-LotsGroup",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -6933,7 +6936,7 @@
     "attributeOf" : "BT-27-Part",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -6987,7 +6990,7 @@
     "attributeOf" : "BT-27-Procedure",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -7046,7 +7049,7 @@
     "attributeOf" : "BT-271-Lot",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -7105,7 +7108,7 @@
     "attributeOf" : "BT-271-LotsGroup",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -7164,7 +7167,7 @@
     "attributeOf" : "BT-271-Procedure",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -7210,7 +7213,7 @@
     "attributeOf" : "BT-300-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -7256,7 +7259,7 @@
     "attributeOf" : "BT-300-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -7302,7 +7305,7 @@
     "attributeOf" : "BT-300-Part",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -7348,7 +7351,7 @@
     "attributeOf" : "BT-300-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -7715,7 +7718,7 @@
     "attributeOf" : "BT-36-Lot",
     "legalType" : "DURATION",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "duration-unit",
         "type" : "flat"
@@ -7783,7 +7786,7 @@
     "attributeOf" : "BT-36-Part",
     "legalType" : "DURATION",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "duration-unit",
         "type" : "flat"
@@ -7827,7 +7830,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -7865,7 +7868,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -7903,7 +7906,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -8012,7 +8015,7 @@
     "attributeOf" : "BT-45-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -8230,7 +8233,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-500-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-500-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -8270,7 +8273,7 @@
     "attributeOf" : "BT-500-Organization-Company",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -8335,7 +8338,7 @@
     "attributeOf" : "BT-500-Organization-TouchPoint",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -8356,7 +8359,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -8474,7 +8477,7 @@
     "legalType" : "IDENTIFIER",
     "maxLength" : 100,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-501-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-501-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -8580,7 +8583,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-502-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-502-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -8658,7 +8661,7 @@
     "legalType" : "TEXT",
     "maxLength" : 30,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-503-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-503-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -8742,7 +8745,7 @@
     "legalType" : "TEXT",
     "maxLength" : 30,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -8804,7 +8807,7 @@
     "legalType" : "URL",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-505-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-505-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -8890,7 +8893,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-506-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-506-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -8974,7 +8977,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -9033,7 +9036,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9080,7 +9083,7 @@
     "attributes" : [ "BT-507-Organization-Company-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-507-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-507-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -9109,7 +9112,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9180,7 +9183,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9227,7 +9230,7 @@
     "attributes" : [ "BT-507-UBO-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -9254,7 +9257,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9325,7 +9328,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9396,7 +9399,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9467,7 +9470,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nuts-lvl3",
         "type" : "flat",
@@ -9550,7 +9553,7 @@
     "legalType" : "URL",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-509-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-509-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -9709,7 +9712,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-510(a)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-510(a)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -9770,7 +9773,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -9829,7 +9832,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-510(b)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-510(b)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -9890,7 +9893,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -9953,7 +9956,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-510(c)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-510(c)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -10018,7 +10021,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -10340,7 +10343,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-512-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-512-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -10411,7 +10414,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -10599,7 +10602,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-513-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-513-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -10674,7 +10677,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -10819,7 +10822,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -10859,7 +10862,7 @@
     "attributes" : [ "BT-514-Organization-Company-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-514-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-514-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -10882,7 +10885,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -10946,7 +10949,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -10986,7 +10989,7 @@
     "attributes" : [ "BT-514-UBO-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -11013,7 +11016,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -11077,7 +11080,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -11141,7 +11144,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -11205,7 +11208,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -11266,7 +11269,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -11301,7 +11304,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-nature",
         "type" : "flat"
@@ -11351,7 +11354,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-nature",
         "type" : "flat"
@@ -11401,7 +11404,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-nature",
         "type" : "flat"
@@ -11603,7 +11606,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "duration",
         "type" : "flat",
@@ -11663,7 +11666,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "duration",
         "type" : "flat",
@@ -11700,7 +11703,7 @@
     "attributes" : [ "BT-539-Lot-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -11721,7 +11724,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "award-criterion-type",
         "type" : "flat"
@@ -11795,7 +11798,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "award-criterion-type",
         "type" : "flat"
@@ -11875,7 +11878,7 @@
     "attributeOf" : "BT-54-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -11897,7 +11900,7 @@
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -11948,7 +11951,7 @@
     "attributeOf" : "BT-540-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -12018,7 +12021,7 @@
     "attributeOf" : "BT-540-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -12038,7 +12041,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12078,7 +12081,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12118,7 +12121,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12270,7 +12273,7 @@
     "attributes" : [ "BT-5421-Lot-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12297,7 +12300,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-weight",
         "type" : "flat"
@@ -12367,7 +12370,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-weight",
         "type" : "flat"
@@ -12413,7 +12416,7 @@
     "attributes" : [ "BT-5422-Lot-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12440,7 +12443,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-fixed",
         "type" : "flat"
@@ -12500,7 +12503,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-fixed",
         "type" : "flat"
@@ -12536,7 +12539,7 @@
     "attributes" : [ "BT-5423-Lot-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12563,7 +12566,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-threshold",
         "type" : "flat"
@@ -12623,7 +12626,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-threshold",
         "type" : "flat"
@@ -12660,7 +12663,7 @@
     "legalType" : "TEXT",
     "maxLength" : 1000,
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12715,7 +12718,7 @@
     "attributeOf" : "BT-543-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -12779,7 +12782,7 @@
     "attributeOf" : "BT-543-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -12791,7 +12794,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Value",
     "btId" : "BT-553",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount",
     "xpathRelative" : "efbc:TermAmount",
     "xsdSequenceOrder" : [ {
       "efbc:TermAmount" : 2
@@ -12800,7 +12803,7 @@
     "attributes" : [ "BT-553-Tender-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-info"
+      "groupId" : "sub-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12841,7 +12844,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Value Currency",
     "btId" : "BT-553",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount/@currencyID",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermAmount/@currencyID",
     "xpathRelative" : "efbc:TermAmount/@currencyID",
     "xsdSequenceOrder" : [ {
       "efbc:TermAmount" : 2
@@ -12851,7 +12854,7 @@
     "attributeOf" : "BT-553-Tender",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -12863,7 +12866,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Description",
     "btId" : "BT-554",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription",
     "xpathRelative" : "efbc:TermDescription",
     "xsdSequenceOrder" : [ {
       "efbc:TermDescription" : 3
@@ -12873,7 +12876,7 @@
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "disclosureControl" : {
-      "fieldGroupId" : "sub-info"
+      "groupId" : "sub-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12895,7 +12898,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Description Language",
     "btId" : "BT-554",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermDescription/@languageID",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermDescription/@languageID",
     "xpathRelative" : "efbc:TermDescription/@languageID",
     "xsdSequenceOrder" : [ {
       "efbc:TermDescription" : 3
@@ -12905,7 +12908,7 @@
     "attributeOf" : "BT-554-Tender",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -12917,7 +12920,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Percentage",
     "btId" : "BT-555",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermPercent",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermPercent",
     "xpathRelative" : "efbc:TermPercent",
     "xsdSequenceOrder" : [ {
       "efbc:TermPercent" : 4
@@ -12925,7 +12928,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-info"
+      "groupId" : "sub-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -12978,7 +12981,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34", "E4", "E5" ],
-        "condition" : "{ND-NoticeResultGroupFA} ${not(every text:$groupResult in BT-556-NoticeResult, text:$lot in BT-1375-Procedure[BT-330-Procedure == $groupResult], text:$result in BT-142-LotResult[BT-13713-LotResult == $lot] satisfies ($result == 'selec-w')) or (every text:$group in BT-556-NoticeResult satisfies (count(BT-137-Lot[(BT-137-Lot in BT-1375-Procedure[BT-330-Procedure == $group]) and (BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc'])]) < 2))}",
+        "condition" : "{ND-NoticeResultGroupFA} ${(count(BT-330-Procedure[every text:$lot in BT-1375-Procedure, text:$result in BT-142-LotResult[BT-13713-LotResult == $lot] satisfies ($result == 'selec-w')]) == 0) or (every text:$group2 in BT-330-Procedure satisfies (count(BT-137-Lot[(BT-137-Lot in BT-1375-Procedure[BT-330-Procedure == $group2]) and (BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc'])]) < 2))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -13071,7 +13074,7 @@
     "attributeOf" : "BT-57-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -13101,7 +13104,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "required",
         "type" : "flat"
@@ -13197,7 +13200,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-funded",
         "type" : "flat"
@@ -13261,7 +13264,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "entity-activity",
         "type" : "flat"
@@ -13327,7 +13330,7 @@
     "attributeOf" : "BT-6110-Contract",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -13378,7 +13381,7 @@
     "attributeOf" : "BT-6140-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -13497,7 +13500,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "measurement-unit",
         "type" : "flat"
@@ -13527,7 +13530,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "permission",
         "type" : "flat"
@@ -13752,7 +13755,7 @@
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-633-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-633-Organization[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -13771,7 +13774,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -13800,7 +13803,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -13838,7 +13841,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -13867,7 +13870,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "rev-info"
+      "groupId" : "rev-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -13919,7 +13922,7 @@
     "attributes" : [ "BT-636-LotResult-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "rev-info"
+      "groupId" : "rev-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -13936,7 +13939,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "irregularity-type",
         "type" : "flat"
@@ -14057,7 +14060,7 @@
     "attributeOf" : "BT-644-Lot",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -14096,7 +14099,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "subcontracting-obligation",
         "type" : "flat"
@@ -14160,7 +14163,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "subcontracting-indication",
         "type" : "flat"
@@ -14196,7 +14199,7 @@
     "attributes" : [ "BT-660-LotResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "not-fram"
+      "groupId" : "not-fram"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -14242,7 +14245,7 @@
     "attributeOf" : "BT-660-LotResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -14286,7 +14289,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -14331,7 +14334,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "exclusion-ground",
         "type" : "flat"
@@ -14406,7 +14409,7 @@
     "attributeOf" : "BT-67(b)-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -14436,7 +14439,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "fsr",
         "type" : "flat"
@@ -14496,7 +14499,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "foreign-subsidy-measure-conclusion",
         "type" : "flat"
@@ -14541,7 +14544,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "ipi-scope",
         "type" : "flat"
@@ -14601,7 +14604,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "international-procurement-instrument-measure",
         "type" : "flat"
@@ -14719,7 +14722,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "international-procurement-instrument-application",
         "type" : "flat"
@@ -14795,7 +14798,7 @@
     "attributeOf" : "BT-688-LotResult",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -14855,7 +14858,7 @@
     "attributeOf" : "BT-70-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -14926,7 +14929,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat",
@@ -14959,7 +14962,7 @@
     "type" : "code",
     "legalType" : "CODE",
     "repeatable" : true,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -14989,7 +14992,7 @@
     "type" : "code",
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15016,7 +15019,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -15060,7 +15063,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "communication-justification",
         "type" : "flat"
@@ -15094,7 +15097,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "communication-justification",
         "type" : "flat"
@@ -15128,7 +15131,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "language",
         "type" : "flat"
@@ -15162,7 +15165,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "language",
         "type" : "flat"
@@ -15183,7 +15186,7 @@
     "attributes" : [ "BT-709-LotResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "not-fram"
+      "groupId" : "not-fram"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15229,7 +15232,7 @@
     "attributeOf" : "BT-709-LotResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -15268,7 +15271,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "reserved-procurement",
         "type" : "flat"
@@ -15313,7 +15316,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "reserved-procurement",
         "type" : "flat"
@@ -15349,7 +15352,7 @@
     "attributes" : [ "BT-710-LotResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-lohi"
+      "groupId" : "sub-lohi"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15406,7 +15409,7 @@
     "attributeOf" : "BT-710-LotResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -15427,7 +15430,7 @@
     "attributes" : [ "BT-711-LotResult-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-lohi"
+      "groupId" : "sub-lohi"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15459,7 +15462,7 @@
     "attributeOf" : "BT-711-LotResult",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -15480,7 +15483,7 @@
     "attributes" : [ "BT-712(a)-LotResult-List" ],
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "rev-info"
+      "groupId" : "rev-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15497,7 +15500,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "review-type",
         "type" : "flat"
@@ -15532,7 +15535,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "rev-info"
+      "groupId" : "rev-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15603,7 +15606,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cvd-scope",
         "type" : "flat"
@@ -15652,7 +15655,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -15716,7 +15719,7 @@
     "attributes" : [ "BT-720-Tender-Currency" ],
     "legalType" : "VALUE",
     "disclosureControl" : {
-      "fieldGroupId" : "ten-valu"
+      "groupId" : "ten-valu"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -15769,7 +15772,7 @@
     "attributeOf" : "BT-720-Tender",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -15820,7 +15823,7 @@
     "attributeOf" : "BT-721-Contract",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -15850,7 +15853,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-programme",
         "type" : "flat"
@@ -15895,7 +15898,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-programme",
         "type" : "flat"
@@ -15945,7 +15948,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "vehicle-category",
         "type" : "flat"
@@ -15989,7 +15992,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -16018,7 +16021,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -16047,7 +16050,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -16081,7 +16084,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "other-place-service",
         "type" : "flat"
@@ -16125,7 +16128,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "other-place-service",
         "type" : "flat"
@@ -16169,7 +16172,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "other-place-service",
         "type" : "flat"
@@ -16240,7 +16243,7 @@
     "attributeOf" : "BT-728-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16301,7 +16304,7 @@
     "attributeOf" : "BT-728-Part",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16362,7 +16365,7 @@
     "attributeOf" : "BT-728-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16411,7 +16414,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Value Known",
     "btId" : "BT-730",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:ValueKnownIndicator",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:ValueKnownIndicator",
     "xpathRelative" : "efbc:ValueKnownIndicator",
     "xsdSequenceOrder" : [ {
       "efbc:ValueKnownIndicator" : 7
@@ -16419,7 +16422,7 @@
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-info"
+      "groupId" : "sub-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -16446,7 +16449,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -16458,7 +16461,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Percentage Known",
     "btId" : "BT-731",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:PercentageKnownIndicator",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:PercentageKnownIndicator",
     "xpathRelative" : "efbc:PercentageKnownIndicator",
     "xsdSequenceOrder" : [ {
       "efbc:PercentageKnownIndicator" : 6
@@ -16466,7 +16469,7 @@
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-info"
+      "groupId" : "sub-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -16493,7 +16496,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -16554,7 +16557,7 @@
     "attributeOf" : "BT-732-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16576,7 +16579,7 @@
     "legalType" : "TEXT",
     "maxLength" : 6000,
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -16608,7 +16611,7 @@
     "attributeOf" : "BT-733-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16659,7 +16662,7 @@
     "attributeOf" : "BT-733-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16681,7 +16684,7 @@
     "legalType" : "TEXT",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "cri-awrd"
+      "groupId" : "cri-awrd"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -16713,7 +16716,7 @@
     "attributeOf" : "BT-734-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16764,7 +16767,7 @@
     "attributeOf" : "BT-734-LotsGroup",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -16799,7 +16802,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cvd-contract-type",
         "type" : "flat"
@@ -16854,7 +16857,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "cvd-contract-type",
         "type" : "flat"
@@ -16908,7 +16911,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "reserved-execution",
         "type" : "flat"
@@ -16953,7 +16956,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "reserved-execution",
         "type" : "flat"
@@ -17002,7 +17005,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "language",
         "type" : "flat"
@@ -17036,7 +17039,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "language",
         "type" : "flat"
@@ -17111,7 +17114,7 @@
     "legalType" : "TEXT",
     "maxLength" : 30,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-739-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-739-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -17185,7 +17188,7 @@
     "legalType" : "TEXT",
     "maxLength" : 30,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -17238,7 +17241,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "buyer-contracting-type",
         "type" : "flat"
@@ -17309,7 +17312,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "einvoicing",
         "type" : "flat"
@@ -17354,7 +17357,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "esignature-submission",
         "type" : "flat"
@@ -17430,7 +17433,7 @@
     "attributeOf" : "BT-745-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -17450,7 +17453,7 @@
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info",
+      "groupId" : "eop-info",
       "withholdingCondition" : "{BT-746-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
       "undisclosedFieldSelector" : "{ND-Root} &{/BT-746-Organization[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
@@ -17469,7 +17472,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -17530,7 +17533,7 @@
     "attributeOf" : "BT-75-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -17591,7 +17594,7 @@
     "attributeOf" : "BT-750-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -17630,7 +17633,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "tender-guarantee-required",
         "type" : "flat"
@@ -17744,7 +17747,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-weight",
         "type" : "flat"
@@ -17804,7 +17807,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "number-threshold",
         "type" : "flat"
@@ -17849,7 +17852,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "accessibility",
         "type" : "flat"
@@ -17925,7 +17928,7 @@
     "attributeOf" : "BT-755-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -17954,7 +17957,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -18017,7 +18020,7 @@
     "type" : "number",
     "legalType" : "NUMBER",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-stat"
+      "groupId" : "sub-stat"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -18109,7 +18112,7 @@
     "attributeOf" : "BT-76-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -18130,7 +18133,7 @@
     "attributes" : [ "BT-760-LotResult-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-stat"
+      "groupId" : "sub-stat"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -18162,7 +18165,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "received-submission-type",
         "type" : "flat"
@@ -18216,7 +18219,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "required",
         "type" : "flat"
@@ -18278,7 +18281,7 @@
     "attributeOf" : "BT-762-notice",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -18313,7 +18316,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "tenderlot-presentation",
         "type" : "flat"
@@ -18367,7 +18370,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "ecatalog-submission",
         "type" : "flat"
@@ -18421,7 +18424,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "framework-agreement",
         "type" : "flat"
@@ -18466,7 +18469,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "framework-agreement",
         "type" : "flat"
@@ -18520,7 +18523,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "dps-usage",
         "type" : "flat"
@@ -18565,7 +18568,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "dps-usage",
         "type" : "flat"
@@ -18618,7 +18621,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -18667,7 +18670,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -18697,7 +18700,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "permission",
         "type" : "flat"
@@ -18767,7 +18770,7 @@
     "attributeOf" : "BT-77-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -18797,7 +18800,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "missing-info-submission",
         "type" : "flat"
@@ -18873,7 +18876,7 @@
     "attributeOf" : "BT-772-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -18885,7 +18888,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting",
     "btId" : "BT-773",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode",
     "xpathRelative" : "efbc:TermCode",
     "xsdSequenceOrder" : [ {
       "efbc:TermCode" : 5
@@ -18894,7 +18897,7 @@
     "attributes" : [ "BT-773-Tender-List" ],
     "legalType" : "CODE",
     "disclosureControl" : {
-      "fieldGroupId" : "sub-info"
+      "groupId" : "sub-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -18921,7 +18924,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "applicability",
         "type" : "flat"
@@ -18933,7 +18936,7 @@
     "parentNodeId" : "ND-SubcontractedContract",
     "name" : "Subcontracting Listname",
     "btId" : "BT-773",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode/@listName",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm/efbc:TermCode/@listName",
     "xpathRelative" : "efbc:TermCode/@listName",
     "xsdSequenceOrder" : [ {
       "efbc:TermCode" : 5
@@ -18966,7 +18969,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "environmental-impact",
         "type" : "flat"
@@ -19011,7 +19014,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "social-objective",
         "type" : "flat"
@@ -19056,7 +19059,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "innovative-acquisition",
         "type" : "flat"
@@ -19132,7 +19135,7 @@
     "attributeOf" : "BT-777-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -19195,7 +19198,7 @@
     "attributeOf" : "BT-779-Tender",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -19287,7 +19290,7 @@
     "attributeOf" : "BT-780-Tender",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -19342,7 +19345,7 @@
     "attributeOf" : "BT-781-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -19405,7 +19408,7 @@
     "attributeOf" : "BT-782-Tender",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -19435,7 +19438,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "review-information-type",
         "type" : "flat"
@@ -19650,7 +19653,7 @@
     "attributeOf" : "BT-788-Review",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -19711,7 +19714,7 @@
     "attributeOf" : "BT-789-Review",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -19751,7 +19754,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "requirement-stage",
         "type" : "flat"
@@ -19811,7 +19814,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "review-decision-type",
         "type" : "flat"
@@ -19871,7 +19874,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "irregularity-type",
         "type" : "flat"
@@ -19931,7 +19934,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "remedy-type",
         "type" : "flat"
@@ -20005,7 +20008,7 @@
     "attributeOf" : "BT-793-Review",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -20096,7 +20099,7 @@
     "attributeOf" : "BT-795-Review",
     "legalType" : "VALUE",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "currency",
         "type" : "flat"
@@ -20140,7 +20143,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -20232,7 +20235,7 @@
     "attributeOf" : "BT-798-Review",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -20277,7 +20280,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "review-body-type",
         "type" : "flat"
@@ -20394,7 +20397,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "nda",
         "type" : "flat"
@@ -20460,7 +20463,7 @@
     "attributeOf" : "BT-802-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -20593,7 +20596,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "gpp-criteria",
         "type" : "flat"
@@ -20647,7 +20650,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "exclusion-grounds-source",
         "type" : "flat"
@@ -20819,7 +20822,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "selection-criterion",
         "type" : "flat"
@@ -20877,7 +20880,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eed-scope",
         "type" : "flat"
@@ -20927,7 +20930,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "energy-efficiency-basis",
         "type" : "flat"
@@ -20987,7 +20990,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "energy-efficiency-basis",
         "type" : "flat"
@@ -21047,7 +21050,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "energy-efficiency-item",
         "type" : "flat"
@@ -21117,7 +21120,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "energy-efficiency-item",
         "type" : "flat"
@@ -21177,7 +21180,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "energy-efficiency-label",
         "type" : "flat"
@@ -21342,7 +21345,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "selection-criteria-source",
         "type" : "flat"
@@ -21412,7 +21415,7 @@
     "attributeOf" : "BT-88-Procedure",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -21450,7 +21453,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -21488,7 +21491,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -21517,7 +21520,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -21568,7 +21571,7 @@
     "attributeOf" : "BT-95-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -21606,7 +21609,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "language",
         "type" : "flat"
@@ -21683,7 +21686,7 @@
     "attributeOf" : "BT-98-Lot",
     "legalType" : "DURATION",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "duration-unit",
         "type" : "flat"
@@ -21739,7 +21742,7 @@
     "attributeOf" : "BT-99-Lot",
     "legalType" : "TEXT",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -21953,7 +21956,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -22012,7 +22015,7 @@
     "attributeName" : "languageID",
     "attributeOf" : "OPP-021-Contract",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -22124,7 +22127,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "contract-term",
         "type" : "flat",
@@ -22192,7 +22195,7 @@
     "attributeName" : "languageID",
     "attributeOf" : "OPP-031-Tender",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -22260,7 +22263,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "rewards-penalties",
         "type" : "flat"
@@ -22327,7 +22330,7 @@
     "attributeName" : "languageID",
     "attributeOf" : "OPP-034-Tender",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -22365,7 +22368,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "revenue-allocation",
         "type" : "flat",
@@ -22418,7 +22421,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "transport-service",
         "type" : "flat"
@@ -22484,7 +22487,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -22527,7 +22530,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -22560,7 +22563,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -22591,7 +22594,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "notice-subtype",
         "type" : "flat"
@@ -22834,7 +22837,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "notice-purpose",
         "type" : "flat"
@@ -22886,7 +22889,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "main-activity",
         "type" : "flat"
@@ -23029,7 +23032,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "country",
         "type" : "flat"
@@ -23302,7 +23305,7 @@
     "attributeName" : "languageID",
     "attributeOf" : "OPP-130-Business",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -23431,7 +23434,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "organisation-role-service",
         "type" : "flat",
@@ -23485,7 +23488,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "conditions",
         "type" : "flat"
@@ -23559,7 +23562,7 @@
     "attributeName" : "languageID",
     "attributeOf" : "OPT-070-Lot",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -23597,7 +23600,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "customer-service",
         "type" : "flat"
@@ -23664,7 +23667,7 @@
     "attributeName" : "languageID",
     "attributeOf" : "OPT-072-Lot",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "eu-official-language",
         "type" : "flat"
@@ -23708,7 +23711,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "metric-type",
         "type" : "flat"
@@ -23766,7 +23769,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "metric-type",
         "type" : "flat"
@@ -23808,7 +23811,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "buyer-categories",
         "type" : "flat"
@@ -24269,7 +24272,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "vehicles",
         "type" : "flat"
@@ -24329,7 +24332,7 @@
     "type" : "text",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -24368,7 +24371,7 @@
     } ],
     "type" : "indicator",
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -24395,7 +24398,7 @@
         "severity" : "ERROR"
       } ]
     },
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "indicator",
         "type" : "flat"
@@ -24699,7 +24702,7 @@
     "type" : "text",
     "maxLength" : 400,
     "disclosureControl" : {
-      "fieldGroupId" : "eop-info"
+      "groupId" : "eop-info"
     },
     "repeatable" : false,
     "forbidden" : {
@@ -25079,7 +25082,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-AddInfo",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25145,7 +25148,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-DocProvider",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25211,7 +25214,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-EmployLegis",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25277,7 +25280,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-EnvironLegis",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25343,7 +25346,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-FiscalLegis",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25409,7 +25412,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-Mediator",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25490,7 +25493,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-ReviewInfo",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25565,7 +25568,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-ReviewOrg",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25631,7 +25634,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-TenderEval",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25693,7 +25696,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Lot-TenderReceipt",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25869,7 +25872,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-AddInfo",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -25935,7 +25938,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-DocProvider",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26001,7 +26004,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-EmployLegis",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26067,7 +26070,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-EnvironLegis",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26133,7 +26136,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-FiscalLegis",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26199,7 +26202,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-Mediator",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26265,7 +26268,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-ReviewInfo",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26340,7 +26343,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-ReviewOrg",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26406,7 +26409,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-TenderEval",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"
@@ -26472,7 +26475,7 @@
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-301-Part-TenderReceipt",
     "repeatable" : false,
-    "codeList" : {
+    "codelist" : {
       "value" : {
         "id" : "player-type",
         "type" : "flat"

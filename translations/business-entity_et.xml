@@ -2,22 +2,22 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>business-entity in Estonian. File generated from metadata database.</comment>
-<entry key="business-entity|name|buyer">Hankija</entry>
-<entry key="business-entity|name|changes">Muudatused</entry>
-<entry key="business-entity|name|contract">Leping</entry>
-<entry key="business-entity|name|contractModification">Lepingu muutmine</entry>
+<entry key="business-entity|name|Buyer">Hankija</entry>
+<entry key="business-entity|name|Changes">Muudatused</entry>
+<entry key="business-entity|name|Contract">Leping</entry>
+<entry key="business-entity|name|ContractModification">Lepingu muutmine</entry>
+<entry key="business-entity|name|Lot">Osa</entry>
+<entry key="business-entity|name|NoticeResult">Tulemuste teade</entry>
+<entry key="business-entity|name|Part">Osa</entry>
+<entry key="business-entity|name|Procedure">Menetlus</entry>
+<entry key="business-entity|name|Tender">Pakkumus</entry>
+<entry key="business-entity|name|TenderingParty">Pakkumise esitaja</entry>
+<entry key="business-entity|name|Touchpoint">Kontaktpunkt</entry>
 <entry key="business-entity|name|euBusiness">Euroopa äri</entry>
 <entry key="business-entity|name|groupOfLots">Osade rühm</entry>
-<entry key="business-entity|name|lot">Osa</entry>
 <entry key="business-entity|name|noticeInformation">Teave teate kohta</entry>
-<entry key="business-entity|name|noticeResult">Tulemuste teade</entry>
 <entry key="business-entity|name|organization">Organisatsioon</entry>
-<entry key="business-entity|name|part">Osa</entry>
-<entry key="business-entity|name|procedure">Menetlus</entry>
 <entry key="business-entity|name|resultForLot">Tulemus partii kohta</entry>
 <entry key="business-entity|name|reviewInformation">Teave ülevaatuse kohta</entry>
-<entry key="business-entity|name|tender">Pakkumus</entry>
-<entry key="business-entity|name|tenderingParty">Pakkumise esitaja</entry>
-<entry key="business-entity|name|touchpoint">Kontaktpunkt</entry>
 <entry key="business-entity|name|ultimateBeneficialOwner">Lõplik kasulik omanik</entry>
 </properties>

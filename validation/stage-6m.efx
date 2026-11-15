@@ -1,0 +1,289 @@
+// Dynamic rules for eForms SDK 2.0.
+// Each rule checks the present notice against another, already published notice,
+// by calling the dynamic rules API. The API functions are declared in dynamic-functions.efx.
+
+--- STAGE 6m ---
+
+// Notices referred to in BT-758-notice.
+// The four checks build on each other: each applies only when the previous ones passed,
+// so that a notice gets one error, not several.
+WITH BT-758-notice,
+    dynamic : $noticeIsPublished = ?notice-is-published(BT-758-notice),
+    dynamic : $noticeIsInEformsFormat = ?notice-is-in-eforms-format(BT-758-notice),
+    dynamic : $noticeHasNoSubsequentChangeNotice = ?notice-has-no-subsequent-change-notice(BT-758-notice),
+    dynamic : $noticeHasNotBeenCancelled = ?notice-has-not-been-cancelled(BT-758-notice)
+
+  // Rule 1: Notice referred to in ‘Change Notice Version Identifier’ (BT-758-notice) must be published.
+  ASSERT $noticeIsPublished
+    AS ERROR R-FOG-SJL
+    FOR BT-758-notice
+    IN *
+
+  // Rule 2: Notice referred to in 'Change Notice Version Identifier’ (BT-758-notice) must be published
+  //   and in eForms standard.
+  WHEN $noticeIsPublished
+  ASSERT $noticeIsInEformsFormat
+    AS ERROR R-7BG-GRQ
+    FOR BT-758-notice
+    IN *
+
+  // Rule 3: Notice referred to in 'Change Notice Version Identifier’ (BT-758-notice) must be published,
+  //   in eForms standard and cannot have a subsequent Change notice.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat
+  ASSERT $noticeHasNoSubsequentChangeNotice
+    AS ERROR R-PJV-Y9S
+    FOR BT-758-notice
+    IN *
+
+  // Rule 4: Notice referred to in Change Notice Version Identifier’ (BT-758-notice) must be published,
+  //   in eForms standards, cannot have a subsequent Change notice and cannot be cancelled.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and $noticeHasNoSubsequentChangeNotice
+  ASSERT $noticeHasNotBeenCancelled
+    AS ERROR R-XT2-D3M
+    FOR BT-758-notice
+    IN *
+
+  // Rule 25: The values in the field ‘Procedure Identifier’ (BT-04-notice) must be the same in the
+  //   present notice and in the notice referred to in ‘Change Notice Version Identifier’
+  //   (BT-758-notice).
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and BT-04-notice is present
+  ASSERT ?notice-procedure-identifier-is(BT-758-notice, BT-04-notice)
+    AS ERROR R-9KT-CGL
+    FOR BT-758-notice
+    IN *
+
+  // Rule 27: The values in the field ‘Procedure Type’ (BT-105-Procedure) must be the same in the present
+  //   notice and in the notice referred to in ‘Change Notice Version Identifier’ (BT-758-notice).
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and BT-105-Procedure is present
+  ASSERT ?notice-procedure-type-is(BT-758-notice, BT-105-Procedure)
+    AS ERROR R-UXA-3RW
+    FOR BT-758-notice
+    IN *
+
+  // Rule 28: The values in the field ‘Main Nature’ (BT-23-Procedure) must be the same in the present
+  //   notice and in the notice referred to in ‘Change Notice Version Identifier’ (BT-758-notice).
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and BT-23-Procedure is present
+  ASSERT ?notice-main-nature-is(BT-758-notice, BT-23-Procedure)
+    AS ERROR R-ATR-N27
+    FOR BT-758-notice
+    IN *
+;
+
+// Notices referred to in BT-1501(n)-Contract.
+// The four checks build on each other: each applies only when the previous ones passed,
+// so that a notice gets one error, not several.
+WITH BT-1501(n)-Contract,
+    dynamic : $noticeIsPublished = ?notice-is-published(BT-1501(n)-Contract),
+    dynamic : $noticeIsInEformsFormat = ?notice-is-in-eforms-format(BT-1501(n)-Contract),
+    dynamic : $noticeHasNoSubsequentChangeNotice = ?notice-has-no-subsequent-change-notice(BT-1501(n)-Contract),
+    dynamic : $noticeHasNotBeenCancelled = ?notice-has-not-been-cancelled(BT-1501(n)-Contract)
+
+  // Rule 5: Notice referred to in ‘Modification Previous Notice Identifier’ (BT-1501(n)-Contract) must
+  //   be published.
+  ASSERT $noticeIsPublished
+    AS ERROR R-KDN-YQK
+    FOR BT-1501(n)-Contract
+    IN *
+
+  // Rule 6: Notice referred to in ‘Modification Previous Notice Identifier’ (BT-1501(n)-Contract) be
+  //   published and in eForms standard .
+  WHEN $noticeIsPublished
+  ASSERT $noticeIsInEformsFormat
+    AS ERROR R-0H4-QFU
+    FOR BT-1501(n)-Contract
+    IN *
+
+  // Rule 7: Notice referred to in ‘Modification Previous Notice Identifier’ (BT-1501(n)-Contract) must
+  //   be published, in eForms standard and cannot have a subsequent Change notice.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat
+  ASSERT $noticeHasNoSubsequentChangeNotice
+    AS ERROR R-D8N-S1D
+    FOR BT-1501(n)-Contract
+    IN *
+
+  // Rule 8: Notice referred to in ‘Modification Previous Notice Identifier’ (BT-1501(n)-Contract) must
+  //   be published, in eForms standards, cannot have a subsequent Change notice and cannot be cancelled.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and $noticeHasNoSubsequentChangeNotice
+  ASSERT $noticeHasNotBeenCancelled
+    AS ERROR R-SRW-OX5
+    FOR BT-1501(n)-Contract
+    IN *
+
+  // Rule 26: The values in the field ‘Procedure Identifier’ (BT-04-notice) must be the same in the
+  //   present notice and in the notice referred to in ‘Modification Previous Notice Identifier’
+  //   (BT-1501(n)-Contract).
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and BT-04-notice is present
+  ASSERT ?notice-procedure-identifier-is(BT-1501(n)-Contract, BT-04-notice)
+    AS ERROR R-BXJ-MMD
+    FOR BT-1501(n)-Contract
+    IN *
+
+  // Rule 29: The values in the field ‘Main Nature’ (BT-23-Procedure) must be the same in the present
+  //   notice and in the notice referred to in ‘Modification Previous Notice Identifier’
+  //   (BT-1501(n)-Contract).
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and BT-23-Procedure is present
+  ASSERT ?notice-main-nature-is(BT-1501(n)-Contract, BT-23-Procedure)
+    AS ERROR R-XCZ-W1A
+    FOR BT-1501(n)-Contract
+    IN *
+;
+
+// Notices referred to in BT-125(i)-Lot.
+// The four checks build on each other: each applies only when the previous ones passed,
+// so that a notice gets one error, not several.
+WITH BT-125(i)-Lot,
+    dynamic : $noticeIsPublished = ?notice-is-published(BT-125(i)-Lot),
+    dynamic : $noticeIsInEformsFormat = ?notice-is-in-eforms-format(BT-125(i)-Lot),
+    dynamic : $noticeHasNoSubsequentChangeNotice = ?notice-has-no-subsequent-change-notice(BT-125(i)-Lot),
+    dynamic : $noticeHasNotBeenCancelled = ?notice-has-not-been-cancelled(BT-125(i)-Lot)
+
+  // Rule 9: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Lot) must be published.
+  ASSERT $noticeIsPublished
+    AS ERROR R-W5K-4JH
+    FOR BT-125(i)-Lot
+    IN *
+
+  // Rule 10: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Lot) must be published and
+  //   in eForms standard
+  WHEN $noticeIsPublished
+  ASSERT $noticeIsInEformsFormat
+    AS ERROR R-2G2-JZV
+    FOR BT-125(i)-Lot
+    IN *
+
+  // Rule 11: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Lot) must be published, in
+  //   eForms standard and cannot have a subsequent Change notice.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat
+  ASSERT $noticeHasNoSubsequentChangeNotice
+    AS ERROR R-NRO-EET
+    FOR BT-125(i)-Lot
+    IN *
+
+  // Rule 12: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Lot) must be published, in
+  //   eForms standards, cannot have a subsequent Change notice and cannot be cancelled.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and $noticeHasNoSubsequentChangeNotice
+  ASSERT $noticeHasNotBeenCancelled
+    AS ERROR R-3I6-C4A
+    FOR BT-125(i)-Lot
+    IN *
+;
+
+// Notices referred to in BT-125(i)-Part.
+// The four checks build on each other: each applies only when the previous ones passed,
+// so that a notice gets one error, not several.
+WITH BT-125(i)-Part,
+    dynamic : $noticeIsPublished = ?notice-is-published(BT-125(i)-Part),
+    dynamic : $noticeIsInEformsFormat = ?notice-is-in-eforms-format(BT-125(i)-Part),
+    dynamic : $noticeHasNoSubsequentChangeNotice = ?notice-has-no-subsequent-change-notice(BT-125(i)-Part),
+    dynamic : $noticeHasNotBeenCancelled = ?notice-has-not-been-cancelled(BT-125(i)-Part)
+
+  // Rule 13: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Part) must be published.
+  ASSERT $noticeIsPublished
+    AS ERROR R-I7U-HEX
+    FOR BT-125(i)-Part
+    IN *
+
+  // Rule 14: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Part) must be published and
+  //   in eForms standard.
+  WHEN $noticeIsPublished
+  ASSERT $noticeIsInEformsFormat
+    AS ERROR R-8KP-ERJ
+    FOR BT-125(i)-Part
+    IN *
+
+  // Rule 15: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Part) must be published, in
+  //   eForms standard and cannot have a subsequent Change notice.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat
+  ASSERT $noticeHasNoSubsequentChangeNotice
+    AS ERROR R-O7Z-LMR
+    FOR BT-125(i)-Part
+    IN *
+
+  // Rule 16: Notice referred to in ‘Previous Planning Identifier’ (BT-125(i)-Part) must be published, in
+  //   eForms standards, cannot have a subsequent Change notice and cannot be cancelled.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and $noticeHasNoSubsequentChangeNotice
+  ASSERT $noticeHasNotBeenCancelled
+    AS ERROR R-NDT-RX2
+    FOR BT-125(i)-Part
+    IN *
+;
+
+// Notices referred to in OPP-090-Procedure.
+// The four checks build on each other: each applies only when the previous ones passed,
+// so that a notice gets one error, not several.
+WITH OPP-090-Procedure,
+    dynamic : $noticeIsPublished = ?notice-is-published(OPP-090-Procedure),
+    dynamic : $noticeIsInEformsFormat = ?notice-is-in-eforms-format(OPP-090-Procedure),
+    dynamic : $noticeHasNoSubsequentChangeNotice = ?notice-has-no-subsequent-change-notice(OPP-090-Procedure),
+    dynamic : $noticeHasNotBeenCancelled = ?notice-has-not-been-cancelled(OPP-090-Procedure)
+
+  // Rule 17: Notice referred to in ‘Previous Notice Identifier’ (OPP-090-Procedure) must be published.
+  ASSERT $noticeIsPublished
+    AS ERROR R-896-2QY
+    FOR OPP-090-Procedure
+    IN *
+
+  // Rule 18: Notice referred to in ‘Previous Notice Identifier’ (OPP-090-Procedure) must be published
+  //   and in eForms standard.
+  WHEN $noticeIsPublished
+  ASSERT $noticeIsInEformsFormat
+    AS ERROR R-74D-21G
+    FOR OPP-090-Procedure
+    IN *
+
+  // Rule 19: Notice referred to in ‘Previous Notice Identifier’ (OPP-090-Procedure) must be published,
+  //   in eForms standard and cannot have a subsequent Change notice.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat
+  ASSERT $noticeHasNoSubsequentChangeNotice
+    AS ERROR R-AUB-20A
+    FOR OPP-090-Procedure
+    IN *
+
+  // Rule 20: Notice referred to in ‘Previous Notice Identifier’ (OPP-090-Procedure) must be published,
+  //   in eForms standards, cannot have a subsequent Change notice and cannot be cancelled.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and $noticeHasNoSubsequentChangeNotice
+  ASSERT $noticeHasNotBeenCancelled
+    AS ERROR R-WUG-3YV
+    FOR OPP-090-Procedure
+    IN *
+;
+
+// Notices referred to in OPT-100-Contract.
+// The four checks build on each other: each applies only when the previous ones passed,
+// so that a notice gets one error, not several.
+WITH OPT-100-Contract,
+    dynamic : $noticeIsPublished = ?notice-is-published(OPT-100-Contract),
+    dynamic : $noticeIsInEformsFormat = ?notice-is-in-eforms-format(OPT-100-Contract),
+    dynamic : $noticeHasNoSubsequentChangeNotice = ?notice-has-no-subsequent-change-notice(OPT-100-Contract),
+    dynamic : $noticeHasNotBeenCancelled = ?notice-has-not-been-cancelled(OPT-100-Contract)
+
+  // Rule 21: Notice referred to in ‘Framework Notice Identifier’ (OPT-100-Contract) must be published.
+  ASSERT $noticeIsPublished
+    AS ERROR R-NPB-DVC
+    FOR OPT-100-Contract
+    IN *
+
+  // Rule 22: Notice referred to in ‘Framework Notice Identifier’ (OPT-100-Contract) must be published
+  //   and in eForms standard.
+  WHEN $noticeIsPublished
+  ASSERT $noticeIsInEformsFormat
+    AS ERROR R-JZ8-LHZ
+    FOR OPT-100-Contract
+    IN *
+
+  // Rule 23: Notice referred to in ‘Framework Notice Identifier’ (OPT-100-Contract) must be published,
+  //   in eForms standard and cannot have a subsequent Change notice.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat
+  ASSERT $noticeHasNoSubsequentChangeNotice
+    AS ERROR R-SS8-TXS
+    FOR OPT-100-Contract
+    IN *
+
+  // Rule 24: Notice referred to in ‘Framework Notice Identifier’ (OPT-100-Contract) must be published,
+  //   in eForms standards, cannot have a subsequent Change notice and cannot be cancelled.
+  WHEN $noticeIsPublished and $noticeIsInEformsFormat and $noticeHasNoSubsequentChangeNotice
+  ASSERT $noticeHasNotBeenCancelled
+    AS ERROR R-BZI-D8T
+    FOR OPT-100-Contract
+    IN *
+;

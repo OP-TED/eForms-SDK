@@ -53,7 +53,6 @@
 <entry key="codelist|name|einvoicing">Luettelo koodeista, joilla määritetään, onko sähköinen laskutus sallittu vai ei.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Lainsäädännöllinen kehys kohteille, kuten energiamerkintävaltuutetut toimet, täytäntöönpanotoimet (direktiivi 2009/125/EY) tai asetus 2020/740; tuotteet ja palvelut, jotka kuuluvat GPP:n piiriin; työt, palvelut tai rakennukset</entry>
 <entry key="codelist|name|energy-efficiency-item">Tuotteet, jotka kuuluvat energiamerkintävaltuutetun toimien, täytäntöönpanotoimien (direktiivi 2009/125/EY) tai asetuksen 2020/740 piiriin; tuotteet ja palvelut, jotka kuuluvat GPP:n piiriin; työt, palvelut tai rakennukset</entry>
-<entry key="codelist|name|energy-efficiency-item-classification">Tässä taulukossa esitetään luettelo koodeista ja arvoista, joita käytetään tuotteiden, rakennusurakoiden tai palvelujen luokan määrittämiseen niiden energiatehokkuuden perusteella.</entry>
 <entry key="codelist|name|energy-efficiency-label">Tämä taulukko tarjoaa luettelon koodeista ja arvoista, joita käytetään tuotteen energiatehokkuuden määrittämiseen</entry>
 <entry key="codelist|name|entity-activity">Luettelo hankintayksikölle sallituista pääasiallisen toimialan koodeista</entry>
 <entry key="codelist|name|environmental-impact">Tämä taulukko kertoo, liittyykö hankinnan tekniseen eritelmään, myöntämisperusteisiin, valintaperusteisiin tai sopimuksen täytäntöönpanoon lähestymistapa urakoiden, tavaroiden tai palvelujen ympäristövaikutusten vähentämiseen.</entry>
@@ -230,8 +229,6 @@
 <entry key="codelist|name|procedure-type-7">Sallittu menettelyn tyyppi ilmoituksen alatyypille 7</entry>
 <entry key="codelist|name|procedure-type-8">Sallittu menettelyn tyyppi ilmoituksen alatyypille 8</entry>
 <entry key="codelist|name|procedure-type-9">Sallittu menettelyn tyyppi ilmoituksen alatyypille 9</entry>
-<entry key="codelist|name|procedure-type-e1">Sallittu menettelyn tyyppi ilmoituksen alatyypille E1</entry>
-<entry key="codelist|name|procedure-type-e2">Sallittu menettelyn tyyppi ilmoituksen alatyypille E2</entry>
 <entry key="codelist|name|procedure-type-e3">Sallittu menettelyn tyyppi ilmoituksen alatyypille E3</entry>
 <entry key="codelist|name|procedure-type-e4">Sallittu menettelyn tyyppi ilmoituksen alatyypille E4</entry>
 <entry key="codelist|name|procedure-type-e5">Sallittu menettelyn tyyppi ilmoituksen alatyypille E5</entry>

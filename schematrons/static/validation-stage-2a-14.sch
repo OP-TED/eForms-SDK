@@ -148,7 +148,7 @@
         <assert id="R-7V9-HW2" role="ERROR" diagnostics="ND-LotTender_BT-3201-Tender" test="not(efac:TenderReference/cbc:ID)">rule|text|R-7V9-HW2</assert>
         <assert id="R-EQ5-5NL" role="ERROR" diagnostics="ND-LotTender_BT-682-Tender" test="not(efbc:ForeignSubsidiesMeasuresCode)">rule|text|R-EQ5-5NL</assert>
         <assert id="R-CQA-N9B" role="ERROR" diagnostics="ND-LotTender_BT-720-Tender" test="not(cac:LegalMonetaryTotal/cbc:PayableAmount)">rule|text|R-CQA-N9B</assert>
-        <assert id="R-3Z7-1XS" role="ERROR" diagnostics="ND-LotTender_BT-773-Tender" test="not(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode)">rule|text|R-3Z7-1XS</assert>
+        <assert id="R-3Z7-1XS" role="ERROR" diagnostics="ND-LotTender_BT-773-Tender" test="not(efac:SubcontractingTerm/efbc:TermCode)">rule|text|R-3Z7-1XS</assert>
         <assert id="R-GCU-EMY" role="ERROR" diagnostics="ND-LotTender_BT-779-Tender" test="not(efac:AggregatedAmounts/cbc:PaidAmount)">rule|text|R-GCU-EMY</assert>
         <assert id="R-158-J5V" role="ERROR" diagnostics="ND-LotTender_BT-780-Tender" test="not(efac:AggregatedAmounts/efbc:PaidAmountDescription)">rule|text|R-158-J5V</assert>
         <assert id="R-HC8-6QW" role="ERROR" diagnostics="ND-LotTender_BT-782-Tender" test="not(efac:AggregatedAmounts/efbc:PenaltiesAmount)">rule|text|R-HC8-6QW</assert>
@@ -447,7 +447,7 @@
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor">
         <assert id="R-BKW-HEW" role="ERROR" diagnostics="ND-SubContractor_OPT-301-Tenderer-MainCont" test="not(efac:MainContractor/cbc:ID)">rule|text|R-BKW-HEW</assert>
     </rule>
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm">
         <assert id="R-Q96-S7M" role="ERROR" diagnostics="ND-SubcontractedContract_BT-553-Tender" test="not(efbc:TermAmount)">rule|text|R-Q96-S7M</assert>
         <assert id="R-YNN-OJL" role="ERROR" diagnostics="ND-SubcontractedContract_BT-554-Tender" test="not(efbc:TermDescription)">rule|text|R-YNN-OJL</assert>
         <assert id="R-P5N-R26" role="ERROR" diagnostics="ND-SubcontractedContract_BT-555-Tender" test="not(efbc:TermPercent)">rule|text|R-P5N-R26</assert>

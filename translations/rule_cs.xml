@@ -109,6 +109,7 @@
 <entry key="rule|text|R-0LJ-YIQ">'Počet žádostí o přezkum kupujícím' (BT-635-LotResult) musí odpovídat tomuto vzoru: Integer</entry>
 <entry key="rule|text|R-0LS-ONG">'Telefon' (BT-503-Organization-Company) musí odpovídat tomuto vzoru: PhoneNumber</entry>
 <entry key="rule|text|R-0MB-OTZ">'Typ' (BT-539-LotsGroup) je povinné, když: ID části je vyplněno.</entry>
+<entry key="rule|text|R-0MC-RYP">Nabídce chybí 'Nabídka – sankce' (BT-782-Tender).</entry>
 <entry key="rule|text|R-0MZ-COQ">'Lhůta pro obdržení odpovědí' (BT-800(t)-Lot) je povinné</entry>
 <entry key="rule|text|R-0N4-IWZ">'Organizace příslušná pro přezkum' (OPT-301-Part-ReviewOrg) je povinné</entry>
 <entry key="rule|text|R-0NJ-6O5">Atribut 'listName' musí být přítomen u 'Země' (OPP-112-Business-List)</entry>
@@ -117,7 +118,6 @@
 <entry key="rule|text|R-0O2-JNZ">Atribut 'listName' musí být přítomen u 'Nižší územní jednotka země (NUTS)' (BT-507-UBO-List)</entry>
 <entry key="rule|text|R-0O3-06F">'Popis' (BT-09(b)-Procedure) není povoleno, když: 'Použitelné přeshraniční právo' (BT-09(a)-Procedure) není vyplněn</entry>
 <entry key="rule|text|R-0OO-ZFB">Pokud 'Typ oznámení' (BT-02) je 'Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely', pak 'Podtyp oznámení' (OPP-070) musí být 4, 5, 6 nebo E2</entry>
-<entry key="rule|text|R-0OP-IWR">Identifikátor sekce' (BT-1501(n)-Contract-Scheme) musí obsahovat hodnotu z číselníku (notice-reference)</entry>
 <entry key="rule|text|R-0OY-5YF">Atribut 'schemeName' musí být přítomen u 'Organizace nebo konkrétní kontaktní bod' (OPT-301-Lot-FiscalLegis-Scheme)</entry>
 <entry key="rule|text|R-0P0-XTT">Atribut 'listName' musí být přítomen u 'Právní základ CVD určující, která kategorie zadávacího řízení se použije' (BT-735-LotResult-List)</entry>
 <entry key="rule|text|R-0PB-CIZ">'Požaduje se dohoda o zachování mlčenlivosti' (BT-801-Lot) nelze opakovat</entry>
@@ -153,7 +153,6 @@
 <entry key="rule|text|R-11H-P4X">'Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií' (BT-543-Lot) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-11U-78G">'Maximální hodnota rámcové dohody' (BT-709-LotResult-Currency) musí obsahovat hodnotu z číselníku (currency)</entry>
 <entry key="rule|text|R-12A-UV0">'Technické ID kontaktního bodu (TPO-XXX)' (OPT-201-Organization-TouchPoint) není povoleno</entry>
-<entry key="rule|text|R-12N-PH6">'Datum, kdy se bude zveřejňovat' (BT-198) hodnota musí být mezi 2 dny a 10 lety po 'Datum odeslání oznámení' (BT-05)</entry>
 <entry key="rule|text|R-12P-4SJ">'Poštovní adresa' (BT-5101(a)-Procedure) není povoleno</entry>
 <entry key="rule|text|R-131-EBJ">'Odůvodnění zrychleného řízení' (BT-1351-Procedure) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-13P-6KD">'Informace o důvěrných dokumentech jsou k dispozici na' (BT-615-Lot) musí odpovídat tomuto vzoru: URL</entry>
@@ -263,6 +262,7 @@
 <entry key="rule|text|R-29Q-MU1">'Číslo je typem prahové hodnoty' (BT-7532-Lot) není povoleno, když: 'Kritéria budou použita k výběru uchazečů, kteří budou pozváni do druhé fáze řízení' (BT-40) není 'ano' nebo 'Číslo je typem váhy' (BT-7531) je vyplněn</entry>
 <entry key="rule|text|R-29Q-XK8">'Spotřeba energie v kWh/rok' (BT-813-LotResult) není povoleno</entry>
 <entry key="rule|text|R-2A0-7R6">'ID dokumentu daňové legislativy' (OPT-111-Part-FiscalLegis) není povoleno</entry>
+<entry key="rule|text|R-2A0-WBV">Výsledku části zakázky chybí 'Technické ID přijaté nabídky' (OPT-320-LotResult), nabídce chybí 'Technické ID nabídky' (OPT-321-Tender) nebo smlouvě chybí 'Identifikátor nabídky zakázky' (BT-3202-Contract).</entry>
 <entry key="rule|text|R-2A2-W5U">'Jméno/název' (BT-632-Part) nelze opakovat</entry>
 <entry key="rule|text|R-2AL-NB1">'Obec' (BT-5131-Lot) není povoleno, když: 'Místo plnění – Zeměpisný rozsah' (BT-727) je vyplněn nebo 'Země' (BT-5141) není vyplněn</entry>
 <entry key="rule|text|R-2BX-8N8">'Popis finanční záruky' (BT-75-Lot) je povinné, když: 'Je požadována záruka' (BT-751-Lot) je 'ano'.</entry>
@@ -284,7 +284,6 @@
 <entry key="rule|text|R-2GK-01L">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-FixedNumber) nelze opakovat</entry>
 <entry key="rule|text|R-2GS-I3E">'Vyhrazená účast' (BT-71-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-2GU-QHW">'Číslo je typem prahové hodnoty' (BT-7532-Lot) není povoleno</entry>
-<entry key="rule|text|R-2GV-P8Q">'Datum, kdy se bude zveřejňovat' (BT-198) hodnota musí být mezi 2 dny a 10 lety po 'Datum odeslání oznámení' (BT-05)</entry>
 <entry key="rule|text|R-2GY-EQZ">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-20)</entry>
 <entry key="rule|text|R-2HC-IUQ">'Druh poskytované služby' (OPT-030-Procedure-SProvider) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-2HK-BGP">Atribut 'schemeName' musí být přítomen u 'Organizace nebo konkrétní kontaktní bod' (OPT-301-Part-ReviewOrg-Scheme)</entry>
@@ -333,7 +332,6 @@
 <entry key="rule|text|R-2W0-V5X">'Technické ID přijaté nabídky' (OPT-320-LotResult) musí odpovídat tomuto vzoru: TenderID</entry>
 <entry key="rule|text|R-2WG-4C0">'Identifikátor sekce oznámení (přezkum)' (BT-786-Review) není povoleno, když: 'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen</entry>
 <entry key="rule|text|R-2WL-GMO">'Typ oznámení' (BT-02-notice) musí obsahovat hodnotu z číselníku (notice-type)</entry>
-<entry key="rule|text|R-2XG-HZL">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-2XG-YAG">'Adresa zadávací dokumentace' (BT-15-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-2XL-IMM">'Fiktivní datum zadání zakázky' (OPT-999-notice) není povoleno</entry>
 <entry key="rule|text|R-2YL-K0Q">'Identifikátor sekce oznámení (přezkum)' (BT-786-Review) nesmí mít na začátku ani na konci mezery</entry>
@@ -344,7 +342,6 @@
 <entry key="rule|text|R-2Z5-M33">Atribut 'listName' musí být přítomen u 'Nižší územní jednotka země (NUTS)' (BT-507-Business-List)</entry>
 <entry key="rule|text|R-2ZB-DPR">'Je použit dynamický nákupní systém' (BT-766-Part) není povoleno</entry>
 <entry key="rule|text|R-2ZE-53X">Pokud 'Specifické opatření IPI' (BT-685-LotResult) je rovno 'Zdravotnické prostředky pocházející z Číny – nařízení (EU) 2025/1197', pak musí mít příslušná část buď 'Hlavní klasifikace' (BT-262-Lot), nebo alespoň jeden 'Další klasifikace' (BT-263-Lot) pro zdravotnické prostředky</entry>
-<entry key="rule|text|R-2ZN-YO8">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-30H-IXV">'Adresa smlouvy' (BT-151-Contract) nelze opakovat</entry>
 <entry key="rule|text|R-30Q-PBK">'Číslo je typem váhy' (BT-5421-LotsGroup) nelze opakovat</entry>
 <entry key="rule|text|R-30V-AUP">'Je použit dynamický nákupní systém' (BT-766-Part) musí obsahovat hodnotu z číselníku (dps-usage)</entry>
@@ -388,11 +385,11 @@
 <entry key="rule|text|R-3AX-PED">'Právní forma, kterou musí mít skupina uchazečů, které byla zadána zakázka' (BT-76-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-3B6-JXA">'Identifikátor žadatele o přezkum' (BT-808-Review) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-3BZ-GV1">'Jméno/název' (BT-734-LotsGroup) může být pouze v jednom z úředních jazyků oznámení</entry>
+<entry key="rule|text|R-3CW-1PM">Uchazeči chybí 'Technické ID zadavatelské strany (TPA-XXX)' (OPT-210-Tenderer) nebo nabídce chybí 'Zadavatelská strana' (OPT-310-Tender).</entry>
 <entry key="rule|text|R-3CY-CO3">'Kupující je zadavatelem' (BT-740-Procedure-Buyer) musí obsahovat hodnotu z číselníku (buyer-contracting-type)</entry>
 <entry key="rule|text|R-3CZ-6NM">'Zakázka je zadána na základě rámcové dohody' (BT-768-Contract) je povinné, když: Byl vybrán vítěz a 'Je použita rámcová dohoda' (BT-765-Lot) odpovídá rámcové dohodě řízení.</entry>
 <entry key="rule|text|R-3EF-GU4">Celkový počet přijatých nabídek musí být roven počtu nabídek přijatých od velkých organizací plus počtu nabídek přijatých od mikro-, malých a středních organizací.</entry>
 <entry key="rule|text|R-3EU-UGY">'Obec' (BT-5131-Procedure) nesmí být delší než 400 znaky/znaků</entry>
-<entry key="rule|text|R-3EY-J6P">'Datum, kdy se bude zveřejňovat' (BT-198) hodnota musí být mezi 2 dny a 10 lety po 'Datum odeslání oznámení' (BT-05)</entry>
 <entry key="rule|text|R-3F3-DAK">'Metoda použitá pro výpočet odhadované hodnoty koncese' (BT-163-Tender) je povinné, když: 'Technické ID nabídky' (OPT-321-Tender) je vyplněn.</entry>
 <entry key="rule|text|R-3F8-NUW">'Spotřeba energie v kWh/rok' (BT-813-LotResult) je povinné, když: 'EED seznam' (Základ) (BT-811(a)-LotResult) existuje a není nastaveno na 'Energetický štítek'.</entry>
 <entry key="rule|text|R-3FA-SU7">'Lhůta pro doručení žádostí o účast' (BT-1311(d)-Lot) není povoleno, když: 'Typ řízení' (BT-105) hodnota není rovna 'Užší', 'Jednací řízení s uveřejněním / jednací řízení', 'Soutěžní dialog', 'Inovační partnerství' a 'Jiné vícefázové řízení', nebo je přítomna 'Lhůta pro doručení vyjádření zájmu' (BT-630)</entry>
@@ -411,7 +408,7 @@
 <entry key="rule|text|R-3K4-290">'Znovu odhadnutá hodnota rámcové dohody v rámci skupiny částí' (BT-1561-NoticeResult) musí odpovídat tomuto vzoru: AmountValue</entry>
 <entry key="rule|text|R-3KK-ZDO">'Poštovní adresa' (BT-5101(a)-Part) není povoleno, když: 'Obec' (BT-5131) není vyplněn</entry>
 <entry key="rule|text|R-3L8-M5E">'EED seznam (bod)' (BT-811(b)-LotResult) musí obsahovat hodnotu z číselníku (energy-efficiency-item)</entry>
-<entry key="rule|text|R-3LL-3UB">'Maximální hodnota rámcových dohod v této skupině částí' (BT-156-NoticeResult) je povinné, když: expression|name|542</entry>
+<entry key="rule|text|R-3LL-3UB"></entry>
 <entry key="rule|text|R-3M1-VOG">'Kód odůvodnění nezveřejnění' (BT-197-notice) nelze opakovat</entry>
 <entry key="rule|text|R-3M4-NKV">'Poštovní adresa' (BT-510(b)-Business) nelze opakovat</entry>
 <entry key="rule|text|R-3MC-ZA0">'Popis' (BT-24-Part-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
@@ -429,7 +426,6 @@
 <entry key="rule|text|R-3QI-0OB">'Identifikátor části nebo skupiny částí' (BT-13714-Tender) je povinné, když: 'Identifikátor nabídky' (BT-3201-Tender) je vyplněna.</entry>
 <entry key="rule|text|R-3R3-XZP">'Telefon' (BT-503-Business) nelze opakovat</entry>
 <entry key="rule|text|R-3R7-Z22">'Obec' (OPP-110-Business) je povinné, když: 'Registrační číslo' (BT-501-Business-European) je vyplněn.</entry>
-<entry key="rule|text|R-3SJ-5NM">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-3TB-BZ3">'Právní forma, kterou musí mít skupina uchazečů, které byla zadána zakázka' (BT-76-Lot) není povoleno</entry>
 <entry key="rule|text|R-3TI-DT3">'Další krytí kupujícího' (BT-111-Lot) není povoleno</entry>
 <entry key="rule|text|R-3U5-U5P">'Požaduje se zaručený nebo kvalifikovaný elektronický podpis nebo pečeť (podle definice v nařízení (EU) č 910/2014)' (BT-744-Lot) musí obsahovat hodnotu z číselníku (esignature-submission)</entry>
@@ -460,7 +456,6 @@
 <entry key="rule|text|R-3ZW-OUH">'Stav výběru vítěze' (BT-142-LotResult) musí obsahovat hodnotu z číselníku (winner-selection-status)</entry>
 <entry key="rule|text|R-409-1BU">'Poštovní adresa' (BT-510(b)-UBO) není povoleno, když: 'Poštovní adresa' (BT-510(a)-UBO) není vyplněn</entry>
 <entry key="rule|text|R-40R-QUP">'Profil kupujícího' (BT-508-Procedure-Buyer) musí odpovídat tomuto vzoru: URL</entry>
-<entry key="rule|text|R-40X-DUK">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-41V-86E">'Popis změn' (BT-141(a)-notice) není povoleno</entry>
 <entry key="rule|text|R-41Z-29T">'Činnost veřejného zadavatele' (BT-10-Procedure-Buyer) je povinné, když: 'Právní forma kupujícího' (BT-11) je jedním z následujících: 'Veřejnoprávní subjekt'; 'Veřejnoprávní subjekt ovládaný ústředním orgánem státní správy'; 'Veřejnoprávní subjekt ovládaný místním orgánem'; 'Veřejnoprávní subjekt ovládaný regionálním orgánem'; 'Ústřední orgán státní správy'; 'Zadavatel, zhotovitel, dodavatel nebo poskytovatel služeb v oblasti obrany'; 'Instituce, orgán nebo agentura EU'; 'Mezinárodní organizace'; 'Místní orgán'; 'Organizace zadávající zakázku dotovanou veřejným zadavatelem'; 'Organizace zadávající zakázku dotovanou ústředním orgánem státní správy'; 'Organizace zadávající zakázku dotovanou místním orgánem'; 'Organizace zadávající zakázku dotovanou regionálním orgánem'; 'Regionální orgán'.</entry>
 <entry key="rule|text|R-42R-104">'Organizace poskytující informace o pracovním právu' (OPT-301-Lot-EmployLegis) musí odpovídat tomuto vzoru: OrgOrTouchPointID</entry>
@@ -482,8 +477,10 @@
 <entry key="rule|text|R-47L-Y7X">'Identifikátor skupiny' (BT-330-Procedure) musí odpovídat tomuto vzoru: GroupID</entry>
 <entry key="rule|text|R-47U-EMX">'Úsporná metrika EED' (OPT-081-LotResult) je povinné, když: 'Úspory energie v kWh/ročně' (v kWh/rok) (BT-814-LotResult) existuje.</entry>
 <entry key="rule|text|R-48O-ZT2">'Další charakteristika zakázky' (BT-531-Procedure) nelze opakovat</entry>
+<entry key="rule|text|R-48Z-1D0">Jeden nebo více kódů pro 'Skupina nezveřejněných informací' (BT-195-notice) je použito vícekrát.</entry>
 <entry key="rule|text|R-49A-VC1">'Další informace' (OPP-130-Business) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-49D-HC7">'EED seznam (bod)' (BT-811(b)-LotResult) nesmí mít na začátku ani na konci mezery</entry>
+<entry key="rule|text|R-49S-N8D">Hodnotě skupiny rámcové dohody chybí 'Identifikátor části (hodnota skupiny na základě rámcové dohody)' (BT-556-NoticeResult).</entry>
 <entry key="rule|text|R-4AB-YK0">'Adresa zadávací dokumentace' (BT-15-Part) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-4AC-T0U">'Další charakteristika zakázky' (BT-531-Lot) musí obsahovat hodnotu z číselníku (contract-nature)</entry>
 <entry key="rule|text|R-4AJ-BM0">'Státní příslušnost majitele' (BT-706-UBO) je povinné, když: 'Technické ID konečného uživatele výhod (UBO-XXX)' (OPT-202-UBO) je vyplněn.</entry>
@@ -508,7 +505,6 @@
 <entry key="rule|text|R-4IN-WTU">'Další klasifikace' (BT-263-Part) musí obsahovat hodnotu z číselníku (cpv)</entry>
 <entry key="rule|text|R-4KI-XSJ">'Datum zveřejnění' (BT-198-notice) není povoleno, když: 'Pole bude zveřejněno později' (BT-195-notice) je prázdný</entry>
 <entry key="rule|text|R-4KL-SBN">'Právní základ postupu bez identifikátoru (popis)' (BT-01(f)-Procedure) nesmí být delší než 400 znaky/znaků</entry>
-<entry key="rule|text|R-4KV-XZW">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-4L5-LUG">Každý uchazeč v rámci účastníka podávajícího nabídku (OPT-300-Tenderer) musí odpovídat jedné z vymezených organizací (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-4LB-0WW">'Typ vozidla' (OPT-155-LotResult) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-4LK-7KO">'Hodnota subdodávky je známa' (BT-730-Tender) není povoleno, když: 'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
@@ -517,7 +513,6 @@
 <entry key="rule|text|R-4NV-J3N">Atribut 'listName' musí být přítomen u 'Velikost hospodářského subjektu' (BT-165-Organization-Company-List)</entry>
 <entry key="rule|text|R-4NZ-H3E">'Jazyky, v nichž je toto oznámení oficiálně k dispozici' (BT-702(a)-notice) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-4O1-4MR">'Poskytovatel služeb v oblasti zadávání zakázek' (OPT-300-Procedure-SProvider) není povoleno</entry>
-<entry key="rule|text|R-4O7-9ZI">'Datum, kdy se bude zveřejňovat' (BT-198) hodnota musí být mezi 2 dny a 10 lety po 'Datum odeslání oznámení' (BT-05)</entry>
 <entry key="rule|text|R-4PA-IU3">'Bude použita elektronická platba' (BT-93-Lot) není povoleno</entry>
 <entry key="rule|text|R-4PB-GKY">'Dynamický nákupní systém je ukončen' (BT-119-LotResult) není povoleno, když: Dynamický nákupní systém se nepoužívá</entry>
 <entry key="rule|text|R-4QE-LUT">'Doba trvání' (BT-36-Part) není povoleno</entry>
@@ -547,7 +542,6 @@
 <entry key="rule|text|R-4XC-5I9">Atribut 'listName' musí být přítomen u 'Žádost o přezkum nebo rozhodnutí' (BT-783-Review-List)</entry>
 <entry key="rule|text|R-4YD-ORK">'Datum uzavření smlouvy' (BT-145-Contract) je povinné, když: 'Identifikátor nabídky zakázky' (BT-3202-Contract) je vyplněna.</entry>
 <entry key="rule|text|R-4Z3-VLE">'Organizace poskytující přístup k zadávací dokumentaci v režimu offline' (OPT-301-Lot-DocProvider) není povoleno</entry>
-<entry key="rule|text|R-4ZC-5GQ">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-4ZM-110">'Odůvodnění doby platnosti rámcové dohody' (BT-109-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-4ZO-KIE">'Další informace' (OPP-130-Business) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-4ZU-5UE">Každý signatář smlouvy (OPT-300) musí odpovídat jedné z definovaných organizací (OPT-200)</entry>
@@ -556,7 +550,6 @@
 <entry key="rule|text|R-514-G06">'Další informace o době trvání' (BT-781-Lot) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-518-HSD">'Datum zveřejnění' (OPP-012-notice) nelze opakovat</entry>
 <entry key="rule|text|R-51B-4DP">'Přezkum – hodnota nápravného opatření' (BT-793-Review) není povoleno, když: 'Přezkum – druh nápravného opatření' (BT-792-Review) není přítomen nebo není 'Rozhodnutí'</entry>
-<entry key="rule|text|R-51O-R2H">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-51S-T9D">Musí být uveden jazyk u 'Odůvodnění doby platnosti rámcové dohody' (BT-109-Lot)</entry>
 <entry key="rule|text|R-51Z-OS8">'Nařízení o zahraničních dotacích' (BT-681-Lot) není povoleno</entry>
 <entry key="rule|text|R-52D-QJT">'Musí být uvedena jména a příslušná odborná kvalifikace pracovníků pověřených realizací zakázky' (BT-79-Lot) musí obsahovat hodnotu z číselníku (requirement-stage)</entry>
@@ -566,15 +559,14 @@
 <entry key="rule|text|R-52Z-KRT">'Identifikační kód smlouvy' (BT-150-Contract) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-53R-6MC">'Vedoucí skupiny' (OPP-050-Organization) je povinné, když: Organizace je kupující a je zde více než jeden kupující.</entry>
 <entry key="rule|text|R-54C-6QN">'Popis' (BT-122-Lot) může být pouze v jednom z úředních jazyků oznámení</entry>
+<entry key="rule|text|R-55W-Y7L">Kontaktnímu místu chybí 'Technické ID kontaktního bodu (TPO-XXX)' (OPT-201-Organization-TouchPoint).</entry>
 <entry key="rule|text|R-56I-IS3">'Typ' (BT-539-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-56S-Y32">'Země' (BT-514-Business) nelze opakovat</entry>
 <entry key="rule|text|R-574-8T1">'Organizace příslušná pro mediační řízení' (OPT-301-Lot-Mediator) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-577-1PH">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-36)</entry>
 <entry key="rule|text|R-57H-K8W">'Telefon' (BT-503-Organization-Company) nelze opakovat</entry>
 <entry key="rule|text|R-57H-VSZ">'Informace o důvěrných dokumentech jsou k dispozici na' (BT-615-Lot) je povinné, když: 'Přístup k určité zadávací dokumentaci je omezený' (BT-14-Lot) je omezen.</entry>
-<entry key="rule|text|R-57N-MMP">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-57R-8F1">Atribut 'listName' musí být přítomen u 'Číslo je typem váhy' (BT-5421-LotsGroup-List)</entry>
-<entry key="rule|text|R-57T-OQE">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-582-0N7">'Lhůta pro doručení vyjádření zájmu' (BT-630(d)-Lot) není povoleno</entry>
 <entry key="rule|text|R-586-WT2">'Předpokládané datum odeslání výzev k potvrzení zájmu' (BT-631-Lot) musí odpovídat tomuto vzoru: Date</entry>
 <entry key="rule|text|R-58P-GOO">'Země původu výrobku nebo služby' (BT-191-Tender) není povoleno</entry>
@@ -597,6 +589,7 @@
 <entry key="rule|text|R-5GT-NS6">Hlavní uchazeč nemůže jednat jako 'Organizace přijímající nabídky'</entry>
 <entry key="rule|text|R-5HA-5FW">'Identifikátor předchozího oznámení' (BT-125(i)-Part) nelze opakovat</entry>
 <entry key="rule|text|R-5HW-G6D">'Počet obdržených nabídek nebo žádostí o účast' (BT-759-LotResult) nelze opakovat</entry>
+<entry key="rule|text|R-5HY-P32">'Identifikátor části (hodnota skupiny na základě rámcové dohody)' (BT-556-NoticeResult) není povoleno, když: Ne všechny položky patřící do skupiny položek byly zadány nebo ve skupině položek, do kterých je zahrnuta rámcová smlouva, existuje pouze jedna položka</entry>
 <entry key="rule|text|R-5I6-8OM">'Orgán příslušný k přezkumu – druh' (BT-799-ReviewBody) nelze opakovat</entry>
 <entry key="rule|text|R-5IH-8DU">'Hlavní prvky řízení' (BT-88-Procedure-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-5IQ-UP7">'Odvětví činnosti' (OPP-105-Business) nelze opakovat</entry>
@@ -646,7 +639,6 @@
 <entry key="rule|text|R-61Z-YOK">'ID dokumentu o environmentální legislativě' (OPT-112-Part-EnvironLegis) není povoleno</entry>
 <entry key="rule|text|R-628-8OG">'PSČ' (BT-512-Organization-TouchPoint) není povoleno</entry>
 <entry key="rule|text|R-62F-V5G">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-WeightNumber) je povinné, když: 'Popis' - 'Kritérium pro zadání zakázky' (BT-540-LotsGroup) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' – 'Číslo je pevná hodnota' (BT-541-LotsGroup-FixedNumber), 'Číslo spojené s kritériem pro zadání zakázky' – 'Číslo je typem prahové hodnoty' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií' (BT-543-LotsGroup) nejsou přítomny</entry>
-<entry key="rule|text|R-62H-JQS">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-62N-MVZ">'Odůvodnění doby platnosti rámcové dohody' (BT-109-Lot) není povoleno, když: Doba trvání položky musí být delší než 7 let</entry>
 <entry key="rule|text|R-62V-ADZ">'Další informace' (BT-728-Lot) není povoleno, když: 'Místo plnění – Zeměpisný rozsah' (BT-727) a 'Země' (BT-5141) nejsou vyplněny</entry>
 <entry key="rule|text|R-63K-USI">Musí být uveden jazyk u 'Popis změn' (BT-202-Contract)</entry>
@@ -704,8 +696,8 @@
 <entry key="rule|text|R-6ME-7ZQ">'Webová adresa daňové legislativy' (OPT-110-Part-FiscalLegis) není povoleno</entry>
 <entry key="rule|text|R-6MH-OT7">'Identifikátor nabídky zakázky' (BT-3202-Contract) není povoleno</entry>
 <entry key="rule|text|R-6MV-ZN4">'Popis' (BT-777-Lot) může být přítomen pouze jednou pro každý jazyk</entry>
+<entry key="rule|text|R-6N9-LTG">Výsledku části zakázky chybí 'Identifikátor části (výsledek)' (BT-13713-LotResult).</entry>
 <entry key="rule|text|R-6NC-I79">'Bude použito elektronické objednávání' (BT-92-Lot) je povinné</entry>
-<entry key="rule|text|R-6NK-C9X">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-6NR-HO7">'Metoda použitá pro výpočet odhadované hodnoty koncese' (BT-163-Tender) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-6O0-ZMS">Atribut 'listName' musí být přítomen u 'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' (BT-717-Lot-List)</entry>
 <entry key="rule|text|R-6O6-ZQ2">'Technické ID zadavatelské strany (TPA-XXX)' (OPT-210-Tenderer) je povinné, když: 'Technické ID nabídky' (OPT-321-Tender) je vyplněn.</entry>
@@ -726,6 +718,7 @@
 <entry key="rule|text|R-6SA-VYU">Atribut 'listName' musí být přítomen u 'Země' (BT-514-Organization-Company-List)</entry>
 <entry key="rule|text|R-6SO-EH5">Každý odkaz na organizaci pro roli poskytovatele služeb (OPT-300-Procedure-SProvider) musí odpovídat jedné z vymezených organizací (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-6TC-BGB">'Nižší územní jednotka země (NUTS)' (BT-5071-Part) je povinné, když: 'Místo plnění – Zeměpisný rozsah' (BT-727) není vyplněn a 'Země' (BT-5141-UBO) má kódy NUTS</entry>
+<entry key="rule|text|R-6TG-TEM">Nabídce chybí 'Nabídka – hodnota plateb' (BT-779-Tender).</entry>
 <entry key="rule|text|R-6TT-FMW">'Podtyp oznámení' (OPP-070-notice) je povinné</entry>
 <entry key="rule|text|R-6UC-KCK">'Doplňující informace k odůvodnění nezveřejnění' (BT-196-notice) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-6UU-FG6">'Zakázka je zadána na základě rámcové dohody' (BT-768-Contract) nelze opakovat</entry>
@@ -747,7 +740,6 @@
 <entry key="rule|text|R-71J-V5T">'Organizace poskytující informace o pracovním právu' (OPT-301-Part-EmployLegis) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-71K-GZS">'Číslo vydání v řadě S Úř. věst.' (OPP-011-notice) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-71T-49M">'Odůvodnění neuvedení váhy kritérií pro zadání' (BT-733-LotsGroup) může být přítomen pouze jednou pro každý jazyk</entry>
-<entry key="rule|text|R-72D-80V">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-736-3O4">'Číslo je typem váhy' (BT-5421-Lot) musí obsahovat hodnotu z číselníku (number-weight)</entry>
 <entry key="rule|text|R-738-QV9">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-25)</entry>
 <entry key="rule|text|R-73S-7UE">'Datum konce trvání' (BT-537-Part) není povoleno</entry>
@@ -760,7 +752,7 @@
 <entry key="rule|text|R-75P-6GW">'Kontaktní místo' (BT-502-Organization-Company) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-75T-57G">'Typ' (BT-539-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-765-7R2">'Znovu odhadnutá hodnota rámcové dohody' (BT-660-LotResult) musí být kladné.</entry>
-<entry key="rule|text|R-77F-0DW">'Datum otevření' (BT-132(d)-Lot) není povoleno, když: 'Typ řízení' (BT-105-Procedure) není 'Otevřené'</entry>
+<entry key="rule|text|R-77F-0DW">'Datum veřejného otevírání' (BT-132(d)-Lot) není povoleno, když: 'Typ řízení' (BT-105-Procedure) není 'Otevřené'</entry>
 <entry key="rule|text|R-77H-7RV">'Maximální procentní podíl hodnoty zakázky, který může dodavatel/poskytovatel zadat subdodavateli' (BT-729-Lot) není povoleno, když: 'Povinnosti, které uchazeč musí splnit v souvislosti s využitím subdodavatele' (BT-65_Lot) není 'Zhotovitel, dodavatel nebo poskytovatel musí minimální procentní podíl zakázky zadat třetím osobám prostřednictvím zadávacího řízení stanoveného v hlavě III směrnice 2009/81/ES.'</entry>
 <entry key="rule|text|R-77K-KT0">'Další informace' (BT-772-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-77Q-74K">'Typ klasifikace' (BT-26(m)-Procedure) není povoleno, když: 'Hlavní klasifikace' (BT-262-Procedure) není vyplněn</entry>
@@ -836,6 +828,7 @@
 <entry key="rule|text|R-7VS-N3J">'Fax' (BT-739-Organization-TouchPoint) musí odpovídat tomuto vzoru: PhoneNumber</entry>
 <entry key="rule|text|R-7VU-BVH">'Popis' (BT-122-Lot) není povoleno, když: 'Bude použita elektronická aukce' (BT-767-Lot) není 'ano'</entry>
 <entry key="rule|text|R-7WF-AIG">'Skupina nezveřejněných informací' (BT-195-notice) není povoleno</entry>
+<entry key="rule|text|R-7WI-K7F">Smlouvě chybí 'Technické ID smlouvy' (OPT-316-Contract) nebo výsledku části zakázky chybí 'Odkaz na smlouvu' (OPT-315-LotResult).</entry>
 <entry key="rule|text|R-7X8-WZW">'Místo plnění' je povinné pro proceduru</entry>
 <entry key="rule|text|R-7Y9-JQW">Kupující nemůže být uchazečem (main or subcontractor)</entry>
 <entry key="rule|text|R-7YD-GR9">Atribut 'listName' musí být přítomen u 'Právní základ CVD určující, která kategorie zadávacího řízení se použije' (BT-735-Lot-List)</entry>
@@ -890,7 +883,6 @@
 <entry key="rule|text|R-8DU-AC8">'Internetová adresa' (BT-505-Business) není povoleno</entry>
 <entry key="rule|text|R-8E0-O11">'Země' (BT-5141-Lot) je povinné, když: 'Místo plnění – Zeměpisný rozsah' (BT-727-Lot) není 'Kdekoli' nebo 'Kdekoli v Evropském hospodářském prostoru'.</entry>
 <entry key="rule|text|R-8E3-HCM">'Popis' (BT-24-Procedure) není povoleno</entry>
-<entry key="rule|text|R-8F3-0R2">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-8FF-0JC">'EED seznam (základ)' (BT-811(a)-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-8GT-FPD">'Právní základ' (BT-01(e)-Procedure) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-8GU-DL8">'Doba, po kterou musí nabídka zůstat platná' (BT-98-Lot) není povoleno, když: Hodnota 'Typ řízení' (BT-105) není rovna 'Otevřené' nebo 'Jiné jednofázové řízení'</entry>
@@ -899,6 +891,7 @@
 <entry key="rule|text|R-8IE-DLL">'Další informace' (BT-728-Part-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-8IU-H2V">'Poštovní adresa' (BT-510(c)-Organization-TouchPoint) nelze opakovat</entry>
 <entry key="rule|text|R-8J1-1Q1">'Nižší územní jednotka země (NUTS)' (BT-507-Business) je povinné, když: 'Země' (BT-514-Business) má kódy NUTS.</entry>
+<entry key="rule|text|R-8J5-LB2">Nabídce chybí 'Subdodávky' (BT-773-Tender).</entry>
 <entry key="rule|text|R-8JC-CXA">'Popis' (BT-540-LotsGroup) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-8JD-5LS">'Technické ID přijaté nabídky' (OPT-320-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-8JJ-Q1A">'Přezkum – druh rozhodnutí' (BT-790-Review) není povoleno, když: 'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen nebo není 'Rozhodnutí' nebo byla žádost stáhnuta</entry>
@@ -961,7 +954,7 @@
 <entry key="rule|text|R-96R-H5Z">'Popis kvalitativního cíle' (OPT-072-Lot) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-972-0NT">'Další krytí kupujícího' (BT-111-Lot) není povoleno, když: 'Je použita rámcová dohoda' (BT-765-Lot) není jedním z následujících: 'Rámcová dohoda kombinující postup bez obnovení soutěže s obnovením soutěže'; 'Rámcová dohoda s obnovením soutěže'; 'Rámcová dohoda bez obnovení soutěže'</entry>
 <entry key="rule|text|R-972-NW2">'Číslo je pevná hodnota' (BT-5422-Lot) musí obsahovat hodnotu z číselníku (number-fixed)</entry>
-<entry key="rule|text|R-97B-5E5">'Datum otevření' (BT-132(d)-Lot) nelze opakovat</entry>
+<entry key="rule|text|R-97B-5E5">'Datum veřejného otevírání' (BT-132(d)-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-97P-YEV">'Jméno/název' (BT-734-LotsGroup) není povoleno</entry>
 <entry key="rule|text|R-9B2-DZ5">Organizace působící jako subdodavatel nemůže mít 'Další kontaktní místa'</entry>
 <entry key="rule|text|R-9BH-N7S">'Další klasifikace' (BT-263-Procedure) musí obsahovat hodnotu z číselníku (cpv)</entry>
@@ -999,7 +992,7 @@
 <entry key="rule|text|R-9MG-WIJ">Statistiky přijatých nabídek: Celkový počet 'Nabídky od uchazečů registrovaných v jiných zemích Evropského hospodářského prostoru, než je země kupujícího' (BT-760-LotResult = t-oth-eea) musí být uveden přesně jednou</entry>
 <entry key="rule|text|R-9NA-SCU">Každý odkaz na účastníka podávajícího nabídku z (OPT-310-Tender) musí odpovídat jednomu ze stanovených účastníků podávajících nabídku (OPT-210-Tenderer)</entry>
 <entry key="rule|text|R-9NL-8CI">'Datum zahájení' (BT-536-Lot) není povoleno</entry>
-<entry key="rule|text|R-9O0-I7Y">'Datum otevření' (BT-132(t)-Lot) není povoleno</entry>
+<entry key="rule|text|R-9O0-I7Y">'Čas veřejného otevírání' (BT-132(t)-Lot) není povoleno</entry>
 <entry key="rule|text|R-9O6-IB6">'Štítek energetické účinnosti' (BT-812-LotResult) musí obsahovat hodnotu z číselníku (energy-efficiency-label)</entry>
 <entry key="rule|text|R-9OI-X06">Musí být uveden jazyk u 'Právní základ řízení (popis)' (BT-01(d)-Procedure)</entry>
 <entry key="rule|text|R-9OO-YN4">'Telefon' (BT-503-Business) nesmí být delší než 30 znaky/znaků</entry>
@@ -1043,6 +1036,7 @@
 <entry key="rule|text|R-A3K-3ZH">Atribut 'listName' musí být přítomen u 'Cíl strategického zadávání zakázek' (BT-06-Lot-List)</entry>
 <entry key="rule|text|R-A3Q-DUG">'Maximální počet částí, při kterém mohou být zakázky zadány jednomu uchazeči' (BT-33-Procedure) je povinné, když: Existuje několik částí.</entry>
 <entry key="rule|text|R-A4U-KMK">'Toto oznámení obsahuje informace týkající se' (OPP-100-Business) nesmí mít na začátku ani na konci mezery</entry>
+<entry key="rule|text|R-A4X-NTN">Skutečnému majiteli chybí 'Státní příslušnost majitele' (BT-706-UBO).</entry>
 <entry key="rule|text|R-A50-1V0">'Bude použita elektronická platba' (BT-93-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-A51-PEX">'Přístup k určité zadávací dokumentaci je omezený' (BT-14-Lot) musí obsahovat hodnotu z číselníku (document-distribution)</entry>
 <entry key="rule|text|R-A53-N57">'Nižší územní jednotka země (NUTS)' (BT-507-UBO) není povoleno</entry>
@@ -1101,13 +1095,13 @@
 <entry key="rule|text|R-AMR-RX7">Hlavní uchazeč nemůže jednat jako 'Organizace provádějící platbu'</entry>
 <entry key="rule|text|R-AN6-WV9">'Další informace' (BT-300-Procedure) není povoleno</entry>
 <entry key="rule|text|R-ANF-XP5">'Lhůta pro doručení žádostí o účast' (BT-1311(t)-Lot) není povoleno, když: 'Lhůta pro doručení žádostí o účast' (BT-1311(d)-Lot) není vyplněn</entry>
-<entry key="rule|text|R-AO9-I8Z">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-AOO-25U">'Poštovní adresa' (BT-510(b)-Organization-Company) nelze opakovat</entry>
 <entry key="rule|text|R-AOU-3CI">'Jazyky, v nichž je toto oznámení oficiálně k dispozici' (BT-702(b)-notice) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-APH-7K9">'Další informace' (BT-728-Lot) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-AQQ-US1">'Metoda použitá pro výpočet odhadované hodnoty koncese' (BT-163-Tender-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-AQZ-2OF">Každý poskytovatel informací o přezkumu pro položku (OPT-301-Lot-ReviewInfo) nebo část (OPT-301-Part-ReviewInfo) musí odpovídat dalším kontaktním místům (OPT-201-Organization-Touchpoint) jedné z určených organizací (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-AR0-ASS">'Země' (BT-5141-Part) je povinné, když: 'Místo plnění – Zeměpisný rozsah' (BT-727-Part) je 'Kdekoli' nebo 'Kdekoli v Evropském hospodářském prostoru'.</entry>
+<entry key="rule|text|R-AR0-OPR">Organizace postrádá svůj technický identifikátor (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-ARR-F5W">Hlavní uchazeč nemůže jednat jako 'Organizace poskytující přístup k zadávací dokumentaci v režimu offline'</entry>
 <entry key="rule|text|R-ARZ-PVM">'Počet obdržených nabídek nebo žádostí o účast' (BT-759-LotResult) musí být větší nebo rovno 0. 'Počet obdržených nabídek nebo žádostí o účast' (BT-759-LotResult) musí být menší nebo rovno 9999</entry>
 <entry key="rule|text|R-ASY-HWA">'Adresa zadávací dokumentace' (BT-15-Part) není povoleno, když: 'Přístup k určité zadávací dokumentaci je omezený' (BT-14-Part) je omezen</entry>
@@ -1124,7 +1118,7 @@
 <entry key="rule|text|R-AVM-PWR">'Znění předchozího oznámení, které má být změněno' (BT-758-notice) musí odpovídat tomuto vzoru: ProcedureVersionIDOrPublicationNumber</entry>
 <entry key="rule|text|R-AVW-8NE">'Doplňující informace k odůvodnění nezveřejnění' (BT-196-notice) může být přítomen pouze jednou pro každý jazyk</entry>
 <entry key="rule|text|R-AW7-D4W">'Hodnota subdodávky je známa' (BT-730-Tender) musí obsahovat hodnotu z číselníku (indicator)</entry>
-<entry key="rule|text|R-AWY-5XJ">'999' není platná hodnota pro 'Umístění oceněného soutěžícího' (BT-44-Lot). Použijte prosím jinou hodnotu.</entry>
+<entry key="rule|text|R-AWY-5XJ">'Umístění oceněného soutěžícího' (BT-44-Lot) byla vyplněna automatická zástupná hodnota. Uveďte podle potřeby správnou hodnotu.</entry>
 <entry key="rule|text|R-AY8-F36">'Přezkum – důvody stažení žádosti' (BT-798-Review) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-AY8-GW5">'Maximální počet účastníků' (BT-113-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-AYM-VBT">'Oficiální název' (BT-500-UBO) není povoleno, když: 'Státní příslušnost majitele' (BT-706) není vyplněn</entry>
@@ -1141,7 +1135,6 @@
 <entry key="rule|text|R-B37-V2C">'Kategorie vozidla' (BT-723-LotResult) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-B39-CPW">'Odůvodnění omezení přístupu k některým částem zadávací dokumentace' (BT-707-Part) není povoleno</entry>
 <entry key="rule|text|R-B3L-HCG">Každý poskytovatel informací o právních předpisech v oblasti životního prostředí pro položku (OPT-301-Lot-EnvironLegis) nebo část (OPT-301-Part-EnvironLegis) musí odpovídat dalším kontaktním místům (OPT-201-Organization-Touchpoint) jedné z určených organizací (OPT-200-Organization-Company)</entry>
-<entry key="rule|text|R-B3L-L5T">'Datum, kdy se bude zveřejňovat' (BT-198) hodnota musí být mezi 2 dny a 10 lety po 'Datum odeslání oznámení' (BT-05)</entry>
 <entry key="rule|text|R-B3R-NMQ">'Další informace' (BT-134-Lot) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-B42-8I5">Atribut 'schemeName' musí být přítomen u 'Identifikátor části (hodnota skupiny na základě rámcové dohody)' (BT-556-NoticeResult-Scheme)</entry>
 <entry key="rule|text|R-B59-VBU">'Metoda použitá pro výpočet odhadované hodnoty koncese' (BT-163-Tender) není povoleno, když: 'Technické ID nabídky' (OPT-321-Tender) není vyplněn</entry>
@@ -1160,11 +1153,9 @@
 <entry key="rule|text|R-BAP-LIK">'Nižší územní jednotka země (NUTS)' (BT-507-UBO) musí odpovídat jednomu z kódů NUTS pro specifikovaný 'Země' (BT-514-UBO)</entry>
 <entry key="rule|text|R-BBD-0JL">'Přezkum – důvody stažení žádosti' (BT-798-Review) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-BBH-A1X">'Právní základ CVD určující, která kategorie zadávacího řízení se použije' (BT-735-Lot) není povoleno, když: 'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' (BT-717) není 'ano'</entry>
-<entry key="rule|text|R-BBW-OPO">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-BC6-TEW">'Technický identifikátor pro přezkum' (BT-804-Review) není povoleno, když: 'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen</entry>
 <entry key="rule|text|R-BCD-C13">'Identifikátor nabídky zakázky' (BT-3202-Contract) se musí lišit od jakéhokoli jiného 'Identifikátor nabídky zakázky' v oznámení.</entry>
 <entry key="rule|text|R-BCG-872">'Nižší územní jednotka země (NUTS)' (BT-5071-Lot) je povinné, když: 'Místo plnění – Zeměpisný rozsah' (BT-727) není vyplněn a 'Země' (BT-5141-UBO) má kódy NUTS</entry>
-<entry key="rule|text|R-BCM-UDZ">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-BD9-0D6">'Kritéria zelených veřejných zakázek' (BT-805-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-BDB-RPB">Musí být uveden jazyk u 'Popis' (BT-09(b)-Procedure)</entry>
 <entry key="rule|text|R-BDI-O13">'Hlavní dodavatel k subdodavateli' (OPT-301-Tenderer-MainCont) musí odpovídat tomuto vzoru: OrganizationID</entry>
@@ -1214,7 +1205,6 @@
 <entry key="rule|text|R-BQW-7W4">'Orgán příslušný k přezkumu – druh' (BT-799-ReviewBody) není povoleno</entry>
 <entry key="rule|text|R-BQX-NL4">'Další informace' (BT-772-Lot) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-BR5-WS6">'Předpokládané datum zveřejnění oznámení o zakázce v rámci tohoto řízení' (BT-127) musí být pozdější než 'Datum odeslání oznámení' (BT-05)</entry>
-<entry key="rule|text|R-BRV-OSC">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-BSA-6C2">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Part-ReviewOrg-Scheme) musí obsahovat hodnotu z číselníku (player-type)</entry>
 <entry key="rule|text|R-BSJ-OT2">'Identifikátor nastavení (UBL)' (OPT-002-notice) nelze opakovat</entry>
 <entry key="rule|text|R-BTL-QDO">'Právní základ' (BT-01(c)-Procedure-Scheme) nesmí být delší než 100 znaky/znaků</entry>
@@ -1225,7 +1215,6 @@
 <entry key="rule|text|R-BU4-2QL">Každý 'Skupina částí' (BT-330-Procedure) použitý pro definici skupinového složení musí odpovídat existujícímu 'Skupina částí' (BT-137-LotsGroup)</entry>
 <entry key="rule|text|R-BUN-2P2">'Interní identifikátor' (BT-22-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-BV9-5FL">Hlavní uchazeč nemůže jednat jako 'Organizace zpracovávající nabídky'</entry>
-<entry key="rule|text|R-BVT-NK9">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-BVU-0OO">'Důvod změny' (BT-200-Contract) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-BWE-0QK">'Popis finanční záruky' (BT-75-Lot) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-BXT-YTN">Musíte uvést všechna nebo žádné čísla z celkového počtu 'Nabídky, u kterých nebylo ověřeno, zda jsou přijatelné, či nikoli' (BT-760-LotResult = t-no-verif), 'Nabídky ověřeny a shledány nepřijatelnými' (BT-760-LotResult = t-verif-inad), a 'Nabídky ověřeny a shledány nepřijatelnými z důvodu mimořádně nízké ceny nebo nákladů' (BT-760-LotResult = t-verif-inad-low)</entry>
@@ -1238,8 +1227,6 @@
 <entry key="rule|text|R-C1A-QH0">'Elektronické podání' (BT-17-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-C2N-R12">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-33)</entry>
 <entry key="rule|text|R-C2T-N1D">'PSČ' (BT-512-Business) nelze opakovat</entry>
-<entry key="rule|text|R-C36-9HK">Atribut 'schemeName' musí být přítomen u 'Identifikátor předchozího oznámení' (BT-125(i)-Lot-Scheme)</entry>
-<entry key="rule|text|R-C36-QZH">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-C4I-JVS">Atribut 'listName' musí být přítomen u 'Uchazeč musí podat nabídky pro všechny části' (BT-763-Procedure-List)</entry>
 <entry key="rule|text|R-C4O-0A0">'Bude použito elektronické objednávání' (BT-92-Lot) musí obsahovat hodnotu z číselníku (indicator)</entry>
 <entry key="rule|text|R-C4R-KFJ">'Další podrobnosti o finančních prostředcích EU' (BT-6140-Lot) může být přítomen pouze jednou pro každý jazyk</entry>
@@ -1308,7 +1295,6 @@
 <entry key="rule|text|R-CSV-XQ3">'Přístup ke snižování dopadů na životní prostředí' (BT-774-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-CTH-WW0">'Fax' (BT-739-Organization-TouchPoint) není povoleno</entry>
 <entry key="rule|text|R-CU7-UIU">Atribut 'listName' musí být přítomen u 'Použijí se opatření nástroje pro mezinárodní zadávání veřejných zakázek' (BT-684-Lot-List)</entry>
-<entry key="rule|text|R-CUO-CXF">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-CUW-2S2">'Důvod, proč nebyl vybrán vítěz' (BT-144-LotResult) musí obsahovat hodnotu z číselníku (non-award-justification)</entry>
 <entry key="rule|text|R-CV2-W6E">'Země' (BT-5141-Procedure) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-CVF-T46">'Přezkum – popis' (BT-789-Review) může být pouze v jednom z úředních jazyků oznámení</entry>
@@ -1362,7 +1348,7 @@
 <entry key="rule|text|R-DFE-SV4">'Cíl strategického zadávání zakázek' (BT-06-Lot) není povoleno</entry>
 <entry key="rule|text|R-DFX-8SA">'Organizace poskytující další informace o podání návrhů na přezkum' (OPT-301-Lot-ReviewInfo) nelze opakovat</entry>
 <entry key="rule|text|R-DFY-0OU">'Skupina uchazečů, které má být zakázka zadána, musí mít určitou právní formu' (BT-761-Lot) nelze opakovat</entry>
-<entry key="rule|text|R-DGG-B2D">'Datum otevření' (BT-132(d)-Lot) musí odpovídat tomuto vzoru: Date</entry>
+<entry key="rule|text|R-DGG-B2D">'Datum veřejného otevírání' (BT-132(d)-Lot) musí odpovídat tomuto vzoru: Date</entry>
 <entry key="rule|text|R-DH7-Q55">'Typ klasifikace' (BT-26(a)-Lot) musí obsahovat hodnotu z číselníku (classification-type)</entry>
 <entry key="rule|text|R-DHB-GD6">'Povinné uvádění subdodávek' (BT-651-Lot) není povoleno, když: 'Povinnosti, které uchazeč musí splnit v souvislosti s využitím subdodavatele' (BT-66) není vyplněn</entry>
 <entry key="rule|text|R-DHU-YHE">'Činnost veřejného zadavatele' (BT-10-Procedure-Buyer) není povoleno, když: 'Právní forma kupujícího' (BT-11-Procedure-Buyer) není jedním z následujících: 'Veřejnoprávní subjekt'; 'Veřejnoprávní subjekt ovládaný ústředním orgánem státní správy'; 'Veřejnoprávní subjekt ovládaný místním orgánem'; 'Veřejnoprávní subjekt ovládaný regionálním orgánem'; 'Ústřední orgán státní správy'; 'Zadavatel, zhotovitel, dodavatel nebo poskytovatel služeb v oblasti obrany'; 'Instituce, orgán nebo agentura EU'; 'Mezinárodní organizace'; 'Místní orgán'; 'Organizace zadávající zakázku dotovanou veřejným zadavatelem'; 'Organizace zadávající zakázku dotovanou ústředním orgánem státní správy'; 'Organizace zadávající zakázku dotovanou místním orgánem'; 'Organizace zadávající zakázku dotovanou regionálním orgánem'; 'Regionální orgán'</entry>
@@ -1401,14 +1387,12 @@
 <entry key="rule|text|R-DWX-3GA">'Další informace' (BT-728-Part) není povoleno, když: 'Další informace' (BT-728) a BT-5142 (BT-5142) nejsou vyplněny</entry>
 <entry key="rule|text|R-DXO-0LD">'Informace o důvěrných dokumentech jsou k dispozici na' (BT-615-Part) není povoleno</entry>
 <entry key="rule|text|R-DY4-BC4">'URL' (BT-124-Lot) nelze opakovat</entry>
-<entry key="rule|text|R-DY4-X1P">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-DY9-ZHL">'Lhůta pro doručení nabídek' (BT-131(t)-Lot) je povinné, když: 'Lhůta pro doručení nabídek' (BT-131(d)-Lot) je vyplněn.</entry>
 <entry key="rule|text|R-DYK-IQD">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-t01)</entry>
 <entry key="rule|text|R-DYK-VPP">'Interní identifikátor' (BT-22-Part) nelze opakovat</entry>
 <entry key="rule|text|R-DYL-DDP">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Part-TenderReceipt-Scheme) musí obsahovat hodnotu z číselníku (player-type)</entry>
 <entry key="rule|text|R-DZR-BW6">'Elektronická aukce se koná na následující adrese' (BT-123-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-DZX-RQG">'Identifikátor části nebo skupiny částí' (BT-13714-Tender) není povoleno</entry>
-<entry key="rule|text|R-E0C-A64">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-E0C-E1H">'Místo plnění – Zeměpisný rozsah' (BT-727-Part) není povoleno, když: 'Nižší územní jednotka země (NUTS)' (BT-5071-Part) je vyplněn</entry>
 <entry key="rule|text|R-E0F-442">'Hodnota ceny' (BT-644-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-E0H-0WC">'Předchozí oznámení' (OPP-090-Procedure) musí odpovídat tomuto vzoru: ProcedureVersionIDOrPublicationNumber</entry>
@@ -1427,7 +1411,7 @@
 <entry key="rule|text|R-E4E-GPK">'Nabídka – hodnota plateb' (BT-779-Tender) musí odpovídat tomuto vzoru: AmountValue</entry>
 <entry key="rule|text|R-E4G-KIS">'Přezkum – název' (BT-788-Review) není povoleno, když: 'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen</entry>
 <entry key="rule|text|R-E4Q-LF6">Hlavní uchazeč nemůže jednat jako 'Organizace poskytující informace o obecném právním rámci pro ochranu životního prostředí, který se použije v místě, kde má být zakázka plněna'</entry>
-<entry key="rule|text|R-E4Z-MUC">'Datum otevření' (BT-132(d)-Lot) není povoleno</entry>
+<entry key="rule|text|R-E4Z-MUC">'Datum veřejného otevírání' (BT-132(d)-Lot) není povoleno</entry>
 <entry key="rule|text|R-E50-DZK">'Seznam aktiv používaných pro poskytování veřejných služeb' (OPP-021-Contract) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-E5E-JGB">'Technické ID smlouvy' (OPT-316-Contract) nelze opakovat</entry>
 <entry key="rule|text|R-E5M-U84">'Činnost veřejného zadavatele' (BT-10-Procedure-Buyer) je povinné</entry>
@@ -1467,7 +1451,6 @@
 <entry key="rule|text|R-EHQ-1BK">'Kupující si vyhrazuje právo zadat zakázku na základě původních nabídek bez dalších jednání' (BT-120-Lot) není povoleno, když: 'Typ řízení' (BT-105) není 'Jednací řízení s uveřejněním / jednací řízení'</entry>
 <entry key="rule|text|R-EI0-LGR">Pokud 'Vyhrazená účast' (BT-71) je 'Účast je vyhrazena organizacím plnícím úkoly veřejné služby a splňujícím další relevantní podmínky stanovené v právních předpisech.', pak 'Doba trvání' (BT-36) musí být kratší nebo roven 3 rokům nebo 'Datum zahájení' (BT-536) musí být dříve než 'Datum konce trvání' (BT-537) o maximálně 3 roky</entry>
 <entry key="rule|text|R-EI7-KOH">'Místo plnění – Zeměpisný rozsah' (BT-727-Lot) není povoleno</entry>
-<entry key="rule|text|R-EJZ-J6N">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-EKN-UG7">'Název' (BT-21-Procedure) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-EL1-BF7">'Popis' (BT-201-Contract) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-EL2-MV7">'Výzva k soutěžení je ukončena' (BT-756-Procedure) nelze opakovat</entry>
@@ -1477,7 +1460,6 @@
 <entry key="rule|text|R-ELD-7BL">'Druh obdržených nabídek' (BT-760-LotResult) je povinné, když: Hodnota vybraná pro 'Stav výběru vítěze' (BT-142-LotResult) se nerovná 'Vítěz nebyl dosud vybrán, ale soutěž stále probíhá.', a hodnota vybraná pro 'Stav výběru vítěze' (BT-142-LotResult) se nerovná 'Vítěz nebyl vybrán a soutěž je ukončena.' nebo 'Důvod, proč nebyl vybrán vítěz' (BT-144-LotResult) se nerovná 'Nebyly obdrženy žádné nabídky, žádosti o účast ani projekty'.</entry>
 <entry key="rule|text|R-ELK-AOS">'Technické ID smlouvy' (OPT-316-Contract) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-ELL-YB8">'Informace o důvěrných dokumentech jsou k dispozici na' (BT-615-Part) musí odpovídat tomuto vzoru: URL</entry>
-<entry key="rule|text|R-ELM-8WC">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-ELO-86W">'Identifikátor orgánu pro přezkum' (BT-807-Review) nelze opakovat</entry>
 <entry key="rule|text|R-ELW-BNM">'Země' (BT-5141-Lot) není povoleno</entry>
 <entry key="rule|text|R-EMB-JBI">'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot-WeightNumber) není povoleno</entry>
@@ -1485,7 +1467,6 @@
 <entry key="rule|text|R-EMJ-GRB">'Identifikátor nabídky zakázky' (BT-3202-Contract) je povinné, když: 'Stav výběru vítěze' (BT-142-LotResult) je 'Byl vybrán alespoň jeden vítěz.' a 'Technické ID výsledku dílu (RES-XXX)' (OPT-322) je vyplněno.</entry>
 <entry key="rule|text|R-EMY-NNT">'Znovu odhadnutá hodnota rámcové dohody' (BT-660-LotResult) není povoleno, když: Nerámcová dohoda není zapojena</entry>
 <entry key="rule|text|R-EN3-Q1Q">Atribut 'schemeName' musí být přítomen u 'Organizace nebo konkrétní kontaktní bod' (OPT-301-Tenderer-SubCont-Scheme)</entry>
-<entry key="rule|text|R-EN4-C6E">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-ENI-GSS">'Kontaktní místo' (BT-502-Business) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-ENK-UY5">'Je použita rámcová dohoda' (BT-765-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-EOJ-CBL">'Organizace zpracovávající nabídky' (OPT-301-Lot-TenderEval) musí odpovídat tomuto vzoru: OrgOrTouchPointID</entry>
@@ -1654,6 +1635,7 @@
 <entry key="rule|text|R-GAR-6A4">'Datum přezkumu' (BT-787-Review) není povoleno</entry>
 <entry key="rule|text|R-GAZ-1EB">'Interní identifikátor' (BT-22-Lot) není povoleno</entry>
 <entry key="rule|text|R-GB2-KKF">'Oficiální název' (BT-500-Business) není povoleno</entry>
+<entry key="rule|text|R-GBB-VEE">Nabídce chybí 'Nabídka – dodatečné informace o hodnotě plateb' (BT-780-Tender).</entry>
 <entry key="rule|text|R-GBR-E70">Musí být uveden jazyk u 'Popis' (BT-540-LotsGroup)</entry>
 <entry key="rule|text|R-GC3-Y6Y">'Lhůta pro obdržení odpovědí' (BT-800(d)-Lot) není povoleno</entry>
 <entry key="rule|text|R-GC6-X8V">'Popis změn' (BT-202-Contract) musí být přítomen ve všech úředních jazycích oznámení</entry>
@@ -1812,7 +1794,6 @@
 <entry key="rule|text|R-I1D-0Q0">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-24)</entry>
 <entry key="rule|text|R-I2T-H1J">'Země' (BT-5141-Procedure) nelze opakovat</entry>
 <entry key="rule|text|R-I5J-5ZO">'Organizace příslušná pro mediační řízení' (OPT-301-Lot-Mediator) nelze opakovat</entry>
-<entry key="rule|text|R-I5J-D2J">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-I5S-JI5">'Fax' (BT-739-Organization-TouchPoint) je povinné, když: 'E-mail' (BT-506-Organization-TouchPoint), 'Telefon' (BT-503-Organization-TouchPoint), 'Oficiální název' (BT-500-Organization-TouchPoint), 'Internetová adresa' (BT-505-Organization-TouchPoint), 'Koncový bod pro výměnu informací (URL)' (BT-509-Organization-TouchPoint) nejsou vyplněny; 'Technické ID kontaktního bodu (TPO-XXX)' (OPT-201-Organization-TouchPoint) je vyplněn</entry>
 <entry key="rule|text|R-I5U-5H8">'Hodnota všech smluv udělených v tomto oznámení' (BT-161-NoticeResult) musí odpovídat tomuto vzoru: AmountValue</entry>
 <entry key="rule|text|R-I62-NWQ">'PSČ' (BT-5121-Part) není povoleno, když: 'Obec' (BT-5131) není vyplněn</entry>
@@ -1851,12 +1832,10 @@
 <entry key="rule|text|R-ICZ-TMZ">'Konečný uživatel výhod' (OPT-160-UBO) není povoleno, když: 'Oficiální název' (BT-500-UBO) není vyplněn</entry>
 <entry key="rule|text|R-ID6-SBY">'Identifikátor verze UBL (UBL)' (OPT-001-notice) je povinné</entry>
 <entry key="rule|text|R-ID7-J4X">'Veřejná zakázka je alespoň částečně financována z prostředků Evropské unie' (BT-60-Lot) je povinné</entry>
-<entry key="rule|text|R-ID9-8YC">Atribut 'schemeName' musí být přítomen u 'Identifikátor předchozího oznámení' (BT-125(i)-Part-Scheme)</entry>
 <entry key="rule|text|R-IDK-BO5">'Množství energetické účinnosti' (BT-815-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-IDO-DNT">Organizace působící jako hlavní dodavatel nemůže mít 'Další kontaktní místa'</entry>
 <entry key="rule|text|R-IDP-M6E">'Veškeré smlouvy na poskytování služeb následně po soutěži budou zadány jednomu z vítězů soutěže' (BT-41-Lot) je povinné</entry>
 <entry key="rule|text|R-IE4-78B">'Tato část bude znovu zahájena' (BT-634-Lot) musí obsahovat hodnotu z číselníku (indicator)</entry>
-<entry key="rule|text|R-IE8-CP8">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-IEQ-Y52">'Výjimka z uplatnění opatření IPI' (BT-687-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-IEU-4Q4">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Lot-ReviewInfo-Scheme) musí obsahovat hodnotu z číselníku (player-type)</entry>
 <entry key="rule|text|R-IF7-MO3">'Hlavní klasifikace' (BT-262-Part) je povinné</entry>
@@ -1913,12 +1892,12 @@
 <entry key="rule|text|R-IYT-3LL">'Technické ID smlouvy' (OPT-316-Contract) není povoleno</entry>
 <entry key="rule|text|R-IYX-S9B">'Další informace' (BT-134-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-IZ3-4JF">'Odůvodnění neuvedení váhy kritérií pro zadání' (BT-733-Lot) může být pouze v jednom z úředních jazyků oznámení</entry>
+<entry key="rule|text|R-IZB-7G8">Uchazeči chybí 'Uchazeč' (OPT-300-Tenderer).</entry>
 <entry key="rule|text|R-IZO-0NF">'Nabídka je variantou' (BT-193-Tender) není povoleno</entry>
 <entry key="rule|text|R-IZO-C7I">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-e4)</entry>
 <entry key="rule|text|R-IZO-CMO">'Odhadované příjmy od kupujícího, který udělil koncesi' (BT-160-Tender) nelze opakovat</entry>
 <entry key="rule|text|R-IZT-NC2">Atribut 'listName' musí být přítomen u 'Je požadována záruka' (BT-751-Lot-List)</entry>
 <entry key="rule|text|R-J00-IVK">'Identifikátor nabídky zakázky' (BT-3202-Contract) není povoleno, když: 'Technické ID smlouvy' (OPT-316-Contract) není vyplněn; 'Technické ID nabídky' (OPT-321-Tender) není vyplněn</entry>
-<entry key="rule|text|R-J09-0A0">Atribut 'schemeName' musí být přítomen u 'Identifikátor sekce' (BT-1501(n)-Contract-Scheme)</entry>
 <entry key="rule|text|R-J0K-B67">'Finanční ujednání' (BT-77-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-J15-475">'Země' (OPP-112-Business) není povoleno, když: Vztahuje se na registraci v obchodním rejstříku v EU</entry>
 <entry key="rule|text|R-J1C-U9E">'Bude použito elektronické objednávání' (BT-92-Lot) není povoleno</entry>
@@ -1984,7 +1963,6 @@
 <entry key="rule|text|R-JLQ-DDV">'Zahrnuté částí' (BT-1375-Procedure) musí být spojen se stávajícím 'Výsledek řízení podle částí zakázky' (BT-137-Lots)</entry>
 <entry key="rule|text|R-JM5-26L">'Kód požadavku plnění' (OPT-060-Lot) musí obsahovat hodnotu z číselníku (conditions)</entry>
 <entry key="rule|text|R-JM7-JBS">'Další informace' (BT-300-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
-<entry key="rule|text|R-JM8-CLH">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-JMN-T2M">'Hodnota všech smluv udělených v tomto oznámení' (BT-161-NoticeResult) musí být kladné.</entry>
 <entry key="rule|text|R-JNM-RKX">'Identifikátor předchozího oznámení' (BT-125(i)-Part) není povoleno</entry>
 <entry key="rule|text|R-JNV-O9R">'Provádění je vyhrazeno určité profesi. Odkaz na právní základ' (OPT-070-Lot) nesmí být delší než 4 000 znaky/znaků</entry>
@@ -1994,6 +1972,7 @@
 <entry key="rule|text|R-JPW-0DM">Každý poskytovatel dokumentu pro položku (OPT-301-Lot-DocProvider) nebo část (OPT-301-Part-DocProvider) musí odpovídat dalším kontaktním místům (OPT-201-Organization-Touchpoint) jedné z určených organizací (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-JQ3-Q4N">'Identifikátor finančních prostředků EU' (BT-5011-Contract) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-JQH-9OY">'Popis' (BT-201-Contract) není povoleno</entry>
+<entry key="rule|text|R-JQI-KCC">Výsledku části zakázky chybí 'Počet obdržených nabídek nebo žádostí o účast' (BT-759-LotResult).</entry>
 <entry key="rule|text|R-JQM-K79">'Poštovní adresa' (BT-5101(a)-Part) nelze opakovat</entry>
 <entry key="rule|text|R-JRA-L3U">'Odhadované příjmy od kupujícího, který udělil koncesi' (BT-160-Tender-Currency) musí obsahovat hodnotu z číselníku (currency)</entry>
 <entry key="rule|text|R-JS1-NVO">'Typ klasifikace' (BT-26(m)-Part) musí obsahovat hodnotu z číselníku (classification-type)</entry>
@@ -2031,7 +2010,6 @@
 <entry key="rule|text|R-K42-YYN">'Technické ID organizace (ORG-XXX)' (OPT-200-Organization-Company) není povoleno</entry>
 <entry key="rule|text|R-K44-695">Pokud 'Druh formuláře' (BT-03) je 'Oznámení o záměru uzavřít smlouvu', potom 'Typ oznámení' (BT-02) musí být 'Oznámení o dobrovolné průhlednosti ex ante'</entry>
 <entry key="rule|text|R-K44-JP5">Kupující nemá sídlo v Evropském hospodářském prostoru ani v přidružené zemi</entry>
-<entry key="rule|text|R-K4B-405">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-K61-41O">'Číslo je typem váhy' (BT-7531-Lot) není povoleno, když: 'Kritéria budou použita k výběru uchazečů, kteří budou pozváni do druhé fáze řízení' (BT-40) není 'ano' nebo 'Číslo je typem prahové hodnoty' (BT-7532) je vyplněn</entry>
 <entry key="rule|text|R-K6N-LJX">'EED seznam (bod)' (BT-811(b)-LotResult) není povoleno</entry>
 <entry key="rule|text|R-K6Q-AXM">'Informace, které se týkají uchazeče a lze je doplnit po uplynutí lhůty pro předkládání návrhů' (BT-771-Lot) nelze opakovat</entry>
@@ -2050,7 +2028,6 @@
 <entry key="rule|text|R-KAQ-QWW">Pokud je 'Právní základ' (BT-01) 'Směrnice 2009/81/ES', 'Řízení se zrychlí' (BT-106) může být 'Ano' pouze pokud je 'Typ řízení' (BT-105) 'Užší' nebo 'Jednací řízení s uveřejněním / jednací řízení'</entry>
 <entry key="rule|text|R-KB0-G6H">'Hodnota nejvyšší přípustné nabídky' (BT-711-LotResult) není povoleno, když: Hodnota vybraná pro 'Stav výběru vítěze' (BT-142-LotResult) se rovná 'Vítěz nebyl dosud vybrán, ale soutěž stále probíhá.', nebo hodnota vybraná pro 'Stav výběru vítěze' (BT-142-LotResult) se rovná 'Vítěz nebyl vybrán a soutěž je ukončena.' a 'Důvod, proč nebyl vybrán vítěz' (BT-144-LotResult) se rovná 'Nebyly obdrženy žádné nabídky, žádosti o účast ani projekty'</entry>
 <entry key="rule|text|R-KB3-NKC">'Další informace' (BT-728-Procedure) může být přítomen pouze jednou pro každý jazyk</entry>
-<entry key="rule|text|R-KC0-S5R">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-KC7-EYG">'Adresa zadávací dokumentace' (BT-15-Part) musí odpovídat tomuto vzoru: URL</entry>
 <entry key="rule|text|R-KC8-KU9">'Adresa pro podání' (BT-18-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-KC9-Y0L">'Vítěz je kotován na regulovaném trhu' (BT-746-Organization) musí obsahovat hodnotu z číselníku (indicator)</entry>
@@ -2064,6 +2041,7 @@
 <entry key="rule|text|R-KDZ-0RX">'Popis' (BT-762-notice) může být přítomen pouze jednou pro každý jazyk</entry>
 <entry key="rule|text|R-KE0-VOX">'Hodnota všech smluv udělených v tomto oznámení' (BT-161-NoticeResult) je povinné, když: Existuje přidělená část bez rámcové dohody nebo smlouvy v rámci rámcové dohody.</entry>
 <entry key="rule|text|R-KES-O23">'Země' (BT-514-Business) nesmí mít na začátku ani na konci mezery</entry>
+<entry key="rule|text|R-KEY-3G1">Subdodavateli uchazeče chybí 'Hlavní dodavatel k subdodavateli' (OPT-301-Tenderer-MainCont).</entry>
 <entry key="rule|text|R-KEY-PVO">'Maximální počet částí, při kterém mohou být zakázky zadány jednomu uchazeči' (BT-33-Procedure) musí odpovídat tomuto vzoru: Integer</entry>
 <entry key="rule|text|R-KF3-GJV">'Znovu odhadnutá hodnota rámcové dohody' (BT-660-LotResult) není povoleno, když: Není zahrnuta rámcová smlouva</entry>
 <entry key="rule|text|R-KFR-TEP">'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot-WeightNumber) nelze opakovat</entry>
@@ -2096,7 +2074,6 @@
 <entry key="rule|text|R-KQJ-UKJ">'Odkaz na smlouvu' (OPT-315-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-KR4-VA2">'Číslo je typem váhy' (BT-5421-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-KR6-Q0G">'Doba trvání' (OPA-36-Part-Number) není povoleno, když: 'Datum zahájení' (BT-536-Part) a 'Datum konce trvání' (BT-537-Part) jsou přítomny, nebo 'Jiná doba' (BT-538-Part) je přítomen</entry>
-<entry key="rule|text|R-KRV-FNJ">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-KS5-WZD">'Provádění je vyhrazeno určité profesi. Odkaz na právní základ' (OPT-070-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-KSK-7VV">'Kód odůvodnění nezveřejnění' (BT-197-notice) je povinné, když: 'Pole bude zveřejněno později' (BT-195-notice) je vyplněn</entry>
 <entry key="rule|text|R-KSS-70F">'Přezkum – URL' (BT-794-Review) nesmí být delší než 400 znaky/znaků</entry>
@@ -2111,8 +2088,8 @@
 <entry key="rule|text|R-KW3-NRX">'Interní identifikátor' (BT-22-Lot) se musí lišit od jakéhokoli jiného 'Interní identifikátor' v oznámení.</entry>
 <entry key="rule|text|R-KW9-T3L">'Informace o důvěrných dokumentech jsou k dispozici na' (BT-615-Part) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-KWW-BME">'Datum výběru vítěze' (BT-1451-Contract) musí odpovídat tomuto vzoru: Date</entry>
-<entry key="rule|text|R-KXK-4IL">Identifikátor předchozího oznámení' (BT-125(i)-Lot-Scheme) musí obsahovat hodnotu z číselníku (notice-reference)</entry>
 <entry key="rule|text|R-KXT-4N5">'Přezkum – druh nápravného opatření' (BT-792-Review) musí obsahovat hodnotu z číselníku (remedy-type)</entry>
+<entry key="rule|text|R-KXV-0IT">Přezkumu chybí 'Přezkum – druh nápravného opatření' (BT-792-Review).</entry>
 <entry key="rule|text|R-KY4-0FY">Atribut 'listName' musí být přítomen u 'Subdodávky' (BT-773-Tender-List)</entry>
 <entry key="rule|text|R-KYQ-WYK">'Technické ID konečného uživatele výhod (UBO-XXX)' (OPT-202-UBO) nelze opakovat</entry>
 <entry key="rule|text|R-KZ0-V96">'Kupující je zadavatelem' (BT-740-Procedure-Buyer) nelze opakovat</entry>
@@ -2153,7 +2130,7 @@
 <entry key="rule|text|R-LFS-5S9">'Oficiální název' (BT-500-Organization-TouchPoint-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-LG9-9J2">'Množství' (BT-25-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-LGS-T3Z">'Je použita rámcová dohoda' (BT-765-Part) nesmí mít na začátku ani na konci mezery</entry>
-<entry key="rule|text|R-LH3-A27">'Datum otevření' (BT-132(t)-Lot) je povinné, když: 'Lhůta pro vyžádání dalších informací' (BT-132(d)-Lot) není vyplněn.</entry>
+<entry key="rule|text|R-LH3-A27">'Čas veřejného otevírání' (BT-132(t)-Lot) je povinné, když: 'Lhůta pro vyžádání dalších informací' (BT-132(d)-Lot) není vyplněn.</entry>
 <entry key="rule|text|R-LIL-P4Y">Nesmí být více než jedna 'Minimální bodové ohodnocení' nebo více než jedna 'Maximální počet nabídek s nejvyšším ohodnocením' pro 'Číslo je typem prahové hodnoty' (BT-5423) pro každé kritérium v této skupině dílů</entry>
 <entry key="rule|text|R-LIR-64E">'Jméno/název' (BT-734-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-LJ6-0DS">'Poštovní adresa' (BT-5101(a)-Lot) není povoleno, když: 'Obec' (BT-5131) není vyplněn</entry>
@@ -2170,7 +2147,6 @@
 <entry key="rule|text|R-LPT-TIY">Pro dané 'Kritéria pro zadání zakázky' (BG-707), 'Číslo je typem váhy' (BT-5421) musí být 'Pořadí důležitosti' pro všechny nebo žádné 'Kritérium pro zadání zakázky' (BG-38)</entry>
 <entry key="rule|text|R-LPY-1LM">'Internetová adresa' (BT-505-Organization-Company) není povoleno</entry>
 <entry key="rule|text|R-LQ3-WB6">'Jazyky, v nichž lze podávat nabídky nebo žádosti o účast' (BT-97-Lot) nelze opakovat</entry>
-<entry key="rule|text|R-LQA-UYO">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-LQF-MEP">'Odůvodnění zrychleného řízení' (BT-1351-Procedure) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-LQG-8CY">'URL adresa oznámení' (OPP-122-Business) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-LR5-73X">Musí být uveden jazyk u 'Metoda použitá pro výpočet odhadované hodnoty koncese' (BT-163-Tender)</entry>
@@ -2296,7 +2272,6 @@
 <entry key="rule|text|R-MX3-SZD">Atribut 'schemeName' musí být přítomen u 'Technické ID přijaté nabídky' (OPT-320-LotResult-Scheme)</entry>
 <entry key="rule|text|R-MXA-BE0">'Právní základ postupu bez identifikátoru (popis)' (BT-01(f)-Procedure) není povoleno</entry>
 <entry key="rule|text|R-MXP-FJO">'Adresa pro podání' (BT-18-Lot) musí odpovídat tomuto vzoru: URL</entry>
-<entry key="rule|text|R-MXX-45Q">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-MXX-HJ9">'Charakter dopravních služeb' (OPP-040-Procedure) nelze opakovat</entry>
 <entry key="rule|text|R-MY2-0SB">'Technické ID smlouvy' (OPT-316-Contract) musí odpovídat tomuto vzoru: ContractID</entry>
 <entry key="rule|text|R-MYZ-6HR">'Použijí se opatření nástroje pro mezinárodní zadávání veřejných zakázek' (BT-684-Lot) nesmí mít na začátku ani na konci mezery</entry>
@@ -2318,7 +2293,6 @@
 <entry key="rule|text|R-N4S-3M1">'Nižší územní jednotka země (NUTS)' (BT-5071-Lot) není povoleno, když: 'Místo plnění – Zeměpisný rozsah' (BT-727) je vyplněn nebo 'Země' (BT-5141) není vyplněn</entry>
 <entry key="rule|text|R-N4X-O47">Pokud 'Charakter smlouvy' (BT-23) je 'Stavební práce' a 'Typ klasifikace' je CPV, pak 'Hlavní klasifikace' (BT-262) musí být 45</entry>
 <entry key="rule|text|R-N54-1QY">'Země' (BT-514-UBO) nelze opakovat</entry>
-<entry key="rule|text|R-N5H-TM8">Identifikátor předchozího oznámení' (BT-125(i)-Part-Scheme) musí obsahovat hodnotu z číselníku (notice-reference)</entry>
 <entry key="rule|text|R-N5L-9H9">'Nabídka – hodnota plateb' (BT-779-Tender) musí být pozitivní.</entry>
 <entry key="rule|text|R-N5R-R6H">'Elektronická fakturace' (BT-743-Lot) není povoleno</entry>
 <entry key="rule|text|R-N75-2YE">'Význam poskytnutých základních aktiv ve vztahu k celkovým aktivům potřebným pro poskytování veřejných služeb' (OPP-022-Contract) nelze opakovat</entry>
@@ -2408,7 +2382,6 @@
 <entry key="rule|text|R-NYO-TJ0">'Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií' (BT-543-LotsGroup) není povoleno</entry>
 <entry key="rule|text|R-NYQ-IM5">'Popis smluvních podmínek (kromě rozdělení příjmů)' (OPP-031-Tender) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-NZ5-D7P">'Fax' (BT-739-Organization-Company) nesmí být delší než 30 znaky/znaků</entry>
-<entry key="rule|text|R-NZI-7AJ">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-NZM-1OL">'PSČ' (BT-5121-Procedure) není povoleno</entry>
 <entry key="rule|text|R-O06-3OY">'Další informace o době trvání' (BT-781-Lot) je povinné</entry>
 <entry key="rule|text|R-O12-BOI">'Lhůta pro vyžádání dalších informací' (BT-13) musí být dřívější nebo stejné jako 'Lhůta pro doručení žádostí o účast' (BT-1311)</entry>
@@ -2487,6 +2460,7 @@
 <entry key="rule|text|R-ORD-5OS">'Počet žadatelů/stěžovatelů' (BT-712(a)-LotResult) musí obsahovat hodnotu z číselníku (review-type)</entry>
 <entry key="rule|text|R-OS0-QIK">'Poštovní adresa' (BT-510(c)-Organization-Company) není povoleno, když: 'Poštovní adresa' (BT-510(b)-Organization-Company) není vyplněn</entry>
 <entry key="rule|text|R-OS5-1BJ">'Země' (BT-514-Organization-TouchPoint) nesmí mít na začátku ani na konci mezery</entry>
+<entry key="rule|text|R-OSD-4R2">Parametru výběrového kritéria chybí 'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot-ThresholdNumber) nebo 'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot-WeightNumber).</entry>
 <entry key="rule|text|R-OSH-N0D">'Přezkum – druh nápravného opatření' (BT-792-Review) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-OSQ-GMB">'Doba, po kterou musí nabídka zůstat platná' (OPA-98-Lot-Number) není povoleno</entry>
 <entry key="rule|text|R-OT5-XFM">Pokud 'Druh formuláře' (BT-03) je 'Změna smlouvy', potom 'Typ oznámení' (BT-02) musí být 'Oznámení o změně smlouvy'</entry>
@@ -2565,6 +2539,7 @@
 <entry key="rule|text|R-PFC-AV4">'Činnost zadavatele' (BT-610-Procedure-Buyer) nelze opakovat</entry>
 <entry key="rule|text|R-PFD-5IL">Musí být uveden jazyk u 'Další informace' (BT-300-Part)</entry>
 <entry key="rule|text|R-PFT-77Y">'Popis kvalitativního cíle' (OPT-072-Lot) není povoleno</entry>
+<entry key="rule|text|R-PFU-0U1">Nabídce chybí 'Země původu výrobku nebo služby' (BT-191-Tender).</entry>
 <entry key="rule|text|R-PFZ-RQ0">'Přezkum – druh rozhodnutí' (BT-790-Review) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-PG5-7QL">'Právní základ řízení' (BT-01-notice) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-PGS-0H6">'Organizace přijímající nabídky' (OPT-301-Part-TenderReceipt) nesmí mít na začátku ani na konci mezery</entry>
@@ -2589,7 +2564,6 @@
 <entry key="rule|text|R-PL8-4CL">'Přezkum – druh rozhodnutí' (BT-790-Review) je povinné, když: 'Přezkum – žádost stažena' (BT-796-Review) je nastaveno na 'ano'.</entry>
 <entry key="rule|text|R-PMG-185">Atribut 'listName' musí být přítomen u 'Vyhrazená účast' (BT-71-Lot-List)</entry>
 <entry key="rule|text|R-PMI-EAT">'Přístup ke snižování dopadů na životní prostředí' (BT-774-Lot) musí obsahovat hodnotu z číselníku (environmental-impact)</entry>
-<entry key="rule|text|R-PN1-90P">'Datum, kdy se bude zveřejňovat' (BT-198) hodnota musí být mezi 2 dny a 10 lety po 'Datum odeslání oznámení' (BT-05)</entry>
 <entry key="rule|text|R-PN7-L0O">'Právní forma, kterou musí mít skupina uchazečů, které byla zadána zakázka' (BT-76-Lot) je povinné, když: 'Skupina uchazečů, které má být zakázka zadána, musí mít určitou právní formu' (BT-761-Lot) je 'ano'.</entry>
 <entry key="rule|text|R-PNG-1YX">'Maximální počet částí, při kterém může podat nabídku jeden uchazeč' (BT-31-Procedure) musí odpovídat tomuto vzoru: Integer</entry>
 <entry key="rule|text|R-POE-2JS">'Přezkum – popis' (BT-789-Review) není povoleno</entry>
@@ -2641,6 +2615,7 @@
 <entry key="rule|text|R-Q4X-S8O">Atribut 'listName' musí být přítomen u 'Číslo je typem prahové hodnoty' (BT-7532-Lot-List)</entry>
 <entry key="rule|text|R-Q53-30O">Pokud 'Druh formuláře' (BT-03) je 'Plánování', potom 'Typ oznámení' (BT-02) musí být 'Oznámení o uveřejnění předběžného oznámení nebo pravidelného předběžného oznámení na profilu kupujícího', 'Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely', 'Předběžné oznámení nebo pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek' nebo 'Předběžné oznámení pro veřejné služby v přepravě cestujících'</entry>
 <entry key="rule|text|R-Q53-JFM">'Zadavatelská strana' (OPT-310-Tender) není povoleno, když: 'Technické ID nabídky' (OPT-321-Tender) není vyplněn</entry>
+<entry key="rule|text|R-Q5S-9O8">Přezkumu chybí 'Orgán příslušný k přezkumu – druh' (BT-799-ReviewBody).</entry>
 <entry key="rule|text|R-Q5V-1SI">'Organizace, z jejíhož rozpočtu je zakázka placena' (OPT-301-LotResult-Financing) není povoleno</entry>
 <entry key="rule|text|R-Q5Z-SVE">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-26)</entry>
 <entry key="rule|text|R-Q6L-WDD">'Počet nabídek, které spadají pod toto opatření IPI' (BT-686-LotResult) musí být větší nebo rovno 0. 'Počet nabídek, které spadají pod toto opatření IPI' (BT-686-LotResult) musí být menší nebo rovno 9999</entry>
@@ -2669,7 +2644,6 @@
 <entry key="rule|text|R-QAY-8S3">'Preferované datum zveřejnění' (BT-738-notice) musí být v rozmezí od 0 do 60 dnů po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-QBD-HMJ">'Množství energetické účinnosti' (BT-815-LotResult) není povoleno, když: 'EED seznam' (Basis) (BT-811(a)-LotResult) neexistuje</entry>
 <entry key="rule|text|R-QBU-VVH">'Obec' (BT-513-Organization-TouchPoint) je povinné, když: 'Země' (BT-514-Organization-TouchPoint) je vyplněno.</entry>
-<entry key="rule|text|R-QC6-1AF">Atribut 'schemeName' musí být přítomen u 'Oznámení, které vytvořilo rámcovou dohodu' (OPT-100-Contract-Scheme)</entry>
 <entry key="rule|text|R-QC8-COU">'Organizace poskytující další informace o zadávacím řízení' (OPT-301-Lot-AddInfo) nelze opakovat</entry>
 <entry key="rule|text|R-QCL-4I7">'Číslo je typem váhy' (BT-5421-Lot) není povoleno</entry>
 <entry key="rule|text|R-QCL-QDA">Pokud 'Právní základ' (BT-01) je 'Směrnice 2014/24/EU' a 'Typ oznámení' (BT-02) je 'Oznámení o zahájení zadávacího nebo koncesního řízení – standardní režim' a 'Typ řízení' (BT-105) je 'Jednací řízení s uveřejněním / jednací řízení', pak 'Minimální počet uchazečů, kteří budou pozváni do druhé fáze řízení' (BT-50) musí být větší než 2</entry>
@@ -2678,13 +2652,11 @@
 <entry key="rule|text|R-QDW-FLX">'Řazení na seznamu vítězů' (BT-171) se musí rovnat 0</entry>
 <entry key="rule|text|R-QEO-QD2">'Veřejná zakázka je alespoň částečně financována z prostředků Evropské unie' (BT-60-Lot) není povoleno</entry>
 <entry key="rule|text|R-QEP-0IX">'Charakter smlouvy' (BT-23-Procedure) nesmí mít na začátku ani na konci mezery</entry>
-<entry key="rule|text|R-QET-6IO">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-QEY-TBX">Každá organizace provádějící přezkum pro položku (OPT-301-Lot-ReviewOrg) nebo část (OPT-301-Part-ReviewOrg) musí odpovídat dalším kontaktním místům (OPT-201-Organization-Touchpoint) jedné z určených organizací (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-QF5-3JJ">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-12)</entry>
 <entry key="rule|text|R-QFU-FN0">Celkový počet obdržených nabídek musí být roven počtu nabídek obdržených od velkých organizací plus počet nabídek obdržených od mikro organizací, plus počet nabídek obdržených od malých organizací, plus počet nabídek obdržených od středně velkých organizací.</entry>
 <entry key="rule|text|R-QFV-G67">'Popis' (BT-554-Tender-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-QG3-D1O">'Odůvodnění doby platnosti rámcové dohody' (BT-109-Lot) může být přítomen pouze jednou pro každý jazyk</entry>
-<entry key="rule|text|R-QG7-OU8">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-QGA-KFD">'Oficiální název' (BT-500-Organization-Company) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-QGQ-UVL">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-2)</entry>
 <entry key="rule|text|R-QGS-DVQ">Pro daný výsledek dávky musí být každá odkazovaná nabídka buď pro dávku tohoto výsledku nebo pro skupinu dávek obsahující tuto dávku.</entry>
@@ -2704,7 +2676,6 @@
 <entry key="rule|text|R-QN6-DSA">'ID dokumentu o environmentální legislativě' (OPT-112-Lot-EnvironLegis) nelze opakovat</entry>
 <entry key="rule|text|R-QNT-MN8">'Hodnota všech smluv udělených v tomto oznámení' (BT-161-NoticeResult-Currency) musí obsahovat hodnotu z číselníku (currency)</entry>
 <entry key="rule|text|R-QP1-FY0">'Odhadovaná hodnota bez DPH' (BT-27-Lot) není povoleno</entry>
-<entry key="rule|text|R-QP6-7NP">Oznámení, které vytvořilo rámcovou dohodu' (OPT-100-Contract-Scheme) musí obsahovat hodnotu z číselníku (notice-reference)</entry>
 <entry key="rule|text|R-QP7-XUC">'Hodnota nejvyšší přípustné nabídky' (BT-711-LotResult) musí být pozitivní.</entry>
 <entry key="rule|text|R-QPH-E6R">'Právní základ' (BT-01(e)-Procedure) není povoleno</entry>
 <entry key="rule|text|R-QPM-IHM">'Hodnota nabídky' (BT-720-Tender) nelze opakovat</entry>
@@ -2719,7 +2690,6 @@
 <entry key="rule|text|R-QTW-KPY">'Registrační číslo' (BT-501-Business-European) není povoleno</entry>
 <entry key="rule|text|R-QU2-JJ2">Subdodavatel nemůže jednat jako 'Organizace podepisující smlouvu'</entry>
 <entry key="rule|text|R-QUR-467">'Název' (BT-21-Procedure) je povinné</entry>
-<entry key="rule|text|R-QUS-87L">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-QV7-V0B">'Odůvodnění doby platnosti rámcové dohody' (BT-109-Lot) je povinné, když: Doba trvání části není delší než 7 let.</entry>
 <entry key="rule|text|R-QVH-SKK">Každý příjemce nabídky (OPT-301-Lot-TenderReceipt) nebo (OPT-301-Part-TenderReceipt) musí odpovídat dalším kontaktním místům (OPT-201-Organization-Touchpoint) jedné z určených organizací (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-QVU-VYH">'Počet žadatelů/stěžovatelů' (BT-712(a)-LotResult) není povoleno</entry>
@@ -2737,7 +2707,6 @@
 <entry key="rule|text|R-R0C-TRC">'Právní základ CVD určující, která kategorie zadávacího řízení se použije' (BT-735-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-R0J-MWK">'Doba trvání smlouvy je prodloužena z důvodu nezbytných aktiv nutných k poskytování služby' (OPP-020-Contract) musí obsahovat hodnotu z číselníku (indicator)</entry>
 <entry key="rule|text|R-R15-KUU">'Další informace' (BT-45-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
-<entry key="rule|text|R-R1P-8C5">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-R21-BRK">'Popis' (BT-201-Contract) může být pouze v jednom z úředních jazyků oznámení</entry>
 <entry key="rule|text|R-R2D-DXI">'Technické ID smlouvy' (OPT-316-Contract) je povinné</entry>
 <entry key="rule|text|R-R35-T08">'Datum zveřejnění' (OPP-012-notice) musí odpovídat tomuto vzoru: Date</entry>
@@ -2830,6 +2799,7 @@
 <entry key="rule|text|R-S18-KY8">Subdodavatel nemůže jednat jako 'Organizace přijímající nabídky'</entry>
 <entry key="rule|text|R-S1I-B0E">Musí být uveden jazyk u 'Popis' (BT-732-Lot)</entry>
 <entry key="rule|text|R-S1K-0VB">'Právní základ postupu (ELI – CELEX)' (BT-01(c)-Procedure) není povoleno</entry>
+<entry key="rule|text|R-S1Q-NKP">Výsledku části zakázky chybí 'Počet nabídek, které spadají pod toto opatření IPI' (BT-686-LotResult).</entry>
 <entry key="rule|text|R-S1U-UPP">'Lhůta pro získání bezpečnostní prověrky' (BT-78-Lot) musí odpovídat tomuto vzoru: Date</entry>
 <entry key="rule|text|R-S1V-6N1">'Další informace o dohodě o zachování mlčenlivosti' (BT-802-Lot) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-S1W-NMO">Součet všech 'Číslo spojené s kritériem pro zadání zakázky' (BT-541) typu 'Váha (procenta, přesně)' musí být roven 100 pro každé kritérium v položce</entry>
@@ -2856,7 +2826,6 @@
 <entry key="rule|text|R-S7N-2QG">'Název' (BT-21-Lot) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-S7W-3SU">'Identifikátor nastavení (UBL)' (OPT-002-notice) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-S86-VPX">Atribut 'schemeName' musí být přítomen u 'Technické ID zadavatelské strany (TPA-XXX)' (OPT-210-Tenderer-Scheme)</entry>
-<entry key="rule|text|R-S8E-F7X">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-S8H-LNV">'Kód kvalitativního cíle' (OPT-071-Lot) je povinné</entry>
 <entry key="rule|text|R-S8P-7R8">Atribut 'listName' musí být přítomen u 'Nižší územní jednotka země (NUTS)' (BT-507-Organization-Company-List)</entry>
 <entry key="rule|text|R-S9U-F5I">'Další informace' (BT-772-Lot) nesmí být delší než 6 000 znaky/znaků</entry>
@@ -2888,7 +2857,6 @@
 <entry key="rule|text|R-SN5-AZG">'Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií' (BT-543-Lot) není povoleno</entry>
 <entry key="rule|text|R-SN7-F2W">Musí být uveden jazyk u 'Další informace' (BT-772-Lot)</entry>
 <entry key="rule|text|R-SNA-9YO">'Kód požadavku plnění' (OPT-060-Lot) je povinné</entry>
-<entry key="rule|text|R-SNH-2MQ">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-SNN-G7Z">'Nižší územní jednotka země (NUTS)' (BT-507-Organization-Company) musí obsahovat hodnotu z číselníku (nuts-lvl3)</entry>
 <entry key="rule|text|R-SNT-H53">'Nařízení o zahraničních dotacích' (BT-681-Lot) musí obsahovat hodnotu z číselníku (fsr)</entry>
 <entry key="rule|text|R-SOW-1XJ">'Maximální počet obnovení' (BT-58-Lot) je povinné</entry>
@@ -2908,7 +2876,6 @@
 <entry key="rule|text|R-STU-Y0J">'Název' (BT-21-LotsGroup) není povoleno</entry>
 <entry key="rule|text|R-SU4-LO0">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-8)</entry>
 <entry key="rule|text|R-SUE-AY9">'Koncový bod pro výměnu informací (URL)' (BT-509-Organization-TouchPoint) musí odpovídat tomuto vzoru: URL</entry>
-<entry key="rule|text|R-SUN-K67">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-SV2-SQI">'Hodnota ceny' (BT-644-Lot) je povinné, když: 'Veškeré smlouvy na poskytování služeb následně po soutěži budou zadány jednomu z vítězů soutěže' (BT-41-Lot) není pravda</entry>
 <entry key="rule|text|R-SV7-TAI">Subdodavatel nemůže jednat jako 'Organizace poskytující informace o obecném právním rámci pro ochranu životního prostředí, který se použije v místě, kde má být zakázka plněna'</entry>
 <entry key="rule|text|R-SVB-MJ0">Statistiky přijatých nabídek: Celkový počet 'Nabídky podány elektronicky' (BT-760-LotResult = t-esubm) musí být uveden přesně jednou</entry>
@@ -2917,16 +2884,15 @@
 <entry key="rule|text|R-SVV-EQL">'Číslo je pevná hodnota' (BT-5422-LotsGroup) není povoleno, když: 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-FixedNumber) není přítomen</entry>
 <entry key="rule|text|R-SW5-51C">'Poštovní adresa' (BT-510(a)-Organization-TouchPoint) nelze opakovat</entry>
 <entry key="rule|text|R-SWI-NPL">'Organizace poskytující informace o environmentálním právu' (OPT-301-Part-EnvironLegis) nelze opakovat</entry>
+<entry key="rule|text|R-SWK-JGR">Smlouvě chybí 'Doba trvání smlouvy je prodloužena z důvodu nezbytných aktiv nutných k poskytování služby' (OPP-020-Contract).</entry>
 <entry key="rule|text|R-SXI-QDV">'Další podrobnosti o finančních prostředcích EU' (BT-6110-Contract) může být přítomen pouze jednou pro každý jazyk</entry>
 <entry key="rule|text|R-SXJ-I8X">'Identifikátor nastavení (UBL)' (OPT-002-notice) je povinné</entry>
 <entry key="rule|text|R-SXY-RXR">'Identifikátor oznámení' (BT-701-notice) je povinné</entry>
 <entry key="rule|text|R-SYM-FW1">Atribut 'listName' musí být přítomen u 'Vyhrazená účast' (BT-71-Part-List)</entry>
-<entry key="rule|text|R-SYX-QUS">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-SZ0-B41">'Prosazovaný sociální cíl' (BT-775-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-SZC-ZA0">'Identifikátor části nebo skupiny částí' (BT-13714-Tender-Scheme) musí obsahovat hodnotu z číselníku (tendered-object)</entry>
 <entry key="rule|text|R-SZT-43W">'Identifikátor části (hodnota skupiny na základě rámcové dohody)' (BT-556-NoticeResult) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-T01-PJW">'Lhůta pro doručení žádostí o účast' (BT-1311(d)-Lot) není povoleno</entry>
-<entry key="rule|text|R-T05-L0Z">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-T06-8NX">'Odbor' (BT-16-Organization-Company) není povoleno</entry>
 <entry key="rule|text|R-T0P-VFW">'Fax' (BT-739-Organization-Company) není povoleno</entry>
 <entry key="rule|text|R-T0V-F01">'Jméno/název' (BT-734-Lot) může být přítomen pouze jednou pro každý jazyk</entry>
@@ -2937,7 +2903,6 @@
 <entry key="rule|text|R-T1T-89E">'Kritéria budou použita k výběru uchazečů, kteří budou pozváni do druhé fáze řízení' (BT-40-Lot) není povoleno</entry>
 <entry key="rule|text|R-T30-FHZ">'Telefon' (BT-503-Organization-TouchPoint) nelze opakovat</entry>
 <entry key="rule|text|R-T32-WXB">Všechny položky ve stejné skupině musí mít stejný 'Lhůta pro doručení nabídek' (BT-131)</entry>
-<entry key="rule|text|R-T39-GIZ">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-T3J-KXI">'Kód' (BT-67(a)-Procedure) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-T3K-YL6">'Země' (BT-514-UBO) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-T3Z-QGS">'PSČ' (BT-5121-Procedure) nesmí být delší než 400 znaky/znaků</entry>
@@ -2963,7 +2928,7 @@
 <entry key="rule|text|R-TB0-38C">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' (BT-717-Lot) není povoleno</entry>
 <entry key="rule|text|R-TB6-TOR">'Spotřební metrika EED' (OPT-080-LotResult) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-TBM-O37">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-29)</entry>
-<entry key="rule|text|R-TBX-U1E">'Datum otevření' (BT-132(t)-Lot) nelze opakovat</entry>
+<entry key="rule|text|R-TBX-U1E">'Čas veřejného otevírání' (BT-132(t)-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-TC6-DR2">'Identifikátor sekce' (BT-13716-notice) není povoleno, když: 'Znění předchozího oznámení, které má být změněno' (BT-758-notice) není vyplněn</entry>
 <entry key="rule|text|R-TCW-R9N">Pro oznámení o výsledku musí mít jakákoli část oznámení s rámcovou dohodou, bez smlouvy v rámci této rámcové dohody a bez DPS, přesně jeden přidružený výsledek části.</entry>
 <entry key="rule|text|R-TD3-EJL">Subdodavatel nemůže jednat jako 'Organizace poskytující další informace o zadávacím řízení'</entry>
@@ -3043,10 +3008,9 @@
 <entry key="rule|text|R-U42-PTX">'Právní forma, kterou musí mít skupina uchazečů, které byla zadána zakázka' (BT-76-Lot) musí být přítomen ve všech úředních jazycích oznámení</entry>
 <entry key="rule|text|R-U4G-HRO">'Telefon' (BT-503-Organization-TouchPoint) není povoleno</entry>
 <entry key="rule|text|R-U4U-H53">'Kód' (BT-67(a)-Procedure) musí obsahovat hodnotu z číselníku (exclusion-ground)</entry>
-<entry key="rule|text|R-U5R-2WU">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-U67-LR2">'Kód sankcí a odměn' (OPP-033-Tender) nelze opakovat</entry>
 <entry key="rule|text|R-U6R-3XA">'Maximální hodnota rámcové dohody' (BT-271-Procedure) není povoleno, když: V žádné z položek neexistuje rámcová smlouva</entry>
-<entry key="rule|text|R-U7F-U45">'Datum otevření' (BT-132(t)-Lot) musí odpovídat tomuto vzoru: Time</entry>
+<entry key="rule|text|R-U7F-U45">'Čas veřejného otevírání' (BT-132(t)-Lot) musí odpovídat tomuto vzoru: Time</entry>
 <entry key="rule|text|R-U7S-LQE">Atribut 'listName' musí být přítomen u 'Typ vozidla' (OPT-155-LotResult-List)</entry>
 <entry key="rule|text|R-U8R-OBM">'Nižší územní jednotka země (NUTS)' (BT-5071-Part) není povoleno, když: 'Místo plnění – Zeměpisný rozsah' (BT-727) je vyplněn nebo 'Země' (BT-5141) není vyplněn</entry>
 <entry key="rule|text|R-U9B-3JF">'Elektronické podání' (BT-17-Lot) je povinné</entry>
@@ -3069,6 +3033,7 @@
 <entry key="rule|text|R-UHP-R4C">'Datum přezkumu' (BT-787-Review) není povoleno, když: 'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen</entry>
 <entry key="rule|text|R-UHS-R96">'ID dokumentu o environmentální legislativě' (OPT-112-Part-EnvironLegis) nelze opakovat</entry>
 <entry key="rule|text|R-UI0-PBV">'Místo plnění – Zeměpisný rozsah' (BT-727-Lot) není povoleno, když: 'Nižší územní jednotka země (NUTS)' B373 (BT-5071-Lot) je vyplněn</entry>
+<entry key="rule|text|R-UIJ-ZV4">Uchazeči chybí 'Subdodavatel' (OPT-301-Tenderer-SubCont).</entry>
 <entry key="rule|text|R-UIO-CLU">'Maximální počet uchazečů, kteří budou pozváni do druhé fáze řízení' (BT-51-Lot) není povoleno, když: 'Existuje maximální počet zájemců, kteří mohou být vyzváni k účasti ve druhé fázi řízení' (BT-661-Lot) není 'ano'</entry>
 <entry key="rule|text|R-UJ6-048">'Právní důvody pro vyloučení' (BT-806-Procedure) nelze opakovat</entry>
 <entry key="rule|text|R-UJM-K4K">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-37)</entry>
@@ -3110,7 +3075,6 @@
 <entry key="rule|text|R-UW7-5K0">'Přezkum – poplatek za žádost' (BT-795-Review) musí odpovídat tomuto vzoru: AmountValue</entry>
 <entry key="rule|text|R-UX0-FK9">Atribut 'listName' musí být přítomen u 'Požaduje se zaručený nebo kvalifikovaný elektronický podpis nebo pečeť (podle definice v nařízení (EU) č 910/2014)' (BT-744-Lot-List)</entry>
 <entry key="rule|text|R-UX9-G3Z">'Nabídka je variantou' (BT-193-Tender) není povoleno, když: Řízení pro danou položku je skončeno a nebyla zadána</entry>
-<entry key="rule|text|R-UXI-WU2">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-UZN-BY6">'Druh údajné nesrovnalosti' (BT-636-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-UZN-OE3">'Zdroj kritérií výběru' (BT-821-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-V00-H0E">'Velikost hospodářského subjektu' (BT-165-Organization-Company) nesmí mít na začátku ani na konci mezery</entry>
@@ -3136,7 +3100,6 @@
 <entry key="rule|text|R-V79-Z6Y">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-27)</entry>
 <entry key="rule|text|R-V7F-68L">'Identifikátor verze UBL (UBL)' (OPT-001-notice) musí odpovídat tomuto vzoru: UBLVersionID</entry>
 <entry key="rule|text|R-V7N-SUL">'Znovu odhadnutá hodnota rámcové dohody v rámci skupiny částí' (BT-1561-NoticeResult) není povoleno, když: 'Identifikátor části (hodnota skupiny na základě rámcové dohody)' (BT-557) není vyplněn</entry>
-<entry key="rule|text|R-V7P-MZM">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-V8C-1Q1">Pokud 'Právní základ' (BT-01) je 'Směrnice 2014/23/EU' nebo 'Směrnice 2009/81/ES' a 'Právní forma kupujícího' (BT-11) je 'Organizace zadávající zakázku dotovanou veřejným zadavatelem', 'Mezinárodní organizace' nebo 'Zadavatel, zhotovitel, dodavatel nebo poskytovatel služeb v oblasti obrany', pak 'Kupující je zadavatelem' (BT-740) musí být 'Ne'</entry>
 <entry key="rule|text|R-V8D-R8C">Hodnota 'Technické ID konečného uživatele výhod (UBO-XXX)' (OPT-202-UBO) musí být jedinečná hodnota</entry>
 <entry key="rule|text|R-V8Z-VN6">'Další informace o obnovení' (BT-57-Lot) může být přítomen pouze jednou pro každý jazyk</entry>
@@ -3163,7 +3126,6 @@
 <entry key="rule|text|R-VFT-471">'Identifikátor finančních prostředků EU' (BT-5010-Lot) nesmí být delší než 100 znaky/znaků</entry>
 <entry key="rule|text|R-VFZ-MYA">'Technické ID zadavatelské strany (TPA-XXX)' (OPT-210-Tenderer) nelze opakovat</entry>
 <entry key="rule|text|R-VG2-9E5">'Popis' (BT-762-notice) musí být přítomen ve všech úředních jazycích oznámení</entry>
-<entry key="rule|text|R-VG3-LEV">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-VGO-S2E">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Part-TenderEval-Scheme) musí obsahovat hodnotu z číselníku (player-type)</entry>
 <entry key="rule|text|R-VGX-GSV">'Charakter smlouvy' (BT-23-Lot) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-VH6-V2C">'Maximální hodnota rámcové dohody' (BT-271-Lot) musí být kladné.</entry>
@@ -3210,6 +3172,7 @@
 <entry key="rule|text|R-VSO-FS4">'Umístění oceněného soutěžícího' (BT-44-Lot) není povoleno, když: 'Hodnota ceny' (BT-644-Lot) není vyplněn</entry>
 <entry key="rule|text|R-VSP-FAU">'Velikost hospodářského subjektu' (BT-165-Organization-Company) je povinné, když: Pokud organizace předložila 'Zadavatelská strana' (OPT-310-Tender), což vede k 'Identifikátor nabídky zakázky' (BT-3202-Contract), pak je organizace vítězem</entry>
 <entry key="rule|text|R-VU8-91R">'Interní identifikátor' (BT-22-LotsGroup) nesmí mít na začátku ani na konci mezery</entry>
+<entry key="rule|text|R-VUI-M9B">Části zakázky chybí 'Povinné uvádění subdodávek' (BT-651-Lot).</entry>
 <entry key="rule|text|R-VUV-LEE">'EED seznam (základ)' (BT-811(a)-LotResult) není povoleno, když: 'EED seznam (bod)' (BT-811(b)-LotResult) neexistuje</entry>
 <entry key="rule|text|R-VUV-LY3">'EED seznam (základ)' (BT-811(a)-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-VV0-R8G">'Uchazeči mohou podat více než jednu nabídku' (BT-769-Lot) musí obsahovat hodnotu z číselníku (permission)</entry>
@@ -3242,7 +3205,6 @@
 <entry key="rule|text|R-W48-YI9">'Organizace zpracovávající nabídky' (OPT-301-Lot-TenderEval) není povoleno</entry>
 <entry key="rule|text|R-W4F-8OC">'Počet žadatelů/stěžovatelů' (BT-712(a)-LotResult) nelze opakovat</entry>
 <entry key="rule|text|R-W4X-DYE">Statistiky přijatých nabídek: Celkový počet 'Nabídky od uchazečů registrovaných v zemích mimo Evropský hospodářský prostor' (BT-760-LotResult = t-no-eea) musí být uveden přesně jednou</entry>
-<entry key="rule|text|R-W4Z-1B5">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-W50-182">'Další informace' (OPP-130-Business-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-W5D-ELV">Atribut 'listName' musí být přítomen u 'EED aplikovatelné' (BT-810-Lot-List)</entry>
 <entry key="rule|text|R-W5K-89C">'Lhůta pro získání bezpečnostní prověrky' (BT-78-Lot) není povoleno, když: 'Vyžaduje se bezpečnostní prověrka' (BT-578) je 'ne'</entry>
@@ -3260,6 +3222,7 @@
 <entry key="rule|text|R-W8T-0RM">'Maximální hodnota rámcové dohody' (BT-271-Procedure) musí odpovídat tomuto vzoru: AmountValue</entry>
 <entry key="rule|text|R-W9I-W7Y">'Typ řízení' (BT-105-Procedure) musí obsahovat hodnotu z číselníku (procedure-type-27)</entry>
 <entry key="rule|text|R-W9R-98T">'Toto řízení bude znovu zahájeno' (BT-634-Procedure) není povoleno</entry>
+<entry key="rule|text|R-WA6-APY">Výsledku části zakázky chybí 'Počet žadatelů/stěžovatelů' (BT-712(b)-LotResult) nebo 'Počet žádostí o přezkum kupujícím' (BT-635-LotResult).</entry>
 <entry key="rule|text|R-WA7-HAT">'Identifikátor oznámení' (BT-701-notice) musí odpovídat tomuto vzoru: ProcedureOrNoticeID</entry>
 <entry key="rule|text|R-WB0-J5L">'Odůvodnění doby platnosti rámcové dohody' (BT-109-Lot) je povinné, když: Doba trvání části není delší než 4 roky.</entry>
 <entry key="rule|text|R-WBQ-59W">'Další podrobnosti o finančních prostředcích EU' (BT-6140-Lot) není povoleno, když: 'Identifikátor finančních prostředků EU' (BT-5010) a 'Programy financování z EU' (BT-7220) nejsou vyplněny</entry>
@@ -3406,7 +3369,6 @@
 <entry key="rule|text|R-XSU-3GA">'Odvětví činnosti' (OPP-105-Business) nesmí mít na začátku ani na konci mezery</entry>
 <entry key="rule|text|R-XTC-324">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-12)</entry>
 <entry key="rule|text|R-XTO-IX7">Atribut 'listName' musí být přítomen u 'Úsporná metrika EED' (OPT-081-LotResult-List)</entry>
-<entry key="rule|text|R-XTR-ILB">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-XVA-DRD">'Je požadována záruka' (BT-751-Lot) musí obsahovat hodnotu z číselníku (tender-guarantee-required)</entry>
 <entry key="rule|text|R-XVB-7HS">Součet všech 'Číslo spojené s kritériem pro zadání zakázky' (BT-541) typu 'Váha (desetiny, přesně)' musí být roven 1 pro každé kritérium ve skupině položek</entry>
 <entry key="rule|text|R-XVJ-0HH">'Kategorie kupujících' (OPT-090-Lot) nelze opakovat</entry>
@@ -3450,7 +3412,7 @@
 <entry key="rule|text|R-Y82-A07">'Další podrobnosti o finančních prostředcích EU' (BT-6140-Lot) nesmí být delší než 6 000 znaky/znaků</entry>
 <entry key="rule|text|R-Y8T-HJS">Součet všech 'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752) typu 'Váha (procenta, přesně)' musí být roven 100</entry>
 <entry key="rule|text|R-Y8Y-44I">'Právní základ řízení' (BT-01-notice) musí obsahovat hodnotu z číselníku (legal-basis-32)</entry>
-<entry key="rule|text|R-Y8Y-F09">'Datum otevření' (BT-132(t)-Lot) není povoleno, když: 'Lhůta pro vyžádání dalších informací' (BT-132(d)-Lot) je vyplněn</entry>
+<entry key="rule|text|R-Y8Y-F09">'Čas veřejného otevírání' (BT-132(t)-Lot) není povoleno, když: 'Lhůta pro vyžádání dalších informací' (BT-132(d)-Lot) je vyplněn</entry>
 <entry key="rule|text|R-Y95-HPO">'Informace o lhůtách pro přezkum' (BT-99-Lot-Language) musí obsahovat hodnotu z číselníku (eu-official-language)</entry>
 <entry key="rule|text|R-Y99-JBR">'Subdodávky' (BT-773-Tender) není povoleno, když: 'Technické ID nabídky' (OPT-321-Tender) není vyplněn</entry>
 <entry key="rule|text|R-Y9D-SGW">'Kód' (BT-67(a)-Procedure) nelze opakovat</entry>
@@ -3503,7 +3465,6 @@
 <entry key="rule|text|R-YT8-ZP6">'Nižší územní jednotka země (NUTS)' (BT-507-Business) musí obsahovat hodnotu z číselníku (nuts-lvl3)</entry>
 <entry key="rule|text|R-YUA-PJ2">'Cíl strategického zadávání zakázek' (BT-06-Lot) nelze opakovat</entry>
 <entry key="rule|text|R-YUX-UJP">'Identifikátor části (výsledek)' (BT-13713-LotResult) nesmí mít na začátku ani na konci mezery</entry>
-<entry key="rule|text|R-YUZ-K95">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-YV7-VPT">'E-mail' (BT-506-Organization-Company) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-YVB-IXU">'Odůvodnění omezení přístupu k některým částem zadávací dokumentace' (BT-707-Lot) musí obsahovat hodnotu z číselníku (communication-justification)</entry>
 <entry key="rule|text|R-YVD-NLZ">'Existuje maximální počet zájemců, kteří mohou být vyzváni k účasti ve druhé fázi řízení' (BT-661-Lot) musí obsahovat hodnotu z číselníku (indicator)</entry>
@@ -3512,7 +3473,6 @@
 <entry key="rule|text|R-YWR-58S">'Podtyp oznámení' (OPP-070-notice) musí obsahovat hodnotu z číselníku (notice-subtype)</entry>
 <entry key="rule|text|R-YWS-I8K">'Organizace poskytující informace o daňovém právu' (OPT-301-Part-FiscalLegis) nelze opakovat</entry>
 <entry key="rule|text|R-YY1-6NF">Atribut 'listName' musí být přítomen u 'Charakter smlouvy' (BT-23-Part-List)</entry>
-<entry key="rule|text|R-YZY-RI3">'Datum, kdy se bude zveřejňovat' (BT-198) musí být v rozmezí od 2 dnů do 10 let po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|R-Z0J-AVA">'Poštovní adresa' (BT-5101(b)-Procedure) nesmí být delší než 400 znaky/znaků</entry>
 <entry key="rule|text|R-Z0X-7DD">Pokud 'Typ oznámení' (BT-02) je 'Oznámení o výsledku zadávacího nebo koncesního řízení – zjednodušený režim', pak 'Podtyp oznámení' (OPP-070) musí být 33, 34 nebo 35</entry>
 <entry key="rule|text|R-Z10-F9I">'Datum konce trvání' (BT-537-Part) není povoleno, když: 'Datum zahájení' (BT-536-Part) a 'Jiná doba' (BT-538-Part) jsou přítomny, nebo 'Datum zahájení' (BT-536-Part) a 'Doba trvání' (BT-36-Part) jsou přítomny, nebo 'Jiná doba' (BT-538-Part) je přítomen a rovna se 'Neomezený'</entry>

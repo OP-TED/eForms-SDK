@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Kieli, jolla laadullinen tavoite on kuvattu</entry>
 <entry key="field|description|OPT-090-Lot">Koodi, joka osoittaa, että kyseessä on ostajakategoriat: 'ostajakategoriat'</entry>
 <entry key="field|description|OPT-100-Contract">Viittaus tulostiedotteeseen, joka sisältää tiedot puitesopimuksesta, johon nykyinen sopimus perustuu</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Kaavion nimi, jota käytetään viittaamaan tulostiedotteeseen, joka sisältää tiedot puitesopimuksesta, johon nykyinen sopimus perustuu</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Verkkosivusto, josta löytyy paikallinen verolainsäädäntö</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Verkkosivusto, josta löytyy paikallinen verolainsäädäntö</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Verolainsäädännön tunniste</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Organisaation ('organization') tai yhteydenpistopisteen ('touchpoint') viittaamisen nimi, joka arvioi tarjouksia</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Viittaus organisaatioon (ORG-xxxx) tai yhteyspisteeseen (TPO-xxxx), jolle tarjoukset tai osallistumispyynnöt on toimitettava</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Organisaation ('organization') tai yhteydenpistopisteen ('touchpoint') viittaamisen nimi, joka vastaanottaa tarjoukset</entry>
-<entry key="field|description|OPT-301-ReviewBody">Viittaus organisaatioon (ORG-xxxx), joka käsittelee tarkastuspyyntöä parhaillaan ilmoitetussa tarkastusvaiheessa</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Organisaation ('organization') viittaamisen nimi, joka tarkastaa pyynnön parhaillaan ilmoitetussa tarkastusvaiheessa</entry>
-<entry key="field|description|OPT-301-ReviewReq">Viittaus organisaatioon (ORG-xxxx), joka aloitti tarkastuspyynnön, joka johti nykyisen tarkastusvaiheen raportointiin</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Organisaation ('organization') tai yhteydenpistopisteen ('touchpoint') viittaamisen nimi</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Viittaus organisaatioon (ORG-xxxx), joka on pääasiallinen tarjoaja</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Organisaation ('organization') viittaamisen nimi, joka toimii pääasiallisena tarjoajana</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Viittaus organisaatioon (ORG-xxxx), joka on yhden tai useamman pääasiallisen tarjoajan alihankkija</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Yksi seuraavista on täytettävä: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Kukin julkistamattomien tietojen ryhmä sisältää yhden tai useamman julkaisematta jätettävän kentän TEDissä kuvatulla tavalla.</entry>
+<entry key="field|hint|BT-195-notice">Kukin julkistamattomien tietojen ryhmä sisältää yhden tai useamman julkaisematta jätettävän kentän TEDissä kuvatulla tavalla: https://ted.europa.eu/fi/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Jos julkistamispäivää ei ilmoiteta, tietoja ei julkisteta koskaan. Jos päivä ilmoitetaan, se saa olla enintään 5 vuotta toimittamispäivän jälkeen.</entry>
 <entry key="field|hint|BT-22-Lot">Jos käytät menettelyä ja eriä varten sisäistä tunnistetta, lisää se tähän. Käytä kullekin erälle omaa tunnistetta.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Jos käytät menettelyä ja eriä varten sisäistä tunnistetta, lisää se tähän. Käytä kullekin erälle omaa tunnistetta.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Tarjousten vastaanottamisen määräaika</entry>
 <entry key="field|name|BT-1311(d)-Lot">Osallistumishakemusten vastaanottamisen määräaika</entry>
 <entry key="field|name|BT-1311(t)-Lot">Osallistumishakemusten vastaanottamisen määräaika</entry>
-<entry key="field|name|BT-132(d)-Lot">Tarjousten avaamisen päivämäärä</entry>
-<entry key="field|name|BT-132(t)-Lot">Tarjousten avaamisen päivämäärä</entry>
+<entry key="field|name|BT-132(d)-Lot">Julkisen avaamisen päivämäärä</entry>
+<entry key="field|name|BT-132(t)-Lot">Julkisen avaamisen aika</entry>
 <entry key="field|name|BT-133-Lot">Paikka</entry>
 <entry key="field|name|BT-133-Lot-Language">Paikka</entry>
 <entry key="field|name|BT-134-Lot">Lisätiedot</entry>

@@ -325,5 +325,5 @@ let template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 	WITH OPP-011-notice DISPLAY #{name}: $value; // OJ S issue number
 	WITH OPP-012-notice DISPLAY #{name}: $value; // Publication date
 	WITH BT-127-notice DISPLAY #{name}: $value; // Estimated date of publication of a contract notice within this procedure
---- NAVIGATION --- // NAVIGATION
---- SUMMARY --- // SUMMARY
+DISPLAY Navigation first line ${BT-01-notice}; // NAVIGATION
+DISPLAY Summary first line  #{BT-03-notice}; // Notice Form Type

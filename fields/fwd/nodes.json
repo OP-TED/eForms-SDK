@@ -2256,8 +2256,8 @@
   }, {
     "id" : "ND-SubcontractedContract",
     "parentId" : "ND-LotTender",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
-    "xpathRelative" : "efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm",
+    "xpathRelative" : "efac:SubcontractingTerm",
     "xsdSequenceOrder" : [ {
       "efac:SubcontractingTerm" : 14
     } ],

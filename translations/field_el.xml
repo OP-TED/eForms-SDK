@@ -724,7 +724,6 @@
 <entry key="field|description|OPT-072-Lot-Language">Γλώσσα που χρησιμοποιείται για την περιγραφή του στόχου ποιότητας</entry>
 <entry key="field|description|OPT-090-Lot">Κωδικός για να δηλώσει ότι πρόκειται για κατηγορίες αγοραστών: 'buyer categories'</entry>
 <entry key="field|description|OPT-100-Contract">Αναφορά στην ειδοποίηση αποτελέσματος, που περιέχει πληροφορίες για την υπογεγραμμένη πλαισιακή συμφωνία, κάτω από την οποία λαμβάνει χώρα η τρέχουσα σύμβαση</entry>
-<entry key="field|description|OPT-100-Contract-Scheme">Όνομα του σχήματος που χρησιμοποιείται για να εκφράσει την αναφορά στην ειδοποίηση αποτελέσματος, που περιέχει πληροφορίες για την υπογεγραμμένη πλαισιακή συμφωνία, κάτω από την οποία λαμβάνει χώρα η τρέχουσα σύμβαση</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Διεύθυνση ιστοσελίδας, όπου μπορεί να βρεθεί η τοπική φορολογική νομοθεσία</entry>
 <entry key="field|description|OPT-110-Part-FiscalLegis">Διεύθυνση ιστοσελίδας, όπου μπορεί να βρεθεί η τοπική φορολογική νομοθεσία</entry>
 <entry key="field|description|OPT-111-Lot-FiscalLegis">Αναγνωριστικό της φορολογικής νομοθεσίας</entry>
@@ -805,10 +804,6 @@
 <entry key="field|description|OPT-301-Part-TenderEval-Scheme">Όνομα του σχήματος για την αναφορά στον οργανισμό ('organization') ή το σημείο επαφής ('touchpoint') που αξιολογεί τις προσφορές</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt">Αναφορά στον οργανισμό (ORG-xxxx) ή στο σημείο επαφής (TPO-xxxx) στον οποίο πρέπει να υποβληθούν οι προσφορές ή οι αιτήσεις συμμετοχής</entry>
 <entry key="field|description|OPT-301-Part-TenderReceipt-Scheme">Όνομα του σχήματος για την αναφορά στον οργανισμό ('organization') ή το σημείο επαφής ('touchpoint') που λαμβάνει τις προσφορές</entry>
-<entry key="field|description|OPT-301-ReviewBody">Αναφορά στον οργανισμό (ORG-xxxx) που αντιμετωπίζει το αίτημα εξέτασης στο τρέχον αναφερόμενο στάδιο εξέτασης</entry>
-<entry key="field|description|OPT-301-ReviewBody-Scheme">Όνομα του σχήματος για την αναφορά στον οργανισμό ('organization') που εξετάζει το αίτημα στο τρέχον αναφερόμενο στάδιο εξέτασης</entry>
-<entry key="field|description|OPT-301-ReviewReq">Αναφορά στον οργανισμό (ORG-xxxx) που ξεκίνησε ένα αίτημα εξέτασης που οδήγησε στην αναφορά για το τρέχον στάδιο εξέτασης</entry>
-<entry key="field|description|OPT-301-ReviewReq-Scheme">Όνομα του σχήματος για την αναφορά στον οργανισμό ('organization') ή το σημείο επαφής ('touchpoint')</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont">Αναφορά στον οργανισμό (ORG-xxxx) που είναι ο κύριος υποβάλλων προσφοράς</entry>
 <entry key="field|description|OPT-301-Tenderer-MainCont-Scheme">Όνομα του σχήματος για την αναφορά στον οργανισμό ('organization') που ενεργεί ως κύριος υποβάλλων προσφοράς</entry>
 <entry key="field|description|OPT-301-Tenderer-SubCont">Αναφορά στον οργανισμό (ORG-xxxx) που είναι υπεργολάβος ενός ή περισσότερων κυρίων υποβαλλόντων προσφοράς</entry>
@@ -832,7 +827,7 @@
 <entry key="field|hint|BT-1375-Procedure">Προσθέστε όσες παρτίδες επιθυμείτε να συμπεριλάβετε στην ομάδα των παρτίδων.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Προσθέστε όσες παρτίδες επιθυμείτε να συμπεριλάβετε στην ομάδα των παρτίδων.</entry>
 <entry key="field|hint|BT-1501(p)-Contract">Ένα από τα παρακάτω πρέπει να συμπληρωθεί: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
-<entry key="field|hint|BT-195-notice">Κάθε ομάδα μη δημοσιοποιημένων πληροφοριών περιέχει ένα ή περισσότερα πεδία που δεν δημοσιεύονται, όπως τεκμηριώνεται στο TED.</entry>
+<entry key="field|hint|BT-195-notice">Κάθε ομάδα μη δημοσιοποιημένων πληροφοριών περιέχει ένα ή περισσότερα πεδία που δεν δημοσιεύονται, όπως τεκμηριώνεται στο TED: https://ted.europa.eu/el/simap/undisclosed</entry>
 <entry key="field|hint|BT-198-notice">Εάν δεν παρέχεται ημερομηνία δημοσιοποίησης, οι πληροφορίες δεν θα δημοσιοποιηθούν ποτέ. Εάν παρέχεται ημερομηνία, δεν μπορεί να απέχει περισσότερο από 5 έτη από την ημερομηνία υποβολής.</entry>
 <entry key="field|hint|BT-22-Lot">Εάν χρησιμοποιείτε εσωτερικό αναγνωριστικό για τη διαδικασία και τις παρτίδες σας, πρέπει να το συμπληρώσετε. Χρησιμοποιήστε διαφορετικό αναγνωριστικό για κάθε παρτίδα.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Εάν χρησιμοποιείτε εσωτερικό αναγνωριστικό για τη διαδικασία και τις παρτίδες σας, πρέπει να το συμπληρώσετε. Χρησιμοποιήστε διαφορετικό αναγνωριστικό για κάθε παρτίδα.</entry>
@@ -923,8 +918,8 @@
 <entry key="field|name|BT-131(t)-Lot">Προθεσμία παραλαβής των προσφορών</entry>
 <entry key="field|name|BT-1311(d)-Lot">Προθεσμία παραλαβής των αιτήσεων συμμετοχής</entry>
 <entry key="field|name|BT-1311(t)-Lot">Προθεσμία παραλαβής των αιτήσεων συμμετοχής</entry>
-<entry key="field|name|BT-132(d)-Lot">Hμερομηνία aποσφράγισης</entry>
-<entry key="field|name|BT-132(t)-Lot">Hμερομηνία aποσφράγισης</entry>
+<entry key="field|name|BT-132(d)-Lot">Ημερομηνία δημόσιας αποσφράγισης</entry>
+<entry key="field|name|BT-132(t)-Lot">Ώρα δημόσιας αποσφράγισης</entry>
 <entry key="field|name|BT-133-Lot">Τόπος</entry>
 <entry key="field|name|BT-133-Lot-Language">Τόπος</entry>
 <entry key="field|name|BT-134-Lot">Πρόσθετες πληροφορίες</entry>

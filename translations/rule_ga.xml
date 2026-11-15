@@ -109,6 +109,7 @@
 <entry key="rule|text|R-0LJ-YIQ">Ní mór 'Líon na n-iarratas ar athbhreithniú ceannaitheora' (BT-635-LotResult) a bheith i gcomhréir leis an bpatrún seo a leanas: Integer</entry>
 <entry key="rule|text|R-0LS-ONG">Ní mór 'Teil.' (BT-503-Organization-Company) a bheith i gcomhréir leis an bpatrún seo a leanas: PhoneNumber</entry>
 <entry key="rule|text|R-0MB-OTZ">'Cineál' (BT-539-LotsGroup) is éigeantach, nuair: Tá ID an mhír líonta isteach.</entry>
+<entry key="rule|text|R-0MC-RYP">Tá 'Pionóis tairisceana' (BT-782-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|R-0MZ-COQ">'Sprioc-am le freagraí a fháil' (BT-800(t)-Lot) is éigeantach</entry>
 <entry key="rule|text|R-0N4-IWZ">'Eagraíocht athbhreithniúcháin' (OPT-301-Part-ReviewOrg) is éigeantach</entry>
 <entry key="rule|text|R-0NJ-6O5">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Tír' (OPP-112-Business-List)</entry>
@@ -117,7 +118,6 @@
 <entry key="rule|text|R-0O2-JNZ">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Foroinn tíre (NUTS)' (BT-507-UBO-List)</entry>
 <entry key="rule|text|R-0O3-06F">'Cur síos' (BT-09(b)-Procedure) níl ceadaithe, nuair: Níl 'Dlí trasteorann is infheidhme' (BT-09(a)-Procedure) líonta isteach</entry>
 <entry key="rule|text|R-0OO-ZFB">Más ionann 'Cineál an fhógra' (BT-02) agus 'Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil ar mhaithe le faisnéis amháin', ansin ní mór 'Fochineál an fhógra' (OPP-070) a bheith 4, 5, 6 nó E2</entry>
-<entry key="rule|text|R-0OP-IWR">Ní mór luach ó liosta cóid (notice-reference) a bheith in 'Aitheantóir rannáin' (BT-1501(n)-Contract-Scheme)</entry>
 <entry key="rule|text|R-0OY-5YF">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Lot-FiscalLegis-Scheme)</entry>
 <entry key="rule|text|R-0P0-XTT">Ní mór gné 'listName' a bheith i láthair le haghaidh 'An bunús dlí CVD chun a dheimhniú cén chatagóir nóis imeachta soláthair ag a bhfuil feidhm' (BT-735-LotResult-List)</entry>
 <entry key="rule|text|R-0PB-CIZ">Ní féidir 'Tá gá le comhaontú neamhnochta' (BT-801-Lot) a bheith ann níos mó ná huair amháin</entry>
@@ -153,7 +153,6 @@
 <entry key="rule|text|R-11H-P4X">Ní mór 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lot) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-11U-78G">Ní mór luach ó liosta cóid (currency) a bheith in 'Luach uasta an chreat-chomhaontaithe' (BT-709-LotResult-Currency)</entry>
 <entry key="rule|text|R-12A-UV0">'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) níl ceadaithe</entry>
-<entry key="rule|text|R-12N-PH6">'An dáta a fhoilseofar é seo' (BT-198) luach caithfidh a bheith idir 2 lá agus 10 mbliana tar éis an 'Dáta seolta an fhógra' (BT-05)</entry>
 <entry key="rule|text|R-12P-4SJ">'Seoladh poist' (BT-5101(a)-Procedure) níl ceadaithe</entry>
 <entry key="rule|text|R-131-EBJ">Ní mór 'An bonn cirt leis an nós imeachta brostaithe' (BT-1351-Procedure) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-13P-6KD">Ní mór 'Tá eolas faoi dhoiciméid shrianta le fáil ag' (BT-615-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: URL</entry>
@@ -263,6 +262,7 @@
 <entry key="rule|text|R-29Q-MU1">'Cineál tairsí is ea an uimhir' (BT-7532-Lot) níl ceadaithe, nuair: Ní hionann 'Úsáidfear na critéir chun na hiarrthóirí a roghnú a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-40) agus 'tá' nó níl 'Cineál ualaigh is ea an uimhir' (BT-7531) líonta isteach</entry>
 <entry key="rule|text|R-29Q-XK8">'Tomhaltas éifeachtachta fuinnimh i kWh/bliain' (BT-813-LotResult) níl ceadaithe</entry>
 <entry key="rule|text|R-2A0-7R6">'ID doiciméad an reachtaíochta cánach' (OPT-111-Part-FiscalLegis) níl ceadaithe</entry>
+<entry key="rule|text|R-2A0-WBV">Tá 'ID teicniúil tairiscint faighte' (OPT-320-LotResult) ar iarraidh ó thoradh birt, tá 'ID teicniúil an tairiscint' (OPT-321-Tender) ar iarraidh ó thairiscint nó tá 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) ar iarraidh ó chonradh.</entry>
 <entry key="rule|text|R-2A2-W5U">Ní féidir 'Ainm' (BT-632-Part) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-2AL-NB1">'Baile' (BT-5131-Lot) níl ceadaithe, nuair: Tá 'Áit feidhmíochta – Raon geografach' (BT-727) líonta isteach nó níl 'Tír' (BT-5141) líonta isteach</entry>
 <entry key="rule|text|R-2BX-8N8">'Cur síos ar an ráthaíocht airgeadais' (BT-75-Lot) is éigeantach, nuair: 'Tá ceangal ann ráthaíocht a thabhairt' (BT-751-Lot) is 'tá'.</entry>
@@ -284,7 +284,6 @@
 <entry key="rule|text|R-2GK-01L">Ní féidir 'Uimhir an chritéir dámhachtana' (BT-541-Lot-FixedNumber) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-2GS-I3E">'Rannpháirtíocht fhorchoimeádta' (BT-71-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-2GU-QHW">'Cineál tairsí is ea an uimhir' (BT-7532-Lot) níl ceadaithe</entry>
-<entry key="rule|text|R-2GV-P8Q">'An dáta a fhoilseofar é seo' (BT-198) luach caithfidh a bheith idir 2 lá agus 10 mbliana tar éis an 'Dáta seolta an fhógra' (BT-05)</entry>
 <entry key="rule|text|R-2GY-EQZ">Ní mór luach ó liosta cóid (procedure-type-20) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
 <entry key="rule|text|R-2HC-IUQ">'Cineál seirbhíse atá á chur ar fáil' (OPT-030-Procedure-SProvider) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-2HK-BGP">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-ReviewOrg-Scheme)</entry>
@@ -333,7 +332,6 @@
 <entry key="rule|text|R-2W0-V5X">Ní mór 'ID teicniúil tairiscint faighte' (OPT-320-LotResult) a bheith i gcomhréir leis an bpatrún seo a leanas: TenderID</entry>
 <entry key="rule|text|R-2WG-4C0">'Aitheantóir rannán an athbhreithnithe san fhógra' (BT-786-Review) níl ceadaithe, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair</entry>
 <entry key="rule|text|R-2WL-GMO">Ní mór luach ó liosta cóid (notice-type) a bheith in 'Cineál an fhógra' (BT-02-notice)</entry>
-<entry key="rule|text|R-2XG-HZL">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-2XG-YAG">Ní féidir 'Seoladh na ndoiciméad soláthair' (BT-15-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-2XL-IMM">'Dáta bréige dhámhachtain na tairisceana' (OPT-999-notice) níl ceadaithe</entry>
 <entry key="rule|text|R-2YL-K0Q">'Aitheantóir rannán an athbhreithnithe san fhógra' (BT-786-Review) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
@@ -344,7 +342,6 @@
 <entry key="rule|text|R-2Z5-M33">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Foroinn tíre (NUTS)' (BT-507-Business-List)</entry>
 <entry key="rule|text|R-2ZB-DPR">'Tá córas ceannaigh dinimiciúil i gceist' (BT-766-Part) níl ceadaithe</entry>
 <entry key="rule|text|R-2ZE-53X">Má tá 'Beart sonrach IPI' (BT-685-LotResult) cothrom le 'Feistí leighis de thionscnamh na Síne – Rialachán (AE) 2025/1197', ní mór don bheart gaolmhar ceachtar den 'Príomhaicmiú' (BT-262-Lot) nó ar a laghad ceann amháin 'Aicmiú breise' (BT-263-Lot) a bheith ann do ghléasanna leighis</entry>
-<entry key="rule|text|R-2ZN-YO8">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-30H-IXV">Ní féidir 'Seoladh an chonartha' (BT-151-Contract) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-30Q-PBK">Ní féidir 'Cineál ualaigh is ea an uimhir' (BT-5421-LotsGroup) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-30V-AUP">Ní mór luach ó liosta cóid (dps-usage) a bheith in 'Tá córas ceannaigh dinimiciúil i gceist' (BT-766-Part)</entry>
@@ -388,11 +385,11 @@
 <entry key="rule|text|R-3AX-PED">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'An fhoirm dhlíthiúil nach mór do ghrúpa tairgeoirí ar a mbronntar conradh a ghlacadh' (BT-76-Lot-Language)</entry>
 <entry key="rule|text|R-3B6-JXA">'Aitheantas an iarratasóra athbhreithnithe' (BT-808-Review) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-3BZ-GV1">Ní féidir 'Ainm' (BT-734-LotsGroup) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
+<entry key="rule|text|R-3CW-1PM">Tá 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer) ar iarraidh ó thairgeoir nó tá 'Páirtí tairisceana' (OPT-310-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|R-3CY-CO3">Ní mór luach ó liosta cóid (buyer-contracting-type) a bheith in 'Is eintiteas conarthach é an ceannaitheoir' (BT-740-Procedure-Buyer)</entry>
 <entry key="rule|text|R-3CZ-6NM">'Déantar an conradh a dhámhachtain laistigh de chreat-chomhaontú' (BT-768-Contract) is éigeantach, nuair: Roghnaíodh buaiteoir agus tá 'Tá creat-chomhaontú i gceist' (BT-765-Lot) ar aon dul le comhaontú creatlaí an nós imeachta.</entry>
 <entry key="rule|text|R-3EF-GU4">Caithfidh líon iomlán na dtairiscintí a fhaightear a bheith cothrom le líon na dtairiscintí a fhaightear ó eagraíochtaí móra móide líon na dtairiscintí a fhaightear ó mhicreaghnóthais, gnóthais bheaga agus mheánmhéide.</entry>
 <entry key="rule|text|R-3EU-UGY">Ní féidir 'Baile' (BT-5131-Procedure) a bheith níos faide ná 400 carachtar</entry>
-<entry key="rule|text|R-3EY-J6P">'An dáta a fhoilseofar é seo' (BT-198) luach caithfidh a bheith idir 2 lá agus 10 mbliana tar éis an 'Dáta seolta an fhógra' (BT-05)</entry>
 <entry key="rule|text|R-3F3-DAK">'An modh a úsáidtear chun luach measta an lamháltais a ríomh' (BT-163-Tender) is éigeantach, nuair: 'ID teicniúil an tairiscint' (OPT-321-Tender) tá líonta.</entry>
 <entry key="rule|text|R-3F8-NUW">'Tomhaltas éifeachtachta fuinnimh i kWh/bliain' (BT-813-LotResult) is éigeantach, nuair: 'Liosta EED' (Bonn) (BT-811(a)-LotResult) ann agus níl sé socraithe go 'Lipéad Fuinnimh'.</entry>
 <entry key="rule|text|R-3FA-SU7">'Spriocdháta chun iarrataí ar rannpháirtíocht a fháil' (BT-1311(d)-Lot) níl ceadaithe, nuair: Níl luach 'An cineál nóis imeachta' (BT-105) cothrom le 'Teoranta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta' agus 'Nós imeachta ilchéime eile', nó tá 'Spriocdháta chun léirithe spéise a fháil' (BT-630) i láthair</entry>
@@ -411,7 +408,7 @@
 <entry key="rule|text|R-3K4-290">Ní mór 'Luach athmheasta na gcreat-chomhaontuithe laistigh de ghrúpa beart' (BT-1561-NoticeResult) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
 <entry key="rule|text|R-3KK-ZDO">'Seoladh poist' (BT-5101(a)-Part) níl ceadaithe, nuair: Níl 'Baile' (BT-5131) líonta isteach</entry>
 <entry key="rule|text|R-3L8-M5E">Ní mór luach ó liosta cóid (energy-efficiency-item) a bheith in 'Liosta EED (Mír)' (BT-811(b)-LotResult)</entry>
-<entry key="rule|text|R-3LL-3UB">'Uasluach na gcreat-chomhaontuithe sa ghrúpa beart seo' (BT-156-NoticeResult) is éigeantach, nuair: expression|name|542</entry>
+<entry key="rule|text|R-3LL-3UB"></entry>
 <entry key="rule|text|R-3M1-VOG">Ní féidir 'Cód cúise maidir le neamhnochtadh' (BT-197-notice) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-3M4-NKV">Ní féidir 'Seoladh poist' (BT-510(b)-Business) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-3MC-ZA0">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Cur síos' (BT-24-Part-Language)</entry>
@@ -429,7 +426,6 @@
 <entry key="rule|text|R-3QI-0OB">'Aitheantóir luchtóige nó grúpa luchtóg' (BT-13714-Tender) is éigeantach, nuair: 'Aitheantóir tairisceana' (BT-3201-Tender) tá líonadh isteach.</entry>
 <entry key="rule|text|R-3R3-XZP">Ní féidir 'Teil.' (BT-503-Business) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-3R7-Z22">'Baile' (OPP-110-Business) is éigeantach, nuair: 'Uimhir chlárúcháin' (BT-501-Business-European) tá sé líonta.</entry>
-<entry key="rule|text|R-3SJ-5NM">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-3TB-BZ3">'An fhoirm dhlíthiúil nach mór do ghrúpa tairgeoirí ar a mbronntar conradh a ghlacadh' (BT-76-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-3TI-DT3">'Clúdach breise ceannaitheora' (BT-111-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-3U5-U5P">Ní mór luach ó liosta cóid (esignature-submission) a bheith in 'Tá gá le ríomhshíniú nó ríomhshéala ardleibhéil nó cáilithe (mar a shainmhínítear i Rialachán (AE) Uimh. 910/2014)' (BT-744-Lot)</entry>
@@ -460,7 +456,6 @@
 <entry key="rule|text|R-3ZW-OUH">Ní mór luach ó liosta cóid (winner-selection-status) a bheith in 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult)</entry>
 <entry key="rule|text|R-409-1BU">'Seoladh poist' (BT-510(b)-UBO) níl ceadaithe, nuair: Níl 'Seoladh poist' (BT-510(a)-UBO) líonta isteach</entry>
 <entry key="rule|text|R-40R-QUP">Ní mór 'Próifíl an cheannaitheora' (BT-508-Procedure-Buyer) a bheith i gcomhréir leis an bpatrún seo a leanas: URL</entry>
-<entry key="rule|text|R-40X-DUK">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-41V-86E">'Cur síos ar na hathruithe' (BT-141(a)-notice) níl ceadaithe</entry>
 <entry key="rule|text|R-41Z-29T">'Gníomhaíocht an údaráis chonarthaigh' (BT-10-Procedure-Buyer) is éigeantach, nuair: 'Cineál dlíthiúil an cheannaitheora' (BT-11) is ceann de na rudaí seo a leanas: 'Comhlacht dlí phoiblí'; 'Comhlacht dlí phoiblí atá faoi rialú údaráis de chuid an rialtais láir'; 'Comhlacht dlí phoiblí atá faoi rialú údaráis áitiúil'; 'Comhlacht dlí phoiblí atá faoi rialú údaráis réigiúnaigh'; 'Údarás de chuid an rialtais láir'; 'Conraitheoir cosanta'; 'Institiúid, comhlact nó gníomhaireacht de chuid an AE'; 'Eagraíocht idirnáisiúnta'; 'Údarás áitiúil'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás conarthachta'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás stáit'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás áitiúil'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás réigiúnach'; 'Údarás réigiúnach'.</entry>
 <entry key="rule|text|R-42R-104">Ní mór 'Eagraíocht a sholáthraíonn faisnéis faoi reachtaíocht fostaíochta' (OPT-301-Lot-EmployLegis) a bheith i gcomhréir leis an bpatrún seo a leanas: OrgOrTouchPointID</entry>
@@ -482,8 +477,10 @@
 <entry key="rule|text|R-47L-Y7X">Ní mór 'Aitheantas grúpa' (BT-330-Procedure) a bheith i gcomhréir leis an bpatrún seo a leanas: GroupID</entry>
 <entry key="rule|text|R-47U-EMX">'EED tomhas spórála' (OPT-081-LotResult) is éigeantach, nuair: 'Spóráil fuinnimh i kWh/bliain' (i kWh/bliain) (BT-814-LotResult) ann.</entry>
 <entry key="rule|text|R-48O-ZT2">Ní féidir 'Cineál breise an chonartha' (BT-531-Procedure) a bheith ann níos mó ná huair amháin</entry>
+<entry key="rule|text|R-48Z-1D0">Úsáidtear cód amháin nó níos mó le haghaidh 'Grúpa faisnéise neamhnochta' (BT-195-notice) níos mó ná uair amháin.</entry>
 <entry key="rule|text|R-49A-VC1">Ní féidir 'Eolas breise' (OPP-130-Business) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-49D-HC7">'Liosta EED (Mír)' (BT-811(b)-LotResult) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
+<entry key="rule|text|R-49S-N8D">Tá 'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) ar iarraidh ó luach ghrúpa an chreatchomhaontaithe.</entry>
 <entry key="rule|text|R-4AB-YK0">Ní féidir 'Seoladh na ndoiciméad soláthair' (BT-15-Part) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-4AC-T0U">Ní mór luach ó liosta cóid (contract-nature) a bheith in 'Cineál breise an chonartha' (BT-531-Lot)</entry>
 <entry key="rule|text|R-4AJ-BM0">'Náisiúntacht an úinéara' (BT-706-UBO) is éigeantach, nuair: 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) tá sé líonta.</entry>
@@ -508,7 +505,6 @@
 <entry key="rule|text|R-4IN-WTU">Ní mór luach ó liosta cóid (cpv) a bheith in 'Aicmiú breise' (BT-263-Part)</entry>
 <entry key="rule|text|R-4KI-XSJ">'Dáta nochta' (BT-198-notice) níl ceadaithe, nuair: Tá 'Réimse le foilsiú níos déanaí' (BT-195-notice) folamh</entry>
 <entry key="rule|text|R-4KL-SBN">Ní féidir 'Bunús dlíthiúil an nós imeachta gan aitheantóir (tuairisc)' (BT-01(f)-Procedure) a bheith níos faide ná 400 carachtar</entry>
-<entry key="rule|text|R-4KV-XZW">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-4L5-LUG">Ní mór do gach tairgeoir i bpáirtí tairisceana (OPT-300-Tenderer) a bheith ag teacht le ceann amháin de na heagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-4LB-0WW">'Cineál feithicle' (OPT-155-LotResult) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-4LK-7KO">'Is eol luach na fochonraitheoireachta' (BT-730-Tender) níl ceadaithe, nuair: Ní hionann 'Fochonraitheoireacht' (BT-773-Tender) agus 'Is ea'</entry>
@@ -517,7 +513,6 @@
 <entry key="rule|text|R-4NV-J3N">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Méid an oibreora eacnamaíoch' (BT-165-Organization-Company-List)</entry>
 <entry key="rule|text|R-4NZ-H3E">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil' (BT-702(a)-notice)</entry>
 <entry key="rule|text|R-4O1-4MR">'Soláthraí seirbhísí an tsoláthair' (OPT-300-Procedure-SProvider) níl ceadaithe</entry>
-<entry key="rule|text|R-4O7-9ZI">'An dáta a fhoilseofar é seo' (BT-198) luach caithfidh a bheith idir 2 lá agus 10 mbliana tar éis an 'Dáta seolta an fhógra' (BT-05)</entry>
 <entry key="rule|text|R-4PA-IU3">'Úsáidfear íocaíocht leictreonach' (BT-93-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-4PB-GKY">'Tá an córas ceannaigh dinimiciúil foirceanta' (BT-119-LotResult) níl ceadaithe, nuair: Ní úsáidtear an córas dinimiciúil ceannaigh</entry>
 <entry key="rule|text|R-4QE-LUT">'Fad ama' (BT-36-Part) níl ceadaithe</entry>
@@ -547,7 +542,6 @@
 <entry key="rule|text|R-4XC-5I9">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review-List)</entry>
 <entry key="rule|text|R-4YD-ORK">'An dáta ar tugadh an conradh i gcrích' (BT-145-Contract) is éigeantach, nuair: 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) tá líonadh isteach.</entry>
 <entry key="rule|text|R-4Z3-VLE">'Eagraíocht a sholáthraíonn rochtain as líne ar na doiciméid soláthair' (OPT-301-Lot-DocProvider) níl ceadaithe</entry>
-<entry key="rule|text|R-4ZC-5GQ">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-4ZM-110">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'An bonn cirt atá le fad an chreat-chomhaontaithe' (BT-109-Lot-Language)</entry>
 <entry key="rule|text|R-4ZO-KIE">Ní mór 'Eolas breise' (OPP-130-Business) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-4ZU-5UE">Ní mór do gach sínitheoir conartha (OPT-300) a bheith ag teacht le ceann amháin de na heagraíochtaí sainaitheanta (OPT-200)</entry>
@@ -556,7 +550,6 @@
 <entry key="rule|text|R-514-G06">Ní féidir 'Eolas breise faoin bhfad ama' (BT-781-Lot) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-518-HSD">Ní féidir 'Dáta foilsithe' (OPP-012-notice) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-51B-4DP">'Luach leighis an athbhreithnithe' (BT-793-Review) níl ceadaithe, nuair: 'Cineál leighis an athbhreithnithe' (BT-792-Review) níl sé i láthair nó níl sé 'Cinneadh'</entry>
-<entry key="rule|text|R-51O-R2H">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-51S-T9D">Ní mór teanga a shonrú le haghaidh'An bonn cirt atá le fad an chreat-chomhaontaithe' (BT-109-Lot)</entry>
 <entry key="rule|text|R-51Z-OS8">'Rialachán na Scaireanna Coigríche' (BT-681-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-52D-QJT">Ní mór luach ó liosta cóid (requirement-stage) a bheith in 'Ní mór ainmneacha agus cáilíochtaí gairmiúla na mball foirne a thabhairt a shanntar chun an conradh a chomhlíonadh' (BT-79-Lot)</entry>
@@ -566,15 +559,14 @@
 <entry key="rule|text|R-52Z-KRT">'Aitheantóir an chonartha' (BT-150-Contract) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-53R-6MC">'Ceannaire grúpa' (OPP-050-Organization) is éigeantach, nuair: Is eagraíocht ceannaí agus tá níos mó ná ceannaí amháin ann.</entry>
 <entry key="rule|text|R-54C-6QN">Ní féidir 'Cur síos' (BT-122-Lot) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
+<entry key="rule|text|R-55W-Y7L">Tá 'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) ar iarraidh ó phointe teagmhála.</entry>
 <entry key="rule|text|R-56I-IS3">Ní féidir 'Cineál' (BT-539-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-56S-Y32">Ní féidir 'Tír' (BT-514-Business) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-574-8T1">'Eagraíocht idirghabhála' (OPT-301-Lot-Mediator) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-577-1PH">Ní mór luach ó liosta cóid (legal-basis-36) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-57H-K8W">Ní féidir 'Teil.' (BT-503-Organization-Company) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-57H-VSZ">'Tá eolas faoi dhoiciméid shrianta le fáil ag' (BT-615-Lot) is éigeantach, nuair: 'Tá srian ar rochtain ar dhoiciméid soláthair áirithe' (BT-14-Lot) tá sé srianta.</entry>
-<entry key="rule|text|R-57N-MMP">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-57R-8F1">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Cineál ualaigh is ea an uimhir' (BT-5421-LotsGroup-List)</entry>
-<entry key="rule|text|R-57T-OQE">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-582-0N7">'Spriocdháta chun léirithe spéise a fháil' (BT-630(d)-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-586-WT2">Ní mór 'An dáta a mheastar a sheolfar na cuirí chun spéis a dheimhniú' (BT-631-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: Date</entry>
 <entry key="rule|text|R-58P-GOO">'Tír thionscnaimh an táirge nó na seirbhíse' (BT-191-Tender) níl ceadaithe</entry>
@@ -597,6 +589,7 @@
 <entry key="rule|text|R-5GT-NS6">Ní féidir leis an bpríomh-thairgeoir gníomhú mar 'Eagraíocht a fhaigheann tairiscintí'</entry>
 <entry key="rule|text|R-5HA-5FW">Ní féidir 'Aitheantóir an fhógra a bhí ann roimhe seo' (BT-125(i)-Part) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-5HW-G6D">Ní féidir 'Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) a bheith ann níos mó ná huair amháin</entry>
+<entry key="rule|text|R-5HY-P32">'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) níl ceadaithe, nuair: Níor dámhadh gach beart atá i ngrúpa na mbeart, nó níl ach aon bheart amháin i ngrúpa na mbeart a bhaineann le creat-chomhaontú</entry>
 <entry key="rule|text|R-5I6-8OM">Ní féidir 'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-5IH-8DU">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Príomhghnéithe an nóis imeachta' (BT-88-Procedure-Language)</entry>
 <entry key="rule|text|R-5IQ-UP7">Ní féidir 'Earnáil na gníomhaíochta' (OPP-105-Business) a bheith ann níos mó ná huair amháin</entry>
@@ -646,7 +639,6 @@
 <entry key="rule|text|R-61Z-YOK">'ID doiciméad an reachtaíochta comhshaoil' (OPT-112-Part-EnvironLegis) níl ceadaithe</entry>
 <entry key="rule|text|R-628-8OG">'Cód poist' (BT-512-Organization-TouchPoint) níl ceadaithe</entry>
 <entry key="rule|text|R-62F-V5G">'Uimhir an chritéir dámhachtana' (BT-541-LotsGroup-WeightNumber) is éigeantach, nuair: 'Cur síos' - 'Critéar dámhachtana' (BT-540-LotsGroup) i láthair agus 'Uimhir an chritéir dámhachtana' – 'Luach seasta is ea an uimhir' (BT-541-LotsGroup-FixedNumber), 'Uimhir an chritéir dámhachtana' – 'Cineál tairsí is ea an uimhir' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) níl i láthair</entry>
-<entry key="rule|text|R-62H-JQS">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-62N-MVZ">'An bonn cirt atá le fad an chreat-chomhaontaithe' (BT-109-Lot) níl ceadaithe, nuair: Ní mór fad an bhirt a bheith níos mó ná 7 mbliana</entry>
 <entry key="rule|text|R-62V-ADZ">'Eolas breise' (BT-728-Lot) níl ceadaithe, nuair: Níl 'Áit feidhmíochta – Raon geografach' (BT-727) ná 'Tír' (BT-5141) líonta isteach</entry>
 <entry key="rule|text|R-63K-USI">Ní mór teanga a shonrú le haghaidh'Cur síos ar na modhnuithe' (BT-202-Contract)</entry>
@@ -704,8 +696,8 @@
 <entry key="rule|text|R-6ME-7ZQ">'Seoladh gréasáin an reachtaíochta cánach' (OPT-110-Part-FiscalLegis) níl ceadaithe</entry>
 <entry key="rule|text|R-6MH-OT7">'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) níl ceadaithe</entry>
 <entry key="rule|text|R-6MV-ZN4">Ní féidir 'Cur síos' (BT-777-Lot) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
+<entry key="rule|text|R-6N9-LTG">Tá 'Aitheantóir birt na dtorthaí' (BT-13713-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|R-6NC-I79">'Úsáidfear ordú leictreonach' (BT-92-Lot) is éigeantach</entry>
-<entry key="rule|text|R-6NK-C9X">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-6NR-HO7">Ní mór 'An modh a úsáidtear chun luach measta an lamháltais a ríomh' (BT-163-Tender) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-6O0-ZMS">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717-Lot-List)</entry>
 <entry key="rule|text|R-6O6-ZQ2">'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer) is éigeantach, nuair: 'ID teicniúil an tairiscint' (OPT-321-Tender) tá líonta.</entry>
@@ -726,6 +718,7 @@
 <entry key="rule|text|R-6SA-VYU">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Tír' (BT-514-Organization-Company-List)</entry>
 <entry key="rule|text|R-6SO-EH5">Ní mór gach tagairt d’eagraíocht le haghaidh ról soláthraí seirbhíse (OPT-300-Procedure-SProvider) a bheith ag teacht le ceann de na heagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-6TC-BGB">'Foroinn tíre (NUTS)' (BT-5071-Part) is éigeantach, nuair: Níl 'Áit feidhmíochta – Raon geografach' (BT-727) líonta isteach agus tá cóid aicmiú comhchoiteann na n-aonad críche maidir le staidreamh (NUTS) ag 'Tír' (BT-5141-UBO)</entry>
+<entry key="rule|text|R-6TG-TEM">Tá 'Luach íocaíochta tairisceana' (BT-779-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|R-6TT-FMW">'Fochineál an fhógra' (OPP-070-notice) is éigeantach</entry>
 <entry key="rule|text|R-6UC-KCK">Ní mór 'Faisnéis bhreise faoin gcúis maidir le neamhnochtadh' (BT-196-notice) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-6UU-FG6">Ní féidir 'Déantar an conradh a dhámhachtain laistigh de chreat-chomhaontú' (BT-768-Contract) a bheith ann níos mó ná huair amháin</entry>
@@ -747,7 +740,6 @@
 <entry key="rule|text|R-71J-V5T">'Eagraíocht a sholáthraíonn faisnéis faoi reachtaíocht fostaíochta' (OPT-301-Part-EmployLegis) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-71K-GZS">'Uimhir eagráin IO S' (OPP-011-notice) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-71T-49M">Ní féidir 'An bonn cirt le gan ualú na gcritéar dámhachtana a léiriú' (BT-733-LotsGroup) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
-<entry key="rule|text|R-72D-80V">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-736-3O4">Ní mór luach ó liosta cóid (number-weight) a bheith in 'Cineál ualaigh is ea an uimhir' (BT-5421-Lot)</entry>
 <entry key="rule|text|R-738-QV9">Ní mór luach ó liosta cóid (legal-basis-25) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-73S-7UE">'Dáta deiridh an tréimhse' (BT-537-Part) níl ceadaithe</entry>
@@ -760,7 +752,7 @@
 <entry key="rule|text|R-75P-6GW">Ní féidir 'Pointe teagmhála' (BT-502-Organization-Company) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-75T-57G">'Cineál' (BT-539-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-765-7R2">'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) caithfidh sé a bheith dearfach.</entry>
-<entry key="rule|text|R-77F-0DW">'Dáta oscailte' (BT-132(d)-Lot) níl ceadaithe, nuair: Ní hionann'An cineál nóis imeachta' (BT-105-Procedure) agus 'Oscailte'</entry>
+<entry key="rule|text|R-77F-0DW">'Dáta an oscailt phoiblí' (BT-132(d)-Lot) níl ceadaithe, nuair: Ní hionann'An cineál nóis imeachta' (BT-105-Procedure) agus 'Oscailte'</entry>
 <entry key="rule|text|R-77H-7RV">'An céatadán uasta de luach an chonartha a fhéadfaidh an conraitheoir a ligean ar fochonradh' (BT-729-Lot) níl ceadaithe, nuair: Ní hionann 'Oibleagáid atá le comhlíonadh ag an tairgeoir maidir le fochonraitheoireacht' (BT-65_Lot) agus 'Ní mór don chonraitheoir céatadán íosta den chonradh a ligean ar fochonradh tríd an nós imeachta a leagtar amach i dTeideal III de Threoir 2009/81/CE.'</entry>
 <entry key="rule|text|R-77K-KT0">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise' (BT-772-Lot-Language)</entry>
 <entry key="rule|text|R-77Q-74K">'Cineál aicmiúcháin' (BT-26(m)-Procedure) níl ceadaithe, nuair: Níl 'Príomhaicmiú' (BT-262-Procedure) líonta isteach</entry>
@@ -836,6 +828,7 @@
 <entry key="rule|text|R-7VS-N3J">Ní mór 'Facs' (BT-739-Organization-TouchPoint) a bheith i gcomhréir leis an bpatrún seo a leanas: PhoneNumber</entry>
 <entry key="rule|text|R-7VU-BVH">'Cur síos' (BT-122-Lot) níl ceadaithe, nuair: Ní hionann 'Úsáidtear ríomhcheant' (BT-767-Lot) agus 'tá'</entry>
 <entry key="rule|text|R-7WF-AIG">'Grúpa faisnéise neamhnochta' (BT-195-notice) níl ceadaithe</entry>
+<entry key="rule|text|R-7WI-K7F">Tá 'ID teicniúil an chonartha' (OPT-316-Contract) ar iarraidh ó chonradh nó tá 'Tagairt don chonradh' (OPT-315-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|R-7X8-WZW">'An áit feidhmíochta' is riachtanach don nós imeachta</entry>
 <entry key="rule|text|R-7Y9-JQW">Ní féidir le ceannaitheoir a bheith ina thairgeoir (main or subcontractor)</entry>
 <entry key="rule|text|R-7YD-GR9">Ní mór gné 'listName' a bheith i láthair le haghaidh 'An bunús dlí CVD chun a dheimhniú cén chatagóir nóis imeachta soláthair ag a bhfuil feidhm' (BT-735-Lot-List)</entry>
@@ -890,7 +883,6 @@
 <entry key="rule|text|R-8DU-AC8">'Seoladh idirlín' (BT-505-Business) níl ceadaithe</entry>
 <entry key="rule|text|R-8E0-O11">'Tír' (BT-5141-Lot) is éigeantach, nuair: 'Áit feidhmíochta – Raon geografach' (BT-727-Lot) níl 'Aon áit' nó 'Aon áit sa Limistéar Eorpach Eacnamaíoch'.</entry>
 <entry key="rule|text|R-8E3-HCM">'Cur síos' (BT-24-Procedure) níl ceadaithe</entry>
-<entry key="rule|text|R-8F3-0R2">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-8FF-0JC">Ní féidir 'Liosta EED (Basis)' (BT-811(a)-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-8GT-FPD">'Bunús dlí' (BT-01(e)-Procedure) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-8GU-DL8">'An tréimhse le linn a gcaithfidh an tairiscint a bheith bailí' (BT-98-Lot) níl ceadaithe, nuair: 'An cineál nóis imeachta' (BT-105) luach níl comhoiriúnach le 'Oscailte' nó 'Nós imeachta aonchéime eile'</entry>
@@ -899,6 +891,7 @@
 <entry key="rule|text|R-8IE-DLL">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise' (BT-728-Part-Language)</entry>
 <entry key="rule|text|R-8IU-H2V">Ní féidir 'Seoladh poist' (BT-510(c)-Organization-TouchPoint) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-8J1-1Q1">'Foroinn tíre (NUTS)' (BT-507-Business) is éigeantach, nuair: Tá cóid NUTS ag 'Tír' (BT-514-Business).</entry>
+<entry key="rule|text|R-8J5-LB2">Tá 'Fochonraitheoireacht' (BT-773-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|R-8JC-CXA">Ní féidir 'Cur síos' (BT-540-LotsGroup) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-8JD-5LS">Ní féidir 'ID teicniúil tairiscint faighte' (OPT-320-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-8JJ-Q1A">'Cineál cinnidh an athbhreithnithe' (BT-790-Review) níl ceadaithe, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair nó níl sé 'Cinneadh' nó tá an t-iarratas tarraingthe siar</entry>
@@ -961,7 +954,7 @@
 <entry key="rule|text|R-96R-H5Z">Ní mór 'Cur síos ar an sprioc cáilíochta' (OPT-072-Lot) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-972-0NT">'Clúdach breise ceannaitheora' (BT-111-Lot) níl ceadaithe, nuair: Ní hé 'Tá creat-chomhaontú i gceist' (BT-765-Lot) ceann de na cinn a leanas: 'Creat-chomhaontú, gan an iomaíocht a athoscailt go pointe agus maille le hathoscailt na hiomaíochta go pointe'; 'Creat-chomhaontú, maille le hathoscailt na hiomaíochta'; 'Creat-chomhaontú, gan an iomaíocht a athoscailt'</entry>
 <entry key="rule|text|R-972-NW2">Ní mór luach ó liosta cóid (number-fixed) a bheith in 'Luach seasta is ea an uimhir' (BT-5422-Lot)</entry>
-<entry key="rule|text|R-97B-5E5">Ní féidir 'Dáta oscailte' (BT-132(d)-Lot) a bheith ann níos mó ná huair amháin</entry>
+<entry key="rule|text|R-97B-5E5">Ní féidir 'Dáta an oscailt phoiblí' (BT-132(d)-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-97P-YEV">'Ainm' (BT-734-LotsGroup) níl ceadaithe</entry>
 <entry key="rule|text|R-9B2-DZ5">Ní féidir le heagraíocht atá ag gníomhú mar fhoirgníochtóir 'Pointí teagmhála eile' a bheith aici</entry>
 <entry key="rule|text|R-9BH-N7S">Ní mór luach ó liosta cóid (cpv) a bheith in 'Aicmiú breise' (BT-263-Procedure)</entry>
@@ -999,7 +992,7 @@
 <entry key="rule|text|R-9MG-WIJ">Staitisticí na n-iarratas faighte: Caithfear líon iomlán na 'Tairiscintí ó thairgeoirí atá cláraithe i dtír eile den Limistéar Eorpach Eacnamaíoch nach í tír an cheannaitheora í' (BT-760-LotResult = t-oth-eea) a shonrú uair amháin go díreach</entry>
 <entry key="rule|text|R-9NA-SCU">Ní mór gach tagairt do pháirtí tairisceana ó (OPT-310-Tender) a bheith ag teacht le ceann de na páirtithe tairisceana sainaitheanta (OPT-210-Tenderer)</entry>
 <entry key="rule|text|R-9NL-8CI">'Dáta tosaithe' (BT-536-Lot) níl ceadaithe</entry>
-<entry key="rule|text|R-9O0-I7Y">'Dáta oscailte' (BT-132(t)-Lot) níl ceadaithe</entry>
+<entry key="rule|text|R-9O0-I7Y">'Am an oscailt phoiblí' (BT-132(t)-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-9O6-IB6">Ní mór luach ó liosta cóid (energy-efficiency-label) a bheith in 'Lipéad éifeachtachta fuinnimh' (BT-812-LotResult)</entry>
 <entry key="rule|text|R-9OI-X06">Ní mór teanga a shonrú le haghaidh'Bunús dlí an nós imeachta (tuairisc)' (BT-01(d)-Procedure)</entry>
 <entry key="rule|text|R-9OO-YN4">Ní féidir 'Teil.' (BT-503-Business) a bheith níos faide ná 30 carachtar</entry>
@@ -1043,6 +1036,7 @@
 <entry key="rule|text|R-A3K-3ZH">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Aidhm an tsoláthair straitéisigh' (BT-06-Lot-List)</entry>
 <entry key="rule|text|R-A3Q-DUG">'Líon uasta na luchtóg ar féidir conarthaí a dhámhachtain ina leith ar aon tairgeoir amháin' (BT-33-Procedure) is éigeantach, nuair: Tá ilónta iolracha ann.</entry>
 <entry key="rule|text|R-A4U-KMK">'Tá eolas san fhógra seo a bhaineann le' (OPP-100-Business) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
+<entry key="rule|text|R-A4X-NTN">Tá 'Náisiúntacht an úinéara' (BT-706-UBO) ar iarraidh ó úinéir tairbhiúil.</entry>
 <entry key="rule|text|R-A50-1V0">Ní féidir 'Úsáidfear íocaíocht leictreonach' (BT-93-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-A51-PEX">Ní mór luach ó liosta cóid (document-distribution) a bheith in 'Tá srian ar rochtain ar dhoiciméid soláthair áirithe' (BT-14-Lot)</entry>
 <entry key="rule|text|R-A53-N57">'Foroinn tíre (NUTS)' (BT-507-UBO) níl ceadaithe</entry>
@@ -1101,13 +1095,13 @@
 <entry key="rule|text|R-AMR-RX7">Ní féidir leis an bpríomh-thairgeoir gníomhú mar 'Eagraíocht a dhéanann an íocaíocht'</entry>
 <entry key="rule|text|R-AN6-WV9">'Eolas breise' (BT-300-Procedure) níl ceadaithe</entry>
 <entry key="rule|text|R-ANF-XP5">'Spriocdháta chun iarrataí ar rannpháirtíocht a fháil' (BT-1311(t)-Lot) níl ceadaithe, nuair: Níl 'Spriocdháta chun iarrataí ar rannpháirtíocht a fháil' (BT-1311(d)-Lot) líonta isteach</entry>
-<entry key="rule|text|R-AO9-I8Z">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-AOO-25U">Ní féidir 'Seoladh poist' (BT-510(b)-Organization-Company) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-AOU-3CI">'Na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil' (BT-702(b)-notice) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-APH-7K9">Ní féidir 'Eolas breise' (BT-728-Lot) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-AQQ-US1">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'An modh a úsáidtear chun luach measta an lamháltais a ríomh' (BT-163-Tender-Language)</entry>
 <entry key="rule|text|R-AQZ-2OF">Ní mór do gach soláthraí faisnéise maidir le hathbhreithniú le haghaidh gach birt (OPT-301-Lot-ReviewInfo) nó páirte (OPT-301-Part-ReviewInfo) a bheith ag teacht le ceann amháin de phointí teagmhála eile (OPT-201-Organization-Touchpoint) na n-eagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-AR0-ASS">'Tír' (BT-5141-Part) is éigeantach, nuair: 'Áit feidhmíochta – Raon geografach' (BT-727-Part) tá 'Aon áit' nó 'Aon áit sa Limistéar Eorpach Eacnamaíoch'.</entry>
+<entry key="rule|text|R-AR0-OPR">Tá a hAitheantóir Teicniúil (OPT-200-Organization-Company) ar iarraidh ó eagraíocht</entry>
 <entry key="rule|text|R-ARR-F5W">Ní féidir leis an bpríomh-thairgeoir gníomhú mar 'Eagraíocht a sholáthraíonn rochtain as líne ar na doiciméid soláthair'</entry>
 <entry key="rule|text|R-ARZ-PVM">'Ní mór Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) a bheith níos mó ná 0 nó cothrom leis. 'Ní mór Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) a bheith níos lú ná 9999 nó cothrom leis</entry>
 <entry key="rule|text|R-ASY-HWA">'Seoladh na ndoiciméad soláthair' (BT-15-Part) níl ceadaithe, nuair: Tá 'Tá srian ar rochtain ar dhoiciméid soláthair áirithe' (BT-14-Part) srianta</entry>
@@ -1124,7 +1118,7 @@
 <entry key="rule|text|R-AVM-PWR">Ní mór 'Leagan den fhógra roimhe seo atá le hathrú' (BT-758-notice) a bheith i gcomhréir leis an bpatrún seo a leanas: ProcedureVersionIDOrPublicationNumber</entry>
 <entry key="rule|text|R-AVW-8NE">Ní féidir 'Faisnéis bhreise faoin gcúis maidir le neamhnochtadh' (BT-196-notice) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
 <entry key="rule|text|R-AW7-D4W">Ní mór luach ó liosta cóid (indicator) a bheith in 'Is eol luach na fochonraitheoireachta' (BT-730-Tender)</entry>
-<entry key="rule|text|R-AWY-5XJ">'999' ní luach bailí é le haghaidh 'An áit a bhfuil an duais á fáil' (BT-44-Lot). Bain úsáid as luach eile, le do thoil.</entry>
+<entry key="rule|text|R-AWY-5XJ">líonadh 'An áit a bhfuil an duais á fáil' (BT-44-Lot) le luach ionadchoinneálaí uathoibríoch. Tabhair an luach ceart de réir mar is gá.</entry>
 <entry key="rule|text|R-AY8-F36">Ní féidir 'Fáthanna ar tarraingíodh siar an t-iarratas ar athbhreithniú' (BT-798-Review) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-AY8-GW5">Ní féidir 'An t-uaslíon rannpháirtithe' (BT-113-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-AYM-VBT">'Ainm oifigiúil' (BT-500-UBO) níl ceadaithe, nuair: Níl 'Náisiúntacht an úinéara' (BT-706) líonta isteach</entry>
@@ -1141,7 +1135,6 @@
 <entry key="rule|text|R-B37-V2C">'Catagóir feithicle' (BT-723-LotResult) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-B39-CPW">'An bonn cirt leis an rochtain ar dhoiciméid soláthair áirithe a shrianadh' (BT-707-Part) níl ceadaithe</entry>
 <entry key="rule|text|R-B3L-HCG">Ní mór do gach soláthraí faisnéise maidir le reachtaíocht chomhshaoil le haghaidh gach birt (OPT-301-Lot-EnvironLegis) nó páirte (OPT-301-Part-EnvironLegis) a bheith ag teacht le ceann amháin de phointí teagmhála eile (OPT-201-Organization-Touchpoint) na n-eagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
-<entry key="rule|text|R-B3L-L5T">'An dáta a fhoilseofar é seo' (BT-198) luach caithfidh a bheith idir 2 lá agus 10 mbliana tar éis an 'Dáta seolta an fhógra' (BT-05)</entry>
 <entry key="rule|text|R-B3R-NMQ">Ní mór 'Eolas breise' (BT-134-Lot) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-B42-8I5">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult-Scheme)</entry>
 <entry key="rule|text|R-B59-VBU">'An modh a úsáidtear chun luach measta an lamháltais a ríomh' (BT-163-Tender) níl ceadaithe, nuair: Níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach</entry>
@@ -1160,11 +1153,9 @@
 <entry key="rule|text|R-BAP-LIK">'Foroinn tíre (NUTS)' (BT-507-UBO) caithfidh sé a bheith ar aon dul le ceann de na cóid NUTS don 'Tír' (BT-514-UBO) sonraithe</entry>
 <entry key="rule|text|R-BBD-0JL">Ní mór 'Fáthanna ar tarraingíodh siar an t-iarratas ar athbhreithniú' (BT-798-Review) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-BBH-A1X">'An bunús dlí CVD chun a dheimhniú cén chatagóir nóis imeachta soláthair ag a bhfuil feidhm' (BT-735-Lot) níl ceadaithe, nuair: Ní hionann 'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717) agus 'tá'</entry>
-<entry key="rule|text|R-BBW-OPO">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-BC6-TEW">'Aitheantas teicniúil athbhreithnithe' (BT-804-Review) níl ceadaithe, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair</entry>
 <entry key="rule|text|R-BCD-C13">Caithfidh 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) a bheith éagsúil le haon 'Aitheantóir thairiscint an chonartha' eile san fhógra.</entry>
 <entry key="rule|text|R-BCG-872">'Foroinn tíre (NUTS)' (BT-5071-Lot) is éigeantach, nuair: Níl 'Áit feidhmíochta – Raon geografach' (BT-727) líonta isteach agus tá cóid aicmiú comhchoiteann na n-aonad críche maidir le staidreamh (NUTS) ag 'Tír' (BT-5141-UBO)</entry>
-<entry key="rule|text|R-BCM-UDZ">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-BD9-0D6">Ní féidir 'Critéir maidir le soláthar glas' (BT-805-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-BDB-RPB">Ní mór teanga a shonrú le haghaidh'Cur síos' (BT-09(b)-Procedure)</entry>
 <entry key="rule|text|R-BDI-O13">Ní mór 'Príomhchonraitheoir chuig fochonraitheoir' (OPT-301-Tenderer-MainCont) a bheith i gcomhréir leis an bpatrún seo a leanas: OrganizationID</entry>
@@ -1214,7 +1205,6 @@
 <entry key="rule|text|R-BQW-7W4">'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) níl ceadaithe</entry>
 <entry key="rule|text|R-BQX-NL4">Ní féidir 'Eolas breise' (BT-772-Lot) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-BR5-WS6">Ní mór 'An dáta a mheastar a fhoilseofar fógra conartha laistigh den nós imeachta seo' (BT-127) a bheith níos déanaí ná 'Dáta seolta an fhógra' (BT-05)</entry>
-<entry key="rule|text|R-BRV-OSC">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-BSA-6C2">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-ReviewOrg-Scheme)</entry>
 <entry key="rule|text|R-BSJ-OT2">Ní féidir 'Aitheantóir an tsaincheaptha (UBL)' (OPT-002-notice) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-BTL-QDO">Ní féidir 'Bunús dlí' (BT-01(c)-Procedure-Scheme) a bheith níos faide ná 100 carachtar</entry>
@@ -1225,7 +1215,6 @@
 <entry key="rule|text|R-BU4-2QL">Gach 'Grúpa luchtóg' (BT-330-Procedure) a úsáidtear chun comhdhéanamh an ghrúpa a shainmhíniú, caithfidh sé a bheith ag teacht le 'Grúpa luchtóg' (BT-137-LotsGroup) atá ann cheana</entry>
 <entry key="rule|text|R-BUN-2P2">Ní féidir 'Aitheantóir inmheánach' (BT-22-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-BV9-5FL">Ní féidir leis an bpríomh-thairgeoir gníomhú mar 'Eagraíocht a phróiseálann tairiscintí'</entry>
-<entry key="rule|text|R-BVT-NK9">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-BVU-0OO">'An chúis leis an modhnú' (BT-200-Contract) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-BWE-0QK">Ní féidir 'Cur síos ar an ráthaíocht airgeadais' (BT-75-Lot) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-BXT-YTN">Ní mór duit gach ceann nó ceann ar bith de na huimhreacha den líon iomlán de 'Tairiscintí nár fíoraíodh an bhfuil siad inghlactha nó do-ghlactha' (BT-760-LotResult = t-no-verif), 'Tairiscintí atá fíoraithe agus do-ghlactha' (BT-760-LotResult = t-verif-inad), agus 'Tairiscintí atá fíoraithe agus do-ghlactha mar gheall ar phraghas nó ar chostas atá thar a bheith íseal' (BT-760-LotResult = t-verif-inad-low) a sholáthar</entry>
@@ -1238,8 +1227,6 @@
 <entry key="rule|text|R-C1A-QH0">'Cur isteach leictreonach' (BT-17-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-C2N-R12">Ní mór luach ó liosta cóid (legal-basis-33) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-C2T-N1D">Ní féidir 'Cód poist' (BT-512-Business) a bheith ann níos mó ná huair amháin</entry>
-<entry key="rule|text|R-C36-9HK">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Aitheantóir an fhógra a bhí ann roimhe seo' (BT-125(i)-Lot-Scheme)</entry>
-<entry key="rule|text|R-C36-QZH">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-C4I-JVS">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Ní mór don tairgeoir tairiscintí a chur isteach do gach luchtóg' (BT-763-Procedure-List)</entry>
 <entry key="rule|text|R-C4O-0A0">Ní mór luach ó liosta cóid (indicator) a bheith in 'Úsáidfear ordú leictreonach' (BT-92-Lot)</entry>
 <entry key="rule|text|R-C4R-KFJ">Ní féidir 'Tuilleadh sonraí faoi chistí an Aontais' (BT-6140-Lot) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
@@ -1308,7 +1295,6 @@
 <entry key="rule|text|R-CSV-XQ3">'An cur chuige maidir leis an tionchar ar an gcomhshaol a laghdú' (BT-774-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-CTH-WW0">'Facs' (BT-739-Organization-TouchPoint) níl ceadaithe</entry>
 <entry key="rule|text|R-CU7-UIU">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Tá bearta na hIonstraime Soláthair Phoiblí Idirnáisiúnta infheidhme' (BT-684-Lot-List)</entry>
-<entry key="rule|text|R-CUO-CXF">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-CUW-2S2">Ní mór luach ó liosta cóid (non-award-justification) a bheith in 'An fáth nár roghnaíodh aon bhuaiteoir' (BT-144-LotResult)</entry>
 <entry key="rule|text|R-CV2-W6E">'Tír' (BT-5141-Procedure) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-CVF-T46">Ní féidir 'Tuairisc an athbhreithnithe' (BT-789-Review) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
@@ -1362,7 +1348,7 @@
 <entry key="rule|text|R-DFE-SV4">'Aidhm an tsoláthair straitéisigh' (BT-06-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-DFX-8SA">Ní féidir 'Eagraíocht a sholáthraíonn tuilleadh faisnéise faoi na nósanna imeachta athbhreithnithe' (OPT-301-Lot-ReviewInfo) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-DFY-0OU">Ní féidir 'Ní mór do ghrúpa tairgeoirí ar a ndéantar conradh a dhámhachtain foirm dhlíthiúil áirithe a ghlacadh' (BT-761-Lot) a bheith ann níos mó ná huair amháin</entry>
-<entry key="rule|text|R-DGG-B2D">Ní mór 'Dáta oscailte' (BT-132(d)-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: Date</entry>
+<entry key="rule|text|R-DGG-B2D">Ní mór 'Dáta an oscailt phoiblí' (BT-132(d)-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: Date</entry>
 <entry key="rule|text|R-DH7-Q55">Ní mór luach ó liosta cóid (classification-type) a bheith in 'Cineál aicmiúcháin' (BT-26(a)-Lot)</entry>
 <entry key="rule|text|R-DHB-GD6">'Léiriú éigeantach ar fhochonraitheoireacht' (BT-651-Lot) níl ceadaithe, nuair: Níl 'Oibleagáid atá le comhlíonadh ag an tairgeoir maidir le fochonraitheoireacht' (BT-66) líonta isteach</entry>
 <entry key="rule|text|R-DHU-YHE">'Gníomhaíocht an údaráis chonarthaigh' (BT-10-Procedure-Buyer) níl ceadaithe, nuair: Ní hé 'Cineál dlíthiúil an cheannaitheora' (BT-11-Procedure-Buyer) ceann de na cinn a leanas: 'Comhlacht dlí phoiblí'; 'Comhlacht dlí phoiblí atá faoi rialú údaráis de chuid an rialtais láir'; 'Comhlacht dlí phoiblí atá faoi rialú údaráis áitiúil'; 'Comhlacht dlí phoiblí atá faoi rialú údaráis réigiúnaigh'; 'Údarás de chuid an rialtais láir'; 'Conraitheoir cosanta'; 'Institiúid, comhlact nó gníomhaireacht de chuid an AE'; 'Eagraíocht idirnáisiúnta'; 'Údarás áitiúil'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás conarthachta'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás stáit'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás áitiúil'; 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás réigiúnach'; 'Údarás réigiúnach'</entry>
@@ -1401,14 +1387,12 @@
 <entry key="rule|text|R-DWX-3GA">'Eolas breise' (BT-728-Part) níl ceadaithe, nuair: Níl 'Eolas breise' (BT-728) ná BT-5142 (BT-5142) líonta isteach</entry>
 <entry key="rule|text|R-DXO-0LD">'Tá eolas faoi dhoiciméid shrianta le fáil ag' (BT-615-Part) níl ceadaithe</entry>
 <entry key="rule|text|R-DY4-BC4">Ní féidir 'URL' (BT-124-Lot) a bheith ann níos mó ná huair amháin</entry>
-<entry key="rule|text|R-DY4-X1P">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-DY9-ZHL">'Spriocdháta chun tairiscintí a fháil' (BT-131(t)-Lot) is éigeantach, nuair: 'Spriocdháta chun tairiscintí a fháil' (BT-131(d)-Lot) tá sé líonta isteach.</entry>
 <entry key="rule|text|R-DYK-IQD">Ní mór luach ó liosta cóid (procedure-type-t01) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
 <entry key="rule|text|R-DYK-VPP">Ní féidir 'Aitheantóir inmheánach' (BT-22-Part) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-DYL-DDP">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-TenderReceipt-Scheme)</entry>
 <entry key="rule|text|R-DZR-BW6">Ní féidir 'Bíonn ceant leictreonach á reáchtáil ag an seoladh seo a leanas' (BT-123-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-DZX-RQG">'Aitheantóir luchtóige nó grúpa luchtóg' (BT-13714-Tender) níl ceadaithe</entry>
-<entry key="rule|text|R-E0C-A64">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-E0C-E1H">'Áit feidhmíochta – Raon geografach' (BT-727-Part) níl ceadaithe, nuair: Tá 'Foroinn tíre (NUTS)' (BT-5071-Part) líonta isteach</entry>
 <entry key="rule|text|R-E0F-442">Ní féidir 'Luach na duaise' (BT-644-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-E0H-0WC">Ní mór 'An fógra roimhe seo' (OPP-090-Procedure) a bheith i gcomhréir leis an bpatrún seo a leanas: ProcedureVersionIDOrPublicationNumber</entry>
@@ -1427,7 +1411,7 @@
 <entry key="rule|text|R-E4E-GPK">Ní mór 'Luach íocaíochta tairisceana' (BT-779-Tender) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
 <entry key="rule|text|R-E4G-KIS">'Teideal an athbhreithnithe' (BT-788-Review) níl ceadaithe, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair</entry>
 <entry key="rule|text|R-E4Q-LF6">Ní féidir leis an bpríomh-thairgeoir gníomhú mar 'Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do chosaint an chomhshaoil is infheidhme san áit ina bhfuil an conradh le cur i gcrích'</entry>
-<entry key="rule|text|R-E4Z-MUC">'Dáta oscailte' (BT-132(d)-Lot) níl ceadaithe</entry>
+<entry key="rule|text|R-E4Z-MUC">'Dáta an oscailt phoiblí' (BT-132(d)-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-E50-DZK">Ní mór 'Liosta de na sócmhainní a úsáidtear chun na seirbhísí poiblí a sholáthar' (OPP-021-Contract) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-E5E-JGB">Ní féidir 'ID teicniúil an chonartha' (OPT-316-Contract) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-E5M-U84">'Gníomhaíocht an údaráis chonarthaigh' (BT-10-Procedure-Buyer) is éigeantach</entry>
@@ -1467,7 +1451,6 @@
 <entry key="rule|text|R-EHQ-1BK">'Forchoimeádann an ceannaitheoir an ceart an conradh a dhámhachtain ar bhonn na dtairiscintí tosaigh gan aon chaibidlíocht eile' (BT-120-Lot) níl ceadaithe, nuair: 'An cineál nóis imeachta' (BT-105) níl sé 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="rule|text|R-EI0-LGR">Más ionann 'Rannpháirtíocht fhorchoimeádta' (BT-71) agus 'Forchoimeádtar an rannpháirtíocht d'eagraíochtaí atá ag saothrú misean seirbhíse poiblí agus a chomhlíonann coinníollacha ábhartha eile atá sa reachtaíocht.', ansin ní mór 'Fad ama' (BT-36) a bheith níos lú ná nó cothrom le 3 bliana nó ní mór 'Dáta tosaithe' (BT-536) a bheith 3 bliana níos luaithe ná 'Dáta deiridh an tréimhse' (BT-537) ar a mhéad</entry>
 <entry key="rule|text|R-EI7-KOH">'Áit feidhmíochta – Raon geografach' (BT-727-Lot) níl ceadaithe</entry>
-<entry key="rule|text|R-EJZ-J6N">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-EKN-UG7">Ní féidir 'Teideal' (BT-21-Procedure) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-EL1-BF7">Ní féidir 'Cur síos' (BT-201-Contract) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-EL2-MV7">Ní féidir 'Tá an glao ar iomaíochas foirceanta' (BT-756-Procedure) a bheith ann níos mó ná huair amháin</entry>
@@ -1477,7 +1460,6 @@
 <entry key="rule|text|R-ELD-7BL">'Cineál na n-aighneachtaí a fuarthas' (BT-760-LotResult) is éigeantach, nuair: Níl an luach a roghnaíodh do 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) cothrom le 'Níor roghnaíodh an buaiteoir go fóill, ach tá an iomaíocht fós ar siúl.', agus níl an luach a roghnaíodh do 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) cothrom le 'Níor roghnaíodh aon bhuaiteoir agus tá an iomaíocht thart.' nó níl 'An fáth nár roghnaíodh aon bhuaiteoir' (BT-144-LotResult) cothrom le 'Ní bhfuarthas aon tairiscintí, iarratais ar rannpháirtíocht ná tionscadail'.</entry>
 <entry key="rule|text|R-ELK-AOS">'ID teicniúil an chonartha' (OPT-316-Contract) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-ELL-YB8">Ní mór 'Tá eolas faoi dhoiciméid shrianta le fáil ag' (BT-615-Part) a bheith i gcomhréir leis an bpatrún seo a leanas: URL</entry>
-<entry key="rule|text|R-ELM-8WC">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-ELO-86W">Ní féidir 'Aitheantas an chomhlachta athbhreithnithe' (BT-807-Review) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-ELW-BNM">'Tír' (BT-5141-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-EMB-JBI">'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-WeightNumber) níl ceadaithe</entry>
@@ -1485,7 +1467,6 @@
 <entry key="rule|text|R-EMJ-GRB">'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) is éigeantach, nuair: 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) tá 'Roghnaíodh buaiteoir amháin ar a laghad.' agus tá 'ID teicniúil torthaí an lochta (RES-XXX)' (OPT-322) líonta.</entry>
 <entry key="rule|text|R-EMY-NNT">'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) níl ceadaithe, nuair: Níl aon chomhaontú creatlach páirteach</entry>
 <entry key="rule|text|R-EN3-Q1Q">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Tenderer-SubCont-Scheme)</entry>
-<entry key="rule|text|R-EN4-C6E">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-ENI-GSS">Ní féidir 'Pointe teagmhála' (BT-502-Business) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-ENK-UY5">'Tá creat-chomhaontú i gceist' (BT-765-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-EOJ-CBL">Ní mór 'Eagraíocht a phróiseálann tairiscintí' (OPT-301-Lot-TenderEval) a bheith i gcomhréir leis an bpatrún seo a leanas: OrgOrTouchPointID</entry>
@@ -1654,6 +1635,7 @@
 <entry key="rule|text|R-GAR-6A4">'Dáta an athbhreithnithe' (BT-787-Review) níl ceadaithe</entry>
 <entry key="rule|text|R-GAZ-1EB">'Aitheantóir inmheánach' (BT-22-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-GB2-KKF">'Ainm oifigiúil' (BT-500-Business) níl ceadaithe</entry>
+<entry key="rule|text|R-GBB-VEE">Tá 'Eolas breise faoin luach íocaíochta tairisceana' (BT-780-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|R-GBR-E70">Ní mór teanga a shonrú le haghaidh'Cur síos' (BT-540-LotsGroup)</entry>
 <entry key="rule|text|R-GC3-Y6Y">'Sprioc-am le freagraí a fháil' (BT-800(d)-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-GC6-X8V">Ní mór 'Cur síos ar na modhnuithe' (BT-202-Contract) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
@@ -1812,7 +1794,6 @@
 <entry key="rule|text|R-I1D-0Q0">Ní mór luach ó liosta cóid (procedure-type-24) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
 <entry key="rule|text|R-I2T-H1J">Ní féidir 'Tír' (BT-5141-Procedure) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-I5J-5ZO">Ní féidir 'Eagraíocht idirghabhála' (OPT-301-Lot-Mediator) a bheith ann níos mó ná huair amháin</entry>
-<entry key="rule|text|R-I5J-D2J">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-I5S-JI5">'Facs' (BT-739-Organization-TouchPoint) is éigeantach, nuair: Níl 'R-phost' (BT-506-Organization-TouchPoint), 'Teil.' (BT-503-Organization-TouchPoint), 'Ainm oifigiúil' (BT-500-Organization-TouchPoint), 'Seoladh idirlín' (BT-505-Organization-TouchPoint), 'Críochphointe malartaithe faisnéise (URL)' (BT-509-Organization-TouchPoint) líonta isteach; tá 'ID teicniúil an phointe teagmhála (TPO-XXX)' (OPT-201-Organization-TouchPoint) líonta isteach</entry>
 <entry key="rule|text|R-I5U-5H8">Ní mór 'Luach gach conradh a bronnadh sa fógra seo' (BT-161-NoticeResult) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
 <entry key="rule|text|R-I62-NWQ">'Cód poist' (BT-5121-Part) níl ceadaithe, nuair: Níl 'Baile' (BT-5131) líonta isteach</entry>
@@ -1851,12 +1832,10 @@
 <entry key="rule|text|R-ICZ-TMZ">'Úinéir tairbhe deiridh' (OPT-160-UBO) níl ceadaithe, nuair: Níl 'Ainm oifigiúil' (BT-500-UBO) líonta isteach</entry>
 <entry key="rule|text|R-ID6-SBY">'Aitheantóir an leagain UBL (UBL)' (OPT-001-notice) is éigeantach</entry>
 <entry key="rule|text|R-ID7-J4X">'Is le cistí an Aontais Eorpaigh a mhaoinítear an soláthar i bpáirt ar a laghad' (BT-60-Lot) is éigeantach</entry>
-<entry key="rule|text|R-ID9-8YC">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Aitheantóir an fhógra a bhí ann roimhe seo' (BT-125(i)-Part-Scheme)</entry>
 <entry key="rule|text|R-IDK-BO5">Ní féidir 'Méid éifeachtachta fuinnimh' (BT-815-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-IDO-DNT">Ní féidir le heagraíocht atá ag gníomhú mar phríomhchonraitheoir 'Pointí teagmhála eile' a bheith aici</entry>
 <entry key="rule|text|R-IDP-M6E">'Aon chonradh seirbhíse a dhéanfar tar éis an chomórtais, bronnfar é ar cheann de bhuaiteoirí an chomórtais' (BT-41-Lot) is éigeantach</entry>
 <entry key="rule|text|R-IE4-78B">Ní mór luach ó liosta cóid (indicator) a bheith in 'Athsheolfar an luchtóg sin' (BT-634-Lot)</entry>
-<entry key="rule|text|R-IE8-CP8">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-IEQ-Y52">Ní féidir 'Eisceacht ó chur i bhfeidhm an bheart IPI' (BT-687-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-IEU-4Q4">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Lot-ReviewInfo-Scheme)</entry>
 <entry key="rule|text|R-IF7-MO3">'Príomhaicmiú' (BT-262-Part) is éigeantach</entry>
@@ -1913,12 +1892,12 @@
 <entry key="rule|text|R-IYT-3LL">'ID teicniúil an chonartha' (OPT-316-Contract) níl ceadaithe</entry>
 <entry key="rule|text|R-IYX-S9B">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise' (BT-134-Lot-Language)</entry>
 <entry key="rule|text|R-IZ3-4JF">Ní féidir 'An bonn cirt le gan ualú na gcritéar dámhachtana a léiriú' (BT-733-Lot) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
+<entry key="rule|text|R-IZB-7G8">Tá 'Tairgeoir' (OPT-300-Tenderer) ar iarraidh ó thairgeoir.</entry>
 <entry key="rule|text|R-IZO-0NF">'Leagan malartach is ea an tairiscint' (BT-193-Tender) níl ceadaithe</entry>
 <entry key="rule|text|R-IZO-C7I">Ní mór luach ó liosta cóid (legal-basis-e4) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-IZO-CMO">Ní féidir 'Ioncam measta an cheannaitheora a dheonaigh an lamháltas' (BT-160-Tender) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-IZT-NC2">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Tá ceangal ann ráthaíocht a thabhairt' (BT-751-Lot-List)</entry>
 <entry key="rule|text|R-J00-IVK">'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) níl ceadaithe, nuair: Níl 'ID teicniúil an chonartha' (OPT-316-Contract) líonta isteach; níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach</entry>
-<entry key="rule|text|R-J09-0A0">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Aitheantóir rannáin' (BT-1501(n)-Contract-Scheme)</entry>
 <entry key="rule|text|R-J0K-B67">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Socrú airgeadais' (BT-77-Lot-Language)</entry>
 <entry key="rule|text|R-J15-475">'Tír' (OPP-112-Business) níl ceadaithe, nuair: Baineann sé le Clárúchán Gnó an Aontais</entry>
 <entry key="rule|text|R-J1C-U9E">'Úsáidfear ordú leictreonach' (BT-92-Lot) níl ceadaithe</entry>
@@ -1984,7 +1963,6 @@
 <entry key="rule|text|R-JLQ-DDV">Ní mór 'Na luchtóga atá san áireamh' (BT-1375-Procedure) a bheith bainteach le 'Toradh bheart an nóis imeachta' (BT-137-Lots) atá ann cheana</entry>
 <entry key="rule|text|R-JM5-26L">Ní mór luach ó liosta cóid (conditions) a bheith in 'Cód ceanglais forghníomhaithe' (OPT-060-Lot)</entry>
 <entry key="rule|text|R-JM7-JBS">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise' (BT-300-Lot-Language)</entry>
-<entry key="rule|text|R-JM8-CLH">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-JMN-T2M">'Luach gach conradh a bronnadh sa fógra seo' (BT-161-NoticeResult) caithfidh sé a bheith dearfach.</entry>
 <entry key="rule|text|R-JNM-RKX">'Aitheantóir an fhógra a bhí ann roimhe seo' (BT-125(i)-Part) níl ceadaithe</entry>
 <entry key="rule|text|R-JNV-O9R">Ní féidir 'Tá an chur i bhfeidhm curtha in áirithe do ghairm áirithe. Tagairt don bhonn dlíthiúil' (OPT-070-Lot) a bheith níos faide ná 4,000 carachtar</entry>
@@ -1994,6 +1972,7 @@
 <entry key="rule|text|R-JPW-0DM">Ní mór do gach soláthraí doiciméad le haghaidh gach birt (OPT-301-Lot-DocProvider) nó páirte (OPT-301-Part-DocProvider) a bheith ag teacht le ceann amháin de phointí teagmhála eile (OPT-201-Organization-Touchpoint) na n-eagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-JQ3-Q4N">'Aitheantóir chistí an Aontais' (BT-5011-Contract) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-JQH-9OY">'Cur síos' (BT-201-Contract) níl ceadaithe</entry>
+<entry key="rule|text|R-JQI-KCC">Tá 'Líon na dtairiscintí nó na n-iarrataí ar rannpháirtíocht a fuarthas' (BT-759-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|R-JQM-K79">Ní féidir 'Seoladh poist' (BT-5101(a)-Part) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-JRA-L3U">Ní mór luach ó liosta cóid (currency) a bheith in 'Ioncam measta an cheannaitheora a dheonaigh an lamháltas' (BT-160-Tender-Currency)</entry>
 <entry key="rule|text|R-JS1-NVO">Ní mór luach ó liosta cóid (classification-type) a bheith in 'Cineál aicmiúcháin' (BT-26(m)-Part)</entry>
@@ -2031,7 +2010,6 @@
 <entry key="rule|text|R-K42-YYN">'ID teicniúil an eagraíochta (ORG-XXX)' (OPT-200-Organization-Company) níl ceadaithe</entry>
 <entry key="rule|text|R-K44-695">Más ionann 'Cineál na foirme' (BT-03) agus 'Réamhfhógra maidir le dámhachtain dhíreach', ansin ní mór 'Cineál an fhógra' (BT-02) a bheith ina 'Fógra trédhearcachta ex ante deonach'</entry>
 <entry key="rule|text|R-K44-JP5">Níl an ceannaitheoir lonnaithe san Limistéar Eacnamaíoch Eorpach ná i dtír chomhpháirtíochta</entry>
-<entry key="rule|text|R-K4B-405">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-K61-41O">'Cineál ualaigh is ea an uimhir' (BT-7531-Lot) níl ceadaithe, nuair: Ní hionann 'Úsáidfear na critéir chun na hiarrthóirí a roghnú a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-40) agus 'tá' nó níl 'Cineál tairsí is ea an uimhir' (BT-7532) líonta isteach</entry>
 <entry key="rule|text|R-K6N-LJX">'Liosta EED (Mír)' (BT-811(b)-LotResult) níl ceadaithe</entry>
 <entry key="rule|text|R-K6Q-AXM">Ní féidir 'Eolas a bhaineann le tairgeoirí a fhéadfar a fhorlíonadh tar éis an spriocdháta chun iarratas a dhéanamh' (BT-771-Lot) a bheith ann níos mó ná huair amháin</entry>
@@ -2050,7 +2028,6 @@
 <entry key="rule|text|R-KAQ-QWW">Má tá 'Bunús dlí' (BT-01) 'Treoir 2009/81/CE', ansin is féidir le 'Tá an nós imeachta á bhrostú' (BT-106) a bheith 'Is ea' ach amháin má tá 'An cineál nóis imeachta' (BT-105) 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="rule|text|R-KB0-G6H">'Luach na tairisceana is airde atá inghlactha' (BT-711-LotResult) níl ceadaithe, nuair: Is ionann an luach a roghnaíodh do 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Níor roghnaíodh an buaiteoir go fóill, ach tá an iomaíocht fós ar siúl.', nó is ionann an luach a roghnaíodh do 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Níor roghnaíodh aon bhuaiteoir agus tá an iomaíocht thart.' agus is ionann 'An fáth nár roghnaíodh aon bhuaiteoir' (BT-144-LotResult) agus 'Ní bhfuarthas aon tairiscintí, iarratais ar rannpháirtíocht ná tionscadail'</entry>
 <entry key="rule|text|R-KB3-NKC">Ní féidir 'Eolas breise' (BT-728-Procedure) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
-<entry key="rule|text|R-KC0-S5R">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-KC7-EYG">Ní mór 'Seoladh na ndoiciméad soláthair' (BT-15-Part) a bheith i gcomhréir leis an bpatrún seo a leanas: URL</entry>
 <entry key="rule|text|R-KC8-KU9">Ní féidir 'Seoladh an chur isteach' (BT-18-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-KC9-Y0L">Ní mór luach ó liosta cóid (indicator) a bheith in 'Tá an buaiteoir liostaithe ar mhargadh rialáilte' (BT-746-Organization)</entry>
@@ -2064,6 +2041,7 @@
 <entry key="rule|text|R-KDZ-0RX">Ní féidir 'Cur síos' (BT-762-notice) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
 <entry key="rule|text|R-KE0-VOX">'Luach gach conradh a bronnadh sa fógra seo' (BT-161-NoticeResult) is éigeantach, nuair: Tá beart bronnta gan comhaontú creatlaí nó conradh laistigh de chomhaontú creatlaí.</entry>
 <entry key="rule|text|R-KES-O23">'Tír' (BT-514-Business) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
+<entry key="rule|text|R-KEY-3G1">Tá 'Príomhchonraitheoir chuig fochonraitheoir' (OPT-301-Tenderer-MainCont) ar iarraidh ó fhochonraitheoir tairgeora.</entry>
 <entry key="rule|text|R-KEY-PVO">Ní mór 'Líon uasta na luchtóg ar féidir conarthaí a dhámhachtain ina leith ar aon tairgeoir amháin' (BT-33-Procedure) a bheith i gcomhréir leis an bpatrún seo a leanas: Integer</entry>
 <entry key="rule|text|R-KF3-GJV">'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) níl ceadaithe, nuair: Níl aon chomhaontú creatlacha i gceist</entry>
 <entry key="rule|text|R-KFR-TEP">Ní féidir 'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-WeightNumber) a bheith ann níos mó ná huair amháin</entry>
@@ -2096,7 +2074,6 @@
 <entry key="rule|text|R-KQJ-UKJ">Ní féidir 'Tagairt don chonradh' (OPT-315-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-KR4-VA2">'Cineál ualaigh is ea an uimhir' (BT-5421-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-KR6-Q0G">'Fad ama' (OPA-36-Part-Number) níl ceadaithe, nuair: 'Dáta tosaithe' (BT-536-Part) agus 'Dáta deiridh an tréimhse' (BT-537-Part) tá láthair, nó 'Fad ama eile' (BT-538-Part) tá láthair</entry>
-<entry key="rule|text|R-KRV-FNJ">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-KS5-WZD">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Tá an chur i bhfeidhm curtha in áirithe do ghairm áirithe. Tagairt don bhonn dlíthiúil' (OPT-070-Lot-Language)</entry>
 <entry key="rule|text|R-KSK-7VV">'Cód cúise maidir le neamhnochtadh' (BT-197-notice) is éigeantach, nuair: Tá 'Réimse le foilsiú níos déanaí' (BT-195-notice) líonta isteach</entry>
 <entry key="rule|text|R-KSS-70F">Ní féidir 'URL an athbhreithnithe' (BT-794-Review) a bheith níos faide ná 400 carachtar</entry>
@@ -2111,8 +2088,8 @@
 <entry key="rule|text|R-KW3-NRX">'Aitheantóir inmheánach' (BT-22-Lot) ní mór a bheith éagsúil ó aon 'Aitheantóir inmheánach' eile sa fhógra.</entry>
 <entry key="rule|text|R-KW9-T3L">Ní féidir 'Tá eolas faoi dhoiciméid shrianta le fáil ag' (BT-615-Part) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-KWW-BME">Ní mór 'An dáta a roghnaíodh an buaiteoir' (BT-1451-Contract) a bheith i gcomhréir leis an bpatrún seo a leanas: Date</entry>
-<entry key="rule|text|R-KXK-4IL">Ní mór luach ó liosta cóid (notice-reference) a bheith in 'Aitheantóir an fhógra a bhí ann roimhe seo' (BT-125(i)-Lot-Scheme)</entry>
 <entry key="rule|text|R-KXT-4N5">Ní mór luach ó liosta cóid (remedy-type) a bheith in 'Cineál leighis an athbhreithnithe' (BT-792-Review)</entry>
+<entry key="rule|text|R-KXV-0IT">Tá 'Cineál leighis an athbhreithnithe' (BT-792-Review) ar iarraidh ó athbhreithniú.</entry>
 <entry key="rule|text|R-KY4-0FY">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Fochonraitheoireacht' (BT-773-Tender-List)</entry>
 <entry key="rule|text|R-KYQ-WYK">Ní féidir 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-KZ0-V96">Ní féidir 'Is eintiteas conarthach é an ceannaitheoir' (BT-740-Procedure-Buyer) a bheith ann níos mó ná huair amháin</entry>
@@ -2153,7 +2130,7 @@
 <entry key="rule|text|R-LFS-5S9">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Ainm oifigiúil' (BT-500-Organization-TouchPoint-Language)</entry>
 <entry key="rule|text|R-LG9-9J2">Ní féidir 'Cainníocht' (BT-25-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-LGS-T3Z">'Tá creat-chomhaontú i gceist' (BT-765-Part) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
-<entry key="rule|text|R-LH3-A27">'Dáta oscailte' (BT-132(t)-Lot) is éigeantach, nuair: 'Sprioc-am chun eolas breise a iarraidh' (BT-132(d)-Lot) níl sé líonta isteach.</entry>
+<entry key="rule|text|R-LH3-A27">'Am an oscailt phoiblí' (BT-132(t)-Lot) is éigeantach, nuair: 'Sprioc-am chun eolas breise a iarraidh' (BT-132(d)-Lot) níl sé líonta isteach.</entry>
 <entry key="rule|text|R-LIL-P4Y">Ní féidir a bheith níos mó ná 'Scór íosta' amháin nó níos mó ná 'Líon uasta na dtairiscintí a phasálfaidh' amháin do gach critéir i 'Cineál tairsí is ea an uimhir' (BT-5423) don ghrúpa lots seo</entry>
 <entry key="rule|text|R-LIR-64E">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Ainm' (BT-734-Lot-Language)</entry>
 <entry key="rule|text|R-LJ6-0DS">'Seoladh poist' (BT-5101(a)-Lot) níl ceadaithe, nuair: Níl 'Baile' (BT-5131) líonta isteach</entry>
@@ -2170,7 +2147,6 @@
 <entry key="rule|text|R-LPT-TIY">I gcás 'Critéir dhámhachtana' (BG-707) ar leith, ní mór gurb é 'Cineál ualaigh is ea an uimhir' (BT-5421) 'Ord tábhachta' le haghaidh gach ceann nó ceann ar bith de 'Critéar dámhachtana' (BG-38)</entry>
 <entry key="rule|text|R-LPY-1LM">'Seoladh idirlín' (BT-505-Organization-Company) níl ceadaithe</entry>
 <entry key="rule|text|R-LQ3-WB6">Ní féidir 'Na teangacha inar féidir tairiscintí nó iarrataí ar rannpháirtíocht a chur isteach' (BT-97-Lot) a bheith ann níos mó ná huair amháin</entry>
-<entry key="rule|text|R-LQA-UYO">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-LQF-MEP">Ní féidir 'An bonn cirt leis an nós imeachta brostaithe' (BT-1351-Procedure) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-LQG-8CY">Ní féidir 'URL an fhógra' (OPP-122-Business) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-LR5-73X">Ní mór teanga a shonrú le haghaidh'An modh a úsáidtear chun luach measta an lamháltais a ríomh' (BT-163-Tender)</entry>
@@ -2296,7 +2272,6 @@
 <entry key="rule|text|R-MX3-SZD">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'ID teicniúil tairiscint faighte' (OPT-320-LotResult-Scheme)</entry>
 <entry key="rule|text|R-MXA-BE0">'Bunús dlíthiúil an nós imeachta gan aitheantóir (tuairisc)' (BT-01(f)-Procedure) níl ceadaithe</entry>
 <entry key="rule|text|R-MXP-FJO">Ní mór 'Seoladh an chur isteach' (BT-18-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: URL</entry>
-<entry key="rule|text|R-MXX-45Q">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-MXX-HJ9">Ní féidir 'Nádúr na seirbhísí iompair' (OPP-040-Procedure) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-MY2-0SB">Ní mór 'ID teicniúil an chonartha' (OPT-316-Contract) a bheith i gcomhréir leis an bpatrún seo a leanas: ContractID</entry>
 <entry key="rule|text|R-MYZ-6HR">'Tá bearta na hIonstraime Soláthair Phoiblí Idirnáisiúnta infheidhme' (BT-684-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
@@ -2318,7 +2293,6 @@
 <entry key="rule|text|R-N4S-3M1">'Foroinn tíre (NUTS)' (BT-5071-Lot) níl ceadaithe, nuair: Tá 'Áit feidhmíochta – Raon geografach' (BT-727) líonta isteach nó níl 'Tír' (BT-5141) líonta isteach</entry>
 <entry key="rule|text|R-N4X-O47">Más ionann 'Cineál an chonartha' (BT-23) agus 'Oibreacha' agus tá 'Cineál aicmiúcháin' ina CPV, ansin ní mór 'Príomhaicmiú' (BT-262) a bheith 45</entry>
 <entry key="rule|text|R-N54-1QY">Ní féidir 'Tír' (BT-514-UBO) a bheith ann níos mó ná huair amháin</entry>
-<entry key="rule|text|R-N5H-TM8">Ní mór luach ó liosta cóid (notice-reference) a bheith in 'Aitheantóir an fhógra a bhí ann roimhe seo' (BT-125(i)-Part-Scheme)</entry>
 <entry key="rule|text|R-N5L-9H9">'Luach íocaíochta tairisceana' (BT-779-Tender) caithfidh sé a bheith dearfach.</entry>
 <entry key="rule|text|R-N5R-R6H">'Sonrascú leictreonach' (BT-743-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-N75-2YE">Ní féidir 'Tábhacht na sócmhainní riachtanacha arna soláthar maidir leis na sócmhainní foriomlána is gá chun na seirbhísí poiblí a sholáthar' (OPP-022-Contract) a bheith ann níos mó ná huair amháin</entry>
@@ -2408,7 +2382,6 @@
 <entry key="rule|text|R-NYO-TJ0">'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) níl ceadaithe</entry>
 <entry key="rule|text|R-NYQ-IM5">Ní mór 'Cur síos ar choinníollacha an chonartha (seachas leithdháileadh an ioncaim)' (OPP-031-Tender) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-NZ5-D7P">Ní féidir 'Facs' (BT-739-Organization-Company) a bheith níos faide ná 30 carachtar</entry>
-<entry key="rule|text|R-NZI-7AJ">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-NZM-1OL">'Cód poist' (BT-5121-Procedure) níl ceadaithe</entry>
 <entry key="rule|text|R-O06-3OY">'Eolas breise faoin bhfad ama' (BT-781-Lot) is éigeantach</entry>
 <entry key="rule|text|R-O12-BOI">Ní mór 'Sprioc-am chun eolas breise a iarraidh' (BT-13) a bheith níos luaithe ná nó cothrom le 'Spriocdháta chun iarrataí ar rannpháirtíocht a fháil' (BT-1311)</entry>
@@ -2487,6 +2460,7 @@
 <entry key="rule|text|R-ORD-5OS">Ní mór luach ó liosta cóid (review-type) a bheith in 'Líon na ngearánach' (BT-712(a)-LotResult)</entry>
 <entry key="rule|text|R-OS0-QIK">'Seoladh poist' (BT-510(c)-Organization-Company) níl ceadaithe, nuair: Níl 'Seoladh poist' (BT-510(b)-Organization-Company) líonta isteach</entry>
 <entry key="rule|text|R-OS5-1BJ">'Tír' (BT-514-Organization-TouchPoint) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
+<entry key="rule|text|R-OSD-4R2">Tá 'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-ThresholdNumber) nó 'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752-Lot-WeightNumber) ar iarraidh ó pharaiméadar an chritéir roghnúcháin.</entry>
 <entry key="rule|text|R-OSH-N0D">'Cineál leighis an athbhreithnithe' (BT-792-Review) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-OSQ-GMB">'An tréimhse le linn a gcaithfidh an tairiscint a bheith bailí' (OPA-98-Lot-Number) níl ceadaithe</entry>
 <entry key="rule|text|R-OT5-XFM">Más ionann 'Cineál na foirme' (BT-03) agus 'Mionathrú conartha', ansin ní mór 'Cineál an fhógra' (BT-02) a bheith ina 'Fógra maidir le mionathrú conartha'</entry>
@@ -2565,6 +2539,7 @@
 <entry key="rule|text|R-PFC-AV4">Ní féidir 'Gníomhaíocht an eintitis chonarthaigh' (BT-610-Procedure-Buyer) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-PFD-5IL">Ní mór teanga a shonrú le haghaidh'Eolas breise' (BT-300-Part)</entry>
 <entry key="rule|text|R-PFT-77Y">'Cur síos ar an sprioc cáilíochta' (OPT-072-Lot) níl ceadaithe</entry>
+<entry key="rule|text|R-PFU-0U1">Tá 'Tír thionscnaimh an táirge nó na seirbhíse' (BT-191-Tender) ar iarraidh ó thairiscint.</entry>
 <entry key="rule|text|R-PFZ-RQ0">'Cineál cinnidh an athbhreithnithe' (BT-790-Review) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-PG5-7QL">'Bunús dlí an nós imeachta' (BT-01-notice) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-PGS-0H6">'Eagraíocht a fhaigheann tairiscintí' (OPT-301-Part-TenderReceipt) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
@@ -2589,7 +2564,6 @@
 <entry key="rule|text|R-PL8-4CL">'Cineál cinnidh an athbhreithnithe' (BT-790-Review) is éigeantach, nuair: 'Tarraingíodh siar an t-iarratas ar athbhreithniú' (BT-796-Review) tá socraithe go 'tá'.</entry>
 <entry key="rule|text|R-PMG-185">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Rannpháirtíocht fhorchoimeádta' (BT-71-Lot-List)</entry>
 <entry key="rule|text|R-PMI-EAT">Ní mór luach ó liosta cóid (environmental-impact) a bheith in 'An cur chuige maidir leis an tionchar ar an gcomhshaol a laghdú' (BT-774-Lot)</entry>
-<entry key="rule|text|R-PN1-90P">'An dáta a fhoilseofar é seo' (BT-198) luach caithfidh a bheith idir 2 lá agus 10 mbliana tar éis an 'Dáta seolta an fhógra' (BT-05)</entry>
 <entry key="rule|text|R-PN7-L0O">'An fhoirm dhlíthiúil nach mór do ghrúpa tairgeoirí ar a mbronntar conradh a ghlacadh' (BT-76-Lot) is éigeantach, nuair: 'Ní mór do ghrúpa tairgeoirí ar a ndéantar conradh a dhámhachtain foirm dhlíthiúil áirithe a ghlacadh' (BT-761-Lot) tá 'tá'.</entry>
 <entry key="rule|text|R-PNG-1YX">Ní mór 'Líon uasta na luchtóg ar féidir le tairgeoir amháin tairiscintí a chur isteach ina leith' (BT-31-Procedure) a bheith i gcomhréir leis an bpatrún seo a leanas: Integer</entry>
 <entry key="rule|text|R-POE-2JS">'Tuairisc an athbhreithnithe' (BT-789-Review) níl ceadaithe</entry>
@@ -2641,6 +2615,7 @@
 <entry key="rule|text|R-Q4X-S8O">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Cineál tairsí is ea an uimhir' (BT-7532-Lot-List)</entry>
 <entry key="rule|text|R-Q53-30O">Más ionann 'Cineál na foirme' (BT-03) agus 'Pleanáil', ansin ní mór 'Cineál an fhógra' (BT-02) a bheith ina 'Fógra maidir le foilsiú fógra faisnéise roimh ré nó fógra faisnéise tréimhsiúil i dtaobh próifíl cheannaitheora', 'Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil ar mhaithe le faisnéis amháin', 'Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ngearrtar na teorainneacha ama le tairiscintí a fháil' nó ina 'Fógra réamhfhaisnéise le haghaidh seirbhísí poiblí iompair do phaisinéirí'</entry>
 <entry key="rule|text|R-Q53-JFM">'Páirtí tairisceana' (OPT-310-Tender) níl ceadaithe, nuair: Níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach</entry>
+<entry key="rule|text|R-Q5S-9O8">Tá 'Cineál an chomhlachta athbhreithnithe' (BT-799-ReviewBody) ar iarraidh ó athbhreithniú.</entry>
 <entry key="rule|text|R-Q5V-1SI">'Eagraíocht a n-úsáidtear a buiséad chun íoc as an gconradh' (OPT-301-LotResult-Financing) níl ceadaithe</entry>
 <entry key="rule|text|R-Q5Z-SVE">Ní mór luach ó liosta cóid (procedure-type-26) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
 <entry key="rule|text|R-Q6L-WDD">'Ní mór Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) a bheith níos mó ná 0 nó cothrom leis. 'Ní mór Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) a bheith níos lú ná 9999 nó cothrom leis</entry>
@@ -2669,7 +2644,6 @@
 <entry key="rule|text|R-QAY-8S3">Ní mór 'Dáta foilsithe is rogha leat' (BT-738-notice) a bheith idir 0 agus 60 lá tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-QBD-HMJ">'Méid éifeachtachta fuinnimh' (BT-815-LotResult) níl ceadaithe, nuair: 'Liosta EED' (Basis) (BT-811(a)-LotResult) níl ann</entry>
 <entry key="rule|text|R-QBU-VVH">'Baile' (BT-513-Organization-TouchPoint) is éigeantach, nuair: Tá 'Tír' (BT-514-Organization-TouchPoint) comhlánaithe.</entry>
-<entry key="rule|text|R-QC6-1AF">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'Fógra a chruthaigh an comhaontú creatlach' (OPT-100-Contract-Scheme)</entry>
 <entry key="rule|text|R-QC8-COU">Ní féidir 'Eagraíocht a sholáthraíonn faisnéis bhreise faoin nós imeachta soláthair' (OPT-301-Lot-AddInfo) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-QCL-4I7">'Cineál ualaigh is ea an uimhir' (BT-5421-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-QCL-QDA">Más ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/24/AE' agus más ionann 'Cineál an fhógra' (BT-02) agus 'Fógra maidir le conradh nó lamháltas — an gnáthchóras' agus más ionann 'An cineál nóis imeachta' (BT-105) agus 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', ansin ní mór 'An líon íosta iarrthóirí a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-50) a bheith níos mó ná 2</entry>
@@ -2678,13 +2652,11 @@
 <entry key="rule|text|R-QDW-FLX">Ní mór 'Rangaigh i liosta na mbuaiteoirí' (BT-171) a bheith cothrom le 0</entry>
 <entry key="rule|text|R-QEO-QD2">'Is le cistí an Aontais Eorpaigh a mhaoinítear an soláthar i bpáirt ar a laghad' (BT-60-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-QEP-0IX">'Cineál an chonartha' (BT-23-Procedure) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
-<entry key="rule|text|R-QET-6IO">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-QEY-TBX">Ní mór do gach eagraíocht athbhreithnithe le haghaidh gach birt (OPT-301-Lot-ReviewOrg) nó páirte (OPT-301-Part-ReviewOrg) a bheith ag teacht le ceann amháin de phointí teagmhála eile (OPT-201-Organization-Touchpoint) na n-eagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-QF5-3JJ">Ní mór luach ó liosta cóid (procedure-type-12) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
 <entry key="rule|text|R-QFU-FN0">Caithfidh líon iomlán na dtairiscintí a fhaightear a bheith cothrom le líon na dtairiscintí a fhaightear ó eagraíochtaí móra móide líon na dtairiscintí a fhaightear ó mhicrea-eagraíochtaí, móide líon na dtairiscintí a fhaightear ó eagraíochtaí beaga móide líon na dtairiscintí a fhaightear ó eagraíochtaí meánmhéide.</entry>
 <entry key="rule|text|R-QFV-G67">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Cur síos' (BT-554-Tender-Language)</entry>
 <entry key="rule|text|R-QG3-D1O">Ní féidir 'An bonn cirt atá le fad an chreat-chomhaontaithe' (BT-109-Lot) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
-<entry key="rule|text|R-QG7-OU8">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-QGA-KFD">Ní féidir 'Ainm oifigiúil' (BT-500-Organization-Company) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-QGQ-UVL">Ní mór luach ó liosta cóid (legal-basis-2) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-QGS-DVQ">Do ghrúpa tairiscintí a thugtar tagairt dóibh, caithfidh gach tairiscint a bheith dírithe ar an lot sin nó ar ghrúpa loiteanna a bhfuil an lot sin iontu.</entry>
@@ -2704,7 +2676,6 @@
 <entry key="rule|text|R-QN6-DSA">Ní féidir 'ID doiciméad an reachtaíochta comhshaoil' (OPT-112-Lot-EnvironLegis) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-QNT-MN8">Ní mór luach ó liosta cóid (currency) a bheith in 'Luach gach conradh a bronnadh sa fógra seo' (BT-161-NoticeResult-Currency)</entry>
 <entry key="rule|text|R-QP1-FY0">'Luach measta gan CBL a áireamh' (BT-27-Lot) níl ceadaithe</entry>
-<entry key="rule|text|R-QP6-7NP">Ní mór luach ó liosta cóid (notice-reference) a bheith in 'Fógra a chruthaigh an comhaontú creatlach' (OPT-100-Contract-Scheme)</entry>
 <entry key="rule|text|R-QP7-XUC">'Luach na tairisceana is airde atá inghlactha' (BT-711-LotResult) caithfidh sé a bheith dearfach.</entry>
 <entry key="rule|text|R-QPH-E6R">'Bunús dlí' (BT-01(e)-Procedure) níl ceadaithe</entry>
 <entry key="rule|text|R-QPM-IHM">Ní féidir 'Luach an tairisceana' (BT-720-Tender) a bheith ann níos mó ná huair amháin</entry>
@@ -2719,7 +2690,6 @@
 <entry key="rule|text|R-QTW-KPY">'Uimhir chlárúcháin' (BT-501-Business-European) níl ceadaithe</entry>
 <entry key="rule|text|R-QU2-JJ2">Ní féidir leis an bhfo-thairgeoir gníomhú mar 'Eagraíocht atá ag síniú an chonartha'</entry>
 <entry key="rule|text|R-QUR-467">'Teideal' (BT-21-Procedure) is éigeantach</entry>
-<entry key="rule|text|R-QUS-87L">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-QV7-V0B">'An bonn cirt atá le fad an chreat-chomhaontaithe' (BT-109-Lot) is éigeantach, nuair: Ní bheidh fad an mhír níos faide ná 7 mbliana.</entry>
 <entry key="rule|text|R-QVH-SKK">Ní mór do gach faighteoir tairisceana (OPT-301-Lot-TenderReceipt) nó (OPT-301-Part-TenderReceipt) a bheith ag teacht le ceann amháin de phointí teagmhála eile (OPT-201-Organization-Touchpoint) na n-eagraíochtaí sainaitheanta (OPT-200-Organization-Company)</entry>
 <entry key="rule|text|R-QVU-VYH">'Líon na ngearánach' (BT-712(a)-LotResult) níl ceadaithe</entry>
@@ -2737,7 +2707,6 @@
 <entry key="rule|text|R-R0C-TRC">Ní féidir 'An bunús dlí CVD chun a dheimhniú cén chatagóir nóis imeachta soláthair ag a bhfuil feidhm' (BT-735-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-R0J-MWK">Ní mór luach ó liosta cóid (indicator) a bheith in 'Cuirtear síneadh le ré an chonartha mar gheall ar na sócmhainní riachtanacha is gá chun an tseirbhís a sholáthar' (OPP-020-Contract)</entry>
 <entry key="rule|text|R-R15-KUU">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise' (BT-45-Lot-Language)</entry>
-<entry key="rule|text|R-R1P-8C5">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-R21-BRK">Ní féidir 'Cur síos' (BT-201-Contract) a bheith ach i dteanga oifigiúil amháin den fhógra</entry>
 <entry key="rule|text|R-R2D-DXI">'ID teicniúil an chonartha' (OPT-316-Contract) is éigeantach</entry>
 <entry key="rule|text|R-R35-T08">Ní mór 'Dáta foilsithe' (OPP-012-notice) a bheith i gcomhréir leis an bpatrún seo a leanas: Date</entry>
@@ -2830,6 +2799,7 @@
 <entry key="rule|text|R-S18-KY8">Ní féidir leis an bhfo-thairgeoir gníomhú mar 'Eagraíocht a fhaigheann tairiscintí'</entry>
 <entry key="rule|text|R-S1I-B0E">Ní mór teanga a shonrú le haghaidh'Cur síos' (BT-732-Lot)</entry>
 <entry key="rule|text|R-S1K-0VB">'Bunús dlí an nós imeachta (ELI — CELEX)' (BT-01(c)-Procedure) níl ceadaithe</entry>
+<entry key="rule|text|R-S1Q-NKP">Tá 'Líon na n-iarratas tairiscintí a thiteann faoin mbeart IPI seo' (BT-686-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|R-S1U-UPP">Ní mór 'Spriocdháta chun imréiteach slándála a fháil' (BT-78-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: Date</entry>
 <entry key="rule|text|R-S1V-6N1">Ní féidir 'Eolas breise faoin gcomhaontú neamhnochta' (BT-802-Lot) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-S1W-NMO">Suim na gcinn uile 'Uimhir an chritéir dámhachtana' (BT-541) de chineál 'Ualú (céatadán, beacht)' ní mór a bheith cothrom le 100 do gach critéir sa ghrúpa lots</entry>
@@ -2856,7 +2826,6 @@
 <entry key="rule|text|R-S7N-2QG">Ní mór 'Teideal' (BT-21-Lot) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-S7W-3SU">'Aitheantóir an tsaincheaptha (UBL)' (OPT-002-notice) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-S86-VPX">Ní mór gné 'schemeName' a bheith i láthair le haghaidh 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer-Scheme)</entry>
-<entry key="rule|text|R-S8E-F7X">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-S8H-LNV">'Cód na sprice cáilíochta' (OPT-071-Lot) is éigeantach</entry>
 <entry key="rule|text|R-S8P-7R8">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Foroinn tíre (NUTS)' (BT-507-Organization-Company-List)</entry>
 <entry key="rule|text|R-S9U-F5I">Ní féidir 'Eolas breise' (BT-772-Lot) a bheith níos faide ná 6,000 carachtar</entry>
@@ -2888,7 +2857,6 @@
 <entry key="rule|text|R-SN5-AZG">'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-SN7-F2W">Ní mór teanga a shonrú le haghaidh'Eolas breise' (BT-772-Lot)</entry>
 <entry key="rule|text|R-SNA-9YO">'Cód ceanglais forghníomhaithe' (OPT-060-Lot) is éigeantach</entry>
-<entry key="rule|text|R-SNH-2MQ">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-SNN-G7Z">Ní mór luach ó liosta cóid (nuts-lvl3) a bheith in 'Foroinn tíre (NUTS)' (BT-507-Organization-Company)</entry>
 <entry key="rule|text|R-SNT-H53">Ní mór luach ó liosta cóid (fsr) a bheith in 'Rialachán na Scaireanna Coigríche' (BT-681-Lot)</entry>
 <entry key="rule|text|R-SOW-1XJ">'Athnuachaintí uasta' (BT-58-Lot) is éigeantach</entry>
@@ -2908,7 +2876,6 @@
 <entry key="rule|text|R-STU-Y0J">'Teideal' (BT-21-LotsGroup) níl ceadaithe</entry>
 <entry key="rule|text|R-SU4-LO0">Ní mór luach ó liosta cóid (legal-basis-8) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-SUE-AY9">Ní mór 'Críochphointe malartaithe faisnéise (URL)' (BT-509-Organization-TouchPoint) a bheith i gcomhréir leis an bpatrún seo a leanas: URL</entry>
-<entry key="rule|text|R-SUN-K67">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-SV2-SQI">'Luach na duaise' (BT-644-Lot) is éigeantach, nuair: Níl 'Aon chonradh seirbhíse a dhéanfar tar éis an chomórtais, bronnfar é ar cheann de bhuaiteoirí an chomórtais' (BT-41-Lot) fíor</entry>
 <entry key="rule|text|R-SV7-TAI">Ní féidir leis an bhfo-thairgeoir gníomhú mar 'Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do chosaint an chomhshaoil is infheidhme san áit ina bhfuil an conradh le cur i gcrích'</entry>
 <entry key="rule|text|R-SVB-MJ0">Staitisticí na n-iarratas faighte: Caithfear líon iomlán na 'Tairiscintí a cuireadh isteach go leictreonach' (BT-760-LotResult = t-esubm) a shonrú uair amháin go díreach</entry>
@@ -2917,16 +2884,15 @@
 <entry key="rule|text|R-SVV-EQL">'Luach seasta is ea an uimhir' (BT-5422-LotsGroup) níl ceadaithe, nuair: 'Uimhir an chritéir dámhachtana' (BT-541-LotsGroup-FixedNumber) níl i láthair</entry>
 <entry key="rule|text|R-SW5-51C">Ní féidir 'Seoladh poist' (BT-510(a)-Organization-TouchPoint) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-SWI-NPL">Ní féidir 'Eagraíocht a sholáthraíonn faisnéis faoi reachtaíocht comhshaoil' (OPT-301-Part-EnvironLegis) a bheith ann níos mó ná huair amháin</entry>
+<entry key="rule|text|R-SWK-JGR">Tá 'Cuirtear síneadh le ré an chonartha mar gheall ar na sócmhainní riachtanacha is gá chun an tseirbhís a sholáthar' (OPP-020-Contract) ar iarraidh ó chonradh.</entry>
 <entry key="rule|text|R-SXI-QDV">Ní féidir 'Tuilleadh sonraí faoi chistí an Aontais' (BT-6110-Contract) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
 <entry key="rule|text|R-SXJ-I8X">'Aitheantóir an tsaincheaptha (UBL)' (OPT-002-notice) is éigeantach</entry>
 <entry key="rule|text|R-SXY-RXR">'Aitheantóir an fhógra' (BT-701-notice) is éigeantach</entry>
 <entry key="rule|text|R-SYM-FW1">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Rannpháirtíocht fhorchoimeádta' (BT-71-Part-List)</entry>
-<entry key="rule|text|R-SYX-QUS">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-SZ0-B41">'An cuspóir sóisialta atá á chur chun cinn' (BT-775-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-SZC-ZA0">Ní mór luach ó liosta cóid (tendered-object) a bheith in 'Aitheantóir luchtóige nó grúpa luchtóg' (BT-13714-Tender-Scheme)</entry>
 <entry key="rule|text|R-SZT-43W">'Aitheantóir birt chreat an ghrúpa' (BT-556-NoticeResult) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-T01-PJW">'Spriocdháta chun iarrataí ar rannpháirtíocht a fháil' (BT-1311(d)-Lot) níl ceadaithe</entry>
-<entry key="rule|text|R-T05-L0Z">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-T06-8NX">'Roinn' (BT-16-Organization-Company) níl ceadaithe</entry>
 <entry key="rule|text|R-T0P-VFW">'Facs' (BT-739-Organization-Company) níl ceadaithe</entry>
 <entry key="rule|text|R-T0V-F01">Ní féidir 'Ainm' (BT-734-Lot) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
@@ -2937,7 +2903,6 @@
 <entry key="rule|text|R-T1T-89E">'Úsáidfear na critéir chun na hiarrthóirí a roghnú a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-40-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-T30-FHZ">Ní féidir 'Teil.' (BT-503-Organization-TouchPoint) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-T32-WXB">Caithfidh gach lot sa ghrúpa céanna an 'Spriocdháta chun tairiscintí a fháil' (BT-131) céanna a bheith acu</entry>
-<entry key="rule|text|R-T39-GIZ">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-T3J-KXI">'Cód' (BT-67(a)-Procedure) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-T3K-YL6">'Tír' (BT-514-UBO) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-T3Z-QGS">Ní féidir 'Cód poist' (BT-5121-Procedure) a bheith níos faide ná 400 carachtar</entry>
@@ -2963,7 +2928,7 @@
 <entry key="rule|text|R-TB0-38C">'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717-Lot) níl ceadaithe</entry>
 <entry key="rule|text|R-TB6-TOR">'EED tomhas tomhaltais' (OPT-080-LotResult) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-TBM-O37">Ní mór luach ó liosta cóid (procedure-type-29) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
-<entry key="rule|text|R-TBX-U1E">Ní féidir 'Dáta oscailte' (BT-132(t)-Lot) a bheith ann níos mó ná huair amháin</entry>
+<entry key="rule|text|R-TBX-U1E">Ní féidir 'Am an oscailt phoiblí' (BT-132(t)-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-TC6-DR2">'Aitheantóir rannáin' (BT-13716-notice) níl ceadaithe, nuair: Níl 'Leagan den fhógra roimhe seo atá le hathrú' (BT-758-notice) líonta isteach</entry>
 <entry key="rule|text|R-TCW-R9N">I gcás Fógra Toradh, caithfidh aon Lot san fhógra le Comhaontú Creatlaí, gan Conradh taobh istigh den Chomhaontú Creatlaí sin agus gan DPS, go díreach Toradh Lot amháin a bheith ceangailte leis.</entry>
 <entry key="rule|text|R-TD3-EJL">Ní féidir leis an bhfo-thairgeoir gníomhú mar 'Eagraíocht a sholáthraíonn faisnéis bhreise faoin nós imeachta soláthair'</entry>
@@ -3043,10 +3008,9 @@
 <entry key="rule|text|R-U42-PTX">Ní mór 'An fhoirm dhlíthiúil nach mór do ghrúpa tairgeoirí ar a mbronntar conradh a ghlacadh' (BT-76-Lot) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
 <entry key="rule|text|R-U4G-HRO">'Teil.' (BT-503-Organization-TouchPoint) níl ceadaithe</entry>
 <entry key="rule|text|R-U4U-H53">Ní mór luach ó liosta cóid (exclusion-ground) a bheith in 'Cód' (BT-67(a)-Procedure)</entry>
-<entry key="rule|text|R-U5R-2WU">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-U67-LR2">Ní féidir 'Cód maidir le pionóis agus dámhachtainí' (OPP-033-Tender) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-U6R-3XA">'Uasluach an chreat-chomhaontaithe' (BT-271-Procedure) níl ceadaithe, nuair: Níl aon chreat-chomhaontú i gceann ar bith de na bearta</entry>
-<entry key="rule|text|R-U7F-U45">Ní mór 'Dáta oscailte' (BT-132(t)-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: Time</entry>
+<entry key="rule|text|R-U7F-U45">Ní mór 'Am an oscailt phoiblí' (BT-132(t)-Lot) a bheith i gcomhréir leis an bpatrún seo a leanas: Time</entry>
 <entry key="rule|text|R-U7S-LQE">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Cineál feithicle' (OPT-155-LotResult-List)</entry>
 <entry key="rule|text|R-U8R-OBM">'Foroinn tíre (NUTS)' (BT-5071-Part) níl ceadaithe, nuair: Tá 'Áit feidhmíochta – Raon geografach' (BT-727) líonta isteach nó níl 'Tír' (BT-5141) líonta isteach</entry>
 <entry key="rule|text|R-U9B-3JF">'Cur isteach leictreonach' (BT-17-Lot) is éigeantach</entry>
@@ -3069,6 +3033,7 @@
 <entry key="rule|text|R-UHP-R4C">'Dáta an athbhreithnithe' (BT-787-Review) níl ceadaithe, nuair: 'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair</entry>
 <entry key="rule|text|R-UHS-R96">Ní féidir 'ID doiciméad an reachtaíochta comhshaoil' (OPT-112-Part-EnvironLegis) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-UI0-PBV">'Áit feidhmíochta – Raon geografach' (BT-727-Lot) níl ceadaithe, nuair: Tá 'Foroinn tíre (NUTS)' B373 (BT-5071-Lot) líonta isteach</entry>
+<entry key="rule|text|R-UIJ-ZV4">Tá 'Fochonraitheoir' (OPT-301-Tenderer-SubCont) ar iarraidh ó thairgeoir.</entry>
 <entry key="rule|text|R-UIO-CLU">'An líon uasta iarrthóirí a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-51-Lot) níl ceadaithe, nuair: Níl 'Tá uaslíon iarrthóirí ann a n-iarrfar orthu a bheith páirteach sa dara céim den nós imeachta' (BT-661-Lot) 'tá'</entry>
 <entry key="rule|text|R-UJ6-048">Ní féidir 'Foinse na gcúiseanna eisiúna' (BT-806-Procedure) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-UJM-K4K">Ní mór luach ó liosta cóid (legal-basis-37) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
@@ -3110,7 +3075,6 @@
 <entry key="rule|text|R-UW7-5K0">Ní mór 'Táille iarratais an athbhreithnithe' (BT-795-Review) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
 <entry key="rule|text|R-UX0-FK9">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Tá gá le ríomhshíniú nó ríomhshéala ardleibhéil nó cáilithe (mar a shainmhínítear i Rialachán (AE) Uimh. 910/2014)' (BT-744-Lot-List)</entry>
 <entry key="rule|text|R-UX9-G3Z">'Leagan malartach is ea an tairiscint' (BT-193-Tender) níl ceadaithe, nuair: Tá an nós imeachta le haghaidh an bhirt críochnaithe agus níor dámhadh é</entry>
-<entry key="rule|text|R-UXI-WU2">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-UZN-BY6">Ní féidir 'Cineál na neamhrialtachta líomhnaithe' (BT-636-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-UZN-OE3">Ní féidir 'Foinse na gcritéar roghnúcháin' (BT-821-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-V00-H0E">'Méid an oibreora eacnamaíoch' (BT-165-Organization-Company) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
@@ -3136,7 +3100,6 @@
 <entry key="rule|text|R-V79-Z6Y">Ní mór luach ó liosta cóid (legal-basis-27) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-V7F-68L">Ní mór 'Aitheantóir an leagain UBL (UBL)' (OPT-001-notice) a bheith i gcomhréir leis an bpatrún seo a leanas: UBLVersionID</entry>
 <entry key="rule|text|R-V7N-SUL">'Luach athmheasta na gcreat-chomhaontuithe laistigh de ghrúpa beart' (BT-1561-NoticeResult) níl ceadaithe, nuair: Níl 'Aitheantóir birt chreat an ghrúpa' (BT-557) líonta isteach</entry>
-<entry key="rule|text|R-V7P-MZM">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-V8C-1Q1">Más ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/23/AE' nó 'Treoir 2009/81/CE' agus más ionann 'Cineál dlíthiúil an cheannaitheora' (BT-11) agus 'Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás conarthachta', 'Eagraíocht idirnáisiúnta', nó 'Conraitheoir cosanta', ansin ní mór gurb ionann'Is eintiteas conarthach é an ceannaitheoir' (BT-740) agus 'Ní hea'</entry>
 <entry key="rule|text|R-V8D-R8C">Ní mór luach 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) a bheith in a luach uathúil</entry>
 <entry key="rule|text|R-V8Z-VN6">Ní féidir 'Tuilleadh eolais faoi athnuachain' (BT-57-Lot) a bheith i láthair ach uair amháin le haghaidh gach teanga</entry>
@@ -3163,7 +3126,6 @@
 <entry key="rule|text|R-VFT-471">Ní féidir 'Aitheantóir chistí an Aontais' (BT-5010-Lot) a bheith níos faide ná 100 carachtar</entry>
 <entry key="rule|text|R-VFZ-MYA">Ní féidir 'ID teicniúil an páirtí tairisceana (TPA-XXX)' (OPT-210-Tenderer) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-VG2-9E5">Ní mór 'Cur síos' (BT-762-notice) a bheith i láthair i ngach teanga oifigiúil den fhógra</entry>
-<entry key="rule|text|R-VG3-LEV">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-VGO-S2E">Ní mór luach ó liosta cóid (player-type) a bheith in 'Eagraíocht nó pointe teagmhála sonrach' (OPT-301-Part-TenderEval-Scheme)</entry>
 <entry key="rule|text|R-VGX-GSV">'Cineál an chonartha' (BT-23-Lot) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-VH6-V2C">'Uasluach an chreat-chomhaontaithe' (BT-271-Lot) caithfidh sé a bheith dearfach.</entry>
@@ -3210,6 +3172,7 @@
 <entry key="rule|text|R-VSO-FS4">'An áit a bhfuil an duais á fáil' (BT-44-Lot) níl ceadaithe, nuair: Níl 'Luach na duaise' (BT-644-Lot) líonta isteach</entry>
 <entry key="rule|text|R-VSP-FAU">'Méid an oibreora eacnamaíoch' (BT-165-Organization-Company) is éigeantach, nuair: Má chuir an eagraíocht 'Páirtí tairisceana' (OPT-310-Tender) isteach, agus bhí 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) mar thoradh air sin, is é an eagraíocht an buaiteoir dá bharr</entry>
 <entry key="rule|text|R-VU8-91R">'Aitheantóir inmheánach' (BT-22-LotsGroup) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
+<entry key="rule|text|R-VUI-M9B">Tá 'Léiriú éigeantach ar fhochonraitheoireacht' (BT-651-Lot) ar iarraidh ó bheart.</entry>
 <entry key="rule|text|R-VUV-LEE">'Liosta EED (Basis)' (BT-811(a)-LotResult) níl ceadaithe, nuair: 'Liosta EED (Mír)' (BT-811(b)-LotResult) níl ann</entry>
 <entry key="rule|text|R-VUV-LY3">Ní féidir 'Liosta EED (Basis)' (BT-811(a)-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-VV0-R8G">Ní mór luach ó liosta cóid (permission) a bheith in 'Féadfaidh tairgeoirí níos mó ná tairiscint amháin a chur isteach' (BT-769-Lot)</entry>
@@ -3242,7 +3205,6 @@
 <entry key="rule|text|R-W48-YI9">'Eagraíocht a phróiseálann tairiscintí' (OPT-301-Lot-TenderEval) níl ceadaithe</entry>
 <entry key="rule|text|R-W4F-8OC">Ní féidir 'Líon na ngearánach' (BT-712(a)-LotResult) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-W4X-DYE">Staitisticí na n-iarratas faighte: Caithfear líon iomlán na 'Tairiscintí ó thairgeoirí atá cláraithe i dtíortha lasmuigh den Limistéar Eorpach Eacnamaíoch' (BT-760-LotResult = t-no-eea) a shonrú uair amháin go díreach</entry>
-<entry key="rule|text|R-W4Z-1B5">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-W50-182">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas breise' (OPP-130-Business-Language)</entry>
 <entry key="rule|text|R-W5D-ELV">Ní mór gné 'listName' a bheith i láthair le haghaidh 'EED inbhuanaithe' (BT-810-Lot-List)</entry>
 <entry key="rule|text|R-W5K-89C">'Spriocdháta chun imréiteach slándála a fháil' (BT-78-Lot) níl ceadaithe, nuair: Is ionann 'Tá gá le himréiteach slándála' (BT-578) agus 'níl'</entry>
@@ -3260,6 +3222,7 @@
 <entry key="rule|text|R-W8T-0RM">Ní mór 'Uasluach an chreat-chomhaontaithe' (BT-271-Procedure) a bheith i gcomhréir leis an bpatrún seo a leanas: AmountValue</entry>
 <entry key="rule|text|R-W9I-W7Y">Ní mór luach ó liosta cóid (procedure-type-27) a bheith in 'An cineál nóis imeachta' (BT-105-Procedure)</entry>
 <entry key="rule|text|R-W9R-98T">'Athsheolfar an nós imeachta sin' (BT-634-Procedure) níl ceadaithe</entry>
+<entry key="rule|text|R-WA6-APY">Tá 'Líon na ngearánach' (BT-712(b)-LotResult) nó 'Líon na n-iarratas ar athbhreithniú ceannaitheora' (BT-635-LotResult) ar iarraidh ó thoradh birt.</entry>
 <entry key="rule|text|R-WA7-HAT">Ní mór 'Aitheantóir an fhógra' (BT-701-notice) a bheith i gcomhréir leis an bpatrún seo a leanas: ProcedureOrNoticeID</entry>
 <entry key="rule|text|R-WB0-J5L">'An bonn cirt atá le fad an chreat-chomhaontaithe' (BT-109-Lot) is éigeantach, nuair: Ní bheidh fad an mhír níos faide ná 4 bliana.</entry>
 <entry key="rule|text|R-WBQ-59W">'Tuilleadh sonraí faoi chistí an Aontais' (BT-6140-Lot) níl ceadaithe, nuair: Níl 'Aitheantóir chistí an Aontais' (BT-5010) ná 'Clár um chistí an Aontais' (BT-7220) líonta isteach</entry>
@@ -3406,7 +3369,6 @@
 <entry key="rule|text|R-XSU-3GA">'Earnáil na gníomhaíochta' (OPP-105-Business) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
 <entry key="rule|text|R-XTC-324">Ní mór luach ó liosta cóid (legal-basis-12) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
 <entry key="rule|text|R-XTO-IX7">Ní mór gné 'listName' a bheith i láthair le haghaidh 'EED tomhas spórála' (OPT-081-LotResult-List)</entry>
-<entry key="rule|text|R-XTR-ILB">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-XVA-DRD">Ní mór luach ó liosta cóid (tender-guarantee-required) a bheith in 'Tá ceangal ann ráthaíocht a thabhairt' (BT-751-Lot)</entry>
 <entry key="rule|text|R-XVB-7HS">Suim na gcinn uile 'Uimhir an chritéir dámhachtana' (BT-541) de chineál 'Ualú (deachúil, beacht)' ní mór a bheith cothrom le 1 do gach critéir sa ghrúpa lots</entry>
 <entry key="rule|text|R-XVJ-0HH">Ní féidir 'Catagóirí ceannaitheora' (OPT-090-Lot) a bheith ann níos mó ná huair amháin</entry>
@@ -3450,7 +3412,7 @@
 <entry key="rule|text|R-Y82-A07">Ní féidir 'Tuilleadh sonraí faoi chistí an Aontais' (BT-6140-Lot) a bheith níos faide ná 6,000 carachtar</entry>
 <entry key="rule|text|R-Y8T-HJS">Suim na gcinn uile 'Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim' (BT-752) de chineál 'Ualú (céatadán, beacht)' ní mór a bheith cothrom le 100</entry>
 <entry key="rule|text|R-Y8Y-44I">Ní mór luach ó liosta cóid (legal-basis-32) a bheith in 'Bunús dlí an nós imeachta' (BT-01-notice)</entry>
-<entry key="rule|text|R-Y8Y-F09">'Dáta oscailte' (BT-132(t)-Lot) níl ceadaithe, nuair: 'Sprioc-am chun eolas breise a iarraidh' (BT-132(d)-Lot) tá comhlánaithe</entry>
+<entry key="rule|text|R-Y8Y-F09">'Am an oscailt phoiblí' (BT-132(t)-Lot) níl ceadaithe, nuair: 'Sprioc-am chun eolas breise a iarraidh' (BT-132(d)-Lot) tá comhlánaithe</entry>
 <entry key="rule|text|R-Y95-HPO">Ní mór luach ó liosta cóid (eu-official-language) a bheith in 'Eolas faoi spriocdhátaí athbhreithnithe' (BT-99-Lot-Language)</entry>
 <entry key="rule|text|R-Y99-JBR">'Fochonraitheoireacht' (BT-773-Tender) níl ceadaithe, nuair: Níl 'ID teicniúil an tairiscint' (OPT-321-Tender) líonta isteach</entry>
 <entry key="rule|text|R-Y9D-SGW">Ní féidir 'Cód' (BT-67(a)-Procedure) a bheith ann níos mó ná huair amháin</entry>
@@ -3503,7 +3465,6 @@
 <entry key="rule|text|R-YT8-ZP6">Ní mór luach ó liosta cóid (nuts-lvl3) a bheith in 'Foroinn tíre (NUTS)' (BT-507-Business)</entry>
 <entry key="rule|text|R-YUA-PJ2">Ní féidir 'Aidhm an tsoláthair straitéisigh' (BT-06-Lot) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-YUX-UJP">'Aitheantóir birt na dtorthaí' (BT-13713-LotResult) níor chóir go mbeadh spásanna tosaigh nó deiridh aige</entry>
-<entry key="rule|text|R-YUZ-K95">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-YV7-VPT">Ní féidir 'R-phost' (BT-506-Organization-Company) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-YVB-IXU">Ní mór luach ó liosta cóid (communication-justification) a bheith in 'An bonn cirt leis an rochtain ar dhoiciméid soláthair áirithe a shrianadh' (BT-707-Lot)</entry>
 <entry key="rule|text|R-YVD-NLZ">Ní mór luach ó liosta cóid (indicator) a bheith in 'Tá uaslíon iarrthóirí ann a n-iarrfar orthu a bheith páirteach sa dara céim den nós imeachta' (BT-661-Lot)</entry>
@@ -3512,7 +3473,6 @@
 <entry key="rule|text|R-YWR-58S">Ní mór luach ó liosta cóid (notice-subtype) a bheith in 'Fochineál an fhógra' (OPP-070-notice)</entry>
 <entry key="rule|text|R-YWS-I8K">Ní féidir 'Eagraíocht a sholáthraíonn faisnéis faoi reachtaíocht cánach' (OPT-301-Part-FiscalLegis) a bheith ann níos mó ná huair amháin</entry>
 <entry key="rule|text|R-YY1-6NF">Ní mór gné 'listName' a bheith i láthair le haghaidh 'Cineál an chonartha' (BT-23-Part-List)</entry>
-<entry key="rule|text|R-YZY-RI3">Ní mór 'An dáta a fhoilseofar é seo' (BT-198) a bheith idir 2 lá agus 10 mblianta tar éis 'Dáta seolta an fhógra'</entry>
 <entry key="rule|text|R-Z0J-AVA">Ní féidir 'Seoladh poist' (BT-5101(b)-Procedure) a bheith níos faide ná 400 carachtar</entry>
 <entry key="rule|text|R-Z0X-7DD">Más ionann 'Cineál an fhógra' (BT-02) agus 'Fógra maidir le dámhachtain conartha nó lamháltais — an córas éadrom', ansin ní mór 'Fochineál an fhógra' (OPP-070) a bheith 33, 34 nó 35</entry>
 <entry key="rule|text|R-Z10-F9I">'Dáta deiridh an tréimhse' (BT-537-Part) níl ceadaithe, nuair: 'Dáta tosaithe' (BT-536-Part) agus 'Fad ama eile' (BT-538-Part) tá i láthair, nó 'Dáta tosaithe' (BT-536-Part) agus 'Fad ama' (BT-36-Part) tá i láthair, nó 'Fad ama eile' (BT-538-Part) tá i láthair agus comhionann le 'Neamhtheoranta'</entry>

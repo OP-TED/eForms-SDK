@@ -7,8 +7,7 @@
     "displayTypes" : [ "TEXTBOX" ],
     "attribute" : {
       "name" : "currencyID",
-      "description" : "ISO 4217 currency code",
-      "valueType" : "string"
+      "description" : "ISO 4217 currency code"
     }
   }, {
     "type" : "code",
@@ -18,8 +17,7 @@
     "displayTypes" : [ "COMBOBOX", "RADIO" ],
     "attribute" : {
       "name" : "listName",
-      "description" : "Codelist identifier",
-      "valueType" : "string"
+      "description" : "Codelist identifier"
     }
   }, {
     "type" : "date",
@@ -29,6 +27,8 @@
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "duration",
+    "description" : "DateTime duration",
+    "maskingValue" : "-1",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "email",
@@ -44,8 +44,7 @@
     "displayTypes" : [ "TEXTBOX" ],
     "attribute" : {
       "name" : "schemeName",
-      "description" : "Identifier scheme name",
-      "valueType" : "string"
+      "description" : "Identifier scheme name"
     }
   }, {
     "type" : "id-ref",
@@ -55,8 +54,7 @@
     "displayTypes" : [ "COMBOBOX" ],
     "attribute" : {
       "name" : "schemeName",
-      "description" : "Identifier scheme name",
-      "valueType" : "string"
+      "description" : "Identifier scheme name"
     }
   }, {
     "type" : "indicator",
@@ -78,8 +76,7 @@
     "displayTypes" : [ "COMBOBOX", "RADIO" ],
     "attribute" : {
       "name" : "listName",
-      "description" : "Codelist identifier",
-      "valueType" : "string"
+      "description" : "Codelist identifier"
     }
   }, {
     "type" : "measure",
@@ -89,8 +86,7 @@
     "displayTypes" : [ "TEXTBOX" ],
     "attribute" : {
       "name" : "unitCode",
-      "description" : "UN/ECE Recommendation 20 unit code",
-      "valueType" : "string"
+      "description" : "UN/ECE Recommendation 20 unit code"
     }
   }, {
     "type" : "number",
@@ -118,8 +114,7 @@
     "displayTypes" : [ "TEXTBOX", "TEXTAREA" ],
     "attribute" : {
       "name" : "languageID",
-      "description" : "ISO 639-1 language code",
-      "valueType" : "string"
+      "description" : "ISO 639-1 language code"
     }
   }, {
     "type" : "time",
