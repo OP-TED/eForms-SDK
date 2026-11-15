@@ -1118,6 +1118,12 @@
       }, {
         "ruleId" : "R-QAW-CV4",
         "nodes" : [ "ND-ContractModification" ]
+      }, {
+        "ruleId" : "R-BXJ-MMD",
+        "fields" : [ "BT-04-notice" ]
+      }, {
+        "ruleId" : "R-XCZ-W1A",
+        "fields" : [ "BT-23-Procedure" ]
       } ]
     }
   }, {
@@ -9082,7 +9088,7 @@
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-262-Procedure", "BT-531-Procedure", "BT-23-Procedure-List" ]
+        "fields" : [ "BT-1501(n)-Contract", "BT-262-Procedure", "BT-531-Procedure", "BT-758-notice", "BT-23-Procedure-List" ]
       }
     }
   }, {
@@ -9295,7 +9301,7 @@
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-120-Lot", "BT-644-Lot", "BT-630(d)-Lot", "BT-13713-LotResult", "BT-130-Lot", "BT-131(d)-Lot", "BT-1311(d)-Lot", "BT-132(d)-Lot", "BT-50-Lot", "BT-52-Lot", "BT-98-Lot", "OPA-98-Lot-Number", "BT-47-Lot", "BT-45-Lot", "BT-106-Procedure", "BT-136-Procedure", "BT-133-Lot", "BT-134-Lot", "BT-661-Lot", "BT-145-Contract", "BT-105-Procedure-List" ]
+        "fields" : [ "BT-120-Lot", "BT-644-Lot", "BT-630(d)-Lot", "BT-13713-LotResult", "BT-130-Lot", "BT-131(d)-Lot", "BT-1311(d)-Lot", "BT-132(d)-Lot", "BT-50-Lot", "BT-52-Lot", "BT-98-Lot", "OPA-98-Lot-Number", "BT-47-Lot", "BT-45-Lot", "BT-106-Procedure", "BT-136-Procedure", "BT-133-Lot", "BT-134-Lot", "BT-661-Lot", "BT-145-Contract", "BT-758-notice", "BT-105-Procedure-List" ]
       }
     }
   }, {
@@ -10550,6 +10556,11 @@
         "ruleId" : "R-89L-YUS",
         "nodes" : [ "ND-Root" ]
       } ]
+    },
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-1501(n)-Contract", "BT-758-notice" ]
+      }
     }
   }, {
     "id" : "BT-05(a)-notice",
@@ -12630,6 +12641,15 @@
       "assert" : [ {
         "ruleId" : "R-XEB-Q3P",
         "nodes" : [ "ND-Changes" ]
+      }, {
+        "ruleId" : "R-9KT-CGL",
+        "fields" : [ "BT-04-notice" ]
+      }, {
+        "ruleId" : "R-UXA-3RW",
+        "fields" : [ "BT-105-Procedure" ]
+      }, {
+        "ruleId" : "R-ATR-N27",
+        "fields" : [ "BT-23-Procedure" ]
       } ]
     },
     "requiredBy" : {
