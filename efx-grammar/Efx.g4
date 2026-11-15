@@ -739,10 +739,11 @@ linkedExpressionBlock: formattedExpressionBlock linkBlock;
  * expression, ${BT-00-Number * 2}, according to the type of its result. The field identifier is
  * listed first, so that it takes precedence over the general expression.
  *
- * Format options can follow a pipe: a number of decimals, from 0 to 9, or one of the keywords short,
- * medium or long, optionally followed by the keyword no-unit; or the keyword no-formatting, which
- * displays the value of a field as entered, and the value of any other expression as it is, without
- * a unit. Which options apply to which types is decided by the template translator.
+ * Format options can follow a pipe: a number of decimals, from 0 to 9, optionally followed by the
+ * keyword no-unit; one of the keywords short, medium or long; the keyword no-unit alone; or the
+ * keyword no-formatting, which displays the value of a field as entered, and the value of any other
+ * expression as it is, without a unit. Which options apply to which types is decided by the template
+ * translator.
  */
 formattedExpressionBlock
     : StartExpressionBlock FieldId formatOptions? EndBlock      # fieldExpressionBlock          // ${BT-00-Number|2}
@@ -750,11 +751,12 @@ formattedExpressionBlock
     | ShorthandFieldValueReferenceFromContextField              # contextFieldExpressionBlock   // $value
     ;
 formatOptions
-    : Pipe formatSpecifier FormatNoUnit?
+    : Pipe FormatDecimals FormatNoUnit?
+    | Pipe formatStyle
     | Pipe FormatNoUnit
     | Pipe FormatNoFormatting
     ;
-formatSpecifier: FormatDecimals | FormatShort | FormatMedium | FormatLong;
+formatStyle: FormatShort | FormatMedium | FormatLong;
 
 /**
  * A line-break is a newline character (\n).
