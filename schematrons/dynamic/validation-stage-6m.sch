@@ -5,9 +5,9 @@
         <let name="noticeIsInEformsFormat" value="number(efx:call-api('tedmon', 'notice-is-in-eforms-format', (./normalize-space(text()))))"/>
         <let name="noticeHasNoSubsequentChangeNotice" value="number(efx:call-api('tedmon', 'notice-has-no-subsequent-change-notice', (./normalize-space(text()))))"/>
         <let name="noticeHasNotBeenCancelled" value="number(efx:call-api('tedmon', 'notice-has-not-been-cancelled', (./normalize-space(text()))))"/>
-        <let name="__apiResult1" value="number(efx:call-api('tedmon', 'notice-procedure-identifier-is', (./normalize-space(text()), ../../../../../../cbc:ContractFolderID/normalize-space(text()))))"/>
-        <let name="__apiResult2" value="number(efx:call-api('tedmon', 'notice-procedure-type-is', (./normalize-space(text()), ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()))))"/>
-        <let name="__apiResult3" value="number(efx:call-api('tedmon', 'notice-main-nature-is', (./normalize-space(text()), ../../../../../../cac:ProcurementProject/cbc:ProcurementTypeCode/normalize-space(text()))))"/>
+        <let name="__apiResult1" value="number(if ($noticeIsPublished = 1 and $noticeIsInEformsFormat = 1 and ../../../../../../cbc:ContractFolderID) then number(efx:call-api('tedmon', 'notice-procedure-identifier-is', (./normalize-space(text()), ../../../../../../cbc:ContractFolderID/normalize-space(text())))) else 0)"/>
+        <let name="__apiResult2" value="number(if ($noticeIsPublished = 1 and $noticeIsInEformsFormat = 1 and ../../../../../../cac:TenderingProcess/cbc:ProcedureCode) then number(efx:call-api('tedmon', 'notice-procedure-type-is', (./normalize-space(text()), ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text())))) else 0)"/>
+        <let name="__apiResult3" value="number(if ($noticeIsPublished = 1 and $noticeIsInEformsFormat = 1 and ../../../../../../cac:ProcurementProject/cbc:ProcurementTypeCode) then number(efx:call-api('tedmon', 'notice-main-nature-is', (./normalize-space(text()), ../../../../../../cac:ProcurementProject/cbc:ProcurementTypeCode/normalize-space(text())))) else 0)"/>
         <assert id="R-FOG-SJL-api-error-noticeIsPublished" role="WARNING" test="not($noticeIsPublished = -1)">rule|text|api-warning</assert>
         <assert id="R-FOG-SJL" role="ERROR" test="($noticeIsPublished = -1) or ($noticeIsPublished = 1)">rule|text|R-FOG-SJL</assert>
         <assert id="R-7BG-GRQ-api-error-noticeIsPublished" role="WARNING" test="not($noticeIsPublished = -1)">rule|text|api-warning</assert>
@@ -40,8 +40,8 @@
         <let name="noticeIsInEformsFormat" value="number(efx:call-api('tedmon', 'notice-is-in-eforms-format', (./normalize-space(text()))))"/>
         <let name="noticeHasNoSubsequentChangeNotice" value="number(efx:call-api('tedmon', 'notice-has-no-subsequent-change-notice', (./normalize-space(text()))))"/>
         <let name="noticeHasNotBeenCancelled" value="number(efx:call-api('tedmon', 'notice-has-not-been-cancelled', (./normalize-space(text()))))"/>
-        <let name="__apiResult4" value="number(efx:call-api('tedmon', 'notice-procedure-identifier-is', (./normalize-space(text()), ../../../../../../cbc:ContractFolderID/normalize-space(text()))))"/>
-        <let name="__apiResult5" value="number(efx:call-api('tedmon', 'notice-main-nature-is', (./normalize-space(text()), ../../../../../../cac:ProcurementProject/cbc:ProcurementTypeCode/normalize-space(text()))))"/>
+        <let name="__apiResult4" value="number(if ($noticeIsPublished = 1 and $noticeIsInEformsFormat = 1 and ../../../../../../cbc:ContractFolderID) then number(efx:call-api('tedmon', 'notice-procedure-identifier-is', (./normalize-space(text()), ../../../../../../cbc:ContractFolderID/normalize-space(text())))) else 0)"/>
+        <let name="__apiResult5" value="number(if ($noticeIsPublished = 1 and $noticeIsInEformsFormat = 1 and ../../../../../../cac:ProcurementProject/cbc:ProcurementTypeCode) then number(efx:call-api('tedmon', 'notice-main-nature-is', (./normalize-space(text()), ../../../../../../cac:ProcurementProject/cbc:ProcurementTypeCode/normalize-space(text())))) else 0)"/>
         <assert id="R-KDN-YQK-api-error-noticeIsPublished" role="WARNING" test="not($noticeIsPublished = -1)">rule|text|api-warning</assert>
         <assert id="R-KDN-YQK" role="ERROR" test="($noticeIsPublished = -1) or ($noticeIsPublished = 1)">rule|text|R-KDN-YQK</assert>
         <assert id="R-0H4-QFU-api-error-noticeIsPublished" role="WARNING" test="not($noticeIsPublished = -1)">rule|text|api-warning</assert>
