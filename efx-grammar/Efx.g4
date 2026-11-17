@@ -119,9 +119,9 @@ parameterDeclaration: typeDeclaration Colon VariablePrefix parameterName=Identif
 // Parameter values are not part of an EFX expression. 
 // However, an EFX Parser can and should be used to parse and validate them.
 // The parameterValue rule below defines the valid parameter values. 
-// A parameter value must be enclosed in an expression block so that the EFX lexer can switch 
-// from its DEFAULT mode to EXPRESSION mode in order to recognise the parameter value.
-parameterValue: StartExpressionBlock (scalarParameterValue | sequenceParameterValue) EndBlock;
+// A parameter value is a literal written on its own, so the EFX lexer must start in EXPRESSION mode
+// to recognise it.
+parameterValue: (scalarParameterValue | sequenceParameterValue) EOF;
 scalarParameterValue: stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral;
 sequenceParameterValue: stringSequenceLiteral | numericSequenceLiteral | dateSequenceLiteral | timeSequenceLiteral | durationSequenceLiteral | booleanSequenceLiteral;
 
