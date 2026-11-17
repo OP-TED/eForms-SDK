@@ -42,14 +42,12 @@ options { tokenVocab=EfxLexer;}
  * If you do not need to process EFX templates, then you can create a full EFX parser that parses these expressions.
  * A single-expression contains two parts: a context-declaration and an expression-block.
  *
- * EFX-1 syntax: {context, params} ${expression}
- * EFX-2 syntax: WITH context, params COMPUTE expression
+ * EFX-1 syntax: {context, params} ${expression}, or {context, params} &{selection} for a selector
+ * EFX-2 syntax: WITH context, params COMPUTE expression, or WITH context, params SELECT selection for a selector
  */
 singleExpression
-    : StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF      // EFX-1
-    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Compute expression EOF                         // EFX-2
-    | StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock selectorBlock EOF       // EFX-1 style selector
-    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Select selection EOF                          // EFX-2 selector
+    : StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock (expressionBlock | selectorBlock) EOF   // EFX-1
+    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) EOF                // EFX-2
     ;
 
 /****************************************************************************** 
