@@ -711,21 +711,21 @@ indentation: Tabs | Spaces | MixedIndent;
 template: templateFragment;
 
 
+/*
+ * A label or an expression block followed by a link block is displayed as a hyperlink, and so is
+ * the last word of a text followed by a link block (linkedTextBlock).
+ */
 templateFragment
-    : lineBreak templateFragment?                   # secondaryTemplate
-    | textBlock templateFragment?                   # textTemplate
-    | labelBlock templateFragment?                  # labelTemplate
-    | formattedExpressionBlock templateFragment?    # expressionTemplate
-    | linkedTextBlock templateFragment?             # linkedTextTemplate
-    | linkedLabelBlock templateFragment?            # linkedLabelTemplate
-    | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
+    : lineBreak templateFragment?                               # secondaryTemplate
+    | textBlock templateFragment?                               # textTemplate
+    | labelBlock linkBlock? templateFragment?                   # labelTemplate
+    | formattedExpressionBlock linkBlock? templateFragment?     # expressionTemplate
+    | linkedTextBlock templateFragment?                         # linkedTextTemplate
     ;
 
 linkBlock: StartHyperlinkBlock expression EndBlock;
 
 linkedTextBlock: textBlock linkBlock;
-linkedLabelBlock: labelBlock linkBlock;
-linkedExpressionBlock: formattedExpressionBlock linkBlock;
 
 /**
  * A formatted expression block displays a value formatted according to its type: a number with up to
