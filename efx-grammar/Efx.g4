@@ -46,9 +46,9 @@ options { tokenVocab=EfxLexer;}
  * EFX-2 syntax: WITH context, params COMPUTE expression
  */
 singleExpression
-    : StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF   // EFX-1
+    : StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF      // EFX-1
     | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Compute expression EOF                         // EFX-2
-    | StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock selectorBlock EOF    // EFX-1 style selector
+    | StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock selectorBlock EOF       // EFX-1 style selector
     | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Select selection EOF                          // EFX-2 selector
     ;
 
@@ -694,7 +694,7 @@ dictionaryKeyClause: By expression;
  */
 templateLine
     : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
-    | indentation? OutlineNumber? StartExpressionBlock contextDeclarationBlock EndBlock template CRLF
+    | indentation? OutlineNumber? StartContextBlock contextDeclarationBlock EndBlock template CRLF
     ;
 
 /***

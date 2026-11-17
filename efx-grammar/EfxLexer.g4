@@ -44,7 +44,7 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // If we encounter a single curly brace in the DEFAULT mode, then we are in a line written in EFX-1 style.
 // We will switch to EXPRESSION mode after first pushing the TEMPLATE and SKIP_WHITESPACE modes to the stack
 // so that the lexer will find itself in the right mode after processing the expression block.
-StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
+StartContextBlock: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 // The Let, With, When, and Endpoint keywords switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
@@ -102,7 +102,7 @@ mode SKIP_WHITESPACE;
 // If we encounter a single curly brace in SKIP_WHITESPACE mode, then we are in a line written in EFX-1 style.
 // We will switch to EXPRESSION mode after first exiting the current mode and pushing the TEMPLATE and 
 // SKIP_WHITESPACE modes to the stack so that the lexer will find itself in the right mode after processing the expression block.
-ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
+ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartContextBlock);
 
 LetExpression: LET -> pushMode(EXPRESSION), type(Let);
 WithExpression: WITH -> pushMode(EXPRESSION), type(With);
