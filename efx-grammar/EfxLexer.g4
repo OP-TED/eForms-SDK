@@ -312,7 +312,7 @@ Unique: 'unique';
 Has: 'has';
 No: 'no';
 Duplicates: 'duplicates';
-Every: 'every';
+Every: 'every' | 'EVERY';
 Some: 'some';
 Satisfies: 'satisfies';
 If: 'if';

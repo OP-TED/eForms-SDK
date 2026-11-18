@@ -497,9 +497,11 @@ ruleSet
 /*
  * WITH clause uses the same contextDeclarationBlock as templates.
  * It allows variable declarations before and/or after the context declaration.
+ * WITH EVERY makes the rule apply to every element of the context's kind: the predicates on
+ * the last step of the declared node or field are left out of the rule context.
  */
 withClause
-    : With contextDeclarationBlock
+    : With Every? contextDeclarationBlock
     ;
 
 rules: (simpleRule | conditionalRule)+;
