@@ -2,34 +2,11 @@
 
 These changes are on the `efx-2` branch and will be part of the next pre-release.
 
-- **Dynamic rules (validation stage `6m`)**: 29 rules check a notice against notices that are already published, by calling the dynamic rules API of TED Monitor. They cover the notices referred to in BT-758-notice, BT-1501(n)-Contract, BT-125(i)-Lot, BT-125(i)-Part, OPP-090-Procedure and OPT-100-Contract. The API endpoint (`tedmon`) and its seven functions are declared in `validation/dynamic-functions.efx`, which `rules.efx` includes first; the rules are in `validation/stage-6m.efx`. They are translated into the dynamic Schematron only (`schematrons/dynamic/validation-stage-6m.sch`). The validator sets the URL of the API at run time, in the Schematron variable `apiUrl-tedmon`, which is empty by default. When the API cannot answer, the rules that depend on it report a warning instead of an error.
-- **Generated Schematron requires XSLT 3.0**: both `complete-validation.sch` files now declare `queryBinding="xslt3"`, and the dynamic Schematron uses XSLT 3.0 to make each API call only once and to handle a failed call. Validate with an XSLT 3.0 processor, such as Saxon 12.
-
-# eForms SDK 2.0.0-alpha.5 Release Notes
-
-SDK 2.0.0-alpha.5 is the fifth in a series of pre-releases of the upcoming eForms SDK 2.0.0, building on alpha.1, alpha.2, alpha.3 and alpha.4.
-
-## Caution: Pre-release
-
-Please be aware that **this is a pre-release version** intended to give you a chance to preview and follow the development of the next major version of the SDK.
-
-## Objective
-
-The goal of SDK 2 is to introduce a new version of EFX (the eForms Expression Language) that:
-
-- enhances the template definition vocabulary to allow more accurate and user-friendly notice visualisation that is easier to maintain and share,
-- improves the ability of the language to express business rules with completeness and simplicity, enabling porting of validation rules to engines other than Schematron and supporting live validation on different target platforms,
-- enhances the language in ways that improve its expressiveness and readability, making it easier to write, read, maintain and interpret.
-
-## Contents
-
-This pre-release contains the following changes since alpha.4:
-
-- **Formatting of displayed values in EFX 2 templates**: the expression blocks of a template accept format options, so that the value a template displays can be formatted where it is displayed.
-- **Validation rules no longer filter on the `listName` attribute**: rule contexts and test expressions that selected an element by its `listName` attribute, such as `efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']`, now select the element itself. The codelist a value belongs to is named by its data type in SDK 2 rather than carried per field, so the attribute no longer identifies the element. The affected rules keep their identifiers and messages, and apply to a wider set of elements than before.
-- **Validation stage `1m` added**: SDK 1.16 relaxed a number of `minOccurs` constraints in the schema extensions, moving those cardinality checks out of the schema and into the validation rules. SDK 2 already carried the relaxed schema, but not the rules that replace those checks. A new validation stage, `1m`, now supplies them: 24 presence checks, in `schematrons/static/validation-stage-1m.sch` and `schematrons/dynamic/validation-stage-1m.sch`, registered in `schematrons/schematrons.json` and activated from `complete-validation.sch`.
-- **Metadata refreshed from the eForms Metadata Database**: fields and their forward-format counterparts, notice type definitions, codelists, view templates, validation rules and labels have been regenerated.
-- **`view-templates/summary.efx` removed**: the view it rendered no longer exists in the database and the view template index no longer references the file.
+- **Dynamic rules (stage `6m`)**: 29 rules check a notice against already published notices, through the dynamic rules API of TED Monitor. They are in `validation/stage-6m.efx` and go into the dynamic Schematron only. The validator sets the API URL at run time, in the Schematron variable `apiUrl-tedmon`.
+- **XSLT 3.0 required**: both `complete-validation.sch` files now declare `queryBinding="xslt3"`. Use an XSLT 3.0 processor, such as Saxon 12.
+- **`WITH EVERY` in EFX rules**: applies a rule set to every element of a node or field, regardless of the predicates declared on it.
+- **Stage `1m` written in EFX**: `validation/stage-1m.efx` replaces the hand-written Schematron, which is now generated. Validation results do not change.
+- **New validation rules**: 67 rules added in stages `4` and `5` from the eForms Metadata Database.
 
 ## Download
 
