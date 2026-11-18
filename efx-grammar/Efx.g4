@@ -712,20 +712,19 @@ template: templateFragment;
 
 
 /*
- * A label or an expression block followed by a link block is displayed as a hyperlink, and so is
- * the last word of a text followed by a link block (linkedTextBlock).
+ * A label, an expression block or a text block followed by a link block is displayed as a hyperlink.
+ * A text is read one text block at a time, so a link block after a text makes a hyperlink of its
+ * last text block only: in `see the notice@{...}`, only `notice` is a hyperlink. The template
+ * translator joins the text blocks that follow each other back into one text.
  */
 templateFragment
     : lineBreak templateFragment?                               # secondaryTemplate
-    | textBlock templateFragment?                               # textTemplate
+    | textBlock linkBlock? templateFragment?                    # textTemplate
     | labelBlock linkBlock? templateFragment?                   # labelTemplate
     | formattedExpressionBlock linkBlock? templateFragment?     # expressionTemplate
-    | linkedTextBlock templateFragment?                         # linkedTextTemplate
     ;
 
 linkBlock: StartHyperlinkBlock expression EndBlock;
-
-linkedTextBlock: textBlock linkBlock;
 
 /**
  * A formatted expression block displays a value formatted according to its type: a number with up to
@@ -764,11 +763,10 @@ formatStyle: FormatShort | FormatMedium | FormatLong;
 lineBreak: NewLine;
 
 /**
- * A text-block consists of whitespace and free-text.
- * Escape sequences and character references are handled within the free-text token.
- * It is used to add static content to the template.
+ * A text block is a single token of text: free text without whitespace, whitespace, an escape
+ * sequence or a character reference. It is used to add static content to the template.
  */
-textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
+textBlock: Whitespace | FreeText | OtherEscapeSequence | CharacterReference;
 
 /******************************************************************************
   Labels are matched when the lexical analyser is in LABEL mode
