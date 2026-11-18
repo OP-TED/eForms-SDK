@@ -16827,7 +16827,7 @@ WITH ND-PartProcurementDocument
   ASSERT count(BT-737-Part) == count(distinct-values(BT-737-Part))
     AS ERROR R-H1O-WM9
     FOR BT-737-Part
-    IN 4,5,6
+    IN 4,5,6,E2
 
 WITH ND-PartProcurementScope
   WHEN (BT-23-Part is present) and (BT-531-Part is present)
