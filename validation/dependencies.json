@@ -602,6 +602,9 @@
         "ruleId" : "R-6SO-EH5",
         "fields" : [ "OPT-200-Organization-Company" ],
         "nodes" : [ "ND-Buyer" ]
+      }, {
+        "ruleId" : "R-JS4-9RM",
+        "nodes" : [ "ND-ContractingParty" ]
       } ]
     },
     "requiredBy" : {
@@ -714,6 +717,9 @@
         "ruleId" : "R-TC6-DR2",
         "fields" : [ "BT-758-notice" ],
         "nodes" : [ "ND-ChangedSection" ]
+      }, {
+        "ruleId" : "R-OOW-K37",
+        "nodes" : [ "ND-Change" ]
       } ]
     },
     "requiredBy" : {
@@ -1048,6 +1054,10 @@
         "fields" : [ "OPT-300-Tenderer", "OPT-201-Organization-TouchPoint" ],
         "nodes" : [ "ND-Company" ]
       }, {
+        "ruleId" : "R-LYL-6W2",
+        "fields" : [ "OPP-050-Organization" ],
+        "nodes" : [ "ND-Root" ]
+      }, {
         "ruleId" : "R-3J3-U4M",
         "fields" : [ "BT-137-Lot", "BT-22-Lot", "OPT-321-Tender", "BT-150-Contract", "OPT-210-Tenderer", "OPT-310-Tender", "OPT-316-Contract", "OPT-315-LotResult", "OPT-322-LotResult" ]
       } ]
@@ -1118,6 +1128,9 @@
       }, {
         "ruleId" : "R-QAW-CV4",
         "nodes" : [ "ND-ContractModification" ]
+      }, {
+        "ruleId" : "R-O7M-33I",
+        "nodes" : [ "ND-RootExtension" ]
       }, {
         "ruleId" : "R-BXJ-MMD",
         "fields" : [ "BT-04-notice" ]
@@ -1636,6 +1649,9 @@
       }, {
         "ruleId" : "R-B68-CVW",
         "nodes" : [ "ND-GroupCompositionLotReference" ]
+      }, {
+        "ruleId" : "R-QUV-5GN",
+        "nodes" : [ "ND-GroupComposition" ]
       }, {
         "ruleId" : "R-FIF-B6Y",
         "nodes" : [ "ND-GroupComposition" ]
@@ -2783,6 +2799,9 @@
       }, {
         "ruleId" : "R-OY8-ZB6",
         "nodes" : [ "ND-LotPreviousPlanning" ]
+      }, {
+        "ruleId" : "R-9FQ-A49",
+        "nodes" : [ "ND-LotTenderingProcess" ]
       } ]
     },
     "requiredBy" : {
@@ -2888,6 +2907,9 @@
         "ruleId" : "R-33Z-NXR",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
+      }, {
+        "ruleId" : "R-0Z4-8N4",
+        "nodes" : [ "ND-LotProcurementDocument" ]
       } ]
     }
   }, {
@@ -2905,6 +2927,9 @@
       }, {
         "ruleId" : "R-CK8-CHW",
         "fields" : [ "BT-14-Lot" ],
+        "nodes" : [ "ND-LotProcurementDocument" ]
+      }, {
+        "ruleId" : "R-84J-H6Z",
         "nodes" : [ "ND-LotProcurementDocument" ]
       } ]
     }
@@ -2925,6 +2950,9 @@
         "ruleId" : "R-IT7-IYE",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
+      }, {
+        "ruleId" : "R-5DY-WRA",
+        "nodes" : [ "ND-Lot" ]
       } ]
     }
   }, {
@@ -2939,6 +2967,9 @@
       }, {
         "ruleId" : "R-2QB-819",
         "codelists" : [ "strategic-procurement" ]
+      }, {
+        "ruleId" : "R-4ZT-6BK",
+        "nodes" : [ "ND-Lot" ]
       } ]
     },
     "requiredBy" : {
@@ -3078,6 +3109,10 @@
         "ruleId" : "R-YJ3-SRW",
         "codelists" : [ "cpv" ]
       }, {
+        "ruleId" : "R-MYC-2V3",
+        "fields" : [ "BT-263-Lot" ],
+        "nodes" : [ "ND-LotMainClassification" ]
+      }, {
         "ruleId" : "R-W0T-ORH",
         "fields" : [ "BT-71-Lot" ],
         "nodes" : [ "ND-LotProcurementScope" ]
@@ -3112,11 +3147,14 @@
       }, {
         "ruleId" : "R-UMU-MJP",
         "codelists" : [ "cpv" ]
+      }, {
+        "ruleId" : "R-NI6-766",
+        "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-26(a)-Lot", "BT-685-LotResult" ]
+        "fields" : [ "BT-26(a)-Lot", "BT-262-Lot", "BT-685-LotResult" ]
       }
     }
   }, {
@@ -3177,6 +3215,9 @@
       }, {
         "ruleId" : "R-BEM-4LX",
         "fields" : [ "BT-23-Lot" ],
+        "nodes" : [ "ND-LotProcurementScope" ]
+      }, {
+        "ruleId" : "R-B6F-SLQ",
         "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     },
@@ -3244,6 +3285,9 @@
       }, {
         "ruleId" : "R-PMI-EAT",
         "codelists" : [ "environmental-impact" ]
+      }, {
+        "ruleId" : "R-153-S0E",
+        "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     },
     "requiredBy" : {
@@ -3263,6 +3307,9 @@
       }, {
         "ruleId" : "R-0WP-GHV",
         "codelists" : [ "social-objective" ]
+      }, {
+        "ruleId" : "R-350-LF0",
+        "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     },
     "requiredBy" : {
@@ -3282,6 +3329,9 @@
       }, {
         "ruleId" : "R-2MU-56X",
         "codelists" : [ "innovative-acquisition" ]
+      }, {
+        "ruleId" : "R-C9R-N3P",
+        "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     },
     "requiredBy" : {
@@ -3301,6 +3351,9 @@
       }, {
         "ruleId" : "R-QJ1-T21",
         "codelists" : [ "gpp-criteria" ]
+      }, {
+        "ruleId" : "R-XK4-A7C",
+        "nodes" : [ "ND-Lot" ]
       } ]
     },
     "requiredBy" : {
@@ -3528,6 +3581,9 @@
         "ruleId" : "R-MLG-A8G",
         "fields" : [ "BT-142-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-U5C-1IG",
+        "nodes" : [ "ND-LotResult" ]
       } ]
     },
     "requiredBy" : {
@@ -3558,6 +3614,9 @@
       }, {
         "ruleId" : "R-2ZE-53X",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-262-Lot", "BT-263-Lot" ]
+      }, {
+        "ruleId" : "R-GCW-JSQ",
+        "nodes" : [ "ND-IPIInformation" ]
       } ]
     },
     "requiredBy" : {
@@ -3764,6 +3823,9 @@
       }, {
         "ruleId" : "R-JJ9-LJU",
         "fields" : [ "BT-142-LotResult", "BT-144-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "OPT-315-LotResult", "OPT-316-Contract", "BT-768-Contract" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-OUU-3K9",
         "nodes" : [ "ND-LotResult" ]
       } ]
     },
@@ -3987,6 +4049,9 @@
         "ruleId" : "R-6VL-8OH",
         "nodes" : [ "ND-FinancingParty" ]
       }, {
+        "ruleId" : "R-8KH-1QO",
+        "nodes" : [ "ND-Lot" ]
+      }, {
         "ruleId" : "R-OYW-GFQ",
         "fields" : [ "BT-137-Lot", "OPT-200-Organization-Company", "BT-22-Lot", "OPT-321-Tender", "BT-150-Contract", "OPT-210-Tenderer", "OPT-310-Tender", "OPT-316-Contract", "OPT-315-LotResult", "OPT-322-LotResult" ]
       } ]
@@ -4005,6 +4070,9 @@
       }, {
         "ruleId" : "R-03Y-K9F",
         "nodes" : [ "ND-PayerParty" ]
+      }, {
+        "ruleId" : "R-JI0-FGD",
+        "nodes" : [ "ND-Lot" ]
       }, {
         "ruleId" : "R-7RA-6G3",
         "fields" : [ "BT-137-Lot", "OPT-200-Organization-Company", "BT-22-Lot", "OPT-321-Tender", "BT-150-Contract", "OPT-210-Tenderer", "OPT-310-Tender", "OPT-316-Contract", "OPT-315-LotResult", "OPT-322-LotResult" ]
@@ -4041,6 +4109,9 @@
         "fields" : [ "BT-142-LotResult", "OPT-322-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
+        "ruleId" : "R-ARX-ZQK",
+        "nodes" : [ "ND-LotResult" ]
+      }, {
         "ruleId" : "R-AL8-1DG",
         "fields" : [ "BT-137-Lot", "OPT-200-Organization-Company", "BT-22-Lot", "OPT-321-Tender", "BT-150-Contract", "OPT-210-Tenderer", "OPT-310-Tender", "OPT-316-Contract", "OPT-322-LotResult" ]
       } ]
@@ -4074,6 +4145,9 @@
       }, {
         "ruleId" : "R-VOQ-BY9",
         "fields" : [ "OPT-322-LotResult", "BT-13713-LotResult", "BT-13714-Tender", "BT-1375-Procedure", "BT-330-Procedure", "OPT-321-Tender" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-D7Z-16P",
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-QGS-DVQ",
@@ -4426,6 +4500,9 @@
       }, {
         "ruleId" : "R-LCC-VQB",
         "codelists" : [ "country" ]
+      }, {
+        "ruleId" : "R-4HG-Z5F",
+        "nodes" : [ "ND-LotTender" ]
       } ]
     },
     "requiredBy" : {
@@ -4651,6 +4728,9 @@
       }, {
         "ruleId" : "R-LBC-BXR",
         "codelists" : [ "contract-term" ]
+      }, {
+        "ruleId" : "R-2EK-PWS",
+        "nodes" : [ "ND-LotTender" ]
       } ]
     },
     "requiredBy" : {
@@ -5405,7 +5485,7 @@
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-60-Lot-List" ]
+        "fields" : [ "BT-5010-Lot", "BT-7220-Lot", "BT-60-Lot-List" ]
       }
     }
   }, {
@@ -5483,6 +5563,9 @@
       }, {
         "ruleId" : "R-3VK-A13",
         "codelists" : [ "reserved-procurement" ]
+      }, {
+        "ruleId" : "R-N8O-ZTD",
+        "nodes" : [ "ND-LotReservedParticipation" ]
       } ]
     },
     "requiredBy" : {
@@ -5826,6 +5909,9 @@
       }, {
         "ruleId" : "R-LK7-5ZX",
         "codelists" : [ "selection-criteria-source" ]
+      }, {
+        "ruleId" : "R-AYD-85H",
+        "nodes" : [ "ND-SelectionCriteriaSources" ]
       } ]
     },
     "requiredBy" : {
@@ -5894,6 +5980,9 @@
       }, {
         "ruleId" : "R-0AQ-35G",
         "codelists" : [ "language" ]
+      }, {
+        "ruleId" : "R-Z0L-43E",
+        "nodes" : [ "ND-Lot" ]
       } ]
     }
   }, {
@@ -5976,6 +6065,9 @@
       }, {
         "ruleId" : "R-T89-78C",
         "codelists" : [ "customer-service" ]
+      }, {
+        "ruleId" : "R-EZ4-9BN",
+        "nodes" : [ "ND-LotTenderingTerms" ]
       } ]
     },
     "requiredBy" : {
@@ -6640,6 +6732,9 @@
       }, {
         "ruleId" : "R-JO6-Y0X",
         "codelists" : [ "modification-justification" ]
+      }, {
+        "ruleId" : "R-LSI-MIJ",
+        "nodes" : [ "ND-ContractModification" ]
       } ]
     },
     "requiredBy" : {
@@ -6751,6 +6846,13 @@
       }, {
         "ruleId" : "R-I8A-14Q",
         "nodes" : [ "ND-Funding" ]
+      }, {
+        "ruleId" : "R-Y1J-EJJ",
+        "fields" : [ "BT-60-Lot" ],
+        "nodes" : [ "ND-Lot" ]
+      }, {
+        "ruleId" : "R-IOZ-EX2",
+        "nodes" : [ "ND-NonUBLTenderingTerms" ]
       } ]
     },
     "requiredBy" : {
@@ -6781,6 +6883,9 @@
         "ruleId" : "R-CST-VB3",
         "fields" : [ "BT-65-Lot" ],
         "nodes" : [ "ND-NonUBLTenderingTerms" ]
+      }, {
+        "ruleId" : "R-WV1-9BB",
+        "nodes" : [ "ND-LotTenderingTerms" ]
       } ]
     },
     "requiredBy" : {
@@ -6819,6 +6924,13 @@
       }, {
         "ruleId" : "R-OVA-Z75",
         "codelists" : [ "eu-programme" ]
+      }, {
+        "ruleId" : "R-PQC-1EJ",
+        "fields" : [ "BT-60-Lot" ],
+        "nodes" : [ "ND-Lot" ]
+      }, {
+        "ruleId" : "R-1XE-15L",
+        "nodes" : [ "ND-Lot" ]
       } ]
     },
     "requiredBy" : {
@@ -7278,6 +7390,11 @@
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
         "nodes" : [ "ND-Organization" ]
       } ]
+    },
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "OPT-200-Organization-Company" ]
+      }
     }
   }, {
     "id" : "OPP-051-Organization",
@@ -7360,6 +7477,9 @@
       }, {
         "ruleId" : "R-5OY-W8A",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Tenderer", "OPT-301-Tenderer-SubCont", "BT-633-Organization", "BT-746-Organization" ],
+        "nodes" : [ "ND-Organization" ]
+      }, {
+        "ruleId" : "R-PJW-Z6O",
         "nodes" : [ "ND-Organization" ]
       }, {
         "ruleId" : "R-IWN-04T",
@@ -7974,6 +8094,9 @@
       }, {
         "ruleId" : "R-5HA-5FW",
         "nodes" : [ "ND-PartPreviousPlanning" ]
+      }, {
+        "ruleId" : "R-W77-VOF",
+        "nodes" : [ "ND-PartTenderingProcess" ]
       } ]
     },
     "requiredBy" : {
@@ -8072,6 +8195,9 @@
         "ruleId" : "R-II4-603",
         "fields" : [ "BT-14-Part" ],
         "nodes" : [ "ND-PartProcurementDocument" ]
+      }, {
+        "ruleId" : "R-M0W-ZDV",
+        "nodes" : [ "ND-PartProcurementDocument" ]
       } ]
     }
   }, {
@@ -8089,6 +8215,9 @@
       }, {
         "ruleId" : "R-XQE-1V0",
         "fields" : [ "BT-14-Part" ],
+        "nodes" : [ "ND-PartProcurementDocument" ]
+      }, {
+        "ruleId" : "R-H1O-WM9",
         "nodes" : [ "ND-PartProcurementDocument" ]
       } ]
     }
@@ -8109,6 +8238,9 @@
         "ruleId" : "R-WMT-8BE",
         "fields" : [ "BT-14-Part" ],
         "nodes" : [ "ND-PartProcurementDocument" ]
+      }, {
+        "ruleId" : "R-3Y9-519",
+        "nodes" : [ "ND-Part" ]
       } ]
     }
   }, {
@@ -8221,6 +8353,10 @@
         "ruleId" : "R-AVK-FPY",
         "codelists" : [ "cpv" ]
       }, {
+        "ruleId" : "R-295-V9H",
+        "fields" : [ "BT-263-Part" ],
+        "nodes" : [ "ND-PartMainClassification" ]
+      }, {
         "ruleId" : "R-KIT-1JK",
         "fields" : [ "BT-71-Part" ],
         "nodes" : [ "ND-PartProcurementScope" ]
@@ -8255,11 +8391,14 @@
       }, {
         "ruleId" : "R-4IN-WTU",
         "codelists" : [ "cpv" ]
+      }, {
+        "ruleId" : "R-G5B-4D6",
+        "nodes" : [ "ND-PartProcurementScope" ]
       } ]
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-26(a)-Part" ]
+        "fields" : [ "BT-26(a)-Part", "BT-262-Part" ]
       }
     }
   }, {
@@ -8301,6 +8440,9 @@
         "ruleId" : "R-66U-L1L",
         "fields" : [ "BT-23-Part" ],
         "nodes" : [ "ND-PartProcurementScope" ]
+      }, {
+        "ruleId" : "R-FJC-YA8",
+        "nodes" : [ "ND-PartProcurementScope" ]
       } ]
     },
     "requiredBy" : {
@@ -8334,6 +8476,9 @@
       }, {
         "ruleId" : "R-PY5-QG4",
         "codelists" : [ "reserved-procurement" ]
+      }, {
+        "ruleId" : "R-DBF-8XX",
+        "nodes" : [ "ND-PartReservedParticipation" ]
       } ]
     },
     "requiredBy" : {
@@ -9133,6 +9278,10 @@
         "ruleId" : "R-6M8-SMK",
         "codelists" : [ "cpv" ]
       }, {
+        "ruleId" : "R-83T-R62",
+        "fields" : [ "BT-263-Procedure" ],
+        "nodes" : [ "ND-ProcedureMainClassification" ]
+      }, {
         "ruleId" : "R-6JK-5H9",
         "fields" : [ "BT-23-Procedure" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
@@ -9163,11 +9312,14 @@
       }, {
         "ruleId" : "R-9BH-N7S",
         "codelists" : [ "cpv" ]
+      }, {
+        "ruleId" : "R-A81-0D9",
+        "nodes" : [ "ND-ProcedureProcurementScope" ]
       } ]
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-26(a)-Procedure" ]
+        "fields" : [ "BT-26(a)-Procedure", "BT-262-Procedure" ]
       }
     }
   }, {
@@ -9229,6 +9381,9 @@
         "ruleId" : "R-NE3-BFZ",
         "fields" : [ "BT-23-Procedure" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
+      }, {
+        "ruleId" : "R-85H-DNU",
+        "nodes" : [ "ND-ProcedureProcurementScope" ]
       } ]
     },
     "requiredBy" : {
@@ -9251,6 +9406,9 @@
       }, {
         "ruleId" : "R-FG5-2WK",
         "codelists" : [ "transport-service" ]
+      }, {
+        "ruleId" : "R-X5L-7IK",
+        "nodes" : [ "ND-ProcedureProcurementScope" ]
       } ]
     },
     "requiredBy" : {
@@ -9557,6 +9715,9 @@
       }, {
         "ruleId" : "R-G6W-L0L",
         "codelists" : [ "exclusion-grounds-source" ]
+      }, {
+        "ruleId" : "R-J7E-Z3K",
+        "nodes" : [ "ND-TendererQualificationRequestSources" ]
       } ]
     },
     "requiredBy" : {
@@ -9596,6 +9757,9 @@
         "ruleId" : "R-H9C-BWR",
         "fields" : [ "BT-735-LotResult" ],
         "nodes" : [ "ND-ProcurementDetailsLotResult" ]
+      }, {
+        "ruleId" : "R-C19-KO9",
+        "nodes" : [ "ND-StrategicProcurementInformationLotResult" ]
       } ]
     },
     "requiredBy" : {
@@ -9619,6 +9783,9 @@
         "ruleId" : "R-0A5-IWR",
         "fields" : [ "BT-723-LotResult" ],
         "nodes" : [ "ND-ProcurementStatistics" ]
+      }, {
+        "ruleId" : "R-3LC-YYC",
+        "nodes" : [ "ND-ProcurementDetailsLotResult" ]
       } ]
     },
     "requiredBy" : {
@@ -9890,6 +10057,9 @@
         "ruleId" : "R-2WG-4C0",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-FXS-FBD",
+        "nodes" : [ "ND-ReviewStatus" ]
       } ]
     }
   }, {
@@ -9993,6 +10163,9 @@
         "ruleId" : "R-PL8-4CL",
         "fields" : [ "BT-783-Review", "BT-796-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-6VN-7BL",
+        "nodes" : [ "ND-ReviewStatus" ]
       } ]
     },
     "requiredBy" : {
@@ -10020,6 +10193,9 @@
         "ruleId" : "R-V06-8WK",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-MKU-QPQ",
+        "nodes" : [ "ND-ReviewStatus" ]
       } ]
     },
     "requiredBy" : {
@@ -10046,6 +10222,9 @@
       }, {
         "ruleId" : "R-7YK-D63",
         "fields" : [ "BT-791-Review", "BT-783-Review", "BT-790-Review" ],
+        "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-K9C-3NQ",
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
     },
@@ -10265,6 +10444,9 @@
       }, {
         "ruleId" : "R-NDZ-7WH",
         "fields" : [ "BT-783-Review" ],
+        "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-ZSN-03P",
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
     },
@@ -10770,6 +10952,9 @@
       }, {
         "ruleId" : "R-5BI-S7L",
         "codelists" : [ "main-activity" ]
+      }, {
+        "ruleId" : "R-OWU-D67",
+        "nodes" : [ "ND-Root" ]
       } ]
     },
     "requiredBy" : {
@@ -11232,6 +11417,9 @@
         "fields" : [ "OPT-316-Contract", "OPT-321-Tender" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
+        "ruleId" : "R-2O7-OSL",
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
         "ruleId" : "R-BHP-KX2",
         "fields" : [ "BT-137-Lot", "OPT-200-Organization-Company", "BT-22-Lot", "OPT-321-Tender", "BT-150-Contract", "OPT-210-Tenderer", "OPT-310-Tender", "OPT-316-Contract", "OPT-315-LotResult", "OPT-322-LotResult" ]
       } ]
@@ -11250,6 +11438,9 @@
       }, {
         "ruleId" : "R-9BS-AHF",
         "nodes" : [ "ND-ContractEUFunds" ]
+      }, {
+        "ruleId" : "R-DGA-09F",
+        "nodes" : [ "ND-SettledContract" ]
       } ]
     },
     "requiredBy" : {
@@ -11296,6 +11487,9 @@
       }, {
         "ruleId" : "R-Z1J-HCY",
         "codelists" : [ "eu-programme" ]
+      }, {
+        "ruleId" : "R-Z78-71V",
+        "nodes" : [ "ND-SettledContract" ]
       } ]
     },
     "requiredBy" : {
@@ -11390,6 +11584,9 @@
         "ruleId" : "R-HAK-AUP",
         "nodes" : [ "ND-ContractSignatory" ]
       }, {
+        "ruleId" : "R-641-FPR",
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
         "ruleId" : "R-4ZU-5UE",
         "fields" : [ "BT-137-Lot", "OPT-200-Organization-Company", "BT-22-Lot", "OPT-321-Tender", "BT-150-Contract", "OPT-210-Tenderer", "OPT-310-Tender", "OPT-316-Contract", "OPT-315-LotResult", "OPT-322-LotResult" ]
       } ]
@@ -11456,6 +11653,9 @@
         "ruleId" : "R-BBH-A1X",
         "fields" : [ "BT-717-Lot" ],
         "nodes" : [ "ND-StrategicProcurementInformationLot" ]
+      }, {
+        "ruleId" : "R-IE5-RYC",
+        "nodes" : [ "ND-Lot" ]
       } ]
     },
     "requiredBy" : {
@@ -11483,6 +11683,9 @@
         "ruleId" : "R-GAN-VXS",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-717-Lot" ],
         "nodes" : [ "ND-StrategicProcurementInformationLotResult" ]
+      }, {
+        "ruleId" : "R-JV0-5SU",
+        "nodes" : [ "ND-LotResult" ]
       } ]
     },
     "requiredBy" : {
@@ -11556,6 +11759,9 @@
       }, {
         "ruleId" : "R-DTE-5HX",
         "fields" : [ "OPT-301-Tenderer-SubCont" ],
+        "nodes" : [ "ND-SubContractor" ]
+      }, {
+        "ruleId" : "R-CH5-Q78",
         "nodes" : [ "ND-SubContractor" ]
       }, {
         "ruleId" : "R-E0N-SIV",
@@ -11925,6 +12131,9 @@
       }, {
         "ruleId" : "R-5Y6-44Y",
         "fields" : [ "OPT-300-Tenderer" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-QZV-MQW",
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-TD3-EJL",
@@ -12545,6 +12754,9 @@
       }, {
         "ruleId" : "R-4AJ-BM0",
         "fields" : [ "OPT-202-UBO" ],
+        "nodes" : [ "ND-UBO" ]
+      }, {
+        "ruleId" : "R-IA8-2MI",
         "nodes" : [ "ND-UBO" ]
       } ]
     },
@@ -15593,7 +15805,7 @@
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-644-Lot", "BT-137-Lot", "BT-630(d)-Lot", "BT-50-Lot" ]
+        "fields" : [ "BT-644-Lot", "BT-137-Lot", "BT-630(d)-Lot", "OPT-140-Lot", "BT-06-Lot", "BT-805-Lot", "OPT-301-LotResult-Financing", "OPT-301-LotResult-Paying", "BT-50-Lot", "BT-97-Lot", "BT-5010-Lot", "BT-7220-Lot", "BT-735-Lot" ]
       }
     }
   }, {
@@ -15609,14 +15821,14 @@
     },
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-137-Part" ]
+        "fields" : [ "BT-137-Part", "OPT-140-Part" ]
       }
     }
   }, {
     "id" : "ND-Root",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "OPP-070-notice", "OPT-300-Procedure-Buyer", "BT-136-Procedure", "BT-33-Procedure", "BT-01-notice", "BT-02-notice", "BT-03-notice", "BT-04-notice", "BT-05(a)-notice", "BT-05(b)-notice", "BT-127-notice", "BT-195-notice", "BT-196-notice", "BT-197-notice", "BT-198-notice", "BT-701-notice", "BT-702(a)-notice", "BT-757-notice", "OPP-105-Business", "OPP-130-Business", "OPT-001-notice", "OPT-002-notice", "OPT-999-notice", "BT-738-notice" ],
+        "fields" : [ "OPP-070-notice", "OPT-300-Procedure-Buyer", "OPT-200-Organization-Company", "BT-136-Procedure", "BT-33-Procedure", "BT-01-notice", "BT-02-notice", "BT-03-notice", "BT-04-notice", "BT-05(a)-notice", "BT-05(b)-notice", "BT-127-notice", "BT-195-notice", "BT-196-notice", "BT-197-notice", "BT-198-notice", "BT-701-notice", "BT-702(a)-notice", "BT-757-notice", "OPP-105-Business", "OPP-130-Business", "OPT-001-notice", "OPT-002-notice", "OPT-999-notice", "BT-738-notice" ],
         "nodes" : [ "ND-Lot", "ND-Part" ]
       }
     }
@@ -15624,7 +15836,7 @@
     "id" : "ND-RootExtension",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "OPP-070-notice", "BT-783-Review", "BT-803(d)-notice", "BT-803(t)-notice", "OPP-010-notice", "OPP-011-notice", "OPP-012-notice" ]
+        "fields" : [ "OPP-070-notice", "BT-1501(n)-Contract", "BT-783-Review", "BT-803(d)-notice", "BT-803(t)-notice", "OPP-010-notice", "OPP-011-notice", "OPP-012-notice" ]
       }
     }
   }, {
@@ -15705,6 +15917,13 @@
       }
     }
   }, {
+    "id" : "ND-ContractingParty",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "OPT-300-Procedure-SProvider", "BT-10-Procedure-Buyer", "BT-11-Procedure-Buyer", "BT-508-Procedure-Buyer", "BT-610-Procedure-Buyer", "BT-740-Procedure-Buyer" ]
+      }
+    }
+  }, {
     "id" : "ND-BuyerReviewComplainants",
     "requiredBy" : {
       "assert" : {
@@ -15715,7 +15934,7 @@
     "id" : "ND-Change",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-141(a)-notice", "BT-718-notice", "BT-719-notice" ]
+        "fields" : [ "BT-141(a)-notice", "BT-718-notice", "BT-719-notice", "BT-13716-notice" ]
       }
     }
   }, {
@@ -15750,14 +15969,7 @@
     "id" : "ND-ContractModification",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-1501(c)-Contract", "BT-1501(n)-Contract" ]
-      }
-    }
-  }, {
-    "id" : "ND-ContractingParty",
-    "requiredBy" : {
-      "assert" : {
-        "fields" : [ "BT-10-Procedure-Buyer", "BT-11-Procedure-Buyer", "BT-508-Procedure-Buyer", "BT-610-Procedure-Buyer", "BT-740-Procedure-Buyer" ]
+        "fields" : [ "BT-1501(c)-Contract", "BT-1501(n)-Contract", "BT-200-Contract" ]
       }
     }
   }, {
@@ -15834,7 +16046,7 @@
     "id" : "ND-LotTenderingTerms",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-70-Lot", "BT-18-Lot", "BT-60-Lot", "BT-63-Lot", "BT-65-Lot", "BT-681-Lot", "BT-71-Lot", "BT-736-Lot", "BT-743-Lot", "BT-744-Lot", "BT-75-Lot", "BT-751-Lot", "BT-761-Lot", "BT-764-Lot", "BT-769-Lot", "BT-771-Lot", "BT-772-Lot", "BT-78-Lot", "BT-79-Lot", "BT-801-Lot", "BT-809-Lot", "BT-821-Lot", "BT-94-Lot", "BT-95-Lot", "BT-97-Lot", "BT-98-Lot", "OPA-98-Lot-Number", "OPT-060-Lot", "OPT-071-Lot", "OPT-301-Lot-AddInfo", "OPT-301-Lot-DocProvider", "OPT-301-Lot-TenderEval", "OPT-301-Lot-TenderReceipt" ]
+        "fields" : [ "BT-70-Lot", "BT-18-Lot", "BT-60-Lot", "BT-63-Lot", "BT-65-Lot", "BT-681-Lot", "BT-71-Lot", "BT-736-Lot", "BT-743-Lot", "BT-744-Lot", "BT-75-Lot", "BT-751-Lot", "BT-761-Lot", "BT-764-Lot", "BT-769-Lot", "BT-771-Lot", "BT-772-Lot", "BT-78-Lot", "BT-79-Lot", "BT-801-Lot", "BT-809-Lot", "BT-821-Lot", "BT-94-Lot", "BT-95-Lot", "BT-97-Lot", "BT-98-Lot", "OPA-98-Lot-Number", "OPT-060-Lot", "OPT-071-Lot", "OPT-301-Lot-AddInfo", "OPT-301-Lot-DocProvider", "OPT-301-Lot-TenderEval", "OPT-301-Lot-TenderReceipt", "BT-651-Lot" ]
       }
     }
   }, {
@@ -15925,7 +16137,7 @@
     "id" : "ND-LotTenderingProcess",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-630(d)-Lot", "BT-109-Lot", "BT-111-Lot", "BT-113-Lot", "BT-115-Lot", "BT-124-Lot", "BT-1251-Lot", "BT-13(d)-Lot", "BT-13(t)-Lot", "BT-130-Lot", "BT-131(d)-Lot", "BT-131(t)-Lot", "BT-1311(d)-Lot", "BT-1311(t)-Lot", "BT-132(d)-Lot", "BT-17-Lot", "BT-19-Lot", "BT-50-Lot", "BT-51-Lot", "BT-52-Lot", "BT-631-Lot", "BT-745-Lot", "BT-765-Lot", "BT-766-Lot" ]
+        "fields" : [ "BT-630(d)-Lot", "BT-125(i)-Lot", "BT-109-Lot", "BT-111-Lot", "BT-113-Lot", "BT-115-Lot", "BT-124-Lot", "BT-1251-Lot", "BT-13(d)-Lot", "BT-13(t)-Lot", "BT-130-Lot", "BT-131(d)-Lot", "BT-131(t)-Lot", "BT-1311(d)-Lot", "BT-1311(t)-Lot", "BT-132(d)-Lot", "BT-17-Lot", "BT-19-Lot", "BT-50-Lot", "BT-51-Lot", "BT-52-Lot", "BT-631-Lot", "BT-745-Lot", "BT-765-Lot", "BT-766-Lot" ]
       }
     }
   }, {
@@ -16009,7 +16221,7 @@
     "id" : "ND-LotMainClassification",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-26(m)-Lot" ]
+        "fields" : [ "BT-26(m)-Lot", "BT-262-Lot" ]
       }
     }
   }, {
@@ -16135,7 +16347,7 @@
     "id" : "ND-LotResult",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-119-LotResult", "BT-13713-LotResult", "BT-142-LotResult", "BT-144-LotResult", "BT-636-LotResult", "BT-685-LotResult", "BT-686-LotResult", "BT-687-LotResult", "BT-688-LotResult", "BT-710-LotResult", "BT-711-LotResult", "BT-712(a)-LotResult", "BT-759-LotResult", "BT-760-LotResult", "BT-811(a)-LotResult", "BT-811(b)-LotResult", "BT-812-LotResult", "BT-813-LotResult", "BT-814-LotResult", "BT-815-LotResult", "OPT-080-LotResult", "OPT-081-LotResult", "OPT-301-LotResult-Financing", "OPT-301-LotResult-Paying", "OPT-315-LotResult", "OPT-320-LotResult", "OPT-322-LotResult" ]
+        "fields" : [ "BT-119-LotResult", "BT-13713-LotResult", "BT-142-LotResult", "BT-144-LotResult", "BT-636-LotResult", "BT-685-LotResult", "BT-686-LotResult", "BT-687-LotResult", "BT-688-LotResult", "BT-710-LotResult", "BT-711-LotResult", "BT-712(a)-LotResult", "BT-759-LotResult", "BT-760-LotResult", "BT-811(a)-LotResult", "BT-811(b)-LotResult", "BT-812-LotResult", "BT-813-LotResult", "BT-814-LotResult", "BT-815-LotResult", "OPT-080-LotResult", "OPT-081-LotResult", "OPT-301-LotResult-Financing", "OPT-301-LotResult-Paying", "OPT-315-LotResult", "OPT-320-LotResult", "OPT-322-LotResult", "BT-735-LotResult" ]
       }
     }
   }, {
@@ -16157,6 +16369,13 @@
     "requiredBy" : {
       "assert" : {
         "fields" : [ "BT-685-LotResult", "BT-686-LotResult", "BT-687-LotResult", "BT-688-LotResult" ]
+      }
+    }
+  }, {
+    "id" : "ND-IPIInformation",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-685-LotResult" ]
       }
     }
   }, {
@@ -16384,6 +16603,13 @@
       }
     }
   }, {
+    "id" : "ND-LotReservedParticipation",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-71-Lot" ]
+      }
+    }
+  }, {
     "id" : "ND-LotEInvoicing",
     "requiredBy" : {
       "assert" : {
@@ -16441,6 +16667,13 @@
     }
   }, {
     "id" : "ND-SelectionCriteriaSource",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-821-Lot" ]
+      }
+    }
+  }, {
+    "id" : "ND-SelectionCriteriaSources",
     "requiredBy" : {
       "assert" : {
         "fields" : [ "BT-821-Lot" ]
@@ -16702,7 +16935,7 @@
     "id" : "ND-PartMainClassification",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-26(m)-Part" ]
+        "fields" : [ "BT-26(m)-Part", "BT-262-Part" ]
       }
     }
   }, {
@@ -16724,6 +16957,13 @@
     "requiredBy" : {
       "assert" : {
         "fields" : [ "BT-125(i)-Part", "BT-1251-Part" ]
+      }
+    }
+  }, {
+    "id" : "ND-PartTenderingProcess",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-125(i)-Part", "BT-115-Part", "BT-124-Part", "BT-1251-Part", "BT-13(d)-Part", "BT-13(t)-Part", "BT-765-Part", "BT-766-Part" ]
       }
     }
   }, {
@@ -16787,13 +17027,6 @@
     "requiredBy" : {
       "assert" : {
         "fields" : [ "OPT-301-Part-Mediator", "OPT-301-Part-ReviewInfo", "OPT-301-Part-ReviewOrg" ]
-      }
-    }
-  }, {
-    "id" : "ND-PartTenderingProcess",
-    "requiredBy" : {
-      "assert" : {
-        "fields" : [ "BT-115-Part", "BT-124-Part", "BT-1251-Part", "BT-13(d)-Part", "BT-13(t)-Part", "BT-765-Part", "BT-766-Part" ]
       }
     }
   }, {
@@ -16884,7 +17117,7 @@
     "id" : "ND-ProcedureMainClassification",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-26(m)-Procedure" ]
+        "fields" : [ "BT-26(m)-Procedure", "BT-262-Procedure" ]
       }
     }
   }, {
@@ -16958,6 +17191,13 @@
       }
     }
   }, {
+    "id" : "ND-TendererQualificationRequestSources",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-806-Procedure" ]
+      }
+    }
+  }, {
     "id" : "ND-ProcedureValueEstimate",
     "requiredBy" : {
       "assert" : {
@@ -16968,7 +17208,14 @@
     "id" : "ND-ProcurementDetailsLotResult",
     "requiredBy" : {
       "assert" : {
-        "fields" : [ "BT-723-LotResult" ]
+        "fields" : [ "BT-723-LotResult", "OPT-155-LotResult" ]
+      }
+    }
+  }, {
+    "id" : "ND-StrategicProcurementInformationLotResult",
+    "requiredBy" : {
+      "assert" : {
+        "fields" : [ "BT-723-LotResult", "BT-735-LotResult" ]
       }
     }
   }, {
@@ -17130,13 +17377,6 @@
     "requiredBy" : {
       "assert" : {
         "fields" : [ "BT-735-Lot" ]
-      }
-    }
-  }, {
-    "id" : "ND-StrategicProcurementInformationLotResult",
-    "requiredBy" : {
-      "assert" : {
-        "fields" : [ "BT-735-LotResult" ]
       }
     }
   }, {
