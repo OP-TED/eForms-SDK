@@ -152,7 +152,7 @@ ShorthandLabelType: SHARP LabelType -> type(LabelType);
 StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
 StartSelectorBlock: AMPERSAND LBRACE -> pushMode(EXPRESSION);
 StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
-StartHyperlinkBlock: (TAB | SPACE)* AT LBRACE -> pushMode(EXPRESSION);
+StartHyperlinkBlock: (TAB | SPACE)* AT_SIGN LBRACE -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
 EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
@@ -312,7 +312,8 @@ Unique: 'unique';
 Has: 'has';
 No: 'no';
 Duplicates: 'duplicates';
-Every: 'every' | 'EVERY';
+Every: 'every';
+EVERY: 'EVERY';
 Some: 'some';
 Satisfies: 'satisfies';
 If: 'if';
@@ -322,8 +323,8 @@ For: 'for';
 FOR: 'FOR';
 Return: 'return';
 Distinct: 'distinct';
-As: 'AS' | 'as';
-Any: 'ANY' | 'any';
+As: 'AS';
+Any: 'ANY';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
@@ -455,12 +456,13 @@ PreferredLanguageText: 'preferredLanguageText';
 
 // API call keywords
 EndpointExpression: ENDPOINT -> type(Endpoint);
-Call: 'CALL' | 'call';
-Api: 'API' | 'api';
-At: 'AT' | 'at';
-On: 'ON' | 'on';
-Warn: 'WARN' | 'warn';
-Reject: 'REJECT' | 'reject';
+Call: 'CALL';
+Api: 'API';
+At: 'at';
+AT: 'AT';
+On: 'ON';
+Warn: 'WARN';
+Reject: 'REJECT';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
@@ -473,7 +475,7 @@ FieldId: FieldIdentifier;// | FieldAlias;
 NodeId: NodeIdentifier;// | NodeAlias;
 
 VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
-AtPrefix: AT -> pushMode(IDENTIFIER);
+AtPrefix: AT_SIGN -> pushMode(IDENTIFIER);
 HashPrefix: SHARP -> pushMode(IDENTIFIER);
 FunctionPrefix: '?' -> pushMode(IDENTIFIER);
 
@@ -530,20 +532,20 @@ UnquotedIdentifier: LETTER ('-'? (LETTER | DIGIT)+)* -> popMode, type(Identifier
 
 // Fragments
 fragment EOL: ('\r'? '\n' | '\r' | '\f');
-fragment LET: ('LET' | 'let');
-fragment WITH: ('WITH' | 'with');
-fragment INVOKE: ('INVOKE' | 'invoke');
-fragment DISPLAY: ('DISPLAY' | 'display');
-fragment WHEN: ('WHEN' | 'when');
-fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
-fragment ASSERT: ('ASSERT' | 'assert');
-fragment REPORT: ('REPORT' | 'report');
-fragment COMPUTE: ('COMPUTE' | 'compute');
-fragment SELECT: ('SELECT' | 'select');
-fragment STAGE: ('STAGE' | 'stage');
-fragment ENDPOINT: ('ENDPOINT' | 'endpoint');
-fragment INDEX: ('INDEX' | 'index');
-fragment BY: ('BY' | 'by');
+fragment LET: 'LET';
+fragment WITH: 'WITH';
+fragment INVOKE: 'INVOKE';
+fragment DISPLAY: 'DISPLAY';
+fragment WHEN: 'WHEN';
+fragment OTHERWISE: 'OTHERWISE';
+fragment ASSERT: 'ASSERT';
+fragment REPORT: 'REPORT';
+fragment COMPUTE: 'COMPUTE';
+fragment SELECT: 'SELECT';
+fragment STAGE: 'STAGE';
+fragment ENDPOINT: 'ENDPOINT';
+fragment INDEX: 'INDEX';
+fragment BY: 'BY';
 fragment COMMENT: '//' ~[\r\n\f]*;
 
 fragment TAB: [\t];
@@ -551,7 +553,7 @@ fragment SPACE: [ ];
 fragment LBRACE: '{';
 fragment RBRACE: '}';
 
-fragment AT: '@';
+fragment AT_SIGN: '@';
 fragment DOLLAR: '$';
 fragment AMPERSAND: '&';
 fragment SHARP: '#';

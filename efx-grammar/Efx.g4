@@ -443,7 +443,7 @@ includeDirective: IncludeDirective IncludePath;
  * Named API endpoint declaration with optional compile-time default URL.
  * Generated as Schematron <param> elements, overridable at runtime.
  */
-apiEndpointDeclaration: Endpoint endpointName=StringLiteral (At endpointUrl=StringLiteral)? Semicolon;
+apiEndpointDeclaration: Endpoint endpointName=StringLiteral (AT endpointUrl=StringLiteral)? Semicolon;
 
 /*
  * API function declaration. Declares an external API-backed boolean function
@@ -501,7 +501,7 @@ ruleSet
  * the last step of the declared node or field are left out of the rule context.
  */
 withClause
-    : With Every? contextDeclarationBlock
+    : With EVERY? contextDeclarationBlock
     ;
 
 rules: (simpleRule | conditionalRule)+;
