@@ -65,7 +65,9 @@
         <assert id="R-MA8-D75" role="ERROR" diagnostics="ND-LocalLegalBasisWithID_BT-01_d_-Procedure" test="(not(exists(cbc:DocumentDescription))) or (not(not(exists(cbc:ID))))">rule|text|R-MA8-D75</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']">
+        <assert id="R-Y1J-EJJ" role="ERROR" diagnostics="ND-Lot_BT-5010-Lot" test="(not(exists(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding/efbc:FinancingIdentifier))) or (not(cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'no-eu-funds'))">rule|text|R-Y1J-EJJ</assert>
         <assert id="R-CBB-WWU" role="ERROR" diagnostics="ND-Lot_BT-630_d_-Lot" test="(exists(cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod/cbc:EndDate)) or (not(not(not(../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('restricted','neg-w-call','comp-dial','innovation','oth-mult')) or (exists(cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate)))))">rule|text|R-CBB-WWU</assert>
+        <assert id="R-PQC-1EJ" role="ERROR" diagnostics="ND-Lot_BT-7220-Lot" test="(not(exists(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding/cbc:FundingProgramCode))) or (not(cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'no-eu-funds'))">rule|text|R-PQC-1EJ</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification">
         <assert id="R-G9R-HCI" role="ERROR" diagnostics="ND-LotAdditionalClassification_BT-26_a_-Lot" test="(not(exists(cbc:ItemClassificationCode/@listName))) or (not(not(exists(cbc:ItemClassificationCode))))">rule|text|R-G9R-HCI</assert>

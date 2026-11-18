@@ -2,6 +2,8 @@
 
 #include "stage-1a.efx"
 
+#include "stage-1m.efx"
+
 --- STAGE 2a ---
 
 WITH ND-AcceleratedProcedure
@@ -13294,6 +13296,11 @@ WITH ND-Lot
     AS ERROR R-JU1-PZN
     FOR BT-50-Lot
     IN 16
+  WHEN BT-60-Lot == 'no-eu-funds'
+  ASSERT BT-5010-Lot is not present
+    AS ERROR R-Y1J-EJJ
+    FOR BT-5010-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E3
   WHEN not(BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] or (BT-1311(d)-Lot is present))
   ASSERT BT-630(d)-Lot is present
     AS ERROR R-CBB-WWU
@@ -13304,6 +13311,11 @@ WITH ND-Lot
     AS ERROR R-SV2-SQI
     FOR BT-644-Lot
     IN 23,24
+  WHEN BT-60-Lot == 'no-eu-funds'
+  ASSERT BT-7220-Lot is not present
+    AS ERROR R-PQC-1EJ
+    FOR BT-7220-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E3
 
 WITH ND-LotAdditionalClassification
   WHEN BT-263-Lot is not present
@@ -16066,6 +16078,12 @@ WITH ND-BuyerReviewComplainants
     FOR BT-712(b)-LotResult
     IN *
 
+WITH ND-Change
+  ASSERT count(BT-13716-notice) == count(distinct-values(BT-13716-notice))
+    AS ERROR R-OOW-K37
+    FOR BT-13716-notice
+    IN 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E2,E3,E4,E5,E6,T01,T02
+
 WITH ND-Company
   WHEN (OPT-200-Organization-Company in OPT-300-Procedure-Buyer)
   ASSERT (BT-514-Organization-Company[OPT-200-Organization-Company in OPT-300-Procedure-Buyer] in #lawful-country)
@@ -16093,6 +16111,10 @@ WITH ND-ContractModification
     AS ERROR R-5OM-DHV
     FOR BT-1501(c)-Contract
     IN *
+  ASSERT count(BT-200-Contract) == count(distinct-values(BT-200-Contract))
+    AS ERROR R-LSI-MIJ
+    FOR BT-200-Contract
+    IN 38,39,40,E6,T02
 
 WITH ND-ContractingParty
   WHEN (BT-11-Procedure-Buyer in ['pub-undert', 'pub-undert-cga', 'pub-undert-ra', 'pub-undert-la', 'spec-rights-entity']) and not(BT-02-notice == 'can-modif') and (BT-740-Procedure-Buyer is present)
@@ -16105,8 +16127,16 @@ WITH ND-ContractingParty
     AS ERROR R-V8C-1Q1
     FOR BT-740-Procedure-Buyer
     IN 3,6,9,14,18,19,22,27,28,31,32,35,40,CEI
+  ASSERT count(OPT-300-Procedure-SProvider) == count(distinct-values(OPT-300-Procedure-SProvider))
+    AS ERROR R-JS4-9RM
+    FOR OPT-300-Procedure-SProvider
+    IN 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E2,E3,E4,E5,E6,T01,T02
 
 WITH ND-GroupComposition
+  ASSERT count(BT-1375-Procedure) == count(distinct-values(BT-1375-Procedure))
+    AS ERROR R-QUV-5GN
+    FOR BT-1375-Procedure
+    IN 7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E3,E4,E5,E6
   ASSERT count(BT-1375-Procedure) > 1
     AS ERROR R-FIF-B6Y
     FOR BT-1375-Procedure
@@ -16167,6 +16197,12 @@ WITH ND-GroupComposition
     FOR BT-1375-Procedure
     IN *
 
+WITH ND-IPIInformation
+  ASSERT count(BT-685-LotResult) == count(distinct-values(BT-685-LotResult))
+    AS ERROR R-GCW-JSQ
+    FOR BT-685-LotResult
+    IN 29,30,32,33,34,35,36,37
+
 WITH ND-InterestExpressionReceptionPeriod
   WHEN (BT-630(d)-Lot is present) and (BT-05(a)-notice is present) and (BT-758-notice is not present)
   ASSERT BT-630(d)-Lot > BT-05(a)-notice
@@ -16175,6 +16211,10 @@ WITH ND-InterestExpressionReceptionPeriod
     IN *
 
 WITH ND-Lot
+  ASSERT count(BT-06-Lot) == count(distinct-values(BT-06-Lot))
+    AS ERROR R-4ZT-6BK
+    FOR BT-06-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E3,E4,E5,E6
   WHEN BT-13713-LotResult is present
   ASSERT (BT-137-Lot in BT-13713-LotResult)
     AS ERROR R-8X7-QPX
@@ -16189,6 +16229,34 @@ WITH ND-Lot
     AS ERROR R-XIN-QAK
     FOR BT-137-Lot
     IN 29,30,31,32,33,34,35,36,37
+  ASSERT count(BT-7220-Lot) == count(distinct-values(BT-7220-Lot))
+    AS ERROR R-1XE-15L
+    FOR BT-7220-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E3
+  ASSERT count(BT-735-Lot) == count(distinct-values(BT-735-Lot))
+    AS ERROR R-IE5-RYC
+    FOR BT-735-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,29,30,31,32,33,34,35,38,39,40,E3,E4,E5,E6,T01,T02
+  ASSERT count(BT-805-Lot) == count(distinct-values(BT-805-Lot))
+    AS ERROR R-XK4-A7C
+    FOR BT-805-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E3,E4,E5,E6
+  ASSERT count(BT-97-Lot) == count(distinct-values(BT-97-Lot))
+    AS ERROR R-Z0L-43E
+    FOR BT-97-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E1,E3
+  ASSERT count(OPT-140-Lot) == count(distinct-values(OPT-140-Lot))
+    AS ERROR R-5DY-WRA
+    FOR OPT-140-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E1,E3,T01
+  ASSERT count(OPT-301-LotResult-Financing) == count(distinct-values(OPT-301-LotResult-Financing))
+    AS ERROR R-8KH-1QO
+    FOR OPT-301-LotResult-Financing
+    IN 25,26,27,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6
+  ASSERT count(OPT-301-LotResult-Paying) == count(distinct-values(OPT-301-LotResult-Paying))
+    AS ERROR R-JI0-FGD
+    FOR OPT-301-LotResult-Paying
+    IN 25,26,27,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6
 
 WITH ND-LotAwardCriteria
   ASSERT (every text:$x in BT-5421-Lot satisfies $x == 'ord-imp') or not(some text:$x in BT-5421-Lot satisfies $x == 'ord-imp')
@@ -16285,6 +16353,23 @@ WITH ND-LotFiscalLegislation
     FOR OPT-301-Lot-FiscalLegis
     IN *
 
+WITH ND-LotMainClassification
+  WHEN (BT-262-Lot is present) and (BT-263-Lot is present)
+  ASSERT not(BT-262-Lot in BT-263-Lot)
+    AS ERROR R-MYC-2V3
+    FOR BT-262-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E3,E4,E5,E6,T01,T02
+
+WITH ND-LotProcurementDocument
+  ASSERT count(BT-708-Lot) == count(distinct-values(BT-708-Lot))
+    AS ERROR R-0Z4-8N4
+    FOR BT-708-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E1,E3,T01
+  ASSERT count(BT-737-Lot) == count(distinct-values(BT-737-Lot))
+    AS ERROR R-84J-H6Z
+    FOR BT-737-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E1,E3,T01
+
 WITH ND-LotProcurementScope
   WHEN (BT-23-Lot is present)
   ASSERT BT-23-Lot != 'supplies'
@@ -16316,11 +16401,37 @@ WITH ND-LotProcurementScope
     AS ERROR R-9PG-OI2
     FOR BT-262-Lot
     IN *
+  ASSERT count(BT-263-Lot) == count(distinct-values(BT-263-Lot))
+    AS ERROR R-NI6-766
+    FOR BT-263-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E3,E4,E5,E6,T01,T02
+  ASSERT count(BT-531-Lot) == count(distinct-values(BT-531-Lot))
+    AS ERROR R-B6F-SLQ
+    FOR BT-531-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E3,E4,E5,E6,T01,T02
   WHEN BT-02-notice in ['can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-cfc-social','pin-cfc-standard','pin-rtl','pin-tran','pmc','qu-sy','subco','veat']
   ASSERT (BT-5141-Lot is present) or (BT-727-Lot is present)
     AS ERROR R-P9H-TM5
     FOR BT-727-Lot
     IN *
+  ASSERT count(BT-774-Lot) == count(distinct-values(BT-774-Lot))
+    AS ERROR R-153-S0E
+    FOR BT-774-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E3,E4,E5,E6
+  ASSERT count(BT-775-Lot) == count(distinct-values(BT-775-Lot))
+    AS ERROR R-350-LF0
+    FOR BT-775-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E3,E4,E5,E6
+  ASSERT count(BT-776-Lot) == count(distinct-values(BT-776-Lot))
+    AS ERROR R-C9R-N3P
+    FOR BT-776-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E3,E4,E5,E6
+
+WITH ND-LotReservedParticipation
+  ASSERT count(BT-71-Lot) == count(distinct-values(BT-71-Lot))
+    AS ERROR R-N8O-ZTD
+    FOR BT-71-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,E3
 
 WITH ND-LotResult
   ASSERT ((count(BT-759-LotResult[BT-760-LotResult == 't-small']) == 1) and (count(BT-759-LotResult[BT-760-LotResult == 't-micro']) == 1) and (count(BT-759-LotResult[BT-760-LotResult == 't-med']) == 1) and (count(BT-759-LotResult[BT-760-LotResult == 't-sme']) == 0)) or ((count(BT-759-LotResult[BT-760-LotResult == 't-small']) == 0) and (count(BT-759-LotResult[BT-760-LotResult == 't-micro']) == 0) and (count(BT-759-LotResult[BT-760-LotResult == 't-med']) == 0) and (count(BT-759-LotResult[BT-760-LotResult == 't-sme']) == 1))
@@ -16406,6 +16517,10 @@ WITH ND-LotResult
     AS ERROR R-OVA-H2C
     FOR BT-142-LotResult
     IN T02
+  ASSERT count(BT-636-LotResult) == count(distinct-values(BT-636-LotResult))
+    AS ERROR R-U5C-1IG
+    FOR BT-636-LotResult
+    IN 29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6
   WHEN (BT-710-LotResult is present) and (BT-711-LotResult is present)
   ASSERT BT-710-LotResult <= BT-711-LotResult
     AS ERROR R-S2C-D0M
@@ -16416,6 +16531,22 @@ WITH ND-LotResult
     AS ERROR R-7DT-YS4
     FOR BT-710-LotResult
     IN *
+  ASSERT count(BT-735-LotResult) == count(distinct-values(BT-735-LotResult))
+    AS ERROR R-JV0-5SU
+    FOR BT-735-LotResult
+    IN 29,30,31,32,33,34,35,38,39,40,E4,E5,E6,T02
+  ASSERT count(BT-760-LotResult) == count(distinct-values(BT-760-LotResult))
+    AS ERROR R-OUU-3K9
+    FOR BT-760-LotResult
+    IN 29,30,31,32,33,34,35,36,37,E4,E5
+  ASSERT count(OPT-315-LotResult) == count(distinct-values(OPT-315-LotResult))
+    AS ERROR R-ARX-ZQK
+    FOR OPT-315-LotResult
+    IN 25,26,27,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6,T02
+  ASSERT count(OPT-320-LotResult) == count(distinct-values(OPT-320-LotResult))
+    AS ERROR R-D7Z-16P
+    FOR OPT-320-LotResult
+    IN 25,26,27,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6,T02
 
 WITH ND-LotReviewTerms
   WHEN OPT-301-Lot-Mediator is present
@@ -16439,6 +16570,14 @@ WITH ND-LotTender
     AS ERROR R-PUQ-GXX
     FOR BT-13714-Tender
     IN *
+  ASSERT count(BT-191-Tender) == count(distinct-values(BT-191-Tender))
+    AS ERROR R-4HG-Z5F
+    FOR BT-191-Tender
+    IN 30
+  ASSERT count(OPP-030-Tender) == count(distinct-values(OPP-030-Tender))
+    AS ERROR R-2EK-PWS
+    FOR OPP-030-Tender
+    IN T02
   ASSERT OPT-310-Tender in  OPT-210-Tenderer
     AS ERROR R-9NA-SCU
     FOR OPT-310-Tender
@@ -16454,6 +16593,10 @@ WITH ND-LotTenderingProcess
     AS ERROR R-NME-ANR
     FOR BT-115-Lot
     IN 14,19,28,32,35,40
+  ASSERT count(BT-125(i)-Lot) == count(distinct-values(BT-125(i)-Lot))
+    AS ERROR R-9FQ-A49
+    FOR BT-125(i)-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,E1,E3,E4
   ASSERT (BT-631-Lot < BT-130-Lot) or not(BT-631-Lot is present) or not(BT-130-Lot is present)
     AS ERROR R-BGD-GP8
     FOR BT-130-Lot
@@ -16510,6 +16653,14 @@ WITH ND-LotTenderingProcessExtension
     IN *
 
 WITH ND-LotTenderingTerms
+  ASSERT count(BT-651-Lot) == count(distinct-values(BT-651-Lot))
+    AS ERROR R-WV1-9BB
+    FOR BT-651-Lot
+    IN 9,18,E3
+  ASSERT count(OPT-071-Lot) == count(distinct-values(OPT-071-Lot))
+    AS ERROR R-EZ4-9BN
+    FOR OPT-071-Lot
+    IN T02
   WHEN OPT-301-Lot-AddInfo is present
   ASSERT ((OPT-301-Lot-AddInfo in /OPT-200-Organization-Company) or (OPT-301-Lot-AddInfo in /OPT-201-Organization-TouchPoint))
     AS ERROR R-RHH-HZB
@@ -16575,6 +16726,10 @@ WITH ND-LotsGroupAwardWeightCriterionParameter
     IN *
 
 WITH ND-NonUBLTenderingTerms
+  ASSERT count(BT-5010-Lot) == count(distinct-values(BT-5010-Lot))
+    AS ERROR R-IOZ-EX2
+    FOR BT-5010-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E3
   ASSERT ((((1.00 >= sum(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']))) and ((1.00 - sum(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'])) <= (0.01 * count(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'])))) or (((1.00 <= sum(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']))) and ((sum(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']) - 1.00) <= (0.01 * count(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']))))) or not(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'] is present)
     AS ERROR R-ZYO-8M1
     FOR BT-809-Lot
@@ -16597,6 +16752,10 @@ WITH ND-Organization
     AS ERROR R-84K-WUG
     FOR OPT-201-Organization-TouchPoint
     IN *
+  ASSERT count(OPT-302-Organization) == count(distinct-values(OPT-302-Organization))
+    AS ERROR R-PJW-Z6O
+    FOR OPT-302-Organization
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,E4,E5,T02
   WHEN OPT-302-Organization is present
   ASSERT every text:$ubo in OPT-302-Organization satisfies ($ubo in OPT-202-UBO)
     AS ERROR R-IWN-04T
@@ -16609,6 +16768,12 @@ WITH ND-Organizations
     AS ERROR R-RCF-4JK
     FOR OPT-202-UBO
     IN *
+
+WITH ND-Part
+  ASSERT count(OPT-140-Part) == count(distinct-values(OPT-140-Part))
+    AS ERROR R-3Y9-519
+    FOR OPT-140-Part
+    IN 4,5,6,E2
 
 WITH ND-PartDuration
   WHEN (some text:$x in BT-71-Part satisfies $x == 'res-pub-ser') and (BT-36-Part is present)
@@ -16647,6 +16812,23 @@ WITH ND-PartFiscalLegislation
     FOR OPT-301-Part-FiscalLegis
     IN *
 
+WITH ND-PartMainClassification
+  WHEN (BT-262-Part is present) and (BT-263-Part is present)
+  ASSERT not(BT-262-Part in BT-263-Part)
+    AS ERROR R-295-V9H
+    FOR BT-262-Part
+    IN 4,5,6,E2
+
+WITH ND-PartProcurementDocument
+  ASSERT count(BT-708-Part) == count(distinct-values(BT-708-Part))
+    AS ERROR R-M0W-ZDV
+    FOR BT-708-Part
+    IN 4,5,6,E2
+  ASSERT count(BT-737-Part) == count(distinct-values(BT-737-Part))
+    AS ERROR R-H1O-WM9
+    FOR BT-737-Part
+    IN 4,5,6,E2
+
 WITH ND-PartProcurementScope
   WHEN (BT-23-Part is present) and (BT-531-Part is present)
   ASSERT not(BT-23-Part in BT-531-Part)
@@ -16673,11 +16855,25 @@ WITH ND-PartProcurementScope
     AS ERROR R-TN6-QBC
     FOR BT-262-Part
     IN *
+  ASSERT count(BT-263-Part) == count(distinct-values(BT-263-Part))
+    AS ERROR R-G5B-4D6
+    FOR BT-263-Part
+    IN 4,5,6,E2
+  ASSERT count(BT-531-Part) == count(distinct-values(BT-531-Part))
+    AS ERROR R-FJC-YA8
+    FOR BT-531-Part
+    IN 4,5,6,E2
   WHEN BT-02-notice in ['pin-only']
   ASSERT (BT-5141-Part is present) or (BT-727-Part is present)
     AS ERROR R-2LU-IIE
     FOR BT-727-Part
     IN *
+
+WITH ND-PartReservedParticipation
+  ASSERT count(BT-71-Part) == count(distinct-values(BT-71-Part))
+    AS ERROR R-DBF-8XX
+    FOR BT-71-Part
+    IN 4,5,6,E2
 
 WITH ND-PartReviewTerms
   WHEN OPT-301-Part-Mediator is present
@@ -16695,6 +16891,12 @@ WITH ND-PartReviewTerms
     AS ERROR R-QEY-TBX
     FOR OPT-301-Part-ReviewOrg
     IN *
+
+WITH ND-PartTenderingProcess
+  ASSERT count(BT-125(i)-Part) == count(distinct-values(BT-125(i)-Part))
+    AS ERROR R-W77-VOF
+    FOR BT-125(i)-Part
+    IN 4,5,6,E2
 
 WITH ND-PartTenderingTerms
   WHEN OPT-301-Part-AddInfo is present
@@ -16717,6 +16919,13 @@ WITH ND-PartTenderingTerms
     AS ERROR R-QVH-SKK
     FOR OPT-301-Part-TenderReceipt
     IN *
+
+WITH ND-ProcedureMainClassification
+  WHEN (BT-262-Procedure is present) and (BT-263-Procedure is present)
+  ASSERT BT-262-Procedure not in BT-263-Procedure
+    AS ERROR R-83T-R62
+    FOR BT-262-Procedure
+    IN 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E2,E3,E4,E5,E6,T01,T02
 
 WITH ND-ProcedureProcurementScope
   WHEN (BT-23-Procedure is present)
@@ -16744,11 +16953,23 @@ WITH ND-ProcedureProcurementScope
     AS ERROR R-IAP-K2Y
     FOR BT-262-Procedure
     IN *
+  ASSERT count(BT-263-Procedure) == count(distinct-values(BT-263-Procedure))
+    AS ERROR R-A81-0D9
+    FOR BT-263-Procedure
+    IN 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E2,E3,E4,E5,E6,T01,T02
+  ASSERT count(BT-531-Procedure) == count(distinct-values(BT-531-Procedure))
+    AS ERROR R-85H-DNU
+    FOR BT-531-Procedure
+    IN 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E2,E3,E4,E5,E6,T01,T02
   WHEN BT-02-notice in ['can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat']
   ASSERT (BT-5141-Procedure is present) or (BT-727-Procedure is present)
     AS ERROR R-7X8-WZW
     FOR BT-727-Procedure
     IN *
+  ASSERT count(OPP-040-Procedure) == count(distinct-values(OPP-040-Procedure))
+    AS ERROR R-X5L-7IK
+    FOR OPP-040-Procedure
+    IN T01,T02
 
 WITH ND-ProcedureTenderingProcess
   WHEN (BT-106-Procedure == 'true') and (BT-105-Procedure is present)
@@ -16786,12 +17007,40 @@ WITH ND-ProcedureTenderingProcess
     FOR BT-634-Procedure
     IN *
 
+WITH ND-ProcurementDetailsLotResult
+  ASSERT count(OPT-155-LotResult) == count(distinct-values(OPT-155-LotResult))
+    AS ERROR R-3LC-YYC
+    FOR OPT-155-LotResult
+    IN 29,30,31,32,33,34,35,38,39,40,E4,E5,E6,T02
+
 WITH ND-PublicOpening
   WHEN (BT-132(d)-Lot is present) and (BT-131(d)-Lot is present)
   ASSERT BT-132(d)-Lot >= BT-131(d)-Lot
     AS ERROR R-AKN-L26
     FOR BT-132(d)-Lot
     IN *
+
+WITH ND-ReviewStatus
+  ASSERT count(BT-786-Review) == count(distinct-values(BT-786-Review))
+    AS ERROR R-FXS-FBD
+    FOR BT-786-Review
+    IN 29,30,31,32,33,34,35,36,37,E4,E5
+  ASSERT count(BT-790-Review) == count(distinct-values(BT-790-Review))
+    AS ERROR R-6VN-7BL
+    FOR BT-790-Review
+    IN 29,30,31,32,33,34,35,36,37,E4,E5
+  ASSERT count(BT-791-Review) == count(distinct-values(BT-791-Review))
+    AS ERROR R-MKU-QPQ
+    FOR BT-791-Review
+    IN 29,30,31,32,33,34,35,36,37,E4,E5
+  ASSERT count(BT-792-Review) == count(distinct-values(BT-792-Review))
+    AS ERROR R-K9C-3NQ
+    FOR BT-792-Review
+    IN 29,30,31,32,33,34,35,36,37,E4,E5
+  ASSERT count(BT-808-Review) == count(distinct-values(BT-808-Review))
+    AS ERROR R-ZSN-03P
+    FOR BT-808-Review
+    IN 29,30,31,32,33,34,35,36,37,E4,E5
 
 WITH ND-Root
   WHEN (BT-01-notice == 'other')
@@ -16846,6 +17095,14 @@ WITH ND-Root
     AS ERROR R-QAY-8S3
     FOR BT-738-notice
     IN *
+  ASSERT count(OPP-105-Business) == count(distinct-values(OPP-105-Business))
+    AS ERROR R-OWU-D67
+    FOR OPP-105-Business
+    IN X02
+  ASSERT count(OPT-200-Organization-Company[OPP-050-Organization == TRUE]) < 2
+    AS ERROR R-LYL-6W2
+    FOR OPT-200-Organization-Company
+    IN 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,CEI,E1,E2,E3,E4,E5,E6,T01,T02
   ASSERT (every text:$tenderer in OPT-300-Tenderer satisfies $tenderer not in OPT-300-Procedure-Buyer) and (every text:$subcont in OPT-301-Tenderer-SubCont satisfies $subcont not in OPT-300-Procedure-Buyer)
     AS ERROR R-7Y9-JQW
     FOR OPT-300-Procedure-Buyer
@@ -16857,6 +17114,10 @@ WITH ND-Root
     IN *
 
 WITH ND-RootExtension
+  ASSERT count(BT-1501(n)-Contract) == count(distinct-values(BT-1501(n)-Contract))
+    AS ERROR R-O7M-33I
+    FOR BT-1501(n)-Contract
+    IN 38,39,40,E6,T02
   ASSERT (BT-02-notice == 'brin-ecs')
     AS ERROR R-A2B-FD2
     FOR OPP-070-notice
@@ -16965,6 +17226,12 @@ WITH ND-SecondStage
     FOR BT-51-Lot
     IN *
 
+WITH ND-SelectionCriteriaSources
+  ASSERT count(BT-821-Lot) == count(distinct-values(BT-821-Lot))
+    AS ERROR R-AYD-85H
+    FOR BT-821-Lot
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E3
+
 WITH ND-SettledContract
   WHEN (BT-145-Contract is present) and (BT-05(a)-notice is present)
   ASSERT BT-145-Contract <= BT-05(a)-notice
@@ -16986,13 +17253,45 @@ WITH ND-SettledContract
     AS ERROR R-3AC-QC0
     FOR BT-1451-Contract
     IN *
+  ASSERT count(BT-3202-Contract) == count(distinct-values(BT-3202-Contract))
+    AS ERROR R-2O7-OSL
+    FOR BT-3202-Contract
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6,T02
+  ASSERT count(BT-5011-Contract) == count(distinct-values(BT-5011-Contract))
+    AS ERROR R-DGA-09F
+    FOR BT-5011-Contract
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6
+  ASSERT count(BT-722-Contract) == count(distinct-values(BT-722-Contract))
+    AS ERROR R-Z78-71V
+    FOR BT-722-Contract
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6
+  ASSERT count(OPT-300-Contract-Signatory) == count(distinct-values(OPT-300-Contract-Signatory))
+    AS ERROR R-641-FPR
+    FOR OPT-300-Contract-Signatory
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6
+
+WITH ND-StrategicProcurementInformationLotResult
+  ASSERT count(BT-723-LotResult) == count(distinct-values(BT-723-LotResult))
+    AS ERROR R-C19-KO9
+    FOR BT-723-LotResult
+    IN 29,30,31,32,33,34,35,38,39,40,E4,E5,E6,T02
 
 WITH ND-SubContractor
+  ASSERT count(OPT-301-Tenderer-MainCont) == count(distinct-values(OPT-301-Tenderer-MainCont))
+    AS ERROR R-CH5-Q78
+    FOR OPT-301-Tenderer-MainCont
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6,T02
   WHEN OPT-301-Tenderer-MainCont is present
   ASSERT every text:$main in OPT-301-Tenderer-MainCont satisfies ($main in OPT-300-Tenderer)
     AS ERROR R-E0N-SIV
     FOR OPT-301-Tenderer-MainCont
     IN *
+
+WITH ND-TendererQualificationRequestSources
+  ASSERT count(BT-806-Procedure) == count(distinct-values(BT-806-Procedure))
+    AS ERROR R-J7E-Z3K
+    FOR BT-806-Procedure
+    IN 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,CEI,E3
 
 WITH ND-TenderingParty
   ASSERT ((count(OPT-300-Tenderer) > 1) and (count(OPT-170-Tenderer[OPT-170-Tenderer == TRUE]) == 1)) or not(count(OPT-300-Tenderer) > 1)
@@ -17056,6 +17355,10 @@ WITH ND-TenderingParty
     AS ERROR R-4L5-LUG
     FOR OPT-300-Tenderer
     IN *
+  ASSERT count(OPT-301-Tenderer-SubCont) == count(distinct-values(OPT-301-Tenderer-SubCont))
+    AS ERROR R-QZV-MQW
+    FOR OPT-301-Tenderer-SubCont
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,E4,E5,E6,T02
   WHEN OPT-301-Tenderer-SubCont is present
   ASSERT every text:$addInfo in /OPT-301-Lot-AddInfo satisfies $addInfo not in OPT-301-Tenderer-SubCont
     AS ERROR R-TD3-EJL
@@ -17136,6 +17439,12 @@ WITH ND-TenderingParty
     AS ERROR R-9CZ-GDX
     FOR OPT-301-Tenderer-SubCont
     IN *
+
+WITH ND-UBO
+  ASSERT count(BT-706-UBO) == count(distinct-values(BT-706-UBO))
+    AS ERROR R-IA8-2MI
+    FOR BT-706-UBO
+    IN 25,26,27,28,29,30,31,32,33,34,35,36,37,E4,E5,T02
 
 WITH OPP-040-Procedure
   ASSERT OPP-040-Procedure is unique in /OPP-040-Procedure

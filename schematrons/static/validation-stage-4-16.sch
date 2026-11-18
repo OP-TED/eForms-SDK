@@ -65,6 +65,8 @@
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']">
         <assert id="R-JU1-PZN" role="ERROR" diagnostics="ND-Lot_BT-50-Lot" test="(exists(cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MinimumQuantity)) or (not(not(../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')))">rule|text|R-JU1-PZN</assert>
+        <assert id="R-Y1J-EJJ" role="ERROR" diagnostics="ND-Lot_BT-5010-Lot" test="(not(exists(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding/efbc:FinancingIdentifier))) or (not(cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'no-eu-funds'))">rule|text|R-Y1J-EJJ</assert>
+        <assert id="R-PQC-1EJ" role="ERROR" diagnostics="ND-Lot_BT-7220-Lot" test="(not(exists(cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding/cbc:FundingProgramCode))) or (not(cac:TenderingTerms/cbc:FundingProgramCode[@listName='eu-funded']/normalize-space(text()) = 'no-eu-funds'))">rule|text|R-PQC-1EJ</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:AdditionalCommodityClassification">
         <assert id="R-G9R-HCI" role="ERROR" diagnostics="ND-LotAdditionalClassification_BT-26_a_-Lot" test="(not(exists(cbc:ItemClassificationCode/@listName))) or (not(not(exists(cbc:ItemClassificationCode))))">rule|text|R-G9R-HCI</assert>
