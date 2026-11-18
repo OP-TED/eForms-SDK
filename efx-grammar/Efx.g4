@@ -345,10 +345,10 @@ stringFunction
     ;
 
 dateFunction
-    : Date                  OpenParenthesis expression CloseParenthesis                                     # dateConversionFunction
-    | AddDuration           OpenParenthesis expression Comma expression CloseParenthesis                    # addDurationFunction
-    | SubtractDuration      OpenParenthesis expression Comma expression CloseParenthesis                    # subtractDurationFunction
-    | CurrentDateFunction   OpenParenthesis CloseParenthesis                                                # currentDateFunction
+    : Date                     OpenParenthesis expression CloseParenthesis                                  # dateConversionFunction
+    | AddDurationFunction      OpenParenthesis expression Comma expression CloseParenthesis                 # addDurationFunction
+    | SubtractDurationFunction OpenParenthesis expression Comma expression CloseParenthesis                 # subtractDurationFunction
+    | CurrentDateFunction      OpenParenthesis CloseParenthesis                                             # currentDateFunction
     ;
 
 timeFunction
@@ -364,9 +364,9 @@ durationFunction
 sequenceFunction
     : DistinctValuesFunction    OpenParenthesis expression CloseParenthesis                                 # distinctValuesFunction
     | GetDuplicatesFunction     OpenParenthesis expression CloseParenthesis                                 # getDuplicatesFunction
-    | UnionFunction             OpenParenthesis expression Comma expression CloseParenthesis                # valueUnionFunction
-    | IntersectFunction         OpenParenthesis expression Comma expression CloseParenthesis                # valueIntersectFunction
-    | ExceptFunction            OpenParenthesis expression Comma expression CloseParenthesis                # valueExceptFunction
+    | ValueUnionFunction        OpenParenthesis expression Comma expression CloseParenthesis                # valueUnionFunction
+    | ValueIntersectFunction    OpenParenthesis expression Comma expression CloseParenthesis                # valueIntersectFunction
+    | ValueExceptFunction       OpenParenthesis expression Comma expression CloseParenthesis                # valueExceptFunction
     | SortFunction              OpenParenthesis expression CloseParenthesis                                 # sortFunction
     | ReverseFunction           OpenParenthesis expression CloseParenthesis                                 # reverseFunction
     | SubsequenceFunction       OpenParenthesis expression Comma start=expression (Comma length=expression)? CloseParenthesis  # subsequenceFunction
