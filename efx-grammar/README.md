@@ -15,14 +15,16 @@ Operators bind in this order, tightest first:
 1. Parentheses; the predicate and the index after an expression, as in `BT-00-Text[BT-00-Number > 1]` or `$list[at 1]`; and the steps after a reference: `/@attribute`, `::` (a field or node read from another context), `:rawValue`, `:preferredLanguage` and `:preferredLanguageText`.
 2. `*`, `/` and `%`.
 3. `+` and `-`.
-4. The comparisons and conditions, each binding tighter than the next: `==`, `!=`, `<`, `<=`, `>`, `>=`, then `in`, `is unique in`, `is empty`, `has duplicates`, `like` and `is present`.
-5. `and`.
-6. `or`.
-7. `if ... then ... else`, `every ... satisfies`, `some ... satisfies` and `for ... return`.
+4. The conditions, each binding tighter than the next: `in`, `is unique in`, `is empty`, `has duplicates`, `like` and `is present`, and their negations, such as `not in`.
+5. The comparisons: `==`, `!=`, `<`, `<=`, `>` and `>=`.
+6. `and`.
+7. `or`.
+8. `if ... then ... else`, `every ... satisfies`, `some ... satisfies` and `for ... return`.
 
-Two consequences for authors:
+Three consequences for authors:
 
-- The comparisons and conditions do not share a single level. `a == b in c` is read as `(a == b) in c`, so write parentheses when combining them.
+- A comparison takes the result of a condition on either side. `$flag == $country in $allowed` is read as `$flag == ($country in $allowed)`, and `$country in $allowed == $flag` as `($country in $allowed) == $flag`.
+- Operators of the same level are read from the left. `a == b == c` is read as `(a == b) == c`.
 - The expression after `else`, `satisfies` or `return` extends as far to the right as it can. `if c then 1 else 2 == 3` is read as `if c then 1 else (2 == 3)`; to compare the result of the conditional, write `(if c then 1 else 2) == 3`.
 
 ## Predicates and indexes

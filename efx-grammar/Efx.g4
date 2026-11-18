@@ -136,10 +136,10 @@ primitiveType: Text | Indicator | Number | Date | Time | Duration;
 /*
  * Types and cardinality are not part of the grammar: the translator infers them.
  * Earlier alternatives bind tighter: the predicate x[c], the index x[at n] and the path steps,
- * then * / %, then + -, then the comparisons and conditions, each binding tighter than the ones
- * listed after it, then and, then or. The prefix forms come last, so the expression after else,
- * satisfies or return extends as far to the right as it can: if c then 1 else 2 == 3 compares 2
- * with 3.
+ * then * / %, then + -, then the conditions, each binding tighter than the ones listed after it,
+ * then the comparisons, then and, then or. So a == b in c compares a with the result of b in c.
+ * The prefix forms come last, so the expression after else, satisfies or return extends as far
+ * to the right as it can: if c then 1 else 2 == 3 compares 2 with 3.
  * A predicate keeps the elements of a sequence for which its condition holds; an index selects
  * the nth element of the whole sequence. The keyword at tells the two apart, so the parser
  * decides on the token after the bracket.
@@ -156,13 +156,13 @@ expression
     | expression Colon PreferredLanguageText                            # preferredLanguageTextExpression
     | expression operator=(Star | Slash | Percent) expression           # multiplicativeExpression
     | expression operator=(Plus | Minus) expression                     # additiveExpression
-    | expression operator=Comparison expression                         # comparisonExpression
     | expression modifier=Not? In expression                            # inListCondition
     | expression Is modifier=Not? Unique In expression                  # uniqueValueCondition
     | expression Is modifier=Not? Empty                                 # emptinessCondition
     | expression Has modifier=No? Duplicates                            # distinctCondition
     | expression modifier=Not? Like pattern=StringLiteral               # likePatternCondition
     | expression Is modifier=Not? Present                               # presenceCondition
+    | expression operator=Comparison expression                         # comparisonExpression
     | expression And expression                                         # logicalAndCondition
     | expression Or expression                                          # logicalOrCondition
     | If expression Then expression Else expression                     # conditionalExpression
