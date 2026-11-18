@@ -775,23 +775,32 @@ textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
  ******************************************************************************/
 
 
- /**
- * A label-block starts with a # and curly braces (or just # for shorthand value references), and can contain a standard label reference, computed label, shorthand, or indirect label reference.
+/**
+ * A label block shows a label: #{labelId} or, with a pluraliser, #{labelId;${quantity}}.
+ * #value is a shortcut for the label of the value of the context field.
  */
 labelBlock
-    : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock    # standardLabelReference
-    | StartLabelBlock expressionBlock (Semicolon pluraliser)? EndBlock                          # computedLabelReference
-    | StartLabelBlock labelType Pipe BtId (Semicolon pluraliser)? EndBlock                      # shorthandBtLabelReference
-    | StartLabelBlock labelType Pipe FieldId (Semicolon pluraliser)? EndBlock                   # shorthandFieldLabelReference
-    | StartLabelBlock LabelType (Semicolon pluraliser)? EndBlock                                # shorthandLabelReferenceFromContext
-    // Indirect Label References ----------------------------------------------------------------------------------------------
-    // If an assetType and labelType are not specified, then the label reference is an indirect label reference.
-    // Indirect label references derive the label text from the type and value of field.
-    | StartLabelBlock FieldId (Semicolon pluraliser)? EndBlock                                  # shorthandIndirectLabelReference
-    | ShorthandIndirectLabelReferenceFromContextField                                           # shorthandIndirectLabelReferenceFromContextField
+    : StartLabelBlock labelId (Semicolon pluraliser)? EndBlock    # labelReference
+    | ShorthandIndirectLabelReferenceFromContextField              # shorthandIndirectLabelReferenceFromContextField
     ;
 
-assetType: AssetType | expressionBlock;
+/*
+ * A label id has three parts: an asset type, a label type and an asset id. The asset type can be
+ * left out when it can be inferred from the asset id, and then the label type can be left out too.
+ * Any part can be computed by an expression block, and so can the whole label id.
+ * A label type alone, as in #{name}, is a shortcut for a label of the context field or node.
+ *
+ * A first part computed by an expression block is the asset type, the label type or the whole
+ * label id, depending on what follows it.
+ */
+labelId
+    : AssetType Pipe labelType Pipe assetId                                   # standardLabelId                     // #{field|name|BT-00-Text}
+    | LabelType Pipe (BtId | FieldId)                                         # shorthandLabelId                    // #{name|BT-00}, #{name|BT-00-Text}
+    | LabelType                                                               # shorthandLabelIdFromContext         // #{name}
+    | FieldId                                                                 # shorthandIndirectLabelId            // #{BT-00-Text}
+    | expressionBlock (Pipe (labelType Pipe assetId | BtId | FieldId))?       # labelIdStartingWithExpressionBlock  // #{${...}}, #{${...}|name|BT-00-Text}, #{${...}|BT-00}, #{${...}|BT-00-Text}
+    ;
+
 labelType: LabelType | expressionBlock;
 assetId
     : BtId                  // The assetId can be a business term identifier  

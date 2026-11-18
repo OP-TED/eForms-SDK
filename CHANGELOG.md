@@ -32,6 +32,7 @@ This pre-release contains the following changes since alpha.5:
 - **A bare `{` is not an expression block**: the grammar read the `{` of `{ND-Root}{1}` and `WITH ND-Root DISPLAY{1};` as `${`. They are now syntax errors: write `{ND-Root} ${1}` and `WITH ND-Root DISPLAY ${1};`. The `{` that opens a context block has a token of its own, `StartContextBlock`, where it was `StartExpressionBlock`.
 - **Parameter values are read without braces**: the rule `parameterValue` reads a literal alone, from the lexer's `EXPRESSION` mode, up to the end of the input, where it read it between `{` and `}` and ignored any text after the `}`.
 - **Links in templates**: a label block or an expression block takes an optional `linkBlock` in `labelTemplate` and `expressionTemplate`; the rules `linkedLabelBlock` and `linkedExpressionBlock` and their alternatives are gone.
+- **Label ids**: `labelBlock` reads its label id with the new rule `labelId`, which has one alternative for each kind of first part, so an error in a `${...}` right after `#{` is placed at the token at fault. The rule `assetType` and the alternatives of `labelBlock`, except `shorthandIndirectLabelReferenceFromContextField`, are gone.
 - **Generated Schematron requires XSLT 3.0**: both `complete-validation.sch` files now declare `queryBinding="xslt3"`, and the dynamic Schematron uses XSLT 3.0 to make each API call only once and to handle a failed call. Validate with an XSLT 3.0 processor, such as Saxon 12.
 
 ## Download
