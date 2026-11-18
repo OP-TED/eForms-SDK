@@ -364,9 +364,9 @@ durationFunction
 sequenceFunction
     : DistinctValuesFunction    OpenParenthesis expression CloseParenthesis                                 # distinctValuesFunction
     | GetDuplicatesFunction     OpenParenthesis expression CloseParenthesis                                 # getDuplicatesFunction
-    | UnionFunction             OpenParenthesis expression Comma expression CloseParenthesis                # unionFunction
-    | IntersectFunction         OpenParenthesis expression Comma expression CloseParenthesis                # intersectFunction
-    | ExceptFunction            OpenParenthesis expression Comma expression CloseParenthesis                # exceptFunction
+    | UnionFunction             OpenParenthesis expression Comma expression CloseParenthesis                # valueUnionFunction
+    | IntersectFunction         OpenParenthesis expression Comma expression CloseParenthesis                # valueIntersectFunction
+    | ExceptFunction            OpenParenthesis expression Comma expression CloseParenthesis                # valueExceptFunction
     | SortFunction              OpenParenthesis expression CloseParenthesis                                 # sortFunction
     | ReverseFunction           OpenParenthesis expression CloseParenthesis                                 # reverseFunction
     | SubsequenceFunction       OpenParenthesis expression Comma start=expression (Comma length=expression)? CloseParenthesis  # subsequenceFunction
