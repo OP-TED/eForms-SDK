@@ -146,7 +146,7 @@ primitiveType: Text | Indicator | Number | Date | Time | Duration;
  */
 expression
     : OpenParenthesis expression CloseParenthesis                       # parenthesizedExpression
-    | expression OpenBracket expression CloseBracket                    # filteredExpression
+    | expression OpenBracket expression CloseBracket                    # predicateOrLookupExpression
     | expression OpenBracket At expression CloseBracket                 # indexedExpression
     | expression Slash AtPrefix attributeName=Identifier                # attributeExpression
     | expression ColonColon linkedFieldReference                        # fieldFromContextExpression
@@ -156,10 +156,10 @@ expression
     | expression Colon PreferredLanguageText                            # preferredLanguageTextExpression
     | expression operator=(Star | Slash | Percent) expression           # multiplicativeExpression
     | expression operator=(Plus | Minus) expression                     # additiveExpression
-    | expression modifier=Not? In expression                            # inListCondition
+    | expression modifier=Not? In expression                            # membershipCondition
     | expression Is modifier=Not? Unique In expression                  # uniqueValueCondition
     | expression Is modifier=Not? Empty                                 # emptinessCondition
-    | expression Has modifier=No? Duplicates                            # distinctCondition
+    | expression Has modifier=No? Duplicates                            # duplicatesCondition
     | expression modifier=Not? Like pattern=StringLiteral               # likePatternCondition
     | expression Is modifier=Not? Present                               # presenceCondition
     | expression operator=Comparison expression                         # comparisonExpression
@@ -167,13 +167,13 @@ expression
     | expression Or expression                                          # logicalOrCondition
     | If expression Then expression Else expression                     # conditionalExpression
     | (Every | Some) iteratorList Satisfies expression                  # quantifiedExpression
-    | For iteratorList Return Distinct? expression                      # sequenceFromIteration
-    | OpenBracket expression (Comma expression)* CloseBracket           # list
+    | For iteratorList Return Distinct? expression                      # iterationExpression
+    | OpenBracket expression (Comma expression)* CloseBracket           # listExpression
     | literal                                                           # literalExpression
     | reference                                                         # referenceExpression
     | fieldProperty                                                     # fieldPropertyExpression
     | codelistReference                                                 # codelistExpression
-    | builtInFunction                                                   # functionExpression
+    | builtInFunction                                                   # builtInFunctionExpression
     ;
 
 iteratorList: iteratorExpression (Comma iteratorExpression)*;
@@ -286,14 +286,14 @@ booleanFunction
     | StartsWithFunction    OpenParenthesis haystack=expression Comma needle=expression CloseParenthesis     # startsWithFunction
     | EndsWithFunction      OpenParenthesis haystack=expression Comma needle=expression CloseParenthesis     # endsWithFunction
     | SequenceEqualFunction OpenParenthesis expression Comma expression CloseParenthesis                     # sequenceEqualFunction
-    | Indicator             OpenParenthesis expression CloseParenthesis                                     # booleanFromNumberFunction
-    | Empty                 OpenParenthesis expression CloseParenthesis                                     # stringEmptyFunction
+    | Indicator             OpenParenthesis expression CloseParenthesis                                     # indicatorConversionFunction
+    | Empty                 OpenParenthesis expression CloseParenthesis                                     # emptyFunction
     ;
 
 numericFunction
     : CountFunction             OpenParenthesis expression CloseParenthesis                                 # countFunction
     | CountDuplicatesFunction   OpenParenthesis expression CloseParenthesis                                 # countDuplicatesFunction
-    | Number                    OpenParenthesis expression CloseParenthesis                                 # numberFunction
+    | Number                    OpenParenthesis expression CloseParenthesis                                 # numberConversionFunction
     | SumFunction               OpenParenthesis expression CloseParenthesis                                 # sumFunction
     | MinFunction               OpenParenthesis expression CloseParenthesis                                 # minFunction
     | MaxFunction               OpenParenthesis expression CloseParenthesis                                 # maxFunction
@@ -305,22 +305,22 @@ numericFunction
     | RoundFunction             OpenParenthesis expression CloseParenthesis                                 # roundFunction
     | RoundDownFunction         OpenParenthesis expression CloseParenthesis                                 # roundDownFunction
     | RoundUpFunction           OpenParenthesis expression CloseParenthesis                                 # roundUpFunction
-    | YearFunction              OpenParenthesis expression CloseParenthesis                                 # yearFromDateFunction
-    | MonthFunction             OpenParenthesis expression CloseParenthesis                                 # monthFromDateFunction
-    | DayFunction               OpenParenthesis expression CloseParenthesis                                 # dayFromDateFunction
-    | HoursFunction             OpenParenthesis expression CloseParenthesis                                 # hoursFromTimeFunction
-    | MinutesFunction           OpenParenthesis expression CloseParenthesis                                 # minutesFromTimeFunction
-    | SecondsFunction           OpenParenthesis expression CloseParenthesis                                 # secondsFromTimeFunction
-    | YearsFunction             OpenParenthesis expression CloseParenthesis                                 # yearsFromDurationFunction
-    | MonthsFunction            OpenParenthesis expression CloseParenthesis                                 # monthsFromDurationFunction
-    | DaysFunction              OpenParenthesis expression CloseParenthesis                                 # daysFromDurationFunction
+    | YearFunction              OpenParenthesis expression CloseParenthesis                                 # yearFunction
+    | MonthFunction             OpenParenthesis expression CloseParenthesis                                 # monthFunction
+    | DayFunction               OpenParenthesis expression CloseParenthesis                                 # dayFunction
+    | HoursFunction             OpenParenthesis expression CloseParenthesis                                 # hoursFunction
+    | MinutesFunction           OpenParenthesis expression CloseParenthesis                                 # minutesFunction
+    | SecondsFunction           OpenParenthesis expression CloseParenthesis                                 # secondsFunction
+    | YearsFunction             OpenParenthesis expression CloseParenthesis                                 # yearsFunction
+    | MonthsFunction            OpenParenthesis expression CloseParenthesis                                 # monthsFunction
+    | DaysFunction              OpenParenthesis expression CloseParenthesis                                 # daysFunction
     ;
 
 stringFunction
     : SubstringFunction             OpenParenthesis expression Comma start=expression (Comma length=expression)? CloseParenthesis           # substringFunction
     | SubstringBeforeFunction       OpenParenthesis expression Comma delimiter=expression CloseParenthesis                                   # substringBeforeFunction
     | SubstringAfterFunction        OpenParenthesis expression Comma delimiter=expression CloseParenthesis                                   # substringAfterFunction
-    | Text                          OpenParenthesis expression CloseParenthesis                                                              # textFunction
+    | Text                          OpenParenthesis expression CloseParenthesis                                                              # textConversionFunction
     | ConcatFunction                OpenParenthesis expression (Comma expression)* CloseParenthesis                                          # concatFunction
     | StringJoinFunction            OpenParenthesis expression Comma expression CloseParenthesis                                             # stringJoinFunction
     | FormatNumberFunction          OpenParenthesis expression Comma format=expression CloseParenthesis                                      # formatNumberFunction
@@ -345,20 +345,20 @@ stringFunction
     ;
 
 dateFunction
-    : Date                  OpenParenthesis expression CloseParenthesis                                     # dateFromStringFunction
-    | AddDuration           OpenParenthesis expression Comma expression CloseParenthesis                    # datePlusDurationFunction
-    | SubtractDuration      OpenParenthesis expression Comma expression CloseParenthesis                    # dateMinusDurationFunction
+    : Date                  OpenParenthesis expression CloseParenthesis                                     # dateConversionFunction
+    | AddDuration           OpenParenthesis expression Comma expression CloseParenthesis                    # addDurationFunction
+    | SubtractDuration      OpenParenthesis expression Comma expression CloseParenthesis                    # subtractDurationFunction
     | CurrentDateFunction   OpenParenthesis CloseParenthesis                                                # currentDateFunction
     ;
 
 timeFunction
-    : Time                  OpenParenthesis expression CloseParenthesis                                     # timeFromStringFunction
+    : Time                  OpenParenthesis expression CloseParenthesis                                     # timeConversionFunction
     | CurrentTimeFunction   OpenParenthesis CloseParenthesis                                                # currentTimeFunction
     ;
 
 durationFunction
-    : DayTimeDurationFunction   OpenParenthesis expression CloseParenthesis                                 # dayTimeDurationFromStringFunction
-    | YearMonthDurationFunction OpenParenthesis expression CloseParenthesis                                 # yearMonthDurationFromStringFunction
+    : DayTimeDurationFunction   OpenParenthesis expression CloseParenthesis                                 # dayTimeDurationConversionFunction
+    | YearMonthDurationFunction OpenParenthesis expression CloseParenthesis                                 # yearMonthDurationConversionFunction
     ;
 
 sequenceFunction
