@@ -15,7 +15,7 @@ channels { WHITESPACE }
 
 // Empty lines and comment lines are to be ignored by the parser. The last line of a file may
 // have no line end.
-EmptyOrCommentLine: (TAB | SPACE)* COMMENT? (EOL+ | EOF) -> channel(HIDDEN);
+EmptyOrCommentLine: ((TAB | SPACE)* COMMENT? EOL+ | (TAB | SPACE | COMMENT)+ EOF) -> channel(HIDDEN);
 
 // Include directive -------------------------------------------------------------------------------
 // The #include directive is used to include the contents of another EFX rules file.
