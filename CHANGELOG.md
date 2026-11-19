@@ -9,7 +9,7 @@ These changes are on the `efx-2` branch and will be part of the next pre-release
 - **New validation rules**: 67 rules added in stages `4` and `5` from the eForms Metadata Database.
 - **Simpler EFX-2 expressions**: casts are no longer needed, and one value can be used where a list is expected, as in `count($x)`. Nodes can be counted, as in `count(ND-SubNode)`.
 - **Indexes say what they mean**: `$list[at 1]` is the first element of the list, and a bracket that holds a condition only filters.
-- **A smaller grammar**: one rule reads every expression, and the EFX translator checks the types. See `efx-grammar/README.md`.
+- **A smaller grammar**: one rule reads every expression, and the EFX translator checks the types.
 
 ## Changes in how EFX is written
 
@@ -18,7 +18,7 @@ These matter only if you write EFX of your own or build a tool that reads the EF
 - **Indexes**: write `[at 1]`, not `[1]`.
 - **Casts**: remove them: write `BT-00-Repeatable-Text`, not `(text*)BT-00-Repeatable-Text`.
 - **Keyword case**: write statement keywords, such as `WITH`, `LET`, `INDEX` and `BY`, in upper case, and expression keywords, such as `every` and `at`, in lower case.
-- **Grouping**: some expressions are grouped differently, as in `1 == 1 in [TRUE]`, read as `1 == (1 in [TRUE])`. Add parentheses where you mean another grouping. See `efx-grammar/README.md`.
+- **Grouping**: some expressions are grouped differently, as in `1 == 1 in [TRUE]`, read as `1 == (1 in [TRUE])`. Add parentheses where you mean another grouping.
 - **Templates**: write `${...}` after a context block, as in `{ND-Root} ${1}`, and do not write `no-unit` after a style, as in `${BT-00-StartDate|short no-unit}`.
 - **Names**: names that start with `__` cannot be declared.
 - **Selectors**: a selector cannot read an attribute through a context override, as in `&{ND-1::BT-2/@a}`.
