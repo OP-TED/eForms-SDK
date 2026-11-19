@@ -423,7 +423,8 @@ contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Id
 /*
  * An EFX rules-file consists of:
  * - optional global variable declarations (used across all stages)
- * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
+ * - stage sections (each representing a validation stage like "3b", "4", etc.); a file that is
+ *   only included in another may have none, such as a file of declarations
  *
  * Each stage section contains:
  * - optional stage-level variable declarations (LET statements)
@@ -435,7 +436,7 @@ contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Id
  * The global level supports variable declarations, API endpoint declarations,
  * and API function declarations. Dictionaries are not supported.
  */
-rulesFile: includeDirective* apiEndpointDeclaration* (dynamicFunctionDeclaration | globalVariableDeclaration)* (validationStage | includeDirective)+ EOF;
+rulesFile: includeDirective* apiEndpointDeclaration* (dynamicFunctionDeclaration | globalVariableDeclaration)* (validationStage | includeDirective)* EOF;
 
 includeDirective: IncludeDirective IncludePath;
 
