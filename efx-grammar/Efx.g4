@@ -648,6 +648,7 @@ noticeType
  * An EFX template-file consists of:
  * - zero or more global declarations (variables, dictionaries and functions),
  * - zero or more declarations of callable templates,
+ * - an optional --- MAIN --- heading,
  * - zero or more template-lines organised hierarchically using python-style indentation,
  * - optional navigation and/or summary sections.
  * Any variables and functions declared globally can be used in the 
@@ -656,7 +657,7 @@ noticeType
  * in which they are declared.
  */
 templateFile
-    : includeDirective* globalDeclaration* templateDeclaration* (templateLine* | includeDirective) otherSections? EOF
+    : includeDirective* globalDeclaration* templateDeclaration* MainSectionHeader? (templateLine* | includeDirective) otherSections? EOF
     ;
 
 otherSections

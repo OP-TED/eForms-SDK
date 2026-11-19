@@ -58,6 +58,7 @@ Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), push
 Display: DISPLAY (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
 Invoke: INVOKE -> pushMode(EXPRESSION);
 
+MainSectionHeader: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EOL*;
 SummarySectionHeader: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
 NavigationSectionHeader: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
 StageHeaderStart: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STAGE_HEADER);
@@ -291,6 +292,7 @@ AssertKeyword: ASSERT -> type(Assert);
 ReportKeyword: REPORT -> type(Report);
 WithKeyword: WITH -> popMode, pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(With);
 
+MainSectionHeaderX: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(MainSectionHeader);
 SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
 NavigationSectionHeaderX: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
 StageHeaderStartX: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);

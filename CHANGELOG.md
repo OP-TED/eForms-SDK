@@ -11,6 +11,7 @@ These changes are on the `efx-2` branch and will be part of the next pre-release
 - **Indexes say what they mean**: `$list[at 1]` is the first element of the list, and a bracket that holds a condition only filters.
 - **A smaller grammar**: one rule reads every expression, and the EFX translator checks the types.
 - **No more context shortcuts**: `.`, `..` and `/` can no longer be written as the context of a template line, a `WITH` clause or a context variable. Write the node or field instead, for example `ND-Root` instead of `/`.
+- **`--- MAIN ---` heading**: a template file may write `--- MAIN ---` before its main template lines. It is optional for now, and a file translates the same with or without it.
 
 ## Changes in how EFX is written
 
