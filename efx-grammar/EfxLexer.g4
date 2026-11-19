@@ -13,8 +13,9 @@ channels { WHITESPACE }
  * The default mode recognizes these opening tokens and switches to the appropriate mode.
  */
 
-// Empty lines and comment lines are to be ignored by the parser.
-EmptyOrCommentLine: (TAB | SPACE)* COMMENT? EOL+ -> channel(HIDDEN);
+// Empty lines and comment lines are to be ignored by the parser. The last line of a file may
+// have no line end.
+EmptyOrCommentLine: ((TAB | SPACE)* COMMENT? EOL+ | (TAB | SPACE | COMMENT)+ EOF) -> channel(HIDDEN);
 
 // Include directive -------------------------------------------------------------------------------
 // The #include directive is used to include the contents of another EFX rules file.
@@ -44,7 +45,7 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // If we encounter a single curly brace in the DEFAULT mode, then we are in a line written in EFX-1 style.
 // We will switch to EXPRESSION mode after first pushing the TEMPLATE and SKIP_WHITESPACE modes to the stack
 // so that the lexer will find itself in the right mode after processing the expression block.
-StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
+StartContextBlock: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 // The Let, With, When, and Endpoint keywords switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
@@ -102,7 +103,7 @@ mode SKIP_WHITESPACE;
 // If we encounter a single curly brace in SKIP_WHITESPACE mode, then we are in a line written in EFX-1 style.
 // We will switch to EXPRESSION mode after first exiting the current mode and pushing the TEMPLATE and 
 // SKIP_WHITESPACE modes to the stack so that the lexer will find itself in the right mode after processing the expression block.
-ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
+ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartContextBlock);
 
 LetExpression: LET -> pushMode(EXPRESSION), type(Let);
 WithExpression: WITH -> pushMode(EXPRESSION), type(With);
@@ -152,7 +153,7 @@ ShorthandLabelType: SHARP LabelType -> type(LabelType);
 StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
 StartSelectorBlock: AMPERSAND LBRACE -> pushMode(EXPRESSION);
 StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
-StartHyperlinkBlock: (TAB | SPACE)* AT LBRACE -> pushMode(EXPRESSION);
+StartHyperlinkBlock: (TAB | SPACE)* AT_SIGN LBRACE -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
 EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
@@ -312,7 +313,8 @@ Unique: 'unique';
 Has: 'has';
 No: 'no';
 Duplicates: 'duplicates';
-Every: 'every' | 'EVERY';
+Every: 'every';
+EVERY: 'EVERY';
 Some: 'some';
 Satisfies: 'satisfies';
 If: 'if';
@@ -322,8 +324,8 @@ For: 'for';
 FOR: 'FOR';
 Return: 'return';
 Distinct: 'distinct';
-As: 'AS' | 'as';
-Any: 'ANY' | 'any';
+As: 'AS';
+Any: 'ANY';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
@@ -421,14 +423,14 @@ CurrentDateFunction: 'current-date';
 CurrentTimeFunction: 'current-time';
 DayTimeDurationFunction: 'day-time-duration';
 YearMonthDurationFunction: 'year-month-duration';
-AddDuration: 'add-duration';
-SubtractDuration: 'subtract-duration';
+AddDurationFunction: 'add-duration';
+SubtractDurationFunction: 'subtract-duration';
 DistinctValuesFunction: 'distinct-values';
 CountDuplicatesFunction: 'count-duplicates';
 GetDuplicatesFunction: 'get-duplicates';
-UnionFunction: 'value-union';
-IntersectFunction: 'value-intersect';
-ExceptFunction: 'value-except';
+ValueUnionFunction: 'value-union';
+ValueIntersectFunction: 'value-intersect';
+ValueExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
 SortFunction: 'sort';
 ReverseFunction: 'reverse';
@@ -455,12 +457,13 @@ PreferredLanguageText: 'preferredLanguageText';
 
 // API call keywords
 EndpointExpression: ENDPOINT -> type(Endpoint);
-Call: 'CALL' | 'call';
-Api: 'API' | 'api';
-At: 'AT' | 'at';
-On: 'ON' | 'on';
-Warn: 'WARN' | 'warn';
-Reject: 'REJECT' | 'reject';
+Call: 'CALL';
+Api: 'API';
+At: 'at';
+AT: 'AT';
+On: 'ON';
+Warn: 'WARN';
+Reject: 'REJECT';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
@@ -473,7 +476,7 @@ FieldId: FieldIdentifier;// | FieldAlias;
 NodeId: NodeIdentifier;// | NodeAlias;
 
 VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
-AtPrefix: AT -> pushMode(IDENTIFIER);
+AtPrefix: AT_SIGN -> pushMode(IDENTIFIER);
 HashPrefix: SHARP -> pushMode(IDENTIFIER);
 FunctionPrefix: '?' -> pushMode(IDENTIFIER);
 
@@ -530,20 +533,20 @@ UnquotedIdentifier: LETTER ('-'? (LETTER | DIGIT)+)* -> popMode, type(Identifier
 
 // Fragments
 fragment EOL: ('\r'? '\n' | '\r' | '\f');
-fragment LET: ('LET' | 'let');
-fragment WITH: ('WITH' | 'with');
-fragment INVOKE: ('INVOKE' | 'invoke');
-fragment DISPLAY: ('DISPLAY' | 'display');
-fragment WHEN: ('WHEN' | 'when');
-fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
-fragment ASSERT: ('ASSERT' | 'assert');
-fragment REPORT: ('REPORT' | 'report');
-fragment COMPUTE: ('COMPUTE' | 'compute');
-fragment SELECT: ('SELECT' | 'select');
-fragment STAGE: ('STAGE' | 'stage');
-fragment ENDPOINT: ('ENDPOINT' | 'endpoint');
-fragment INDEX: ('INDEX' | 'index');
-fragment BY: ('BY' | 'by');
+fragment LET: 'LET';
+fragment WITH: 'WITH';
+fragment INVOKE: 'INVOKE';
+fragment DISPLAY: 'DISPLAY';
+fragment WHEN: 'WHEN';
+fragment OTHERWISE: 'OTHERWISE';
+fragment ASSERT: 'ASSERT';
+fragment REPORT: 'REPORT';
+fragment COMPUTE: 'COMPUTE';
+fragment SELECT: 'SELECT';
+fragment STAGE: 'STAGE';
+fragment ENDPOINT: 'ENDPOINT';
+fragment INDEX: 'INDEX';
+fragment BY: 'BY';
 fragment COMMENT: '//' ~[\r\n\f]*;
 
 fragment TAB: [\t];
@@ -551,7 +554,7 @@ fragment SPACE: [ ];
 fragment LBRACE: '{';
 fragment RBRACE: '}';
 
-fragment AT: '@';
+fragment AT_SIGN: '@';
 fragment DOLLAR: '$';
 fragment AMPERSAND: '&';
 fragment SHARP: '#';
