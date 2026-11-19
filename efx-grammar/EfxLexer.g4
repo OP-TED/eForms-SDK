@@ -509,8 +509,6 @@ Minus: '-';
 
 Comma: ',';
 Ellipsis: '...' -> pushMode(IDENTIFIER);
-DotDot: '..';
-Dot: '.';
 Colon: ':';
 
 // Comments in EXPRESSION mode

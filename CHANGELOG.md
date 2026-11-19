@@ -10,6 +10,7 @@ These changes are on the `efx-2` branch and will be part of the next pre-release
 - **Simpler EFX-2 expressions**: casts are no longer needed, and one value can be used where a list is expected, as in `count($x)`. Nodes can be counted, as in `count(ND-SubNode)`.
 - **Indexes say what they mean**: `$list[at 1]` is the first element of the list, and a bracket that holds a condition only filters.
 - **A smaller grammar**: one rule reads every expression, and the EFX translator checks the types.
+- **No more context shortcuts**: `.`, `..` and `/` can no longer be written as the context of a template line, a `WITH` clause or a context variable. Write the node or field instead, for example `ND-Root` instead of `/`.
 
 ## Changes in how EFX is written
 
