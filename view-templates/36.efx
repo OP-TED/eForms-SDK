@@ -46,11 +46,11 @@ LET template:roles-and-org-names(text:$label-id, text*:$org-ids) DISPLAY #{${$la
 			WITH BT-01(c)-Procedure DISPLAY $value - ${BT-01(d)-Procedure:preferredLanguageText}; // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			WITH BT-01(e)-Procedure DISPLAY ${BT-01(f)-Procedure:preferredLanguageText}; // Procedure Legal Basis (no ID) Description
 			0 WITH BT-09(a)-Procedure DISPLAY #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure:preferredLanguageText} ; // Applicable cross-border law
-	2 {ND-NoticeInformationNondisclosure} #{auxiliary|text|undisclosed-info} // 2.2 Undisclosed information
-		0 {BT-197-notice} #{field|name|BT-197-notice}: #{BT-197-notice} // Non-disclosure Justification Code
-		0 {BT-198-notice} #{field|name|BT-198-notice}: ${BT-198-notice} // Disclosure date
-		0 {ND-NoticeInformationNondisclosure[BT-196-notice is present]} #{field|name|BT-196-notice}: ${BT-196-notice:preferredLanguageText} // Non-disclosure Justification Description
-		1 {ND-NoticeInformationNondisclosure[BT-195-notice is present]} #{auxiliary|text|undisclosed-info-groups} // Undisclosed Information Groups
+	2 WITH ND-NoticeInformationNondisclosure DISPLAY #{auxiliary|text|undisclosed-info}; // 2.2 Undisclosed information
+		0 WITH BT-197-notice DISPLAY #{field|name|BT-197-notice}: #{BT-197-notice}; // Non-disclosure Justification Code
+		0 WITH BT-198-notice DISPLAY #{field|name|BT-198-notice}: ${BT-198-notice}; // Disclosure date
+		0 WITH ND-NoticeInformationNondisclosure[BT-196-notice is present] DISPLAY #{field|name|BT-196-notice}: ${BT-196-notice:preferredLanguageText}; // Non-disclosure Justification Description
+		1 WITH ND-NoticeInformationNondisclosure[BT-195-notice is present] DISPLAY #{auxiliary|text|undisclosed-info-groups}; // Undisclosed Information Groups
 4 WITH ND-Root[BT-137-LotsGroup is present] DISPLAY #{auxiliary|text|group-of-lots}; // 4 Group of lots
 	1 WITH ND-LotsGroup DISPLAY #{field|name|BT-330-Procedure}: ${BT-137-LotsGroup}; // 4.1 Group of lots
 		WITH BT-137-LotsGroup DISPLAY #{field|name|BT-1375-Procedure}: ${for text:$gloid in BT-137-LotsGroup return BT-1375-Procedure[BT-330-Procedure == $gloid]}; // Lots included / Group Lot Identifier 
