@@ -396,7 +396,7 @@ contextDeclarationBlock
     : (variableList Comma)? contextDeclaration (Comma variableList)?
     ;
 
-contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
+contextDeclaration: contextVariableInitializer | fieldContext | nodeContext;
 
 variableList: variableInitializer (Comma variableInitializer)*;
 
@@ -414,7 +414,7 @@ variableInitializer
     ;
 
 // Context variable initializer - only accept fieldContext or nodeContext
-contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext | Slash);
+contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext);
 
 // ================================================================
 //  EFX Validation Rules
