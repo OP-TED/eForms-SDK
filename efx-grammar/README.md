@@ -32,8 +32,14 @@ Three consequences for authors:
 A bracket after an expression, or after the field or node of a context, is a predicate or an index:
 
 - A predicate, as in `BT-00-Text[BT-00-Number > 1]`, keeps the elements of a sequence for which its condition holds. The condition is read from each element and must be an indicator, so a predicate follows a field or a node.
-- An index, as in `BT-00-Text[at 2]`, selects the nth element of the whole sequence, counting from 1, and yields one value or none. Its position is read once, where the expression stands, and must be a number: in `BT-00-Text[at BT-00-Number]`, `BT-00-Number` is read from the same context as `BT-00-Text`, not from each element. An index may follow any sequence, as in `['a', 'b', 'c'][at 1]` or `$list[at 1]`.
+- An index, as in `BT-00-Text[at 2]`, selects the nth element of the whole sequence, counting from 1, and yields one value or none. Its position is read once, where the expression stands, and must be a number: in `BT-00-Text[at BT-00-Number]`, `BT-00-Number` is read from the same context as `BT-00-Text`, not from each element. An index may follow any sequence, as in `['a', 'b', 'c'][at 1]` or `$list[at 1]`. In a nested template line, an index in the context counts within the element of the line above, and a field in its position is read there.
 
 The keyword `at` is required: `BT-00-Text[1]` is a type error, where earlier pre-releases read it as an index. After a dictionary name, the bracket is a lookup, as in `$dictionary['key']`.
 
 Names that start with `__`, such as `$__index`, are reserved for the variables that the translator generates, and cannot be declared.
+
+## Keyword case
+
+A keyword that forms a statement, such as `WITH`, `LET`, `INDEX` or `BY`, is written in upper case only. Written in lower case, it is not a keyword, so it can be a template name, as in `LET template:call() DISPLAY ok;`, except `every`, `at`, `for` and `in`, which are keywords of an expression.
+
+A keyword inside an expression, such as `every` or `at`, is written in lower case only. The property keywords after `:`, such as `rawValue`, are written in camel case. `TRUE`, `FALSE`, `ALWAYS` and `NEVER` are written in upper case.
