@@ -22,7 +22,8 @@ These matter only if you write EFX of your own or build a tool that reads the EF
 - **Templates**: write `${...}` after a context block, as in `{ND-Root} ${1}`, and do not write `no-unit` after a style, as in `${BT-00-StartDate|short no-unit}`.
 - **Names**: names that start with `__` cannot be declared.
 - **Selectors**: a selector cannot read an attribute through a context override, as in `&{ND-1::BT-2/@a}`.
-- **Tools that read the grammar**: the typed rules are replaced by one `expression` rule, and some rules and tokens are renamed.
+- **Results**: a context variable of a field, as `$c` in `for context:$c in BT-00-Text`, gives the value of the field, as the field itself does. An `if` gives a list when one of its branches gives a list, as in `if TRUE then [1] else 2`.
+- **Tools that read the grammar**: the typed rules are replaced by one `expression` rule, some rules and tokens are renamed, and a parameter value is read without braces: `1`, not `{1}`.
 
 ## Download
 
