@@ -13,8 +13,9 @@ channels { WHITESPACE }
  * The default mode recognizes these opening tokens and switches to the appropriate mode.
  */
 
-// Empty lines and comment lines are to be ignored by the parser.
-EmptyOrCommentLine: (TAB | SPACE)* COMMENT? EOL+ -> channel(HIDDEN);
+// Empty lines and comment lines are to be ignored by the parser. The last line of a file may
+// have no line end.
+EmptyOrCommentLine: (TAB | SPACE)* COMMENT? (EOL+ | EOF) -> channel(HIDDEN);
 
 // Include directive -------------------------------------------------------------------------------
 // The #include directive is used to include the contents of another EFX rules file.
