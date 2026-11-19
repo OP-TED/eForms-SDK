@@ -293,8 +293,6 @@ WithKeyword: WITH -> popMode, pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), t
 SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
 NavigationSectionHeaderX: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
 StageHeaderStartX: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);
-// An #include line is always at the top level of a file, so it takes the lexer back to the top level.
-IncludeDirectiveX: '#include' (TAB | SPACE)+ -> mode(DEFAULT_MODE), pushMode(INCLUDE_PATH), type(IncludeDirective);
 
 // Encountering WHEN in an expression block indicates that conditional templates or rules follow.
 // We should remain in EXPRESSION mode to process the first condition.
