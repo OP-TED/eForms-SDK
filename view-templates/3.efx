@@ -80,7 +80,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-505-Organization-Company WHEN BT-505-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Internet Address
 		WITH BT-509-Organization-Company WHEN BT-509-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization eDelivery Gateway
 		WITH BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid] DISPLAY #{name}: $value; // Buyer Profile URL
-		0 WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
+		WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
 			WITH ND-Touchpoint[BT-500-Organization-TouchPoint is present] DISPLAY #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint:preferredLanguageText}; // Buyer Touchpoint Name
 			WITH BT-16-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Part Name
 			WITH BT-510(a)-Organization-TouchPoint DISPLAY #{field|name|BT-510(a)-Organization-TouchPoint}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} ; // Touchpoint Postal Address
@@ -94,8 +94,8 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-739-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Contact Fax
 			WITH BT-505-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Internet Address
 			WITH BT-509-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint eDelivery Gateway
-		0 WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
-			0 WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
+		WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
+			WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
 			WITH OPT-030-Procedure-SProvider['serv-prov' in OPT-030-Procedure-SProvider[($orgid in OPT-300-Procedure-SProvider) or ?exists-common-value($tpoid, OPT-300-Procedure-SProvider)]] DISPLAY #{auxiliary|text|organisation-providing-procurement-service}; // This org is a Service Provider
 			WITH OPT-030-Procedure-SProvider['ted-esen' in OPT-030-Procedure-SProvider[($orgid in OPT-300-Procedure-SProvider) or ?exists-common-value($tpoid, OPT-300-Procedure-SProvider)]] DISPLAY #{auxiliary|text|organisation-esender}; // This org is an eSender
 10 WITH ND-Root[BT-758-notice is present] DISPLAY #{auxiliary|text|change}; // 10 Change
@@ -106,7 +106,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-13716-notice DISPLAY #{name}: $value; // Change Previous Section Identifier
 		WITH ND-Change[BT-141(a)-notice is present] DISPLAY #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice}; // Change Description
 		WITH BT-719-notice DISPLAY #{field|name|BT-718-notice}: $value; // Change Procurement Documents / Change Procurement Documents Date
-0 WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
+WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
 	WITH BT-701-notice DISPLAY #{name}: ${BT-701-notice} - ${BT-757-notice} ; // Notice identifier / version
 	WITH BT-03-notice DISPLAY #{name}: #value; // Form type
 	WITH BT-02-notice DISPLAY #{name}: #value; // Notice type

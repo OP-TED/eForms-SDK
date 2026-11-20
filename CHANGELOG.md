@@ -17,7 +17,8 @@ These changes are on the `efx-2` branch and will be part of the next pre-release
 - **`--- TEMPLATE ---` sections**: a template file declares each callable template in a section of its own: the heading, a `PARAMETERS` line if the template takes parameters, and one or more template lines. They replace `LET template:`.
 - **Every rule ends with `;`**: in a rules file, each rule (`ASSERT` or `REPORT`, with or without `WHEN`, and `OTHERWISE ASSERT` or `OTHERWISE REPORT`) ends with a semicolon, as declarations already do. A `;` may also end an `#include` line and a single expression.
 - **No more EFX-1 forms in EFX-2**: a single expression is written `WITH context COMPUTE expression` (or `WITH context SELECT …`), and a template line `WITH context DISPLAY text;`. The fields in `fields/fields.json` now use this form.
-- **One way to name a codelist**: a codelist is written `[...codelist]`, as in `BT-00-Code in [...currency]`. The `#codelist` form is removed. `#` is still used for the flags of `SCOPE`, as in `SCOPE #LAWFULNESS`, and in `#{...}`, `#value` and `#include`.
+- **One way to name a codelist**: a codelist is written `[...codelist]`, as in `BT-00-Code in [...currency]`. The `#codelist` form is removed. `#` is still used for the flags of `SCOPE`, as in `SCOPE #LAWFULNESS`, in `#{...}`, `#value` and `#include`, and at the start of a template line for a line without an outline number.
+- **Outline numbers of template lines**: a template line starts with a number (`1`, `12` …) to get this number, with `?` to get the next number among the lines at its level, or with `#` to get no number. A line without any of them gets no number. The view templates translate as before.
 
 ## Changes in how EFX is written
 
@@ -31,6 +32,7 @@ These matter only if you write EFX of your own or build a tool that reads the EF
 - **Rules**: end each rule with `;`, after its `IN` list or its `SCOPE` clause, and remove the `;` written after a rule set.
 - **EFX-1 forms**: write `WITH context COMPUTE expression` instead of `{context} ${expression}`, `WITH context SELECT reference` instead of `{context} &{reference}`, and `WITH context DISPLAY text;` instead of the template line `{context} text`.
 - **Codelists**: write `[...codelist]` instead of `#codelist`.
+- **Outline numbers**: write `?` at the start of a template line that relied on an automatic number, and remove the `0` of a line without a number. `0` is no longer accepted.
 - **Callable templates**: write a `--- TEMPLATE name ---` section instead of `LET template:name(...)`. If it takes parameters, they go on a `PARAMETERS` line, as in `PARAMETERS text:$name;`. The lines it displays follow. After the last section, write `--- MAIN ---` before the main template lines.
 - **Names**: names that start with `__` cannot be declared.
 - **Context overrides**: write `::` only after a context variable, as in `for context:$c in ND-1 return $c::BT-1`. For `BT-1::BT-2`, which reads the BT-2 next to a BT-1, write `BT-2[BT-1 is present]`.
