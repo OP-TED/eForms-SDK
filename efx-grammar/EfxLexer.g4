@@ -42,10 +42,6 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 
 // Mode switching ---------------------------------------------------------------------------------
 
-// If we encounter a single curly brace in the DEFAULT mode, then we are in a line written in EFX-1 style.
-// We will switch to EXPRESSION mode after first pushing the TEMPLATE and SKIP_WHITESPACE modes to the stack
-// so that the lexer will find itself in the right mode after processing the expression block.
-StartContextBlock: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 // The Let, With, When, and Endpoint keywords switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
@@ -112,7 +108,7 @@ IncludePath: '"' ~["\r\n]+ '"' (TAB | SPACE)* (';' (TAB | SPACE)*)? COMMENT? EOL
  * ------------------------------------------------------------------------------------------------
  * This mode is used to skip any whitespace insignificant between the different parts of EFX template
  * line. For example any whitespace between the OutlineNumber and the start of the expression that
- * follows it, or any white space between the end of a context declaration block and the first character
+ * follows it, or any white space between the DISPLAY keyword and the first character
  * of the actual template. After switching to this mode, the lexer will skip all whitespace and switch
  * back to the mode that was active right before. If no whitespace is found, the lexer will watch for
  * the start of an expression
@@ -123,11 +119,6 @@ mode SKIP_WHITESPACE;
 // In case we encounter any token that signifies the start of an expression, we will switch to the 
 // expression mode. This may happen if there is no whitespace between the token that caused the switch 
 // to SKIP_WHITESPACE and the start of the expression that follows it. 
-
-// If we encounter a single curly brace in SKIP_WHITESPACE mode, then we are in a line written in EFX-1 style.
-// We will switch to EXPRESSION mode after first exiting the current mode and pushing the TEMPLATE and 
-// SKIP_WHITESPACE modes to the stack so that the lexer will find itself in the right mode after processing the expression block.
-ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartContextBlock);
 
 LetExpression: LET -> pushMode(EXPRESSION), type(Let);
 WithExpression: WITH -> pushMode(EXPRESSION), type(With);
@@ -166,7 +157,8 @@ CharacterReference: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
 EndTemplate: (TAB | SPACE)* ';' (TAB | SPACE)* COMMENT? -> popMode, type(Semicolon);
 
-// A newline terminates the TEMPLATE mode and switches back to DEFAULT mode.
+// A template line ends with a semicolon. A newline before it ends the TEMPLATE mode, so that the
+// missing semicolon is reported on that line.
 CRLF: EOL+ -> popMode;
 
 ShorthandFieldValueReferenceFromContextField: DOLLAR ValueKeyword;
@@ -176,7 +168,6 @@ ValueKeyword: 'value';
 ShorthandLabelType: SHARP LabelType -> type(LabelType);
 
 StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
-StartSelectorBlock: AMPERSAND LBRACE -> pushMode(EXPRESSION);
 StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
 StartHyperlinkBlock: (TAB | SPACE)* AT_SIGN LBRACE -> pushMode(EXPRESSION);
 
@@ -297,7 +288,7 @@ ColonColon: '::';
 
 // Mode switching ---------------------------------------------------------------------------------
 
-// An RBRACE indicates the end of an EFX-1 style expression block.
+// An RBRACE indicates the end of an expression block, ${...}, or of a hyperlink block, @{...}.
 EndBlock: RBRACE -> popMode;
 
 // A pipe ends the expression of an expression block, and starts its format options: ${BT-00-Number|2}.
@@ -580,7 +571,6 @@ fragment RBRACE: '}';
 
 fragment AT_SIGN: '@';
 fragment DOLLAR: '$';
-fragment AMPERSAND: '&';
 fragment SHARP: '#';
 fragment CHAR_REF: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
