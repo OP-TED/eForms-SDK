@@ -62,6 +62,10 @@ MainSectionHeader: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EO
 SummarySectionHeader: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
 NavigationSectionHeader: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
 StageHeaderStart: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STAGE_HEADER);
+TemplateSectionHeaderStart: '---' '-'* (TAB | SPACE)* 'TEMPLATE' (TAB | SPACE)+ -> pushMode(TEMPLATE_SECTION_HEADER);
+
+// The PARAMETERS keyword starts the list of the parameters of a template section, which ends with a semicolon.
+Parameters: 'PARAMETERS' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 /*
  * STAGE_HEADER mode
@@ -73,6 +77,17 @@ mode STAGE_HEADER;
 
 StageIdentifier: [a-zA-Z0-9] ([a-zA-Z0-9_-]* [a-zA-Z0-9_])?;
 StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
+
+/*
+ * TEMPLATE_SECTION_HEADER mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to capture the name of the template declared by a template section header.
+ * Format: --- TEMPLATE template-name ---
+ */
+mode TEMPLATE_SECTION_HEADER;
+
+TemplateName: LETTER ('-'? (LETTER | DIGIT)+)* -> type(Identifier);
+TemplateSectionHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
 
 /*
  * INCLUDE_PATH mode
@@ -296,6 +311,7 @@ MainSectionHeaderX: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* E
 SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
 NavigationSectionHeaderX: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
 StageHeaderStartX: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);
+TemplateSectionHeaderStartX: '---' '-'* (TAB | SPACE)* 'TEMPLATE' (TAB | SPACE)+ -> popMode, pushMode(TEMPLATE_SECTION_HEADER), type(TemplateSectionHeaderStart);
 
 // Encountering WHEN in an expression block indicates that conditional templates or rules follow.
 // We should remain in EXPRESSION mode to process the first condition.
@@ -347,7 +363,6 @@ Dynamic: 'dynamic';
 Date: 'date';
 Time: 'time';
 Duration: 'duration';
-Template: 'template';
 Index: INDEX;
 By: BY;
 Assert: ASSERT;

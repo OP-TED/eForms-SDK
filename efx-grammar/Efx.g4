@@ -647,18 +647,44 @@ noticeType
 /*
  * An EFX template-file consists of:
  * - zero or more global declarations (variables, dictionaries and functions),
- * - zero or more declarations of callable templates,
- * - an optional --- MAIN --- heading,
- * - zero or more template-lines organised hierarchically using python-style indentation,
+ * - the body of the template, which is either:
+ *   - one or more --- TEMPLATE --- sections, each declaring a callable template, followed by
+ *     the main section, which then starts with its --- MAIN --- heading, or
+ *   - the main section alone, with an optional --- MAIN --- heading,
  * - optional navigation and/or summary sections.
+ * The main section contains zero or more template-lines organised hierarchically using
+ * python-style indentation.
  * Any variables and functions declared globally can be used in the 
  * templates in addition to the local variables declared in the 
  * template-lines which are only visible within the template-block 
  * in which they are declared.
  */
 templateFile
-    : includeDirective* globalDeclaration* templateDeclaration* MainSectionHeader? (templateLine* | includeDirective) otherSections? EOF
+    : includeDirective* globalDeclaration* templateBody otherSections? EOF
     ;
+
+templateBody
+    : templateSection+ mainSectionWithHeader
+    | mainSection
+    ;
+
+/*
+ * A template section declares a callable template: its name in the heading, its parameters on
+ * the optional PARAMETERS line, and what it displays in the template-lines that follow.
+ * Callable templates can be reused across the templateFile by invoking them using the
+ * invokeTemplate syntax.
+ */
+templateSection
+    : TemplateSectionHeaderStart templateName=Identifier TemplateSectionHeaderEnd
+      parametersDeclaration?
+      templateLine+
+    ;
+
+parametersDeclaration: Parameters parameterList Semicolon;
+
+mainSectionWithHeader: MainSectionHeader mainSectionLines;
+mainSection: MainSectionHeader? mainSectionLines;
+mainSectionLines: templateLine* | includeDirective;
 
 otherSections
     : navigationSection summarySection? 
@@ -698,12 +724,6 @@ templateLine
     : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
     | indentation? OutlineNumber? StartContextBlock contextDeclarationBlock EndBlock template CRLF
     ;
-
-/***
- * Declares a callable template by providing its signature (definition), as well as the content it will display when invoked.
- * Callable templates can be reused across the templateFile by invoking them using the invokeTemplate syntax.
- */
-templateDeclaration: indentation? Let templateDefinition (chooseTemplate | displayTemplate | invokeTemplate) Semicolon;
 
 indentation: Tabs | Spaces | MixedIndent;
 
@@ -815,14 +835,6 @@ assetId
 otherAssetId: OtherAssetId | AssetType | LabelType;
 
 pluraliser: expressionBlock;
-
-/*** 
- *  Defines the signature of a callable template as comprised by its name and set of parameters.
- */
-templateDefinition
-    : Template Colon templateName=Identifier OpenParenthesis parameterList? CloseParenthesis
-    ;
-
 
 chooseTemplate: whenBlock+ otherwiseBlock?;
 displayTemplate: Display template;
