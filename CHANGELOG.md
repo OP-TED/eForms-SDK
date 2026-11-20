@@ -17,6 +17,7 @@ These changes are on the `efx-2` branch and will be part of the next pre-release
 - **`--- TEMPLATE ---` sections**: a template file declares each callable template in a section of its own: the heading, a `PARAMETERS` line if the template takes parameters, and one or more template lines. They replace `LET template:`.
 - **Every rule ends with `;`**: in a rules file, each rule (`ASSERT` or `REPORT`, with or without `WHEN`, and `OTHERWISE ASSERT` or `OTHERWISE REPORT`) ends with a semicolon, as declarations already do. A `;` may also end an `#include` line and a single expression.
 - **No more EFX-1 forms in EFX-2**: a single expression is written `WITH context COMPUTE expression` (or `WITH context SELECT …`), and a template line `WITH context DISPLAY text;`. The fields in `fields/fields.json` now use this form.
+- **One way to name a codelist**: a codelist is written `[...codelist]`, as in `BT-00-Code in [...currency]`. The `#codelist` form is removed. `#` is still used for the flags of `SCOPE`, as in `SCOPE #LAWFULNESS`, and in `#{...}`, `#value` and `#include`.
 
 ## Changes in how EFX is written
 
@@ -29,6 +30,7 @@ These matter only if you write EFX of your own or build a tool that reads the EF
 - **Templates**: write `${...}` after `DISPLAY`, as in `WITH ND-Root DISPLAY ${1};`, and do not write `no-unit` after a style, as in `${BT-00-StartDate|short no-unit}`.
 - **Rules**: end each rule with `;`, after its `IN` list or its `SCOPE` clause, and remove the `;` written after a rule set.
 - **EFX-1 forms**: write `WITH context COMPUTE expression` instead of `{context} ${expression}`, `WITH context SELECT reference` instead of `{context} &{reference}`, and `WITH context DISPLAY text;` instead of the template line `{context} text`.
+- **Codelists**: write `[...codelist]` instead of `#codelist`.
 - **Callable templates**: write a `--- TEMPLATE name ---` section instead of `LET template:name(...)`. If it takes parameters, they go on a `PARAMETERS` line, as in `PARAMETERS text:$name;`. The lines it displays follow. After the last section, write `--- MAIN ---` before the main template lines.
 - **Names**: names that start with `__` cannot be declared.
 - **Context overrides**: write `::` only after a context variable, as in `for context:$c in ND-1 return $c::BT-1`. For `BT-1::BT-2`, which reads the BT-2 next to a BT-1, write `BT-2[BT-1 is present]`.

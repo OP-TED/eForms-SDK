@@ -259,7 +259,6 @@ fieldProperty
 
 codelistReference
     : OpenBracket Ellipsis codelistName=Identifier CloseBracket
-    | HashPrefix codelistName=Identifier
     ;
 
 /**************************************
