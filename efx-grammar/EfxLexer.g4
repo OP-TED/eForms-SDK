@@ -53,6 +53,14 @@ Endpoint: ENDPOINT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
+// Every rule ends with a semicolon, which takes the lexer back to this mode. The next rule of the
+// same rule set starts here, with ASSERT, REPORT, WHEN, OTHERWISE ASSERT or OTHERWISE REPORT, and
+// switches the lexer to EXPRESSION mode.
+AssertStatement: ASSERT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(Assert);
+ReportStatement: REPORT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(Report);
+OtherwiseAssertStatement: OTHERWISE (TAB | SPACE | EOL)+ ASSERT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(OtherwiseAssert);
+OtherwiseReportStatement: OTHERWISE (TAB | SPACE | EOL)+ REPORT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(OtherwiseReport);
+
 // The OTHERWISE keyword should switch the lexer to TEMPLATE mode. The DISPLAY keyword is optional.
 Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE);
 Display: DISPLAY (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
@@ -93,11 +101,11 @@ TemplateSectionHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
  * INCLUDE_PATH mode
  * ------------------------------------------------------------------------------------------------
  * This mode is used to capture the file path in an #include directive.
- * Format: #include "path/to/file.efx"
+ * Format: #include "path/to/file.efx", optionally followed by a semicolon
  */
 mode INCLUDE_PATH;
 
-IncludePath: '"' ~["\r\n]+ '"' (TAB | SPACE)* COMMENT? EOL* -> popMode;
+IncludePath: '"' ~["\r\n]+ '"' (TAB | SPACE)* (';' (TAB | SPACE)*)? COMMENT? EOL* -> popMode;
 
 /*
  * SKIP_WHITESPACE mode
@@ -127,7 +135,8 @@ WithExpression: WITH -> pushMode(EXPRESSION), type(With);
 // Skipping whitespace & comments -----------------------------------------------------------------
 
 // Skip to end of line if necessary.
-SkippedComment: (TAB | SPACE)* COMMENT? EOL+ -> channel(HIDDEN), popMode;
+// The last line of a file may end with a comment and no line end.
+SkippedComment: ((TAB | SPACE)* COMMENT? EOL+ | (TAB | SPACE)* COMMENT EOF) -> channel(HIDDEN), popMode;
 
 // Just skip all whitespace and directly switch to back to the previous mode.
 SkippedWhitespace: (TAB | SPACE)+ -> channel(HIDDEN), popMode, type(Whitespace);
@@ -305,7 +314,9 @@ OtherwiseAssert: OTHERWISE (TAB | SPACE | EOL)+ ASSERT;
 OtherwiseReport: OTHERWISE (TAB | SPACE | EOL)+ REPORT;
 AssertKeyword: ASSERT -> type(Assert);
 ReportKeyword: REPORT -> type(Report);
-WithKeyword: WITH -> popMode, pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(With);
+// A WITH is read in DEFAULT mode, after the semicolon that ends the statement before it. It is
+// recognised here only so that a missing semicolon is reported as such.
+WithKeyword: WITH -> type(With);
 
 MainSectionHeaderX: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(MainSectionHeader);
 SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
