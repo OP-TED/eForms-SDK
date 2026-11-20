@@ -46,7 +46,7 @@ options { tokenVocab=EfxLexer;}
  * optionally followed by a semicolon
  */
 singleExpression
-    : With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) Semicolon? EOF
+    : With context=(FieldId | NodeId) (Comma parameterList)? (Compute expression | Select selection) Semicolon? EOF
     ;
 
 /****************************************************************************** 
@@ -224,8 +224,8 @@ reference
 fieldReference: absoluteFieldReference | linkedFieldReference;
 absoluteFieldReference: Slash linkedFieldReference;
 linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
-simpleFieldReference: fieldId = (FieldId | Identifier);
-fieldMention: fieldId = (FieldId | Identifier) (Colon linkedFieldProperty)?;
+simpleFieldReference: fieldId = FieldId;
+fieldMention: fieldId = FieldId (Colon linkedFieldProperty)?;
 // A linked field property names another field: the one linked to this field's privacy settings.
 linkedFieldProperty: PublicationDate | JustificationCode | JustificationDescription;
 

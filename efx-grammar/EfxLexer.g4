@@ -491,8 +491,8 @@ DayTimeDurationLiteral: '-'? 'P' IntegerLiteral ('W' | 'D');
 YearMonthDurationLiteral: '-'? 'P' IntegerLiteral ('Y' | 'M');
 
 
-FieldId: FieldIdentifier;// | FieldAlias;
-NodeId: NodeIdentifier;// | NodeAlias;
+FieldId: FieldIdentifier;
+NodeId: NodeIdentifier;
 
 VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
 AtPrefix: AT_SIGN -> pushMode(IDENTIFIER);
@@ -503,8 +503,6 @@ BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
 NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
 RuleIdentifier: 'R' '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9] '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9];
-// FieldAlias: CAMEL_CASE ('_' CAMEL_CASE)*;
-// NodeAlias: PASCAL_CASE ('_' PASCAL_CASE)*;
 
 
 Identifier: LETTER ('-'? (LETTER | DIGIT)+)*;
@@ -590,8 +588,6 @@ fragment LINE_BREAK_ESC_SEQ: '\\n';	                    // Used for line breaks
 fragment OTHER_ESC_SEQ: '\\' [dDwWsStrvfbcxu0"'\\];     // Used for allowing in free text escape sequences other than \\n 
 fragment ANY_ESC_SEQ:   '\\' .;
 
-fragment CAMEL_CASE: [a-z] [a-z0-9]+ PASCAL_CASE*;
-fragment PASCAL_CASE: [A-Z] [a-z0-9]+ PASCAL_CASE*;
 fragment LETTER: [a-zA-Z_];
 
 fragment ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
