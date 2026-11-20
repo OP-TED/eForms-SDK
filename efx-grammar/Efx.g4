@@ -40,15 +40,13 @@ options { tokenVocab=EfxLexer;}
 /*
  * A single-expression is typically used to evaluate a condition.
  * If you do not need to process EFX templates, then you can create a full EFX parser that parses these expressions.
- * A single-expression contains two parts: a context-declaration and an expression-block.
+ * A single-expression contains two parts: a context-declaration and an expression, or a selection.
  *
- * EFX-1 syntax: {context, params} ${expression}, or {context, params} &{selection} for a selector
- * EFX-2 syntax: WITH context, params COMPUTE expression, or WITH context, params SELECT selection for a selector,
+ * Syntax: WITH context, params COMPUTE expression, or WITH context, params SELECT selection for a selector,
  * optionally followed by a semicolon
  */
 singleExpression
-    : StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock (expressionBlock | selectorBlock) EOF   // EFX-1
-    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) Semicolon? EOF     // EFX-2
+    : With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) Semicolon? EOF
     ;
 
 /****************************************************************************** 
@@ -74,14 +72,13 @@ shorthandFieldValueReferenceFromContextField
     ;
 
 /*
- * A selector yields the reference itself rather than its value: the translated selector identifies
+ * The selection of a single expression (WITH ... SELECT). A selector yields the reference itself rather than its value: the translated selector identifies
  * the elements rather than reading them. It exists so that a host application can ask EFX where
  * something is, instead of what it contains.
  * The reference is resolved exactly as it would be in an expression: relative to the declared
  * context, unless written as an absolute reference. A selector may only appear at the top level;
  * it is not an expression and cannot be nested inside one.
  */
-selectorBlock: StartSelectorBlock selection EndBlock;
 
 selection
     : fieldContext
@@ -721,12 +718,9 @@ dictionaryKeyClause: By expression;
  * times as the number of XML elements matched by the context-declaration.
  * Furthermore, all the expression-blocks in the template part of this template-line will
  * be evaluated relative to the context indicated by the context-declaration.
- * Template-lines written in the legacy EFX-1 style are still allowed, but the new EFX-2 
- * standard syntax provides additional features like conditional branching and template reuse.
  */
 templateLine
     : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
-    | indentation? OutlineNumber? StartContextBlock contextDeclarationBlock EndBlock template CRLF
     ;
 
 indentation: Tabs | Spaces | MixedIndent;
