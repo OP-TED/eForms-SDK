@@ -140,6 +140,8 @@ primitiveType: Text | Indicator | Number | Date | Time | Duration;
  * then the comparisons, then and, then or. So a == b in c compares a with the result of b in c.
  * The prefix forms come last, so the expression after else, satisfies or return extends as far
  * to the right as it can: if c then 1 else 2 == 3 compares 2 with 3.
+ * A context override, $c::BT-1, reads a field or a node from the element that a context variable
+ * holds. Only a context variable can stand before the two colons.
  * A predicate keeps the elements of a sequence for which its condition holds; an index selects
  * the nth element of the whole sequence. The keyword at tells the two apart, so the parser
  * decides on the token after the bracket.
@@ -149,8 +151,8 @@ expression
     | expression OpenBracket expression CloseBracket                    # predicateOrLookupExpression
     | expression OpenBracket At expression CloseBracket                 # indexedExpression
     | expression Slash AtPrefix attributeName=Identifier                # attributeExpression
-    | expression ColonColon linkedFieldReference                        # fieldFromContextExpression
-    | expression ColonColon simpleNodeReference                         # nodeFromContextExpression
+    | variableReference ColonColon linkedFieldReference                 # fieldFromContextExpression
+    | variableReference ColonColon simpleNodeReference                  # nodeFromContextExpression
     | expression Colon RawValue                                         # rawValueExpression
     | expression Colon PreferredLanguage                                # preferredLanguageExpression
     | expression Colon PreferredLanguageText                            # preferredLanguageTextExpression
@@ -210,9 +212,9 @@ durationSequenceLiteral: OpenBracket durationLiteral (Comma durationLiteral)* Cl
  **************************************/
 
 /*
- * A reference is a reference and nothing more. A bracket after it, an attribute, a context
- * override or a value property is a step of the expression rule above, so the parser never has
- * to look past a bracket to decide what it is reading.
+ * A reference is a reference and nothing more. A bracket after it, an attribute, a value property
+ * and a context override after a context variable are alternatives of the expression rule above,
+ * so the parser never has to look past a bracket to decide what it is reading.
  */
 reference
     : fieldReference
