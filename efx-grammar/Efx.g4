@@ -46,8 +46,8 @@ options { tokenVocab=EfxLexer;}
  * EFX-2 syntax: WITH context, params COMPUTE expression, or WITH context, params SELECT selection for a selector
  */
 singleExpression
-    : StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock (expressionBlock | selectorBlock) EOF   // EFX-1
-    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) EOF                // EFX-2
+    : StartContextBlock context=(FieldId | NodeId) (Comma parameterList)? EndBlock (expressionBlock | selectorBlock) EOF   // EFX-1
+    | With context=(FieldId | NodeId) (Comma parameterList)? (Compute expression | Select selection) EOF                // EFX-2
     ;
 
 /****************************************************************************** 
@@ -226,8 +226,8 @@ reference
 fieldReference: absoluteFieldReference | linkedFieldReference;
 absoluteFieldReference: Slash linkedFieldReference;
 linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
-simpleFieldReference: fieldId = (FieldId | Identifier);
-fieldMention: fieldId = (FieldId | Identifier) (Colon linkedFieldProperty)?;
+simpleFieldReference: fieldId = FieldId;
+fieldMention: fieldId = FieldId (Colon linkedFieldProperty)?;
 // A linked field property names another field: the one linked to this field's privacy settings.
 linkedFieldProperty: PublicationDate | JustificationCode | JustificationDescription;
 
