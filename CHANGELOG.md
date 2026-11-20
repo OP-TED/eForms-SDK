@@ -12,7 +12,8 @@ These changes are on the `efx-2` branch and will be part of the next pre-release
 - **A smaller grammar**: one rule reads every expression, and the EFX translator checks the types.
 - **No more context shortcuts**: `.`, `..` and `/` can no longer be written as the context of a template line, a `WITH` clause or a context variable. Write the node or field instead, for example `ND-Root` instead of `/`.
 - **Context overrides only after a context variable**: `$c::BT-1` reads a field from the element that `$c` holds, as before. A field or node can no longer stand before `::`, as in `ND-1::BT-1`.
-- **`--- MAIN ---` heading**: a template file may write `--- MAIN ---` before its main template lines. It is optional for now, and a file translates the same with or without it.
+- **`--- MAIN ---` heading**: a template file may write `--- MAIN ---` before its main template lines. It is required after `--- TEMPLATE ---` sections, and optional for now in a file without them, which translates the same with or without it.
+- **`--- TEMPLATE ---` sections**: a template file declares each callable template in a section of its own: the heading, a `PARAMETERS` line if the template takes parameters, and one or more template lines. They replace `LET template:`.
 
 ## Changes in how EFX is written
 
@@ -23,6 +24,7 @@ These matter only if you write EFX of your own or build a tool that reads the EF
 - **Keyword case**: write statement keywords, such as `WITH`, `LET`, `INDEX` and `BY`, in upper case, and expression keywords, such as `every` and `at`, in lower case.
 - **Grouping**: some expressions are grouped differently, as in `1 == 1 in [TRUE]`, read as `1 == (1 in [TRUE])`. Add parentheses where you mean another grouping.
 - **Templates**: write `${...}` after a context block, as in `{ND-Root} ${1}`, and do not write `no-unit` after a style, as in `${BT-00-StartDate|short no-unit}`.
+- **Callable templates**: write a `--- TEMPLATE name ---` section instead of `LET template:name(...)`. If it takes parameters, they go on a `PARAMETERS` line, as in `PARAMETERS text:$name;`. The lines it displays follow. After the last section, write `--- MAIN ---` before the main template lines.
 - **Names**: names that start with `__` cannot be declared.
 - **Context overrides**: write `::` only after a context variable, as in `for context:$c in ND-1 return $c::BT-1`. For `BT-1::BT-2`, which reads the BT-2 next to a BT-1, write `BT-2[BT-1 is present]`.
 - **Selectors**: a selector cannot read an attribute through a context override, as in `&{ND-1::BT-2/@a}`.
