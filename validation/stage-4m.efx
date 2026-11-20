@@ -35,34 +35,34 @@ WITH ND-LotTender
   ASSERT BT-193-Tender is not present
     AS ERROR R-UX9-G3Z
     FOR BT-193-Tender
-    IN 29-37,E4,E5
+    IN 29-37,E4,E5;
   WHEN not(OPT-321-Tender in $global-ten-clos-nw)
   ASSERT BT-193-Tender is present
     AS ERROR R-RXE-7FY
     FOR BT-193-Tender
-    IN 30
+    IN 30;
 
   WHEN OPT-321-Tender in $global-ten-ongoing
   ASSERT BT-720-Tender is not present
     AS ERROR R-ITV-OQC // BR-BT-00720-0052
     FOR BT-720-Tender
-    IN 29-35,E4
+    IN 29-35,E4;
 
   WHEN (OPT-321-Tender in $global-ten-selec-no-fa) or (OPT-321-Tender in $global-ten-selec-fa and OPT-321-Tender in $global-ten-contract-in-fa)
   ASSERT BT-720-Tender is present
     AS ERROR R-BEJ-XAH // BR-BT-00720-0036
     FOR BT-720-Tender
-    IN 29-35
+    IN 29-35;
 
   WHEN (OPT-321-Tender in $global-ten-no-fa) or (OPT-321-Tender in $global-ten-fa and OPT-321-Tender in $global-ten-contract-in-fa)
   ASSERT BT-720-Tender is present
     AS ERROR R-R72-91M // BR-BT-00720-0047
     FOR BT-720-Tender
-    IN 38,39,E6
+    IN 38,39,E6;
 
 WITH ND-Company
   WHEN (OPT-200-Organization-Company in $global-org-winner) or (OPT-200-Organization-Company in $global-org-winner-subcontractor)
   ASSERT BT-165-Organization-Company is present
     AS ERROR R-VSP-FAU // BR-BT-00165-0036
     FOR BT-165-Organization-Company
-    IN 29,30,32-37    
+    IN 29,30,32-37;
