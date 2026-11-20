@@ -538,9 +538,10 @@ WS: [ \t\r\n]+ -> channel(HIDDEN);
 /*
  * IDENTIFIER
  * ------------------------------------------------------------------------------------------------
- * This mode is entered after prefixes like CodelistPrefix (#) and VariablePrefix ($) to match the
- * next token as an identifier, bypassing keyword recognition. This avoids conflicts with keywords
- * like 'indicator', 'notice', 'date', etc. that are also valid codelist or variable names.
+ * This mode is entered after prefixes like the ellipsis of a codelist reference (...), the hash
+ * of a SCOPE flag (#) and VariablePrefix ($) to match the next token as an identifier, bypassing
+ * keyword recognition. This avoids conflicts with keywords like 'indicator', 'notice', 'date',
+ * etc. that are also valid codelist or variable names.
  */
 
 mode IDENTIFIER;
