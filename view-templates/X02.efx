@@ -23,7 +23,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 
 --- MAIN ---
 9 WITH ND-Root DISPLAY #{auxiliary|text|object}; // 9 Object
-	0 WITH ND-Root DISPLAY #{auxiliary|text|legal-basis}:; // Legal basis
+	WITH ND-Root DISPLAY #{auxiliary|text|legal-basis}:; // Legal basis
 		WITH BT-01-notice DISPLAY #{BT-01-notice}; // Regulation reference
 		WITH OPP-100-Business DISPLAY #{name|OPP-100}: #value; // This notice contains information relevant to
 	1 WITH ND-Root DISPLAY #{auxiliary|text|company}; // 9.1 Name and address of the company-society
@@ -57,7 +57,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 	WITH BT-758-notice DISPLAY #{name}: $value; // Change Notice Version Identifier
 	WITH BT-140-notice DISPLAY #{name}: #value; // Change Reason Code
 	WITH ND-ChangeReason[BT-762-notice is present] DISPLAY #{field|name|BT-762-notice}: ${BT-762-notice}; // Change Reason Description
-0 WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
+WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
 	WITH BT-701-notice DISPLAY #{name}: ${BT-701-notice} - ${BT-757-notice} ; // Notice identifier / version
 	WITH BT-03-notice DISPLAY #{name}: #value; // Form type
 	WITH BT-02-notice DISPLAY #{name}: #value; // Notice type

@@ -92,22 +92,22 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-13(d)-Lot DISPLAY #{field|name|BT-13(d)-Lot}: ${BT-13(d)-Lot} ${BT-13(t)-Lot} ; // Deadline for requesting additional information (Lot)
 			WITH BT-137-Lot[BT-615-Lot is present] DISPLAY #{field|name|BT-615-Lot}: ${distinct-values(for text:$url in BT-615-Lot return $url)}; // Information about restricted documents is available at (Lot) 
 			WITH BT-137-Lot[BT-15-Lot is present] DISPLAY #{field|name|BT-15-Lot}: ${distinct-values(for text:$url in BT-15-Lot return $url)}; // Information about non-restricted documents is available at (Lot) 
-			0 WITH BT-137-Lot[(BT-632-Lot is present) or (BT-124-Lot is present)] DISPLAY #{auxiliary|text|adhoc-communication}:; // Ad hoc communication channel
+			WITH BT-137-Lot[(BT-632-Lot is present) or (BT-124-Lot is present)] DISPLAY #{auxiliary|text|adhoc-communication}:; // Ad hoc communication channel
 				WITH BT-632-Lot DISPLAY #{name}: $value; // Tool Name (Lot)
 				WITH BT-124-Lot DISPLAY #{name}: $value; // Tool Atypical URL (Lot)
 		12 WITH ND-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present) or (BT-42-Lot is present) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present) or (BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot == 'true') or (BT-63-Lot is present) or (BT-769-Lot is present) or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present) or ((BT-771-Lot is present) and (BT-772-Lot is present)) or (BT-132(d)-Lot is present) or (BT-133-Lot is present) or (BT-134-Lot is present) or (BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-681-Lot == 'true') or (OPP-020-Contract is present) or (BT-684-Lot == 'true')] DISPLAY #{auxiliary|text|procurement-terms}; // 5.1.12 Procurement terms
-			0 WITH BT-137-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present)] DISPLAY #{auxiliary|text|procedure-terms}:; // Terms of the procedure
-			0 WITH BT-137-Lot[(BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot is present) or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present)] DISPLAY #{auxiliary|text|submission-terms}:; // Terms of submission
+			WITH BT-137-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present)] DISPLAY #{auxiliary|text|procedure-terms}:; // Terms of the procedure
+			WITH BT-137-Lot[(BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot is present) or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present)] DISPLAY #{auxiliary|text|submission-terms}:; // Terms of submission
 				WITH BT-17-Lot DISPLAY #{name}: #value; // Electronic submission
 				WITH BT-18-Lot DISPLAY #{name}: $value; // Address for submission (URL)
 				WITH BT-137-Lot[BT-97-Lot is present] DISPLAY #{field|name|BT-97-Lot}: #{BT-97-Lot}; // Languages in which tenders or requests to participate may be submitted
 				WITH BT-769-Lot DISPLAY #{name}: #value; // Tenderers may submit more than one tender.
 				WITH BT-800(d)-Lot DISPLAY #{field|name|BT-800(d)-Lot}: ${BT-800(d)-Lot} ${BT-800(t)-Lot} ; // Deadline for receipt of answers (E1 only)
 		15 WITH ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (TRUE in BT-119-LotResult) or (BT-123-Lot is present) or (BT-122-Lot is present)] DISPLAY #{auxiliary|text|techniques}; // 5.1.15 Techniques
-			0 WITH ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present)] DISPLAY #{auxiliary|text|framework-agreement}:; // Information about framework agreement
+			WITH ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present)] DISPLAY #{auxiliary|text|framework-agreement}:; // Information about framework agreement
 				WITH BT-765-Lot DISPLAY #{BT-765-Lot}; // Framework Agreement Type
 				WITH BT-137-Lot[BT-111-Lot is present] DISPLAY #{field|name|BT-111-Lot}: ${BT-111-Lot:preferredLanguageText}; // Framework Buyer Categories (Lot)
-			0 WITH ND-LotTenderingProcess[((BT-766-Lot is present) or (TRUE in BT-119-LotResult))] DISPLAY #{auxiliary|text|dynamic-purchasing-system}:; // Information about the dynamic purchasing system
+			WITH ND-LotTenderingProcess[((BT-766-Lot is present) or (TRUE in BT-119-LotResult))] DISPLAY #{auxiliary|text|dynamic-purchasing-system}:; // Information about the dynamic purchasing system
 				WITH BT-766-Lot DISPLAY #{BT-766-Lot}; // Dynamic Purchasing System
 		16 WITH BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (BT-99-Lot is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (count(OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid]) > 0) or (count(OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid]) > 0) or (count(OPT-300-Contract-Signatory[OPT-316-Contract in OPT-315-LotResult[BT-13713-LotResult == $lotid]]) > 0)] DISPLAY #{auxiliary|text|further-info}; // 5.1.16 Further information, mediation and review
 			WITH OPT-301-Lot-Mediator INVOKE role-and-name('auxiliary|text|organisation-mediation', OPT-301-Lot-Mediator); // Mediation organisation (Lot)
@@ -150,7 +150,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-505-Organization-Company WHEN BT-505-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Internet Address
 		WITH BT-509-Organization-Company WHEN BT-509-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization eDelivery Gateway
 		WITH BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid] DISPLAY #{name}: $value; // Buyer Profile URL
-		0 WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
+		WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
 			WITH ND-Touchpoint[BT-500-Organization-TouchPoint is present] DISPLAY #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint:preferredLanguageText}; // Buyer Touchpoint Name
 			WITH BT-16-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Part Name
 			WITH BT-510(a)-Organization-TouchPoint DISPLAY #{field|name|BT-510(a)-Organization-TouchPoint}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} ; // Touchpoint Postal Address
@@ -164,8 +164,8 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-739-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Contact Fax
 			WITH BT-505-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Internet Address
 			WITH BT-509-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint eDelivery Gateway
-		0 WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
-			0 WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
+		WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
+			WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
 				WITH OPP-050-Organization[OPP-050-Organization == TRUE] DISPLAY #{name}; // Leader of the group
 				WITH OPP-052-Organization[OPP-052-Organization == TRUE] DISPLAY #{name}; // CPB Acquiring
 				WITH OPP-051-Organization[OPP-051-Organization == TRUE] DISPLAY #{name}; // CPB Awarding
@@ -189,7 +189,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-13716-notice DISPLAY #{name}: $value; // Change Previous Section Identifier
 		WITH ND-Change[BT-141(a)-notice is present] DISPLAY #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice}; // Change Description
 		WITH BT-719-notice DISPLAY #{field|name|BT-718-notice}: $value; // Change Procurement Documents / Change Procurement Documents Date
-0 WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
+WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
 	WITH BT-701-notice DISPLAY #{name}: ${BT-701-notice} - ${BT-757-notice} ; // Notice identifier / version
 	WITH BT-03-notice DISPLAY #{name}: #value; // Form type
 	WITH BT-02-notice DISPLAY #{name}: #value; // Notice type

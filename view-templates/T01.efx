@@ -23,7 +23,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 
 --- MAIN ---
 1 WITH ND-Root DISPLAY #{auxiliary|text|buyer-competent}; // 1 Competent authority (T01, T02)
-	WITH OPT-300-Procedure-Buyer DISPLAY #{auxiliary|text|buyer-competent}; // 1.1 Buyer (T01, T02)
+	? WITH OPT-300-Procedure-Buyer DISPLAY #{auxiliary|text|buyer-competent}; // 1.1 Buyer (T01, T02)
 		WITH ND-ContractingParty, text:$orgid=OPT-300-Procedure-Buyer DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company:preferredLanguageText}; // Official name
 		WITH BT-11-Procedure-Buyer DISPLAY #{auxiliary|text|legaltype-competent}: #value; // Legal type of the buyer (T01, T02)
 		WITH BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent'] DISPLAY #{name}; // Buyer Contracting Entity
@@ -34,7 +34,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH ND-ProcedureProcurementScope DISPLAY #{field|name|BT-24-Procedure}: ${BT-24-Procedure:preferredLanguageText}; // Procedure Description
 		WITH OPP-090-Procedure DISPLAY #{name}: $value; // Previous Notice
 		WITH BT-22-Procedure DISPLAY #{name}: $value; // Internal identifier
-		0 WITH BT-105-Procedure DISPLAY  #{name}: #{BT-105-Procedure}; // Type of the procedure
+		WITH BT-105-Procedure DISPLAY  #{name}: #{BT-105-Procedure}; // Type of the procedure
 		1 WITH ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)] DISPLAY #{auxiliary|text|purpose}; // 2.1.1 Purpose
 			WITH BT-23-Procedure DISPLAY #{field|name|BT-23-Procedure}: #{BT-23-Procedure}; // Nature of the contract
 			WITH OPP-040-Procedure DISPLAY #{name}: #value; // Main Nature - Sub Type (T01, T02)
@@ -47,7 +47,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-01-notice DISPLAY #{BT-01-notice}; // Procedure Legal Basis
 			WITH BT-01(c)-Procedure DISPLAY $value - ${BT-01(d)-Procedure:preferredLanguageText}; // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			WITH BT-01(e)-Procedure DISPLAY ${BT-01(f)-Procedure:preferredLanguageText}; // Procedure Legal Basis (no ID) Description
-			0 WITH BT-09(a)-Procedure DISPLAY #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure:preferredLanguageText} ; // Applicable cross-border law
+			WITH BT-09(a)-Procedure DISPLAY #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure:preferredLanguageText} ; // Applicable cross-border law
 5 WITH ND-Root[BT-137-Lot is present] DISPLAY #{auxiliary|text|lot}; // 5 Lots
 	1 WITH ND-Lot, text:$lotid=BT-137-Lot DISPLAY #{field|name|BT-137-Lot}: ${BT-137-Lot} ; // 5.1 Lot
 		WITH ND-Lot DISPLAY #{field|name|BT-21-Lot}: ${BT-21-Lot:preferredLanguageText}; // Title
@@ -100,7 +100,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-739-Organization-Company WHEN BT-739-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Contact Fax
 		WITH BT-505-Organization-Company WHEN BT-505-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Internet Address
 		WITH BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid] DISPLAY #{name}: $value; // Buyer Profile URL
-		0 WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
+		WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
 			WITH ND-Touchpoint[BT-500-Organization-TouchPoint is present] DISPLAY #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint:preferredLanguageText}; // Buyer Touchpoint Name
 			WITH BT-16-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Part Name
 			WITH BT-510(a)-Organization-TouchPoint DISPLAY #{field|name|BT-510(a)-Organization-TouchPoint}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} ; // Touchpoint Postal Address
@@ -113,8 +113,8 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-503-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Contact Telephone Number
 			WITH BT-739-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Contact Fax
 			WITH BT-505-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Internet Address
-		0 WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
-			0 WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
+		WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
+			WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
 				WITH OPP-052-Organization[OPP-052-Organization == TRUE] DISPLAY #{name}; // CPB Acquiring
 				WITH OPP-051-Organization[OPP-051-Organization == TRUE] DISPLAY #{name}; // CPB Awarding
 			WITH OPT-030-Procedure-SProvider['serv-prov' in OPT-030-Procedure-SProvider[($orgid in OPT-300-Procedure-SProvider) or ?exists-common-value($tpoid, OPT-300-Procedure-SProvider)]] DISPLAY #{auxiliary|text|organisation-providing-procurement-service}; // This org is a Service Provider
@@ -128,7 +128,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-13716-notice DISPLAY #{name}: $value; // Change Previous Section Identifier
 		WITH ND-Change[BT-141(a)-notice is present] DISPLAY #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice}; // Change Description
 		WITH BT-719-notice DISPLAY #{field|name|BT-718-notice}: $value; // Change Procurement Documents / Change Procurement Documents Date
-0 WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
+WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
 	WITH BT-701-notice DISPLAY #{name}: ${BT-701-notice} - ${BT-757-notice} ; // Notice identifier / version
 	WITH BT-03-notice DISPLAY #{name}: #value; // Form type
 	WITH BT-02-notice DISPLAY #{name}: #value; // Notice type

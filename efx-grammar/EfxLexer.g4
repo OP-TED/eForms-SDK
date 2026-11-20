@@ -34,11 +34,15 @@ MixedIndent: (TAB+ SPACE+ | SPACE+ TAB+) (TAB | SPACE)*;
 Tabs: TAB+;
 Spaces: SPACE+;
 
-// The EFX template translator can auto-generate outline numbers to mark the hierarchical structure
-// of the template. However the user can override the auto-generated outline numbers by explicitly
-// specifying a number in each template line. The EFX lexer will switch to SKIP_WHITESPACE mode after
-// recognizing an outline number, because any whitespace following it is not significant.
-OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
+// A template line may start with a marker that sets its outline number:
+// - a number, such as 1 or 12, gives the line this number;
+// - '?' gives the line the next number among the lines at its level;
+// - '#' gives the line no number, as does a line without a marker.
+// The EFX lexer will switch to SKIP_WHITESPACE mode after recognizing a marker, because any
+// whitespace following it is not significant.
+OutlineNumber: [1-9] DIGIT* -> pushMode(SKIP_WHITESPACE);
+AutoOutlineNumber: '?' -> pushMode(SKIP_WHITESPACE);
+NoOutlineNumber: SHARP -> pushMode(SKIP_WHITESPACE);
 
 // Mode switching ---------------------------------------------------------------------------------
 

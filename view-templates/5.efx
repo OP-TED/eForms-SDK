@@ -83,8 +83,8 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-137-Part[BT-71-Part is present] DISPLAY #{field|name|BT-71-Part}: #{BT-71-Part}; // Reserved Participation: (PART)
 			WITH BT-115-Part DISPLAY #{name}: #{code|name|${if (BT-115-Part == TRUE) then 'indicator.true' else 'indicator.false'}} ; // GPA Coverage (true/false) 
 			WITH BT-726-Part DISPLAY #{name}: #{${if (BT-726-Part== TRUE) then 'code|name|indicator.true' else 'code|name|indicator.false'}} ; // This procurement is also suitable for small and medium-sized enterprises (SMEs). (true/false)
-			0 WITH BT-137-Part[(BT-125(i)-Part is present) or (BT-1251-Part is present)] DISPLAY #{auxiliary|text|previous-planning}; // Information about previous notices
-				0 WITH BT-125(i)-Part DISPLAY #{field|name|BT-125(i)-Part}: ${BT-125(i)-Part}; // Identifier of the previous notice
+			WITH BT-137-Part[(BT-125(i)-Part is present) or (BT-1251-Part is present)] DISPLAY #{auxiliary|text|previous-planning}; // Information about previous notices
+				WITH BT-125(i)-Part DISPLAY #{field|name|BT-125(i)-Part}: ${BT-125(i)-Part}; // Identifier of the previous notice
 					WITH BT-1251-Part DISPLAY #{name}: $value; // Identifier of the part of the previous notice
 			WITH BT-137-Part[BT-300-Part is present] DISPLAY #{field|name|BT-300-Part}: ${BT-300-Part:preferredLanguageText}; // Additional information
 		6 WITH BT-137-Part[(BT-15-Part is present) or (BT-14-Part is present) or (BT-707-Part is present) or (BT-13(d)-Part is present) or (BT-708-Part is present) or (BT-737-Part is present) or (BT-632-Part is present) or (BT-124-Part is present)] DISPLAY #{auxiliary|text|procurement-documents}; // 3.1.6 Procurement documents (PART)
@@ -95,15 +95,15 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-137-Part[BT-615-Part is present] DISPLAY #{field|name|BT-615-Part}: ${distinct-values(for text:$url in BT-615-Part return concat($url, ' , '))}; // Information about restricted documents is available at (PART) 
 			WITH BT-137-Part[BT-15-Part is present] DISPLAY #{field|name|BT-15-Part}: ${distinct-values(for text:$url in BT-15-Part return concat($url, ' , '))}; // Information about non-restricted documents is available at (PART) 
 			WITH BT-13(d)-Part DISPLAY #{field|name|BT-13(d)-Part}: ${BT-13(d)-Part} ${BT-13(t)-Part} ; // Deadline for requesting additional information
-			0 WITH BT-137-Part[(BT-632-Part is present) or (BT-124-Part is present)] DISPLAY #{auxiliary|text|adhoc-communication}; // Ad hoc communication channel
+			WITH BT-137-Part[(BT-632-Part is present) or (BT-124-Part is present)] DISPLAY #{auxiliary|text|adhoc-communication}; // Ad hoc communication channel
 				WITH BT-632-Part DISPLAY #{name}: $value; // Tool Name (Part)
 				WITH BT-124-Part DISPLAY #{name}: $value; // Tool Atypical URL (Part)
 		7 WITH ND-PartReservedExecution[BT-736-Part is present] DISPLAY #{auxiliary|text|procurement-terms}; // 3.1.7 Procurement Terms (PART)
 			WITH BT-736-Part DISPLAY #{name}: #value; // Reserved Execution (PART)
 		8 WITH ND-PartTenderingProcess[(BT-765-Part is present) or (BT-766-Part is present)] DISPLAY #{auxiliary|text|techniques}; // 3.1.8 Techniques
-			0 WITH ND-PartTenderingProcess[BT-765-Part is present] DISPLAY #{auxiliary|text|framework-agreement}:; // Information about framework agreement (PART)
+			WITH ND-PartTenderingProcess[BT-765-Part is present] DISPLAY #{auxiliary|text|framework-agreement}:; // Information about framework agreement (PART)
 				WITH BT-765-Part DISPLAY #{BT-765-Part}; // Information about framework agreement (PART)
-			0 WITH ND-PartTenderingProcess[BT-766-Part is present] DISPLAY #{auxiliary|text|dynamic-purchasing-system}:; // Information about the dynamic purchasing system (PART)
+			WITH ND-PartTenderingProcess[BT-766-Part is present] DISPLAY #{auxiliary|text|dynamic-purchasing-system}:; // Information about the dynamic purchasing system (PART)
 				WITH BT-766-Part DISPLAY #{BT-766-Part}; // Dynamic purchasing system type (PART)
 		9 WITH ND-PartTenderingTerms[(OPT-301-Part-Mediator is present) or (OPT-301-Part-ReviewOrg is present) or (OPT-301-Part-FiscalLegis is present) or (OPT-301-Part-EnvironLegis is present) or (OPT-301-Part-EmployLegis is present) or (OPT-301-Part-AddInfo is present) or (OPT-301-Part-DocProvider is present) or (OPT-301-Part-ReviewInfo is present) or (OPT-301-Part-TenderReceipt is present) or (OPT-301-Part-TenderEval is present)] DISPLAY #{auxiliary|text|further-info}; // 3.1.9 Further information, mediation and review
 			WITH OPT-301-Part-Mediator INVOKE role-and-name('auxiliary|text|organisation-mediation', OPT-301-Part-Mediator); // Mediation organisation (Part)
@@ -146,7 +146,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-505-Organization-Company WHEN BT-505-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization Internet Address
 		WITH BT-509-Organization-Company WHEN BT-509-Organization-Company:isMasked DISPLAY #{name}: #{auxiliary|text|undisclosed} OTHERWISE DISPLAY #{name}: $value; // Organization eDelivery Gateway
 		WITH BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid] DISPLAY #{name}: $value; // Buyer Profile URL
-		0 WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
+		WITH ND-Touchpoint DISPLAY #{auxiliary|text|other-contact-point}:; // TouchPoint / Other contact points
 			WITH ND-Touchpoint[BT-500-Organization-TouchPoint is present] DISPLAY #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint:preferredLanguageText}; // Buyer Touchpoint Name
 			WITH BT-16-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Part Name
 			WITH BT-510(a)-Organization-TouchPoint DISPLAY #{field|name|BT-510(a)-Organization-TouchPoint}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} ; // Touchpoint Postal Address
@@ -160,8 +160,8 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 			WITH BT-739-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Contact Fax
 			WITH BT-505-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint Internet Address
 			WITH BT-509-Organization-TouchPoint DISPLAY #{name}: $value; // Touchpoint eDelivery Gateway
-		0 WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
-			0 WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
+		WITH ND-Organization DISPLAY #{auxiliary|text|roles}:; // Roles of this organisation
+			WITH ND-Organization[$orgid in OPT-300-Procedure-Buyer] DISPLAY #{auxiliary|text|buyer}; // This org is a Buyer
 				WITH OPP-050-Organization[OPP-050-Organization == TRUE] DISPLAY #{name}; // Leader of the group
 				WITH OPP-052-Organization[OPP-052-Organization == TRUE] DISPLAY #{name}; // CPB Acquiring
 				WITH OPP-051-Organization[OPP-051-Organization == TRUE] DISPLAY #{name}; // CPB Awarding
@@ -185,7 +185,7 @@ DISPLAY #{${$label-id}}: ${for text:$org-id in $org-ids return BT-500-Organizati
 		WITH BT-13716-notice DISPLAY #{name}: $value; // Change Previous Section Identifier
 		WITH ND-Change[BT-141(a)-notice is present] DISPLAY #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice}; // Change Description
 		WITH BT-719-notice DISPLAY #{field|name|BT-718-notice}: $value; // Change Procurement Documents / Change Procurement Documents Date
-0 WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
+WITH ND-Root DISPLAY #{auxiliary|text|notice-information}; // Notice information
 	WITH BT-701-notice DISPLAY #{name}: ${BT-701-notice} - ${BT-757-notice} ; // Notice identifier / version
 	WITH BT-03-notice DISPLAY #{name}: #value; // Form type
 	WITH BT-02-notice DISPLAY #{name}: #value; // Notice type

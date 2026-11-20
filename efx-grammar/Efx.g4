@@ -719,7 +719,7 @@ dictionaryKeyClause: By expression;
  * be evaluated relative to the context indicated by the context-declaration.
  */
 templateLine
-    : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
+    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber)? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
     ;
 
 indentation: Tabs | Spaces | MixedIndent;
