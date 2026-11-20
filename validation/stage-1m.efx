@@ -4,138 +4,138 @@ WITH ND-LotResult
   ASSERT BT-13713-LotResult is present
     AS ERROR R-6N9-LTG
     FOR BT-13713-LotResult
-    IN *
+    IN *;
 
 WITH ND-LotTenderOriginCountry
   ASSERT BT-191-Tender is present
     AS ERROR R-PFU-0U1
     FOR BT-191-Tender
-    IN *
+    IN *;
 
 WITH ND-NoticeResultGroupFA
   ASSERT BT-556-NoticeResult is present
     AS ERROR R-49S-N8D
     FOR BT-556-NoticeResult
-    IN *
+    IN *;
 
 WITH ND-SubcontractingIndication
   ASSERT BT-651-Lot is present
     AS ERROR R-VUI-M9B
     FOR BT-651-Lot
-    IN *
+    IN *;
 
 WITH ND-IPIMeasureStatistics
   ASSERT BT-686-LotResult is present
     AS ERROR R-S1Q-NKP
     FOR BT-686-LotResult
-    IN *
+    IN *;
 
 WITH ND-UBONationality
   ASSERT BT-706-UBO is present
     AS ERROR R-A4X-NTN
     FOR BT-706-UBO
-    IN *
+    IN *;
 
 WITH EVERY ND-BuyerReviewComplainants
   ASSERT BT-712(b)-LotResult is present
     AS ERROR R-WA6-APY
     FOR BT-712(b)-LotResult
-    IN *
+    IN *;
 
 WITH EVERY ND-SecondStageThresholdCriterionParameter
   ASSERT BT-752-Lot-ThresholdNumber is present
     AS ERROR R-OSD-4R2
     FOR BT-752-Lot-ThresholdNumber
-    IN *
+    IN *;
 
 WITH ND-ReceivedSubmissions
   ASSERT BT-759-LotResult is present
     AS ERROR R-JQI-KCC
     FOR BT-759-LotResult
-    IN *
+    IN *;
 
 WITH ND-SubcontractedContract
   ASSERT BT-773-Tender is present
     AS ERROR R-8J5-LB2
     FOR BT-773-Tender
-    IN *
+    IN *;
 
 WITH ND-TenderAggregatedAmounts
   ASSERT BT-779-Tender is present
     AS ERROR R-6TG-TEM
     FOR BT-779-Tender
-    IN *
+    IN *;
   ASSERT BT-780-Tender is present
     AS ERROR R-GBB-VEE
     FOR BT-780-Tender
-    IN *
+    IN *;
   ASSERT BT-782-Tender is present
     AS ERROR R-0MC-RYP
     FOR BT-782-Tender
-    IN *
+    IN *;
 
 WITH ND-AppealRemedy
   ASSERT BT-792-Review is present
     AS ERROR R-KXV-0IT
     FOR BT-792-Review
-    IN *
+    IN *;
 
 WITH ND-AppealProcessingParty
   ASSERT BT-799-ReviewBody is present
     AS ERROR R-Q5S-9O8
     FOR BT-799-ReviewBody
-    IN *
+    IN *;
 
 WITH ND-ExtendedDurationJustification
   ASSERT OPP-020-Contract is present
     AS ERROR R-SWK-JGR
     FOR OPP-020-Contract
-    IN *
+    IN *;
 
 WITH ND-Company
   ASSERT OPT-200-Organization-Company is present
     AS ERROR R-AR0-OPR
     FOR OPT-200-Organization-Company
-    IN *
+    IN *;
 
 WITH ND-Touchpoint
   ASSERT OPT-201-Organization-TouchPoint is present
     AS ERROR R-55W-Y7L
     FOR OPT-201-Organization-TouchPoint
-    IN *
+    IN *;
 
 WITH ND-TenderingParty
   ASSERT OPT-210-Tenderer is present
     AS ERROR R-3CW-1PM
     FOR OPT-210-Tenderer
-    IN *
+    IN *;
 
 WITH ND-Tenderer
   ASSERT OPT-300-Tenderer is present
     AS ERROR R-IZB-7G8
     FOR OPT-300-Tenderer
-    IN *
+    IN *;
 
 WITH ND-SubContractorTakerReference
   ASSERT OPT-301-Tenderer-MainCont is present
     AS ERROR R-KEY-3G1
     FOR OPT-301-Tenderer-MainCont
-    IN *
+    IN *;
 
 WITH ND-SubContractor
   ASSERT OPT-301-Tenderer-SubCont is present
     AS ERROR R-UIJ-ZV4
     FOR OPT-301-Tenderer-SubCont
-    IN *
+    IN *;
 
 WITH ND-SettledContract
   ASSERT OPT-316-Contract is present
     AS ERROR R-7WI-K7F
     FOR OPT-316-Contract
-    IN *
+    IN *;
 
 WITH ND-LotResultTenderReference
   ASSERT OPT-320-LotResult is present
     AS ERROR R-2A0-WBV
     FOR OPT-320-LotResult
-    IN *
+    IN *;

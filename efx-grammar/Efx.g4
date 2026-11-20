@@ -43,11 +43,12 @@ options { tokenVocab=EfxLexer;}
  * A single-expression contains two parts: a context-declaration and an expression-block.
  *
  * EFX-1 syntax: {context, params} ${expression}, or {context, params} &{selection} for a selector
- * EFX-2 syntax: WITH context, params COMPUTE expression, or WITH context, params SELECT selection for a selector
+ * EFX-2 syntax: WITH context, params COMPUTE expression, or WITH context, params SELECT selection for a selector,
+ * optionally followed by a semicolon
  */
 singleExpression
     : StartContextBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock (expressionBlock | selectorBlock) EOF   // EFX-1
-    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) EOF                // EFX-2
+    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? (Compute expression | Select selection) Semicolon? EOF     // EFX-2
     ;
 
 /****************************************************************************** 
@@ -482,17 +483,18 @@ stageVariableDeclaration
 
 /*
  * A rule-set defines one or more validation rules sharing the same context.
- * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types [OTHERWISE ASSERT|REPORT ...]
+ * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types; [OTHERWISE ASSERT|REPORT ...;]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
  * ASSERT or REPORT defines the validation expression.
  * AS specifies the severity (ERROR/WARNING/INFO) and rule ID.
  * FOR specifies which field or node this rule validates.
  * IN specifies which notice types this rule applies to (use IN * or IN ANY to apply to all).
+ * Each rule ends with a semicolon. The rules after the first one of a rule-set may be indented.
  */
 ruleSet
-    : withClause rules Semicolon?
-    | withClause conditionalRules fallbackRule Semicolon?
+    : withClause rules
+    | withClause conditionalRules fallbackRule
     ;
 
 /*
@@ -508,9 +510,9 @@ withClause
 rules: (simpleRule | conditionalRule)+;
 conditionalRules: conditionalRule+;
 
-simpleRule: (assertClause | reportClause) asClause forClause inClause scopeClause?;
-conditionalRule: whenClause (assertClause | reportClause) asClause forClause inClause scopeClause?;
-fallbackRule: (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause scopeClause?;
+simpleRule: indentation? (assertClause | reportClause) asClause forClause inClause scopeClause? Semicolon;
+conditionalRule: indentation? whenClause (assertClause | reportClause) asClause forClause inClause scopeClause? Semicolon;
+fallbackRule: indentation? (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause scopeClause? Semicolon;
 
 /*
  * WHEN clause provides conditional application of the rule.
