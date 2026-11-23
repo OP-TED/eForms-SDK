@@ -634,10 +634,11 @@ noticeTypeRange
  * A notice type identifier can be:
  * - Numeric: 1, 2, 3, ..., 40
  * - Alphanumeric: CEI, E1, E2, E3, E4, E5, E6, T01, T02, X01, X02
+ * The lexer reads it as one token in its NOTICE_TYPE_LIST mode, so that a dash always separates
+ * the two ends of a range.
  */
 noticeType
-    : IntegerLiteral
-    | Identifier
+    : NoticeType
     ;
 
 // ================================================================
