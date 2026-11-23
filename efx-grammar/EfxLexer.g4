@@ -37,12 +37,17 @@ Spaces: SPACE+;
 // A template line may start with a marker that sets its outline number:
 // - a number, such as 1 or 12, gives the line this number;
 // - '?' gives the line the next number among the lines at its level;
-// - '#' gives the line no number, as does a line without a marker.
+// - '#' gives the line no number, as does a line without a marker;
+// - '#' followed by a tag, such as #notice-info, gives the line no number and names it with the
+//   tag. A tag is lower-case letters, digits and hyphens, and starts with a letter. 'include'
+//   cannot be a tag: '#include' followed by a space or a tab is the include directive, and the
+//   translator rejects the tag 'include' when no space follows it.
 // The EFX lexer will switch to SKIP_WHITESPACE mode after recognizing a marker, because any
 // whitespace following it is not significant.
 OutlineNumber: [1-9] DIGIT* -> pushMode(SKIP_WHITESPACE);
 AutoOutlineNumber: '?' -> pushMode(SKIP_WHITESPACE);
 NoOutlineNumber: SHARP -> pushMode(SKIP_WHITESPACE);
+OutlineTag: SHARP [a-z] [a-z0-9-]* -> pushMode(SKIP_WHITESPACE);
 
 // Mode switching ---------------------------------------------------------------------------------
 
