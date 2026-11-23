@@ -710,16 +710,21 @@ dictionaryIndexClause: Index field=fieldContext;
 dictionaryKeyClause: By expression;
 
 /* 
- * A template line contains: indentation, an optional outline-number, a context-declaration, and a template.
+ * A template line contains: indentation, an optional outline-number or tag, a context-declaration, and a template.
  * Python-style indentation is used to structure the template-lines hierarchically.
  * The context-declaration part specifies the XML element(s) that will trigger the generation 
  * of output for this template-line. The template-line will appear in the final output as many 
  * times as the number of XML elements matched by the context-declaration.
  * Furthermore, all the expression-blocks in the template part of this template-line will
  * be evaluated relative to the context indicated by the context-declaration.
+ *
+ * A template line either displays a template in each of its alternatives, or invokes a template
+ * in each of them. The template that a line invokes is displayed in the place of that line, so the
+ * line has no outline-number or tag.
  */
 templateLine
-    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber)? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
+    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber | OutlineTag)? (With contextDeclarationBlock)? (chooseDisplayTemplate | displayTemplate) Semicolon
+    | indentation? (With contextDeclarationBlock)? (chooseInvokeTemplate | invokeTemplate) Semicolon
     ;
 
 indentation: Tabs | Spaces | MixedIndent;
@@ -833,15 +838,14 @@ otherAssetId: OtherAssetId | AssetType | LabelType;
 
 pluraliser: expressionBlock;
 
-chooseTemplate: whenBlock+ otherwiseBlock?;
+chooseDisplayTemplate: whenDisplayTemplate+ otherwiseDisplayTemplate?;
+chooseInvokeTemplate: whenInvokeTemplate+ otherwiseInvokeTemplate?;
 displayTemplate: Display template;
 invokeTemplate: Invoke templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
-whenBlock : whenDisplayTemplate | whenInvokeTemplate;
 whenDisplayTemplate: When expression displayTemplate;
 whenInvokeTemplate: When expression invokeTemplate;
 
-otherwiseBlock: otherwiseDisplayTemplate | otherwiseInvokeTemplate;
 otherwiseDisplayTemplate: Otherwise Display? template;
 otherwiseInvokeTemplate: Otherwise invokeTemplate;
 
