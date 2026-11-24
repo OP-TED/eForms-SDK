@@ -381,6 +381,24 @@ Report: REPORT;
 Compute: COMPUTE;
 Select: SELECT;
 
+// The keywords of behaviours, which are written after ASSERT in the place of an expression.
+// They are in upper case only, as the other statement keywords.
+IS: 'IS';
+NOT: 'NOT';
+EMPTY: 'EMPTY';
+PRESENT: 'PRESENT';
+REPEATED: 'REPEATED';
+MODIFIED: 'MODIFIED';
+ADDED: 'ADDED';
+REMOVED: 'REMOVED';
+VIA: 'VIA';
+OCCURS: 'OCCURS';
+LENGTH: 'LENGTH';
+VALUE: 'VALUE';
+BETWEEN: 'BETWEEN';
+AND: 'AND';
+LIKE: 'LIKE';
+
 // Data types ------------------------------------------------------------------------------------------------
 
 BooleanType: Indicator -> type(Indicator);

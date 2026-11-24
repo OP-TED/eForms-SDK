@@ -484,7 +484,7 @@ stageVariableDeclaration
  * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types; [OTHERWISE ASSERT|REPORT ...;]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
- * ASSERT or REPORT defines the validation expression.
+ * ASSERT or REPORT defines the validation expression. ASSERT can state a behaviour instead.
  * AS specifies the severity (ERROR/WARNING/INFO) and rule ID.
  * FOR specifies which field or node this rule validates.
  * IN specifies which notice types this rule applies to (use IN * or IN ANY to apply to all).
@@ -522,14 +522,63 @@ whenClause
 
 /*
  * ASSERT clause defines a condition that must be true for the rule to pass (triggers when false).
+ * The condition is written either as an expression, or as a behaviour of the field or node that
+ * the rule validates (see the behaviour rule below).
  * REPORT clause defines a condition that, when true, triggers a report (triggers when true).
+ * A REPORT clause takes an expression only.
  */
 assertClause
-    : Assert expression
+    : Assert (expression | behaviour)
     ;
 
 reportClause
     : Report expression
+    ;
+
+/*
+ * A behaviour states how the field or node that the rule validates (its FOR target) behaves.
+ * It is written after ASSERT, or after OTHERWISE ASSERT, in the place of an expression.
+ * A client application, such as a form in a browser, can use it to configure its controls, so
+ * that the user cannot enter a wrong value. The validation checks it as it checks any other rule.
+ * A behaviour names no field or node: it always applies to the FOR target of its rule.
+ *
+ * - IS NOT EMPTY: the target is mandatory.
+ * - IS NOT PRESENT: the target is forbidden.
+ * - NOT REPEATED: the target appears at most once.
+ * - NOT MODIFIED: the value of the target may not be modified.
+ * - NOT ADDED: no occurrence of the target may be added.
+ * - NOT REMOVED: no occurrence of the target may be removed.
+ * - OCCURS: the number of times that the target appears is limited, by a comparison
+ *   (OCCURS >= 2) or by a range (OCCURS BETWEEN 2 AND 5).
+ * - LENGTH: the number of characters of the value is limited, by a comparison (LENGTH <= 100)
+ *   or by a range (LENGTH BETWEEN 2 AND 100).
+ * - VALUE: the value, which is a number, is limited, by a comparison (VALUE >= 0) or by a range
+ *   (VALUE BETWEEN 0 AND 9999).
+ * - IN: the value is one of the codes of a codelist (IN [...indicator]).
+ * - LIKE: the value, written as text, matches a pattern (LIKE '^[0-9]+$').
+ *
+ * Both bounds of BETWEEN are included.
+ *
+ * NOT MODIFIED, NOT ADDED and NOT REMOVED are followed by VIA and an expression. The expression is
+ * the check that the validation runs. It is mandatory, because the check cannot be known from the
+ * behaviour: it needs an earlier notice, which a dynamic function reads. A client application uses
+ * the behaviour and the condition of WHEN, and does not need the expression.
+ */
+behaviour
+    : IS NOT EMPTY                                                    # mandatoryBehaviour
+    | IS NOT PRESENT                                                  # forbiddenBehaviour
+    | NOT REPEATED                                                    # notRepeatedBehaviour
+    | NOT MODIFIED VIA expression                                     # notModifiedBehaviour
+    | NOT ADDED VIA expression                                        # notAddedBehaviour
+    | NOT REMOVED VIA expression                                      # notRemovedBehaviour
+    | OCCURS Comparison number=IntegerLiteral                         # limitCountBehaviour
+    | OCCURS BETWEEN lower=IntegerLiteral AND upper=IntegerLiteral    # limitCountBehaviour
+    | LENGTH Comparison number=IntegerLiteral                         # limitSizeBehaviour
+    | LENGTH BETWEEN lower=IntegerLiteral AND upper=IntegerLiteral    # limitSizeBehaviour
+    | VALUE Comparison number=numericLiteral                          # limitRangeBehaviour
+    | VALUE BETWEEN lower=numericLiteral AND upper=numericLiteral     # limitRangeBehaviour
+    | IN codelistReference                                            # limitValuesBehaviour
+    | LIKE pattern=StringLiteral                                      # matchPatternBehaviour
     ;
 
 /*
@@ -568,9 +617,10 @@ forClause
 
 /*
  * OTHERWISE clause provides an alternative assertion or report when all WHEN conditions are false.
+ * As ASSERT, OTHERWISE ASSERT takes an expression or a behaviour.
  */
 otherwiseAssertClause
-    : OtherwiseAssert expression
+    : OtherwiseAssert (expression | behaviour)
     ;
 
 otherwiseReportClause
