@@ -621,24 +621,17 @@ noticeTypeList
  * - Prefixed range: E1-E3 (expands to E1, E2, E3)
  * - Zero-padded range: X01-X02 (expands to X01, X02)
  *
+ * Each notice subtype, numeric (1, 40) or alphanumeric (CEI, E1, T01, X02), is one NoticeType token,
+ * which the lexer reads in its NOTICE_TYPE_LIST mode, so that a dash always separates the two ends
+ * of a range.
+ *
  * Validation rules (enforced by transpiler):
  * - Range endpoints must have same prefix (E1-E3 valid, E1-X02 invalid)
  * - Start must be <= end (1-3 valid, 3-1 invalid)
  * - Zero-padding is preserved from the start value
  */
 noticeTypeRange
-    : noticeType (Minus noticeType)?
-    ;
-
-/*
- * A notice type identifier can be:
- * - Numeric: 1, 2, 3, ..., 40
- * - Alphanumeric: CEI, E1, E2, E3, E4, E5, E6, T01, T02, X01, X02
- * The lexer reads it as one token in its NOTICE_TYPE_LIST mode, so that a dash always separates
- * the two ends of a range.
- */
-noticeType
-    : NoticeType
+    : NoticeType (Minus NoticeType)?
     ;
 
 // ================================================================
