@@ -11,29 +11,29 @@
     <let name="global-res-to-con" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID/text()"/>
     <let name="global-res-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID/text()"/>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
-        <assert id="R-3J3-U4M" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-org-ids[. = $n] return $x) = 1">rule|text|R-3J3-U4M</assert>
+        <assert id="R-3J3-U4M" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-org-ids[. = $__n] return $__x) = 1">rule|text|R-3J3-U4M</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID">
-        <assert id="R-1HR-H3Z" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-lot-ids[. = $n] return $x) = 1">rule|text|R-1HR-H3Z</assert>
+        <assert id="R-1HR-H3Z" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-lot-ids[. = $__n] return $__x) = 1">rule|text|R-1HR-H3Z</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID">
-        <assert id="R-KW3-NRX" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-lot-business-ids[. = $n] return $x) = 1">rule|text|R-KW3-NRX</assert>
+        <assert id="R-KW3-NRX" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-lot-business-ids[. = $__n] return $__x) = 1">rule|text|R-KW3-NRX</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
-        <assert id="R-WL9-LZO" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-ten-ids[. = $n] return $x) = 1">rule|text|R-WL9-LZO</assert>
+        <assert id="R-WL9-LZO" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-ten-ids[. = $__n] return $__x) = 1">rule|text|R-WL9-LZO</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID">
-        <assert id="R-GWG-PBV" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-con-business-ids[. = $n] return $x) = 1">rule|text|R-GWG-PBV</assert>
+        <assert id="R-GWG-PBV" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-con-business-ids[. = $__n] return $__x) = 1">rule|text|R-GWG-PBV</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID">
-        <assert id="R-CIN-QX3" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-tpa-ids[. = $n] return $x) = 1">rule|text|R-CIN-QX3</assert>
+        <assert id="R-CIN-QX3" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-tpa-ids[. = $__n] return $__x) = 1">rule|text|R-CIN-QX3</assert>
         <assert id="R-I69-9RH" role="ERROR" test="./normalize-space(text()) = $global-ten-to-tpa">rule|text|R-I69-9RH</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID">
-        <assert id="R-RKO-4E9" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-con-ids[. = $n] return $x) = 1">rule|text|R-RKO-4E9</assert>
+        <assert id="R-RKO-4E9" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-con-ids[. = $__n] return $__x) = 1">rule|text|R-RKO-4E9</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
-        <assert id="R-Z2E-TR8" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-res-ids[. = $n] return $x) = 1">rule|text|R-Z2E-TR8</assert>
+        <assert id="R-Z2E-TR8" role="ERROR" test="count(for $__n in ./normalize-space(text()), $__x in $global-res-ids[. = $__n] return $__x) = 1">rule|text|R-Z2E-TR8</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:FinancingParty/cac:PartyIdentification/cbc:ID">
         <assert id="R-OYW-GFQ" role="ERROR" test="./normalize-space(text()) = $global-org-ids">rule|text|R-OYW-GFQ</assert>
