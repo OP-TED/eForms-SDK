@@ -334,7 +334,8 @@ And: 'and';
 Or: 'or';
 Is: 'is';
 In: 'in';
-IN: 'IN';
+// IN starts the list of notice subtypes of a rule, which has a lexer mode of its own.
+IN: 'IN' -> popMode, pushMode(NOTICE_TYPE_LIST);
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
@@ -563,6 +564,26 @@ ExpressionComment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
 WS: [ \t\r\n]+ -> channel(HIDDEN);
 
 /*
+ * NOTICE_TYPE_LIST mode
+ * ------------------------------------------------------------------------------------------------
+ * The list of notice subtypes after IN in a rule: IN *, IN ANY, or notice subtypes and ranges, as in
+ * IN 1-6, E1-E6, CEI. Each notice subtype is one token, so a dash always separates the two ends of a
+ * range. The list ends with the semicolon that ends the rule, or with its SCOPE clause.
+ * The rules use fragments rather than literals, so that the tokens they give keep their literal
+ * names ('*', ',', '-', 'ANY').
+ */
+mode NOTICE_TYPE_LIST;
+
+NoticeTypeListEnd: ';' -> popMode, type(Semicolon);
+NoticeTypeListScope: 'SCOPE' -> popMode, pushMode(EXPRESSION), type(Scope);
+NoticeTypeListAny: ANY_KEYWORD -> type(Any);
+NoticeTypeListStar: STAR -> type(Star);
+NoticeTypeListComma: COMMA -> type(Comma);
+NoticeTypeListDash: DASH -> type(Minus);
+NoticeType: [a-zA-Z0-9]+;
+NoticeTypeListWhitespace: ([ \t\r\n] | COMMENT)+ -> channel(HIDDEN), type(WS);
+
+/*
  * IDENTIFIER
  * ------------------------------------------------------------------------------------------------
  * This mode is entered after prefixes like the ellipsis of a codelist reference (...), the hash
@@ -600,6 +621,10 @@ fragment RBRACE: '}';
 fragment AT_SIGN: '@';
 fragment DOLLAR: '$';
 fragment SHARP: '#';
+fragment STAR: '*';
+fragment COMMA: ',';
+fragment DASH: '-';
+fragment ANY_KEYWORD: 'ANY';
 fragment CHAR_REF: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
 fragment HEX4: HEX HEX HEX HEX;
