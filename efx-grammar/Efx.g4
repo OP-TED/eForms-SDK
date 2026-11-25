@@ -541,6 +541,8 @@ reportClause
  * A client application, such as a form in a browser, can use it to configure its controls, so
  * that the user cannot enter a wrong value. The validation checks it as it checks any other rule.
  * A behaviour names no field or node: it always applies to the FOR target of its rule.
+ * An ASSERT or OTHERWISE ASSERT that is written with a behaviour is called a semantic assertion
+ * in the documentation of EFX.
  *
  * - IS NOT EMPTY: the target is mandatory.
  * - IS NOT PRESENT: the target is forbidden.

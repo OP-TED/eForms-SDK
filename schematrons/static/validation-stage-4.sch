@@ -4,11 +4,11 @@
         <assert id="R-7HP-QG7" role="ERROR" diagnostics="ND-ChangeReason_BT-762-notice" test="(not(exists(efbc:ReasonDescription))) or (not(not(exists(cbc:ReasonCode))))">rule|text|R-7HP-QG7</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes">
-        <assert id="R-N0B-W7Z" role="ERROR" diagnostics="ND-Changes_BT-140-notice" test="(not(exists(efac:ChangeReason/cbc:ReasonCode))) or (not(not(exists(efbc:ChangedNoticeIdentifier))))">rule|text|R-N0B-W7Z</assert>
         <assert id="R-39C-IYZ" role="ERROR" diagnostics="ND-Changes_BT-140-notice" test="(exists(efac:ChangeReason/cbc:ReasonCode)) or (not(not(not(exists(efbc:ChangedNoticeIdentifier)))))">rule|text|R-39C-IYZ</assert>
+        <assert id="R-N0B-W7Z" role="ERROR" diagnostics="ND-Changes_BT-140-notice" test="(not(exists(efac:ChangeReason/cbc:ReasonCode))) or (not(not(exists(efbc:ChangedNoticeIdentifier))))">rule|text|R-N0B-W7Z</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension">
-        <assert id="R-WDY-Y2U" role="ERROR" diagnostics="ND-RootExtension_BT-803_t_-notice" test="(not(exists(efbc:TransmissionTime))) or (not(not(exists(efbc:TransmissionDate))))">rule|text|R-WDY-Y2U</assert>
         <assert id="R-7Z7-NUG" role="ERROR" diagnostics="ND-RootExtension_BT-803_t_-notice" test="(exists(efbc:TransmissionTime)) or (not(not(not(exists(efbc:TransmissionDate)))))">rule|text|R-7Z7-NUG</assert>
+        <assert id="R-WDY-Y2U" role="ERROR" diagnostics="ND-RootExtension_BT-803_t_-notice" test="(not(exists(efbc:TransmissionTime))) or (not(not(exists(efbc:TransmissionDate))))">rule|text|R-WDY-Y2U</assert>
     </rule>
 </pattern>

@@ -15,35 +15,14 @@
         "ruleId" : "R-YWR-58S",
         "codelists" : [ "notice-subtype" ]
       }, {
-        "ruleId" : "R-A2B-FD2",
+        "ruleId" : "R-0OO-ZFB",
         "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
-        "ruleId" : "R-HLB-P4V",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-LRO-7N2",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-K2D-YUJ",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-Z0X-7DD",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-6XG-4D2",
-        "fields" : [ "BT-02-notice" ],
+        "ruleId" : "R-164-YEG",
         "nodes" : [ "ND-RootExtension" ]
       }, {
         "ruleId" : "R-1KG-ZR1",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-N20-LPY",
         "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
@@ -51,35 +30,7 @@
         "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
-        "ruleId" : "R-FPA-DWD",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-YSF-TC8",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-IUB-X1Z",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-PUC-5B3",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-0OO-ZFB",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-XWG-H97",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-NG7-G1X",
-        "fields" : [ "BT-02-notice" ],
-        "nodes" : [ "ND-RootExtension" ]
-      }, {
-        "ruleId" : "R-FJN-SJW",
+        "ruleId" : "R-6XG-4D2",
         "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
@@ -87,11 +38,60 @@
         "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
+        "ruleId" : "R-A2B-FD2",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-FJN-SJW",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-FPA-DWD",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-HLB-P4V",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-IUB-X1Z",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-K2D-YUJ",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-LRO-7N2",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-N20-LPY",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-NG7-G1X",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-PUC-5B3",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
         "ruleId" : "R-Q9F-RNU",
         "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
-        "ruleId" : "R-164-YEG",
+        "ruleId" : "R-XWG-H97",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-YSF-TC8",
+        "fields" : [ "BT-02-notice" ],
+        "nodes" : [ "ND-RootExtension" ]
+      }, {
+        "ruleId" : "R-Z0X-7DD",
+        "fields" : [ "BT-02-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       } ]
     },
@@ -121,31 +121,7 @@
         "fields" : [ "OPT-322-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-VXR-RRM",
-        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-KUR-MV6",
-        "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-W4X-DYE",
-        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-9MG-WIJ",
-        "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
         "ruleId" : "R-1AX-FF0",
-        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-TWR-L6X",
-        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-7KQ-UNL",
         "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
@@ -153,40 +129,64 @@
         "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-I7G-1DZ",
-        "fields" : [ "BT-137-Lot" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-936-YL4",
-        "fields" : [ "BT-105-Procedure", "BT-759-LotResult", "BT-760-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-SVB-MJ0",
-        "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
+        "ruleId" : "R-3EF-GU4",
+        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-6IN-5N7",
         "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-QFU-FN0",
+        "ruleId" : "R-7KQ-UNL",
         "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-3EF-GU4",
-        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
+        "ruleId" : "R-936-YL4",
+        "fields" : [ "BT-105-Procedure", "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-NWB-0YY",
-        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
+        "ruleId" : "R-9MG-WIJ",
+        "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-I7G-1DZ",
+        "fields" : [ "BT-137-Lot" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-JS4-MVI",
         "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
+        "ruleId" : "R-KUR-MV6",
+        "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-NWB-0YY",
+        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
         "ruleId" : "R-O7T-C62",
         "fields" : [ "BT-142-LotResult", "BT-759-LotResult", "BT-760-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-QFU-FN0",
+        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-SVB-MJ0",
+        "fields" : [ "BT-760-LotResult", "BT-759-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-TWR-L6X",
+        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-VXR-RRM",
+        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-W4X-DYE",
+        "fields" : [ "BT-759-LotResult", "BT-760-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       } ]
     },
@@ -265,11 +265,11 @@
         "ruleId" : "R-N7L-DBK",
         "codelists" : [ "subcontracting-indication" ]
       }, {
-        "ruleId" : "R-DHB-GD6",
+        "ruleId" : "R-CST-VB3",
         "fields" : [ "BT-65-Lot" ],
         "nodes" : [ "ND-NonUBLTenderingTerms" ]
       }, {
-        "ruleId" : "R-CST-VB3",
+        "ruleId" : "R-DHB-GD6",
         "fields" : [ "BT-65-Lot" ],
         "nodes" : [ "ND-NonUBLTenderingTerms" ]
       }, {
@@ -295,11 +295,11 @@
         "ruleId" : "R-5M2-GIK",
         "nodes" : [ "ND-IPIMeasureStatistics" ]
       }, {
-        "ruleId" : "R-9WR-A7U",
+        "ruleId" : "R-2J1-1NX",
         "fields" : [ "BT-685-LotResult" ],
         "nodes" : [ "ND-IPIAppliedMeasure" ]
       }, {
-        "ruleId" : "R-2J1-1NX",
+        "ruleId" : "R-9WR-A7U",
         "fields" : [ "BT-685-LotResult" ],
         "nodes" : [ "ND-IPIAppliedMeasure" ]
       } ]
@@ -320,11 +320,11 @@
         "ruleId" : "R-DAA-F9E",
         "codelists" : [ "country" ]
       }, {
-        "ruleId" : "R-OBH-UDY",
+        "ruleId" : "R-4AJ-BM0",
         "fields" : [ "OPT-202-UBO" ],
         "nodes" : [ "ND-UBO" ]
       }, {
-        "ruleId" : "R-4AJ-BM0",
+        "ruleId" : "R-OBH-UDY",
         "fields" : [ "OPT-202-UBO" ],
         "nodes" : [ "ND-UBO" ]
       }, {
@@ -429,11 +429,11 @@
         "ruleId" : "R-9ZW-0EQ",
         "codelists" : [ "applicability" ]
       }, {
-        "ruleId" : "R-Y99-JBR",
+        "ruleId" : "R-KVZ-9WX",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-KVZ-9WX",
+        "ruleId" : "R-Y99-JBR",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       } ]
@@ -478,10 +478,6 @@
         "ruleId" : "R-YDO-3M8",
         "fields" : [ "BT-780-Tender-Language" ]
       }, {
-        "ruleId" : "R-J5O-B4W",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-780-Tender-Language" ],
-        "nodes" : [ "ND-TenderAggregatedAmounts" ]
-      }, {
         "ruleId" : "R-2UX-PZJ",
         "fields" : [ "BT-780-Tender-Language" ],
         "nodes" : [ "ND-TenderAggregatedAmounts" ]
@@ -490,11 +486,15 @@
         "fields" : [ "BT-780-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-TenderAggregatedAmounts" ]
       }, {
-        "ruleId" : "R-TD6-R92",
+        "ruleId" : "R-J5O-B4W",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-780-Tender-Language" ],
+        "nodes" : [ "ND-TenderAggregatedAmounts" ]
+      }, {
+        "ruleId" : "R-1QZ-08M",
         "fields" : [ "BT-779-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-1QZ-08M",
+        "ruleId" : "R-TD6-R92",
         "fields" : [ "BT-779-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       } ]
@@ -506,10 +506,10 @@
         "ruleId" : "R-0MC-RYP",
         "nodes" : [ "ND-TenderAggregatedAmounts" ]
       }, {
-        "ruleId" : "R-HC8-6QW",
+        "ruleId" : "R-BHH-UBL",
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-BHH-UBL",
+        "ruleId" : "R-HC8-6QW",
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-5ES-NF4",
@@ -537,12 +537,12 @@
         "ruleId" : "R-KXT-4N5",
         "codelists" : [ "remedy-type" ]
       }, {
-        "ruleId" : "R-88T-RD6",
-        "fields" : [ "BT-783-Review", "BT-790-Review" ],
-        "nodes" : [ "ND-ReviewStatus" ]
-      }, {
         "ruleId" : "R-7YK-D63",
         "fields" : [ "BT-791-Review", "BT-783-Review", "BT-790-Review" ],
+        "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-88T-RD6",
+        "fields" : [ "BT-783-Review", "BT-790-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
         "ruleId" : "R-K9C-3NQ",
@@ -570,11 +570,11 @@
         "ruleId" : "R-RQ9-33B",
         "codelists" : [ "review-body-type" ]
       }, {
-        "ruleId" : "R-KQ2-QS3",
+        "ruleId" : "R-CA6-XCV",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-CA6-XCV",
+        "ruleId" : "R-KQ2-QS3",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
@@ -600,11 +600,11 @@
         "ruleId" : "R-R0J-MWK",
         "codelists" : [ "indicator" ]
       }, {
-        "ruleId" : "R-MGR-SWI",
+        "ruleId" : "R-A87-VLI",
         "fields" : [ "OPT-316-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-A87-VLI",
+        "ruleId" : "R-MGR-SWI",
         "fields" : [ "OPT-316-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
       } ]
@@ -621,17 +621,13 @@
         "ruleId" : "R-AR0-OPR",
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-K42-YYN",
-        "nodes" : [ "ND-Company" ]
-      }, {
         "ruleId" : "R-2F3-U3P",
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-PS1-ZV4",
+        "ruleId" : "R-K42-YYN",
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-REA-SY4",
-        "fields" : [ "OPT-300-Contract-Signatory", "OPT-300-Procedure-Buyer", "OPT-300-Procedure-SProvider", "OPT-300-Tenderer", "OPT-301-Lot-AddInfo", "OPT-301-Lot-DocProvider", "OPT-301-Lot-EmployLegis", "OPT-301-Lot-EnvironLegis", "OPT-301-Lot-FiscalLegis", "OPT-301-Lot-Mediator", "OPT-301-Lot-ReviewInfo", "OPT-301-Lot-ReviewOrg", "OPT-301-Lot-TenderEval", "OPT-301-Lot-TenderReceipt", "OPT-301-LotResult-Financing", "OPT-301-LotResult-Paying", "OPT-301-Part-AddInfo", "OPT-301-Part-DocProvider", "OPT-301-Part-EmployLegis", "OPT-301-Part-EnvironLegis", "OPT-301-Part-FiscalLegis", "OPT-301-Part-Mediator", "OPT-301-Part-ReviewInfo", "OPT-301-Part-ReviewOrg", "OPT-301-Part-TenderEval", "OPT-301-Part-TenderReceipt", "BT-807-Review", "BT-808-Review", "OPT-301-Tenderer-MainCont", "OPT-301-Tenderer-SubCont" ],
+        "ruleId" : "R-PS1-ZV4",
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-9B2-DZ5",
@@ -640,6 +636,10 @@
       }, {
         "ruleId" : "R-IDO-DNT",
         "fields" : [ "OPT-300-Tenderer", "OPT-201-Organization-TouchPoint" ],
+        "nodes" : [ "ND-Company" ]
+      }, {
+        "ruleId" : "R-REA-SY4",
+        "fields" : [ "OPT-300-Contract-Signatory", "OPT-300-Procedure-Buyer", "OPT-300-Procedure-SProvider", "OPT-300-Tenderer", "OPT-301-Lot-AddInfo", "OPT-301-Lot-DocProvider", "OPT-301-Lot-EmployLegis", "OPT-301-Lot-EnvironLegis", "OPT-301-Lot-FiscalLegis", "OPT-301-Lot-Mediator", "OPT-301-Lot-ReviewInfo", "OPT-301-Lot-ReviewOrg", "OPT-301-Lot-TenderEval", "OPT-301-Lot-TenderReceipt", "OPT-301-LotResult-Financing", "OPT-301-LotResult-Paying", "OPT-301-Part-AddInfo", "OPT-301-Part-DocProvider", "OPT-301-Part-EmployLegis", "OPT-301-Part-EnvironLegis", "OPT-301-Part-FiscalLegis", "OPT-301-Part-Mediator", "OPT-301-Part-ReviewInfo", "OPT-301-Part-ReviewOrg", "OPT-301-Part-TenderEval", "OPT-301-Part-TenderReceipt", "BT-807-Review", "BT-808-Review", "OPT-301-Tenderer-MainCont", "OPT-301-Tenderer-SubCont" ],
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-LYL-6W2",
@@ -695,11 +695,11 @@
         "ruleId" : "R-VFZ-MYA",
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-EQY-7NF",
+        "ruleId" : "R-6O6-ZQ2",
         "fields" : [ "OPT-310-Tender" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
-        "ruleId" : "R-6O6-ZQ2",
+        "ruleId" : "R-EQY-7NF",
         "fields" : [ "OPT-310-Tender" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
@@ -732,68 +732,68 @@
         "ruleId" : "R-PEX-GZK",
         "nodes" : [ "ND-Tenderer" ]
       }, {
-        "ruleId" : "R-L44-N8V",
-        "fields" : [ "OPT-321-Tender" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
         "ruleId" : "R-1NS-LLY",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-KMX-3L8",
-        "fields" : [ "OPT-301-Lot-AddInfo" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-ARR-F5W",
-        "fields" : [ "OPT-301-Lot-DocProvider" ],
+        "ruleId" : "R-L44-N8V",
+        "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-0T3-KTS",
         "fields" : [ "OPT-301-Lot-EmployLegis" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-E4Q-LF6",
-        "fields" : [ "OPT-301-Lot-EnvironLegis" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-BV9-5FL",
-        "fields" : [ "OPT-301-Lot-TenderEval" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-Z38-F3F",
-        "fields" : [ "OPT-301-LotResult-Financing" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-PZU-X8Z",
-        "fields" : [ "OPT-301-Lot-Mediator" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-AMR-RX7",
-        "fields" : [ "OPT-301-LotResult-Paying" ],
+        "ruleId" : "R-4L5-LUG",
+        "fields" : [ "OPT-200-Organization-Company" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-5GT-NS6",
         "fields" : [ "OPT-301-Lot-TenderReceipt" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-Y4H-Z22",
-        "fields" : [ "OPT-301-Lot-ReviewOrg" ],
+        "ruleId" : "R-6XS-RV9",
+        "fields" : [ "OPT-300-Contract-Signatory" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-AMR-RX7",
+        "fields" : [ "OPT-301-LotResult-Paying" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-ARR-F5W",
+        "fields" : [ "OPT-301-Lot-DocProvider" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-BV9-5FL",
+        "fields" : [ "OPT-301-Lot-TenderEval" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-E4Q-LF6",
+        "fields" : [ "OPT-301-Lot-EnvironLegis" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-KMX-3L8",
+        "fields" : [ "OPT-301-Lot-AddInfo" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-PZU-X8Z",
+        "fields" : [ "OPT-301-Lot-Mediator" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-T5M-DUE",
         "fields" : [ "OPT-301-Lot-ReviewInfo" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-6XS-RV9",
-        "fields" : [ "OPT-300-Contract-Signatory" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
         "ruleId" : "R-W8E-8OB",
         "fields" : [ "OPT-301-Lot-FiscalLegis" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-4L5-LUG",
-        "fields" : [ "OPT-200-Organization-Company" ],
+        "ruleId" : "R-Y4H-Z22",
+        "fields" : [ "OPT-301-Lot-ReviewOrg" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-Z38-F3F",
+        "fields" : [ "OPT-301-LotResult-Financing" ],
         "nodes" : [ "ND-TenderingParty" ]
       } ]
     },
@@ -815,11 +815,11 @@
         "ruleId" : "R-QS6-ACZ",
         "nodes" : [ "ND-SubContractorTakerReference" ]
       }, {
-        "ruleId" : "R-FT5-2FZ",
+        "ruleId" : "R-DTE-5HX",
         "fields" : [ "OPT-301-Tenderer-SubCont" ],
         "nodes" : [ "ND-SubContractor" ]
       }, {
-        "ruleId" : "R-DTE-5HX",
+        "ruleId" : "R-FT5-2FZ",
         "fields" : [ "OPT-301-Tenderer-SubCont" ],
         "nodes" : [ "ND-SubContractor" ]
       }, {
@@ -853,55 +853,32 @@
         "fields" : [ "OPT-300-Tenderer" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-QZV-MQW",
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-TD3-EJL",
-        "fields" : [ "OPT-301-Lot-AddInfo" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-W79-U40",
-        "fields" : [ "OPT-301-Lot-DocProvider" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-8ZP-7DH",
-        "fields" : [ "OPT-301-Lot-EmployLegis" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-SV7-TAI",
-        "fields" : [ "OPT-301-Lot-EnvironLegis" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-TDY-GGR",
-        "fields" : [ "OPT-301-Lot-TenderEval" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-A0H-CAT",
-        "fields" : [ "OPT-301-LotResult-Financing" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
         "ruleId" : "R-1Q0-YPS",
         "fields" : [ "OPT-300-Tenderer" ],
-        "nodes" : [ "ND-TenderingParty" ]
-      }, {
-        "ruleId" : "R-ZZN-FX4",
-        "fields" : [ "OPT-301-Lot-Mediator" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-5K7-2YQ",
         "fields" : [ "OPT-301-LotResult-Paying" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-US6-BI1",
-        "fields" : [ "OPT-300-Procedure-SProvider" ],
+        "ruleId" : "R-8ZP-7DH",
+        "fields" : [ "OPT-301-Lot-EmployLegis" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-S18-KY8",
-        "fields" : [ "OPT-301-Lot-TenderReceipt" ],
+        "ruleId" : "R-9CZ-GDX",
+        "fields" : [ "OPT-301-Lot-FiscalLegis" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-9XX-9SR",
         "fields" : [ "OPT-301-Lot-ReviewOrg" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-A0H-CAT",
+        "fields" : [ "OPT-301-LotResult-Financing" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-HOI-1X5",
+        "fields" : [ "OPT-200-Organization-Company" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
         "ruleId" : "R-OXE-TG2",
@@ -912,12 +889,35 @@
         "fields" : [ "OPT-300-Contract-Signatory" ],
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-HOI-1X5",
-        "fields" : [ "OPT-200-Organization-Company" ],
+        "ruleId" : "R-QZV-MQW",
         "nodes" : [ "ND-TenderingParty" ]
       }, {
-        "ruleId" : "R-9CZ-GDX",
-        "fields" : [ "OPT-301-Lot-FiscalLegis" ],
+        "ruleId" : "R-S18-KY8",
+        "fields" : [ "OPT-301-Lot-TenderReceipt" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-SV7-TAI",
+        "fields" : [ "OPT-301-Lot-EnvironLegis" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-TD3-EJL",
+        "fields" : [ "OPT-301-Lot-AddInfo" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-TDY-GGR",
+        "fields" : [ "OPT-301-Lot-TenderEval" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-US6-BI1",
+        "fields" : [ "OPT-300-Procedure-SProvider" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-W79-U40",
+        "fields" : [ "OPT-301-Lot-DocProvider" ],
+        "nodes" : [ "ND-TenderingParty" ]
+      }, {
+        "ruleId" : "R-ZZN-FX4",
+        "fields" : [ "OPT-301-Lot-Mediator" ],
         "nodes" : [ "ND-TenderingParty" ]
       } ]
     },
@@ -942,19 +942,19 @@
         "ruleId" : "R-E5E-JGB",
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-CDP-Y12",
-        "fields" : [ "BT-142-LotResult" ],
-        "nodes" : [ "ND-SettledContract" ]
-      }, {
-        "ruleId" : "R-NFZ-79M",
-        "fields" : [ "BT-150-Contract" ],
-        "nodes" : [ "ND-SettledContract" ]
-      }, {
         "ruleId" : "R-5EF-TOW",
         "fields" : [ "BT-142-LotResult" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-87J-1YY",
+        "fields" : [ "BT-150-Contract" ],
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
+        "ruleId" : "R-CDP-Y12",
+        "fields" : [ "BT-142-LotResult" ],
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
+        "ruleId" : "R-NFZ-79M",
         "fields" : [ "BT-150-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
@@ -983,15 +983,15 @@
         "ruleId" : "R-8JD-5LS",
         "nodes" : [ "ND-LotResultTenderReference" ]
       }, {
+        "ruleId" : "R-2DL-YLF",
+        "fields" : [ "OPT-322-LotResult", "BT-13713-LotResult", "BT-13714-Tender", "BT-1375-Procedure", "BT-330-Procedure", "OPT-321-Tender", "BT-142-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
         "ruleId" : "R-2E3-963",
         "fields" : [ "OPT-322-LotResult", "BT-13713-LotResult", "BT-13714-Tender", "BT-1375-Procedure", "BT-330-Procedure", "OPT-321-Tender" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-MT5-5I2",
-        "fields" : [ "OPT-322-LotResult", "BT-13713-LotResult", "BT-13714-Tender", "BT-1375-Procedure", "BT-330-Procedure", "OPT-321-Tender", "BT-142-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-2DL-YLF",
         "fields" : [ "OPT-322-LotResult", "BT-13713-LotResult", "BT-13714-Tender", "BT-1375-Procedure", "BT-330-Procedure", "OPT-321-Tender", "BT-142-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
@@ -1086,16 +1086,16 @@
         "ruleId" : "R-9LK-RQL",
         "fields" : [ "BT-122-Lot-Language" ]
       }, {
-        "ruleId" : "R-GJM-PY9",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-122-Lot-Language" ],
-        "nodes" : [ "ND-AuctionTerms" ]
-      }, {
         "ruleId" : "R-1V9-T0T",
         "fields" : [ "BT-122-Lot-Language" ],
         "nodes" : [ "ND-AuctionTerms" ]
       }, {
         "ruleId" : "R-54C-6QN",
         "fields" : [ "BT-122-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-AuctionTerms" ]
+      }, {
+        "ruleId" : "R-GJM-PY9",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-122-Lot-Language" ],
         "nodes" : [ "ND-AuctionTerms" ]
       }, {
         "ruleId" : "R-7VU-BVH",
@@ -1188,10 +1188,10 @@
     "id" : "BT-42-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-5NN-TD1",
+        "ruleId" : "R-3I9-81L",
         "nodes" : [ "ND-AwardingTerms" ]
       }, {
-        "ruleId" : "R-3I9-81L",
+        "ruleId" : "R-5NN-TD1",
         "nodes" : [ "ND-AwardingTerms" ]
       }, {
         "ruleId" : "R-WSM-692",
@@ -1368,10 +1368,10 @@
     "id" : "BT-514-Business",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-OXS-GAX",
+        "ruleId" : "R-LLH-290",
         "nodes" : [ "ND-BusinessAddress" ]
       }, {
-        "ruleId" : "R-LLH-290",
+        "ruleId" : "R-OXS-GAX",
         "nodes" : [ "ND-BusinessAddress" ]
       }, {
         "ruleId" : "R-56S-Y32",
@@ -1536,16 +1536,16 @@
         "ruleId" : "R-XF1-X4R",
         "fields" : [ "BT-141(a)-notice-Language" ]
       }, {
+        "ruleId" : "R-C9F-E2I",
+        "fields" : [ "BT-141(a)-notice-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-Change" ]
+      }, {
         "ruleId" : "R-D6N-X3H",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-141(a)-notice-Language" ],
         "nodes" : [ "ND-Change" ]
       }, {
         "ruleId" : "R-TVY-QHL",
         "fields" : [ "BT-141(a)-notice-Language" ],
-        "nodes" : [ "ND-Change" ]
-      }, {
-        "ruleId" : "R-C9F-E2I",
-        "fields" : [ "BT-141(a)-notice-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-Change" ]
       }, {
         "ruleId" : "R-KCK-FII",
@@ -1660,25 +1660,25 @@
     "id" : "BT-500-Organization-Company",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-III-J3N",
+        "ruleId" : "R-4VJ-DRZ",
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-4VJ-DRZ",
+        "ruleId" : "R-III-J3N",
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-1U4-4EB",
         "fields" : [ "BT-500-Organization-Company-Language" ]
       }, {
-        "ruleId" : "R-TO7-CYU",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-500-Organization-Company-Language" ],
+        "ruleId" : "R-QGA-KFD",
+        "fields" : [ "BT-500-Organization-Company-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-SMW-QTL",
         "fields" : [ "BT-500-Organization-Company-Language" ],
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-QGA-KFD",
-        "fields" : [ "BT-500-Organization-Company-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-TO7-CYU",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-500-Organization-Company-Language" ],
         "nodes" : [ "ND-Company" ]
       } ]
     }
@@ -1686,10 +1686,10 @@
     "id" : "BT-501-Organization-Company",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-M9Q-AIC",
+        "ruleId" : "R-G77-EB8",
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-G77-EB8",
+        "ruleId" : "R-M9Q-AIC",
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-39V-AEP",
@@ -1761,12 +1761,12 @@
         "ruleId" : "R-SNN-G7Z",
         "codelists" : [ "nuts-lvl3" ]
       }, {
-        "ruleId" : "R-IM0-8CV",
+        "ruleId" : "R-6L0-71L",
         "fields" : [ "BT-514-Organization-Company" ],
         "nodes" : [ "ND-Company" ],
         "codelists" : [ "nuts-country" ]
       }, {
-        "ruleId" : "R-6L0-71L",
+        "ruleId" : "R-IM0-8CV",
         "fields" : [ "BT-514-Organization-Company" ],
         "nodes" : [ "ND-Company" ],
         "codelists" : [ "nuts-country" ]
@@ -1886,10 +1886,10 @@
     "id" : "BT-514-Organization-Company",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-SPE-E2E",
+        "ruleId" : "R-IXX-D71",
         "nodes" : [ "ND-Company" ]
       }, {
-        "ruleId" : "R-IXX-D71",
+        "ruleId" : "R-SPE-E2E",
         "nodes" : [ "ND-Company" ]
       }, {
         "ruleId" : "R-HE7-DDL",
@@ -1930,16 +1930,16 @@
         "ruleId" : "R-5CL-CSZ",
         "fields" : [ "BT-6110-Contract-Language" ]
       }, {
+        "ruleId" : "R-G8J-SPG",
+        "fields" : [ "BT-6110-Contract-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-ContractEUFunds" ]
+      }, {
         "ruleId" : "R-KLT-LK8",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-6110-Contract-Language" ],
         "nodes" : [ "ND-ContractEUFunds" ]
       }, {
         "ruleId" : "R-SXI-QDV",
         "fields" : [ "BT-6110-Contract-Language" ],
-        "nodes" : [ "ND-ContractEUFunds" ]
-      }, {
-        "ruleId" : "R-G8J-SPG",
-        "fields" : [ "BT-6110-Contract-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-ContractEUFunds" ]
       }, {
         "ruleId" : "R-06X-2FB",
@@ -1973,10 +1973,10 @@
     "id" : "BT-1501(n)-Contract",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-V2P-4ND",
+        "ruleId" : "R-1IF-GAQ",
         "nodes" : [ "ND-ContractModification" ]
       }, {
-        "ruleId" : "R-1IF-GAQ",
+        "ruleId" : "R-V2P-4ND",
         "nodes" : [ "ND-ContractModification" ]
       }, {
         "ruleId" : "R-QAW-CV4",
@@ -1996,10 +1996,10 @@
     "id" : "BT-10-Procedure-Buyer",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-VDL-KLJ",
+        "ruleId" : "R-E5M-U84",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
-        "ruleId" : "R-E5M-U84",
+        "ruleId" : "R-VDL-KLJ",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
         "ruleId" : "R-Y3K-4F0",
@@ -2008,11 +2008,11 @@
         "ruleId" : "R-MKN-TDC",
         "codelists" : [ "authority-activity" ]
       }, {
-        "ruleId" : "R-DHU-YHE",
+        "ruleId" : "R-41Z-29T",
         "fields" : [ "BT-11-Procedure-Buyer" ],
         "nodes" : [ "ND-ContractingParty" ]
       }, {
-        "ruleId" : "R-41Z-29T",
+        "ruleId" : "R-DHU-YHE",
         "fields" : [ "BT-11-Procedure-Buyer" ],
         "nodes" : [ "ND-ContractingParty" ]
       } ]
@@ -2026,10 +2026,10 @@
     "id" : "BT-11-Procedure-Buyer",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-X5E-5CA",
+        "ruleId" : "R-H9D-VB3",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
-        "ruleId" : "R-H9D-VB3",
+        "ruleId" : "R-X5E-5CA",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
         "ruleId" : "R-R5Q-T9O",
@@ -2048,10 +2048,10 @@
     "id" : "BT-508-Procedure-Buyer",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-MM6-07M",
+        "ruleId" : "R-EDG-COR",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
-        "ruleId" : "R-EDG-COR",
+        "ruleId" : "R-MM6-07M",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
         "ruleId" : "R-SE5-MAM",
@@ -2092,10 +2092,10 @@
     "id" : "BT-740-Procedure-Buyer",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-VMF-6LU",
+        "ruleId" : "R-CG1-KVY",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
-        "ruleId" : "R-CG1-KVY",
+        "ruleId" : "R-VMF-6LU",
         "nodes" : [ "ND-ContractingParty" ]
       }, {
         "ruleId" : "R-KZ0-V96",
@@ -2132,12 +2132,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-09(b)-Procedure-Language" ],
         "nodes" : [ "ND-CrossBorderLaw" ]
       }, {
-        "ruleId" : "R-TJV-Z2Q",
-        "fields" : [ "BT-09(b)-Procedure-Language" ],
-        "nodes" : [ "ND-CrossBorderLaw" ]
-      }, {
         "ruleId" : "R-BLM-WFN",
         "fields" : [ "BT-09(b)-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-CrossBorderLaw" ]
+      }, {
+        "ruleId" : "R-TJV-Z2Q",
+        "fields" : [ "BT-09(b)-Procedure-Language" ],
         "nodes" : [ "ND-CrossBorderLaw" ]
       }, {
         "ruleId" : "R-0O3-06F",
@@ -2159,11 +2159,11 @@
         "ruleId" : "R-PTB-NX4",
         "nodes" : [ "ND-DirectAward" ]
       }, {
-        "ruleId" : "R-VB1-TAX",
+        "ruleId" : "R-TMU-UIK",
         "fields" : [ "BT-136-Procedure" ],
         "nodes" : [ "ND-DirectAward" ]
       }, {
-        "ruleId" : "R-TMU-UIK",
+        "ruleId" : "R-VB1-TAX",
         "fields" : [ "BT-136-Procedure" ],
         "nodes" : [ "ND-DirectAward" ]
       } ]
@@ -2203,10 +2203,10 @@
     "id" : "BT-500-Business-European",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-MS8-J3I",
+        "ruleId" : "R-HL5-U1L",
         "nodes" : [ "ND-EuEntity" ]
       }, {
-        "ruleId" : "R-HL5-U1L",
+        "ruleId" : "R-MS8-J3I",
         "nodes" : [ "ND-EuEntity" ]
       }, {
         "ruleId" : "R-LVI-WUY",
@@ -2223,11 +2223,11 @@
         "ruleId" : "R-OKT-CIF",
         "nodes" : [ "ND-EuEntity" ]
       }, {
-        "ruleId" : "R-JJ6-NWN",
+        "ruleId" : "R-3GR-OJ4",
         "fields" : [ "BT-501-Business-European" ],
         "nodes" : [ "ND-EuEntity" ]
       }, {
-        "ruleId" : "R-3GR-OJ4",
+        "ruleId" : "R-JJ6-NWN",
         "fields" : [ "BT-501-Business-European" ],
         "nodes" : [ "ND-EuEntity" ]
       } ]
@@ -2245,11 +2245,11 @@
         "ruleId" : "R-U4U-H53",
         "codelists" : [ "exclusion-ground" ]
       }, {
-        "ruleId" : "R-JCU-8UP",
+        "ruleId" : "R-7G9-1I1",
         "fields" : [ "BT-806-Procedure" ],
         "nodes" : [ "ND-ProcedureTerms" ]
       }, {
-        "ruleId" : "R-7G9-1I1",
+        "ruleId" : "R-JCU-8UP",
         "fields" : [ "BT-806-Procedure" ],
         "nodes" : [ "ND-ProcedureTerms" ]
       } ]
@@ -2269,16 +2269,16 @@
         "ruleId" : "R-I82-B1Z",
         "fields" : [ "BT-67(b)-Procedure-Language" ]
       }, {
-        "ruleId" : "R-Z9E-GXD",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-67(b)-Procedure-Language" ],
+        "ruleId" : "R-ECG-BGM",
+        "fields" : [ "BT-67(b)-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-ExclusionGrounds" ]
       }, {
         "ruleId" : "R-HZI-OEP",
         "fields" : [ "BT-67(b)-Procedure-Language" ],
         "nodes" : [ "ND-ExclusionGrounds" ]
       }, {
-        "ruleId" : "R-ECG-BGM",
-        "fields" : [ "BT-67(b)-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-Z9E-GXD",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-67(b)-Procedure-Language" ],
         "nodes" : [ "ND-ExclusionGrounds" ]
       }, {
         "ruleId" : "R-TZO-V3T",
@@ -2299,16 +2299,16 @@
         "ruleId" : "R-JDM-6X8",
         "fields" : [ "BT-70-Lot-Language" ]
       }, {
-        "ruleId" : "R-BJW-DQP",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-70-Lot-Language" ],
+        "ruleId" : "R-1JU-JA9",
+        "fields" : [ "BT-70-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-ExecutionRequirements" ]
       }, {
         "ruleId" : "R-6QJ-SHP",
         "fields" : [ "BT-70-Lot-Language" ],
         "nodes" : [ "ND-ExecutionRequirements" ]
       }, {
-        "ruleId" : "R-1JU-JA9",
-        "fields" : [ "BT-70-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-BJW-DQP",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-70-Lot-Language" ],
         "nodes" : [ "ND-ExecutionRequirements" ]
       }, {
         "ruleId" : "R-EWC-W3C",
@@ -2323,16 +2323,16 @@
         "ruleId" : "R-VOE-RV5",
         "nodes" : [ "ND-ExtendedDurationJustification" ]
       }, {
+        "ruleId" : "R-5WN-A9Z",
+        "fields" : [ "OPP-021-Contract-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-Asset" ]
+      }, {
         "ruleId" : "R-E50-DZK",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "OPP-021-Contract-Language" ],
         "nodes" : [ "ND-Asset" ]
       }, {
         "ruleId" : "R-XLG-VWJ",
         "fields" : [ "OPP-021-Contract-Language" ],
-        "nodes" : [ "ND-Asset" ]
-      }, {
-        "ruleId" : "R-5WN-A9Z",
-        "fields" : [ "OPP-021-Contract-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-Asset" ]
       }, {
         "ruleId" : "R-3A4-0J0",
@@ -2444,10 +2444,10 @@
     "id" : "OPP-121-Business",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-A7Z-PII",
+        "ruleId" : "R-8OC-TCO",
         "nodes" : [ "ND-GazetteReference" ]
       }, {
-        "ruleId" : "R-8OC-TCO",
+        "ruleId" : "R-A7Z-PII",
         "nodes" : [ "ND-GazetteReference" ]
       }, {
         "ruleId" : "R-OFT-GCF",
@@ -2503,32 +2503,6 @@
         "ruleId" : "R-B68-CVW",
         "nodes" : [ "ND-GroupCompositionLotReference" ]
       }, {
-        "ruleId" : "R-QUV-5GN",
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
-        "ruleId" : "R-FIF-B6Y",
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
-        "ruleId" : "R-JLQ-DDV",
-        "fields" : [ "BT-137-Lot" ],
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
-        "ruleId" : "R-ILQ-IW1",
-        "fields" : [ "BT-330-Procedure", "BT-130-Lot", "BT-137-Lot" ],
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
-        "ruleId" : "R-T32-WXB",
-        "fields" : [ "BT-330-Procedure", "BT-131(d)-Lot", "BT-137-Lot" ],
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
-        "ruleId" : "R-PHG-NN3",
-        "fields" : [ "BT-330-Procedure", "BT-1311(d)-Lot", "BT-137-Lot" ],
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
-        "ruleId" : "R-Z9D-HA1",
-        "fields" : [ "BT-330-Procedure", "BT-132(d)-Lot", "BT-137-Lot" ],
-        "nodes" : [ "ND-GroupComposition" ]
-      }, {
         "ruleId" : "R-AKI-UAX",
         "fields" : [ "BT-330-Procedure", "BT-630(d)-Lot", "BT-137-Lot" ],
         "nodes" : [ "ND-GroupComposition" ]
@@ -2537,12 +2511,34 @@
         "fields" : [ "BT-330-Procedure", "BT-631-Lot", "BT-137-Lot" ],
         "nodes" : [ "ND-GroupComposition" ]
       }, {
+        "ruleId" : "R-FIF-B6Y",
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
+        "ruleId" : "R-ILQ-IW1",
+        "fields" : [ "BT-330-Procedure", "BT-130-Lot", "BT-137-Lot" ],
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
+        "ruleId" : "R-JLQ-DDV",
+        "fields" : [ "BT-137-Lot" ],
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
         "ruleId" : "R-OI4-G01",
         "fields" : [ "BT-330-Procedure", "BT-131(t)-Lot", "BT-137-Lot" ],
         "nodes" : [ "ND-GroupComposition" ]
       }, {
+        "ruleId" : "R-PHG-NN3",
+        "fields" : [ "BT-330-Procedure", "BT-1311(d)-Lot", "BT-137-Lot" ],
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
+        "ruleId" : "R-QUV-5GN",
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
         "ruleId" : "R-SB3-DK5",
         "fields" : [ "BT-330-Procedure", "BT-1311(t)-Lot", "BT-137-Lot" ],
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
+        "ruleId" : "R-T32-WXB",
+        "fields" : [ "BT-330-Procedure", "BT-131(d)-Lot", "BT-137-Lot" ],
         "nodes" : [ "ND-GroupComposition" ]
       }, {
         "ruleId" : "R-USI-2FZ",
@@ -2551,6 +2547,10 @@
       }, {
         "ruleId" : "R-X1E-MWE",
         "fields" : [ "BT-330-Procedure", "BT-630(t)-Lot", "BT-137-Lot" ],
+        "nodes" : [ "ND-GroupComposition" ]
+      }, {
+        "ruleId" : "R-Z9D-HA1",
+        "fields" : [ "BT-330-Procedure", "BT-132(d)-Lot", "BT-137-Lot" ],
         "nodes" : [ "ND-GroupComposition" ]
       } ]
     },
@@ -2563,10 +2563,10 @@
     "id" : "BT-630(t)-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-L3Q-VA2",
+        "ruleId" : "R-647-E7M",
         "nodes" : [ "ND-InterestExpressionReceptionPeriod" ]
       }, {
-        "ruleId" : "R-647-E7M",
+        "ruleId" : "R-L3Q-VA2",
         "nodes" : [ "ND-InterestExpressionReceptionPeriod" ]
       }, {
         "ruleId" : "R-TFD-MMF",
@@ -2590,10 +2590,10 @@
     "id" : "BT-500-Business",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-GB2-KKF",
+        "ruleId" : "R-CNG-8WM",
         "nodes" : [ "ND-LocalEntity" ]
       }, {
-        "ruleId" : "R-CNG-8WM",
+        "ruleId" : "R-GB2-KKF",
         "nodes" : [ "ND-LocalEntity" ]
       }, {
         "ruleId" : "R-ONZ-94D",
@@ -2610,23 +2610,23 @@
         "ruleId" : "R-6B2-TK7",
         "fields" : [ "BT-01(f)-Procedure-Language" ]
       }, {
-        "ruleId" : "R-7DJ-0A1",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-01(f)-Procedure-Language" ],
-        "nodes" : [ "ND-LocalLegalBasisNoID" ]
-      }, {
         "ruleId" : "R-59C-OZD",
         "fields" : [ "BT-01(f)-Procedure-Language" ],
+        "nodes" : [ "ND-LocalLegalBasisNoID" ]
+      }, {
+        "ruleId" : "R-7DJ-0A1",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-01(f)-Procedure-Language" ],
         "nodes" : [ "ND-LocalLegalBasisNoID" ]
       }, {
         "ruleId" : "R-L3K-YHW",
         "fields" : [ "BT-01(f)-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LocalLegalBasisNoID" ]
       }, {
-        "ruleId" : "R-WSW-QCT",
+        "ruleId" : "R-S4N-ELQ",
         "fields" : [ "BT-01(e)-Procedure" ],
         "nodes" : [ "ND-LocalLegalBasisNoID" ]
       }, {
-        "ruleId" : "R-S4N-ELQ",
+        "ruleId" : "R-WSW-QCT",
         "fields" : [ "BT-01(e)-Procedure" ],
         "nodes" : [ "ND-LocalLegalBasisNoID" ]
       } ]
@@ -2646,16 +2646,16 @@
         "ruleId" : "R-9OI-X06",
         "fields" : [ "BT-01(d)-Procedure-Language" ]
       }, {
+        "ruleId" : "R-8RC-GYI",
+        "fields" : [ "BT-01(d)-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LocalLegalBasisWithID" ]
+      }, {
         "ruleId" : "R-CHV-UFF",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-01(d)-Procedure-Language" ],
         "nodes" : [ "ND-LocalLegalBasisWithID" ]
       }, {
         "ruleId" : "R-TWO-X2T",
         "fields" : [ "BT-01(d)-Procedure-Language" ],
-        "nodes" : [ "ND-LocalLegalBasisWithID" ]
-      }, {
-        "ruleId" : "R-8RC-GYI",
-        "fields" : [ "BT-01(d)-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LocalLegalBasisWithID" ]
       }, {
         "ruleId" : "R-MA8-D75",
@@ -2667,10 +2667,10 @@
     "id" : "BT-137-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-EEO-D7I",
+        "ruleId" : "R-1RP-56J",
         "nodes" : [ "ND-Lot" ]
       }, {
-        "ruleId" : "R-1RP-56J",
+        "ruleId" : "R-EEO-D7I",
         "nodes" : [ "ND-Lot" ]
       }, {
         "ruleId" : "R-391-49X",
@@ -2770,15 +2770,15 @@
         "ruleId" : "R-BOA-7YG",
         "codelists" : [ "award-criterion-type" ]
       }, {
+        "ruleId" : "R-I6L-PY5",
+        "fields" : [ "BT-541-Lot-WeightNumber", "BT-5421-Lot" ],
+        "nodes" : [ "ND-LotAwardCriteria" ]
+      }, {
         "ruleId" : "R-LPT-TIY",
         "fields" : [ "BT-5421-Lot" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
         "ruleId" : "R-PJX-WS0",
-        "fields" : [ "BT-541-Lot-WeightNumber", "BT-5421-Lot" ],
-        "nodes" : [ "ND-LotAwardCriteria" ]
-      }, {
-        "ruleId" : "R-I6L-PY5",
         "fields" : [ "BT-541-Lot-WeightNumber", "BT-5421-Lot" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       } ]
@@ -2798,23 +2798,23 @@
         "ruleId" : "R-0Y6-N76",
         "fields" : [ "BT-543-Lot-Language" ]
       }, {
-        "ruleId" : "R-11H-P4X",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-543-Lot-Language" ],
-        "nodes" : [ "ND-LotAwardCriteria" ]
-      }, {
         "ruleId" : "R-0S0-BQJ",
         "fields" : [ "BT-543-Lot-Language" ],
+        "nodes" : [ "ND-LotAwardCriteria" ]
+      }, {
+        "ruleId" : "R-11H-P4X",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-543-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
         "ruleId" : "R-2VF-IIX",
         "fields" : [ "BT-543-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
-        "ruleId" : "R-KN0-MRC",
+        "ruleId" : "R-KLH-MGA",
         "fields" : [ "BT-541-Lot-WeightNumber", "BT-541-Lot-FixedNumber", "BT-541-Lot-ThresholdNumber" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
-        "ruleId" : "R-KLH-MGA",
+        "ruleId" : "R-KN0-MRC",
         "fields" : [ "BT-541-Lot-WeightNumber", "BT-541-Lot-FixedNumber", "BT-541-Lot-ThresholdNumber" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
@@ -2842,16 +2842,16 @@
         "ruleId" : "R-6GX-SMD",
         "fields" : [ "BT-733-Lot-Language" ]
       }, {
-        "ruleId" : "R-OYJ-FZS",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-733-Lot-Language" ],
+        "ruleId" : "R-IZ3-4JF",
+        "fields" : [ "BT-733-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
         "ruleId" : "R-N9V-D5T",
         "fields" : [ "BT-733-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
-        "ruleId" : "R-IZ3-4JF",
-        "fields" : [ "BT-733-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-OYJ-FZS",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-733-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriteria" ]
       }, {
         "ruleId" : "R-RR0-I1J",
@@ -2869,10 +2869,6 @@
         "ruleId" : "R-COH-PBJ",
         "fields" : [ "BT-540-Lot-Language" ]
       }, {
-        "ruleId" : "R-PT9-TRO",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-540-Lot-Language" ],
-        "nodes" : [ "ND-LotAwardCriterion" ]
-      }, {
         "ruleId" : "R-CRQ-ZJA",
         "fields" : [ "BT-540-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriterion" ]
@@ -2881,11 +2877,15 @@
         "fields" : [ "BT-540-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotAwardCriterion" ]
       }, {
-        "ruleId" : "R-FRA-8G5",
-        "fields" : [ "BT-539-Lot" ],
+        "ruleId" : "R-PT9-TRO",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-540-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriterion" ]
       }, {
         "ruleId" : "R-DTD-D7Q",
+        "fields" : [ "BT-539-Lot" ],
+        "nodes" : [ "ND-LotAwardCriterion" ]
+      }, {
+        "ruleId" : "R-FRA-8G5",
         "fields" : [ "BT-539-Lot" ],
         "nodes" : [ "ND-LotAwardCriterion" ]
       }, {
@@ -2985,12 +2985,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-734-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriterion" ]
       }, {
-        "ruleId" : "R-T0V-F01",
-        "fields" : [ "BT-734-Lot-Language" ],
-        "nodes" : [ "ND-LotAwardCriterion" ]
-      }, {
         "ruleId" : "R-ITA-RCR",
         "fields" : [ "BT-734-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotAwardCriterion" ]
+      }, {
+        "ruleId" : "R-T0V-F01",
+        "fields" : [ "BT-734-Lot-Language" ],
         "nodes" : [ "ND-LotAwardCriterion" ]
       }, {
         "ruleId" : "R-NWB-0K9",
@@ -3065,11 +3065,11 @@
         "ruleId" : "R-736-3O4",
         "codelists" : [ "number-weight" ]
       }, {
-        "ruleId" : "R-F0J-L83",
+        "ruleId" : "R-33R-AJ7",
         "fields" : [ "BT-541-Lot-WeightNumber" ],
         "nodes" : [ "ND-LotAwardWeightCriterionParameter" ]
       }, {
-        "ruleId" : "R-33R-AJ7",
+        "ruleId" : "R-F0J-L83",
         "fields" : [ "BT-541-Lot-WeightNumber" ],
         "nodes" : [ "ND-LotAwardWeightCriterionParameter" ]
       }, {
@@ -3169,12 +3169,12 @@
         "fields" : [ "BT-36-Lot", "BT-537-Lot", "BT-538-Lot" ],
         "nodes" : [ "ND-LotDuration" ]
       }, {
-        "ruleId" : "R-MA5-ARM",
-        "fields" : [ "BT-537-Lot" ],
-        "nodes" : [ "ND-LotDuration" ]
-      }, {
         "ruleId" : "R-CGH-LX2",
         "fields" : [ "BT-71-Lot", "BT-537-Lot" ],
+        "nodes" : [ "ND-LotDuration" ]
+      }, {
+        "ruleId" : "R-MA5-ARM",
+        "fields" : [ "BT-537-Lot" ],
         "nodes" : [ "ND-LotDuration" ]
       } ]
     },
@@ -3247,12 +3247,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-781-Lot-Language" ],
         "nodes" : [ "ND-LotDuration" ]
       }, {
-        "ruleId" : "R-B9B-S6J",
-        "fields" : [ "BT-781-Lot-Language" ],
-        "nodes" : [ "ND-LotDuration" ]
-      }, {
         "ruleId" : "R-514-G06",
         "fields" : [ "BT-781-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotDuration" ]
+      }, {
+        "ruleId" : "R-B9B-S6J",
+        "fields" : [ "BT-781-Lot-Language" ],
         "nodes" : [ "ND-LotDuration" ]
       } ]
     }
@@ -3419,11 +3419,11 @@
         "ruleId" : "R-SPS-406",
         "fields" : [ "BT-262-Lot" ]
       }, {
-        "ruleId" : "R-MKV-GB2",
+        "ruleId" : "R-FMV-V7N",
         "fields" : [ "BT-262-Lot" ],
         "nodes" : [ "ND-LotMainClassification" ]
       }, {
-        "ruleId" : "R-FMV-V7N",
+        "ruleId" : "R-MKV-GB2",
         "fields" : [ "BT-262-Lot" ],
         "nodes" : [ "ND-LotMainClassification" ]
       } ]
@@ -3441,14 +3441,14 @@
         "ruleId" : "R-J3B-1NJ",
         "codelists" : [ "nuts-lvl3" ]
       }, {
-        "ruleId" : "R-N4S-3M1",
-        "fields" : [ "BT-727-Lot", "BT-5141-Lot" ],
-        "nodes" : [ "ND-LotPlacePerformance" ]
-      }, {
         "ruleId" : "R-BCG-872",
         "fields" : [ "BT-727-Lot", "BT-5141-Lot" ],
         "nodes" : [ "ND-LotPlacePerformance" ],
         "codelists" : [ "nuts-country" ]
+      }, {
+        "ruleId" : "R-N4S-3M1",
+        "fields" : [ "BT-727-Lot", "BT-5141-Lot" ],
+        "nodes" : [ "ND-LotPlacePerformance" ]
       }, {
         "ruleId" : "R-MMP-FHY",
         "fields" : [ "BT-5141-Lot" ],
@@ -3525,14 +3525,14 @@
         "ruleId" : "R-J9I-PS3",
         "nodes" : [ "ND-LotPerformanceAddress" ]
       }, {
-        "ruleId" : "R-M0R-60V",
-        "fields" : [ "BT-5131-Lot" ],
-        "nodes" : [ "ND-LotPlacePerformance" ]
-      }, {
         "ruleId" : "R-917-8WO",
         "fields" : [ "BT-5141-Lot", "BT-5101(a)-Lot" ],
         "nodes" : [ "ND-LotPlacePerformance" ],
         "codelists" : [ "postcode-country" ]
+      }, {
+        "ruleId" : "R-M0R-60V",
+        "fields" : [ "BT-5131-Lot" ],
+        "nodes" : [ "ND-LotPlacePerformance" ]
       } ]
     }
   }, {
@@ -3571,11 +3571,11 @@
         "ruleId" : "R-TI7-MI3",
         "codelists" : [ "country" ]
       }, {
-        "ruleId" : "R-FXF-GC1",
+        "ruleId" : "R-8E0-O11",
         "fields" : [ "BT-727-Lot" ],
         "nodes" : [ "ND-LotPlacePerformance" ]
       }, {
-        "ruleId" : "R-8E0-O11",
+        "ruleId" : "R-FXF-GC1",
         "fields" : [ "BT-727-Lot" ],
         "nodes" : [ "ND-LotPlacePerformance" ]
       } ]
@@ -3622,16 +3622,16 @@
         "ruleId" : "R-347-7MY",
         "fields" : [ "BT-728-Lot-Language" ]
       }, {
+        "ruleId" : "R-APH-7K9",
+        "fields" : [ "BT-728-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotPlacePerformance" ]
+      }, {
         "ruleId" : "R-F5V-EN5",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-728-Lot-Language" ],
         "nodes" : [ "ND-LotPlacePerformance" ]
       }, {
         "ruleId" : "R-XPA-LWF",
         "fields" : [ "BT-728-Lot-Language" ],
-        "nodes" : [ "ND-LotPlacePerformance" ]
-      }, {
-        "ruleId" : "R-APH-7K9",
-        "fields" : [ "BT-728-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotPlacePerformance" ]
       }, {
         "ruleId" : "R-62V-ADZ",
@@ -3694,11 +3694,11 @@
         "ruleId" : "R-2XG-YAG",
         "nodes" : [ "ND-LotNonRestrictedProcurementDocumentAttachment" ]
       }, {
-        "ruleId" : "R-EH0-3KM",
+        "ruleId" : "R-17O-45N",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
-        "ruleId" : "R-17O-45N",
+        "ruleId" : "R-EH0-3KM",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       } ]
@@ -3713,11 +3713,11 @@
         "ruleId" : "R-4ER-YWA",
         "nodes" : [ "ND-LotRestrictedProcurementDocumentAttachment" ]
       }, {
-        "ruleId" : "R-HBE-PWD",
+        "ruleId" : "R-57H-VSZ",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
-        "ruleId" : "R-57H-VSZ",
+        "ruleId" : "R-HBE-PWD",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       } ]
@@ -3735,11 +3735,11 @@
         "ruleId" : "R-YVB-IXU",
         "codelists" : [ "communication-justification" ]
       }, {
-        "ruleId" : "R-OIY-W66",
+        "ruleId" : "R-74W-QKQ",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
-        "ruleId" : "R-74W-QKQ",
+        "ruleId" : "R-OIY-W66",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       } ]
@@ -3796,11 +3796,11 @@
         "ruleId" : "R-7LD-WAN",
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
-        "ruleId" : "R-ULK-ZF1",
+        "ruleId" : "R-IT7-IYE",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
-        "ruleId" : "R-IT7-IYE",
+        "ruleId" : "R-ULK-ZF1",
         "fields" : [ "BT-14-Lot" ],
         "nodes" : [ "ND-LotProcurementDocument" ]
       }, {
@@ -3843,12 +3843,12 @@
         "ruleId" : "R-3JF-V0X",
         "fields" : [ "BT-21-Lot-Language" ]
       }, {
-        "ruleId" : "R-S7N-2QG",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-21-Lot-Language" ],
-        "nodes" : [ "ND-LotProcurementScope" ]
-      }, {
         "ruleId" : "R-0KE-4R2",
         "fields" : [ "BT-21-Lot-Language" ],
+        "nodes" : [ "ND-LotProcurementScope" ]
+      }, {
+        "ruleId" : "R-S7N-2QG",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-21-Lot-Language" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-VD0-ZGV",
@@ -3908,18 +3908,14 @@
     "id" : "BT-24-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-XCV-Q2O",
+        "ruleId" : "R-P6T-VSM",
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
-        "ruleId" : "R-P6T-VSM",
+        "ruleId" : "R-XCV-Q2O",
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-UNI-X7L",
         "fields" : [ "BT-24-Lot-Language" ]
-      }, {
-        "ruleId" : "R-NRM-M6T",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-24-Lot-Language" ],
-        "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-1JN-2R5",
         "fields" : [ "BT-24-Lot-Language" ],
@@ -3927,6 +3923,10 @@
       }, {
         "ruleId" : "R-677-UQI",
         "fields" : [ "BT-24-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotProcurementScope" ]
+      }, {
+        "ruleId" : "R-NRM-M6T",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-24-Lot-Language" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     }
@@ -3950,10 +3950,10 @@
     "id" : "BT-262-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-Y4U-5AE",
+        "ruleId" : "R-7EJ-UHL",
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
-        "ruleId" : "R-7EJ-UHL",
+        "ruleId" : "R-Y4U-5AE",
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-ROF-B2E",
@@ -3966,11 +3966,11 @@
         "fields" : [ "BT-263-Lot" ],
         "nodes" : [ "ND-LotMainClassification" ]
       }, {
-        "ruleId" : "R-W0T-ORH",
-        "fields" : [ "BT-71-Lot" ],
+        "ruleId" : "R-75D-MTG",
+        "fields" : [ "BT-23-Lot" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
-        "ruleId" : "R-75D-MTG",
+        "ruleId" : "R-9PG-OI2",
         "fields" : [ "BT-23-Lot" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
@@ -3978,8 +3978,8 @@
         "fields" : [ "BT-23-Lot" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
-        "ruleId" : "R-9PG-OI2",
-        "fields" : [ "BT-23-Lot" ],
+        "ruleId" : "R-W0T-ORH",
+        "fields" : [ "BT-71-Lot" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       } ]
     },
@@ -4040,12 +4040,12 @@
         "ruleId" : "R-M7J-JXF",
         "fields" : [ "BT-300-Lot-Language" ]
       }, {
-        "ruleId" : "R-HX5-8BA",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-300-Lot-Language" ],
-        "nodes" : [ "ND-LotProcurementScope" ]
-      }, {
         "ruleId" : "R-9PJ-Z7J",
         "fields" : [ "BT-300-Lot-Language" ],
+        "nodes" : [ "ND-LotProcurementScope" ]
+      }, {
+        "ruleId" : "R-HX5-8BA",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-300-Lot-Language" ],
         "nodes" : [ "ND-LotProcurementScope" ]
       }, {
         "ruleId" : "R-OH2-7ZQ",
@@ -4271,10 +4271,10 @@
     "id" : "BT-142-LotResult",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-QWH-2Y4",
+        "ruleId" : "R-9QN-ZIZ",
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-9QN-ZIZ",
+        "ruleId" : "R-QWH-2Y4",
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-G2X-M3M",
@@ -4422,12 +4422,12 @@
         "ruleId" : "R-1Y2-6KV",
         "fields" : [ "BT-688-LotResult-Language" ]
       }, {
-        "ruleId" : "R-7MJ-952",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-688-LotResult-Language" ],
-        "nodes" : [ "ND-IPIMeasureException" ]
-      }, {
         "ruleId" : "R-2OX-YKD",
         "fields" : [ "BT-688-LotResult-Language" ],
+        "nodes" : [ "ND-IPIMeasureException" ]
+      }, {
+        "ruleId" : "R-7MJ-952",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-688-LotResult-Language" ],
         "nodes" : [ "ND-IPIMeasureException" ]
       }, {
         "ruleId" : "R-U1U-E24",
@@ -4461,11 +4461,11 @@
         "fields" : [ "BT-711-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-S2C-D0M",
+        "ruleId" : "R-7DT-YS4",
         "fields" : [ "BT-711-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-7DT-YS4",
+        "ruleId" : "R-S2C-D0M",
         "fields" : [ "BT-711-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       } ]
@@ -4565,11 +4565,11 @@
         "ruleId" : "R-NG9-0PW",
         "codelists" : [ "energy-efficiency-basis" ]
       }, {
-        "ruleId" : "R-VUV-LEE",
+        "ruleId" : "R-KKT-QQ7",
         "fields" : [ "BT-811(b)-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       }, {
-        "ruleId" : "R-KKT-QQ7",
+        "ruleId" : "R-VUV-LEE",
         "fields" : [ "BT-811(b)-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       } ]
@@ -4596,16 +4596,16 @@
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-810-Lot", "BT-142-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
-        "ruleId" : "R-UV1-BQD",
-        "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-810-Lot" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
         "ruleId" : "R-S2A-23G",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-810-Lot" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-TA0-IE7",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-810-Lot", "BT-142-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
+        "ruleId" : "R-UV1-BQD",
+        "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-810-Lot" ],
         "nodes" : [ "ND-LotResult" ]
       } ]
     },
@@ -4651,11 +4651,11 @@
         "ruleId" : "R-JPC-J0U",
         "nodes" : [ "ND-EEDConsumption" ]
       }, {
-        "ruleId" : "R-IC7-4XL",
+        "ruleId" : "R-3F8-NUW",
         "fields" : [ "BT-811(a)-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       }, {
-        "ruleId" : "R-3F8-NUW",
+        "ruleId" : "R-IC7-4XL",
         "fields" : [ "BT-811(a)-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       } ]
@@ -4716,11 +4716,11 @@
         "ruleId" : "R-G8A-PCD",
         "codelists" : [ "metric-type" ]
       }, {
-        "ruleId" : "R-M9W-YSS",
+        "ruleId" : "R-85G-XN1",
         "fields" : [ "BT-811(a)-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       }, {
-        "ruleId" : "R-85G-XN1",
+        "ruleId" : "R-M9W-YSS",
         "fields" : [ "BT-811(a)-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       } ]
@@ -4743,11 +4743,11 @@
         "ruleId" : "R-W12-ROD",
         "codelists" : [ "metric-type" ]
       }, {
-        "ruleId" : "R-ZWE-OT0",
+        "ruleId" : "R-47U-EMX",
         "fields" : [ "BT-814-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       }, {
-        "ruleId" : "R-47U-EMX",
+        "ruleId" : "R-ZWE-OT0",
         "fields" : [ "BT-814-LotResult" ],
         "nodes" : [ "ND-EEDProcurementDetailsLotResult" ]
       } ]
@@ -4811,16 +4811,16 @@
         "ruleId" : "R-KQJ-UKJ",
         "nodes" : [ "ND-LotResultContractReference" ]
       }, {
+        "ruleId" : "R-D2D-SDB",
+        "fields" : [ "OPT-322-LotResult" ],
+        "nodes" : [ "ND-LotResult" ]
+      }, {
         "ruleId" : "R-NBR-P3T",
         "fields" : [ "OPT-322-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-NCJ-HEI",
         "fields" : [ "BT-142-LotResult", "OPT-322-LotResult" ],
-        "nodes" : [ "ND-LotResult" ]
-      }, {
-        "ruleId" : "R-D2D-SDB",
-        "fields" : [ "OPT-322-LotResult" ],
         "nodes" : [ "ND-LotResult" ]
       }, {
         "ruleId" : "R-NVQ-HEL",
@@ -4979,11 +4979,11 @@
         "ruleId" : "R-DFX-8SA",
         "nodes" : [ "ND-LotReviewTerms" ]
       }, {
-        "ruleId" : "R-YRZ-L7P",
+        "ruleId" : "R-THN-2EH",
         "fields" : [ "BT-99-Lot" ],
         "nodes" : [ "ND-LotReviewTerms" ]
       }, {
-        "ruleId" : "R-THN-2EH",
+        "ruleId" : "R-YRZ-L7P",
         "fields" : [ "BT-99-Lot" ],
         "nodes" : [ "ND-LotReviewTerms" ]
       }, {
@@ -5030,11 +5030,11 @@
         "ruleId" : "R-GL8-DLW",
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-GSB-K49",
+        "ruleId" : "R-3QI-0OB",
         "fields" : [ "BT-3201-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-3QI-0OB",
+        "ruleId" : "R-GSB-K49",
         "fields" : [ "BT-3201-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
@@ -5110,19 +5110,19 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-163-Tender-Language" ],
         "nodes" : [ "ND-ConcessionRevenue" ]
       }, {
-        "ruleId" : "R-ZZF-TE1",
-        "fields" : [ "BT-163-Tender-Language" ],
-        "nodes" : [ "ND-ConcessionRevenue" ]
-      }, {
         "ruleId" : "R-XCI-08U",
         "fields" : [ "BT-163-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-ConcessionRevenue" ]
       }, {
-        "ruleId" : "R-B59-VBU",
+        "ruleId" : "R-ZZF-TE1",
+        "fields" : [ "BT-163-Tender-Language" ],
+        "nodes" : [ "ND-ConcessionRevenue" ]
+      }, {
+        "ruleId" : "R-3F3-DAK",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-3F3-DAK",
+        "ruleId" : "R-B59-VBU",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       } ]
@@ -5276,10 +5276,10 @@
     "id" : "OPP-030-Tender",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-B0P-NMV",
+        "ruleId" : "R-AVH-UYH",
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-AVH-UYH",
+        "ruleId" : "R-B0P-NMV",
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-V1U-I96",
@@ -5301,10 +5301,10 @@
     "id" : "OPP-033-Tender",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-VLQ-0C8",
+        "ruleId" : "R-4X3-CNS",
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-4X3-CNS",
+        "ruleId" : "R-VLQ-0C8",
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-U67-LR2",
@@ -5323,10 +5323,10 @@
     "id" : "OPP-035-Tender",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-NJF-SY5",
+        "ruleId" : "R-860-JT7",
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-860-JT7",
+        "ruleId" : "R-NJF-SY5",
         "nodes" : [ "ND-LotTender" ]
       }, {
         "ruleId" : "R-L6T-WPG",
@@ -5367,11 +5367,11 @@
         "ruleId" : "R-TUG-8HE",
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-Q53-JFM",
+        "ruleId" : "R-EFD-W2R",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
-        "ruleId" : "R-EFD-W2R",
+        "ruleId" : "R-Q53-JFM",
         "fields" : [ "OPT-321-Tender" ],
         "nodes" : [ "ND-LotTender" ]
       }, {
@@ -5395,6 +5395,10 @@
         "ruleId" : "R-51S-T9D",
         "fields" : [ "BT-109-Lot-Language" ]
       }, {
+        "ruleId" : "R-231-SFS",
+        "fields" : [ "BT-109-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-FA" ]
+      }, {
         "ruleId" : "R-932-DI7",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-109-Lot-Language" ],
         "nodes" : [ "ND-FA" ]
@@ -5403,19 +5407,7 @@
         "fields" : [ "BT-109-Lot-Language" ],
         "nodes" : [ "ND-FA" ]
       }, {
-        "ruleId" : "R-231-SFS",
-        "fields" : [ "BT-109-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
-        "nodes" : [ "ND-FA" ]
-      }, {
         "ruleId" : "R-62N-MVZ",
-        "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
-        "nodes" : [ "ND-LotTenderingProcess" ]
-      }, {
-        "ruleId" : "R-K9N-G9A",
-        "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
-        "nodes" : [ "ND-LotTenderingProcess" ]
-      }, {
-        "ruleId" : "R-RRX-74E",
         "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
@@ -5423,7 +5415,15 @@
         "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
+        "ruleId" : "R-K9N-G9A",
+        "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
+        "nodes" : [ "ND-LotTenderingProcess" ]
+      }, {
         "ruleId" : "R-QV7-V0B",
+        "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
+        "nodes" : [ "ND-LotTenderingProcess" ]
+      }, {
+        "ruleId" : "R-RRX-74E",
         "fields" : [ "BT-765-Lot", "BT-537-Lot", "BT-536-Lot", "BT-36-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
@@ -5442,16 +5442,16 @@
         "ruleId" : "R-J61-TQ6",
         "fields" : [ "BT-111-Lot-Language" ]
       }, {
-        "ruleId" : "R-UFD-BQ6",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-111-Lot-Language" ],
-        "nodes" : [ "ND-FABuyerCategories" ]
-      }, {
         "ruleId" : "R-HL3-RDD",
         "fields" : [ "BT-111-Lot-Language" ],
         "nodes" : [ "ND-FABuyerCategories" ]
       }, {
         "ruleId" : "R-RDJ-CKN",
         "fields" : [ "BT-111-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-FABuyerCategories" ]
+      }, {
+        "ruleId" : "R-UFD-BQ6",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-111-Lot-Language" ],
         "nodes" : [ "ND-FABuyerCategories" ]
       }, {
         "ruleId" : "R-972-0NT",
@@ -5662,24 +5662,16 @@
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-K3O-09N",
-        "fields" : [ "BT-131(d)-Lot" ],
-        "nodes" : [ "ND-LotTenderingProcess" ]
-      }, {
         "ruleId" : "R-DNL-UIB",
         "fields" : [ "BT-105-Procedure", "BT-630(d)-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
+        "ruleId" : "R-K3O-09N",
+        "fields" : [ "BT-131(d)-Lot" ],
+        "nodes" : [ "ND-LotTenderingProcess" ]
+      }, {
         "ruleId" : "R-Y7X-MHZ",
         "fields" : [ "BT-105-Procedure" ],
-        "nodes" : [ "ND-LotTenderingProcess" ]
-      }, {
-        "ruleId" : "R-B32-UKX",
-        "fields" : [ "BT-130-Lot" ],
-        "nodes" : [ "ND-LotTenderingProcess" ]
-      }, {
-        "ruleId" : "R-O12-BOI",
-        "fields" : [ "BT-13(d)-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
         "ruleId" : "R-35W-SR7",
@@ -5688,6 +5680,14 @@
       }, {
         "ruleId" : "R-8PU-S4J",
         "fields" : [ "BT-738-notice", "BT-758-notice" ],
+        "nodes" : [ "ND-LotTenderingProcess" ]
+      }, {
+        "ruleId" : "R-B32-UKX",
+        "fields" : [ "BT-130-Lot" ],
+        "nodes" : [ "ND-LotTenderingProcess" ]
+      }, {
+        "ruleId" : "R-O12-BOI",
+        "fields" : [ "BT-13(d)-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       } ]
     },
@@ -5706,11 +5706,11 @@
         "ruleId" : "R-2D8-EKG",
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-ANF-XP5",
+        "ruleId" : "R-1M8-D3H",
         "fields" : [ "BT-1311(d)-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-1M8-D3H",
+        "ruleId" : "R-ANF-XP5",
         "fields" : [ "BT-1311(d)-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       } ]
@@ -5779,11 +5779,11 @@
         "ruleId" : "R-I74-V9N",
         "codelists" : [ "no-esubmission-justification" ]
       }, {
-        "ruleId" : "R-VFN-9LJ",
+        "ruleId" : "R-O4U-5HC",
         "fields" : [ "BT-17-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-O4U-5HC",
+        "ruleId" : "R-VFN-9LJ",
         "fields" : [ "BT-17-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       } ]
@@ -5811,11 +5811,11 @@
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-T8K-NQQ",
-        "fields" : [ "BT-105-Procedure", "BT-766-Lot", "BT-01-notice" ],
+        "ruleId" : "R-0Q1-6L3",
+        "fields" : [ "BT-51-Lot" ],
         "nodes" : [ "ND-SecondStage" ]
       }, {
-        "ruleId" : "R-V52-3NM",
+        "ruleId" : "R-M65-C1V",
         "fields" : [ "BT-105-Procedure", "BT-766-Lot", "BT-01-notice" ],
         "nodes" : [ "ND-SecondStage" ]
       }, {
@@ -5823,12 +5823,12 @@
         "fields" : [ "BT-105-Procedure", "BT-766-Lot", "BT-01-notice" ],
         "nodes" : [ "ND-SecondStage" ]
       }, {
-        "ruleId" : "R-M65-C1V",
+        "ruleId" : "R-T8K-NQQ",
         "fields" : [ "BT-105-Procedure", "BT-766-Lot", "BT-01-notice" ],
         "nodes" : [ "ND-SecondStage" ]
       }, {
-        "ruleId" : "R-0Q1-6L3",
-        "fields" : [ "BT-51-Lot" ],
+        "ruleId" : "R-V52-3NM",
+        "fields" : [ "BT-105-Procedure", "BT-766-Lot", "BT-01-notice" ],
         "nodes" : [ "ND-SecondStage" ]
       } ]
     }
@@ -5842,11 +5842,11 @@
         "ruleId" : "R-CAM-67W",
         "nodes" : [ "ND-SecondStage" ]
       }, {
-        "ruleId" : "R-UIO-CLU",
+        "ruleId" : "R-7SM-IFO",
         "fields" : [ "BT-661-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-7SM-IFO",
+        "ruleId" : "R-UIO-CLU",
         "fields" : [ "BT-661-Lot" ],
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
@@ -5916,12 +5916,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-745-Lot-Language" ],
         "nodes" : [ "ND-NonEsubmission" ]
       }, {
-        "ruleId" : "R-P4A-M5I",
-        "fields" : [ "BT-745-Lot-Language" ],
-        "nodes" : [ "ND-NonEsubmission" ]
-      }, {
         "ruleId" : "R-F9Q-HM5",
         "fields" : [ "BT-745-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-NonEsubmission" ]
+      }, {
+        "ruleId" : "R-P4A-M5I",
+        "fields" : [ "BT-745-Lot-Language" ],
         "nodes" : [ "ND-NonEsubmission" ]
       }, {
         "ruleId" : "R-A9C-L0K",
@@ -5959,10 +5959,10 @@
     "id" : "BT-766-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-JY6-ZCA",
+        "ruleId" : "R-9LU-FJK",
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
-        "ruleId" : "R-9LU-FJK",
+        "ruleId" : "R-JY6-ZCA",
         "nodes" : [ "ND-LotTenderingProcess" ]
       }, {
         "ruleId" : "R-1NH-RV5",
@@ -6029,10 +6029,10 @@
     "id" : "BT-60-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-QEO-QD2",
+        "ruleId" : "R-ID7-J4X",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-ID7-J4X",
+        "ruleId" : "R-QEO-QD2",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-4WN-6HR",
@@ -6111,10 +6111,10 @@
     "id" : "BT-71-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-L9Y-R4F",
+        "ruleId" : "R-HYE-SR4",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-HYE-SR4",
+        "ruleId" : "R-L9Y-R4F",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-CZX-XHS",
@@ -6158,10 +6158,10 @@
     "id" : "BT-743-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-N5R-R6H",
+        "ruleId" : "R-2HL-8KP",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-2HL-8KP",
+        "ruleId" : "R-N5R-R6H",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-QT7-3IZ",
@@ -6217,11 +6217,11 @@
         "fields" : [ "BT-75-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-FinancialGuarantee" ]
       }, {
-        "ruleId" : "R-M5Z-R6J",
+        "ruleId" : "R-2BX-8N8",
         "fields" : [ "BT-751-Lot" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-2BX-8N8",
+        "ruleId" : "R-M5Z-R6J",
         "fields" : [ "BT-751-Lot" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       } ]
@@ -6252,10 +6252,10 @@
     "id" : "BT-761-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-OVA-HI2",
+        "ruleId" : "R-NV0-2AR",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-NV0-2AR",
+        "ruleId" : "R-OVA-HI2",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-DFY-0OU",
@@ -6340,6 +6340,10 @@
         "ruleId" : "R-SN7-F2W",
         "fields" : [ "BT-772-Lot-Language" ]
       }, {
+        "ruleId" : "R-BQX-NL4",
+        "fields" : [ "BT-772-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LateTendererInformation" ]
+      }, {
         "ruleId" : "R-EDZ-88K",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-772-Lot-Language" ],
         "nodes" : [ "ND-LateTendererInformation" ]
@@ -6348,15 +6352,11 @@
         "fields" : [ "BT-772-Lot-Language" ],
         "nodes" : [ "ND-LateTendererInformation" ]
       }, {
-        "ruleId" : "R-BQX-NL4",
-        "fields" : [ "BT-772-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
-        "nodes" : [ "ND-LateTendererInformation" ]
-      }, {
-        "ruleId" : "R-YOV-Y1Q",
+        "ruleId" : "R-JEY-DTT",
         "fields" : [ "BT-771-Lot" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-JEY-DTT",
+        "ruleId" : "R-YOV-Y1Q",
         "fields" : [ "BT-771-Lot" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       } ]
@@ -6431,19 +6431,19 @@
         "ruleId" : "R-L35-2E9",
         "codelists" : [ "selection-criterion" ]
       }, {
-        "ruleId" : "R-OIS-05I",
-        "fields" : [ "BT-821-Lot" ],
-        "nodes" : [ "ND-LotTenderingTerms" ]
-      }, {
         "ruleId" : "R-L5M-OM0",
         "fields" : [ "BT-821-Lot" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-ZYO-8M1",
+        "ruleId" : "R-OIS-05I",
+        "fields" : [ "BT-821-Lot" ],
+        "nodes" : [ "ND-LotTenderingTerms" ]
+      }, {
+        "ruleId" : "R-Y8T-HJS",
         "fields" : [ "BT-752-Lot-WeightNumber", "BT-7531-Lot" ],
         "nodes" : [ "ND-NonUBLTenderingTerms" ]
       }, {
-        "ruleId" : "R-Y8T-HJS",
+        "ruleId" : "R-ZYO-8M1",
         "fields" : [ "BT-752-Lot-WeightNumber", "BT-7531-Lot" ],
         "nodes" : [ "ND-NonUBLTenderingTerms" ]
       } ]
@@ -6457,10 +6457,10 @@
     "id" : "BT-821-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-JA8-NSQ",
+        "ruleId" : "R-8OL-12G",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-8OL-12G",
+        "ruleId" : "R-JA8-NSQ",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-UZN-OE3",
@@ -6507,16 +6507,16 @@
         "ruleId" : "R-90M-4VZ",
         "fields" : [ "BT-95-Lot-Language" ]
       }, {
+        "ruleId" : "R-3NR-MIE",
+        "fields" : [ "BT-95-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotTenderingTerms" ]
+      }, {
         "ruleId" : "R-65N-IJV",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-95-Lot-Language" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-L1H-ZFL",
         "fields" : [ "BT-95-Lot-Language" ],
-        "nodes" : [ "ND-LotTenderingTerms" ]
-      }, {
-        "ruleId" : "R-3NR-MIE",
-        "fields" : [ "BT-95-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-N8L-J6D",
@@ -6578,11 +6578,11 @@
         "ruleId" : "R-9IV-C9F",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-NLB-1WP",
+        "ruleId" : "R-7KB-VQH",
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-7KB-VQH",
+        "ruleId" : "R-NLB-1WP",
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-LotTenderingTerms" ]
       } ]
@@ -6591,10 +6591,10 @@
     "id" : "OPT-060-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-T7F-FW8",
+        "ruleId" : "R-SNA-9YO",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
-        "ruleId" : "R-SNA-9YO",
+        "ruleId" : "R-T7F-FW8",
         "nodes" : [ "ND-LotTenderingTerms" ]
       }, {
         "ruleId" : "R-9WZ-AE1",
@@ -6794,16 +6794,16 @@
         "fields" : [ "BT-137-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
-        "ruleId" : "R-Z9Q-87F",
-        "fields" : [ "BT-5421-LotsGroup" ],
-        "nodes" : [ "ND-LotsGroupAwardCriteria" ]
-      }, {
         "ruleId" : "R-LSQ-KB2",
         "fields" : [ "BT-541-LotsGroup-WeightNumber", "BT-5421-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       }, {
         "ruleId" : "R-SSR-MQA",
         "fields" : [ "BT-541-LotsGroup-WeightNumber", "BT-5421-LotsGroup" ],
+        "nodes" : [ "ND-LotsGroupAwardCriteria" ]
+      }, {
+        "ruleId" : "R-Z9Q-87F",
+        "fields" : [ "BT-5421-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       } ]
     },
@@ -6822,10 +6822,6 @@
         "ruleId" : "R-B8O-H9O",
         "fields" : [ "BT-543-LotsGroup-Language" ]
       }, {
-        "ruleId" : "R-O7H-UC3",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-543-LotsGroup-Language" ],
-        "nodes" : [ "ND-LotsGroupAwardCriteria" ]
-      }, {
         "ruleId" : "R-BL3-UTG",
         "fields" : [ "BT-543-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
@@ -6834,15 +6830,19 @@
         "fields" : [ "BT-543-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       }, {
+        "ruleId" : "R-O7H-UC3",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-543-LotsGroup-Language" ],
+        "nodes" : [ "ND-LotsGroupAwardCriteria" ]
+      }, {
         "ruleId" : "R-MJS-M95",
         "fields" : [ "BT-541-LotsGroup-WeightNumber", "BT-541-LotsGroup-FixedNumber", "BT-541-LotsGroup-ThresholdNumber" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       }, {
-        "ruleId" : "R-XVB-7HS",
+        "ruleId" : "R-9CS-ZWA",
         "fields" : [ "BT-541-LotsGroup-WeightNumber", "BT-5421-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       }, {
-        "ruleId" : "R-9CS-ZWA",
+        "ruleId" : "R-XVB-7HS",
         "fields" : [ "BT-541-LotsGroup-WeightNumber", "BT-5421-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       } ]
@@ -6862,12 +6862,12 @@
         "ruleId" : "R-JZT-ARM",
         "fields" : [ "BT-733-LotsGroup-Language" ]
       }, {
-        "ruleId" : "R-B9L-P33",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-733-LotsGroup-Language" ],
-        "nodes" : [ "ND-LotsGroupAwardCriteria" ]
-      }, {
         "ruleId" : "R-71T-49M",
         "fields" : [ "BT-733-LotsGroup-Language" ],
+        "nodes" : [ "ND-LotsGroupAwardCriteria" ]
+      }, {
+        "ruleId" : "R-B9L-P33",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-733-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupAwardCriteria" ]
       }, {
         "ruleId" : "R-Z6L-4OI",
@@ -6893,19 +6893,19 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-540-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
-        "ruleId" : "R-PDG-G5J",
-        "fields" : [ "BT-540-LotsGroup-Language" ],
-        "nodes" : [ "ND-LotsGroupAwardCriterion" ]
-      }, {
         "ruleId" : "R-PBM-YRR",
         "fields" : [ "BT-540-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
-        "ruleId" : "R-LW2-H18",
-        "fields" : [ "BT-539-LotsGroup" ],
+        "ruleId" : "R-PDG-G5J",
+        "fields" : [ "BT-540-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
         "ruleId" : "R-DL5-H9U",
+        "fields" : [ "BT-539-LotsGroup" ],
+        "nodes" : [ "ND-LotsGroupAwardCriterion" ]
+      }, {
+        "ruleId" : "R-LW2-H18",
         "fields" : [ "BT-539-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
@@ -6977,12 +6977,12 @@
         "ruleId" : "R-XWR-BDA",
         "nodes" : [ "ND-LotsGroupAwardWeightCriterionParameter" ]
       }, {
-        "ruleId" : "R-Q3P-BC1",
-        "fields" : [ "BT-540-LotsGroup", "BT-543-LotsGroup" ],
-        "nodes" : [ "ND-LotsGroupAwardCriterion" ]
-      }, {
         "ruleId" : "R-62F-V5G",
         "fields" : [ "BT-540-LotsGroup", "BT-541-LotsGroup-FixedNumber", "BT-541-LotsGroup-ThresholdNumber", "BT-543-LotsGroup" ],
+        "nodes" : [ "ND-LotsGroupAwardCriterion" ]
+      }, {
+        "ruleId" : "R-Q3P-BC1",
+        "fields" : [ "BT-540-LotsGroup", "BT-543-LotsGroup" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       } ]
     },
@@ -7001,16 +7001,16 @@
         "ruleId" : "R-1QJ-LFU",
         "fields" : [ "BT-734-LotsGroup-Language" ]
       }, {
+        "ruleId" : "R-3BZ-GV1",
+        "fields" : [ "BT-734-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotsGroupAwardCriterion" ]
+      }, {
         "ruleId" : "R-80H-POB",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-734-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
         "ruleId" : "R-O8T-P6S",
         "fields" : [ "BT-734-LotsGroup-Language" ],
-        "nodes" : [ "ND-LotsGroupAwardCriterion" ]
-      }, {
-        "ruleId" : "R-3BZ-GV1",
-        "fields" : [ "BT-734-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotsGroupAwardCriterion" ]
       }, {
         "ruleId" : "R-2GJ-U0Q",
@@ -7031,11 +7031,11 @@
         "ruleId" : "R-HJE-UJE",
         "codelists" : [ "number-fixed" ]
       }, {
-        "ruleId" : "R-SVV-EQL",
+        "ruleId" : "R-1QD-1V5",
         "fields" : [ "BT-541-LotsGroup-FixedNumber" ],
         "nodes" : [ "ND-LotsGroupAwardFixedCriterionParameter" ]
       }, {
-        "ruleId" : "R-1QD-1V5",
+        "ruleId" : "R-SVV-EQL",
         "fields" : [ "BT-541-LotsGroup-FixedNumber" ],
         "nodes" : [ "ND-LotsGroupAwardFixedCriterionParameter" ]
       } ]
@@ -7085,11 +7085,11 @@
         "ruleId" : "R-W0Y-KNP",
         "codelists" : [ "number-weight" ]
       }, {
-        "ruleId" : "R-EWS-OG9",
+        "ruleId" : "R-9P2-FSN",
         "fields" : [ "BT-541-LotsGroup-WeightNumber" ],
         "nodes" : [ "ND-LotsGroupAwardWeightCriterionParameter" ]
       }, {
-        "ruleId" : "R-9P2-FSN",
+        "ruleId" : "R-EWS-OG9",
         "fields" : [ "BT-541-LotsGroup-WeightNumber" ],
         "nodes" : [ "ND-LotsGroupAwardWeightCriterionParameter" ]
       }, {
@@ -7160,16 +7160,16 @@
         "ruleId" : "R-VP7-F5X",
         "fields" : [ "BT-24-LotsGroup-Language" ]
       }, {
+        "ruleId" : "R-AA6-PHH",
+        "fields" : [ "BT-24-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-LotsGroupProcurementScope" ]
+      }, {
         "ruleId" : "R-SE9-GVW",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-24-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupProcurementScope" ]
       }, {
         "ruleId" : "R-VWD-JNY",
         "fields" : [ "BT-24-LotsGroup-Language" ],
-        "nodes" : [ "ND-LotsGroupProcurementScope" ]
-      }, {
-        "ruleId" : "R-AA6-PHH",
-        "fields" : [ "BT-24-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotsGroupProcurementScope" ]
       }, {
         "ruleId" : "R-PVI-8SW",
@@ -7207,16 +7207,16 @@
         "ruleId" : "R-WLV-F2N",
         "fields" : [ "BT-300-LotsGroup-Language" ]
       }, {
-        "ruleId" : "R-Q99-W1C",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-300-LotsGroup-Language" ],
+        "ruleId" : "R-6FU-5WY",
+        "fields" : [ "BT-300-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-LotsGroupProcurementScope" ]
       }, {
         "ruleId" : "R-HM6-FFV",
         "fields" : [ "BT-300-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupProcurementScope" ]
       }, {
-        "ruleId" : "R-6FU-5WY",
-        "fields" : [ "BT-300-LotsGroup-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-Q99-W1C",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-300-LotsGroup-Language" ],
         "nodes" : [ "ND-LotsGroupProcurementScope" ]
       } ]
     }
@@ -7267,12 +7267,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-202-Contract-Language" ],
         "nodes" : [ "ND-Modification" ]
       }, {
-        "ruleId" : "R-LBS-APP",
-        "fields" : [ "BT-202-Contract-Language" ],
-        "nodes" : [ "ND-Modification" ]
-      }, {
         "ruleId" : "R-HPL-Q55",
         "fields" : [ "BT-202-Contract-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-Modification" ]
+      }, {
+        "ruleId" : "R-LBS-APP",
+        "fields" : [ "BT-202-Contract-Language" ],
         "nodes" : [ "ND-Modification" ]
       } ]
     }
@@ -7280,10 +7280,10 @@
     "id" : "BT-200-Contract",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-94F-DU1",
+        "ruleId" : "R-27H-THU",
         "nodes" : [ "ND-ModificationReason" ]
       }, {
-        "ruleId" : "R-27H-THU",
+        "ruleId" : "R-94F-DU1",
         "nodes" : [ "ND-ModificationReason" ]
       }, {
         "ruleId" : "R-E1U-1UZ",
@@ -7305,10 +7305,10 @@
     "id" : "BT-201-Contract",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-JQH-9OY",
+        "ruleId" : "R-3NT-IFV",
         "nodes" : [ "ND-ModificationReason" ]
       }, {
-        "ruleId" : "R-3NT-IFV",
+        "ruleId" : "R-JQH-9OY",
         "nodes" : [ "ND-ModificationReason" ]
       }, {
         "ruleId" : "R-VK9-0EA",
@@ -7356,12 +7356,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-802-Lot-Language" ],
         "nodes" : [ "ND-NDA" ]
       }, {
-        "ruleId" : "R-HO2-G3V",
-        "fields" : [ "BT-802-Lot-Language" ],
-        "nodes" : [ "ND-NDA" ]
-      }, {
         "ruleId" : "R-GUT-GW2",
         "fields" : [ "BT-802-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-NDA" ]
+      }, {
+        "ruleId" : "R-HO2-G3V",
+        "fields" : [ "BT-802-Lot-Language" ],
         "nodes" : [ "ND-NDA" ]
       }, {
         "ruleId" : "R-TVJ-FM7",
@@ -7551,16 +7551,16 @@
         "fields" : [ "BT-142-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-660-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
-        "ruleId" : "R-K3M-88M",
-        "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-660-LotResult" ],
-        "nodes" : [ "ND-NoticeResult" ]
-      }, {
         "ruleId" : "R-B1B-ZY3",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-660-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
         "ruleId" : "R-IMW-G9W",
         "fields" : [ "BT-142-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-660-LotResult" ],
+        "nodes" : [ "ND-NoticeResult" ]
+      }, {
+        "ruleId" : "R-K3M-88M",
+        "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-660-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
         "ruleId" : "R-Z9Y-MYM",
@@ -7587,6 +7587,10 @@
         "ruleId" : "R-LVC-ND7",
         "nodes" : [ "ND-NoticeResult" ]
       }, {
+        "ruleId" : "R-3Q0-L8A",
+        "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-709-LotResult" ],
+        "nodes" : [ "ND-NoticeResult" ]
+      }, {
         "ruleId" : "R-G18-OPV",
         "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-709-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
@@ -7597,10 +7601,6 @@
       }, {
         "ruleId" : "R-US4-0TH",
         "fields" : [ "BT-142-LotResult", "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-709-LotResult" ],
-        "nodes" : [ "ND-NoticeResult" ]
-      }, {
-        "ruleId" : "R-3Q0-L8A",
-        "fields" : [ "BT-13713-LotResult", "BT-137-Lot", "BT-765-Lot", "BT-709-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
         "ruleId" : "R-V9J-8FV",
@@ -7649,10 +7649,10 @@
     "id" : "OPT-321-Tender",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-W70-F9B",
+        "ruleId" : "R-NAF-JRY",
         "nodes" : [ "ND-NoticeResult" ]
       }, {
-        "ruleId" : "R-NAF-JRY",
+        "ruleId" : "R-W70-F9B",
         "nodes" : [ "ND-NoticeResult" ]
       }, {
         "ruleId" : "R-08M-5PX",
@@ -7689,12 +7689,12 @@
         "ruleId" : "R-NII-VGS",
         "nodes" : [ "ND-NoticeResultGroupFA" ]
       }, {
-        "ruleId" : "R-84P-BQY",
-        "fields" : [ "BT-556-NoticeResult" ],
-        "nodes" : [ "ND-NoticeResultGroupFA" ]
-      }, {
         "ruleId" : "R-3LL-3UB",
         "fields" : [ "BT-556-NoticeResult", "BT-1561-NoticeResult" ],
+        "nodes" : [ "ND-NoticeResultGroupFA" ]
+      }, {
+        "ruleId" : "R-84P-BQY",
+        "fields" : [ "BT-556-NoticeResult" ],
         "nodes" : [ "ND-NoticeResultGroupFA" ]
       } ]
     },
@@ -7713,12 +7713,12 @@
         "ruleId" : "R-0J5-SK5",
         "nodes" : [ "ND-NoticeResultGroupFA" ]
       }, {
-        "ruleId" : "R-V7N-SUL",
-        "fields" : [ "BT-556-NoticeResult" ],
-        "nodes" : [ "ND-NoticeResultGroupFA" ]
-      }, {
         "ruleId" : "R-MIC-XBY",
         "fields" : [ "BT-556-NoticeResult", "BT-156-NoticeResult" ],
+        "nodes" : [ "ND-NoticeResultGroupFA" ]
+      }, {
+        "ruleId" : "R-V7N-SUL",
+        "fields" : [ "BT-556-NoticeResult" ],
         "nodes" : [ "ND-NoticeResultGroupFA" ]
       } ]
     },
@@ -7731,10 +7731,10 @@
     "id" : "OPP-100-Business",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-U9Q-9KI",
+        "ruleId" : "R-FVU-XM4",
         "nodes" : [ "ND-OperationType" ]
       }, {
-        "ruleId" : "R-FVU-XM4",
+        "ruleId" : "R-U9Q-9KI",
         "nodes" : [ "ND-OperationType" ]
       }, {
         "ruleId" : "R-NR2-XSY",
@@ -7782,12 +7782,12 @@
         "ruleId" : "R-52X-V6Z",
         "fields" : [ "BT-57-Lot-Language" ]
       }, {
-        "ruleId" : "R-X05-SOS",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-57-Lot-Language" ],
-        "nodes" : [ "ND-OptionsDescription" ]
-      }, {
         "ruleId" : "R-V8Z-VN6",
         "fields" : [ "BT-57-Lot-Language" ],
+        "nodes" : [ "ND-OptionsDescription" ]
+      }, {
+        "ruleId" : "R-X05-SOS",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-57-Lot-Language" ],
         "nodes" : [ "ND-OptionsDescription" ]
       }, {
         "ruleId" : "R-Z9T-CKA",
@@ -7885,11 +7885,11 @@
         "ruleId" : "R-24J-D7E",
         "codelists" : [ "indicator" ]
       }, {
-        "ruleId" : "R-T96-GZP",
+        "ruleId" : "R-53R-6MC",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
         "nodes" : [ "ND-Organization" ]
       }, {
-        "ruleId" : "R-53R-6MC",
+        "ruleId" : "R-T96-GZP",
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Procedure-Buyer" ],
         "nodes" : [ "ND-Organization" ]
       } ]
@@ -7958,11 +7958,11 @@
         "fields" : [ "OPT-200-Organization-Company", "OPT-300-Tenderer", "OPT-301-Tenderer-SubCont", "BT-633-Organization", "BT-746-Organization" ],
         "nodes" : [ "ND-Organization" ]
       }, {
-        "ruleId" : "R-PJW-Z6O",
-        "nodes" : [ "ND-Organization" ]
-      }, {
         "ruleId" : "R-IWN-04T",
         "fields" : [ "OPT-202-UBO" ],
+        "nodes" : [ "ND-Organization" ]
+      }, {
+        "ruleId" : "R-PJW-Z6O",
         "nodes" : [ "ND-Organization" ]
       } ]
     },
@@ -7981,11 +7981,11 @@
         "ruleId" : "R-KYQ-WYK",
         "nodes" : [ "ND-UBO" ]
       }, {
-        "ruleId" : "R-Q2V-A3M",
+        "ruleId" : "R-6II-XQ3",
         "fields" : [ "OPT-302-Organization" ],
         "nodes" : [ "ND-Organizations" ]
       }, {
-        "ruleId" : "R-6II-XQ3",
+        "ruleId" : "R-Q2V-A3M",
         "fields" : [ "OPT-302-Organization" ],
         "nodes" : [ "ND-Organizations" ]
       }, {
@@ -8009,16 +8009,16 @@
         "ruleId" : "R-HT3-EKH",
         "nodes" : [ "ND-OtherContractExecutionConditions" ]
       }, {
+        "ruleId" : "R-68H-7C2",
+        "fields" : [ "OPP-031-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-OtherContractExecutionConditions" ]
+      }, {
         "ruleId" : "R-NYQ-IM5",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "OPP-031-Tender-Language" ],
         "nodes" : [ "ND-OtherContractExecutionConditions" ]
       }, {
         "ruleId" : "R-PV2-GLJ",
         "fields" : [ "OPP-031-Tender-Language" ],
-        "nodes" : [ "ND-OtherContractExecutionConditions" ]
-      }, {
-        "ruleId" : "R-68H-7C2",
-        "fields" : [ "OPP-031-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-OtherContractExecutionConditions" ]
       }, {
         "ruleId" : "R-N47-9H4",
@@ -8043,10 +8043,10 @@
     "id" : "BT-800(t)-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-OTT-AB2",
+        "ruleId" : "R-0MZ-COQ",
         "nodes" : [ "ND-PMCAnswersDeadline" ]
       }, {
-        "ruleId" : "R-0MZ-COQ",
+        "ruleId" : "R-OTT-AB2",
         "nodes" : [ "ND-PMCAnswersDeadline" ]
       }, {
         "ruleId" : "R-R8Q-V4W",
@@ -8085,11 +8085,11 @@
         "ruleId" : "R-34S-B3C",
         "fields" : [ "BT-263-Part" ]
       }, {
-        "ruleId" : "R-ZFS-N7W",
+        "ruleId" : "R-8SD-END",
         "fields" : [ "BT-263-Part" ],
         "nodes" : [ "ND-PartAdditionalClassification" ]
       }, {
-        "ruleId" : "R-8SD-END",
+        "ruleId" : "R-ZFS-N7W",
         "fields" : [ "BT-263-Part" ],
         "nodes" : [ "ND-PartAdditionalClassification" ]
       } ]
@@ -8343,11 +8343,11 @@
         "ruleId" : "R-R40-QJC",
         "fields" : [ "BT-262-Part" ]
       }, {
-        "ruleId" : "R-RL8-YVX",
+        "ruleId" : "R-PCS-CCL",
         "fields" : [ "BT-262-Part" ],
         "nodes" : [ "ND-PartMainClassification" ]
       }, {
-        "ruleId" : "R-PCS-CCL",
+        "ruleId" : "R-RL8-YVX",
         "fields" : [ "BT-262-Part" ],
         "nodes" : [ "ND-PartMainClassification" ]
       } ]
@@ -8365,14 +8365,14 @@
         "ruleId" : "R-AM7-IFQ",
         "codelists" : [ "nuts-lvl3" ]
       }, {
-        "ruleId" : "R-U8R-OBM",
-        "fields" : [ "BT-727-Part", "BT-5141-Part" ],
-        "nodes" : [ "ND-PartPlacePerformance" ]
-      }, {
         "ruleId" : "R-6TC-BGB",
         "fields" : [ "BT-727-Part", "BT-5141-Part" ],
         "nodes" : [ "ND-PartPlacePerformance" ],
         "codelists" : [ "nuts-country" ]
+      }, {
+        "ruleId" : "R-U8R-OBM",
+        "fields" : [ "BT-727-Part", "BT-5141-Part" ],
+        "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
         "ruleId" : "R-1CY-092",
         "fields" : [ "BT-5141-Part" ],
@@ -8449,14 +8449,14 @@
         "ruleId" : "R-0IZ-LD1",
         "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
-        "ruleId" : "R-I62-NWQ",
-        "fields" : [ "BT-5131-Part" ],
-        "nodes" : [ "ND-PartPlacePerformance" ]
-      }, {
         "ruleId" : "R-2VO-7QQ",
         "fields" : [ "BT-5141-Part", "BT-5101(a)-Part" ],
         "nodes" : [ "ND-PartPlacePerformance" ],
         "codelists" : [ "postcode-country" ]
+      }, {
+        "ruleId" : "R-I62-NWQ",
+        "fields" : [ "BT-5131-Part" ],
+        "nodes" : [ "ND-PartPlacePerformance" ]
       } ]
     }
   }, {
@@ -8492,11 +8492,11 @@
         "ruleId" : "R-A6K-WE7",
         "codelists" : [ "country" ]
       }, {
-        "ruleId" : "R-QTJ-THY",
+        "ruleId" : "R-AR0-ASS",
         "fields" : [ "BT-727-Part" ],
         "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
-        "ruleId" : "R-AR0-ASS",
+        "ruleId" : "R-QTJ-THY",
         "fields" : [ "BT-727-Part" ],
         "nodes" : [ "ND-PartPlacePerformance" ]
       } ]
@@ -8543,12 +8543,12 @@
         "ruleId" : "R-81R-TXS",
         "fields" : [ "BT-728-Part-Language" ]
       }, {
-        "ruleId" : "R-GGU-5IH",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-728-Part-Language" ],
-        "nodes" : [ "ND-PartPlacePerformance" ]
-      }, {
         "ruleId" : "R-84F-J20",
         "fields" : [ "BT-728-Part-Language" ],
+        "nodes" : [ "ND-PartPlacePerformance" ]
+      }, {
+        "ruleId" : "R-GGU-5IH",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-728-Part-Language" ],
         "nodes" : [ "ND-PartPlacePerformance" ]
       }, {
         "ruleId" : "R-LYW-6GA",
@@ -8612,11 +8612,11 @@
         "ruleId" : "R-ME9-UDU",
         "nodes" : [ "ND-PartNonRestrictedProcurementDocumentAttachment" ]
       }, {
-        "ruleId" : "R-ASY-HWA",
+        "ruleId" : "R-2KI-YJV",
         "fields" : [ "BT-14-Part" ],
         "nodes" : [ "ND-PartProcurementDocument" ]
       }, {
-        "ruleId" : "R-2KI-YJV",
+        "ruleId" : "R-ASY-HWA",
         "fields" : [ "BT-14-Part" ],
         "nodes" : [ "ND-PartProcurementDocument" ]
       } ]
@@ -8631,11 +8631,11 @@
         "ruleId" : "R-HRU-XXV",
         "nodes" : [ "ND-PartRestrictedProcurementDocumentAttachment" ]
       }, {
-        "ruleId" : "R-XOY-7WV",
+        "ruleId" : "R-GKP-U1Z",
         "fields" : [ "BT-14-Part" ],
         "nodes" : [ "ND-PartProcurementDocument" ]
       }, {
-        "ruleId" : "R-GKP-U1Z",
+        "ruleId" : "R-XOY-7WV",
         "fields" : [ "BT-14-Part" ],
         "nodes" : [ "ND-PartProcurementDocument" ]
       } ]
@@ -8726,25 +8726,25 @@
     "id" : "BT-21-Part",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-RSV-CK4",
+        "ruleId" : "R-MG3-EBT",
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
-        "ruleId" : "R-MG3-EBT",
+        "ruleId" : "R-RSV-CK4",
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-OGO-KTU",
         "fields" : [ "BT-21-Part-Language" ]
       }, {
-        "ruleId" : "R-KHB-DX5",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-21-Part-Language" ],
+        "ruleId" : "R-A2Y-NUB",
+        "fields" : [ "BT-21-Part-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-IRV-F9R",
         "fields" : [ "BT-21-Part-Language" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
-        "ruleId" : "R-A2Y-NUB",
-        "fields" : [ "BT-21-Part-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-KHB-DX5",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-21-Part-Language" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       } ]
     }
@@ -8768,10 +8768,10 @@
     "id" : "BT-23-Part",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-XDW-0OS",
+        "ruleId" : "R-5NC-TQC",
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
-        "ruleId" : "R-5NC-TQC",
+        "ruleId" : "R-XDW-0OS",
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-HGV-5KV",
@@ -8803,6 +8803,10 @@
         "ruleId" : "R-285-4TL",
         "fields" : [ "BT-24-Part-Language" ]
       }, {
+        "ruleId" : "R-0T9-1GI",
+        "fields" : [ "BT-24-Part-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-PartProcurementScope" ]
+      }, {
         "ruleId" : "R-2QC-C3Q",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-24-Part-Language" ],
         "nodes" : [ "ND-PartProcurementScope" ]
@@ -8810,20 +8814,16 @@
         "ruleId" : "R-GA5-JPB",
         "fields" : [ "BT-24-Part-Language" ],
         "nodes" : [ "ND-PartProcurementScope" ]
-      }, {
-        "ruleId" : "R-0T9-1GI",
-        "fields" : [ "BT-24-Part-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
-        "nodes" : [ "ND-PartProcurementScope" ]
       } ]
     }
   }, {
     "id" : "BT-262-Part",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-JBQ-O1B",
+        "ruleId" : "R-IF7-MO3",
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
-        "ruleId" : "R-IF7-MO3",
+        "ruleId" : "R-JBQ-O1B",
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-6K3-PFC",
@@ -8836,16 +8836,16 @@
         "fields" : [ "BT-263-Part" ],
         "nodes" : [ "ND-PartMainClassification" ]
       }, {
-        "ruleId" : "R-KIT-1JK",
-        "fields" : [ "BT-71-Part" ],
+        "ruleId" : "R-F9D-1BJ",
+        "fields" : [ "BT-23-Part" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-G47-PPC",
         "fields" : [ "BT-23-Part" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
-        "ruleId" : "R-F9D-1BJ",
-        "fields" : [ "BT-23-Part" ],
+        "ruleId" : "R-KIT-1JK",
+        "fields" : [ "BT-71-Part" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-TN6-QBC",
@@ -8890,16 +8890,16 @@
         "ruleId" : "R-PFD-5IL",
         "fields" : [ "BT-300-Part-Language" ]
       }, {
+        "ruleId" : "R-AIE-R3L",
+        "fields" : [ "BT-300-Part-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-PartProcurementScope" ]
+      }, {
         "ruleId" : "R-USG-WXX",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-300-Part-Language" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       }, {
         "ruleId" : "R-ZTB-9VZ",
         "fields" : [ "BT-300-Part-Language" ],
-        "nodes" : [ "ND-PartProcurementScope" ]
-      }, {
-        "ruleId" : "R-AIE-R3L",
-        "fields" : [ "BT-300-Part-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-PartProcurementScope" ]
       } ]
     }
@@ -9009,10 +9009,10 @@
     "id" : "OPT-301-Part-ReviewOrg",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-WJD-E05",
+        "ruleId" : "R-0N4-IWZ",
         "nodes" : [ "ND-PartReviewTerms" ]
       }, {
-        "ruleId" : "R-0N4-IWZ",
+        "ruleId" : "R-WJD-E05",
         "nodes" : [ "ND-PartReviewTerms" ]
       }, {
         "ruleId" : "R-4X0-P5G",
@@ -9286,25 +9286,25 @@
     "id" : "BT-77-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-WKK-MPY",
+        "ruleId" : "R-8Y2-1GF",
         "nodes" : [ "ND-PaymentTerms" ]
       }, {
-        "ruleId" : "R-8Y2-1GF",
+        "ruleId" : "R-WKK-MPY",
         "nodes" : [ "ND-PaymentTerms" ]
       }, {
         "ruleId" : "R-PZS-FBG",
         "fields" : [ "BT-77-Lot-Language" ]
       }, {
-        "ruleId" : "R-UVF-QZ0",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-77-Lot-Language" ],
+        "ruleId" : "R-H1W-J6T",
+        "fields" : [ "BT-77-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-PaymentTerms" ]
       }, {
         "ruleId" : "R-LRR-EKP",
         "fields" : [ "BT-77-Lot-Language" ],
         "nodes" : [ "ND-PaymentTerms" ]
       }, {
-        "ruleId" : "R-H1W-J6T",
-        "fields" : [ "BT-77-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-UVF-QZ0",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-77-Lot-Language" ],
         "nodes" : [ "ND-PaymentTerms" ]
       } ]
     }
@@ -9312,10 +9312,10 @@
     "id" : "BT-92-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-J1C-U9E",
+        "ruleId" : "R-6NC-I79",
         "nodes" : [ "ND-PostAwardProcess" ]
       }, {
-        "ruleId" : "R-6NC-I79",
+        "ruleId" : "R-J1C-U9E",
         "nodes" : [ "ND-PostAwardProcess" ]
       }, {
         "ruleId" : "R-RTL-EZV",
@@ -9352,11 +9352,11 @@
         "ruleId" : "R-Y03-TW0",
         "nodes" : [ "ND-Prize" ]
       }, {
-        "ruleId" : "R-VSO-FS4",
+        "ruleId" : "R-IGJ-D6S",
         "fields" : [ "BT-644-Lot" ],
         "nodes" : [ "ND-Prize" ]
       }, {
-        "ruleId" : "R-IGJ-D6S",
+        "ruleId" : "R-VSO-FS4",
         "fields" : [ "BT-644-Lot" ],
         "nodes" : [ "ND-Prize" ]
       } ]
@@ -9371,12 +9371,12 @@
         "ruleId" : "R-FOQ-UWA",
         "fields" : [ "BT-45-Lot-Language" ]
       }, {
-        "ruleId" : "R-OKV-VW7",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-45-Lot-Language" ],
-        "nodes" : [ "ND-Prize" ]
-      }, {
         "ruleId" : "R-74M-HPF",
         "fields" : [ "BT-45-Lot-Language" ],
+        "nodes" : [ "ND-Prize" ]
+      }, {
+        "ruleId" : "R-OKV-VW7",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-45-Lot-Language" ],
         "nodes" : [ "ND-Prize" ]
       }, {
         "ruleId" : "R-TIJ-YEM",
@@ -9401,11 +9401,11 @@
         "ruleId" : "R-ETM-LUG",
         "fields" : [ "BT-263-Procedure" ]
       }, {
-        "ruleId" : "R-DKC-DB2",
+        "ruleId" : "R-7VA-45V",
         "fields" : [ "BT-263-Procedure" ],
         "nodes" : [ "ND-ProcedureAdditionalCommodityClassification" ]
       }, {
-        "ruleId" : "R-7VA-45V",
+        "ruleId" : "R-DKC-DB2",
         "fields" : [ "BT-263-Procedure" ],
         "nodes" : [ "ND-ProcedureAdditionalCommodityClassification" ]
       } ]
@@ -9445,14 +9445,14 @@
         "ruleId" : "R-NBW-U70",
         "codelists" : [ "nuts-lvl3" ]
       }, {
-        "ruleId" : "R-8O3-GKH",
-        "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
-        "nodes" : [ "ND-ProcedurePlacePerformance" ]
-      }, {
         "ruleId" : "R-7UU-QJ3",
         "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformance" ],
         "codelists" : [ "nuts-country" ]
+      }, {
+        "ruleId" : "R-8O3-GKH",
+        "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
+        "nodes" : [ "ND-ProcedurePlacePerformance" ]
       }, {
         "ruleId" : "R-IQ0-79Q",
         "fields" : [ "BT-5141-Procedure" ],
@@ -9529,14 +9529,14 @@
         "ruleId" : "R-O34-NUA",
         "nodes" : [ "ND-ProcedurePlacePerformance" ]
       }, {
-        "ruleId" : "R-VWQ-LUU",
-        "fields" : [ "BT-5131-Procedure" ],
-        "nodes" : [ "ND-ProcedurePlacePerformance" ]
-      }, {
         "ruleId" : "R-DSD-XYA",
         "fields" : [ "BT-5141-Procedure", "BT-5101(a)-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformance" ],
         "codelists" : [ "postcode-country" ]
+      }, {
+        "ruleId" : "R-VWQ-LUU",
+        "fields" : [ "BT-5131-Procedure" ],
+        "nodes" : [ "ND-ProcedurePlacePerformance" ]
       } ]
     }
   }, {
@@ -9572,11 +9572,11 @@
         "ruleId" : "R-V4W-AI9",
         "codelists" : [ "country" ]
       }, {
-        "ruleId" : "R-O2S-N2J",
+        "ruleId" : "R-GLH-4Y9",
         "fields" : [ "BT-727-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformance" ]
       }, {
-        "ruleId" : "R-GLH-4Y9",
+        "ruleId" : "R-O2S-N2J",
         "fields" : [ "BT-727-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformance" ]
       } ]
@@ -9623,24 +9623,24 @@
         "ruleId" : "R-OFY-FRV",
         "fields" : [ "BT-728-Procedure-Language" ]
       }, {
-        "ruleId" : "R-S7M-YJX",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-728-Procedure-Language" ],
+        "ruleId" : "R-84V-U4G",
+        "fields" : [ "BT-728-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-ProcedurePlacePerformanceAdditionalInformation" ]
       }, {
         "ruleId" : "R-KB3-NKC",
         "fields" : [ "BT-728-Procedure-Language" ],
         "nodes" : [ "ND-ProcedurePlacePerformanceAdditionalInformation" ]
       }, {
-        "ruleId" : "R-84V-U4G",
-        "fields" : [ "BT-728-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
-        "nodes" : [ "ND-ProcedurePlacePerformanceAdditionalInformation" ]
-      }, {
-        "ruleId" : "R-CP6-E6O",
-        "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
+        "ruleId" : "R-S7M-YJX",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-728-Procedure-Language" ],
         "nodes" : [ "ND-ProcedurePlacePerformanceAdditionalInformation" ]
       }, {
         "ruleId" : "R-1PD-ARZ",
         "fields" : [ "BT-727-Procedure", "BT-5071-Procedure", "BT-5131-Procedure" ],
+        "nodes" : [ "ND-ProcedurePlacePerformanceAdditionalInformation" ]
+      }, {
+        "ruleId" : "R-CP6-E6O",
+        "fields" : [ "BT-727-Procedure", "BT-5141-Procedure" ],
         "nodes" : [ "ND-ProcedurePlacePerformanceAdditionalInformation" ]
       } ]
     }
@@ -9661,12 +9661,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-21-Procedure-Language" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
-        "ruleId" : "R-MLF-S12",
-        "fields" : [ "BT-21-Procedure-Language" ],
-        "nodes" : [ "ND-ProcedureProcurementScope" ]
-      }, {
         "ruleId" : "R-EKN-UG7",
         "fields" : [ "BT-21-Procedure-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-ProcedureProcurementScope" ]
+      }, {
+        "ruleId" : "R-MLF-S12",
+        "fields" : [ "BT-21-Procedure-Language" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       } ]
     }
@@ -9702,11 +9702,11 @@
         "ruleId" : "R-P65-8H6",
         "codelists" : [ "contract-nature" ]
       }, {
-        "ruleId" : "R-PAU-LBD",
-        "nodes" : [ "ND-ProcedureProcurementScope" ]
-      }, {
         "ruleId" : "R-F37-4BZ",
         "fields" : [ "BT-531-Procedure" ],
+        "nodes" : [ "ND-ProcedureProcurementScope" ]
+      }, {
+        "ruleId" : "R-PAU-LBD",
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       } ]
     },
@@ -9719,10 +9719,10 @@
     "id" : "BT-24-Procedure",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-8E3-HCM",
+        "ruleId" : "R-7C5-56N",
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
-        "ruleId" : "R-7C5-56N",
+        "ruleId" : "R-8E3-HCM",
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
         "ruleId" : "R-VV8-719",
@@ -9765,11 +9765,11 @@
         "fields" : [ "BT-23-Procedure" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
-        "ruleId" : "R-N4X-O47",
+        "ruleId" : "R-IAP-K2Y",
         "fields" : [ "BT-23-Procedure" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       }, {
-        "ruleId" : "R-IAP-K2Y",
+        "ruleId" : "R-N4X-O47",
         "fields" : [ "BT-23-Procedure" ],
         "nodes" : [ "ND-ProcedureProcurementScope" ]
       } ]
@@ -9915,7 +9915,15 @@
         "fields" : [ "BT-106-Procedure" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
+        "ruleId" : "R-GSB-RSM",
+        "fields" : [ "BT-106-Procedure" ],
+        "nodes" : [ "ND-ProcedureTenderingProcess" ]
+      }, {
         "ruleId" : "R-HWT-BS1",
+        "fields" : [ "BT-106-Procedure", "BT-01-notice" ],
+        "nodes" : [ "ND-ProcedureTenderingProcess" ]
+      }, {
+        "ruleId" : "R-KAQ-QWW",
         "fields" : [ "BT-106-Procedure", "BT-01-notice" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
@@ -9924,14 +9932,6 @@
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
         "ruleId" : "R-ZFY-QEK",
-        "fields" : [ "BT-106-Procedure", "BT-01-notice" ],
-        "nodes" : [ "ND-ProcedureTenderingProcess" ]
-      }, {
-        "ruleId" : "R-GSB-RSM",
-        "fields" : [ "BT-106-Procedure" ],
-        "nodes" : [ "ND-ProcedureTenderingProcess" ]
-      }, {
-        "ruleId" : "R-KAQ-QWW",
         "fields" : [ "BT-106-Procedure", "BT-01-notice" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       } ]
@@ -9958,14 +9958,6 @@
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
-        "ruleId" : "R-IKD-ZHB",
-        "fields" : [ "BT-105-Procedure" ],
-        "nodes" : [ "ND-ProcedureTenderingProcess" ]
-      }, {
-        "ruleId" : "R-PXN-D35",
-        "fields" : [ "BT-105-Procedure" ],
-        "nodes" : [ "ND-ProcedureTenderingProcess" ]
-      }, {
         "ruleId" : "R-D8A-77K",
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
@@ -9974,7 +9966,15 @@
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       }, {
+        "ruleId" : "R-IKD-ZHB",
+        "fields" : [ "BT-105-Procedure" ],
+        "nodes" : [ "ND-ProcedureTenderingProcess" ]
+      }, {
         "ruleId" : "R-P7S-91M",
+        "fields" : [ "BT-105-Procedure" ],
+        "nodes" : [ "ND-ProcedureTenderingProcess" ]
+      }, {
+        "ruleId" : "R-PXN-D35",
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-ProcedureTenderingProcess" ]
       } ]
@@ -10297,11 +10297,11 @@
         "ruleId" : "R-TBX-U1E",
         "nodes" : [ "ND-PublicOpening" ]
       }, {
-        "ruleId" : "R-Y8Y-F09",
+        "ruleId" : "R-LH3-A27",
         "fields" : [ "BT-132(d)-Lot" ],
         "nodes" : [ "ND-PublicOpening" ]
       }, {
-        "ruleId" : "R-LH3-A27",
+        "ruleId" : "R-Y8Y-F09",
         "fields" : [ "BT-132(d)-Lot" ],
         "nodes" : [ "ND-PublicOpening" ]
       } ]
@@ -10325,12 +10325,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-133-Lot-Language" ],
         "nodes" : [ "ND-PublicOpeningPlace" ]
       }, {
-        "ruleId" : "R-8GZ-BBS",
-        "fields" : [ "BT-133-Lot-Language" ],
-        "nodes" : [ "ND-PublicOpeningPlace" ]
-      }, {
         "ruleId" : "R-6VL-B10",
         "fields" : [ "BT-133-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-PublicOpeningPlace" ]
+      }, {
+        "ruleId" : "R-8GZ-BBS",
+        "fields" : [ "BT-133-Lot-Language" ],
         "nodes" : [ "ND-PublicOpeningPlace" ]
       }, {
         "ruleId" : "R-ZRL-17B",
@@ -10348,16 +10348,16 @@
         "ruleId" : "R-F0F-S7R",
         "fields" : [ "BT-134-Lot-Language" ]
       }, {
+        "ruleId" : "R-08L-A2L",
+        "fields" : [ "BT-134-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-PublicOpening" ]
+      }, {
         "ruleId" : "R-B3R-NMQ",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-134-Lot-Language" ],
         "nodes" : [ "ND-PublicOpening" ]
       }, {
         "ruleId" : "R-IFF-01M",
         "fields" : [ "BT-134-Lot-Language" ],
-        "nodes" : [ "ND-PublicOpening" ]
-      }, {
-        "ruleId" : "R-08L-A2L",
-        "fields" : [ "BT-134-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-PublicOpening" ]
       }, {
         "ruleId" : "R-ZCC-GA1",
@@ -10369,22 +10369,22 @@
     "id" : "OPT-072-Lot",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-PFT-77Y",
+        "ruleId" : "R-3IA-EGN",
         "nodes" : [ "ND-QualityTarget" ]
       }, {
-        "ruleId" : "R-3IA-EGN",
+        "ruleId" : "R-PFT-77Y",
         "nodes" : [ "ND-QualityTarget" ]
       }, {
         "ruleId" : "R-96R-H5Z",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "OPT-072-Lot-Language" ],
         "nodes" : [ "ND-QualityTarget" ]
       }, {
-        "ruleId" : "R-V6C-MPP",
-        "fields" : [ "OPT-072-Lot-Language" ],
-        "nodes" : [ "ND-QualityTarget" ]
-      }, {
         "ruleId" : "R-OER-HQM",
         "fields" : [ "OPT-072-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-QualityTarget" ]
+      }, {
+        "ruleId" : "R-V6C-MPP",
+        "fields" : [ "OPT-072-Lot-Language" ],
         "nodes" : [ "ND-QualityTarget" ]
       }, {
         "ruleId" : "R-CWB-W5G",
@@ -10401,11 +10401,11 @@
         "ruleId" : "R-SCH-G51",
         "nodes" : [ "ND-RegistrarAddress" ]
       }, {
-        "ruleId" : "R-KVV-MNB",
+        "ruleId" : "R-3R7-Z22",
         "fields" : [ "BT-501-Business-European" ],
         "nodes" : [ "ND-RegistrarAddress" ]
       }, {
-        "ruleId" : "R-3R7-Z22",
+        "ruleId" : "R-KVV-MNB",
         "fields" : [ "BT-501-Business-European" ],
         "nodes" : [ "ND-RegistrarAddress" ]
       } ]
@@ -10420,11 +10420,11 @@
         "ruleId" : "R-H66-ONE",
         "nodes" : [ "ND-RegistrarAddress" ]
       }, {
-        "ruleId" : "R-T8L-L7F",
+        "ruleId" : "R-MKU-T6V",
         "fields" : [ "BT-501-Business-European" ],
         "nodes" : [ "ND-RegistrarAddress" ]
       }, {
-        "ruleId" : "R-MKU-T6V",
+        "ruleId" : "R-T8L-L7F",
         "fields" : [ "BT-501-Business-European" ],
         "nodes" : [ "ND-RegistrarAddress" ]
       } ]
@@ -10499,11 +10499,11 @@
         "ruleId" : "R-CEQ-7SP",
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-345-XZA",
+        "ruleId" : "R-0YR-FA4",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-0YR-FA4",
+        "ruleId" : "R-345-XZA",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
@@ -10574,19 +10574,19 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-788-Review-Language" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-U9E-EX8",
-        "fields" : [ "BT-788-Review-Language" ],
-        "nodes" : [ "ND-ReviewStatus" ]
-      }, {
         "ruleId" : "R-POH-VYB",
         "fields" : [ "BT-788-Review-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-E4G-KIS",
-        "fields" : [ "BT-783-Review" ],
+        "ruleId" : "R-U9E-EX8",
+        "fields" : [ "BT-788-Review-Language" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
         "ruleId" : "R-D4W-AL2",
+        "fields" : [ "BT-783-Review" ],
+        "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-E4G-KIS",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
@@ -10601,6 +10601,10 @@
         "ruleId" : "R-TQ2-D0L",
         "fields" : [ "BT-789-Review-Language" ]
       }, {
+        "ruleId" : "R-CVF-T46",
+        "fields" : [ "BT-789-Review-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-ReviewStatus" ]
+      }, {
         "ruleId" : "R-GPZ-NDM",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-789-Review-Language" ],
         "nodes" : [ "ND-ReviewStatus" ]
@@ -10609,15 +10613,11 @@
         "fields" : [ "BT-789-Review-Language" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-CVF-T46",
-        "fields" : [ "BT-789-Review-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
-        "nodes" : [ "ND-ReviewStatus" ]
-      }, {
-        "ruleId" : "R-YMX-VR2",
+        "ruleId" : "R-YLL-00D",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-YLL-00D",
+        "ruleId" : "R-YMX-VR2",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
@@ -10797,12 +10797,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-798-Review-Language" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-WDT-274",
-        "fields" : [ "BT-798-Review-Language" ],
-        "nodes" : [ "ND-ReviewStatus" ]
-      }, {
         "ruleId" : "R-VFD-W6H",
         "fields" : [ "BT-798-Review-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-ReviewStatus" ]
+      }, {
+        "ruleId" : "R-WDT-274",
+        "fields" : [ "BT-798-Review-Language" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
         "ruleId" : "R-179-8GK",
@@ -10820,11 +10820,11 @@
         "ruleId" : "R-WRP-0L6",
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-BC6-TEW",
+        "ruleId" : "R-4EF-W4K",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       }, {
-        "ruleId" : "R-4EF-W4K",
+        "ruleId" : "R-BC6-TEW",
         "fields" : [ "BT-783-Review" ],
         "nodes" : [ "ND-ReviewStatus" ]
       } ]
@@ -10887,16 +10887,16 @@
         "ruleId" : "R-P06-BSW",
         "nodes" : [ "ND-RewardsPenalties" ]
       }, {
+        "ruleId" : "R-4BJ-50Q",
+        "fields" : [ "OPP-034-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-RewardsPenalties" ]
+      }, {
         "ruleId" : "R-IOS-9NX",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "OPP-034-Tender-Language" ],
         "nodes" : [ "ND-RewardsPenalties" ]
       }, {
         "ruleId" : "R-TPG-QG8",
         "fields" : [ "OPP-034-Tender-Language" ],
-        "nodes" : [ "ND-RewardsPenalties" ]
-      }, {
-        "ruleId" : "R-4BJ-50Q",
-        "fields" : [ "OPP-034-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-RewardsPenalties" ]
       }, {
         "ruleId" : "R-VA6-GVP",
@@ -10913,41 +10913,110 @@
         "ruleId" : "R-MHJ-193",
         "nodes" : [ "ND-Root" ]
       }, {
-        "ruleId" : "R-F73-H6C",
-        "codelists" : [ "legal-basis" ]
+        "ruleId" : "R-27Y-7VE",
+        "codelists" : [ "legal-basis-9" ]
       }, {
-        "ruleId" : "R-D9C-MQY",
-        "codelists" : [ "legal-basis-1" ]
+        "ruleId" : "R-2LM-0T9",
+        "codelists" : [ "legal-basis-40" ]
       }, {
-        "ruleId" : "R-WLD-AEU",
-        "codelists" : [ "legal-basis-10" ]
+        "ruleId" : "R-2PZ-A2E",
+        "codelists" : [ "legal-basis-e6" ]
       }, {
-        "ruleId" : "R-CAZ-SHW",
-        "codelists" : [ "legal-basis-11" ]
+        "ruleId" : "R-3IO-5VP",
+        "codelists" : [ "legal-basis-24" ]
       }, {
-        "ruleId" : "R-XTC-324",
-        "codelists" : [ "legal-basis-12" ]
-      }, {
-        "ruleId" : "R-PU3-5G5",
-        "codelists" : [ "legal-basis-13" ]
-      }, {
-        "ruleId" : "R-RQF-I49",
-        "codelists" : [ "legal-basis-14" ]
-      }, {
-        "ruleId" : "R-P5W-2AO",
-        "codelists" : [ "legal-basis-15" ]
+        "ruleId" : "R-577-1PH",
+        "codelists" : [ "legal-basis-36" ]
       }, {
         "ruleId" : "R-6M5-T6I",
         "codelists" : [ "legal-basis-16" ]
       }, {
-        "ruleId" : "R-TL4-V2B",
-        "codelists" : [ "legal-basis-17" ]
+        "ruleId" : "R-738-QV9",
+        "codelists" : [ "legal-basis-25" ]
+      }, {
+        "ruleId" : "R-9BS-5RP",
+        "codelists" : [ "legal-basis-28" ]
+      }, {
+        "ruleId" : "R-AF9-8AW",
+        "codelists" : [ "legal-basis-x01" ]
+      }, {
+        "ruleId" : "R-BOJ-U0M",
+        "codelists" : [ "legal-basis-19" ]
+      }, {
+        "ruleId" : "R-BQO-P1D",
+        "codelists" : [ "legal-basis-34" ]
+      }, {
+        "ruleId" : "R-C2N-R12",
+        "codelists" : [ "legal-basis-33" ]
+      }, {
+        "ruleId" : "R-CAZ-SHW",
+        "codelists" : [ "legal-basis-11" ]
+      }, {
+        "ruleId" : "R-D9C-MQY",
+        "codelists" : [ "legal-basis-1" ]
+      }, {
+        "ruleId" : "R-ER0-QTM",
+        "codelists" : [ "legal-basis-31" ]
+      }, {
+        "ruleId" : "R-F73-H6C",
+        "codelists" : [ "legal-basis" ]
+      }, {
+        "ruleId" : "R-FI1-CV2",
+        "codelists" : [ "legal-basis-23" ]
+      }, {
+        "ruleId" : "R-H98-8MW",
+        "codelists" : [ "legal-basis-t01" ]
+      }, {
+        "ruleId" : "R-HZU-LHO",
+        "codelists" : [ "legal-basis-39" ]
+      }, {
+        "ruleId" : "R-IZO-C7I",
+        "codelists" : [ "legal-basis-e4" ]
+      }, {
+        "ruleId" : "R-J1P-TE8",
+        "codelists" : [ "legal-basis-5" ]
       }, {
         "ruleId" : "R-K36-VTY",
         "codelists" : [ "legal-basis-18" ]
       }, {
-        "ruleId" : "R-BOJ-U0M",
-        "codelists" : [ "legal-basis-19" ]
+        "ruleId" : "R-KJO-E6Y",
+        "codelists" : [ "legal-basis-3" ]
+      }, {
+        "ruleId" : "R-MHG-85K",
+        "codelists" : [ "legal-basis-35" ]
+      }, {
+        "ruleId" : "R-NBK-9I5",
+        "codelists" : [ "legal-basis-7" ]
+      }, {
+        "ruleId" : "R-NC5-EDU",
+        "codelists" : [ "legal-basis-4" ]
+      }, {
+        "ruleId" : "R-ONU-7HT",
+        "codelists" : [ "legal-basis-22" ]
+      }, {
+        "ruleId" : "R-OW7-8QY",
+        "codelists" : [ "legal-basis-26" ]
+      }, {
+        "ruleId" : "R-P12-VBJ",
+        "codelists" : [ "legal-basis-29" ]
+      }, {
+        "ruleId" : "R-P5W-2AO",
+        "codelists" : [ "legal-basis-15" ]
+      }, {
+        "ruleId" : "R-P61-VCH",
+        "codelists" : [ "legal-basis-30" ]
+      }, {
+        "ruleId" : "R-P84-VVI",
+        "codelists" : [ "legal-basis-6" ]
+      }, {
+        "ruleId" : "R-PA0-3N0",
+        "codelists" : [ "legal-basis-e1" ]
+      }, {
+        "ruleId" : "R-PPJ-YHZ",
+        "codelists" : [ "legal-basis-x02" ]
+      }, {
+        "ruleId" : "R-PU3-5G5",
+        "codelists" : [ "legal-basis-13" ]
       }, {
         "ruleId" : "R-QGQ-UVL",
         "codelists" : [ "legal-basis-2" ]
@@ -10955,119 +11024,50 @@
         "ruleId" : "R-RO9-37X",
         "codelists" : [ "legal-basis-20" ]
       }, {
-        "ruleId" : "R-ZXP-W7Y",
-        "codelists" : [ "legal-basis-21" ]
-      }, {
-        "ruleId" : "R-ONU-7HT",
-        "codelists" : [ "legal-basis-22" ]
-      }, {
-        "ruleId" : "R-FI1-CV2",
-        "codelists" : [ "legal-basis-23" ]
-      }, {
-        "ruleId" : "R-3IO-5VP",
-        "codelists" : [ "legal-basis-24" ]
-      }, {
-        "ruleId" : "R-738-QV9",
-        "codelists" : [ "legal-basis-25" ]
-      }, {
-        "ruleId" : "R-OW7-8QY",
-        "codelists" : [ "legal-basis-26" ]
-      }, {
-        "ruleId" : "R-V79-Z6Y",
-        "codelists" : [ "legal-basis-27" ]
-      }, {
-        "ruleId" : "R-9BS-5RP",
-        "codelists" : [ "legal-basis-28" ]
-      }, {
-        "ruleId" : "R-P12-VBJ",
-        "codelists" : [ "legal-basis-29" ]
-      }, {
-        "ruleId" : "R-KJO-E6Y",
-        "codelists" : [ "legal-basis-3" ]
-      }, {
-        "ruleId" : "R-P61-VCH",
-        "codelists" : [ "legal-basis-30" ]
-      }, {
-        "ruleId" : "R-ER0-QTM",
-        "codelists" : [ "legal-basis-31" ]
-      }, {
-        "ruleId" : "R-Y8Y-44I",
-        "codelists" : [ "legal-basis-32" ]
-      }, {
-        "ruleId" : "R-C2N-R12",
-        "codelists" : [ "legal-basis-33" ]
-      }, {
-        "ruleId" : "R-BQO-P1D",
-        "codelists" : [ "legal-basis-34" ]
-      }, {
-        "ruleId" : "R-MHG-85K",
-        "codelists" : [ "legal-basis-35" ]
-      }, {
-        "ruleId" : "R-577-1PH",
-        "codelists" : [ "legal-basis-36" ]
-      }, {
-        "ruleId" : "R-UJM-K4K",
-        "codelists" : [ "legal-basis-37" ]
-      }, {
-        "ruleId" : "R-T4J-NKB",
-        "codelists" : [ "legal-basis-38" ]
-      }, {
-        "ruleId" : "R-HZU-LHO",
-        "codelists" : [ "legal-basis-39" ]
-      }, {
-        "ruleId" : "R-NC5-EDU",
-        "codelists" : [ "legal-basis-4" ]
-      }, {
-        "ruleId" : "R-2LM-0T9",
-        "codelists" : [ "legal-basis-40" ]
-      }, {
-        "ruleId" : "R-J1P-TE8",
-        "codelists" : [ "legal-basis-5" ]
-      }, {
-        "ruleId" : "R-P84-VVI",
-        "codelists" : [ "legal-basis-6" ]
-      }, {
-        "ruleId" : "R-NBK-9I5",
-        "codelists" : [ "legal-basis-7" ]
-      }, {
-        "ruleId" : "R-SU4-LO0",
-        "codelists" : [ "legal-basis-8" ]
-      }, {
-        "ruleId" : "R-27Y-7VE",
-        "codelists" : [ "legal-basis-9" ]
-      }, {
-        "ruleId" : "R-ZQV-3AS",
-        "codelists" : [ "legal-basis-cei" ]
-      }, {
-        "ruleId" : "R-PA0-3N0",
-        "codelists" : [ "legal-basis-e1" ]
-      }, {
-        "ruleId" : "R-WZI-Z8P",
-        "codelists" : [ "legal-basis-e2" ]
-      }, {
-        "ruleId" : "R-Y56-IN7",
-        "codelists" : [ "legal-basis-e3" ]
-      }, {
-        "ruleId" : "R-IZO-C7I",
-        "codelists" : [ "legal-basis-e4" ]
-      }, {
-        "ruleId" : "R-V0I-BN8",
-        "codelists" : [ "legal-basis-e5" ]
-      }, {
-        "ruleId" : "R-2PZ-A2E",
-        "codelists" : [ "legal-basis-e6" ]
-      }, {
-        "ruleId" : "R-H98-8MW",
-        "codelists" : [ "legal-basis-t01" ]
+        "ruleId" : "R-RQF-I49",
+        "codelists" : [ "legal-basis-14" ]
       }, {
         "ruleId" : "R-S7J-CPY",
         "codelists" : [ "legal-basis-t02" ]
       }, {
-        "ruleId" : "R-AF9-8AW",
-        "codelists" : [ "legal-basis-x01" ]
+        "ruleId" : "R-SU4-LO0",
+        "codelists" : [ "legal-basis-8" ]
       }, {
-        "ruleId" : "R-PPJ-YHZ",
-        "codelists" : [ "legal-basis-x02" ]
+        "ruleId" : "R-T4J-NKB",
+        "codelists" : [ "legal-basis-38" ]
+      }, {
+        "ruleId" : "R-TL4-V2B",
+        "codelists" : [ "legal-basis-17" ]
+      }, {
+        "ruleId" : "R-UJM-K4K",
+        "codelists" : [ "legal-basis-37" ]
+      }, {
+        "ruleId" : "R-V0I-BN8",
+        "codelists" : [ "legal-basis-e5" ]
+      }, {
+        "ruleId" : "R-V79-Z6Y",
+        "codelists" : [ "legal-basis-27" ]
+      }, {
+        "ruleId" : "R-WLD-AEU",
+        "codelists" : [ "legal-basis-10" ]
+      }, {
+        "ruleId" : "R-WZI-Z8P",
+        "codelists" : [ "legal-basis-e2" ]
+      }, {
+        "ruleId" : "R-XTC-324",
+        "codelists" : [ "legal-basis-12" ]
+      }, {
+        "ruleId" : "R-Y56-IN7",
+        "codelists" : [ "legal-basis-e3" ]
+      }, {
+        "ruleId" : "R-Y8Y-44I",
+        "codelists" : [ "legal-basis-32" ]
+      }, {
+        "ruleId" : "R-ZQV-3AS",
+        "codelists" : [ "legal-basis-cei" ]
+      }, {
+        "ruleId" : "R-ZXP-W7Y",
+        "codelists" : [ "legal-basis-21" ]
       }, {
         "ruleId" : "R-ROU-1GW",
         "fields" : [ "BT-01(c)-Procedure", "BT-01(f)-Procedure" ],
@@ -11097,20 +11097,15 @@
         "nodes" : [ "ND-Root" ],
         "codelists" : [ "bri" ]
       }, {
-        "ruleId" : "R-YN8-HNM",
+        "ruleId" : "R-K44-695",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
-        "codelists" : [ "competition" ]
+        "codelists" : [ "dir-awa-pre" ]
       }, {
         "ruleId" : "R-OT5-XFM",
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
         "codelists" : [ "cont-modif" ]
-      }, {
-        "ruleId" : "R-K44-695",
-        "fields" : [ "BT-03-notice" ],
-        "nodes" : [ "ND-Root" ],
-        "codelists" : [ "dir-awa-pre" ]
       }, {
         "ruleId" : "R-Q53-30O",
         "fields" : [ "BT-03-notice" ],
@@ -11121,6 +11116,11 @@
         "fields" : [ "BT-03-notice" ],
         "nodes" : [ "ND-Root" ],
         "codelists" : [ "result" ]
+      }, {
+        "ruleId" : "R-YN8-HNM",
+        "fields" : [ "BT-03-notice" ],
+        "nodes" : [ "ND-Root" ],
+        "codelists" : [ "competition" ]
       } ]
     },
     "requiredBy" : {
@@ -11201,10 +11201,10 @@
     "id" : "BT-127-notice",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-GYS-QL9",
+        "ruleId" : "R-FDI-85G",
         "nodes" : [ "ND-Root" ]
       }, {
-        "ruleId" : "R-FDI-85G",
+        "ruleId" : "R-GYS-QL9",
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-Q78-GJG",
@@ -11247,16 +11247,16 @@
         "ruleId" : "R-3V1-JNF",
         "fields" : [ "BT-196-notice-Language" ]
       }, {
+        "ruleId" : "R-1K2-3UF",
+        "fields" : [ "BT-196-notice-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-NondisclosureJustification" ]
+      }, {
         "ruleId" : "R-6UC-KCK",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-196-notice-Language" ],
         "nodes" : [ "ND-NondisclosureJustification" ]
       }, {
         "ruleId" : "R-AVW-8NE",
         "fields" : [ "BT-196-notice-Language" ],
-        "nodes" : [ "ND-NondisclosureJustification" ]
-      }, {
-        "ruleId" : "R-1K2-3UF",
-        "fields" : [ "BT-196-notice-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-NondisclosureJustification" ]
       }, {
         "ruleId" : "R-EBR-R75",
@@ -11363,10 +11363,10 @@
     "id" : "OPP-105-Business",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-VO5-UMH",
+        "ruleId" : "R-R9L-O08",
         "nodes" : [ "ND-Root" ]
       }, {
-        "ruleId" : "R-R9L-O08",
+        "ruleId" : "R-VO5-UMH",
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-5IQ-UP7",
@@ -11391,16 +11391,16 @@
         "ruleId" : "R-4HZ-RTR",
         "nodes" : [ "ND-Root" ]
       }, {
+        "ruleId" : "R-4SN-P8U",
+        "fields" : [ "OPP-130-Business-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-Root" ]
+      }, {
         "ruleId" : "R-4ZO-KIE",
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "OPP-130-Business-Language" ],
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-UPX-1SC",
         "fields" : [ "OPP-130-Business-Language" ],
-        "nodes" : [ "ND-Root" ]
-      }, {
-        "ruleId" : "R-4SN-P8U",
-        "fields" : [ "OPP-130-Business-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-Root" ]
       }, {
         "ruleId" : "R-1JA-W5Q",
@@ -11475,11 +11475,11 @@
         "ruleId" : "R-YVD-NLZ",
         "codelists" : [ "indicator" ]
       }, {
-        "ruleId" : "R-YFL-JZQ",
+        "ruleId" : "R-0V0-29X",
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-SecondStage" ]
       }, {
-        "ruleId" : "R-0V0-29X",
+        "ruleId" : "R-YFL-JZQ",
         "fields" : [ "BT-105-Procedure" ],
         "nodes" : [ "ND-SecondStage" ]
       } ]
@@ -11529,11 +11529,11 @@
         "ruleId" : "R-0RS-C4Q",
         "codelists" : [ "number-weight" ]
       }, {
-        "ruleId" : "R-K61-41O",
+        "ruleId" : "R-FH7-NDU",
         "fields" : [ "BT-752-Lot-WeightNumber" ],
         "nodes" : [ "ND-SecondStageWeightCriterionParameter" ]
       }, {
-        "ruleId" : "R-FH7-NDU",
+        "ruleId" : "R-K61-41O",
         "fields" : [ "BT-752-Lot-WeightNumber" ],
         "nodes" : [ "ND-SecondStageWeightCriterionParameter" ]
       } ]
@@ -11572,16 +11572,16 @@
         "ruleId" : "R-S1I-B0E",
         "fields" : [ "BT-732-Lot-Language" ]
       }, {
-        "ruleId" : "R-QVX-6P4",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-732-Lot-Language" ],
+        "ruleId" : "R-30X-VBZ",
+        "fields" : [ "BT-732-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-SecurityClearanceTerms" ]
       }, {
         "ruleId" : "R-7SW-0QH",
         "fields" : [ "BT-732-Lot-Language" ],
         "nodes" : [ "ND-SecurityClearanceTerms" ]
       }, {
-        "ruleId" : "R-30X-VBZ",
-        "fields" : [ "BT-732-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-QVX-6P4",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-732-Lot-Language" ],
         "nodes" : [ "ND-SecurityClearanceTerms" ]
       }, {
         "ruleId" : "R-8NK-VYI",
@@ -11607,19 +11607,19 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-750-Lot-Language" ],
         "nodes" : [ "ND-SelectionCriteria" ]
       }, {
-        "ruleId" : "R-VIA-4RA",
-        "fields" : [ "BT-750-Lot-Language" ],
-        "nodes" : [ "ND-SelectionCriteria" ]
-      }, {
         "ruleId" : "R-OI1-4JL",
         "fields" : [ "BT-750-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-SelectionCriteria" ]
       }, {
-        "ruleId" : "R-WN6-EZE",
-        "fields" : [ "BT-809-Lot" ],
+        "ruleId" : "R-VIA-4RA",
+        "fields" : [ "BT-750-Lot-Language" ],
         "nodes" : [ "ND-SelectionCriteria" ]
       }, {
         "ruleId" : "R-V97-9NM",
+        "fields" : [ "BT-809-Lot" ],
+        "nodes" : [ "ND-SelectionCriteria" ]
+      }, {
+        "ruleId" : "R-WN6-EZE",
         "fields" : [ "BT-809-Lot" ],
         "nodes" : [ "ND-SelectionCriteria" ]
       } ]
@@ -11648,10 +11648,10 @@
     "id" : "OPP-131-Business",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-RK4-5U3",
+        "ruleId" : "R-370-UOV",
         "nodes" : [ "ND-SenderContact" ]
       }, {
-        "ruleId" : "R-370-UOV",
+        "ruleId" : "R-RK4-5U3",
         "nodes" : [ "ND-SenderContact" ]
       }, {
         "ruleId" : "R-7SL-N9N",
@@ -11671,11 +11671,11 @@
         "ruleId" : "R-NBI-3S0",
         "codelists" : [ "organisation-role-service" ]
       }, {
-        "ruleId" : "R-TVJ-963",
+        "ruleId" : "R-PL0-I58",
         "fields" : [ "OPT-300-Procedure-SProvider" ],
         "nodes" : [ "ND-ServiceProviderParty" ]
       }, {
-        "ruleId" : "R-PL0-I58",
+        "ruleId" : "R-TVJ-963",
         "fields" : [ "OPT-300-Procedure-SProvider" ],
         "nodes" : [ "ND-ServiceProviderParty" ]
       } ]
@@ -11695,11 +11695,11 @@
         "ruleId" : "R-QPV-YZH",
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-IVJ-MNH",
+        "ruleId" : "R-4YD-ORK",
         "fields" : [ "BT-3202-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-4YD-ORK",
+        "ruleId" : "R-IVJ-MNH",
         "fields" : [ "BT-3202-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
@@ -11727,12 +11727,16 @@
         "ruleId" : "R-9F0-Z1E",
         "nodes" : [ "ND-SettledContract" ]
       }, {
+        "ruleId" : "R-34C-A09",
+        "fields" : [ "OPT-316-Contract" ],
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
         "ruleId" : "R-M0Y-T7P",
         "fields" : [ "OPT-316-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-34C-A09",
-        "fields" : [ "OPT-316-Contract" ],
+        "ruleId" : "R-3AC-QC0",
+        "fields" : [ "BT-738-notice" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-J4C-UCU",
@@ -11742,30 +11746,26 @@
         "ruleId" : "R-URT-5U1",
         "fields" : [ "BT-145-Contract" ],
         "nodes" : [ "ND-SettledContract" ]
-      }, {
-        "ruleId" : "R-3AC-QC0",
-        "fields" : [ "BT-738-notice" ],
-        "nodes" : [ "ND-SettledContract" ]
       } ]
     }
   }, {
     "id" : "BT-150-Contract",
     "dependsOn" : {
       "assert" : [ {
-        "ruleId" : "R-VHA-ZAO",
+        "ruleId" : "R-TML-G22",
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-TML-G22",
+        "ruleId" : "R-VHA-ZAO",
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-V6Y-D3T",
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-ZLJ-44I",
+        "ruleId" : "R-NXW-A4O",
         "fields" : [ "BT-142-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
-        "ruleId" : "R-NXW-A4O",
+        "ruleId" : "R-ZLJ-44I",
         "fields" : [ "BT-142-LotResult" ],
         "nodes" : [ "ND-NoticeResult" ]
       }, {
@@ -11803,15 +11803,15 @@
         "ruleId" : "R-LW5-Y6F",
         "nodes" : [ "ND-SettledContractTenderReference" ]
       }, {
+        "ruleId" : "R-EMJ-GRB",
+        "fields" : [ "BT-142-LotResult", "OPT-322-LotResult" ],
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
         "ruleId" : "R-J00-IVK",
         "fields" : [ "OPT-316-Contract", "OPT-321-Tender" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-S3J-TWE",
-        "fields" : [ "BT-142-LotResult", "OPT-322-LotResult" ],
-        "nodes" : [ "ND-SettledContract" ]
-      }, {
-        "ruleId" : "R-EMJ-GRB",
         "fields" : [ "BT-142-LotResult", "OPT-322-LotResult" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
@@ -11860,16 +11860,16 @@
         "ruleId" : "R-93J-J90",
         "fields" : [ "BT-721-Contract-Language" ]
       }, {
-        "ruleId" : "R-WW7-QJR",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-721-Contract-Language" ],
-        "nodes" : [ "ND-SettledContract" ]
-      }, {
         "ruleId" : "R-4U6-2G6",
         "fields" : [ "BT-721-Contract-Language" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-5YK-HG2",
         "fields" : [ "BT-721-Contract-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-SettledContract" ]
+      }, {
+        "ruleId" : "R-WW7-QJR",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-721-Contract-Language" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
         "ruleId" : "R-QAC-HF0",
@@ -11916,11 +11916,11 @@
         "fields" : [ "BT-765-Lot" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-8BN-XQ0",
+        "ruleId" : "R-3CZ-6NM",
         "fields" : [ "BT-142-LotResult", "BT-765-Lot" ],
         "nodes" : [ "ND-SettledContract" ]
       }, {
-        "ruleId" : "R-3CZ-6NM",
+        "ruleId" : "R-8BN-XQ0",
         "fields" : [ "BT-142-LotResult", "BT-765-Lot" ],
         "nodes" : [ "ND-SettledContract" ]
       } ]
@@ -12056,16 +12056,16 @@
         "ruleId" : "R-FKQ-L9Q",
         "fields" : [ "BT-777-Lot-Language" ]
       }, {
-        "ruleId" : "R-MG8-6G9",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-777-Lot-Language" ],
-        "nodes" : [ "ND-StrategicProcurementType" ]
-      }, {
         "ruleId" : "R-6MV-ZN4",
         "fields" : [ "BT-777-Lot-Language" ],
         "nodes" : [ "ND-StrategicProcurementType" ]
       }, {
         "ruleId" : "R-KCG-XDU",
         "fields" : [ "BT-777-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-StrategicProcurementType" ]
+      }, {
+        "ruleId" : "R-MG8-6G9",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-777-Lot-Language" ],
         "nodes" : [ "ND-StrategicProcurementType" ]
       }, {
         "ruleId" : "R-L43-B6L",
@@ -12087,11 +12087,11 @@
         "ruleId" : "R-0W3-C8H",
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
-        "ruleId" : "R-SD4-1DN",
+        "ruleId" : "R-PJC-0O5",
         "fields" : [ "BT-730-Tender" ],
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
-        "ruleId" : "R-PJC-0O5",
+        "ruleId" : "R-SD4-1DN",
         "fields" : [ "BT-730-Tender" ],
         "nodes" : [ "ND-SubcontractedContract" ]
       } ]
@@ -12115,12 +12115,12 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-554-Tender-Language" ],
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
-        "ruleId" : "R-N30-LE7",
-        "fields" : [ "BT-554-Tender-Language" ],
-        "nodes" : [ "ND-SubcontractedContract" ]
-      }, {
         "ruleId" : "R-M1W-HGJ",
         "fields" : [ "BT-554-Tender-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-SubcontractedContract" ]
+      }, {
+        "ruleId" : "R-N30-LE7",
+        "fields" : [ "BT-554-Tender-Language" ],
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
         "ruleId" : "R-BOK-HY8",
@@ -12138,11 +12138,11 @@
         "ruleId" : "R-QIE-6EW",
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
-        "ruleId" : "R-AGO-EU7",
+        "ruleId" : "R-1MH-7UF",
         "fields" : [ "BT-731-Tender" ],
         "nodes" : [ "ND-SubcontractedContract" ]
       }, {
-        "ruleId" : "R-1MH-7UF",
+        "ruleId" : "R-AGO-EU7",
         "fields" : [ "BT-731-Tender" ],
         "nodes" : [ "ND-SubcontractedContract" ]
       } ]
@@ -12211,11 +12211,11 @@
         "ruleId" : "R-ZSO-7ZC",
         "nodes" : [ "ND-SubcontractingObligation" ]
       }, {
-        "ruleId" : "R-ZGD-QOW",
+        "ruleId" : "R-HZ1-G1N",
         "fields" : [ "BT-65-Lot" ],
         "nodes" : [ "ND-SubcontractingObligation" ]
       }, {
-        "ruleId" : "R-HZ1-G1N",
+        "ruleId" : "R-ZGD-QOW",
         "fields" : [ "BT-65-Lot" ],
         "nodes" : [ "ND-SubcontractingObligation" ]
       } ]
@@ -12276,16 +12276,16 @@
         "ruleId" : "R-GYM-04B",
         "fields" : [ "BT-76-Lot-Language" ]
       }, {
-        "ruleId" : "R-U42-PTX",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-76-Lot-Language" ],
+        "ruleId" : "R-8D8-CQ2",
+        "fields" : [ "BT-76-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-TendererLegalForm" ]
       }, {
         "ruleId" : "R-NED-QTT",
         "fields" : [ "BT-76-Lot-Language" ],
         "nodes" : [ "ND-TendererLegalForm" ]
       }, {
-        "ruleId" : "R-8D8-CQ2",
-        "fields" : [ "BT-76-Lot-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "ruleId" : "R-U42-PTX",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-76-Lot-Language" ],
         "nodes" : [ "ND-TendererLegalForm" ]
       }, {
         "ruleId" : "R-H31-S9Y",
@@ -12337,20 +12337,20 @@
         "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-500-Organization-TouchPoint-Language" ],
         "nodes" : [ "ND-Touchpoint" ]
       }, {
-        "ruleId" : "R-SVE-36E",
-        "fields" : [ "BT-500-Organization-TouchPoint-Language" ],
-        "nodes" : [ "ND-Touchpoint" ]
-      }, {
         "ruleId" : "R-MHS-L01",
         "fields" : [ "BT-500-Organization-TouchPoint-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
         "nodes" : [ "ND-Touchpoint" ]
       }, {
-        "ruleId" : "R-EC1-IVM",
-        "fields" : [ "OPT-201-Organization-TouchPoint" ],
+        "ruleId" : "R-SVE-36E",
+        "fields" : [ "BT-500-Organization-TouchPoint-Language" ],
         "nodes" : [ "ND-Touchpoint" ]
       }, {
         "ruleId" : "R-9K4-GVP",
         "fields" : [ "BT-505-Organization-TouchPoint", "BT-506-Organization-TouchPoint", "BT-503-Organization-TouchPoint", "BT-739-Organization-TouchPoint", "BT-509-Organization-TouchPoint", "OPT-201-Organization-TouchPoint" ],
+        "nodes" : [ "ND-Touchpoint" ]
+      }, {
+        "ruleId" : "R-EC1-IVM",
+        "fields" : [ "OPT-201-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ]
       } ]
     },
@@ -12380,12 +12380,12 @@
         "ruleId" : "R-T30-FHZ",
         "nodes" : [ "ND-Touchpoint" ]
       }, {
-        "ruleId" : "R-WKM-OXE",
-        "fields" : [ "OPT-201-Organization-TouchPoint" ],
-        "nodes" : [ "ND-Touchpoint" ]
-      }, {
         "ruleId" : "R-4SW-EXW",
         "fields" : [ "BT-505-Organization-TouchPoint", "BT-506-Organization-TouchPoint", "BT-739-Organization-TouchPoint", "BT-500-Organization-TouchPoint", "BT-509-Organization-TouchPoint", "OPT-201-Organization-TouchPoint" ],
+        "nodes" : [ "ND-Touchpoint" ]
+      }, {
+        "ruleId" : "R-WKM-OXE",
+        "fields" : [ "OPT-201-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ]
       } ]
     },
@@ -12420,12 +12420,12 @@
         "ruleId" : "R-NIF-YFB",
         "nodes" : [ "ND-Touchpoint" ]
       }, {
-        "ruleId" : "R-SG8-ANT",
-        "fields" : [ "OPT-201-Organization-TouchPoint" ],
-        "nodes" : [ "ND-Touchpoint" ]
-      }, {
         "ruleId" : "R-68P-J5E",
         "fields" : [ "BT-505-Organization-TouchPoint", "BT-503-Organization-TouchPoint", "BT-739-Organization-TouchPoint", "BT-500-Organization-TouchPoint", "BT-509-Organization-TouchPoint", "OPT-201-Organization-TouchPoint" ],
+        "nodes" : [ "ND-Touchpoint" ]
+      }, {
+        "ruleId" : "R-SG8-ANT",
+        "fields" : [ "OPT-201-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ]
       } ]
     },
@@ -12447,12 +12447,12 @@
         "ruleId" : "R-MR9-UO3",
         "codelists" : [ "nuts-lvl3" ]
       }, {
-        "ruleId" : "R-OMA-6QL",
+        "ruleId" : "R-M1R-PVG",
         "fields" : [ "BT-514-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ],
         "codelists" : [ "nuts-country" ]
       }, {
-        "ruleId" : "R-M1R-PVG",
+        "ruleId" : "R-OMA-6QL",
         "fields" : [ "BT-514-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ],
         "codelists" : [ "nuts-country" ]
@@ -12477,12 +12477,12 @@
         "ruleId" : "R-MLA-LYX",
         "nodes" : [ "ND-Touchpoint" ]
       }, {
-        "ruleId" : "R-WVK-2NX",
-        "fields" : [ "OPT-201-Organization-TouchPoint" ],
-        "nodes" : [ "ND-Touchpoint" ]
-      }, {
         "ruleId" : "R-9D8-N46",
         "fields" : [ "BT-506-Organization-TouchPoint", "BT-503-Organization-TouchPoint", "BT-739-Organization-TouchPoint", "BT-500-Organization-TouchPoint", "BT-505-Organization-TouchPoint", "OPT-201-Organization-TouchPoint" ],
+        "nodes" : [ "ND-Touchpoint" ]
+      }, {
+        "ruleId" : "R-WVK-2NX",
+        "fields" : [ "OPT-201-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ]
       } ]
     },
@@ -12623,12 +12623,12 @@
         "ruleId" : "R-ADW-8LB",
         "nodes" : [ "ND-Touchpoint" ]
       }, {
-        "ruleId" : "R-MEU-DGF",
-        "fields" : [ "OPT-201-Organization-TouchPoint" ],
-        "nodes" : [ "ND-Touchpoint" ]
-      }, {
         "ruleId" : "R-I5S-JI5",
         "fields" : [ "BT-505-Organization-TouchPoint", "BT-506-Organization-TouchPoint", "BT-503-Organization-TouchPoint", "BT-500-Organization-TouchPoint", "BT-509-Organization-TouchPoint", "OPT-201-Organization-TouchPoint" ],
+        "nodes" : [ "ND-Touchpoint" ]
+      }, {
+        "ruleId" : "R-MEU-DGF",
+        "fields" : [ "OPT-201-Organization-TouchPoint" ],
         "nodes" : [ "ND-Touchpoint" ]
       } ]
     },
@@ -12700,12 +12700,12 @@
         "ruleId" : "R-RTE-WQB",
         "codelists" : [ "nuts-lvl3" ]
       }, {
-        "ruleId" : "R-VCB-QZ7",
+        "ruleId" : "R-IHU-0AE",
         "fields" : [ "BT-514-UBO" ],
         "nodes" : [ "ND-UBO" ],
         "codelists" : [ "nuts-country" ]
       }, {
-        "ruleId" : "R-IHU-0AE",
+        "ruleId" : "R-VCB-QZ7",
         "fields" : [ "BT-514-UBO" ],
         "nodes" : [ "ND-UBO" ],
         "codelists" : [ "nuts-country" ]
@@ -12801,11 +12801,11 @@
         "ruleId" : "R-5J0-V29",
         "nodes" : [ "ND-UBO" ]
       }, {
-        "ruleId" : "R-IW0-XYH",
+        "ruleId" : "R-5YT-J5G",
         "fields" : [ "BT-500-UBO" ],
         "nodes" : [ "ND-UBO" ]
       }, {
-        "ruleId" : "R-5YT-J5G",
+        "ruleId" : "R-IW0-XYH",
         "fields" : [ "BT-500-UBO" ],
         "nodes" : [ "ND-UBO" ]
       } ]
@@ -12823,11 +12823,11 @@
         "ruleId" : "R-9PV-37X",
         "codelists" : [ "country" ]
       }, {
-        "ruleId" : "R-YD5-QFT",
+        "ruleId" : "R-45S-EK2",
         "fields" : [ "BT-500-UBO" ],
         "nodes" : [ "ND-UBO" ]
       }, {
-        "ruleId" : "R-45S-EK2",
+        "ruleId" : "R-YD5-QFT",
         "fields" : [ "BT-500-UBO" ],
         "nodes" : [ "ND-UBO" ]
       } ]
@@ -12878,16 +12878,16 @@
         "ruleId" : "R-NHX-M6G",
         "fields" : [ "BT-762-notice-Language" ]
       }, {
-        "ruleId" : "R-VG2-9E5",
-        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-762-notice-Language" ],
-        "nodes" : [ "ND-ChangeReason" ]
-      }, {
         "ruleId" : "R-KDZ-0RX",
         "fields" : [ "BT-762-notice-Language" ],
         "nodes" : [ "ND-ChangeReason" ]
       }, {
         "ruleId" : "R-O2E-8OT",
         "fields" : [ "BT-762-notice-Language", "BT-702(a)-notice", "BT-702(b)-notice" ],
+        "nodes" : [ "ND-ChangeReason" ]
+      }, {
+        "ruleId" : "R-VG2-9E5",
+        "fields" : [ "BT-702(a)-notice", "BT-702(b)-notice", "BT-762-notice-Language" ],
         "nodes" : [ "ND-ChangeReason" ]
       }, {
         "ruleId" : "R-7HP-QG7",
@@ -12905,11 +12905,11 @@
         "ruleId" : "R-45C-TWW",
         "codelists" : [ "change-corrig-justification" ]
       }, {
-        "ruleId" : "R-N0B-W7Z",
+        "ruleId" : "R-39C-IYZ",
         "fields" : [ "BT-758-notice" ],
         "nodes" : [ "ND-Changes" ]
       }, {
-        "ruleId" : "R-39C-IYZ",
+        "ruleId" : "R-N0B-W7Z",
         "fields" : [ "BT-758-notice" ],
         "nodes" : [ "ND-Changes" ]
       } ]
@@ -12978,11 +12978,11 @@
         "ruleId" : "R-2TQ-OVJ",
         "nodes" : [ "ND-RootExtension" ]
       }, {
-        "ruleId" : "R-WDY-Y2U",
+        "ruleId" : "R-7Z7-NUG",
         "fields" : [ "BT-803(d)-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       }, {
-        "ruleId" : "R-7Z7-NUG",
+        "ruleId" : "R-WDY-Y2U",
         "fields" : [ "BT-803(d)-notice" ],
         "nodes" : [ "ND-RootExtension" ]
       } ]
