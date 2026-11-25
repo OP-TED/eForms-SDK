@@ -570,8 +570,8 @@ WS: [ \t\r\n]+ -> channel(HIDDEN);
  * IN 1-6, E1-E6, CEI. Each notice subtype is one token, so a dash always separates the two ends of a
  * range. The list ends with the semicolon that ends the rule, or with its SCOPE clause.
  * The IN of a semantic assertion, as in ASSERT IN [...codelist], enters this mode too, as the lexer
- * cannot tell the two INs apart: there, the bracket that opens the codelist leaves the mode and the
- * rest of the rule is read in EXPRESSION mode, the mode the lexer was in before IN.
+ * cannot tell the two INs apart: there, the bracket that opens the codelist leaves the mode and
+ * returns to EXPRESSION, the mode the lexer was in before that IN.
  * The rules use fragments rather than literals, so that the tokens they give keep their literal
  * names ('*', ',', '-', 'ANY').
  */
@@ -585,7 +585,7 @@ NoticeTypeListStar: STAR -> type(Star);
 NoticeTypeListComma: COMMA -> type(Comma);
 NoticeTypeListDash: DASH -> type(Minus);
 NoticeType: [a-zA-Z0-9]+;
-NoticeTypeListWhitespace: ([ \t\r\n] | COMMENT)+ -> channel(HIDDEN), type(WS);
+NoticeTypeListWhitespace: ([ \t\r\n] | COMMENT EOL*)+ -> channel(HIDDEN), type(WS);
 
 /*
  * IDENTIFIER
