@@ -569,12 +569,16 @@ WS: [ \t\r\n]+ -> channel(HIDDEN);
  * The list of notice subtypes after IN in a rule: IN *, IN ANY, or notice subtypes and ranges, as in
  * IN 1-6, E1-E6, CEI. Each notice subtype is one token, so a dash always separates the two ends of a
  * range. The list ends with the semicolon that ends the rule, or with its SCOPE clause.
+ * The IN of a semantic assertion, as in ASSERT IN [...codelist], enters this mode too, as the lexer
+ * cannot tell the two INs apart: there, the bracket that opens the codelist leaves the mode and the
+ * rest of the rule is read in EXPRESSION mode, the mode the lexer was in before IN.
  * The rules use fragments rather than literals, so that the tokens they give keep their literal
  * names ('*', ',', '-', 'ANY').
  */
 mode NOTICE_TYPE_LIST;
 
 NoticeTypeListEnd: ';' -> popMode, type(Semicolon);
+NoticeTypeListCodelist: LBRACKET -> popMode, pushMode(EXPRESSION), type(OpenBracket);
 NoticeTypeListScope: 'SCOPE' -> popMode, pushMode(EXPRESSION), type(Scope);
 NoticeTypeListAny: ANY_KEYWORD -> type(Any);
 NoticeTypeListStar: STAR -> type(Star);
@@ -616,6 +620,7 @@ fragment COMMENT: '//' ~[\r\n\f]*;
 fragment TAB: [\t];
 fragment SPACE: [ ];
 fragment LBRACE: '{';
+fragment LBRACKET: '[';
 fragment RBRACE: '}';
 
 fragment AT_SIGN: '@';
