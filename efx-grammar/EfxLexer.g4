@@ -586,7 +586,10 @@ NoticeTypeListStar: STAR -> type(Star);
 NoticeTypeListComma: COMMA -> type(Comma);
 NoticeTypeListDash: DASH -> type(Minus);
 NoticeType: [a-zA-Z0-9]+;
-NoticeTypeListWhitespace: ([ \t\r\n] | COMMENT EOL*)+ -> channel(HIDDEN), type(WS);
+// Blanks and comments are separate tokens, as in EXPRESSION mode. As there, a comment may end with a
+// form feed.
+NoticeTypeListWhitespace: [ \t\r\n]+ -> channel(HIDDEN), type(WS);
+NoticeTypeListComment: COMMENT EOL* -> channel(HIDDEN), type(ExpressionComment);
 
 /*
  * IDENTIFIER
