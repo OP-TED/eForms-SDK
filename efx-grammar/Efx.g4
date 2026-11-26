@@ -46,7 +46,7 @@ options { tokenVocab=EfxLexer;}
  * optionally followed by a semicolon
  */
 singleExpression
-    : With context=(FieldId | NodeId) (Comma parameterList)? (Compute expression | Select selection) Semicolon? EOF
+    : WITH context=(FieldId | NodeId) (Comma parameterList)? (COMPUTE expression | SELECT selection) Semicolon? EOF
     ;
 
 /****************************************************************************** 
@@ -63,7 +63,7 @@ expressionBlock
     ;
 
 standardExpressionBlock
-    : Let expression Semicolon
+    : LET expression Semicolon
     | StartExpressionBlock expression EndBlock // for backward compatibility
     ;
 
@@ -179,7 +179,7 @@ expression
 iteratorList: iteratorExpression (Comma iteratorExpression)*;
 iteratorExpression
     : primitiveType Colon VariablePrefix variableName=Identifier In expression                    # valueIterator
-    | ContextType Colon VariablePrefix variableName=Identifier In (fieldContext | nodeContext)     # contextIterator
+    | Context Colon VariablePrefix variableName=Identifier In (fieldContext | nodeContext)     # contextIterator
     ;
 
 /**************************************
@@ -191,8 +191,8 @@ literal: stringLiteral | numericLiteral | booleanLiteral | dateLiteral | timeLit
 stringLiteral: StringLiteral | UuidV4Literal;
 numericLiteral: Minus? (IntegerLiteral | DecimalLiteral);
 booleanLiteral: trueBooleanLiteral | falseBooleanLiteral;
-trueBooleanLiteral: Always | True;
-falseBooleanLiteral: Never | False;
+trueBooleanLiteral: ALWAYS | TRUE;
+falseBooleanLiteral: NEVER | FALSE;
 dateLiteral: DateLiteral;
 timeLiteral: TimeLiteral;
 durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
@@ -380,7 +380,7 @@ sequenceFunction
  * Declares a typed variable with an initial value.
  * Used for global variables in templates and global/stage-level variables in rules.
  */
-variableDeclaration: Let variableInitializer Semicolon;
+variableDeclaration: LET variableInitializer Semicolon;
 
 /*
  * A context-declaration block specifies the evaluation context for the associated expressions.
@@ -413,7 +413,7 @@ variableInitializer
     ;
 
 // Context variable initializer - only accept fieldContext or nodeContext
-contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext);
+contextVariableInitializer:     Context Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext);
 
 // ================================================================
 //  EFX Validation Rules
@@ -443,7 +443,7 @@ includeDirective: IncludeDirective IncludePath;
  * Named API endpoint declaration with optional compile-time default URL.
  * Generated as Schematron <param> elements, overridable at runtime.
  */
-apiEndpointDeclaration: Endpoint endpointName=StringLiteral (AT endpointUrl=StringLiteral)? Semicolon;
+apiEndpointDeclaration: ENDPOINT endpointName=StringLiteral (AT endpointUrl=StringLiteral)? Semicolon;
 
 /*
  * API function declaration. Declares an external API-backed boolean function
@@ -453,8 +453,8 @@ apiEndpointDeclaration: Endpoint endpointName=StringLiteral (AT endpointUrl=Stri
  * 1 = true, 0 = false, -1 = error).
  * The optional "boolean :" prefix is an explicit return type annotation for readability.
  */
-dynamicFunctionDeclaration: Let Dynamic Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Call Api endpointName=StringLiteral? onErrorClause? Semicolon;
-onErrorClause: Comma? On Error (Warn | Reject) errorLabel=StringLiteral?;
+dynamicFunctionDeclaration: LET Dynamic Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis CALL API endpointName=StringLiteral? onErrorClause? Semicolon;
+onErrorClause: Comma? ON ERROR (WARN | REJECT) errorLabel=StringLiteral?;
 
 /*
  * Global variable declarations that apply across all stages.
@@ -502,7 +502,7 @@ ruleSet
  * the last step of the declared node or field are left out of the rule context.
  */
 withClause
-    : With EVERY? contextDeclarationBlock
+    : WITH EVERY? contextDeclarationBlock
     ;
 
 rules: (simpleRule | conditionalRule)+;
@@ -517,7 +517,7 @@ fallbackRule: indentation? (otherwiseAssertClause | otherwiseReportClause) asCla
  * The rule only applies when the condition evaluates to true.
  */
 whenClause
-    : When expression
+    : WHEN expression
     ;
 
 /*
@@ -528,11 +528,11 @@ whenClause
  * A REPORT clause takes an expression only.
  */
 assertClause
-    : Assert (expression | behaviour)
+    : ASSERT (expression | behaviour)
     ;
 
 reportClause
-    : Report expression
+    : REPORT expression
     ;
 
 /*
@@ -588,16 +588,16 @@ behaviour
  * Format: AS severity rule-id
  */
 asClause
-    : As severity ruleId
+    : AS severity ruleId
     ;
 
 /*
  * Severity can be ERROR, WARNING, or INFO.
  */
 severity
-    : Error
-    | Warning
-    | Info
+    : ERROR
+    | WARNING
+    | INFO
     ;
 
 /*
@@ -622,11 +622,11 @@ forClause
  * As ASSERT, OTHERWISE ASSERT takes an expression or a behaviour.
  */
 otherwiseAssertClause
-    : OtherwiseAssert (expression | behaviour)
+    : OTHERWISE_ASSERT (expression | behaviour)
     ;
 
 otherwiseReportClause
-    : OtherwiseReport expression
+    : OTHERWISE_REPORT expression
     ;
 /*
  * IN clause specifies which notice types this rule applies to.
@@ -645,11 +645,11 @@ inClause
  * Both are optional and can appear in any order. Omitting @PRE/@POST means the rule applies in both contexts.
  */
 scopeClause
-    : Scope (scopeAnnotation flag? | flag scopeAnnotation?)
+    : SCOPE (scopeAnnotation flag? | flag scopeAnnotation?)
     ;
 
 scopeAnnotation
-    : Pre | Post
+    : PRE | POST
     ;
 
 flag
@@ -662,7 +662,7 @@ flag
  * - Explicit list with ranges: 1-3, 10-13, 20, E1-E3, X01-X02
  */
 noticeTypeList
-    : (Star | Any )                                     # anyNoticeTypes
+    : (Star | ANY )                                     # anyNoticeTypes
     | noticeTypeRange (Comma noticeTypeRange)*          # explicitNoticeTypes
     ;
 
@@ -673,8 +673,8 @@ noticeTypeList
  * - Prefixed range: E1-E3 (expands to E1, E2, E3)
  * - Zero-padded range: X01-X02 (expands to X01, X02)
  *
- * Each notice subtype, numeric (1, 40) or alphanumeric (CEI, E1, T01, X02), is one NoticeType token,
- * which the lexer reads in its NOTICE_TYPE_LIST mode, so that a dash always separates the two ends
+ * Each notice subtype, numeric (1, 40) or alphanumeric (CEI, E1, T01, X02), is one NoticeSubtype token,
+ * which the lexer reads in its NOTICE_SUBTYPE_LIST mode, so that a dash always separates the two ends
  * of a range.
  *
  * Validation rules (enforced by transpiler):
@@ -683,7 +683,7 @@ noticeTypeList
  * - Zero-padding is preserved from the start value
  */
 noticeTypeRange
-    : NoticeType (Minus NoticeType)?
+    : NoticeSubtype (Minus NoticeSubtype)?
     ;
 
 // ================================================================
@@ -726,7 +726,7 @@ templateSection
       templateLine+
     ;
 
-parametersDeclaration: Parameters parameterList Semicolon;
+parametersDeclaration: PARAMETERS parameterList Semicolon;
 
 mainSectionWithHeader: MainSectionHeader mainSectionLines;
 mainSection: MainSectionHeader? mainSectionLines;
@@ -751,9 +751,9 @@ globalDeclaration
 
 
 
-dictionaryDeclaration: Let VariablePrefix dictionaryName=Identifier index=dictionaryIndexClause key=dictionaryKeyClause Semicolon;
-dictionaryIndexClause: Index field=fieldContext;
-dictionaryKeyClause: By expression;
+dictionaryDeclaration: LET VariablePrefix dictionaryName=Identifier index=dictionaryIndexClause key=dictionaryKeyClause Semicolon;
+dictionaryIndexClause: INDEX field=fieldContext;
+dictionaryKeyClause: BY expression;
 
 /* 
  * A template line contains: indentation, an optional outline-number or tag, a context-declaration, and a template.
@@ -769,8 +769,8 @@ dictionaryKeyClause: By expression;
  * line has no outline-number or tag.
  */
 templateLine
-    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber | OutlineTag)? (With contextDeclarationBlock)? (chooseDisplayTemplate | displayTemplate) Semicolon
-    | indentation? (With contextDeclarationBlock)? (chooseInvokeTemplate | invokeTemplate) Semicolon
+    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber | OutlineTag)? (WITH contextDeclarationBlock)? (chooseDisplayTemplate | displayTemplate) Semicolon
+    | indentation? (WITH contextDeclarationBlock)? (chooseInvokeTemplate | invokeTemplate) Semicolon
     ;
 
 indentation: Tabs | Spaces | MixedIndent;
@@ -886,16 +886,16 @@ pluraliser: expressionBlock;
 
 chooseDisplayTemplate: whenDisplayTemplate+ otherwiseDisplayTemplate?;
 chooseInvokeTemplate: whenInvokeTemplate+ otherwiseInvokeTemplate?;
-displayTemplate: Display template;
-invokeTemplate: Invoke templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
+displayTemplate: DISPLAY template;
+invokeTemplate: INVOKE templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
-whenDisplayTemplate: When expression displayTemplate;
-whenInvokeTemplate: When expression invokeTemplate;
+whenDisplayTemplate: WHEN expression displayTemplate;
+whenInvokeTemplate: WHEN expression invokeTemplate;
 
-otherwiseDisplayTemplate: Otherwise Display? template;
-otherwiseInvokeTemplate: Otherwise invokeTemplate;
+otherwiseDisplayTemplate: OTHERWISE DISPLAY? template;
+otherwiseInvokeTemplate: OTHERWISE invokeTemplate;
 
 functionDeclaration
-    : Let typeDeclaration Colon FunctionPrefix functionName=Identifier
+    : LET typeDeclaration Colon FunctionPrefix functionName=Identifier
       OpenParenthesis parameterList? CloseParenthesis Assignment expression Semicolon
     ;

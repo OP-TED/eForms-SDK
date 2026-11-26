@@ -45,6 +45,7 @@ These matter only if you write EFX of your own or build a tool that reads the EF
 - **Selectors**: a selector cannot read an attribute through a context override, as in `&{ND-1::BT-2/@a}`.
 - **Results**: a context variable of a field, as `$c` in `for context:$c in BT-00-Text`, gives the value of the field, as the field itself does. An `if` gives a list when one of its branches gives a list, as in `if TRUE then [1] else 2`.
 - **Tools that read the grammar**: the typed rules are replaced by one `expression` rule, some rules and tokens are renamed, and a parameter value is read without braces: `1`, not `{1}`.
+- **Token names**, for tools that read the grammar: each token is named as its word is spelled. Upper-case keywords are named in capitals, such as `WITH`, `ASSERT`, `TRUE` and `OTHERWISE_ASSERT`, and lower-case keywords in mixed case, such as `In` and `Not`, as before. The asset and label types of labels are named `AssetTypeField`, `LabelTypeHint` and so on. `CRLF` becomes `EndOfLine`, `ContextType` becomes `Context`, `ValueKeyword` becomes `Value`, and `NoticeType` becomes `NoticeSubtype`, read in the lexer mode `NOTICE_SUBTYPE_LIST`. Hidden blanks are of type `Whitespace`, and hidden comments of type `Comment`, in every mode, with two exceptions: an empty line or a line of only a comment is of type `EmptyOrCommentLine`, and the end of a line after a keyword or an outline marker, which may hold a comment, is of type `SkippedComment`. The parser reads the same tokens as before, and the text of EFX does not change.
 
 ## Download
 
