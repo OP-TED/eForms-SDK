@@ -52,24 +52,24 @@ OutlineTag: SHARP [a-z] [a-z0-9-]* -> pushMode(SKIP_WHITESPACE);
 // Mode switching ---------------------------------------------------------------------------------
 
 
-// The Let, With, When, and Endpoint keywords switch the lexer to EXPRESSION mode.
-Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
-Endpoint: ENDPOINT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
-With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
-When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+// The LET, WITH, WHEN and ENDPOINT keywords switch the lexer to EXPRESSION mode.
+LET: LET_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+ENDPOINT: ENDPOINT_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+WITH: WITH_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+WHEN: WHEN_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 // Every rule ends with a semicolon, which takes the lexer back to this mode. The next rule of the
 // same rule set starts here, with ASSERT, REPORT, WHEN, OTHERWISE ASSERT or OTHERWISE REPORT, and
 // switches the lexer to EXPRESSION mode.
-AssertStatement: ASSERT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(Assert);
-ReportStatement: REPORT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(Report);
-OtherwiseAssertStatement: OTHERWISE (TAB | SPACE | EOL)+ ASSERT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(OtherwiseAssert);
-OtherwiseReportStatement: OTHERWISE (TAB | SPACE | EOL)+ REPORT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(OtherwiseReport);
+ASSERT: ASSERT_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+REPORT: REPORT_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+OTHERWISE_ASSERT: OTHERWISE_KEYWORD (TAB | SPACE | EOL)+ ASSERT_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+OTHERWISE_REPORT: OTHERWISE_KEYWORD (TAB | SPACE | EOL)+ REPORT_KEYWORD -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 // The OTHERWISE keyword should switch the lexer to TEMPLATE mode. The DISPLAY keyword is optional.
-Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE);
-Display: DISPLAY (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
-Invoke: INVOKE -> pushMode(EXPRESSION);
+OTHERWISE: OTHERWISE_KEYWORD ((TAB | SPACE | EOL)+ DISPLAY_KEYWORD)? -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE);
+DISPLAY: DISPLAY_KEYWORD (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
+INVOKE: INVOKE_KEYWORD -> pushMode(EXPRESSION);
 
 MainSectionHeader: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EOL*;
 SummarySectionHeader: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
@@ -78,7 +78,7 @@ StageHeaderStart: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STA
 TemplateSectionHeaderStart: '---' '-'* (TAB | SPACE)* 'TEMPLATE' (TAB | SPACE)+ -> pushMode(TEMPLATE_SECTION_HEADER);
 
 // The PARAMETERS keyword starts the list of the parameters of a template section, which ends with a semicolon.
-Parameters: 'PARAMETERS' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+PARAMETERS: 'PARAMETERS' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 /*
  * STAGE_HEADER mode
@@ -99,7 +99,7 @@ StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
  */
 mode TEMPLATE_SECTION_HEADER;
 
-TemplateName: LETTER ('-'? (LETTER | DIGIT)+)* -> type(Identifier);
+IdentifierInTemplateSectionHeader: LETTER ('-'? (LETTER | DIGIT)+)* -> type(Identifier);
 TemplateSectionHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
 
 /*
@@ -129,8 +129,8 @@ mode SKIP_WHITESPACE;
 // expression mode. This may happen if there is no whitespace between the token that caused the switch 
 // to SKIP_WHITESPACE and the start of the expression that follows it. 
 
-LetExpression: LET -> pushMode(EXPRESSION), type(Let);
-WithExpression: WITH -> pushMode(EXPRESSION), type(With);
+LetInSkipWhitespace: LET_KEYWORD -> pushMode(EXPRESSION), type(LET);
+WithInSkipWhitespace: WITH_KEYWORD -> pushMode(EXPRESSION), type(WITH);
 
 // Skipping whitespace & comments -----------------------------------------------------------------
 
@@ -158,30 +158,30 @@ LineJoining: '\\'  (TAB | SPACE)* EOL+ (TAB | SPACE)* -> skip;
 
 NewLine: (TAB | SPACE)* LINE_BREAK_ESC_SEQ (TAB | SPACE)*;
 
-WhenExpression: (TAB | SPACE | EOL)* WHEN -> popMode, pushMode(EXPRESSION), type(When);
-OtherwiseTemplate: (TAB | SPACE | EOL)* OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? (TAB | SPACE)* -> type(Otherwise);
-InvokeTemplate: (TAB | SPACE | EOL)* INVOKE -> popMode, pushMode(EXPRESSION), type(Invoke);
+WhenInTemplate: (TAB | SPACE | EOL)* WHEN_KEYWORD -> popMode, pushMode(EXPRESSION), type(WHEN);
+OtherwiseInTemplate: (TAB | SPACE | EOL)* OTHERWISE_KEYWORD ((TAB | SPACE | EOL)+ DISPLAY_KEYWORD)? (TAB | SPACE)* -> type(OTHERWISE);
+InvokeInTemplate: (TAB | SPACE | EOL)* INVOKE_KEYWORD -> popMode, pushMode(EXPRESSION), type(INVOKE);
 
 CharacterReference: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
-EndTemplate: (TAB | SPACE)* ';' (TAB | SPACE)* COMMENT? -> popMode, type(Semicolon);
+SemicolonInTemplate: (TAB | SPACE)* ';' (TAB | SPACE)* COMMENT? -> popMode, type(Semicolon);
 
 // A template line ends with a semicolon. A newline before it ends the TEMPLATE mode, so that the
 // missing semicolon is reported on that line.
-CRLF: EOL+ -> popMode;
+EndOfLine: EOL+ -> popMode;
 
-ShorthandFieldValueReferenceFromContextField: DOLLAR ValueKeyword;
-ShorthandIndirectLabelReferenceFromContextField: SHARP ValueKeyword;
-ValueKeyword: 'value';
+ShorthandFieldValueReferenceFromContextField: DOLLAR Value;
+ShorthandIndirectLabelReferenceFromContextField: SHARP Value;
+Value: 'value';
 
-ShorthandLabelType: SHARP LabelType -> type(LabelType);
+LabelTypeInTemplate: SHARP LabelType -> type(LabelType);
 
 StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
 StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
 StartHyperlinkBlock: (TAB | SPACE)* AT_SIGN LBRACE -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
-EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
+CommentInTemplate: (TAB | SPACE)* COMMENT -> channel(HIDDEN), type(Comment);
 
 // Whitespace is significant in TEMPLATE mode.
 Whitespace: (TAB | SPACE)+;
@@ -199,14 +199,14 @@ OtherEscapeSequence: OTHER_ESC_SEQ;
 
 mode FORMAT;
 
-FormatWhitespace: (TAB | SPACE)+ -> channel(HIDDEN);
+WhitespaceInFormat: (TAB | SPACE)+ -> channel(HIDDEN), type(Whitespace);
 FormatDecimals: DIGIT;
 FormatShort: 'short';
 FormatMedium: 'medium';
 FormatLong: 'long';
 FormatNoUnit: 'no-unit';
 FormatNoFormatting: 'no-formatting';
-EndFormatOptions: RBRACE -> popMode, type(EndBlock);
+EndBlockInFormat: RBRACE -> popMode, type(EndBlock);
 
 /*
  * LABEL mode
@@ -219,63 +219,63 @@ mode LABEL;
 Pipe: '|';
 Semicolon: ';';
 
-EndLabel: RBRACE -> popMode, type(EndBlock);
+EndBlockInLabel: RBRACE -> popMode, type(EndBlock);
 
-StartNestedExpression: DOLLAR LBRACE -> pushMode(EXPRESSION), type(StartExpressionBlock);
+StartExpressionBlockInLabel: DOLLAR LBRACE -> pushMode(EXPRESSION), type(StartExpressionBlock);
 
 
 AssetType
-    : ASSET_TYPE_BT 
-    | ASSET_TYPE_FIELD 
-    | ASSET_TYPE_NODE
-    | ASSET_TYPE_DISPLAY_GROUP
-    | ASSET_TYPE_VIEW_TEMPLATE 
-    | ASSET_TYPE_NOTICE 
-    | ASSET_TYPE_CODE_LIST 
-    | ASSET_TYPE_CODE 
-    | ASSET_TYPE_INDICATOR 
-    | ASSET_TYPE_AUXILIARY 
-    | ASSET_TYPE_RULE 
-    | ASSET_TYPE_EXPRESSION 
-    | ASSET_TYPE_INTERVAL
-    | ASSET_TYPE_PATTERN
+    : AssetTypeBusinessTerm 
+    | AssetTypeField 
+    | AssetTypeNode
+    | AssetTypeGroup
+    | AssetTypeView 
+    | AssetTypeNotice 
+    | AssetTypeCodelist 
+    | AssetTypeCode 
+    | AssetTypeIndicator 
+    | AssetTypeAuxiliary 
+    | AssetTypeRule 
+    | AssetTypeExpression 
+    | AssetTypeInterval
+    | AssetTypePattern
     ;
 
-ASSET_TYPE_BT: 'business-term';
-ASSET_TYPE_FIELD: 'field';
-ASSET_TYPE_NODE: 'node';
-ASSET_TYPE_DISPLAY_GROUP: 'group';
-ASSET_TYPE_VIEW_TEMPLATE: 'view';
-ASSET_TYPE_NOTICE: 'notice';
-ASSET_TYPE_CODE_LIST: Codelist -> type(Codelist);
-ASSET_TYPE_CODE: Code -> type(Code);
-ASSET_TYPE_INDICATOR: Indicator -> type(Indicator);
-ASSET_TYPE_AUXILIARY: 'auxiliary';
-ASSET_TYPE_RULE: 'rule';
-ASSET_TYPE_EXPRESSION: 'expression';
-ASSET_TYPE_INTERVAL: 'interval';
-ASSET_TYPE_PATTERN: 'pattern';
+AssetTypeBusinessTerm: 'business-term';
+AssetTypeField: 'field';
+AssetTypeNode: 'node';
+AssetTypeGroup: 'group';
+AssetTypeView: 'view';
+AssetTypeNotice: 'notice';
+AssetTypeCodelist: Codelist -> type(Codelist);
+AssetTypeCode: Code -> type(Code);
+AssetTypeIndicator: Indicator -> type(Indicator);
+AssetTypeAuxiliary: 'auxiliary';
+AssetTypeRule: 'rule';
+AssetTypeExpression: 'expression';
+AssetTypeInterval: 'interval';
+AssetTypePattern: 'pattern';
 
 LabelType
-    : LABEL_TYPE_NAME 
-    | LABEL_TYPE_WHEN_TRUE 
-    | LABEL_TYPE_WHEN_FALSE 
-    | LABEL_TYPE_DESCRIPTION 
-    | LABEL_TYPE_TOOLTIP 
-    | LABEL_TYPE_TEXT 
-    | LABEL_TYPE_TEMPLATE
+    : LabelTypeName 
+    | LabelTypeWhenTrue 
+    | LabelTypeWhenFalse 
+    | LabelTypeDescription 
+    | LabelTypeHint 
+    | LabelTypeText 
+    | LabelTypeTemplate
     ;
 
-LABEL_TYPE_NAME: 'name';
-LABEL_TYPE_WHEN_TRUE: 'when-true';
-LABEL_TYPE_WHEN_FALSE: 'when-false';
-LABEL_TYPE_DESCRIPTION: 'description';
-LABEL_TYPE_TOOLTIP: 'hint';
-LABEL_TYPE_TEXT: Text -> type(Text);
-LABEL_TYPE_TEMPLATE: 'template';
+LabelTypeName: 'name';
+LabelTypeWhenTrue: 'when-true';
+LabelTypeWhenFalse: 'when-false';
+LabelTypeDescription: 'description';
+LabelTypeHint: 'hint';
+LabelTypeText: Text -> type(Text);
+LabelTypeTemplate: 'template';
 
-FieldAssetId: FieldId -> type(FieldId);
-BtAssetId: BtId -> type(BtId);
+FieldIdInLabel: FieldId -> type(FieldId);
+BtIdInLabel: BtId -> type(BtId);
 OtherAssetId: [a-z]+ ([-.] [a-z0-9]+)*;
 
 /*
@@ -301,32 +301,32 @@ ColonColon: '::';
 EndBlock: RBRACE -> popMode;
 
 // A pipe ends the expression of an expression block, and starts its format options: ${BT-00-Number|2}.
-FormatPipe: '|' -> popMode, pushMode(FORMAT), type(Pipe);
+PipeInExpression: '|' -> popMode, pushMode(FORMAT), type(Pipe);
 
-EndLetExpression: ';' -> popMode, type(Semicolon);
+SemicolonInExpression: ';' -> popMode, type(Semicolon);
 
 // The DISPLAY keyword, as well as the OTHERWISE DISPLAY construct indicate that the expression block is completed and a template block follows.
-OtherwiseDisplay: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Otherwise);
-DisplayKeyword: DISPLAY -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Display);
-InvokeKeyword: INVOKE -> type(Invoke);
+OtherwiseInExpression: OTHERWISE_KEYWORD ((TAB | SPACE | EOL)+ DISPLAY_KEYWORD)? -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(OTHERWISE);
+DisplayInExpression: DISPLAY_KEYWORD -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(DISPLAY);
+InvokeInExpression: INVOKE_KEYWORD -> type(INVOKE);
 
-OtherwiseAssert: OTHERWISE (TAB | SPACE | EOL)+ ASSERT;
-OtherwiseReport: OTHERWISE (TAB | SPACE | EOL)+ REPORT;
-AssertKeyword: ASSERT -> type(Assert);
-ReportKeyword: REPORT -> type(Report);
+OtherwiseAssertInExpression: OTHERWISE_KEYWORD (TAB | SPACE | EOL)+ ASSERT_KEYWORD -> type(OTHERWISE_ASSERT);
+OtherwiseReportInExpression: OTHERWISE_KEYWORD (TAB | SPACE | EOL)+ REPORT_KEYWORD -> type(OTHERWISE_REPORT);
+AssertInExpression: ASSERT_KEYWORD -> type(ASSERT);
+ReportInExpression: REPORT_KEYWORD -> type(REPORT);
 // A WITH is read in DEFAULT mode, after the semicolon that ends the statement before it. It is
 // recognised here only so that a missing semicolon is reported as such.
-WithKeyword: WITH -> type(With);
+WithInExpression: WITH_KEYWORD -> type(WITH);
 
-MainSectionHeaderX: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(MainSectionHeader);
-SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
-NavigationSectionHeaderX: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
-StageHeaderStartX: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);
-TemplateSectionHeaderStartX: '---' '-'* (TAB | SPACE)* 'TEMPLATE' (TAB | SPACE)+ -> popMode, pushMode(TEMPLATE_SECTION_HEADER), type(TemplateSectionHeaderStart);
+MainSectionHeaderInExpression: '---' '-'* (TAB | SPACE)* 'MAIN' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(MainSectionHeader);
+SummarySectionHeaderInExpression: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
+NavigationSectionHeaderInExpression: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
+StageHeaderStartInExpression: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);
+TemplateSectionHeaderStartInExpression: '---' '-'* (TAB | SPACE)* 'TEMPLATE' (TAB | SPACE)+ -> popMode, pushMode(TEMPLATE_SECTION_HEADER), type(TemplateSectionHeaderStart);
 
 // Encountering WHEN in an expression block indicates that conditional templates or rules follow.
 // We should remain in EXPRESSION mode to process the first condition.
-StartConditionals: WHEN -> type(When);
+WhenInExpression: WHEN_KEYWORD -> type(WHEN);
 
 // Keywords ---------------------------------------------------------------------------------------
 
@@ -335,7 +335,7 @@ Or: 'or';
 Is: 'is';
 In: 'in';
 // IN starts the list of notice subtypes of a rule, which has a lexer mode of its own.
-IN: 'IN' -> popMode, pushMode(NOTICE_TYPE_LIST);
+IN: 'IN' -> popMode, pushMode(NOTICE_SUBTYPE_LIST);
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
@@ -354,18 +354,18 @@ For: 'for';
 FOR: 'FOR';
 Return: 'return';
 Distinct: 'distinct';
-As: 'AS';
-Any: 'ANY';
-Always: 'ALWAYS';
-Never: 'NEVER';
-True: 'TRUE';
-False: 'FALSE';
-Error: 'ERROR';
-Warning: 'WARNING';
-Info: 'INFO';
-Scope: 'SCOPE';
-Pre: '@PRE';
-Post: '@POST';
+AS: 'AS';
+ANY: 'ANY';
+ALWAYS: 'ALWAYS';
+NEVER: 'NEVER';
+TRUE: 'TRUE';
+FALSE: 'FALSE';
+ERROR: 'ERROR';
+WARNING: 'WARNING';
+INFO: 'INFO';
+SCOPE: 'SCOPE';
+PRE: '@PRE';
+POST: '@POST';
 Codelist: 'codelist';
 Code: 'code';
 Text: 'text';
@@ -375,12 +375,10 @@ Dynamic: 'dynamic';
 Date: 'date';
 Time: 'time';
 Duration: 'duration';
-Index: INDEX;
-By: BY;
-Assert: ASSERT;
-Report: REPORT;
-Compute: COMPUTE;
-Select: SELECT;
+INDEX: INDEX_KEYWORD;
+BY: BY_KEYWORD;
+COMPUTE: COMPUTE_KEYWORD;
+SELECT: SELECT_KEYWORD;
 
 // The keywords of behaviours, which are written after ASSERT in the place of an expression.
 // They are in upper case only, as the other statement keywords.
@@ -400,16 +398,10 @@ BETWEEN: 'BETWEEN';
 AND: 'AND';
 LIKE: 'LIKE';
 
-// Data types ------------------------------------------------------------------------------------------------
+// Data types: indicator, number, text, code, date, time and duration are the keywords above; context
+// is a type for variables only.
 
-BooleanType: Indicator -> type(Indicator);
-NumericType: Number -> type(Number);
-TextType: Text -> type(Text);
-CodeType: Code -> type(Code);
-DateType: Date -> type(Date);
-TimeType: Time -> type(Time);
-DurationType: Duration -> type(Duration);
-ContextType: 'context';
+Context: 'context';
 
 
 
@@ -420,8 +412,7 @@ CountFunction: 'count';
 SubstringFunction: 'substring';
 SubstringBeforeFunction: 'substring-before';
 SubstringAfterFunction: 'substring-after';
-StringFunction: 'string' -> type(Text);
-NumberFunction: Number -> type(Number);
+StringAsText: 'string' -> type(Text);
 ContainsFunction: 'contains';
 StartsWithFunction: 'starts-with';
 EndsWithFunction: 'ends-with';
@@ -464,8 +455,6 @@ UrlEncodeFunction: 'url-encode';
 CapitalizeFirstFunction: 'capitalize-first';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
-DateFunction: Date -> type(Date);
-TimeFunction: Time -> type(Time);
 CurrentDateFunction: 'current-date';
 CurrentTimeFunction: 'current-time';
 DayTimeDurationFunction: 'day-time-duration';
@@ -503,14 +492,14 @@ PreferredLanguage: 'preferredLanguage';
 PreferredLanguageText: 'preferredLanguageText';
 
 // API call keywords
-EndpointExpression: ENDPOINT -> type(Endpoint);
-Call: 'CALL';
-Api: 'API';
+EndpointInExpression: ENDPOINT_KEYWORD -> type(ENDPOINT);
+CALL: 'CALL';
+API: 'API';
 At: 'at';
 AT: 'AT';
-On: 'ON';
-Warn: 'WARN';
-Reject: 'REJECT';
+ON: 'ON';
+WARN: 'WARN';
+REJECT: 'REJECT';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
@@ -519,8 +508,8 @@ DayTimeDurationLiteral: '-'? 'P' IntegerLiteral ('W' | 'D');
 YearMonthDurationLiteral: '-'? 'P' IntegerLiteral ('Y' | 'M');
 
 
-FieldId: FieldIdentifier;
-NodeId: NodeIdentifier;
+FieldId: FIELD_IDENTIFIER;
+NodeId: NODE_IDENTIFIER;
 
 VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
 AtPrefix: AT_SIGN -> pushMode(IDENTIFIER);
@@ -528,8 +517,8 @@ HashPrefix: SHARP -> pushMode(IDENTIFIER);
 FunctionPrefix: '?' -> pushMode(IDENTIFIER);
 
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
-FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
-NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
+fragment FIELD_IDENTIFIER: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
+fragment NODE_IDENTIFIER: 'ND' '-' [a-zA-Z0-9]+;
 RuleIdentifier: 'R' '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9] '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9];
 
 
@@ -558,14 +547,14 @@ Ellipsis: '...' -> pushMode(IDENTIFIER);
 Colon: ':';
 
 // Comments in EXPRESSION mode
-ExpressionComment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
+Comment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
 
 // Whitespace, although not significant, is not skipped. It goes to a separate channel so that it can
 // be ignored by the parser without disappearing (from syntax error messages for example).
-WS: [ \t\r\n]+ -> channel(HIDDEN);
+WhitespaceInExpression: [ \t\r\n]+ -> channel(HIDDEN), type(Whitespace);
 
 /*
- * NOTICE_TYPE_LIST mode
+ * NOTICE_SUBTYPE_LIST mode
  * ------------------------------------------------------------------------------------------------
  * The list of notice subtypes after IN in a rule: IN *, IN ANY, or notice subtypes and ranges, as in
  * IN 1-6, E1-E6, CEI. Each notice subtype is one token, so a dash always separates the two ends of a
@@ -576,20 +565,20 @@ WS: [ \t\r\n]+ -> channel(HIDDEN);
  * The rules use fragments rather than literals, so that the tokens they give keep their literal
  * names ('*', ',', '-', 'ANY').
  */
-mode NOTICE_TYPE_LIST;
+mode NOTICE_SUBTYPE_LIST;
 
-NoticeTypeListEnd: ';' -> popMode, type(Semicolon);
-NoticeTypeListCodelist: LBRACKET -> popMode, pushMode(EXPRESSION), type(OpenBracket);
-NoticeTypeListScope: 'SCOPE' -> popMode, pushMode(EXPRESSION), type(Scope);
-NoticeTypeListAny: ANY_KEYWORD -> type(Any);
-NoticeTypeListStar: STAR -> type(Star);
-NoticeTypeListComma: COMMA -> type(Comma);
-NoticeTypeListDash: DASH -> type(Minus);
-NoticeType: [a-zA-Z0-9]+;
+SemicolonInNoticeSubtypeList: ';' -> popMode, type(Semicolon);
+OpenBracketInNoticeSubtypeList: LBRACKET -> popMode, pushMode(EXPRESSION), type(OpenBracket);
+ScopeInNoticeSubtypeList: 'SCOPE' -> popMode, pushMode(EXPRESSION), type(SCOPE);
+AnyInNoticeSubtypeList: ANY_KEYWORD -> type(ANY);
+StarInNoticeSubtypeList: STAR -> type(Star);
+CommaInNoticeSubtypeList: COMMA -> type(Comma);
+MinusInNoticeSubtypeList: DASH -> type(Minus);
+NoticeSubtype: [a-zA-Z0-9]+;
 // Blanks and comments are separate tokens, as in EXPRESSION mode. As there, a comment may end with a
 // form feed.
-NoticeTypeListWhitespace: [ \t\r\n]+ -> channel(HIDDEN), type(WS);
-NoticeTypeListComment: COMMENT EOL* -> channel(HIDDEN), type(ExpressionComment);
+WhitespaceInNoticeSubtypeList: [ \t\r\n]+ -> channel(HIDDEN), type(Whitespace);
+CommentInNoticeSubtypeList: COMMENT EOL* -> channel(HIDDEN), type(Comment);
 
 /*
  * IDENTIFIER
@@ -601,24 +590,24 @@ NoticeTypeListComment: COMMENT EOL* -> channel(HIDDEN), type(ExpressionComment);
  */
 
 mode IDENTIFIER;
-UnquotedIdentifier: LETTER ('-'? (LETTER | DIGIT)+)* -> popMode, type(Identifier);
+IdentifierAfterPrefix: LETTER ('-'? (LETTER | DIGIT)+)* -> popMode, type(Identifier);
 
 // Fragments
 fragment EOL: ('\r'? '\n' | '\r' | '\f');
-fragment LET: 'LET';
-fragment WITH: 'WITH';
-fragment INVOKE: 'INVOKE';
-fragment DISPLAY: 'DISPLAY';
-fragment WHEN: 'WHEN';
-fragment OTHERWISE: 'OTHERWISE';
-fragment ASSERT: 'ASSERT';
-fragment REPORT: 'REPORT';
-fragment COMPUTE: 'COMPUTE';
-fragment SELECT: 'SELECT';
+fragment LET_KEYWORD: 'LET';
+fragment WITH_KEYWORD: 'WITH';
+fragment INVOKE_KEYWORD: 'INVOKE';
+fragment DISPLAY_KEYWORD: 'DISPLAY';
+fragment WHEN_KEYWORD: 'WHEN';
+fragment OTHERWISE_KEYWORD: 'OTHERWISE';
+fragment ASSERT_KEYWORD: 'ASSERT';
+fragment REPORT_KEYWORD: 'REPORT';
+fragment COMPUTE_KEYWORD: 'COMPUTE';
+fragment SELECT_KEYWORD: 'SELECT';
 fragment STAGE: 'STAGE';
-fragment ENDPOINT: 'ENDPOINT';
-fragment INDEX: 'INDEX';
-fragment BY: 'BY';
+fragment ENDPOINT_KEYWORD: 'ENDPOINT';
+fragment INDEX_KEYWORD: 'INDEX';
+fragment BY_KEYWORD: 'BY';
 fragment COMMENT: '//' ~[\r\n\f]*;
 
 fragment TAB: [\t];
