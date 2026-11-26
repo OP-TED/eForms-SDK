@@ -536,7 +536,8 @@ RuleIdentifier: 'R' '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9] '-' [a-zA-Z0-9][a-zA-Z
 Identifier: LETTER ('-'? (LETTER | DIGIT)+)*;
 
 IntegerLiteral: DIGIT+;
-DecimalLiteral: DIGIT? '.' DIGIT+;
+// The digits before the decimal point are optional: 12.5, 0.25 and .5 are all decimal numbers.
+DecimalLiteral: DIGIT* '.' DIGIT+;
 StringLiteral: ('"' DQUOTE_CHAR_SEQ? '"') | ('\'' SQUOTE_CHAR_SEQ? '\'');
 UuidV4Literal: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
 DateLiteral: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
