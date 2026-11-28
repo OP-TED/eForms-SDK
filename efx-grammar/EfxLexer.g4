@@ -166,13 +166,15 @@ CharacterReference: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
 SemicolonInTemplate: (TAB | SPACE)* ';' (TAB | SPACE)* COMMENT? -> popMode, type(Semicolon);
 
+// A colon is never part of a word. The whitespace around it belongs to it, as with the semicolon.
+ColonInTemplate: (TAB | SPACE)* ':' (TAB | SPACE)* -> type(Colon);
+
 // A template line ends with a semicolon. A newline before it ends the TEMPLATE mode, so that the
 // missing semicolon is reported on that line.
 EndOfLine: EOL+ -> popMode;
 
 ShorthandFieldValueReferenceFromContextField: DOLLAR Value;
 ShorthandIndirectLabelReferenceFromContextField: SHARP Value;
-Value: 'value';
 
 LabelTypeInTemplate: SHARP LabelType -> type(LabelType);
 
@@ -186,7 +188,11 @@ CommentInTemplate: (TAB | SPACE)* COMMENT -> channel(HIDDEN), type(Comment);
 // Whitespace is significant in TEMPLATE mode.
 Whitespace: (TAB | SPACE)+;
 
-FreeText: ~[\r\n\f\t #$@&;\\]+;
+// A word cannot contain a colon, except an escaped one, as in 10\:30.
+FreeText: (~[\r\n\f\t #$@&;\\:] | '\\:')+;
+
+// FreeText is listed before Value, so that the word 'value' alone is text.
+Value: 'value';
 
 OtherEscapeSequence: OTHER_ESC_SEQ;
 
