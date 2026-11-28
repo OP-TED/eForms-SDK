@@ -767,9 +767,13 @@ dictionaryKeyClause: BY expression;
  * A template line either displays a template in each of its alternatives, or invokes a template
  * in each of them. The template that a line invokes is displayed in the place of that line, so the
  * line has no outline-number or tag.
+ *
+ * A template line that has an outline-number or tag is a heading and displays a heading template.
+ * Any other template line that displays a template displays a normal template.
  */
 templateLine
-    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber | OutlineTag)? (WITH contextDeclarationBlock)? (chooseDisplayTemplate | displayTemplate) Semicolon
+    : indentation? (OutlineNumber | AutoOutlineNumber | NoOutlineNumber | OutlineTag) (WITH contextDeclarationBlock)? (chooseHeadingTemplate | displayHeadingTemplate) Semicolon
+    | indentation? (WITH contextDeclarationBlock)? (chooseNormalTemplate | displayNormalTemplate) Semicolon
     | indentation? (WITH contextDeclarationBlock)? (chooseInvokeTemplate | invokeTemplate) Semicolon
     ;
 
@@ -779,8 +783,18 @@ indentation: Tabs | Spaces | MixedIndent;
  * A template is a recursive combination of free-text, labels, expressions, links and line breaks.
  * Whitespace is significant within the template, but is ignored when present at its beginning or end.
  * Templates are matched when the lexical analyser is in TEMPLATE mode.
+ *
+ * In a normal template, a colon that is followed by a template fragment separates a caption from
+ * it: in `Name: ${BT-00-Text}`, `Name` is the caption. That colon and the whitespace around it are
+ * not displayed. A colon at the end of a normal template is displayed. A normal template has at
+ * most one colon. A colon that is text is written `\:`.
  */
-template: templateFragment;
+normalTemplate: caption=templateFragment (Colon content=templateFragment?)?;
+
+/**
+ * A heading template has no caption. Every colon in it is displayed as it is written.
+ */
+headingTemplate: templateFragment (Colon templateFragment?)*;
 
 
 /*
@@ -884,15 +898,19 @@ otherAssetId: OtherAssetId | AssetType | LabelType;
 
 pluraliser: expressionBlock;
 
-chooseDisplayTemplate: whenDisplayTemplate+ otherwiseDisplayTemplate?;
+chooseNormalTemplate: whenNormalTemplate+ otherwiseNormalTemplate?;
+chooseHeadingTemplate: whenHeadingTemplate+ otherwiseHeadingTemplate?;
 chooseInvokeTemplate: whenInvokeTemplate+ otherwiseInvokeTemplate?;
-displayTemplate: DISPLAY template;
+displayNormalTemplate: DISPLAY normalTemplate;
+displayHeadingTemplate: DISPLAY headingTemplate;
 invokeTemplate: INVOKE templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
-whenDisplayTemplate: WHEN expression displayTemplate;
+whenNormalTemplate: WHEN expression displayNormalTemplate;
+whenHeadingTemplate: WHEN expression displayHeadingTemplate;
 whenInvokeTemplate: WHEN expression invokeTemplate;
 
-otherwiseDisplayTemplate: OTHERWISE DISPLAY? template;
+otherwiseNormalTemplate: OTHERWISE DISPLAY? normalTemplate;
+otherwiseHeadingTemplate: OTHERWISE DISPLAY? headingTemplate;
 otherwiseInvokeTemplate: OTHERWISE invokeTemplate;
 
 functionDeclaration
